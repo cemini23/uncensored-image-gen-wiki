@@ -6,6 +6,7 @@ keywords: [hunyuanvideo, hunyuan-1-5, tencent, ssta, selective-sliding-tile-atte
 related:
   - sources/video-generation-survey-2026.md
   - entities/models/wan-2-2.md
+  - entities/models/ltx-2.md
   - entities/training-tools/musubi-tuner.md
   - concepts/seam-stitching-strategies.md
   - concepts/video-identity-inheritance.md
@@ -18,7 +19,7 @@ updated: 2026-05-07
 
 ## Relations
 
-@sources/video-generation-survey-2026.md @entities/models/wan-2-2.md @entities/training-tools/musubi-tuner.md @concepts/seam-stitching-strategies.md @concepts/video-identity-inheritance.md @concepts/de-censoring-techniques.md @concepts/censorship-tier-taxonomy.md
+@sources/video-generation-survey-2026.md @entities/models/wan-2-2.md @entities/models/ltx-2.md @entities/training-tools/musubi-tuner.md @concepts/seam-stitching-strategies.md @concepts/video-identity-inheritance.md @concepts/de-censoring-techniques.md @concepts/censorship-tier-taxonomy.md
 
 ## Raw Concept
 

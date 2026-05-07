@@ -522,3 +522,61 @@ Third batched verification sweep against the cumulative ~24 remaining `[NEEDS VE
 - **Stub for ASemConsist concept page** — when next character-consistency ingest happens, ASemConsist (arxiv 2512.23245, Dec 2025) is the broader-DiT successor to CharaConsist and warrants its own entity page.
 - **Stub for BFS LoRA entity page** — Alissonerdx/BFS-Best-Face-Swap is the canonical single-stage Klein 9B face-swap path; warrants a thin entity page when next adapter ingest happens.
 - Path A continues with **step 3 (Video Generation Models Survey)** as the next major ingest. Source: `research to be indexed/processed/Video Generation Models Survey 2026.docx` (3 MB). Run preingest_check first.
+
+---
+
+## [2026-05-07] ingest | Video Generation Models Survey 2026 (Path A step 3)
+
+Path A step 3 — back-fill of the May 2026 video-generation deep-research docx (`research to be indexed/processed/Video Generation Models Survey 2026.docx`, 3 MB) into structured wiki pages. First video-domain ingest in HEAVY mode. Companion to the existing pre-HEAVY brief `briefs/video-gen-models.md` (208 lines) which covered the same landscape from a more decision-oriented angle.
+
+Preingest check: `Video Generation Models Survey 2026.docx` confirmed NEW (no prior video-domain source page in wiki/sources/). Other 4 docx in processed/ already ingested or pending step 4/6.
+
+### Created
+
+- `wiki/sources/video-generation-survey-2026.md` — full source page; deep-read; maturity: validated; six-section synthesis (open-weight catalog / closed-API / uncensored fine-tunes / hardware reality / T2V vs I2V workflows / length-quality-consistency reality)
+- `wiki/entities/models/wan-2-2.md` — Alibaba MoE 27B/14B-active dual-expert SNR-routed video DiT; 480p/720p @ 24fps; Apache 2.0; foundational pillar of local NSFW video persona work after community LoRA injection (mq-lab / blink / TheYuriLover); 5B TI2V dense bridge for consumer GPUs; maturity: draft
+- `wiki/entities/models/hunyuanvideo-1-5.md` — Tencent 8.3B DiT + 3D causal VAE; SSTA (Selective + Sliding Tile Attention) ~2× over FlashAttention-3 for 10s 720p; native 1080p; FP8 GEMM; step-distilled 480p in 8-12 steps; Tencent-shipped LoRA tuning + community NSFW LoRAs (`nsfwsks` trigger); maturity: draft
+- `wiki/entities/models/ltx-2.md` — Lightricks 19B asymmetric joint A/V foundation (14B visual + 5B audio with bidirectional cross-attention); native 4K @ 50fps with synchronized lipsync + foley single-pass; modality-specific VAEs at 1:192; LTX-2 Community License (free commercial under $10M revenue); maturity: draft
+- `wiki/entities/models/mochi-1.md` — Genmo 10B AsymmDiT (75% visual / 25% text resource allocation, single T5-XXL encoder); 30fps fluid motion; Apache 2.0; aggressive automatic NSFW filter (community bypasses by stripping the safety classifier); 4×80GB native → 24GB FP8 ComfyUI wrappers; maturity: draft
+- `wiki/entities/models/cogvideox-1-5.md` — THUDM/Zhipu 5B DiT + 3D VAE integrating text/time/space (no traditional cross-attention); 768p / 10s outputs; torchao INT8 compresses 24GB→7GB (cheapest local entry); Apache 2.0; CogVideoX 2.0 adds native 1080p + CogSound; maturity: draft
+- `wiki/entities/models/seedance-2.md` — ByteDance closed-API native A/V model; competes with Veo 3.1 / LTX-2 in joint-foundation class; cloud-only access; included in survey for landscape completeness; maturity: draft
+- `wiki/concepts/multi-angle-dataset-prep.md` — 30-50 image identity LoRA dataset construction for video carry; angle/expression/lighting matrix; turnaround-sheet tooling (FLUX.1 Kontext + Character Turnaround LoRA); per-base captioning conventions; counts and over/under-fitting risks; maturity: draft (carried over from Path A step 4 deferral)
+- `wiki/concepts/video-identity-inheritance.md` — image-trained character LoRA transfer onto Wan 2.2 / HunyuanVideo 1.5 / CogVideoX; per-base compatibility matrix; first-frame I2V conditioning + video-LoRA fine-tune as the canonical path; failure modes (latent-space mismatch, motion drift, identity wobble); maturity: draft (carried over from Path A step 4 deferral)
+- `wiki/concepts/seam-stitching-strategies.md` — overcoming per-call clip length cap (5-10s); GVS / latent-chaining / FramePack / sliding-window; Wan I2V chained-clip workflow; identity drift and motion-vector continuity; modal 2026 production pattern for 30-60s persona clips; maturity: draft
+
+### Updated
+
+- `wiki/sources/synthetic-character-consistency-survey.md` — +video-generation-survey-2026, +multi-angle-dataset-prep, +video-identity-inheritance backlinks; updated: 2026-05-07
+- `wiki/entities/models/qwen-image-2512.md` — +video-generation-survey-2026, +video-identity-inheritance, +multi-angle-dataset-prep backlinks
+- `wiki/entities/models/flux-2-klein.md` — +video-generation-survey-2026, +video-identity-inheritance, +multi-angle-dataset-prep backlinks
+- `wiki/entities/models/z-image-turbo.md` — +video-generation-survey-2026, +video-identity-inheritance backlinks
+- `wiki/concepts/de-censoring-techniques.md` — +video-generation-survey-2026, +wan-2-2, +hunyuanvideo-1-5, +mochi-1, +cogvideox-1-5 backlinks
+- `wiki/concepts/censorship-tier-taxonomy.md` — +video-generation-survey-2026, +wan-2-2, +hunyuanvideo-1-5, +ltx-2, +mochi-1, +cogvideox-1-5 backlinks
+- `wiki/entities/adapters/pulid.md` — +video-generation-survey-2026, +video-identity-inheritance backlinks
+- `wiki/index.md` — added 1 source row, 6 video model rows, 3 concept rows. Removed Video Generation Models Survey from "not yet back-filled" sources list. Removed "(other expected models: HunyuanVideo + remaining video models → Path A step 3 video survey)" follow-up from Models section.
+- `wiki/log.md` — this entry.
+
+### Archived
+
+- `research to be indexed/processed/Video Generation Models Survey 2026.docx` → `raw-sources/Video Generation Models Survey 2026.docx`
+
+### Pages touched
+
+10 new + 7 updated + 2 meta = **19 pages**. Wiki now 59 indexed pages; cumulative edges to be reported by lint.
+
+### Cross-cutting findings
+
+- **Per-model uncensorability tier varies sharply**: Wan 2.2 = scrubbed-but-recoverable (LoRA injection viable); HunyuanVideo 1.5 = Tencent-shipped LoRA infrastructure + community NSFW LoRAs; Mochi 1 = Apache 2.0 with bypassable inference-time safety classifier; CogVideoX = lowest-friction Apache 2.0 base for community uncensored fine-tuning. LTX-2 + Seedance 2.0 are joint A/V class with weaker community LoRA ecosystems as of May 2026.
+- **Video-domain de-censoring inherits the image-domain 5-tier taxonomy** but with one new pattern: **abliterated text-encoder swap** (replace the safety-aligned text encoder with a permissive one) is more practical for video models because the encoder is often a separately-loaded module in ComfyUI workflows.
+- **Length-quality-consistency reality check**: 5-10s native clip length is a *hard* per-call cap for current open-weight video models; the 2026 production pattern for 30-60s persona clips is **GVS / latent-chaining / FramePack** seam-stitching with first-frame I2V conditioning carry. Identity drift across seam boundaries is the dominant failure mode.
+- **Hardware reality**: 24 GB VRAM is the practical floor for production video work in 2026 (HunyuanVideo 1.5 FP8 / Wan 2.2 FP8 / Mochi 1 FP8). CogVideoX 1.5 + INT8 (torchao) is the cheapest local entry at ~7 GB. Native 80 GB+ requirements are masked by FP8 / INT8 / GGUF community wrappers.
+- **Multi-angle dataset prep + video identity inheritance** form the canonical bridge from image-domain persona work into video-domain carry. The image-trained character LoRA does not transfer cleanly across base architectures; the production-ready path is image LoRA → first-frame I2V conditioning + video-LoRA fine-tune on the target video base.
+
+### Follow-ups opened
+
+- **Path A step 3 complete**. Path A back-fill is now end-to-end complete on docx sources through steps 1 + 2 + 3 + 4 + verification A-E. Remaining Path A items: step 5 (notes/frameworks-tools + hardware migration) and step 6 (AI Persona Operations + Monetization docx → persona-ops + monetization concept + entity pages).
+- **Stub for ASemConsist concept page** carried from verification sub-sweep D (Dec 2025 paper, broader-DiT successor to CharaConsist). Defer until next character-consistency ingest.
+- **Stub for BFS LoRA entity page** carried from verification sub-sweep D (Alissonerdx/BFS-Best-Face-Swap; canonical single-stage Klein 9B face-swap). Defer until next adapter ingest.
+- **Wan 2.7 R2V** (reference-to-video) and **LTX-2 / 2.3** trainer paths beyond Musubi Tuner — track when video-LoRA training tooling lands those bases.
+- **CogVideoX 2.0 + CogSound** native-audio capability — separate page when CogSound integration matures beyond research preview.
+- Several entity stubs carry `[NEEDS VERIFICATION 2026-05-07]` flags (Wan 2.2 community LoRA author lineage; HunyuanVideo 1.5 step-distill GitHub source; Mochi 1 safety-classifier strip mechanics; LTX-2 audio drift on >10s dialogue; CogVideoX 2.0 release status; Seedance 2.0 API pricing). Resolve in a future verification sub-sweep.

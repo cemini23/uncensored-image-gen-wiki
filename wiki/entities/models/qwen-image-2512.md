@@ -14,9 +14,12 @@ related:
   - entities/training-tools/musubi-tuner.md
   - entities/models/ernie-image.md
   - entities/models/kwai-kolors.md
+  - sources/video-generation-survey-2026.md
+  - concepts/video-identity-inheritance.md
+  - concepts/multi-angle-dataset-prep.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-07
 ---
 
 ## Relations
@@ -31,6 +34,9 @@ updated: 2026-05-06
 @entities/training-tools/musubi-tuner.md
 @entities/models/ernie-image.md
 @entities/models/kwai-kolors.md
+@sources/video-generation-survey-2026.md
+@concepts/video-identity-inheritance.md
+@concepts/multi-angle-dataset-prep.md
 
 ## Raw Concept
 

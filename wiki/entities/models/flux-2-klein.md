@@ -19,9 +19,12 @@ related:
   - entities/training-tools/ai-toolkit.md
   - concepts/de-censoring-techniques.md
   - entities/models/z-image-turbo.md
+  - sources/video-generation-survey-2026.md
+  - concepts/video-identity-inheritance.md
+  - concepts/multi-angle-dataset-prep.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-07
 ---
 
 ## Relations
@@ -41,6 +44,9 @@ updated: 2026-05-06
 @entities/training-tools/ai-toolkit.md
 @concepts/de-censoring-techniques.md
 @entities/models/z-image-turbo.md
+@sources/video-generation-survey-2026.md
+@concepts/video-identity-inheritance.md
+@concepts/multi-angle-dataset-prep.md
 
 ## Raw Concept
 

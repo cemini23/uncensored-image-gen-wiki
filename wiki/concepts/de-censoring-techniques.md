@@ -24,9 +24,14 @@ related:
   - entities/models/pixart-sigma.md
   - entities/models/sdxl-fine-tunes.md
   - entities/models/sd3-deprecated.md
+  - sources/video-generation-survey-2026.md
+  - entities/models/wan-2-2.md
+  - entities/models/hunyuanvideo-1-5.md
+  - entities/models/mochi-1.md
+  - entities/models/cogvideox-1-5.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-07
 ---
 
 ## Relations
@@ -51,6 +56,11 @@ updated: 2026-05-06
 @entities/models/pixart-sigma.md
 @entities/models/sdxl-fine-tunes.md
 @entities/models/sd3-deprecated.md
+@sources/video-generation-survey-2026.md
+@entities/models/wan-2-2.md
+@entities/models/hunyuanvideo-1-5.md
+@entities/models/mochi-1.md
+@entities/models/cogvideox-1-5.md
 
 ## Raw Concept
 
