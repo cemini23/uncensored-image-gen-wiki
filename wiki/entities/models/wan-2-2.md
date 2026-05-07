@@ -1,0 +1,96 @@
+---
+title: Wan 2.2 (Alibaba)
+type: entity
+tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]
+keywords: [wan2.2, wan-2-2, alibaba, mixture-of-experts, dual-expert, snr-routing, 27b, 14b, 5b, ti2v, apache-2.0, abliterated-text-encoder, mq-lab, blink, theyurilover]
+related:
+  - sources/video-generation-survey-2026.md
+  - entities/models/hunyuanvideo-1-5.md
+  - entities/training-tools/musubi-tuner.md
+  - entities/training-tools/ai-toolkit.md
+  - concepts/seam-stitching-strategies.md
+  - concepts/video-identity-inheritance.md
+  - concepts/multi-angle-dataset-prep.md
+  - concepts/de-censoring-techniques.md
+  - concepts/censorship-tier-taxonomy.md
+maturity: draft
+created: 2026-05-07
+updated: 2026-05-07
+---
+
+## Relations
+
+@sources/video-generation-survey-2026.md @entities/models/hunyuanvideo-1-5.md @entities/training-tools/musubi-tuner.md @entities/training-tools/ai-toolkit.md @concepts/seam-stitching-strategies.md @concepts/video-identity-inheritance.md @concepts/multi-angle-dataset-prep.md @concepts/de-censoring-techniques.md @concepts/censorship-tier-taxonomy.md
+
+## Raw Concept
+
+Page prompted by the May 2026 video survey ingest. Wan 2.2 is the foundational pillar for local NSFW video persona work — Apache 2.0, MoE-architected, scrubbed-but-LoRA-recoverable — and the backbone of the modal 2026 ComfyUI / Forge video workflow stack.
+
+Synthesized from @sources/video-generation-survey-2026.md.
+
+## Narrative
+
+### Architecture
+
+- **Mixture-of-Experts (MoE) DiT**: 27B total parameters / 14B active per inference step [CONFIRMED]
+- **Dual-expert SNR routing**: high-noise expert for early-stage gross structural layout; low-noise expert for late-stage localized pixel detail refinement [CONFIRMED]
+- **3D VAE**: high spatial-temporal compression ratio
+- **Native resolution**: 480p / 720p @ 24 fps
+- **Consumer variant**: TI2V-5B dense model bridges high-end workstations and enthusiast GPUs [CONFIRMED]
+
+[Source: Video Generation Models Survey 2026.docx p.1, citing github.com/Wan-Video/Wan2.2 (retrieved 2026-05-06)]
+
+### Licensing and commercial posture
+
+- **Apache 2.0** — fully permissive for commercial deployment [CONFIRMED]
+- Released late July 2025 by Alibaba
+
+### Censorship tier — Strict at base → Completely Uncensored after LoRA
+
+Native attempts at human anatomy generation produce severe artifacting / blank pixel clusters (mathematical representations scrubbed during pre-training). [CONFIRMED]
+
+Community recovery path: **abliterated text encoder + high-strength NSFW LoRA stack**. Notable LoRA producers: **mq-lab** (e.g. `wan-22-doggy-by-mq-lab`), **blink**, **TheYuriLover**. The abliterated text encoder bypasses Wan's sanitized text comprehension layer entirely, passing raw semantic intent into the LoRA-modified latent path. [CONFIRMED] → @concepts/de-censoring-techniques.md
+
+Per the censorship-tier framework: Wan 2.2 base = **Strict** (architectural scrub); Wan 2.2 + abliterated TE + NSFW LoRA stack = **Completely Uncensored** (functionally). → @concepts/censorship-tier-taxonomy.md
+
+### Hardware viability
+
+| Tier | Variant | Notes |
+|------|---------|-------|
+| 8 GB | (not viable) | base 5B FP8 still triggers OOM at 8 GB — Wan 2.2 is 16 GB minimum tier |
+| 12-16 GB | Wan 2.2 5B FP8 (TI2V) | 5-8s @ 720p with FP8 quantization; minimum viable threshold for iteration |
+| 24 GB+ | Wan 2.2 5B BF16 / 14B FP8 partial | 14B native still requires multi-GPU |
+| Multi-GPU | Wan 2.2 14B FSDP / DeepSpeed Ulysses | 1080p uncompressed requires this tier |
+| H100 80GB cloud | Wan 2.2 14B 720p native | ~$2.50/hr; 65-80 GB VRAM consumed |
+
+[Source: Video Generation Models Survey 2026.docx p.4-5]
+
+### Wan 2.5 / 2.6 status
+
+Alibaba teased Wan 2.5 (native audio) and Wan 3.0 across late-2025 / early-2026 but pivoted to enterprise cloud dominance. **Wan 2.5 / 2.6 are not open-source as of May 2026** — accessed only via Alibaba cloud APIs at $0.07/sec. Local-deployment community awaiting weights drop. [CONFIRMED] [Source: Video Generation Models Survey 2026.docx p.1]
+
+### Training and fine-tuning
+
+- **Musubi Tuner** (kohya-ss video sibling) supports Wan 2.1 / 2.2 dual-expert LoRA training; uv packaging, RAM-offload knobs. → @entities/training-tools/musubi-tuner.md [CONFIRMED]
+- **ai-toolkit (Ostris)** — canonical FLUX-first trainer with Wan 2.2 LoRA path, YAML config, Modal/Replicate hosted-trainer bridge. → @entities/training-tools/ai-toolkit.md [CONFIRMED]
+- Wan 2.7 R2V is **not** in Musubi Tuner's coverage list (per training-tool sub-sweep E, 2026-05-07).
+
+### I2V workflow integration
+
+- **Mickmumpitz 96-angle Wan I2V** persona-consistency pipeline: production-grade multi-angle character dataset generation via Wan I2V from a single PuLID-anchored static master image. → @concepts/multi-angle-dataset-prep.md → @concepts/video-identity-inheritance.md [TENTATIVE]
+- **AIrt MAchIne** ComfyUI template uses an integrated LLM to translate the static master into a Wan-driven motion-prompt sequence.
+
+## Snippets
+
+> "Released in late July 2025, Wan 2.2 introduced a groundbreaking Mixture-of-Experts (MoE) architecture specifically tailored for video diffusion. While the model boasts a massive total capacity of 27 billion parameters, its inference engine only activates 14 billion parameters per processing step."
+[Source: Video Generation Models Survey 2026.docx p.1]
+
+> "Wan 2.2 is aggressively scrubbed of adult content; native attempts to generate human anatomy result in severe artifacting or blank pixel clusters, necessitating extensive community fine-tuning."
+[Source: Video Generation Models Survey 2026.docx p.1, citing reddit.com/r/comfyui/comments/1ow2ghw (retrieved 2026-05-06)]
+
+> "advanced workflows bypass the model's sanitized text comprehension by utilizing an 'abliterated' text encoder, passing the raw semantic intent directly to a stack of high-strength LoRAs (e.g., wan-22-doggy-by-mq-lab)"
+[Source: Video Generation Models Survey 2026.docx p.4]
+
+## Dead Ends
+
+- **Wan 2.5 / 2.6 local deployment**: Alibaba's strategic shift to enterprise cloud means open-weights are paused. Don't plan workflows around 2.5/2.6 weights — assume Wan 2.2 remains the local-deployment ceiling for the Wan family through at least mid-2026.

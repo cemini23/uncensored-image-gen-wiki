@@ -1,0 +1,62 @@
+# =============================================================================
+# Image Generation Research Workspace — .gitignore
+# =============================================================================
+# Tracked: CLAUDE.md, LESSONS.md, ROADMAP.md, wiki/, scripts/, prompts/, notes/,
+#          docs/, .gitignore, .env.example
+# Untracked: raw sources, briefs, outputs, .env, .claude/, .playwright-mcp/, OS cruft
+# =============================================================================
+
+# --- Raw sources (large, copyrighted, immutable; live local only) ------------
+research to be indexed/
+raw-sources/
+
+# --- Outputs staged for distribution -----------------------------------------
+briefs/
+
+# --- Generated image outputs (local only; not curated knowledge) -------------
+outputs/
+
+# --- Claude Code per-project state -------------------------------------------
+.claude/
+
+# --- Playwright MCP session storage ------------------------------------------
+.playwright-mcp/
+
+# --- Reference screenshots (large; not part of curated wiki) -----------------
+*.png
+*.jpg
+*.jpeg
+!wiki/**/*.png
+!wiki/**/*.jpg
+
+# --- Third-party reference docs (e.g. installed agent skills + personal plans)
+docs/
+
+# --- Session-state cache (changes every session; ephemeral) ------------------
+hot.md
+
+# --- Environment variables (secrets; .env.example is the committed template) -
+.env
+
+# --- macOS / editor cruft ----------------------------------------------------
+.DS_Store
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+.obsidian/
+
+# --- Python ------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+
+# --- Temp scratch ------------------------------------------------------------
+/tmp_*.txt
+/tmp_*.md
+*.tmp

@@ -1,0 +1,109 @@
+# Wiki Index
+
+Content-oriented catalog of every page in the wiki. Updated on every ingest. Read this first when answering a query — drill into pages only after scanning here.
+
+Format: each row is `[title](path) — one-line summary — tags`. A ⚠ marker means the stub has quality flags (see the stub's frontmatter).
+
+---
+
+## Sources
+
+Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards, deep-research outputs). One page per canonical source.
+
+- [UniReasoner: LLMs are Universal Reasoners for Visual Generation](sources/unireasoner.md) — Apple+JHU paper formalizing the understanding-generation gap and proposing Draft-Evaluate-Diffuse; 0.79→0.88 GenEval on identical SANA backbone — `paper, llm, diffusion, t2i, compositional-alignment`
+- [Synthetic Character Consistency Survey (May 2026)](sources/synthetic-character-consistency-survey.md) — deep-research synthesis of the 2026 persona-consistency pipeline (synthesis → LoRA training → identity adapters → multi-angle datasets → video carry → failure modes); companion to [briefs/persona-consistency.md](../briefs/persona-consistency.md) — `survey, persona-consistency, lora-training, identity-adapters, video-consistency, deep-research`
+- [Uncensored AI Image Generation Survey (May 2026)](sources/uncensored-image-generation-survey.md) — deep-research synthesis of the 2026 uncensored T2I landscape: 5-tier censorship framework, DiT pivot, Eastern Vanguard vs Western alignment dichotomy, model catalog (Pony / Illustrious / NoobAI / FLUX / Z-Image / Qwen / SDXL fine-tunes), de-censoring techniques, hardware/quantization tiers — `survey, uncensored, t2i, censorship-taxonomy, de-censoring, hardware, deep-research`
+
+(other docx originals in `research to be indexed/processed/` not yet back-filled: AI Persona Operations Software Stack, AI Personas: Monetization/Ethics/Law, Video Generation Models Survey 2026)
+
+---
+
+## Entities
+
+### Models
+
+- [SANA](entities/models/sana.md) — efficient linear-DiT diffusion backbone (NVIDIA+MIT, ICLR 2025); UniReasoner's primary backbone — `model, diffusion, t2i, linear-transformer` ⚠ stub
+- [BAGEL](entities/models/bagel.md) — unified multimodal LLM (Qwen-based, ByteDance); the canonical understanding-generation-gap demo — `model, unified-multimodal, llm, diffusion` ⚠ stub
+- [Janus-Pro](entities/models/janus-pro.md) — DeepSeek unified multimodal model; strongest pre-UniReasoner Position score (0.75 GenEval) — `model, unified-multimodal, deepseek` ⚠ stub
+- [BLIP-3o](entities/models/blip3-o.md) — fully-open unified multimodal family (Salesforce et al.); GenEval 0.83 — `model, unified-multimodal, fully-open` ⚠ stub
+- [FLUX (FLUX.1, FLUX.2) — umbrella hub](entities/models/flux.md) — Black Forest Labs MM-DiT family umbrella; per-version navigation + FLUX.2 Dev/Pro 32B inline; cross-generation adapter ecosystem matrix — `model, diffusion, mm-dit, t2i, black-forest-labs, umbrella`
+- [FLUX.1 Dev (Black Forest Labs)](entities/models/flux-1-dev.md) — 12B MMDiT + flow-matching foundation; the modern FLUX persona-consistency stack (PuLID II / Redux / Kontext) targets Dev; FLUX.1 Schnell (Apache 2.0) + Pro (closed) covered inline; Minimal-tier censorship — `model, flux, flux-1, mm-dit, dit, minimal-censorship, t5-encoder, 12b`
+- [FLUX.2 Klein (9B / 4B distills)](entities/models/flux-2-klein.md) — sub-second FLUX.2 distills for 8-16 GB consumer GPUs; Klein 9B as the modal NSFW face-swap engine; Klein 4B is the 8 GB DiT bridge — `model, flux, flux-2, klein, distilled, 8gb-vram, 9b, 4b`
+- [Pony Diffusion V6 XL (AstraliteHeart)](entities/models/pony-v6.md) — SDXL fine-tune; score_9 quality-tag system; modal stylized base for completely-uncensored anime/cartoon NSFW work; 8 GB VRAM compatible — `model, sdxl, pony, completely-uncensored, score-tags, 8gb-vram`
+- [Pony V7](entities/models/pony-v7.md) — AuraFlow-base T5-encoder rebuild; native 1536×1536; full-prose captioning (no score_9 tags); weights-release status `[NEEDS VERIFICATION 2026-05-06]` — `model, auraflow, pony, t5-encoder, dit-base, completely-uncensored` ⚠ stub
+- [Illustrious XL (OnomaAI Research)](entities/models/illustrious-xl.md) — SDXL fine-tune trained on Danbooru 2023; 16k+ artist-style + character-trait first-class conditioning; studio-anime aesthetic peer to Pony V6 — `model, sdxl, illustrious, danbooru, anime, lora-base, completely-uncensored, artist-style`
+- [NoobAI-XL (Laxhar Lab)](entities/models/noobai-xl.md) — V-Prediction Illustrious fine-tune; Chenkin Noob v.03 + NoobAI-XL-XIN; community-consensus pinnacle of the SDXL anime era — `model, sdxl, illustrious-derivative, v-prediction, danbooru, anime, completely-uncensored`
+- [Anima (Circlestone Labs / Comfy Org)](entities/models/anima.md) — 2B DiT modified from Cosmos-Predict; Qwen3-0.6B encoder; 8 GB VRAM; "Unbound / WTF" tier (only canonical example) — `model, dit, anima, cosmos-predict, qwen3-encoder, unbound, completely-uncensored, 2b, 8gb-vram` ⚠ stub
+- [Z-Image Turbo & Zeta Chroma (Alibaba Tongyi MAI / Lodestone Rock)](entities/models/z-image-turbo.md) — S3-DiT 6B; 8-step distillation; sub-second 12–16 GB inference; survey's "premier local model for photorealism"; Zeta Chroma is Lodestone Rock's pixel-space derivative — `model, dit, s3-dit, z-image, zeta-chroma, alibaba, tongyi-mai, completely-uncensored, photorealism, 6b, 8-step-distill, eastern-vanguard`
+- [Qwen-Image-2512 (Alibaba-Qwen)](entities/models/qwen-image-2512.md) — 20B+ DiT with language+layout reasoning native; best-in-class text rendering; 40 GB BF16 → 14-16 GB GGUF Q4/Q5; Minimal-tier — `model, dit, qwen-image, alibaba-qwen, eastern-vanguard, 20b, layout-reasoning, text-rendering, minimal-censorship, gguf-quantization` ⚠ stub
+- [ERNIE-Image (Baidu)](entities/models/ernie-image.md) — 8B DiT with Ministral3-class prompt enhancer; Apache 2.0; comics/posters/multi-panel layout specialist; Minimal-tier — `model, dit, ernie-image, baidu, eastern-vanguard, 8b, apache-2-0, minimal-censorship, ministral3-encoder, comics-posters` ⚠ stub
+- [Playground v3 (Playground AI)](entities/models/playground-v3.md) — 16-channel VAE; expand-PE positional embedding; deep-fusion LLM encoder; Partial-Architectural tier; Western alignment posture — `model, playground, playground-v3, 16-channel-vae, expand-pe, partial-architectural-censorship, deep-fusion-llm` ⚠ stub
+- [Kwai Kolors (Kuaishou Technology)](entities/models/kwai-kolors.md) — large-scale latent-diffusion T2I; aesthetics-strong / adherence-weak; commercial registration required; not natively uncensored (Eastern-but-not-Vanguard exception) — `model, kolors, kwai-kolors, kuaishou, latent-diffusion, eastern, aesthetic, commercial-registration-required, partial-censorship` ⚠ stub
+- [PixArt-Σ (PixArt Sigma)](entities/models/pixart-sigma.md) — academic-lineage lightweight DiT; T5 encoder; direct 4K resolution generation; small footprint, easy to fine-tune; needs LoRA bypass for NSFW — `model, dit, pixart, pixart-sigma, t5-encoder, 4k-resolution, academic-precursor, lightweight-dit, partial-censorship` ⚠ stub
+- [SDXL fine-tunes (Lustify, Juggernaut, Cyberrealistic, Epicrealism, BigAsp-v2.5) — umbrella](entities/models/sdxl-fine-tunes.md) — photorealistic SDXL fine-tune family anchoring the 8 GB VRAM tier in 2026; complement to Pony/Illustrious/NoobAI Danbooru-anime branch; BigAsp-v2.5 integrates flow-matching — `model, sdxl, sdxl-fine-tune, umbrella, lustify, juggernaut, cyberrealistic, epicrealism, bigasp, completely-uncensored, 8gb-vram, photorealism, 2-6b` ⚠ stub
+- [SD3 / SD3.5 (Stability AI) — deprecated note](entities/models/sd3-deprecated.md) — Strict-tier deprecation case study; SD3.5 Large 8.1B / Medium 2B; CivitAI takedown enforcement loop; canonical architectural-censorship example — `model, sd3, sd3-5, sdxl-successor, stability-ai, strict-censorship, architectural-censorship, deprecated, civitai-takedown, openrail-m`
+
+(other expected models: HunyuanVideo + remaining video models → Path A step 3 video survey)
+
+### Adapters (identity injection)
+
+- [IP-Adapter (family — base, Plus, FaceID, FaceID-Plus-V2, FaceID-Portrait)](entities/adapters/ip-adapter.md) — Tencent ARC + h94; foundational SDXL/SD1.5 image-prompt + face adapter family — `adapter, identity-injection, image-prompt, sdxl, sd15` ⚠ stub
+- [PuLID (PuLID, PuLID-FLUX-v0.9.1, PuLID-Flux II)](entities/adapters/pulid.md) — ByteDance "Pure and Lightning ID Customization"; modal 2026 FLUX face adapter — `adapter, identity-injection, pulid, flux` ⚠ stub
+- [InstantID](entities/adapters/instantid.md) — InstantX dual-signal (face embedding + landmark ControlNet) SDXL identity adapter; more colour-stable than PuLID — `adapter, identity-injection, sdxl` ⚠ stub
+- [ConsistentID](entities/adapters/consistentid.md) — TPAMI 2026 multi-image, attribute-decoupled SDXL adapter; fine-grained identity via per-region embeddings — `adapter, identity-injection, sdxl, tpami-2026` ⚠ stub
+- [InfiniteYou](entities/adapters/infinite-you.md) — ByteDance FLUX-native identity adapter, ICCV 2025 Highlight; multi-aspect (cross-pose / cross-age) identity — `adapter, identity-injection, flux, iccv-2025` ⚠ stub
+- [PhotoMaker V2](entities/adapters/photomaker-v2.md) — TencentARC SDXL stacked-ID adapter; aging / styling preservation niche — `adapter, identity-injection, sdxl, tencentarc` ⚠ stub
+- [CharaConsist](entities/adapters/characonsist.md) — Murray-Wang ICCV 2025 training-free character consistency; attention-manipulation at inference, no LoRA / no adapter weights — `adapter, identity-injection, training-free, iccv-2025` ⚠ stub
+- [FLUX.1 Redux](entities/adapters/flux-redux.md) — BFL image-variation / composition adapter; pairs with PuLID II as the dual-node identity-and-composition stack — `adapter, image-variation, flux, black-forest-labs` ⚠ stub
+- [FLUX.1 Kontext](entities/adapters/flux-kontext.md) — BFL prompt-driven image-edit; canonical hair-override pass after PuLID; Character Turnaround Sheet LoRA backbone — `adapter, image-edit, flux, black-forest-labs` ⚠ stub
+- [FLUX.2 Klein 9B face-swap workflow](entities/adapters/flux2-klein-9b-faceswap.md) — multi-pass NSFW pipeline using Klein 9B as post-generation face-swap engine; modal mitigation #3 for NSFW anatomy degradation — `adapter, face-swap, flux2, klein, nsfw-isolation` ⚠ stub
+
+(other expected adapters: Hyper LoRA, ACE-Plus, Mickmumpitz Consistent Character Creator)
+
+### UIs (inference frontends)
+
+(no pages yet — expected: ComfyUI, Automatic1111, Forge, InvokeAI, SwarmUI)
+
+### Custom nodes
+
+(no pages yet — expected: ComfyUI_OmniConsistency, Wan SVI 2 Pro FLF, HunyuanVideo Lora Block Edit, ColorMatch / ColorPeel, ComfyUI Manager)
+
+### Training tools
+
+- [Kohya sd-scripts](entities/training-tools/kohya-sd-scripts.md) — canonical CLI training suite (kohya-ss); SD1.5/SDXL/Pony/Illustrious/NoobAI/FLUX/Hunyuan/Wan via Musubi sibling project — `training-tool, lora-training, sdxl, flux, hunyuan` ⚠ stub
+- [ai-toolkit (Ostris)](entities/training-tools/ai-toolkit.md) — FLUX-first Python trainer, YAML config, Modal/Replicate hosted-trainer bridge; canonical FLUX.1/FLUX.2/Wan 2.2 LoRA path — `training-tool, lora-training, flux, wan, modal` ⚠ stub
+- [OneTrainer](entities/training-tools/onetrainer.md) — GUI-first Tk trainer with the strongest 8 GB VRAM FLUX recipe; native DoRA support — `training-tool, lora-training, gui, 8gb-vram` ⚠ stub
+- [kohya_ss GUI (bmaltais)](entities/training-tools/kohya-ss-gui.md) — Gradio frontend wrapping kohya sd-scripts; the most-installed LoRA-trainer GUI in the 2024-2026 community; SDXL-popular, FLUX support tracking sd-scripts — `training-tool, lora-training, gui, kohya-ss, bmaltais` ⚠ stub
+- [Musubi Tuner](entities/training-tools/musubi-tuner.md) — kohya-ss video-LoRA sibling for Hunyuan / Wan 2.2 dual-expert / LTX; uv packaging, RAM-offload knobs — `training-tool, lora-training, video-lora, kohya, hunyuan, wan` ⚠ stub
+- [FluxGym](entities/training-tools/fluxgym.md) — Cocktailpeanut Pinokio FLUX-only GUI; lowest-friction beginner FLUX trainer; bundles low-VRAM FP8/Q recipes — `training-tool, lora-training, gui, fluxgym, flux, 8gb-vram` ⚠ stub
+
+(other expected training tools: Diffusion-Pipe-UI, Diffusers fine-tune, Replicate ostris trainer)
+
+### Marketplaces
+
+(no pages yet — expected: CivitAI, Hugging Face, TensorArt)
+
+### Hardware
+
+(no pages yet — expected: VRAM tiers, Apple Silicon viability, quantization formats)
+
+### Personas / accounts
+
+(no pages yet — populated when persona-ops workflows go beyond the existing brief)
+
+---
+
+## Concepts
+
+- [Understanding-generation gap](concepts/understanding-generation-gap.md) — unified models verify prompt-image mismatches that they themselves cause when generating; coined in UniReasoner — `llm, diffusion, evaluation, prompt-faithfulness`
+- [Draft-Evaluate-Diffuse pipeline](concepts/draft-evaluate-diffuse-pipeline.md) — UniReasoner's three-stage approach: LLM samples discrete vision tokens, self-critiques, diffusion conditions on (p,d,e) — `llm, diffusion, vision-tokens, self-critique`
+- [LLM as image-generation conditioning (encoder vs reasoner)](concepts/llm-as-image-conditioning.md) — four roles for LMs in T2I: frozen encoder → stronger encoder → front-end rewriter → universal reasoner — `llm, diffusion, conditioning, t2i-architecture`
+- [Persona consistency methods (umbrella)](concepts/persona-consistency-methods.md) — four-axis taxonomy (synthesis / identity injection / multi-angle dataset / cross-base & video carry) and the modal 2026 production loop — `persona-consistency, methods, taxonomy, identity-injection`
+- [LoRA / LyCORIS taxonomy](concepts/lora-taxonomy.md) — LoRA / LoCon / LoHA / LoKr / DoRA variant family; LoKr (factor=4) as 2026 character-isolation default; per-base optimiser recipes — `lora, lycoris, parameter-efficient-finetuning, training`
+- [Character DNA templates (XML-tag prompting)](concepts/character-dna-templates.md) — structured `<character>`/`<scene>` XML-tag schema; Identity Anchor system; per-base captioning conventions for SDXL/Pony/FLUX/NoobAI — `prompting, character-dna, xml-tags, structured-prompt, persona-prompting`
+- [Likeness-collision verification (PimEyes / FaceCheck.ID / AI Face Search)](concepts/likeness-collision-verification.md) — three-tool verification stack; 70 % similarity threshold; quarterly re-verification protocol; NCII compliance gate — `verification, ncii-compliance, face-search, persona-safety, pimeyes`
+- [Reference + LoRA stacking (modal 2026 production pattern)](concepts/reference-plus-lora-stacking.md) — 0.85 NSFW LoRA + 0.45 identity adapter strength balance; two-pass alternative; per-base recipe table; failure modes — `persona-consistency, production-pattern, lora-stacking, nsfw-mitigation, two-pass-pipeline`
+- [Censorship-tier taxonomy (5-tier framework)](concepts/censorship-tier-taxonomy.md) — Unbound / Completely Uncensored / Minimal / Partial-Architectural / Strict; per-tier de-censoring path (LoRA injection vs abliteration vs TIES/DARE merging); per-model tier assignment May 2026 — `censorship, taxonomy, alignment, nsfw, model-classification, de-censoring`
+- [De-censoring techniques (abliteration, LoRA injection, weight merging, prompt bypasses)](concepts/de-censoring-techniques.md) — companion to the censorship taxonomy; 4-technique catalog (abliteration / LoRA injection / weight merging SLERP/TIES/DARE / prompt-engineering bypasses) + architectural hard wall; named FLUX merges (FLUX-UNCENSORED-Merged, Chroma1-HD, SNOFS); per-tier decision tree — `de-censoring, alignment-removal, abliteration, lora-injection, weight-merging, ties-merging, dare, slerp, prompt-engineering`
+
+(other expected concepts: ControlNet workflows, multi-angle dataset prep, video identity inheritance, monetization strategies)

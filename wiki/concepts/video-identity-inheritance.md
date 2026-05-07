@@ -1,0 +1,99 @@
+---
+title: Video identity inheritance (I2V from static master)
+type: concept
+tags: [persona-consistency, i2v, identity-inheritance, video-workflow, clip-vision-encoder, master-image]
+keywords: [i2v, image-to-video, identity-inheritance, master-image, clip-vision-encoder, raw-pixel-initialization, pulid-anchor, airt-machine, seedance, kling, wan, hunyuan, persona-consistency]
+related:
+  - sources/video-generation-survey-2026.md
+  - sources/synthetic-character-consistency-survey.md
+  - concepts/persona-consistency-methods.md
+  - concepts/multi-angle-dataset-prep.md
+  - concepts/seam-stitching-strategies.md
+  - entities/adapters/pulid.md
+  - entities/models/wan-2-2.md
+  - entities/models/hunyuanvideo-1-5.md
+  - entities/models/seedance-2.md
+  - entities/models/qwen-image-2512.md
+  - entities/models/z-image-turbo.md
+  - entities/models/flux-2-klein.md
+maturity: draft
+created: 2026-05-07
+updated: 2026-05-07
+---
+
+## Relations
+
+@sources/video-generation-survey-2026.md @sources/synthetic-character-consistency-survey.md @concepts/persona-consistency-methods.md @concepts/multi-angle-dataset-prep.md @concepts/seam-stitching-strategies.md @entities/adapters/pulid.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @entities/models/seedance-2.md @entities/models/qwen-image-2512.md @entities/models/z-image-turbo.md @entities/models/flux-2-klein.md
+
+## Raw Concept
+
+Page prompted by the May 2026 video survey ingest. Video identity inheritance is the fourth axis of the persona-consistency taxonomy — propagating a single static persona master image into temporally-coherent video clips while preserving facial geometry across motion. The non-negotiable cornerstone of AI-influencer / narrative-filmmaking workflows in 2026.
+
+Synthesized from @sources/video-generation-survey-2026.md.
+
+## Narrative
+
+### The two-step rule
+
+Generating consistent recurring digital persona via **pure text prompts** is mathematically prohibitive — every seed produces slightly different facial structure due to diffusion's probabilistic / hallucinatory nature. T2V is for environmental B-roll only.
+
+For persona work, the canonical 2026 pipeline is two-step:
+
+1. **Generate static master image** — high-fidelity persona portrait via FLUX.2 / Qwen-Image-2512 / Z-Image Turbo with character LoRA + PuLID II anchor. → @entities/models/flux-2-klein.md @entities/models/qwen-image-2512.md @entities/models/z-image-turbo.md @entities/adapters/pulid.md
+2. **Inject master into video model's initial latent state** — I2V mode passes the master through the model's encoding pathway as the seed for temporal diffusion.
+
+[CONFIRMED] [Source: Video Generation Models Survey 2026.docx p.5]
+
+### CLIP Vision encoder vs raw pixel initialization
+
+A critical architectural choice in ComfyUI workflows: pass the master image through the **CLIP Vision encoder**, **not** as raw pixel initialization. [CONFIRMED]
+
+| Path | What happens | Outcome |
+|------|--------------|---------|
+| **Raw pixel init** | Master image is treated as the literal first frame; subsequent frames diffuse from it | Pixel-level fidelity to first frame, but the video model lacks the anatomical depth signal → drift on rotation, expression change, occlusion |
+| **CLIP Vision encoder** | Master is passed through CLIP Vision; deep semantic + 3D structural face features extracted; encoded representation seeds the I2V latent | Video model understands the anatomical depth of the character before animating → identity holds across motion |
+
+The CLIP Vision encoder pattern is what enables identity preservation across dynamic action — it's the difference between "first frame looks right then drifts" and "the persona persists." [Source: Video Generation Models Survey 2026.docx p.5]
+
+### Identity-preservation leadership (May 2026)
+
+| Model | I2V identity rate | Notes |
+|-------|-------------------|-------|
+| **Seedance 2.0** (closed) | Industry-leading consistency preservation | Multi-input (9 images + 3 video + 3 audio); benchmark reference. → @entities/models/seedance-2.md |
+| **Kling 3.0** (closed) | Top-tier I2V ELO | Closest open peer to Seedance. PG-13 alignment posture |
+| **Wan 2.2** (open, 16 GB+) | Strong with abliterated TE + LoRA stack | Mickmumpitz 96-angle pipeline anchors here. → @entities/models/wan-2-2.md |
+| **HunyuanVideo 1.5** (open, 16 GB+) | SSTA-accelerated; LoRA-tuneable | `nsfwsks` trigger; explicit Musubi Tuner support. → @entities/models/hunyuanvideo-1-5.md |
+| **CogVideoX 1.5** (open, 7 GB INT8) | Cheapest local I2V | 768p / 10s ceiling |
+
+### AIrt MAchIne — automated I2V prompt orchestration
+
+ComfyUI workflow template that integrates an LLM to:
+1. Analyze the static master image (semantic content, scene context, persona attributes)
+2. Generate a sequence of optimized text prompts that guide the I2V model (Kling 3.0 / Wan 2.2)
+3. Drive the I2V model with the prompt sequence to produce coherent motion
+
+This bridges the gap between static reference and temporal diffusion — the LLM acts as a director / prompt-author for the video model. Two ComfyUI templates exist (full version and API version). [CONFIRMED] [Source: Video Generation Models Survey 2026.docx p.5, citing comfy.org/workflows/templates_mjm_airt_machIne-fa9731c2000f + templates_mjm_airt_machine_api-5d0cbc370579]
+
+### Failure modes
+
+- **Skipping CLIP Vision encoder** → drift on first rotation
+- **Using a master image with bad lighting / pose for I2V** → all generated motion inherits the awkwardness; treat the master like a key cinematography frame
+- **Master with PuLID II strength too high (>0.55)** → master locks identity rigidly; I2V refuses meaningful pose change
+- **Master with PuLID II strength too low (<0.35)** → identity drifts across video clip even with CLIP Vision encoder
+- **Wan 2.2 base model on NSFW master** → master frame is preserved but downstream frames artifact (anatomy scrubbed) → use abliterated text encoder + NSFW LoRA stack on Wan, or generate master on FLUX/Qwen and let identity ride through the I2V's CLIP Vision pathway
+
+## Snippets
+
+> "Generating a consistent, recurring digital persona across multiple videos using purely text prompts is mathematically prohibitive due to the probabilistic, hallucinatory nature of diffusion networks; the model will invariably generate a slightly different facial structure with every seed."
+[Source: Video Generation Models Survey 2026.docx p.5, citing reddit.com/r/comfyui/comments/1s746sw]
+
+> "I2V is the non-negotiable cornerstone of AI influencer generation and narrative filmmaking. The methodology requires a two-step process: First, generating a high-fidelity static master image of the character using advanced image models (e.g., Flux 2 or Qwen) integrated with highly specific character LoRAs. Second, injecting this static master image into the video model's initial latent state."
+[Source: Video Generation Models Survey 2026.docx p.5]
+
+> "A critical architectural pattern is passing the initial static image through a CLIP Vision encoder rather than simply using it as a raw pixel initialization. The CLIP Vision encoder extracts deep semantic features and 3D structural data from the face, ensuring the subsequent video model understands the anatomical depth of the character before animating it."
+[Source: Video Generation Models Survey 2026.docx p.5]
+
+## Dead Ends
+
+- **Pure T2V for persona consistency**: mathematically impossible. Always anchor with I2V.
+- **Raw-pixel I2V initialization** (skipping CLIP Vision encoder): identity drift on first rotation. Always route through CLIP Vision.
