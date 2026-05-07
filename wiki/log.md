@@ -580,3 +580,71 @@ Preingest check: `Video Generation Models Survey 2026.docx` confirmed NEW (no pr
 - **Wan 2.7 R2V** (reference-to-video) and **LTX-2 / 2.3** trainer paths beyond Musubi Tuner — track when video-LoRA training tooling lands those bases.
 - **CogVideoX 2.0 + CogSound** native-audio capability — separate page when CogSound integration matures beyond research preview.
 - Several entity stubs carry `[NEEDS VERIFICATION 2026-05-07]` flags (Wan 2.2 community LoRA author lineage; HunyuanVideo 1.5 step-distill GitHub source; Mochi 1 safety-classifier strip mechanics; LTX-2 audio drift on >10s dialogue; CogVideoX 2.0 release status; Seedance 2.0 API pricing). Resolve in a future verification sub-sweep.
+
+---
+
+## [2026-05-07] ingest | Path A step 6 — Persona Operations + Monetization (paired docx)
+
+Path A step 6 — back-fill of two paired May 2026 deep-research docx (`research to be indexed/processed/AI Persona Operations Software Stack.docx`, 3.0 MB; `research to be indexed/processed/AI Personas_ Monetization, Ethics, Law.docx`, 3.1 MB) into structured wiki pages. Final Path A docx-source ingest. Companion to the existing pre-HEAVY brief `briefs/persona-consistency.md`. Per workspace scope (MEMORY.md "skip platforms/policy"), platforms-and-policy material is curated faithfully into the research/curation layer but **deprioritized** in the active build track — concept pages explicitly flag this scope split.
+
+Preingest check: both docx confirmed NEW (sha256 c517fa7e... and 92800ad2...). No prior persona-ops or persona-monetization source pages in wiki/sources/.
+
+### Created
+
+**Sources (2)**
+
+- `wiki/sources/persona-ops-stack-2026.md` — operations stack docx (7-axis architecture: scheduling / multi-account / DM / voice / orchestration / pipelines / calendar)
+- `wiki/sources/persona-monetization-2026.md` — monetization + ethics + law docx (case studies, revenue mechanics, failure modes, payment rails, legal regimes)
+
+**Concepts (6)**
+
+- `wiki/concepts/persona-ops-stack.md` — umbrella architecture overview; reference architecture diagram; tier ladders (solo → enterprise $100K-300K build); 2026 strategic shifts (Reddit/X → Telegram, hosted-LLM dead-end, voice-clone open-sourcing, Model Routers)
+- `wiki/concepts/persona-monetization-models.md` — revenue mechanics (DM/PPV/tips ≫ flat subs); Fanvue $100M ARR / 20% commission; ROI math + cost-arbitrage
+- `wiki/concepts/persona-failure-modes.md` — 5-class catalog (account-bans / doxxing / payment-freezes / DMCA / tax); operational hygiene checklist
+- `wiki/concepts/persona-payment-rails.md` — high-risk processor catalog; Payment Orchestration pattern; de-banking risk; 15-20% effective gateway take; build-track scope-flagged as research-layer reference
+- `wiki/concepts/persona-legal-landscape.md` — 4 active regimes (US 2257 + state age-verification + UK OSA/DUAA s.138 + EU AI Act Article 50 Aug 2026); active litigation
+- `wiki/concepts/persona-content-cadence.md` — AI-slop pivot from volume → 3-5 quality posts/wk; calendar automation patterns; build-track LoRA-stability implications
+
+**Entities (5)**
+
+- `wiki/entities/persona-ops/postiz.md` — modal 2026 SFW persona scheduler ($29/mo or self-host free)
+- `wiki/entities/persona-ops/sillytavern.md` — de-facto NSFW DM frontend with character cards + lorebooks + RAG + 128K context
+- `wiki/entities/persona-ops/fish-speech.md` — TTS-Arena2 leader May 2026; zero-shot from 10-30s reference audio
+- `wiki/entities/persona-ops/n8n.md` — modal 2026 self-hosted orchestration; visual workflow + 400+ integrations + AI agent nodes
+- `wiki/entities/personas/aitana-lopez.md` — most-documented Tier 1 AI persona case study (The Clueless Agency, Barcelona; >$20K/mo by May 2026)
+
+### Updated (backlinks added during ingest)
+
+- `wiki/concepts/persona-consistency-methods.md` — backlink from new persona-ops-stack umbrella concept
+- `wiki/concepts/likeness-collision-verification.md` — backlinks from persona-failure-modes and persona-legal-landscape (verification gate)
+- `wiki/concepts/character-dna-templates.md` — backlink from sillytavern entity (character card / lorebook parallel)
+- `wiki/concepts/multi-angle-dataset-prep.md` — backlink from persona-content-cadence (LoRA-stability implication)
+
+### Archived
+
+- `research to be indexed/processed/AI Persona Operations Software Stack.docx` → `raw-sources/`
+- `research to be indexed/processed/AI Personas_ Monetization, Ethics, Law.docx` → `raw-sources/`
+
+### Pages touched
+
+13 new + ~4 updated + 2 meta = **~19 pages**. Wiki now ~72 indexed pages; cumulative edges to be reported by lint.
+
+### Cross-cutting findings
+
+- **The 2026 NSFW persona-ops stack is fully open-source-self-hosted** along the critical-path tools: Postiz (scheduling), SillyTavern + local Qwen 3 / Mistral 3 / Llama 4 (DM), Fish-Speech S2 Pro (voice), n8n (orchestration), ComfyUI (image/video). Hosted-LLM stacks (GPT-5.4 / Gemini 3.1 Pro / Claude 4.6) are categorically NSFW-hostile in 2026.
+- **ElevenLabs lost the NSFW voice market** despite top-tier Flash v2.5 SFW quality (75-150ms latency) due to platform-level NSFW ban. Fish-Speech S2 Pro now leads TTS-Arena2 — the open-source replacement is quality-competitive.
+- **Distribution surface migration**: Reddit (~200K accounts purged daily April 2026) and X (mass-suspension wave with FaceID biometric verification) drove operators toward Telegram as the durable persona-distribution channel. Fanvue / OnlyFans remain the gated monetization endpoints (with OF zero-tolerance deepfake/face-swap policy from early 2026).
+- **Cost-arbitrage via Model Routers** at agency tier: simple NLP tasks → cheap models (GPT-4o-mini class); complex reasoning → premium (Claude 3.5 Sonnet / GPT-5.4). Reported infrastructure savings 60-90%. Mirrors the FLUX-2 / Z-Image-Turbo tier arbitrage in the image generation track.
+- **Revenue mechanics are NOT subscription-driven**: bulk of mid-tier and Tier-1 revenue is DM (parasocial messaging) + PPV + tips. NLP-augmented chat where the LLM parses and retains personal fan data is the core engine.
+- **Content cadence pivot to 3-5 posts/wk**: algorithmic AI-slop suppression made volume-flooding counterproductive. Quality cadence with narrative progression / varied angles / realistic lighting outperforms. This validates the build-track focus on LoRA stability and multi-angle dataset prep over throughput.
+- **Legal regimes converging on transparency**: EU AI Act Article 50 (Aug 2026) mandates machine-readable AI labeling; UK OSA + DUAA s.138 (Feb 2026) explicitly removes "just AI" defense for NCII; US 18 USC 2257 creates a synthetic-persona paradox with up-to-5-year federal exposure. Operators must default to absolute transparency + age-gating + likeness-collision verification regardless of physical location.
+- **Workspace scope flag**: per MEMORY.md ("skip platforms/policy"), the persona-monetization + payment-rails + legal-landscape pages are explicitly marked as research-layer reference rather than build-track. The build track focuses on the technical components (local LLMs, voice clones, ComfyUI pipelines, n8n flows, anti-detect browser hygiene). Concept pages call out the scope split inline.
+
+### Follow-ups opened
+
+- **Path A back-fill is now end-to-end complete on all docx sources** (steps 1 + 2 + 3 + 4 + 6 + verification A-E). Remaining Path A item: step 5 (notes/frameworks-tools + hardware migration into wiki/entities/) — low-velocity, no docx source.
+- **Tier 2 entity-page candidates** (deferred): Multilogin Pro 10 / GoLogin / Octobrowser anti-detect browsers; Bright Data / IPRoyal residential proxies; CCBill / SegPay payment processors; Supercreator / Infloww NSFW CRM. These are mentioned across the persona-ops-stack and persona-failure-modes / persona-payment-rails pages but don't yet have dedicated entity pages. Build out as needed.
+- **Tier 2 persona case studies** (deferred): Emily Pellegrini (GlambaseApp, $5-10K/mo); Lexi Love (Foxy AI outlier, $30K/mo); Kenza Layli (Phoenix AI, Miss AI 2024 winner). Aitana Lopez covers the archetype; others are documented in the source page snippets.
+- **NSFW LLM fine-tunes catalog** (deferred): Qwen 3 / Mistral 3 / Llama 4 abliterated and NSFW community fine-tunes warrant their own entity pages when the SillyTavern + DM stack track gets deeper attention.
+- **Voice-clone tier-2 entities** (deferred): Qwen3-TTS / F5-TTS / MaskGCT / Coqui XTTS (legacy) covered in fish-speech.md narrative; standalone entity pages deferred until voice-cloning track intensifies.
+- **Persona-track build runbook** opportunity: now that persona-consistency (image), video-generation, and persona-ops are all wiki-indexed, a `briefs/persona-end-to-end-runbook.md` synthesizing the full pipeline (LoRA training → image gen → video carry → DM stack → voice notes → orchestration) would be the natural next deliverable when the user wants an action-ready output.

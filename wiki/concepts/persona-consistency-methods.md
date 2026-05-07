@@ -35,6 +35,12 @@ related:
   - entities/models/illustrious-xl.md
   - entities/models/noobai-xl.md
   - entities/models/seedance-2.md
+  - concepts/persona-content-cadence.md
+  - concepts/persona-failure-modes.md
+  - concepts/persona-ops-stack.md
+  - entities/persona-ops/sillytavern.md
+  - entities/personas/aitana-lopez.md
+  - sources/persona-ops-stack-2026.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-05-07
@@ -73,6 +79,12 @@ updated: 2026-05-07
 @concepts/character-dna-templates.md
 @concepts/likeness-collision-verification.md
 @concepts/reference-plus-lora-stacking.md
+@concepts/persona-content-cadence.md
+@concepts/persona-failure-modes.md
+@concepts/persona-ops-stack.md
+@entities/persona-ops/sillytavern.md
+@entities/personas/aitana-lopez.md
+@sources/persona-ops-stack-2026.md
 
 ## Raw Concept
 

@@ -31,6 +31,8 @@ related:
   - sources/video-generation-survey-2026.md
   - concepts/multi-angle-dataset-prep.md
   - concepts/video-identity-inheritance.md
+  - sources/persona-monetization-2026.md
+  - sources/persona-ops-stack-2026.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-05-07
@@ -66,6 +68,8 @@ read_status: deep-read
 @sources/video-generation-survey-2026.md
 @concepts/multi-angle-dataset-prep.md
 @concepts/video-identity-inheritance.md
+@sources/persona-monetization-2026.md
+@sources/persona-ops-stack-2026.md
 
 ## Raw Concept
 

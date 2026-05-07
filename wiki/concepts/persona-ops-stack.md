@@ -1,0 +1,97 @@
+---
+title: "Persona operations stack (architecture overview)"
+type: concept
+tags: [persona-ops, automation, stack-architecture, multi-account, dm-automation, voice-cloning, orchestration, content-pipelines]
+keywords: [persona-ops, scheduling, anti-detect-browsers, residential-proxies, sillytavern, local-llm, voice-cloning, n8n, orchestration, comfyui, fal-ai, replicate, modal, telegram, postiz]
+related:
+  - sources/persona-ops-stack-2026.md
+  - sources/persona-monetization-2026.md
+  - concepts/persona-monetization-models.md
+  - concepts/persona-failure-modes.md
+  - concepts/persona-content-cadence.md
+  - concepts/persona-consistency-methods.md
+  - entities/persona-ops/postiz.md
+  - entities/persona-ops/sillytavern.md
+  - entities/persona-ops/fish-speech.md
+  - entities/persona-ops/n8n.md
+  - concepts/persona-legal-landscape.md
+  - concepts/persona-payment-rails.md
+  - entities/personas/aitana-lopez.md
+maturity: draft
+created: 2026-05-07
+updated: 2026-05-07
+---
+
+## Relations
+
+@sources/persona-ops-stack-2026.md @sources/persona-monetization-2026.md @concepts/persona-monetization-models.md @concepts/persona-failure-modes.md @concepts/persona-content-cadence.md @concepts/persona-consistency-methods.md @entities/persona-ops/postiz.md @entities/persona-ops/sillytavern.md @entities/persona-ops/fish-speech.md @entities/persona-ops/n8n.md @concepts/persona-legal-landscape.md @concepts/persona-payment-rails.md @entities/personas/aitana-lopez.md
+
+## Raw Concept
+
+Page prompted by Path A step 6 ingest of the persona-ops survey docx (May 2026). Synthesizes the 7-axis architecture of the modal 2026 persona-ops stack into a single reference page. Companion to @concepts/persona-consistency-methods.md (which covers the identity layer); this page covers the operational layer **wrapped around** that identity.
+
+Synthesized from @sources/persona-ops-stack-2026.md.
+
+## Narrative
+
+### The 7 axes
+
+A modern adult AI persona operation is built from 7 distinct tooling layers. Each axis is composable — a Tier 1 operator runs all 7; a Tier 3 operator may run only 1-2 manually:
+
+1. **Posting & Scheduling** — Buffer / Later / Postiz / Hypefury (SFW-clean) or Supercreator / Infloww / Exclu (NSFW-specialized). → @entities/persona-ops/postiz.md
+2. **Multi-Account Management** — anti-detect browsers (Multilogin Pro 10 €9/mo, GoLogin $24/mo, Octobrowser €29/mo) + residential proxies (Bright Data, IPRoyal, Apify, Oxylabs). AdsPower deprioritized post-Jan 2025.
+3. **DM / Chat Automation** — local LLM stack (Qwen 3 / Mistral 3 / Llama 4) on 24-48 GB VRAM, frontended by SillyTavern (128K context, MiniMax TTS, RAG). Hosted LLMs (GPT-5.4, Gemini 3.1 Pro, Claude 4.6) are NSFW-hostile. → @entities/persona-ops/sillytavern.md
+4. **Voice Cloning** — Fish-Speech S2 Pro (TTS-Arena2 leader, 10-30s zero-shot, 50+ emotion tags) for NSFW; ElevenLabs Flash v2.5 dominates SFW (75-150ms latency) but is platform-banned for NSFW use. → @entities/persona-ops/fish-speech.md
+5. **Agentic Loops & Orchestration** — n8n (self-hosted, modal choice) / Make.com (Maia AI builder, SaaS) / LangChain / LangGraph / Temporal (Durable Agent Execution) / CrewAI / AutoGen. Enterprise-tier persona-ops budgets are $100K-$300K build + $3.2K-$13K/mo LLM API. → @entities/persona-ops/n8n.md
+6. **Triggerable Image & Video Pipelines** — ComfyUI workflow JSONs route to either Vast.ai serverless GPU endpoints or managed APIs: Fal.ai (FLUX.2 Pro $0.05/image, Wan 2.1 $0.05/sec video), Replicate, Modal.
+7. **Content-Calendar Automation** — Batch Prompting, Gap Analysis, Trend Expansion. Repurposing: Opus Clip / Vidyo.ai / Orshot. Routing: Airtable/Notion + n8n + Repurpose.io.
+
+### Reference architecture
+
+```
+Content Calendar (Airtable/Notion)
+     ↓ [trigger]
+Orchestration Layer (n8n self-hosted)
+     ↓ [LLM script gen]                             ↓ [voice gen]              ↓ [image/video gen]
+Local LLM (Qwen 3 / Mistral 3) ── SillyTavern    Fish-Speech S2 Pro          ComfyUI (local OR Fal.ai/Replicate/Modal)
+     ↓                                               ↓                          ↓
+DMs ← CRM (Supercreator / Infloww)               Voice notes (Fanvue PPV)    Image/video assets
+     ↓                                                                          ↓
+Anti-detect browser (Multilogin Pro 10) + residential proxy ──── Posting/Scheduling (Postiz / Hypefury / NSFW CRM)
+                                                                  ↓
+                                                                  Distribution surfaces (Telegram durable; X/Reddit volatile; Fanvue/OF gated)
+```
+
+### Strategic shifts (2026)
+
+- **Distribution surface migration**: Reddit (April 2026 crackdown, ~200K accounts purged daily) and X (mass-suspension wave with FaceID biometric verification post-April 2026) drove operators toward Telegram as the durable channel. Fanvue / OnlyFans remain the gated monetization endpoints.
+- **NSFW LLM reality**: hosted-LLM NSFW capability is dead. Local Qwen 3 / Mistral 3 / Llama 4 via SillyTavern is the only reliable DM stack.
+- **Voice clone open-sourcing**: Fish-Speech S2 Pro and Qwen3-TTS now exceed ElevenLabs on TTS-Arena2 for cloning quality on short reference clips. The NSFW-banned Eleven workflow has been fully replaced.
+- **Cost arbitrage via Model Routers**: simple NLP tasks → cheap models (GPT-4o-mini class); complex reasoning → premium (Claude 3.5 Sonnet / GPT-5.4). Reported infrastructure savings 60-90%.
+
+### Tier ladders
+
+| Tier | Stack profile | Monthly cost | Time investment |
+|------|---------------|--------------|-----------------|
+| Solo / aspirational | One persona, manual posts, no DM automation, ElevenLabs trial | $50-150 | 20-40 hr/week |
+| Mid (Tier 2) | One persona, scheduler + local LLM DMs + voice clone + ComfyUI | $200-1,000 | 15-25 hr/week |
+| Agency-managed | Roster of 3-10, full n8n orchestration, anti-detect, NSFW CRM | $3,000-13,000 | 0.5-1.5 FTE per persona |
+| Enterprise / Tier 1 | $100K-300K build, $3.2K-13K/mo LLM API, multi-modal pipeline | $100K+/yr | 2-5 FTE |
+
+[Source: AI Persona Operations Software Stack.docx Sections 1-7, retrieved 2026-05-06]
+
+### Build-track scope note
+
+Per workspace scope (MEMORY.md): platforms-and-policy detail (specific Fanvue/OF subscription mechanics, current ToS reading, current ban-wave triggers) is curated faithfully but not actionable for the build track. The technical components — local LLM stacks, voice clones, ComfyUI pipelines, n8n flows, anti-detect browser hygiene — are the actionable backbone. Use this stack as the **architectural reference** when planning a build, then go deep into the tool-specific entity pages.
+
+## Snippets
+
+> "n8n is now the modal orchestration layer for persona-ops. Self-hosted deployment with execution-based pricing makes it the dominant choice for technical operators; Make.com targets SaaS users with the Maia AI builder; LangChain/LangGraph, Temporal, CrewAI, AutoGen serve code-first multi-agent builders."
+[Source: AI Persona Operations Software Stack.docx Section 5 (retrieved 2026-05-06)]
+
+## Dead Ends
+
+- **Hosted-LLM NSFW DM stack**: GPT-5.4 / Gemini 3.1 Pro / Claude 4.6 universally block NSFW persona DMs. Wasted attempt. Use local Qwen 3 / Mistral 3 / Llama 4 via SillyTavern.
+- **AdsPower as default anti-detect browser**: reputational hit Jan 2025; community moved to Multilogin Pro 10 / GoLogin / Octobrowser.
+- **Reddit / X as durable distribution**: April 2026 crackdowns gutted both for persona traffic. Telegram is the durable channel.
+- **ElevenLabs for NSFW**: platform-banned. Fish-Speech S2 Pro is the open-source replacement.

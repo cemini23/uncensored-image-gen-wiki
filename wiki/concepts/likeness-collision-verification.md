@@ -7,9 +7,11 @@ related:
   - sources/synthetic-character-consistency-survey.md
   - concepts/persona-consistency-methods.md
   - concepts/character-dna-templates.md
+  - concepts/persona-failure-modes.md
+  - concepts/persona-legal-landscape.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-07
 ---
 
 ## Relations
@@ -17,6 +19,8 @@ updated: 2026-05-06
 @sources/synthetic-character-consistency-survey.md
 @concepts/persona-consistency-methods.md
 @concepts/character-dna-templates.md
+@concepts/persona-failure-modes.md
+@concepts/persona-legal-landscape.md
 
 ## Raw Concept
 
