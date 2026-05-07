@@ -648,3 +648,49 @@ Preingest check: both docx confirmed NEW (sha256 c517fa7e... and 92800ad2...). N
 - **NSFW LLM fine-tunes catalog** (deferred): Qwen 3 / Mistral 3 / Llama 4 abliterated and NSFW community fine-tunes warrant their own entity pages when the SillyTavern + DM stack track gets deeper attention.
 - **Voice-clone tier-2 entities** (deferred): Qwen3-TTS / F5-TTS / MaskGCT / Coqui XTTS (legacy) covered in fish-speech.md narrative; standalone entity pages deferred until voice-cloning track intensifies.
 - **Persona-track build runbook** opportunity: now that persona-consistency (image), video-generation, and persona-ops are all wiki-indexed, a `briefs/persona-end-to-end-runbook.md` synthesizing the full pipeline (LoRA training → image gen → video carry → DM stack → voice notes → orchestration) would be the natural next deliverable when the user wants an action-ready output.
+
+---
+
+## [2026-05-07] triage | W2 inbox triage + HeadsUp source page
+
+W2 PDF inbox (9 papers carried over from prior sessions) triaged against the build-track scope. Verdict: **8 discarded, 1 ingested (thin/skimmed)**.
+
+### Triage outcome
+
+- **7 off-topic** (organoid segmentation / Retinex low-light enhancement / Markov-operator math / aerial imagery school detection / Groningen reservoir geology / Pix2Geomodel reservoir facies / Sentinel2Cap remote-sensing captioning) — moved to `research to be indexed/discarded/` with rationale per PDF in `discarded/TRIAGE-NOTES.md`.
+- **1 nominally-adjacent but discarded after read**: `3D Human Face Reconstruction with 3DMM` (NYU student project, arXiv:2605.03996, 6 pages, tutorial-quality recreation of well-established BFM-regression). Single-image-to-3DMM territory already adequately covered by IPAdapter / arcface / PuLID concept pages — no novel build-track contribution. Moved to `discarded/`.
+- **1 ingested**: `HeadsUp — Large-Scale 3D Gaussian Head Reconstruction from Multi-View Captures` (Apple, arXiv:2605.04035, 34 pages). Skimmed sections 1-4.6 + conclusion; supplementary not read.
+
+### Created
+
+- `wiki/sources/headsup-3d-gaussian-head.md` — Apple feed-forward 3DGS head reconstruction trained on 10K-subject internal multi-view dataset (16 calibrated cameras, 1000×750). UV-parameterized Gaussians anchored to neutral head template. Two downstream applications motivate the ingest: (a) text-driven novel-identity generation via DiT trained on precomputed latents Z + frozen decoder; (b) blendshape-driven latent animation via transformer F_θ predicting Ẑ_b = F_θ(Z_n, b). State-of-the-art vs Avat3r baseline with >1 OOM fewer Gaussians and N=16-view scaling (Avat3r capped at N=6 by memory). Build-track applicability flagged as bounded by multi-camera rig requirement + closed Apple Internal10K dataset + 16× H100 × 10-day training cost; filed as research-future bridge to 3D-anchored persona consistency rather than deployable today. `read_status: skimmed`, maturity `draft`.
+
+### Updated (backlinks added during ingest)
+
+- `wiki/concepts/multi-angle-dataset-prep.md` — backlink (text-driven novel-identity generation as research-future bridge to dataset-prep workflow at the latent-3D level)
+- `wiki/concepts/video-identity-inheritance.md` — backlink (blendshape-driven latent animation as cleanest research demonstration of identity-preserving expression control entirely in latent space)
+- `wiki/concepts/persona-consistency-methods.md` — backlink (large-scale feed-forward identity reconstruction as future fifth axis "3D-latent-anchored consistency" complementing the current four 2D-adapter axes)
+
+### Archived
+
+- `research to be indexed/Large-Scale High-Quality 3D Gaussian Head Reconstruction from Multi-View Captures.pdf` → `raw-sources/`
+- 8 discarded PDFs → `research to be indexed/discarded/` with `TRIAGE-NOTES.md` audit trail
+
+### Pages touched
+
+1 new + 3 updated + 1 meta (index.md) = **5 pages**. W2 inbox is now empty (all 9 PDFs disposed). Wiki count up to ~73 indexed pages.
+
+### Cross-cutting findings
+
+- **Build-track 2026 still routes through 2D-adapter stacks** (PuLID + LoRA) for persona consistency; 3D-Gaussian-head feed-forward reconstruction (HeadsUp class) is ~1-2 years premature for consumer persona ops. Filed for the 2027-2028 horizon.
+- **Apple is the institutional driver** of feed-forward multi-view head reconstruction at scale (Internal10K is 1 OOM larger than any public multi-view face dataset). Closed dataset means consumer reproduction will lag; track for an open-weight or open-dataset successor.
+- **Single-view inference does not yet work** for HeadsUp-class methods (N=1 yields blurry results + identity drift). The frontier "single-photo → 3D persona" use case still belongs to GAN-inversion methods (PanoHead / SphereHead / TriPlaneNet) noted as a parallel track in HeadsUp's related work.
+
+### Follow-ups opened
+
+- **Open-source feed-forward 3DGS-head baselines** for build-track-relevant downstream experimentation: stub-track Pippo / Avat3r reimplementation availability when the persona track moves toward 3D-anchored consistency.
+- **No active build-track action** triggered by HeadsUp ingest; this is a research-layer reference page, not a workflow change.
+
+### Inbox state
+
+`research to be indexed/` is now empty (excluding `processed/` legacy archive and the new `discarded/` audit folder). W2 closed.

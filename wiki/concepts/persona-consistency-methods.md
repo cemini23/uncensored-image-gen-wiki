@@ -41,6 +41,7 @@ related:
   - entities/persona-ops/sillytavern.md
   - entities/personas/aitana-lopez.md
   - sources/persona-ops-stack-2026.md
+  - sources/headsup-3d-gaussian-head.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-05-07
@@ -85,6 +86,7 @@ updated: 2026-05-07
 @entities/persona-ops/sillytavern.md
 @entities/personas/aitana-lopez.md
 @sources/persona-ops-stack-2026.md
+@sources/headsup-3d-gaussian-head.md
 
 ## Raw Concept
 
