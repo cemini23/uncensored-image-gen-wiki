@@ -68,7 +68,11 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 
 ### UIs (inference frontends)
 
-(no pages yet — expected: ComfyUI, Automatic1111, Forge, InvokeAI, SwarmUI)
+- [ComfyUI (Inference UI)](entities/uis/comfyui.md) — open-source node-graph inference frontend; dominant local UI for SDXL, FLUX, Hunyuan, Wan, CogVideoX; extensible via custom nodes — `ui, inference-frontend, comfyui, node-graph, open-source, extensible`
+- [Automatic1111 / A1111 SDXL WebUI](entities/uis/automatic1111.md) — original Stable Diffusion WebUI fork; SDXL, FLUX support via community patches — `ui, inference-frontend, sd, sdxl, webui` ⚠ stub
+- [Forge](entities/uis/forge.md) — performance-optimized A1111 fork; SDXL + FLUX with VRAM efficiency patches — `ui, inference-frontend, forge, performance, sdxl, flux` ⚠ stub
+- [InvokeAI](entities/uis/invokeai.md) — creative-focused UI with unified canvas workflow — `ui, inference-frontend, invokeai, creative` ⚠ stub
+- [SwarmUI](entities/uis/swarmui.md) — multi-user collaborative generation UI; model management focus — `ui, inference-frontend, swarmui, multi-user` ⚠ stub
 
 ### Custom nodes
 
@@ -87,11 +91,11 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 
 ### Marketplaces
 
-(no pages yet — expected: CivitAI, Hugging Face, TensorArt)
+- [CivitAI (Model Marketplace)](entities/marketplaces/civitai.md) — dominant community model marketplace for SD/FLUX/Pony; LoRAs, checkpoints, de-censoring models; takedown enforcement risks — `marketplace, model-hosting, community, civitai, nsfw, lora`
 
 ### Hardware
 
-(no pages yet — expected: VRAM tiers, Apple Silicon viability, quantization formats)
+- [GPU & Hardware Guide](entities/hardware/gpu-guide.md) — VRAM tiers (8/12-16/24 GB), quantization formats (FP8/GGUF/Nunchaku), Apple Silicon viability, cloud fallback strategy — `hardware, gpu, vram, quantization, apple-silicon, nvidia`
 
 ### Persona-ops tools
 

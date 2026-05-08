@@ -22,6 +22,8 @@ related:
   - concepts/de-censoring-techniques.md
   - entities/models/anima.md
   - entities/models/sdxl-fine-tunes.md
+  - entities/uis/comfyui.md
+  - entities/marketplaces/civitai.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-05-06
@@ -45,6 +47,8 @@ updated: 2026-05-06
 @entities/adapters/instantid.md
 @entities/adapters/photomaker-v2.md
 @concepts/de-censoring-techniques.md
+@entities/uis/comfyui.md
+@entities/marketplaces/civitai.md
 @entities/models/anima.md
 @entities/models/sdxl-fine-tunes.md
 

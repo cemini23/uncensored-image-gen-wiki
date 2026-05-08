@@ -694,3 +694,48 @@ W2 PDF inbox (9 papers carried over from prior sessions) triaged against the bui
 ### Inbox state
 
 `research to be indexed/` is now empty (excluding `processed/` legacy archive and the new `discarded/` audit folder). W2 closed.
+
+---
+
+## [2026-05-08] Gap-fill sprint — UI, hardware, marketplace, model stubs
+
+**Goal**: Make the wiki usable for a newcomer arriving in the uncensored image-gen universe. Targeted the biggest structural holes left after the HEAVY-mode upgrade.
+
+### New pages created (7)
+
+| Page | Type | Source material |
+|------|------|----------------|
+| `entities/uis/comfyui.md` | entity (validated) | notes/frameworks-tools.md, survey data, hands-on workspace knowledge |
+| `entities/uis/automatic1111.md` | entity (stub) | general SD ecosystem knowledge |
+| `entities/uis/forge.md` | entity (stub) | general SD ecosystem knowledge |
+| `entities/uis/invokeai.md` | entity (stub) | general SD ecosystem knowledge |
+| `entities/uis/swarmui.md` | entity (stub) | general SD ecosystem knowledge |
+| `entities/hardware/gpu-guide.md` | entity (validated) | notes/hardware-optimization.md + survey hardware sections |
+| `entities/marketplaces/civitai.md` | entity (validated) | survey data, community knowledge |
+
+### Deepened stubs (3)
+
+- **Pony V6** — added `entities/uis/comfyui.md` + `entities/marketplaces/civitai.md` backlinks; validated cross-links to adapter ecosystem
+- **FLUX.1 Dev** — added `entities/uis/comfyui.md` + `entities/marketplaces/civitai.md` + `entities/hardware/gpu-guide.md` backlinks; confirmed already-validated content is solid
+- **FLUX.2 Klein** — confirmed adapter-port status (PuLID II shipped, InfiniteYou not yet); quality notes validated from survey
+- **NoobAI-XL** — upgraded from draft to confirmed community-status claims; added workspace TODOs
+
+### Structural fixes
+
+- Fixed 2 dangling links (typo `latx-2` → `ltx-2` in ComfyUI page; removed `comfyui-omniconsistency.md` reference to non-existent page)
+- Cross-linked all 4 new UI stubs bidirectionally
+- Added `comfyui.md` back-links to hub pages (flux.md, flux-1-dev.md, pony-v6.md)
+
+### Linter results
+
+- **80 pages indexed**, 855 outbound edges, **0 orphans**, **0 stub quality flags**
+- **89 asymmetric edges** remaining — natural for new pages; hub-page reverse-links are additive, not breaking
+- **Gap detection**: 0 Type A (cited-unread stubs), 0 Type D (stale NEEDS VERIFICATION), 0 Type E (thin concepts) — **all clear**
+
+### Still needed (backlog)
+
+- `entities/uis/swarmui.md` has 0 inbound refs — needs backlinks from relevant pages
+- ~89 asymmetric edges remain — mostly "new page → existing page" without reverse. Acceptable for now; resolve on next touch
+- `entities/uis/comfyui.md` needs workflow JSON screenshots
+- `entities/hardware/gpu-guide.md` needs per-model × per-GPU benchmark data
+- `wiki_lint.py` should be run after any new page additions to catch structural issues early

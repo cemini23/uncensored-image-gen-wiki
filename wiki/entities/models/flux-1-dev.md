@@ -26,6 +26,9 @@ related:
   - entities/models/qwen-image-2512.md
   - entities/models/pixart-sigma.md
   - entities/models/sd3-deprecated.md
+  - entities/uis/comfyui.md
+  - entities/marketplaces/civitai.md
+  - entities/hardware/gpu-guide.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-05-06
@@ -55,6 +58,9 @@ updated: 2026-05-06
 @entities/models/qwen-image-2512.md
 @entities/models/pixart-sigma.md
 @entities/models/sd3-deprecated.md
+@entities/uis/comfyui.md
+@entities/marketplaces/civitai.md
+@entities/hardware/gpu-guide.md
 
 ## Raw Concept
 
