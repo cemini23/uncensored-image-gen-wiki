@@ -130,6 +130,28 @@ updated: 2026-05-06
 - `[NEEDS VERIFICATION YYYY-MM-DD]` — plausible but untested. **Always include the date** so staleness can be flagged
 - `[RETRACTED]` — previously believed, now disproven (model deprecated, new version supersedes, etc.). Keep in place with a note; don't delete
 
+## Related Wikis
+
+When a query needs data from another wiki, reference it using the `@wiki-alias/path/to/page.md` syntax. The LLM resolves these by reading the other wiki's files directly.
+
+| Alias | Path | Description |
+|-------|------|-------------|
+| `seo-wiki` | `/Users/claudiobarone/Desktop/projects/SEO:GEO B&M Business/wiki/` | SEO, local search (GEO), GEO/AEO, web design, social media marketing |
+| `osint-wiki` | `/Users/claudiobarone/Desktop/OSINT WORKSPACE/wiki/` | OSINT and financial research (includes conductor/librarian service) |
+
+### Cross-wiki link syntax
+
+- Use `@wiki-alias/path/to/page.md` for cross-wiki references (e.g., `@seo-wiki/concepts/geo-aeo.md`)
+- Bidirectional: if Image Gen page A references SEO wiki page B, add a matching `@image-gen-wiki/...` backlink on page B
+- When creating a stub in another wiki, note the cross-wiki dependency in `## Relations`
+
+### Using the OSINT conductor/librarian for unified search
+
+The OSINT workspace includes a **conductor** (MCP server that routes queries) + **librarian** (kb-server that serves wikis). To query across all three wikis:
+1. Sync all wikis to the librarian: `rsync -avz wiki/ cemini-librarian:/opt/cemini-wiki/image-gen-wiki/wiki/`
+2. Run `kb ingest` on the librarian to reindex
+3. Use `conductor_query` tool (exposed via OSINT's `conductor/mcp_server.py`) to query across all wikis
+
 ## Operations
 
 ### Ingest (adding a new source)
