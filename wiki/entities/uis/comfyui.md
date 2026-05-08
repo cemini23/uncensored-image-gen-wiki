@@ -40,6 +40,8 @@ related:
   - entities/models/mochi-1.md
   - entities/models/seedance-2.md
   - entities/persona-ops/postiz.md
+  - sources/ai-creator-operations-blueprint.md
+  - sources/ai-persona-launch-strategy-analysis.md
   - sources/uncensored-image-generation-survey.md
   - sources/synthetic-character-consistency-survey.md
   - sources/video-generation-survey-2026.md
@@ -55,6 +57,8 @@ updated: 2026-05-08
 
 ## Relations
 
+@sources/ai-creator-operations-blueprint.md
+@sources/ai-persona-launch-strategy-analysis.md
 @sources/uncensored-image-generation-survey.md
 @sources/synthetic-character-consistency-survey.md
 @sources/video-generation-survey-2026.md

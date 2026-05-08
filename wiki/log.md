@@ -765,3 +765,54 @@ Created two action-ready deliverables for a friend getting started with local AI
 
 - No new cross-link issues expected — model-selection-workflow references existing wiki pages via `@path` syntax and all targets exist.
 - Briefs index not tracked by wiki lint (different directory).
+
+---
+
+## [2026-05-08] ingest | AI Creator Operations & Compliance Blueprint + AI Persona Launch Strategy Analysis
+
+Two new deep-research docx files dropped into `research to be indexed/`. Both passed preingest check as NEW (no duplicates). Full content read and synthesized into wiki source pages.
+
+### Created
+
+**Sources (2)**
+
+- `wiki/sources/ai-creator-operations-blueprint.md` — operational blueprint for 100% AI-generated synthetic persona agency: KYC/2257 compliance, Florida Protected Series LLC, platform viability matrix (Fanvue/OnlyFans/Patreon/Passes), 4-phase launch sequence, daily ops via OpenRouter/n8n/CRM. Maturity: draft.
+- `wiki/sources/ai-persona-launch-strategy-analysis.md` — critical evaluation of synthetic persona deployment methodologies; technical compatibility scored 3/10 for cloud-dependent advice; recommends local Mac Studio/MLX/Draw Things, OpenRouter API with context truncation, IP-Adapter/ControlNet, ComfyUI+AnimateDiff, GEO over SEO; explicit KYC spoofing warning. Maturity: draft.
+
+**Entities (3)**
+
+- `wiki/entities/marketplaces/fanvue.md` — stub (from blueprint §2.1)
+- `wiki/entities/hardware/mac-studio.md` — stub (from both documents)
+- `wiki/concepts/persona-ops-workflow.md` — stub (synthesis placeholder)
+
+**Concepts (3)**
+
+- `wiki/concepts/geo-vs-seo.md` — stub (from both documents)
+- `wiki/concepts/openrouter-chat-workflow.md` — stub (from Launch Strategy §1.2 + §4.2)
+- `wiki/concepts/video-identity-inheritance.md` — updated with new source backlinks
+
+### Updated
+
+- `wiki/entities/uis/comfyui.md` — +ai-creator-operations-blueprint.md, +ai-persona-launch-strategy-analysis.md backlinks in both frontmatter and Relations section
+- `wiki/concepts/video-identity-inheritance.md` — +both new source backlinks in frontmatter and Relations
+- `wiki/index.md` — added 2 source rows (⚠ stub-source), 1 entity row (fanvue), 1 hardware row (mac-studio), 4 concept rows (persona-ops-workflow, geo-vs-seo, openrouter-chat-workflow, video-identity-inheritance updated)
+
+### Archived
+
+- `research to be indexed/AI Creator Operations & Compliance Blueprint.docx` → `raw-sources/`
+- `research to be indexed/AI Persona Launch Strategy Analysis.docx` → `raw-sources/`
+
+### Pages touched
+
+2 new sources + 3 new stubs + 3 existing updated + 1 index = **9 pages**.
+
+### Cross-cutting
+
+- Both documents converge on the same architecture: local Apple Silicon generation, OpenRouter LLM routing, GEO-based traffic, Fanvue as primary platform. The Launch Strategy Analysis explicitly rejects KYC spoofing (Octobrowser video spoofing) as wire-fraud-tier risk — aligns with the Operations Blueprint's compliance-first posture.
+- Many entity/concept pages referenced by these documents are still stubs — the source pages provide the detailed content; back-fill of dedicated entity pages is deferred to future touches.
+
+---
+
+### Lint state
+
+- New pages are stubs; expected to trigger orphan/gap flags until related pages are back-filled. Run `wiki_lint.py` after commit to verify.
