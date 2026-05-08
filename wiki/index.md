@@ -110,6 +110,16 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 
 ---
 
+## Runbooks
+
+Practical, printable guides for getting started — tracked in git (unlike `briefs/` which is gitignored).
+
+- [Beginner's Guide — Zero to Posting](runbooks/beginner-guide-to-persona.md) — 7-phase walkthrough from bare metal to posting; companion to Model Selection & Workflow Builder — `beginner, guide, persona, setup, comfyui`
+- [Day 1 Checklist — Friend's Start Pack](runbooks/day-1-checklist-for-friend.md) — morning image gen → afternoon OpenRouter video → evening marketing via SEO:GEO wiki cross-links — `day-1, checklist, friend, openrouter, video, marketing`
+- [Z-Image Turbo GGUF Setup](runbooks/zimage-setup-runbook.md) — 1-page ComfyUI+GGUF setup for macOS/CPU; MPS acceleration check — `z-image, gguf, comfyui, macos, setup-runbook`
+
+---
+
 ## Concepts
 
 - [Understanding-generation gap](concepts/understanding-generation-gap.md) — unified models verify prompt-image mismatches that they themselves cause when generating; coined in UniReasoner — `llm, diffusion, evaluation, prompt-faithfulness`
