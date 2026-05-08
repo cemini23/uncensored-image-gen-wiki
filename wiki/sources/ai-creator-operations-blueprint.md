@@ -5,8 +5,10 @@ tags: [operations, compliance, KYC, platform-viability, launch-sequence, financi
 keywords: [synthetic persona, KYC, 2257 compliance, Florida Protected Series LLC, Fanvue, OnlyFans, Patreon, Passes.com, OpenRouter, n8n, Multilogin, NodeMaven, Mac Studio, Draw Things, MLX, 2257, W-9, age verification]
 related:
   - concepts/persona-ops-workflow.md
+  - concepts/video-identity-inheritance.md
   - entities/marketplaces/fanvue.md
   - entities/hardware/mac-studio.md
+  - entities/uis/comfyui.md
   - concepts/geo-vs-seo.md
   - concepts/openrouter-chat-workflow.md
   - runbooks/day-1-checklist-for-friend.md

@@ -7,6 +7,7 @@ updated: 2026-05-08
 related:
   - concepts/model-selection-workflow.md
   - entities/models/openrouter-video.md
+  - sources/ai-creator-operations-blueprint.md
 maturity: draft
 ---
 

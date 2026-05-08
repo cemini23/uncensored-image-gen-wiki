@@ -16,6 +16,7 @@ related:
   - entities/training-tools/ai-toolkit.md
   - entities/training-tools/onetrainer.md
   - entities/training-tools/fluxgym.md
+  - entities/hardware/mac-studio.md
   - concepts/de-censoring-techniques.md
   - concepts/lora-taxonomy.md
   - concepts/reference-plus-lora-stacking.md

@@ -6,6 +6,7 @@ created: 2026-05-08
 updated: 2026-05-08
 related:
   - concepts/model-selection-workflow.md
+  - sources/ai-creator-operations-blueprint.md
 maturity: validated
 ---
 
