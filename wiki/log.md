@@ -739,3 +739,29 @@ W2 PDF inbox (9 papers carried over from prior sessions) triaged against the bui
 - `entities/uis/comfyui.md` needs workflow JSON screenshots
 - `entities/hardware/gpu-guide.md` needs per-model × per-GPU benchmark data
 - `wiki_lint.py` should be run after any new page additions to catch structural issues early
+
+---
+
+## [2026-05-08] deliverable | Model Selection & Workflow Builder + Beginner Guide
+
+Created two action-ready deliverables for a friend getting started with local AI image generation:
+
+### Created
+
+- `wiki/concepts/model-selection-workflow.md` — decision-support concept page mapping hardware tier + creative goals (style, video, persona?) to one of five canonical starter stacks; includes universal generation workflow diagram, prompting tips per base, upgrade decision table, and cross-cutting decision matrix. Maturity: validated.
+- `briefs/beginner-guide-to-persona.md` — complete beginner's guide from zero to posting: hardware verification, ComfyUI setup, model selection, Character DNA writing, first generations, identity adapters, LoRA training overview, likeness collision verification, Postiz posting setup, content cadence, and common beginner mistakes. No prior experience assumed.
+
+### Updated
+
+- `wiki/index.md` — added 1 concept row (model-selection-workflow). Brief not indexed in wiki (lives in briefs/).
+- `wiki/log.md` — this entry.
+
+### Cross-cutting
+
+- The model-selection workflow page synthesises content from the existing wiki (hardware guide, model entities, persona-consistency methods, reference-plus-LoRA stacking) into a goal-oriented decision tree rather than a reference-only catalog. It bridges the gap between "I have this GPU and want to start" and "here's exactly what to install and which model to pick."
+- The beginner guide is the most accessible entry point in the entire workspace — written for someone who has never generated an AI image, never trained a LoRA, and has never operated a persona. It deliberately omits platform policy / monetization depth (per MEMORY.md scope) and links to the runbook for that.
+
+### Lint state
+
+- No new cross-link issues expected — model-selection-workflow references existing wiki pages via `@path` syntax and all targets exist.
+- Briefs index not tracked by wiki lint (different directory).
