@@ -17,6 +17,9 @@ related:
   - concepts/persona-legal-landscape.md
   - concepts/persona-payment-rails.md
   - entities/personas/aitana-lopez.md
+  - concepts/marketing-your-persona.md
+  - concepts/model-selection-workflow.md
+  - entities/uis/comfyui.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07

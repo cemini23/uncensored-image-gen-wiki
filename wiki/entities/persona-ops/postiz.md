@@ -8,6 +8,9 @@ related:
   - concepts/persona-ops-stack.md
   - concepts/persona-content-cadence.md
   - entities/persona-ops/n8n.md
+  - concepts/marketing-your-persona.md
+  - concepts/model-selection-workflow.md
+  - entities/uis/comfyui.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07

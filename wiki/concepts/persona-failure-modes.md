@@ -13,6 +13,7 @@ related:
   - concepts/persona-content-cadence.md
   - concepts/persona-consistency-methods.md
   - concepts/likeness-collision-verification.md
+  - concepts/marketing-your-persona.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07

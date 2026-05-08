@@ -24,6 +24,8 @@ related:
   - entities/models/z-image-turbo.md
   - entities/models/flux-2-klein.md
   - sources/persona-ops-stack-2026.md
+  - entities/models/openrouter-video.md
+  - entities/uis/comfyui.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07

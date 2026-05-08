@@ -18,6 +18,7 @@ related:
   - @seo-wiki/concepts/content-strategy-local.md
   - @seo-wiki/entities/platforms/instagram.md
   - @seo-wiki/entities/platforms/tiktok.md
+  - entities/models/openrouter-video.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08

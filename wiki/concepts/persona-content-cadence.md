@@ -13,6 +13,7 @@ related:
   - entities/persona-ops/postiz.md
   - entities/persona-ops/n8n.md
   - entities/personas/aitana-lopez.md
+  - concepts/marketing-your-persona.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07

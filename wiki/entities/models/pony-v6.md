@@ -24,6 +24,10 @@ related:
   - entities/models/sdxl-fine-tunes.md
   - entities/uis/comfyui.md
   - entities/marketplaces/civitai.md
+  - concepts/model-selection-workflow.md
+  - entities/hardware/gpu-guide.md
+  - entities/uis/automatic1111.md
+  - entities/uis/forge.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-05-06

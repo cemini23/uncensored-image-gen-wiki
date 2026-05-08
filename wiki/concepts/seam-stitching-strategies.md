@@ -11,6 +11,7 @@ related:
   - entities/models/ltx-2.md
   - entities/models/mochi-1.md
   - entities/models/cogvideox-1-5.md
+  - entities/uis/comfyui.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07

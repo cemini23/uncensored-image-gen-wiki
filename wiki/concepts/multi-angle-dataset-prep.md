@@ -15,6 +15,7 @@ related:
   - entities/models/flux-2-klein.md
   - entities/models/qwen-image-2512.md
   - sources/headsup-3d-gaussian-head.md
+  - entities/uis/comfyui.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07

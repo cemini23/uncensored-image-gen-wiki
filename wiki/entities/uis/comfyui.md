@@ -43,6 +43,11 @@ related:
   - sources/uncensored-image-generation-survey.md
   - sources/synthetic-character-consistency-survey.md
   - sources/video-generation-survey-2026.md
+  - concepts/model-selection-workflow.md
+  - entities/uis/automatic1111.md
+  - entities/uis/forge.md
+  - entities/uis/invokeai.md
+  - entities/uis/swarmui.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08

@@ -9,6 +9,8 @@ related:
   - concepts/seam-stitching-strategies.md
   - concepts/de-censoring-techniques.md
   - concepts/censorship-tier-taxonomy.md
+  - concepts/model-selection-workflow.md
+  - entities/uis/comfyui.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07

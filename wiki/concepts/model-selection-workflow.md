@@ -38,6 +38,8 @@ related:
   - entities/uis/comfyui.md
   - sources/uncensored-image-generation-survey.md
   - sources/synthetic-character-consistency-survey.md
+  - runbooks/beginner-guide-to-persona.md
+  - runbooks/day-1-checklist-for-friend.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08

@@ -10,6 +10,8 @@ related:
   - entities/models/flux-1-dev.md
   - entities/models/flux-2-klein.md
   - sources/uncensored-image-generation-survey.md
+  - entities/uis/invokeai.md
+  - entities/uis/swarmui.md
 maturity: stub
 created: 2026-05-08
 updated: 2026-05-08

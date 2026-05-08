@@ -18,6 +18,9 @@ related:
   - entities/models/noobai-xl.md
   - entities/models/flux-1-dev.md
   - entities/models/sdxl-fine-tunes.md
+  - concepts/model-selection-workflow.md
+  - entities/hardware/gpu-guide.md
+  - entities/uis/comfyui.md
 maturity: draft
 created: 2026-05-06
 updated: 2026-05-06

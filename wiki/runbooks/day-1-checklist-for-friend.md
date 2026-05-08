@@ -4,6 +4,9 @@ type: brief
 target: Friend starting AI persona OF operation (Image + Video + Marketing)
 created: 2026-05-08
 updated: 2026-05-08
+related:
+  - concepts/model-selection-workflow.md
+  - entities/models/openrouter-video.md
 maturity: draft
 ---
 

@@ -10,6 +10,8 @@ related:
   - entities/models/flux.md
   - entities/models/flux-1-dev.md
   - entities/models/playground-v3.md
+  - entities/marketplaces/civitai.md
+  - entities/uis/comfyui.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-05-06

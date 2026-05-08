@@ -16,6 +16,10 @@ related:
   - concepts/de-censoring-techniques.md
   - entities/models/anima.md
   - entities/models/sdxl-fine-tunes.md
+  - concepts/model-selection-workflow.md
+  - entities/hardware/gpu-guide.md
+  - entities/marketplaces/civitai.md
+  - entities/uis/automatic1111.md
 maturity: draft
 created: 2026-05-06
 updated: 2026-05-06

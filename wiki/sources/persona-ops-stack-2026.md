@@ -16,6 +16,7 @@ related:
   - entities/persona-ops/sillytavern.md
   - entities/persona-ops/fish-speech.md
   - entities/persona-ops/n8n.md
+  - concepts/marketing-your-persona.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-07

@@ -17,6 +17,8 @@ related:
   - entities/models/z-image-turbo.md
   - entities/models/flux-2-klein.md
   - sources/headsup-3d-gaussian-head.md
+  - entities/models/openrouter-video.md
+  - entities/uis/comfyui.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07

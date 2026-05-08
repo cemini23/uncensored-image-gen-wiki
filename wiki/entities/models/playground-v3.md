@@ -9,6 +9,7 @@ related:
   - concepts/de-censoring-techniques.md
   - entities/models/flux.md
   - entities/models/sd3-deprecated.md
+  - entities/uis/comfyui.md
 maturity: draft
 created: 2026-05-06
 updated: 2026-05-06

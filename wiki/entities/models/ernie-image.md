@@ -10,6 +10,7 @@ related:
   - entities/models/flux.md
   - entities/models/qwen-image-2512.md
   - entities/models/z-image-turbo.md
+  - entities/uis/comfyui.md
 maturity: draft
 created: 2026-05-06
 updated: 2026-05-06

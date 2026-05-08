@@ -12,6 +12,9 @@ related:
   - entities/models/flux.md
   - entities/models/flux-2-klein.md
   - entities/training-tools/ai-toolkit.md
+  - concepts/model-selection-workflow.md
+  - entities/marketplaces/civitai.md
+  - entities/uis/comfyui.md
 maturity: draft
 created: 2026-05-06
 updated: 2026-05-06

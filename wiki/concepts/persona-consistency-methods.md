@@ -42,6 +42,8 @@ related:
   - entities/personas/aitana-lopez.md
   - sources/persona-ops-stack-2026.md
   - sources/headsup-3d-gaussian-head.md
+  - concepts/model-selection-workflow.md
+  - entities/uis/comfyui.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-05-07

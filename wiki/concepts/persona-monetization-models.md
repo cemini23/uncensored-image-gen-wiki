@@ -14,6 +14,7 @@ related:
   - concepts/persona-legal-landscape.md
   - entities/persona-ops/fish-speech.md
   - entities/persona-ops/sillytavern.md
+  - concepts/marketing-your-persona.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07

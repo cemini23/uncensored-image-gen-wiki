@@ -12,6 +12,7 @@ related:
   - entities/models/flux.md
   - entities/models/flux-1-dev.md
   - entities/models/flux-2-klein.md
+  - entities/uis/comfyui.md
 maturity: draft
 created: 2026-05-06
 updated: 2026-05-07

@@ -22,6 +22,14 @@ related:
   - entities/models/pixart-sigma.md
   - entities/models/sdxl-fine-tunes.md
   - entities/models/sd3-deprecated.md
+  - concepts/model-selection-workflow.md
+  - entities/hardware/gpu-guide.md
+  - entities/marketplaces/civitai.md
+  - entities/uis/automatic1111.md
+  - entities/uis/comfyui.md
+  - entities/uis/forge.md
+  - entities/uis/invokeai.md
+  - entities/uis/swarmui.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-05-06

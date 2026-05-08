@@ -17,6 +17,9 @@ related:
   - sources/video-generation-survey-2026.md
   - concepts/video-identity-inheritance.md
   - concepts/multi-angle-dataset-prep.md
+  - concepts/model-selection-workflow.md
+  - entities/hardware/gpu-guide.md
+  - entities/uis/comfyui.md
 maturity: draft
 created: 2026-05-06
 updated: 2026-05-07

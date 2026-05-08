@@ -33,6 +33,10 @@ related:
   - concepts/video-identity-inheritance.md
   - sources/persona-monetization-2026.md
   - sources/persona-ops-stack-2026.md
+  - concepts/model-selection-workflow.md
+  - entities/hardware/gpu-guide.md
+  - entities/marketplaces/civitai.md
+  - entities/uis/comfyui.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-05-07

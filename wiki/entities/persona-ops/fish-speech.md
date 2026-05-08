@@ -9,6 +9,7 @@ related:
   - concepts/persona-monetization-models.md
   - entities/persona-ops/sillytavern.md
   - entities/persona-ops/n8n.md
+  - concepts/model-selection-workflow.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07

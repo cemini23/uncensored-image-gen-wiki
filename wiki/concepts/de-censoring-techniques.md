@@ -29,6 +29,9 @@ related:
   - entities/models/hunyuanvideo-1-5.md
   - entities/models/mochi-1.md
   - entities/models/cogvideox-1-5.md
+  - entities/hardware/gpu-guide.md
+  - entities/marketplaces/civitai.md
+  - entities/uis/comfyui.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-05-07

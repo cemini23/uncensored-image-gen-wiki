@@ -16,6 +16,9 @@ related:
   - entities/models/kwai-kolors.md
   - sources/video-generation-survey-2026.md
   - concepts/video-identity-inheritance.md
+  - runbooks/zimage-setup-runbook.md
+  - concepts/model-selection-workflow.md
+  - entities/uis/comfyui.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-05-07

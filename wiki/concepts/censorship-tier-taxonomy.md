@@ -29,6 +29,8 @@ related:
   - entities/models/ltx-2.md
   - entities/models/mochi-1.md
   - entities/models/cogvideox-1-5.md
+  - concepts/model-selection-workflow.md
+  - entities/marketplaces/civitai.md
 maturity: draft
 created: 2026-05-06
 updated: 2026-05-07

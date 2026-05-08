@@ -9,6 +9,7 @@ related:
   - entities/models/hunyuanvideo-1-5.md
   - concepts/seam-stitching-strategies.md
   - concepts/censorship-tier-taxonomy.md
+  - entities/uis/comfyui.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07

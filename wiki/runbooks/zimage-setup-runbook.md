@@ -1,3 +1,10 @@
+---
+title: Z-Image Turbo GGUF -- ComfyUI Setup Runbook
+type: runbook
+related:
+  - entities/models/z-image-turbo.md
+---
+
 # Z-Image Turbo GGUF -- ComfyUI Setup Runbook
 
 Standalone 1-page reference for getting Z-Image Turbo (GGUF quantized) running on ComfyUI, macOS.

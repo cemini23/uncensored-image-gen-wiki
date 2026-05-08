@@ -16,6 +16,8 @@ related:
   - concepts/reference-plus-lora-stacking.md
   - entities/models/pony-v6.md
   - entities/models/illustrious-xl.md
+  - concepts/model-selection-workflow.md
+  - entities/uis/comfyui.md
 maturity: draft
 created: 2026-05-06
 updated: 2026-05-06

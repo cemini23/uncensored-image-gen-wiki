@@ -4,6 +4,8 @@ type: brief
 target: beginner (no prior image-gen or persona experience)
 created: 2026-05-08
 updated: 2026-05-08
+related:
+  - concepts/model-selection-workflow.md
 maturity: validated
 ---
 

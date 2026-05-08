@@ -15,6 +15,7 @@ related:
   - entities/training-tools/kohya-sd-scripts.md
   - entities/training-tools/ai-toolkit.md
   - concepts/de-censoring-techniques.md
+  - concepts/model-selection-workflow.md
 maturity: draft
 created: 2026-05-06
 updated: 2026-05-06

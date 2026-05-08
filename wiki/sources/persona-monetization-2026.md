@@ -13,6 +13,7 @@ related:
   - concepts/persona-content-cadence.md
   - concepts/persona-ops-stack.md
   - entities/personas/aitana-lopez.md
+  - concepts/marketing-your-persona.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-07

@@ -21,6 +21,9 @@ related:
   - entities/models/flux-2-klein.md
   - sources/video-generation-survey-2026.md
   - concepts/video-identity-inheritance.md
+  - concepts/model-selection-workflow.md
+  - entities/marketplaces/civitai.md
+  - entities/uis/comfyui.md
 maturity: draft
 created: 2026-05-06
 updated: 2026-05-07

@@ -13,6 +13,9 @@ related:
   - entities/models/illustrious-xl.md
   - entities/models/noobai-xl.md
   - entities/training-tools/kohya-sd-scripts.md
+  - concepts/model-selection-workflow.md
+  - entities/marketplaces/civitai.md
+  - entities/uis/automatic1111.md
 maturity: draft
 created: 2026-05-06
 updated: 2026-05-06

@@ -21,6 +21,9 @@ related:
   - entities/models/pony-v7.md
   - concepts/de-censoring-techniques.md
   - entities/models/sdxl-fine-tunes.md
+  - concepts/model-selection-workflow.md
+  - entities/hardware/gpu-guide.md
+  - entities/uis/comfyui.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-05-06

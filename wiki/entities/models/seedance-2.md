@@ -8,6 +8,8 @@ related:
   - entities/models/wan-2-2.md
   - concepts/video-identity-inheritance.md
   - concepts/persona-consistency-methods.md
+  - entities/models/openrouter-video.md
+  - entities/uis/comfyui.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07
