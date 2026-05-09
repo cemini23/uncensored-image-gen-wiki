@@ -15,6 +15,7 @@ related:
   - entities/persona-ops/n8n.md
   - entities/personas/aitana-lopez.md
   - concepts/marketing-your-persona.md
+  - sources/virtual-persona-narrative-development-strategy.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07

@@ -20,6 +20,7 @@ related:
   - concepts/synthetic-media-corporate-structure.md
   - sources/synthetic-media-ip-financial-roadmap.md
   - sources/mac-studio-ai-content-factory-design.md
+  - sources/virtual-persona-narrative-development-strategy.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08
