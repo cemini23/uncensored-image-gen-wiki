@@ -28,19 +28,26 @@ The wiki is structured for an LLM-driven librarian workflow (Claude Code, Codex,
 ├── LESSONS.md           # meta-lessons about how the workspace works
 ├── ROADMAP.md           # active workstreams + done log
 ├── README.md            # this file
+├── hot.md               # session-state cache (gitignored)
 ├── LICENSE              # MIT
 ├── .gitignore
 ├── .env.example         # template for optional API keys (DeepSeek, Brave, Exa, CivitAI, HF)
+├── .obsidian/           # Obsidian vault config (templates, CSS snippets, workspace layout)
 ├── wiki/
 │   ├── index.md         # content-oriented catalog of all wiki pages
 │   ├── log.md           # append-only chronological operations log
+│   ├── dashboard.md     # Dataview-powered dashboard page
 │   ├── sources/         # one page per ingested source
-│   ├── entities/        # models, adapters, training tools, UIs, custom nodes, marketplaces
-│   └── concepts/        # techniques, methodologies, workflows
-├── notes/               # legacy notes (migration to wiki/ pending)
-├── prompts/             # reusable research prompts
-├── scripts/             # wiki tooling (lint, gap detection, ingest dedup)
-└── raw-sources/         # gitignored — raw research inputs
+│   ├── entities/        # domain-organized: models/, adapters/, training-tools/, uis/,
+│   │                    #   marketplaces/, hardware/, persona-ops/, personas/
+│   ├── concepts/        # techniques, methodologies, workflows, ops strategies
+│   └── runbooks/        # beginner-to-intermediate task guides
+├── briefs/              # polished deliverables (gitignored)
+├── docs/                # third-party reference docs (read-only)
+├── notes/               # legacy LIGHT-mode notes (migration to wiki/ pending)
+├── prompts/             # reusable research prompts (deep-research, case-studies, etc.)
+├── scripts/             # wiki lint, gap detection, ingest dedup, pre-commit hook, wiki sync
+└── raw-sources/         # gitignored — raw research inputs (papers, model cards, repo dumps)
 ```
 
 ## Wiki page format
@@ -50,7 +57,7 @@ Every wiki page is a Markdown file with YAML frontmatter and structured sections
 ```yaml
 ---
 title: Human-readable title
-type: source | entity | concept
+type: source | entity | concept | brief
 tags: [coarse, category, labels]
 keywords: [fine, grained, search, terms]
 related:
@@ -77,6 +84,17 @@ Body sections: `## Relations` (mirrors `related:`), `## Raw Concept` (provenance
 ### Bidirectional links
 
 Pages link via `@path/to/page.md` syntax (relative to `wiki/`). If page A lists B in `related:`, B must list A. The lint script (`scripts/wiki_lint.py`) enforces this.
+
+### Cross-wiki links
+
+This wiki interconnects with two sister wikis via `@wiki-alias/path/to/page.md` syntax:
+
+| Alias | Wiki | Purpose |
+|---|---|---|
+| `@seo-wiki` | SEO / GEO / B&M Business | Marketing, social media, content strategy, GEO |
+| `@osint-wiki` | OSINT Workspace | Financial research, conductor/librarian service |
+
+The lint script validates cross-wiki references against the target wiki's filesystem.
 
 ## Operations
 
