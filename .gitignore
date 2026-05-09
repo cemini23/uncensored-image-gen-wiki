@@ -45,7 +45,7 @@ hot.md
 *~
 .idea/
 .vscode/
-.obsidian/
+# .obsidian/ — now versioned (Obsidian config + templates + CSS snippets)
 
 # --- Python ------------------------------------------------------------------
 __pycache__/
