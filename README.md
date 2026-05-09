@@ -119,7 +119,33 @@ cp .env.example .env
 open wiki/index.md
 ```
 
-The wiki is plain Markdown — works in any editor or static-site generator (MkDocs, Quartz, Obsidian) with minor adapter glue.
+### Obsidian vault setup (recommended)
+
+For the best experience with cross-links, templates, and CSS styling:
+
+```bash
+chmod +x obsidian-setup.sh
+./obsidian-setup.sh
+```
+
+This script:
+- Creates a persistent symlink (`~/ImageGenWiki` → `wiki/`) so Obsidian can open the vault directly
+- Installs Python dependencies needed by the lint scripts
+- Generates a tuned `.obsidian/workspace.json` with sidebar panels (graph, backlinks, tag pane, outline)
+- Creates a desktop launcher (macOS / Linux)
+
+After running the script, open Obsidian → **Open Vault** → select `~/ImageGenWiki`. Then install the recommended community plugins:
+
+| Plugin | Purpose |
+|---|---|
+| **Templater** | Auto-generates pages from `.obsidian/templates/` |
+| **Dataview** | Powers `wiki/dashboard.md` queries |
+| **Calendar** | Optional — timeline view |
+| **Excalidraw** | Optional — diagrams in concept pages |
+
+Enable CSS snippets in Settings → Appearance for citation badge and cross-link styling (`.obsidian/snippets/cross-links-and-citations.css`).
+
+The wiki is plain Markdown — works in any editor or static-site generator (MkDocs, Quartz) too.
 
 ## Scope and posture
 
