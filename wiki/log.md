@@ -816,3 +816,33 @@ Two new deep-research docx files dropped into `research to be indexed/`. Both pa
 ### Lint state
 
 - New pages are stubs; expected to trigger orphan/gap flags until related pages are back-filled. Run `wiki_lint.py` after commit to verify.
+
+---
+
+## [2026-05-08] Integrate ops blueprint + launch strategy into end-to-end runbook
+
+### Sources engaged
+
+- `sources/ai-creator-operations-blueprint.md` — compliance, platform matrix, 4-phase launch, daily ops
+- `sources/ai-persona-launch-strategy-analysis.md` — Mac Studio stack, OpenRouter context mgmt, GEO, IP-Adapter/ControlNet
+
+### Created
+
+- `wiki/runbooks/zimage-setup-runbook.md` (expanded from 1-page setup to full end-to-end runbook with compliance, hardware, identity consistency, video, platform matrix, 4-phase launch, GEO, monetization, troubleshooting)
+
+### Updated
+
+- `wiki/concepts/persona-ops-workflow.md` — expanded stub to full operational lifecycle from both source docs (4-phase framework, daily ops, compliance checklist)
+- `wiki/concepts/geo-vs-seo.md` — enriched stub with S-E-T framework, schema markup, geographic anchoring, social funnel automation
+- `wiki/concepts/openrouter-chat-workflow.md` — expanded stub with context window management script, positive-framing prompt design, n8n integration architecture
+- `wiki/entities/hardware/mac-studio.md` — expanded stub with performance benchmarks, Draw Things vs ComfyUI comparison, power/acoustics notes
+- `wiki/entities/marketplaces/fanvue.md` — expanded stub with Manager Accounts detail, revenue data, TOS compliance, platform alternatives
+- `wiki/entities/uis/comfyui.md` — added Apple Silicon performance notes, custom node install commands, model compatibility matrix, dual-pass pipeline patterns, Draw Things hybrid workflow
+- `wiki/runbooks/day-1-checklist-for-friend.md` — restructured into 5 phases (Infrastructure/Legal → Hardware → Persona Creation → Video → Platform/Marketing) with full compliance checklist
+- `wiki/index.md` — updated Z-Image Turbo runbook entry with expanded tag set
+
+### Cross-cutting
+
+- Both source documents converge on: local Apple Silicon generation, OpenRouter LLM routing, GEO over SEO, Fanvue as primary platform, strict KYC compliance (no spoofing)
+- Day-1 checklist now bridges from raw hardware setup through to platform monetization, previously started mid-pipeline
+- Runbook now serves as single entry point for the full persona operation lifecycle; individual concept/entity pages provide depth on each subsystem

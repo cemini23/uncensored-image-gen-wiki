@@ -120,7 +120,7 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 
 - [Beginner's Guide — Zero to Posting](runbooks/beginner-guide-to-persona.md) — 7-phase walkthrough from bare metal to posting; companion to Model Selection & Workflow Builder — `beginner, guide, persona, setup, comfyui`
 - [Day 1 Checklist — Friend's Start Pack](runbooks/day-1-checklist-for-friend.md) — morning image gen → afternoon OpenRouter video → evening marketing via SEO:GEO wiki cross-links — `day-1, checklist, friend, openrouter, video, marketing`
-- [Z-Image Turbo GGUF Setup](runbooks/zimage-setup-runbook.md) — 1-page ComfyUI+GGUF setup for macOS/CPU; MPS acceleration check — `z-image, gguf, comfyui, macos, setup-runbook`
+- [Z-Image Turbo GGUF — End-to-End Persona Operation Runbook](runbooks/zimage-setup-runbook.md) — local image gen, compliance (KYC/2257/LLC), platform matrix, 4-phase launch, GEO, OpenRouter chat automation, monetization — `z-image, gguf, comfyui, macos, setup-runbook, compliance, persona-ops, geo, openrouter`
 
 ---
 

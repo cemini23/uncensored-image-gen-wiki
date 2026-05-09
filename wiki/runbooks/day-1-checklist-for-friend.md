@@ -8,204 +8,338 @@ related:
   - concepts/model-selection-workflow.md
   - entities/models/openrouter-video.md
   - sources/ai-creator-operations-blueprint.md
+  - sources/ai-persona-launch-strategy-analysis.md
+  - runbooks/zimage-setup-runbook.md
+  - entities/hardware/mac-studio.md
+  - entities/marketplaces/fanvue.md
+  - concepts/geo-vs-seo.md
+  - concepts/openrouter-chat-workflow.md
+  - concepts/persona-ops-workflow.md
+  - concepts/persona-legal-landscape.md
 maturity: draft
 ---
 
 ## Target
 
-Your friend, starting tomorrow: set up a full AI persona operation generating images + videos, using this wiki + SEO:GEO marketing wiki.
+Your friend, starting tomorrow: set up a full AI persona operation — local image generation, video, compliance, platform launch, and automated marketing — using this wiki + SEO:GEO marketing wiki.
 
 ---
 
 ## Summary
 
-Actionable Day 1 checklist combining:
+Actionable Day 1–4 checklist combining:
 - **Image gen** from `wiki/` + `briefs/beginner-guide-to-persona.md`
 - **Video gen** from `wiki/entities/models/openrouter-video.md` (OpenRouter API)
+- **Compliance & ops** from `wiki/sources/ai-creator-operations-blueprint.md`
+- **Strategy & dev** from `wiki/sources/ai-persona-launch-strategy-analysis.md`
 - **Marketing** from `@seo-wiki/` cross-wiki links (SEO:GEO wiki)
 
 ---
 
-## Day 1 Morning — Image Generation Setup (2-3 hours)
+## Phase I — Infrastructure & Legal Prep (Before Day 1)
 
-### Step 1: Check hardware (5 min)
-```bash
-# Windows:
-nvidia-smi  # Look for GPU name + VRAM (need 8 GB min)
-# macOS:
-system_profiler SPDisplaysDataType  # Look for "VRAM (Dynamic)" (need 16 GB+ unified)
-```
+### Proton Mail + Custom Domain
+- [ ] Set up Proton Mail account for persona communications
+- [ ] Register custom domain for email forwarding aliases
+- [ ] Create unique alias per platform / persona
 
-**If <8 GB VRAM:** Use cloud APIs (OpenRouter) for everything. Skip local install.
+### Legal Entity (Florida Protected Series LLC)
+- [ ] Consult attorney about Florida Protected Series LLC formation
+- [ ] File articles of incorporation (master LLC + per-persona protected series)
+- [ ] Obtain EIN for each protected series
+- [ ] Open dedicated bank account per protected series
+- [ ] Prepare W-9 (domestic) or W-8BEN (international) for each entity
 
-### Step 2: Install ComfyUI (30-60 min)
-```bash
-# Windows/Linux:
-cd ~
-git clone https://github.com/comfyanonymous/ComfyUI.git
-cd ComfyUI && pip install -r requirements.txt
+### Proxy & Browser Isolation
+- [ ] Subscribe to NodeMaven residential proxies (Estonia)
+- [ ] Install Multilogin — create isolated profile per persona
+- [ ] Configure unique hardware canvas, user-agent, font rendering per profile
 
-# macOS (alternative): Download Draw Things app from https://drawthings.ai/
-```
-
-### Step 3: Download first model (15-30 min)
-| Hardware | Model | Where |
-|-----------|-------|-------|
-| 8-12 GB VRAM | Pony V6 XL | [CivitAI 169278](https://civitai.com/models/169278) |
-| 16+ GB VRAM | FLUX.1 Dev | HF: `black-forest-labs/FLUX.1-dev` |
-| Mac 16-24 GB | FLUX.2 Klein 4B | HF: `black-forest-labs/FLUX.2-Klein-dev` |
-| Cloud only (no GPU) | Skip → use OpenRouter | See Afternoon section |
-
-Place `.safetensors` in `ComfyUI/models/checkpoints/`.
-
-### Step 4: First persona image (30-60 min)
-1. Write your **Character Bible** (save as `my_persona/character.md`):
-   ```
-   Name: [chosen fictional name]
-   Trigger word: [unique trigger, e.g. "alex_persona"]
-   Age: 25, Ethnicity: South Asian
-   Face: dark brown eyes, straight black hair, small scar on left chin
-   Body: 5'6", slim, light brown skin
-   Signature: silver hoop earring, oversized sweaters
-   Personality: tech-savvy, calm, witty
-   ```
-
-2. Generate 20-30 test images:
-   - **Pony V6:** `alex_persona, score_9, 1girl, solo, standing, masterpiece, best quality`
-   - **FLUX:** `A photorealistic portrait of Alex, 25yo South Asian woman, dark brown eyes, small scar on left chin, wearing oversized cream sweater, cozy room, warm light`
-
-3. **Likeness check** (before posting): Upload best images to:
-   - [PimEyes](https://pimeyes.com/) (paid, best)
-   - [FaceCheck.ID](https://facecheck.id/) (free)
-   - If ≥70% match to real person → change Character Bible, regenerate
+> ⚠️ **KYC spoofing via anti-detect browsers or deepfake video is highly illegal and guarantees permanent platform bans.** All KYC must use real human identity of the LLC's registered legal representative.
 
 ---
 
-## Day 1 Afternoon — Video Generation (1-2 hours)
+## Phase II — Local Hardware & Software Setup (Day 1 Morning, ~3 hours)
 
-### Option A: OpenRouter (recommended, no GPU needed)
+### Step 1: Verify Hardware (15 min)
+```bash
+# macOS:
+system_profiler SPDisplaysDataType  # Look for "VRAM (Dynamic)" — need 16 GB+ unified
 
-1. **Get OpenRouter API key:** Sign up at https://openrouter.ai/ → API Keys
+# Check PyTorch + MPS:
+python3 -c "
+import torch
+print('MPS available:', torch.backends.mps.is_available())
+print('PyTorch version:', torch.__version__)
+"
+```
 
-2. **Test Kling 3.0 Standard** (cheapest, best I2V consistency):
-   ```bash
-   # Test text-to-video:
-   curl -X POST "https://openrouter.ai/api/v1/videos/generate" \
-     -H "Authorization: Bearer $OPENROUTER_API_KEY" \
-     -H "Content-Type: application/json" \
-     -d '{
-       "model": "kuaishou/kling-v3-standard",
-       "prompt": "Alex walking through a cozy bookstore, soft afternoon light, shallow depth of field",
-       "duration": 10,
-       "aspect_ratio": "9:16"
-     }'
+**Hardware recommendations (from Launch Strategy Analysis §1.1):**
 
-   # Check job status:
-   curl "https://openrouter.ai/api/v1/videos/jobs/{job_id}" \
-     -H "Authorization: Bearer $OPENROUTER_API_KEY"
-   ```
+| Configuration | Memory | Typical Inference (Flux, 1024×1024) |
+|---|---|---|
+| M4 Pro 24 GB | Unified | ~50s |
+| M3 Ultra 192 GB | Unified | Sub-30s |
+| M4 Max / Ultra 512 GB | Unified | Fastest |
 
-3. **I2V from your best image** (preserves persona face):
-   ```bash
-   # Upload master image somewhere public (e.g., imgur), then:
-   curl -X POST "https://openrouter.ai/api/v1/videos/generate" \
-     -H "Authorization: Bearer $OPENROUTER_API_KEY" \
-     -H "Content-Type: application/json" \
-     -d '{
-       "model": "kuaishou/kling-v3-pro",
-       "prompt": "Alex walking through a cozy bookstore",
-       "image": "https://your-server.com/master_image.jpg",
-       "duration": 15,
-       "aspect_ratio": "9:16"
-     }'
-   ```
+> Unlike NVIDIA dGPUs (max 24GB on RTX 4090), Mac Studio UMA allocates 192–512GB to Neural Engine + GPU.
 
-**Cost:** ~$0.15 per 10s clip (Standard), ~$0.30 (Pro)
+### Step 2: Install ComfyUI (30 min)
+```bash
+git clone https://github.com/comfyanonymous/ComfyUI.git ~/ComfyUI
+cd ~/ComfyUI && python3 -m venv venv
+source venv/bin/activate
+pip install --upgrade pip
+pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cpu
+pip install -r requirements.txt
+```
+
+Also install **Draw Things** for faster production generation:
+- Download from https://github.com/lllyasviel/draw-things
+- Native Metal + MLX/CoreML → ~20% faster than ComfyUI on Apple Silicon
+
+### Step 3: Install Essential Custom Nodes
+```bash
+cd ~/ComfyUI/custom_nodes
+
+# GGUF support (for Z-Image Turbo)
+git clone https://github.com/city96/ComfyUI-GGUF.git
+
+# Identity consistency (critical for persona)
+git clone https://github.com/cubiq/ComfyUI_IPAdapter_plus.git   # IP-Adapter
+git clone https://github.com/ltdrdata/ComfyUI-Impact-Pack.git  # Face detailer
+
+# Video generation
+git clone https://github.com/Kosinkadink/ComfyUI-VideoHelperSuite.git
+
+# Face swap pipeline
+git clone https://github.com/iFayens/ComfyUI-PuLID-Flux2.git
+
+# Restart ComfyUI after installing all nodes
+```
+
+### Step 4: Download First Model (15–30 min)
+
+| Hardware | Model | Where | Notes |
+|----------|-------|-------|-------|
+| 8–12 GB unified | Pony V6 XL | [CivitAI 169278](https://civitai.com/models/169278) | SDXL fine-tune, score_9 tags |
+| 16+ GB unified | FLUX.1 Dev | [HF: black-forest-labs/FLUX.1-dev](https://huggingface.co/black-forest-labs/FLUX.1-dev) | Full quality, uncensored |
+| 24+ GB unified | Z-Image Turbo GGUF | HF / ComfyUI-GGUF | Sub-second, great for drafts |
+| 16–24 GB unified | FLUX.2 Klein 4B | [HF: black-forest-labs/FLUX.2-Klein-dev](https://huggingface.co/black-forest-labs/FLUX.2-Klein-dev) | Sub-second, excellent quality |
+
+Place model files in `ComfyUI/models/checkpoints/` (safetensors) or `ComfyUI/models/unet/` (GGUF).
+
+### Step 5: Install OpenRouter CLI tools
+```bash
+# Get API key: https://openrouter.ai/ → API Keys
+export OPENROUTER_API_KEY="your-key-here"
+
+# Verify connectivity:
+curl -H "Authorization: Bearer $OPENROUTER_API_KEY" \
+  https://openrouter.ai/api/v1/models | python3 -m json.tool | head -20
+```
+
+---
+
+## Phase III — Persona Identity Creation (Day 1 Afternoon, ~2 hours)
+
+### Step 6: Write Character Bible
+Create `my_persona/character.md`:
+```
+Name: [chosen fictional name]
+Trigger word: [unique trigger, e.g. "alex_persona"]
+Age: 25, Ethnicity: South Asian
+Face: dark brown eyes, straight black hair, small scar on left chin
+Body: 5'6", slim, light brown skin
+Signature: silver hoop earring, oversized sweaters
+Personality: tech-savvy, calm, witty
+```
+
+### Step 7: Generate Anchor Image Set (20–30 images)
+
+**Pony V6 (Danbooru-tag style):**
+```
+alex_persona, score_9, 1girl, solo, standing, masterpiece, best quality
+```
+
+**FLUX (natural language, as described in Z-Image runbook §Prompting Tips):**
+```
+A high-quality, detailed 8K photograph of Alex, a 25-year-old South Asian woman with dark brown eyes and a small scar on the left chin, wearing an oversized cream sweater, warm room lighting, digital art
+```
+
+**KSampler Settings** (from runbook):
+| Parameter | Value |
+|-----------|-------|
+| Steps | 15–20 |
+| Sampler | `dpmpp_2m_sde` |
+| Scheduler | `karras` |
+| CFG | 3.5–4.5 |
+| Denoise | 1.0 |
+
+### Step 8: Apply Identity Consistency
+- Install **IP-Adapter** on best image (strength 0.4–0.5) — locks facial structure regardless of prompt
+- Optionally add **ControlNet** (OpenPose) for consistent body positioning
+- **Likeness collision check**: Upload best images to [PimEyes](https://pimeyes.com/) and [FaceCheck.ID](https://facecheck.id/) — if ≥70% match to any real person, modify Character Bible and regenerate
+
+### Step 9: Lock Persona via LoRA Fine-Tune
+Train a small LoRA (or use DreamBooth) on the 10–15 best images to create an identity-locked model. This becomes your "Anchor LoRA" for all future generation.
+
+---
+
+## Phase IIII — Video Setup (Day 1 Evening or Day 2 Morning, ~1.5 hours)
+
+### Option A: OpenRouter API (Recommended — No GPU needed)
+
+**Text-to-video:**
+```bash
+curl -X POST "https://openrouter.ai/api/v1/videos/generate" \
+  -H "Authorization: Bearer $OPENROUTER_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "kuaishou/kling-v3-standard",
+    "prompt": "Alex walking through a cozy bookstore, soft afternoon light",
+    "duration": 10,
+    "aspect_ratio": "9:16"
+  }'
+```
+
+**Image-to-video** (preserves persona face):
+```bash
+curl -X POST "https://openrouter.ai/api/v1/videos/generate" \
+  -H "Authorization: Bearer $OPENROUTER_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "kuaishou/kling-v3-pro",
+    "prompt": "Alex walking through a cozy bookstore",
+    "image": "https://your-server.com/master_image.jpg",
+    "duration": 15,
+    "aspect_ratio": "9:16"
+  }'
+```
+- Cost: ~$0.15/10s (Standard), ~$0.30/10s (Pro)
+
+> **Context window management**: Use the Python script in `concepts/openrouter-chat-workflow.md` to truncate conversation history and avoid token cost explosion. Positive-framing system prompts work better than negative constraints for NSFW content.
 
 ### Option B: Local Wan 2.2 (16+ GB GPU only)
-
-See `wiki/entities/models/wan-2-2.md` + `wiki/concepts/video-identity-inheritance.md`.
-
-**Quick path:** ComfyUI → Load Wan 2.2 5B FP8 → CLIP Vision encoder → I2V from master image.
+ComfyUI → Load Wan 2.2 5B FP8 → CLIP Vision → I2V from master image.
+For longer clips, use **AnimateDiff** with temporal attention nodes + **seam stitching** (latent chaining).
 
 ---
 
-## Day 1 Evening — Marketing Setup (1 hour)
+## Phase IV — Platform Setup & Compliance (Day 2, ~3 hours)
 
-### Step 1: Read SEO:GEO wiki pages (via cross-wiki links)
+### Step 10: Fanvue KYC
+- [ ] Through Multilogin + NodeMaven: register on Fanvue
+- [ ] Human compliance officer / LLC legal owner completes government ID + biometric liveness checks
+- [ ] Activate Manager Account → link all persona email addresses
+- [ ] Connect LLC protected series bank account to Fanvue payout portal
 
-From **this wiki** (`wiki/concepts/marketing-your-persona.md`), the key pages from SEO:GEO wiki:
+**Why Fanvue** (from Operations Blueprint §2.1):
+- $500M+ creator payouts, 85% revenue split
+- Manager Accounts: single KYC verification → N secondary AI accounts
+- Open API → connect n8n/Make.com for DM automation
+- Mandatory AI-generated content disclosure (bio watermark/caption)
 
-| Need | SEO:GEO Wiki Page | Why |
-|------|-------------------|-----|
-| Content calendar | `@seo-wiki/concepts/content-strategy-local.md` | 3-5 posts/week rhythm |
-| Social platforms | `@seo-wiki/entities/platforms/instagram.md`, `@seo-wiki/entities/platforms/tiktok.md` | Platform mechanics |
-| AI citations (GEO) | `@seo-wiki/concepts/generative-engine-optimization.md` | Get cited by ChatGPT/Claude/Perplexity |
-| First 90 days | `@seo-wiki/concepts/first-90-days-playbook.md` | Week-by-week priority order |
+### Step 11: Platform Diversification
+| Platform | Role | Notes |
+|----------|------|-------|
+| **Fanvue** | Primary monetization | Premier for AI personas |
+| **Fansly** | Secondary | AI-friendly alternative |
+| **dFans.xyz** | Web3 alternative | Blockchain-native |
+| **White-label** | Full brand ownership | $7K–$20K build, bypass TOS restrictions |
 
-**To read these:** The SEO:GEO wiki lives at `~/Desktop/projects/SEO:GEO B&M Business/wiki/`. Open those paths in any markdown reader.
+> **Avoid**: OnlyFans (hostile to pure AI personas), Patreon (bans photorealistic AI adult content), Passes.com (banned entirely).
 
-### Step 2: Choose platform + set up Postiz
-
-| Platform | Best for | Notes |
-|----------|----------|-------|
-| **Fanvue** | Adult content, monetization | Built-in PPV/DM tipping, dominant for AI personas |
-| **Instagram** | SFW persona, discovery | Reels drive discovery, 9:16 aspect ratio |
-| **TikTok** | Short video, algorithm boost | 9:16 aspect ratio, 3-5 posts/week |
-
-**Postiz setup:** https://postiz.com/ → Connect accounts → Plan 3-5 posts/week
-
-### Step 3: Content cadence
-
-From `wiki/concepts/persona-content-cadence.md`:
-- **3-5 posts/week** (not more — algorithms punish volume)
-- **Vary angles, outfits, lighting** — don't repeat same composition
-- **Tell a story** — each post advances a mini-narrative
-- **Repurpose:** 1 image → IG square + IG Story 9:16 + TikTok 9:16
+### Step 12: Pre-Launch Content Buffer
+- [ ] Generate 30–45 days of varied content:
+  - Timeline posts (varied angles, outfits, lighting)
+  - Selfies (casual, styled, "candid")
+  - Paywalled explicit content (PPV-ready)
+- [ ] All persona action occurs exclusively within designated Multilogin + NodeMaven profile
 
 ---
 
-## Day 1 Checklist (print this)
+## Phase V — Marketing & Launch (Day 3–5)
 
-### Morning (Image Gen)
-- [ ] Check GPU VRAM (`nvidia-smi` / `system_profiler`)
-- [ ] Install ComfyUI (or Draw Things on Mac)
-- [ ] Download model (Pony V6 for 8GB, FLUX.1 Dev for 16GB+)
-- [ ] Write Character Bible (trigger word, face desc, signature features)
-- [ ] Generate 20-30 test images
-- [ ] Run likeness collision check (PimEyes/FaceCheck — <70% match)
-- [ ] Add PuLID adapter for face consistency (strength 0.4-0.5)
+### Step 13: GEO Foundation (Generative Engine Optimization)
 
-### Afternoon (Video Gen)
-- [ ] Get OpenRouter API key (https://openrouter.ai/)
-- [ ] Test Kling 3.0 Standard text-to-video ($0.15/10s)
-- [ ] Generate I2V clip from best master image (preserves face)
-- [ ] (Optional) Try Seedance 2.0 for longer clips (20-30s, native audio)
+From `concepts/geo-vs-seo.md`:
+- [ ] Implement schema markup (`Person`, `ProfilePage`, `SocialMediaPosting`, `FAQPage`) on owned blog/domain
+- [ ] Establish geographic anchor: assign hyper-specific locale (e.g., "23-year-old alternative model based in Davie, Florida")
+- [ ] Seed persona narrative on Reddit/YouTube for LLM citations
+- [ ] Follow **S-E-T framework** (Structure, Explainability, Trustworthiness)
 
-### Evening (Marketing)
-- [ ] Read `@seo-wiki/concepts/first-90-days-playbook.md`
-- [ ] Read `@seo-wiki/concepts/generative-engine-optimization.md`
-- [ ] Choose platform (Fanvue for adult, IG for SFW)
-- [ ] Set up Postiz.com (connect accounts, plan 3-5 posts/week)
-- [ ] Draft first 3 post captions (vary angles, tell a story)
+### Step 14: Social Funnel Setup
+- [ ] Create Instagram, X, TikTok accounts (within Multilogin profiles)
+- [ ] Post 3–5 teaser posts/week with keyword CTA ("Comment 'link' and I'll DM you")
+- [ ] Set up [comment-to-DM automation](concepts/geo-vs-seo.md) via Inro.social
+- [ ] Install [Postiz](entities/persona-ops/postiz.md) for scheduled posting
 
----
+### Step 15: Automated DM & Conversation System
+- [ ] Configure n8n/Make.com webhook → OpenRouter API pipeline
+- [ ] Design persona system prompt (positive framing, no negative constraints)
+- [ ] Implement context window truncation script
+- [ ] Connect CRM (Supercreator / Inrō / OnlyMonster) for subscriber segmentation and dynamic PPV pricing
 
-## Sources
-
-- [Beginner's Guide](briefs/beginner-guide-to-persona.md) — full 7-phase walkthrough
-- [OpenRouter Video Models](wiki/entities/models/openrouter-video.md) — API examples + pricing
-- [Marketing Your Persona](wiki/concepts/marketing-your-persona.md) — bridge to SEO:GEO wiki
-- [Video Identity Inheritance](wiki/concepts/video-identity-inheritance.md) — I2V workflow
-- [Persona Content Cadence](wiki/concepts/persona-content-cadence.md) — 3-5 posts/week strategy
-- SEO:GEO Wiki (cross-linked): `@seo-wiki/concepts/first-90-days-playbook.md`, `@seo-wiki/concepts/generative-engine-optimization.md`, `@seo-wiki/entities/platforms/instagram.md`, `@seo-wiki/entities/platforms/tiktok.md`
+### Step 16: Compliance Documentation
+- [ ] Store timestamped documentation: prompt architectures, base models, seeds, fine-tuning datasets
+- [ ] Prepare 2257 records (per persona)
+- [ ] Ensure bio contains clear AI-generated disclosure
+- [ ] Maintain W-9 / W-8BEN records per protected series
 
 ---
 
-## Notes for Tomorrow
+## Complete Checklist (Print)
 
-1. **Start simple** — don't try every model/video option Day 1. Pick ONE image model + ONE video option.
+### Phase I — Infrastructure & Legal
+- [ ] Proton Mail + custom domain
+- [ ] Florida Protected Series LLC formed
+- [ ] Multilogin + NodeMaven configured
+- [ ] KYC identity docs ready for legal representative
+
+### Phase II — Hardware & Software
+- [ ] Hardware verified (16 GB+ unified memory)
+- [ ] ComfyUI installed with custom nodes
+- [ ] Draw Things installed (for speed)
+- [ ] OpenRouter API key active
+- [ ] Model downloaded and placed in models/checkpoints/
+
+### Phase III — Persona Creation
+- [ ] Character Bible written
+- [ ] 20–30 test images generated
+- [ ] IP-Adapter identity lock applied (strength 0.4–0.5)
+- [ ] Likeness collision check passed (<70% match)
+- [ ] Anchor LoRA trained on best images
+
+### Phase IIII — Video
+- [ ] OpenRouter API tested with Kling 3.0
+- [ ] I2V clip generated from anchor image
+- [ ] (Optional) Local Wan 2.2 setup
+
+### Phase IV — Platform Launch
+- [ ] Fanvue Manager Account KYC completed
+- [ ] Secondary AI model account created
+- [ ] LLC bank account connected to payout portal
+- [ ] Pre-buffered content uploaded (30–45 days)
+- [ ] AI-disclosure bio live
+
+### Phase V — Marketing
+- [ ] GEO schema markup deployed
+- [ ] Social accounts active (IG, X, TikTok)
+- [ ] Postiz scheduling configured (3–5 posts/week)
+- [ ] DM automation pipeline live (n8n → OpenRouter)
+- [ ] CRM connected for subscriber segmentation
+- [ ] 2257 documentation filed
+- [ ] Revenue monitoring dashboard active
+
+---
+
+## Notes for Tomorrow (and Beyond)
+
+1. **Start simple** — pick ONE image model + ONE video option. Expand later.
 2. **Likeness check is non-negotiable** — skip this and platforms will ban you.
-3. **3-5 posts/week** — more = algorithm penalty. Quality over volume.
+3. **3–5 posts/week** — more = algorithm penalty. Quality over volume.
 4. **OpenRouter for video** — much easier than local Wan 2.2 setup. Save local GPU for image generation.
-5. **Read the SEO wiki** — the marketing data there is gold for growing an audience.
+5. **GEO > SEO** — build semantic authority for AI model citations, not just search rankings.
+6. **60–70% of revenue is DM/PPV** — optimize the conversation funnel, not just the subscription tier.
+7. **Data sovereignty** — keep all generation local (Mac Studio), all conversations encrypted, all legal structures in place before monetizing.
