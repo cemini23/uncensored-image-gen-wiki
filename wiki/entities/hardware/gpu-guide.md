@@ -23,6 +23,8 @@ related:
   - sources/uncensored-image-generation-survey.md
   - sources/synthetic-character-consistency-survey.md
   - concepts/model-selection-workflow.md
+  - concepts/synthetic-media-compute-economics.md
+  - sources/synthetic-media-ip-financial-roadmap.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08

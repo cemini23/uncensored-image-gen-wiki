@@ -841,8 +841,102 @@ Two new deep-research docx files dropped into `research to be indexed/`. Both pa
 - `wiki/runbooks/day-1-checklist-for-friend.md` — restructured into 5 phases (Infrastructure/Legal → Hardware → Persona Creation → Video → Platform/Marketing) with full compliance checklist
 - `wiki/index.md` — updated Z-Image Turbo runbook entry with expanded tag set
 
+## [2026-05-08] ingest | 3 new source documents (content factory + persona narrative)
+
+### Created (3 source pages)
+
+- `wiki/sources/ai-content-factory-workflow-design.md` — Windows multi-GPU inference factory: VRAM isolation, CUDA fallback disabling, TensorRT quantization, tri-layered character consistency (IP-Adapter + PuLID + ControlNet), dual-layer RAG, ExifTool metadata scrubbing + watermarking. 86 references.
+- `wiki/sources/mac-studio-ai-content-factory-design.md` — Apple Silicon content factory: UMA `iogpu.wired_limit_mb` bypass, MLX vs llama.cpp benchmarks (+37% sustained), vllm-mlx 4.3× concurrent batching, KV cache q4_0 quantization, IP-Adapter-FaceID/InsightFace pipeline, ReAct agentic workflows via OpenRouter. 87 references.
+- `wiki/sources/virtual-persona-narrative-development-strategy.md` — Persona narrative engineering: parasocial PSR framework, Hyper-Competent Imposter Syndrome flaw design, OpenRouter Agent SDK CYOA storylines, 4-pillar GEO strategy, Schema.org Person markup, independent lore wiki architecture, 12-month narrative arc mapped to Davie FL. 98 references.
+
+### New pages (3)
+
+- `wiki/sources/ai-content-factory-workflow-design.md`
+- `wiki/sources/mac-studio-ai-content-factory-design.md`
+- `wiki/sources/virtual-persona-narrative-development-strategy.md`
+
+### Updated (5 pages)
+
+- `wiki/entities/hardware/mac-studio.md` — added UMA bypass (`iogpu.wired_limit_mb`), MLX vs llama.cpp benchmarks, KV cache quantization
+- `wiki/entities/uis/comfyui.md` — added Windows multi-GPU isolation, TensorRT integration, tri-layered consistency pipeline
+- `wiki/entities/adapters/ip-adapter.md` — added FaceID/InsightFace biometric pipeline detail, FaceID-Plus dual-signal architecture
+- `wiki/concepts/persona-consistency-methods.md` — added Axis 2 tri-layered injection architecture with control step tuning and scheduler selection
+- `wiki/concepts/geo-vs-seo.md` — enriched with 4-pillar GEO framework from persona narrative strategy doc
+- `wiki/concepts/persona-ops-workflow.md` — added dual-layer RAG architecture, ReAct agentic orchestration, temporal memory governance
+
 ### Cross-cutting
+
+- All three source docs converge on: deterministic character consistency via adapter injection (not LoRA-only), agentic memory as dual-layer RAG, post-processing metadata hygiene as operational requirement
+- Windows and Mac Studio factory designs provide platform-parallel architectures for the same persona-ops pipeline
+- Persona narrative strategy connects content engineering to GEO/discoverability — bridges the gap between generation and audience-building
 
 - Both source documents converge on: local Apple Silicon generation, OpenRouter LLM routing, GEO over SEO, Fanvue as primary platform, strict KYC compliance (no spoofing)
 - Day-1 checklist now bridges from raw hardware setup through to platform monetization, previously started mid-pipeline
 - Runbook now serves as single entry point for the full persona operation lifecycle; individual concept/entity pages provide depth on each subsystem
+
+---
+
+## [2026-05-08] ingest | Synthetic Media IP Financial Roadmap (full)
+
+Full ingest of a comprehensive 24-month financial and strategic roadmap for synthetic media IP commercialization. Document covers corporate architecture (Florida Series LLC), compute unit economics, Web3 monetization (fan tokens, token gating, crypto gateways), SEC regulatory framework, and IP valuation/exit engineering.
+
+### Created (6)
+
+**Sources (1)**
+- `wiki/sources/synthetic-media-ip-financial-roadmap.md` — full roadmap: Series LLC structure, compute economics ($0.005/img, $0.48/min video), Web3 stack, SEC 2026 digital collectible guidance, VC valuation benchmarks (15–50x multiples), 24-month execution plan. Maturity: validated.
+
+**Concepts (4)**
+- `wiki/concepts/synthetic-media-corporate-structure.md` — Florida Protected Series LLC taxonomy (Master LLC + IP Holding Cell + per-persona ops series), horizontal liability shield, S-Corp/C-Corp tax elections, FL R&D Tax Credit, regional incentives. Maturity: draft.
+- `wiki/concepts/synthetic-media-compute-economics.md` — unit economics for image ($0.005 on RTX 4090) and video ($0.48/min on A100 with open-weight models), 90% margin architecture, commercial API vs self-hosted comparison, hidden idle-burn costs. Maturity: draft.
+- `wiki/concepts/synthetic-media-web3-monetization.md` — 4-layer decentralized revenue stack: crypto payment gateways (BVNK/Triple-A), fan token economy (Solana/pump.fun), token-gating infrastructure (Collab.Land/Guild.xyz), AI agent revenue ($2K–$10K/mo). SEC 2026 digital collectible classification guidance. Maturity: draft.
+- `wiki/concepts/synthetic-media-ip-valuation.md` — IP valuation framework (data + model weights), VC benchmarks (Burn Multiple <1.5x, CAC Payback <12mo, Rule of 40), SAFE vs convertible notes, exit strategies (family offices, Web3 acquirers, Dapper/Brud precedent). Maturity: draft.
+
+**Entities (1)**
+- `wiki/entities/models/open-sora.md` — open-weight DiT video model (HPC-AI Tech), Apache 2.0, ~$0.48/min on A100 cloud, recommended for cost-effective DTC video production. Maturity: draft.
+
+### Updated (8)
+
+- `wiki/sources/ai-creator-operations-blueprint.md` — +synthetic-media-corporate-structure.md, +synthetic-media-ip-financial-roadmap.md to related
+- `wiki/concepts/persona-ops-workflow.md` — +synthetic-media-corporate-structure.md, +synthetic-media-ip-financial-roadmap.md to related
+- `wiki/concepts/persona-monetization-models.md` — +synthetic-media-web3-monetization.md, +synthetic-media-ip-valuation.md to related
+- `wiki/concepts/persona-payment-rails.md` — +synthetic-media-web3-monetization.md to related
+- `wiki/entities/hardware/gpu-guide.md` — +synthetic-media-compute-economics.md, +synthetic-media-ip-financial-roadmap.md to related
+- `wiki/entities/models/wan-2-2.md` — +open-sora.md, +synthetic-media-compute-economics.md to related
+- `wiki/entities/models/hunyuanvideo-1-5.md` — +open-sora.md, +synthetic-media-compute-economics.md to related
+- `wiki/entities/models/cogvideox-1-5.md` — +open-sora.md, +synthetic-media-compute-economics.md to related
+
+### Archived
+
+- `research to be indexed/Synthetic Media IP Financial Roadmap.docx` → `raw-sources/`
+
+### Pages touched
+
+6 new pages + 8 existing updated + 1 index = **15 pages**.
+
+### Lint state
+
+- 5 new pages are stubs (⚠); expected to resolve as back-fill content accumulates.
+- ~89 asymmetric edges remain (mostly new→existing without reverse link); acceptable.
+- Run `wiki_lint.py` after commit to verify structural integrity.
+
+### Cross-cutting
+
+- First document to provide **quantitative financial modeling** ($/image, $/min, margin calculations) for the synthetic media domain.
+- Fills 5 major wiki gaps: corporate structure economics, compute economics, Web3 monetization, fan tokens/token gating, IP valuation.
+- Connects previously siloed domains (legal structure + GPU costs + revenue architecture + exit strategy) into a single coherent playbook.
+- Open-Sora 2.0 emerges as a cost-competitive open-weight video alternative alongside Wan 2.2 and HunyuanVideo 1.5.
+
+---
+
+## [2026-05-09] lint-fix | Close bidirectional gap on synthetic-media-compute-economics
+
+CogVideoX 1.5 entity page was missing reciprocal backlink to `concepts/synthetic-media-compute-economics.md`. The concept page's `## Relations` section already listed the entity pages, but the entity pages' frontmatter `related` fields didn't include the concept — a classic one-way ingest omission.
+
+### Fixed
+
+- `entities/models/cogvideox-1-5.md` — added `concepts/synthetic-media-compute-economics.md` to `related:` frontmatter and `## Relations` inline list
+- `concepts/synthetic-media-compute-economics.md` — added `entities/models/wan-2-2.md`, `entities/models/hunyuanvideo-1-5.md`, `entities/models/cogvideox-1-5.md` to `related:` frontmatter (Relations section already had them)
+
+### Linter result
+
+Bidirectional gap for `synthetic-media-compute-economics.md` resolved. Remaining gaps (58) are all pre-existing.

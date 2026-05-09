@@ -12,6 +12,8 @@ related:
   - concepts/persona-content-cadence.md
   - entities/personas/aitana-lopez.md
   - concepts/persona-legal-landscape.md
+  - concepts/synthetic-media-web3-monetization.md
+  - concepts/synthetic-media-ip-valuation.md
   - entities/persona-ops/fish-speech.md
   - entities/persona-ops/sillytavern.md
   - concepts/marketing-your-persona.md

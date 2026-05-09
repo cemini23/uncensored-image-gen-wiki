@@ -6,6 +6,8 @@ keywords: [cogvideox, cogvideox-1-5, cogvideox-2-0, thudm, zhipu, qingying, 5b, 
 related:
   - sources/video-generation-survey-2026.md
   - entities/models/wan-2-2.md
+  - entities/models/open-sora.md
+  - concepts/synthetic-media-compute-economics.md
   - concepts/seam-stitching-strategies.md
   - concepts/de-censoring-techniques.md
   - concepts/censorship-tier-taxonomy.md
@@ -13,12 +15,12 @@ related:
   - entities/uis/comfyui.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-08
 ---
 
 ## Relations
 
-@sources/video-generation-survey-2026.md @entities/models/wan-2-2.md @concepts/seam-stitching-strategies.md @concepts/de-censoring-techniques.md @concepts/censorship-tier-taxonomy.md
+@sources/video-generation-survey-2026.md @entities/models/wan-2-2.md @concepts/synthetic-media-compute-economics.md @concepts/seam-stitching-strategies.md @concepts/de-censoring-techniques.md @concepts/censorship-tier-taxonomy.md
 
 ## Raw Concept
 

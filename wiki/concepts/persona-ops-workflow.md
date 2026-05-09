@@ -13,6 +13,8 @@ related:
   - entities/marketplaces/fanvue.md
   - entities/hardware/mac-studio.md
   - concepts/persona-legal-landscape.md
+  - concepts/synthetic-media-corporate-structure.md
+  - sources/synthetic-media-ip-financial-roadmap.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08
@@ -23,7 +25,7 @@ provenance:
 
 ## Relations
 
-@sources/ai-creator-operations-blueprint.md @sources/ai-persona-launch-strategy-analysis.md @runbooks/zimage-setup-runbook.md
+@sources/ai-creator-operations-blueprint.md @sources/ai-persona-launch-strategy-analysis.md @sources/mac-studio-ai-content-factory-design.md @sources/virtual-persona-narrative-development-strategy.md @runbooks/zimage-setup-runbook.md
 
 ## Raw Concept
 
@@ -70,6 +72,7 @@ Before the persona goes live, build a semantic footprint that LLMs will cite:
 - IP-Adapter: style/subject embedding projection into U-Net cross-attention (strength 0.4–0.5)
 - ControlNet: pose/composition locking (OpenPose, Depth, Canny)
 - Character DNA: structured `<character>` XML-tag prompting (see [character DNA templates](concepts/character-dna-templates.md))
+- Tri-layered injection pipeline (IP-Adapter + PuLID/FaceID + ControlNet) for zero-shot consistency — see [persona consistency methods](concepts/persona-consistency-methods.md)
 
 **Video Pipeline**:
 - OpenRouter API: Kling 3.0 (Standard for cost, Pro for I2V quality)
@@ -100,6 +103,17 @@ Before the persona goes live, build a semantic footprint that LLMs will cite:
 - Tiered funnel: Acquisition → Automated Qualification → Dynamic Pricing/PPV → Churn Mitigation
 - Revenue split: 60–70% from DM/PPV; 30–40% from subscriptions
 - Postiz for scheduling (3–5 posts/week per platform)
+
+**Dual-Layer Agentic Memory (RAG)**:
+- **Hot Path**: In-RAM session state (LangChain RunnableWithMessageHistory) for short-term conversation continuity
+- **Cold Path**: Long-term episodic facts extracted post-session → embedded via Gemini Embedding 2 / Cohere / local sentence-transformers → stored in vector DB (ChromaDB/FAISS for prototyping, pgvector/Pinecone/Qdrant for production)
+- **Reranking**: Cohere Rerank or Jina Reranker to reduce retrieval noise
+- **Temporal Governance**: Zep's Graphiti (timestamped validity windows, bi-temporal supersession) or Mem0 (80% prompt token reduction via memory compression)
+- **Schema-Governed Memory**: PostgreSQL stores core persona traits as structured JSON (`persona_id`, `personality_matrix`, `communication_directives`), combined with vector facts in OpenRouter system prompt
+
+See @sources/ai-content-factory-workflow-design.md §7–§8 for the full RAG pipeline architecture.
+
+**ReAct Agentic Orchestration**: Agents use OpenRouter's `/openrouter/agent` SDK for multi-turn reasoning, tool definitions, and dynamic model routing (heavy models for complex reasoning, efficient models for formatting). See @sources/mac-studio-ai-content-factory-design.md §3.
 
 **Voice**: Fish-Speech S2 Pro (open-source zero-shot voice cloning, TTS-Arena2 leader)
 

@@ -26,6 +26,8 @@ updated: 2026-05-06
 ## Relations
 
 @sources/synthetic-character-consistency-survey.md
+@sources/mac-studio-ai-content-factory-design.md
+@sources/ai-content-factory-workflow-design.md
 @concepts/persona-consistency-methods.md
 @entities/adapters/pulid.md
 @entities/adapters/instantid.md
@@ -68,6 +70,12 @@ This makes IP-Adapter compatible with any SD 1.5 / SDXL backbone *without retrai
 The "image prompt" framing is powerful for non-face references — style, composition, mood — because the CLIP-vision embedding captures them in a holistic way that text struggles to match. For *face* identity specifically, the family pivots to InsightFace embeddings (`FaceID*` variants), which are tighter face-fingerprint vectors.
 
 **Failure mode (NSFW)**: clothed-reference + nude-prompt produces "alien anatomy" — fused limbs, mucosal-fabric merging, hand collapse. Mechanism: the holistic CLIP-vision embedding forces clothing geometry onto the underlying body. Documented at [r/comfyui: Models/LoRAs for NSFW I2I](https://www.reddit.com/r/comfyui/comments/1qjca2i/modelsloras_for_nsfw_i2i_generation_clothing/), [arXiv 2504.05838](https://arxiv.org/html/2504.05838v1). FaceID variants are slightly less affected because their embedding is face-only, but the underlying SFW pretraining still degrades explicit anatomy when the adapter weight is high.
+
+**IP-Adapter-FaceID Biometric Pipeline** (from Mac Studio Content Factory Design):
+
+The specialized FaceID integration uses **InsightFace's buffalo_l model** (detection size 640×640) to extract a `normed_embedding` from a tightly cropped reference portrait. This embedding is converted into a PyTorch tensor (`faceid_embeds`) and injected directly into the generation pipeline, bypassing standard CLIP limitations entirely.
+
+**IP-Adapter FaceID-Plus** combines pure biometric Face ID embeddings with CLIP image embeddings — the biometric component locks facial geometry while the CLIP component preserves facial structure and lighting context. This dual-signal approach provides the most robust facial consistency available without training.
 
 **Failure mode (hair / clothing carry-over)**: even FaceID-Plus-V2 will copy hairstyle from the reference image when the prompt asks for a different one. Production fix: lower the adapter weight to 0.4-0.5 and pair with a hair-specific Hyper LoRA, or run a Kontext edit pass after.
 

@@ -82,6 +82,9 @@ updated: 2026-05-07
 @concepts/character-dna-templates.md
 @concepts/likeness-collision-verification.md
 @concepts/reference-plus-lora-stacking.md
+@sources/ai-content-factory-workflow-design.md
+@sources/mac-studio-ai-content-factory-design.md
+@sources/virtual-persona-narrative-development-strategy.md
 @concepts/persona-content-cadence.md
 @concepts/persona-failure-modes.md
 @concepts/persona-ops-stack.md
@@ -128,6 +131,18 @@ Two canonical methods, used together in the modal 2026 production pattern.
 **Character LoRA** — train a low-rank adapter on 15-80 images of the persona. See @concepts/lora-taxonomy.md for the LoRA / LoCon / LoHA / LoKr / DoRA taxonomy and base-specific recipes. LoKr (factor=4) is the 2026 community consensus for character isolation. Maintain *parallel LoRAs per base* — a FLUX LoRA does not transfer to Pony or Z-Image.
 
 **Identity adapter (reference-based)** — runtime face-injection via @entities/adapters/ip-adapter.md, @entities/adapters/pulid.md, @entities/adapters/instantid.md, @entities/adapters/consistentid.md, @entities/adapters/infinite-you.md, or @entities/adapters/photomaker-v2.md. No training required; single reference image at inference time.
+
+#### Tri-Layered Injection Architecture (Zero-Shot Consistency)
+
+The most robust zero-shot method — no upstream training per character — layers three conditioning streams simultaneously. Sourced from the Windows and Mac Studio factory designs (@sources/ai-content-factory-workflow-design.md, @sources/mac-studio-ai-content-factory-design.md):
+
+1. **IP-Adapter** — global style and body composition via CLIP Vision encoder image embedding, injected into UNet cross-attention
+2. **PuLID / FaceID / InstantID** — biometric facial identity via InsightFace embeddings (bypasses CLIP's poor micro-facial geometry capture)
+3. **ControlNet** — anatomical/spatial guidance via OpenPose or depth estimation (prevents extra limbs, anatomical collapse)
+
+**Control Step Tuning**: Low step (0.3–0.4) → solidifies facial structure early, text dominates later. High step (0.6–0.8) → weaker identity lock, stronger artistic control. Multiple adapters can run simultaneously with array scaling (e.g., `[0.7, 0.3]`).
+
+**Scheduler Selection**: DDIMScheduler or EulerDiscreteScheduler recommended over DPM++ 2M Karras for biometric latent fidelity.
 
 **The 2026 modal recipe — reference + LoRA stacking**: NSFW-trained character LoRA at 0.85 strength + PuLID/InstantID at 0.45 strength. The LoRA carries explicit anatomy and persona-specific style; the adapter nudges face fidelity without forcing the holistic clothed-reference geometry that breaks NSFW outputs (see Axis 4 failure mode).
 

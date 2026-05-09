@@ -65,6 +65,9 @@ provenance:
 
 @sources/ai-creator-operations-blueprint.md
 @sources/ai-persona-launch-strategy-analysis.md
+@sources/ai-content-factory-workflow-design.md
+@sources/mac-studio-ai-content-factory-design.md
+@sources/virtual-persona-narrative-development-strategy.md
 @sources/uncensored-image-generation-survey.md
 @entities/models/flux-1-dev.md
 @entities/models/z-image-turbo.md
@@ -101,6 +104,29 @@ pip install torch torchvision torchaudio --index-url https://download.pytorch.or
 # Launch
 python main.py --cpu --listen 127.0.0.1
 ```
+
+### Windows Multi-GPU & TensorRT (NVIDIA Factory Setup)
+
+For Windows multi-GPU environments (dedicated inference factory):
+
+- **VRAM Isolation**: Use `CUDA_VISIBLE_DEVICES=0` for ComfyUI (diffusion + VAE + CLIP), separate `CUDA_VISIBLE_DEVICES=1` for LLM server (Ollama/TensorRT-LLM). Use `nvidia-smi -L` UUIDs for fault-tolerant device IDs.
+- **Disable CUDA Sysmem Fallback**: Set "Prefer No Sysmem Fallback" in Nvidia Control Panel for the Python executable to force OOM instead of silent slowdown.
+- **ComfyUI-MultiGPU**: Custom node for inter-device routing — offload entire UNet to one GPU while dedicating a secondary to CLIP/VAE processing.
+- **TensorRT Acceleration**: Install [ComfyUI_TensorRT](https://github.com/comfyanonymous/ComfyUI_TensorRT) for compiled engine inference. Static engines for max throughput at fixed resolution; dynamic engines for flexible dimensions. NVFP4/FP8 quantization provides 40–60% memory reduction on RTX 5090.
+
+[CONFIRMED] Source: @sources/ai-content-factory-workflow-design.md §3–§4
+
+### Tri-Layered Character Consistency Pipeline
+
+The deterministic consistency framework uses three parallel injection branches from a single reference image:
+
+1. **Spatial Branch**: Image → OpenPose node → Apply ControlNet (pose/skeleton enforcement)
+2. **Aesthetic Branch**: Cropped character → Prep Image to ClipVision → IPAdapter Apply (body type, clothing, style)
+3. **Biometric Branch**: Tight face crop → PuLID model (facial identity lock)
+
+All three conditioning streams merge into the K-Sampler, completely divorcing character identity from text prompt limitations. ACE++ Portrait LoRA and Unsampling workflows provide further refinement.
+
+[CONFIRMED] Source: @sources/ai-content-factory-workflow-design.md §5–§6
 
 ### Apple Silicon (MPS) performance note
 

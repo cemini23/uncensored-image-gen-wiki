@@ -14,6 +14,8 @@ related:
   - concepts/censorship-tier-taxonomy.md
   - concepts/model-selection-workflow.md
   - entities/uis/comfyui.md
+  - entities/models/open-sora.md
+  - concepts/synthetic-media-compute-economics.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07

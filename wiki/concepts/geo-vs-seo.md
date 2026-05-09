@@ -21,11 +21,11 @@ provenance:
 
 ## Relations
 
-@sources/ai-creator-operations-blueprint.md @sources/ai-persona-launch-strategy-analysis.md
+@sources/ai-creator-operations-blueprint.md @sources/ai-persona-launch-strategy-analysis.md @sources/virtual-persona-narrative-development-strategy.md @sources/ai-content-factory-workflow-design.md @sources/mac-studio-ai-content-factory-design.md
 
 ## Raw Concept
 
-GEO (Generative Engine Optimization) replaces traditional SEO as the primary discovery mechanism when users shift from search engines to AI chatbots (ChatGPT, Perplexity, Gemini). Both source documents recommend this as the core traffic strategy for persona operations in 2026.
+GEO (Generative Engine Optimization) replaces traditional SEO as the primary discovery mechanism when users shift from search engines to AI chatbots (ChatGPT, Perplexity, Gemini). Both source documents recommend this as the core traffic strategy for persona operations in 2026. The 4-pillar GEO framework (independent lore wiki, Schema.org Person markup, dense internal linking, geographic anchoring) is fully detailed in the Virtual Persona Narrative Development Strategy source.
 
 ## Narrative
 

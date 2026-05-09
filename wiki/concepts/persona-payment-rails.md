@@ -6,7 +6,9 @@ keywords: [CCBill, SegPay, Verotel, Epoch, ePayments, Paxum, NowPayments, BitPay
 related:
   - sources/persona-monetization-2026.md
   - concepts/persona-monetization-models.md
-  - concepts/persona-failure-modes.md
+  - concepts/synthetic-media-web3-monetization.md
+  - concepts/persona-legal-landscape.md
+  - concepts/persona-ops-stack.md
   - concepts/persona-legal-landscape.md
   - concepts/persona-ops-stack.md
 maturity: draft

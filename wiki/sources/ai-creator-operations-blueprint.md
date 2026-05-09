@@ -13,6 +13,8 @@ related:
   - concepts/openrouter-chat-workflow.md
   - runbooks/day-1-checklist-for-friend.md
   - runbooks/beginner-guide-to-persona.md
+  - concepts/synthetic-media-corporate-structure.md
+  - sources/synthetic-media-ip-financial-roadmap.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08

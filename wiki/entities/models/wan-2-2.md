@@ -9,6 +9,8 @@ related:
   - entities/models/ltx-2.md
   - entities/models/mochi-1.md
   - entities/models/cogvideox-1-5.md
+  - entities/models/open-sora.md
+  - concepts/synthetic-media-compute-economics.md
   - entities/models/seedance-2.md
   - entities/training-tools/musubi-tuner.md
   - entities/training-tools/ai-toolkit.md
