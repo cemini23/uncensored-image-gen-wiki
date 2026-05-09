@@ -7,6 +7,8 @@ related:
   - concepts/censorship-tier-taxonomy.md
   - concepts/persona-consistency-methods.md
   - concepts/reference-plus-lora-stacking.md
+  - concepts/prompt-engineering-uncensored.md
+  - concepts/two-pass-generation-workflow.md
   - concepts/lora-taxonomy.md
   - concepts/persona-ops-stack.md
   - entities/hardware/gpu-guide.md

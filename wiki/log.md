@@ -940,3 +940,31 @@ CogVideoX 1.5 entity page was missing reciprocal backlink to `concepts/synthetic
 ### Linter result
 
 Bidirectional gap for `synthetic-media-compute-economics.md` resolved. Remaining gaps (58) are all pre-existing.
+
+---
+
+## [2026-05-09] research | Prompt engineering & two-pass workflow for uncensored generation
+
+Deep research into practical uncensored image generation techniques — prompt structure, negative prompts, CFG guidance, and multi-pass refinement workflows across all major model families (SDXL/Pony/Illustrious, FLUX, Z-Image, Qwen-Image).
+
+### Created (2 concept pages)
+
+- `wiki/concepts/prompt-engineering-uncensored.md` — model-specific prompt formats (Danbooru tags for SDXL, dual CLIP-L+T5 for FLUX, DiT-native natural language), negative prompt strategies per model family, CFG scale tables, common failure modes and prompt-level fixes. Sourced from 20+ community references (Reddit, CivitAI, GitHub, model docs). Maturity: validated.
+- `wiki/concepts/two-pass-generation-workflow.md` — standard 2026 production pipeline: T2I composition pass → I2I detail/refinement pass → targeted inpainting → upscaling. Per-model denoise tables, pipeline diagrams, model-pairing recommendations (Pony→Juggernaut, FLUX+NSFW LoRA, Z-Image single/two-pass). Maturity: validated.
+
+### Updated (4 pages — cross-links + content)
+
+- `wiki/concepts/reference-plus-lora-stacking.md` — added `prompt-engineering-uncensored.md` and `two-pass-generation-workflow.md` to Relations; added CLIP-L vs T5 mismatch failure mode (dual-encoder degradation of ~50-75% when both receive identical text)
+- `wiki/concepts/de-censoring-techniques.md` — added `prompt-engineering-uncensored.md` and `two-pass-generation-workflow.md` to Relations
+- `wiki/concepts/model-selection-workflow.md` — added `prompt-engineering-uncensored.md` and `two-pass-generation-workflow.md` to Relations
+- `wiki/index.md` — added 2 new concept rows (prompt-engineering-uncensored, two-pass-generation-workflow)
+
+### Cross-cutting
+
+- Research closes a critical wiki gap: the existing model-catalog and de-censoring pages described *what* models to use but lacked the *how* — practical prompt-level and workflow-level guidance for actually generating uncensored images. These two new pages fill that gap.
+- Key community consensus: (1) Danbooru tags remain king for SDXL NSFW models; (2) FLUX dual-encoder separation (CLIP-L keywords + T5 prose) is widely misunderstood and under-documented; (3) two-pass T2I→I2I is the modal production pattern across all bases; (4) Z-Image Turbo's CFG=0 paradigm is fundamentally different from SDXL/FLUX guidance.
+
+### Follow-ups
+
+- `prompts/github-repo-eval.md` — image-gen-specialized Phase-0 audit prompt still needs to be shipped (backlog item from 2026-05-08)
+- `concepts/persona-ops-workflow.md` — still a stub; could be deepened with the new workflow content

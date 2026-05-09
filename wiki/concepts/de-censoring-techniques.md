@@ -8,6 +8,8 @@ related:
   - concepts/censorship-tier-taxonomy.md
   - concepts/lora-taxonomy.md
   - concepts/reference-plus-lora-stacking.md
+  - concepts/prompt-engineering-uncensored.md
+  - concepts/two-pass-generation-workflow.md
   - entities/models/flux.md
   - entities/models/flux-1-dev.md
   - entities/models/flux-2-klein.md

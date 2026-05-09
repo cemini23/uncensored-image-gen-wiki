@@ -47,6 +47,8 @@ updated: 2026-05-06
 @entities/models/pony-v6.md
 @entities/models/pony-v7.md
 @concepts/de-censoring-techniques.md
+@concepts/prompt-engineering-uncensored.md
+@concepts/two-pass-generation-workflow.md
 @entities/models/sdxl-fine-tunes.md
 
 ## Raw Concept
@@ -127,6 +129,7 @@ The adapter (PuLID / IP-Adapter / InstantID) is shared across all bases; only th
 - **Outfit drift between LoRA and adapter**: PuLID copies hair/clothing from reference; LoRA was trained on different hair/clothing. Mitigation: low-strength PuLID + Hyper LoRA for hair-specific control.
 - **Lighting drift**: PuLID's skin-tone pollution propagates through the stack. Mitigation: end-of-pipeline ColorMatch / 0.15 denoise refinement pass (mandatory on PuLID stacks).
 - **Long-session text-encoder drift**: shared FLUX text encoder across many generations accumulates float-error → identity shifts subtly over 100+ generations. Mitigation: reload workflow every ~50 generations; ComfyUI 0.3.39+ has the worst fixed.
+- **CLIP-L vs T5 mismatch**: FLUX's dual encoders degrade ~50–75% when both receive identical text. Always write **separate** prompts: CLIP-L for keyword tags, T5-XXL for natural-language descriptions. See @concepts/prompt-engineering-uncensored.md §Dual-encoder models.
 
 ## Snippets
 
