@@ -4,6 +4,12 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-05-09] create | RunPod ComfyUI setup runbook
+
+- Created `wiki/runbooks/runpod-comfyui-setup.md` — RunPod-specific quickstart for custom node installation, model downloads, restart gotchas, and stack verification
+- Added bidirectional backlinks from `wiki/entities/uis/comfyui.md`
+- Updated `wiki/index.md` runbooks section
+
 ## [2026-05-06] init | HEAVY-mode wiki layer scaffolded
 
 Workspace was upgraded from LIGHT mode (notes/ + briefs/ only) to HEAVY mode. Empty `wiki/` ready for first ingest pass. Existing `notes/` (3 files) and `briefs/` (5 files) preserved as-is; migration to wiki/ deferred.

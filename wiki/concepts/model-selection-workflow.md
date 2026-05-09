@@ -42,6 +42,7 @@ related:
   - sources/synthetic-character-consistency-survey.md
   - runbooks/beginner-guide-to-persona.md
   - runbooks/day-1-checklist-for-friend.md
+  - runbooks/runpod-comfyui-setup.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08
@@ -85,6 +86,7 @@ updated: 2026-05-08
 @sources/synthetic-character-consistency-survey.md
 @concepts/prompt-engineering-uncensored.md
 @concepts/two-pass-generation-workflow.md
+@runbooks/runpod-comfyui-setup.md
 
 ## Raw Concept
 

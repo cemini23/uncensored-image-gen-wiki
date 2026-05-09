@@ -56,6 +56,7 @@ related:
   - entities/uis/invokeai.md
   - entities/uis/swarmui.md
   - runbooks/zimage-setup-runbook.md
+  - runbooks/runpod-comfyui-setup.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08
@@ -75,6 +76,7 @@ provenance:
 @entities/models/flux-1-dev.md
 @entities/models/z-image-turbo.md
 @runbooks/zimage-setup-runbook.md
+@runbooks/runpod-comfyui-setup.md
 @concepts/persona-ops-workflow.md
 @concepts/video-identity-inheritance.md
 @concepts/model-selection-workflow.md

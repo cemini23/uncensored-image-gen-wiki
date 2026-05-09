@@ -28,6 +28,7 @@ related:
   - concepts/model-selection-workflow.md
   - concepts/synthetic-media-compute-economics.md
   - sources/synthetic-media-ip-financial-roadmap.md
+  - runbooks/runpod-comfyui-setup.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08
@@ -59,6 +60,7 @@ updated: 2026-05-08
 @entities/hardware/mac-studio.md
 @sources/ai-content-factory-workflow-design.md
 @sources/synthetic-media-ip-financial-roadmap.md
+@runbooks/runpod-comfyui-setup.md
 
 ## Raw Concept
 
