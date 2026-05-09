@@ -83,6 +83,8 @@ updated: 2026-05-08
 @entities/uis/comfyui.md
 @sources/uncensored-image-generation-survey.md
 @sources/synthetic-character-consistency-survey.md
+@concepts/prompt-engineering-uncensored.md
+@concepts/two-pass-generation-workflow.md
 
 ## Raw Concept
 

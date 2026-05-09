@@ -31,6 +31,9 @@ updated: 2026-05-08
 @entities/models/flux.md
 @entities/models/flux-1-dev.md
 @entities/models/flux-2-klein.md
+@entities/uis/forge.md
+@entities/uis/invokeai.md
+@entities/uis/swarmui.md
 
 ## Raw Concept
 

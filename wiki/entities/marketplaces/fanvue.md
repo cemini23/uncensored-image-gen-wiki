@@ -5,6 +5,7 @@ tags: [platform, marketplace, AI-created, synthetic-media, creator-economy]
 keywords: [Fanvue, AI creator, synthetic media, platform, marketplace, $500M, 85% revenue split, Manager Accounts]
 related:
   - sources/ai-creator-operations-blueprint.md
+  - runbooks/day-1-checklist-for-friend.md
   - sources/ai-persona-launch-strategy-analysis.md
   - runbooks/zimage-setup-runbook.md
   - concepts/persona-ops-workflow.md

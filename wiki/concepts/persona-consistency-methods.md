@@ -5,6 +5,8 @@ tags: [persona-consistency, methods, taxonomy, identity-injection]
 keywords: [character LoRA, identity adapter, Character DNA, multi-angle dataset, two-pass inpaint, reference plus LoRA stack, face anchor seed]
 related:
   - sources/synthetic-character-consistency-survey.md
+  - sources/ai-content-factory-workflow-design.md
+  - sources/mac-studio-ai-content-factory-design.md
   - sources/video-generation-survey-2026.md
   - concepts/lora-taxonomy.md
   - concepts/multi-angle-dataset-prep.md
@@ -42,6 +44,7 @@ related:
   - entities/personas/aitana-lopez.md
   - sources/persona-ops-stack-2026.md
   - sources/headsup-3d-gaussian-head.md
+  - sources/virtual-persona-narrative-development-strategy.md
   - concepts/model-selection-workflow.md
   - entities/uis/comfyui.md
 maturity: validated
@@ -92,6 +95,7 @@ updated: 2026-05-07
 @entities/personas/aitana-lopez.md
 @sources/persona-ops-stack-2026.md
 @sources/headsup-3d-gaussian-head.md
+@concepts/model-selection-workflow.md
 
 ## Raw Concept
 

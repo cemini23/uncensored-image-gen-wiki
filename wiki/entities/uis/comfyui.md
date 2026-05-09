@@ -5,6 +5,7 @@ tags: [ui, inference-frontend, comfyui, node-graph, open-source, extensible, sta
 keywords: [ComfyUI, node graph, inference UI, SDXL, FLUX, Hunyuan, custom nodes, extensible, open-source, workflow, Draw Things, MLX, Apple Silicon]
 related:
   - entities/models/flux-1-dev.md
+  - concepts/two-pass-generation-workflow.md
   - entities/models/flux-2-klein.md
   - entities/models/pony-v6.md
   - entities/models/flux.md
@@ -43,8 +44,10 @@ related:
   - entities/models/seedance-2.md
   - entities/persona-ops/postiz.md
   - sources/ai-creator-operations-blueprint.md
+  - sources/ai-content-factory-workflow-design.md
   - sources/ai-persona-launch-strategy-analysis.md
   - sources/uncensored-image-generation-survey.md
+  - sources/mac-studio-ai-content-factory-design.md
   - sources/synthetic-character-consistency-survey.md
   - sources/video-generation-survey-2026.md
   - concepts/model-selection-workflow.md
@@ -74,6 +77,13 @@ provenance:
 @runbooks/zimage-setup-runbook.md
 @concepts/persona-ops-workflow.md
 @concepts/video-identity-inheritance.md
+@concepts/model-selection-workflow.md
+@concepts/two-pass-generation-workflow.md
+@entities/models/pony-v6.md
+@entities/uis/automatic1111.md
+@entities/uis/forge.md
+@entities/uis/invokeai.md
+@entities/uis/swarmui.md
 
 ## Raw Concept
 

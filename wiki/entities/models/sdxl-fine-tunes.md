@@ -5,6 +5,8 @@ tags: [model, sdxl, sdxl-fine-tune, umbrella, lustify, juggernaut, cyberrealisti
 keywords: [SDXL fine-tune, Lustify, Juggernaut XL, Cyberrealistic, Epicrealism, BigAsp-v2.5, flow-matching SDXL, photorealism, NSFW SDXL, 8GB VRAM, 2.6B parameters, hardware economics]
 related:
   - sources/uncensored-image-generation-survey.md
+  - concepts/prompt-engineering-uncensored.md
+  - concepts/two-pass-generation-workflow.md
   - concepts/censorship-tier-taxonomy.md
   - concepts/de-censoring-techniques.md
   - concepts/lora-taxonomy.md
@@ -32,6 +34,11 @@ updated: 2026-05-06
 @entities/models/illustrious-xl.md
 @entities/models/noobai-xl.md
 @entities/training-tools/kohya-sd-scripts.md
+@concepts/model-selection-workflow.md
+@concepts/prompt-engineering-uncensored.md
+@concepts/two-pass-generation-workflow.md
+@entities/marketplaces/civitai.md
+@entities/uis/automatic1111.md
 
 ## Raw Concept
 

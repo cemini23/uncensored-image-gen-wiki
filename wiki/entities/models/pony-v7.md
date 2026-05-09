@@ -5,6 +5,7 @@ tags: [model, auraflow, pony, dit, danbooru, lora-base, t5-encoder, completely-u
 keywords: [Pony V7, Pony Diffusion, AstraliteHeart, AuraFlow, T5 text encoder, 1536x1536 native, GGUF Q4, NSFW, Danbooru]
 related:
   - sources/uncensored-image-generation-survey.md
+  - concepts/prompt-engineering-uncensored.md
   - concepts/censorship-tier-taxonomy.md
   - concepts/lora-taxonomy.md
   - concepts/character-dna-templates.md
@@ -34,6 +35,8 @@ updated: 2026-05-06
 @entities/training-tools/kohya-sd-scripts.md
 @entities/training-tools/ai-toolkit.md
 @concepts/de-censoring-techniques.md
+@concepts/model-selection-workflow.md
+@concepts/prompt-engineering-uncensored.md
 
 ## Raw Concept
 

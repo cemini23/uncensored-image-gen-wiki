@@ -28,6 +28,7 @@ provenance:
 ## Relations
 
 @concepts/persona-consistency-methods.md @concepts/persona-ops-workflow.md @concepts/geo-vs-seo.md @concepts/persona-content-cadence.md @concepts/persona-monetization-models.md @concepts/marketing-your-persona.md
+@entities/uis/comfyui.md
 
 ## Raw Concept
 

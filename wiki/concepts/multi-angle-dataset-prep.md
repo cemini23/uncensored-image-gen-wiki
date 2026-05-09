@@ -24,6 +24,7 @@ updated: 2026-05-07
 ## Relations
 
 @sources/video-generation-survey-2026.md @sources/synthetic-character-consistency-survey.md @concepts/persona-consistency-methods.md @concepts/character-dna-templates.md @concepts/video-identity-inheritance.md @entities/adapters/flux-kontext.md @entities/adapters/flux-redux.md @entities/models/wan-2-2.md @entities/models/flux-2-klein.md @entities/models/qwen-image-2512.md @sources/headsup-3d-gaussian-head.md
+@concepts/persona-content-cadence.md
 
 ## Raw Concept
 

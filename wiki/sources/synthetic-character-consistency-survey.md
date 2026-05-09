@@ -7,6 +7,8 @@ related:
   - concepts/persona-consistency-methods.md
   - concepts/lora-taxonomy.md
   - entities/adapters/ip-adapter.md
+  - concepts/prompt-engineering-uncensored.md
+  - concepts/two-pass-generation-workflow.md
   - entities/adapters/pulid.md
   - entities/adapters/instantid.md
   - entities/adapters/consistentid.md
@@ -74,6 +76,13 @@ read_status: deep-read
 @concepts/video-identity-inheritance.md
 @sources/persona-monetization-2026.md
 @sources/persona-ops-stack-2026.md
+@concepts/censorship-tier-taxonomy.md
+@concepts/model-selection-workflow.md
+@concepts/prompt-engineering-uncensored.md
+@concepts/two-pass-generation-workflow.md
+@entities/hardware/gpu-guide.md
+@entities/marketplaces/civitai.md
+@entities/uis/comfyui.md
 
 ## Raw Concept
 

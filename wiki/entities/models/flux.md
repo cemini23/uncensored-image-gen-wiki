@@ -64,6 +64,10 @@ updated: 2026-05-06
 @entities/models/kwai-kolors.md
 @entities/models/pixart-sigma.md
 @entities/models/sd3-deprecated.md
+@concepts/model-selection-workflow.md
+@entities/hardware/gpu-guide.md
+@entities/marketplaces/civitai.md
+@entities/uis/automatic1111.md
 
 ## Raw Concept
 

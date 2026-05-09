@@ -36,6 +36,7 @@ updated: 2026-05-07
 @entities/models/qwen-image-2512.md
 @entities/models/wan-2-2.md
 @entities/models/hunyuanvideo-1-5.md
+@concepts/model-selection-workflow.md
 
 ## Raw Concept
 

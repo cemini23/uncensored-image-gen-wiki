@@ -21,6 +21,7 @@ updated: 2026-05-07
 @concepts/character-dna-templates.md
 @concepts/persona-failure-modes.md
 @concepts/persona-legal-landscape.md
+@concepts/reference-plus-lora-stacking.md
 
 ## Raw Concept
 

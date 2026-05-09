@@ -5,6 +5,8 @@ tags: [model, dit, s3-dit, z-image, zeta-chroma, alibaba, tongyi-mai, lodestone-
 keywords: [Z-Image, Z-Image Turbo, Zeta Chroma, Alibaba, Tongyi MAI, S3-DiT, Scalable Single-Stream Diffusion Transformer, 6B, 8-step distillation, photorealism, completely uncensored, Lodestone Rock, pixel-space DiT]
 related:
   - sources/uncensored-image-generation-survey.md
+  - concepts/prompt-engineering-uncensored.md
+  - concepts/two-pass-generation-workflow.md
   - concepts/censorship-tier-taxonomy.md
   - concepts/de-censoring-techniques.md
   - concepts/lora-taxonomy.md
@@ -38,6 +40,11 @@ updated: 2026-05-07
 @entities/models/kwai-kolors.md
 @sources/video-generation-survey-2026.md
 @concepts/video-identity-inheritance.md
+@concepts/model-selection-workflow.md
+@concepts/prompt-engineering-uncensored.md
+@concepts/two-pass-generation-workflow.md
+@entities/models/anima.md
+@entities/uis/comfyui.md
 
 ## Raw Concept
 

@@ -5,6 +5,9 @@ tags: [model, flux, flux-1, mm-dit, dit, black-forest-labs, minimal-censorship, 
 keywords: [FLUX.1 Dev, FLUX.1 Schnell, FLUX.1 Pro, Black Forest Labs, BFL, MMDiT, flow-matching, T5 encoder, FLUX-UNCENSORED-Merged, Chroma1-HD, SNOFS, abliteration]
 related:
   - sources/uncensored-image-generation-survey.md
+  - concepts/prompt-engineering-uncensored.md
+  - concepts/synthetic-media-compute-economics.md
+  - concepts/two-pass-generation-workflow.md
   - sources/synthetic-character-consistency-survey.md
   - concepts/censorship-tier-taxonomy.md
   - concepts/lora-taxonomy.md
@@ -64,6 +67,14 @@ updated: 2026-05-06
 @entities/uis/comfyui.md
 @entities/marketplaces/civitai.md
 @entities/hardware/gpu-guide.md
+@concepts/model-selection-workflow.md
+@concepts/prompt-engineering-uncensored.md
+@concepts/synthetic-media-compute-economics.md
+@concepts/two-pass-generation-workflow.md
+@entities/models/anima.md
+@entities/models/ernie-image.md
+@entities/uis/automatic1111.md
+@entities/uis/forge.md
 
 ## Raw Concept
 

@@ -5,6 +5,7 @@ tags: [survey, video-generation, t2v, i2v, deep-research, uncensored, latent-cha
 keywords: [video, wan, hunyuan, ltx-2, mochi, cogvideox, seedance, vidu, open-sora, pyramid-flow, sora, veo, kling, hailuo, hedra, runway, pika, luma, latent-chaining, gvs, latentsync, musetalk, unisync, abliterated-text-encoder]
 related:
   - sources/synthetic-character-consistency-survey.md
+  - entities/models/open-sora.md
   - entities/models/wan-2-2.md
   - entities/models/hunyuanvideo-1-5.md
   - entities/models/ltx-2.md
@@ -35,6 +36,9 @@ updated: 2026-05-07
 ## Relations
 
 @sources/synthetic-character-consistency-survey.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @entities/models/ltx-2.md @entities/models/mochi-1.md @entities/models/cogvideox-1-5.md @entities/models/seedance-2.md @concepts/multi-angle-dataset-prep.md @concepts/video-identity-inheritance.md @concepts/seam-stitching-strategies.md @concepts/persona-consistency-methods.md @concepts/censorship-tier-taxonomy.md @concepts/de-censoring-techniques.md @entities/adapters/pulid.md @entities/training-tools/musubi-tuner.md @entities/training-tools/ai-toolkit.md @entities/models/qwen-image-2512.md @entities/models/z-image-turbo.md @entities/models/flux-2-klein.md @sources/persona-ops-stack-2026.md
+@entities/models/open-sora.md
+@entities/models/openrouter-video.md
+@entities/uis/comfyui.md
 
 ## Raw Concept
 

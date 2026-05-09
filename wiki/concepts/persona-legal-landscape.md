@@ -5,6 +5,12 @@ tags: [legal, compliance, persona-monetization, 2257, age-verification, deepfake
 keywords: [18-USC-2257, DEFIANCE-Act, Take-It-Down-Act, Florida-HB3, Utah-AI-law, NY-SAFE-for-Kids, UK-Online-Safety-Act, OSA-Section-138, Yoti, Ofcom, EU-AI-Act-Article-50, AI-Act-August-2026, Getty-v-Stability, NYT-v-OpenAI, Vacker-v-ElevenLabs, Lehrman-v-LOVO, Grok-mass-tort, model-release, NCII]
 related:
   - sources/persona-monetization-2026.md
+  - concepts/persona-ops-workflow.md
+  - concepts/synthetic-media-corporate-structure.md
+  - concepts/synthetic-media-web3-monetization.md
+  - entities/marketplaces/fanvue.md
+  - runbooks/day-1-checklist-for-friend.md
+  - runbooks/zimage-setup-runbook.md
   - concepts/persona-failure-modes.md
   - concepts/persona-monetization-models.md
   - concepts/persona-payment-rails.md
@@ -18,6 +24,9 @@ updated: 2026-05-07
 ## Relations
 
 @sources/persona-monetization-2026.md @concepts/persona-failure-modes.md @concepts/persona-monetization-models.md @concepts/persona-payment-rails.md @concepts/persona-ops-stack.md @concepts/likeness-collision-verification.md
+@concepts/synthetic-media-corporate-structure.md
+@concepts/synthetic-media-web3-monetization.md
+@entities/persona-ops/fish-speech.md
 
 ## Raw Concept
 

@@ -5,6 +5,7 @@ tags: [persona-ops, orchestration, n8n, automation, self-hosted, workflow-engine
 keywords: [n8n, self-hosted-automation, workflow-engine, execution-based-pricing, webhook, AI-agent-nodes, Make, Zapier, LangChain, LangGraph, Temporal, CrewAI, AutoGen, persona-orchestration]
 related:
   - sources/persona-ops-stack-2026.md
+  - concepts/openrouter-chat-workflow.md
   - concepts/persona-ops-stack.md
   - concepts/persona-content-cadence.md
   - entities/persona-ops/postiz.md
@@ -20,6 +21,8 @@ updated: 2026-05-07
 ## Relations
 
 @sources/persona-ops-stack-2026.md @concepts/persona-ops-stack.md @concepts/persona-content-cadence.md @entities/persona-ops/postiz.md @entities/persona-ops/sillytavern.md @entities/persona-ops/fish-speech.md
+@concepts/model-selection-workflow.md
+@entities/uis/comfyui.md
 
 ## Raw Concept
 

@@ -26,6 +26,9 @@ updated: 2026-05-06
 @entities/models/pony-v6.md
 @entities/models/illustrious-xl.md
 @entities/models/noobai-xl.md
+@concepts/model-selection-workflow.md
+@entities/hardware/gpu-guide.md
+@log.md
 
 ## Raw Concept
 

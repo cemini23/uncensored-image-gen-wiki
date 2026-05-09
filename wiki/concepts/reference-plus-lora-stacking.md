@@ -5,6 +5,8 @@ tags: [persona-consistency, production-pattern, lora-stacking, identity-adapter-
 keywords: [reference plus LoRA, stack, 0.85 LoRA + 0.45 adapter, modal 2026 stack, two-pass face inpaint, Klein 9B face-swap, Chroma1-HD, NSFW LoRA stack]
 related:
   - sources/synthetic-character-consistency-survey.md
+  - concepts/prompt-engineering-uncensored.md
+  - concepts/two-pass-generation-workflow.md
   - concepts/persona-consistency-methods.md
   - concepts/lora-taxonomy.md
   - concepts/character-dna-templates.md
@@ -50,6 +52,9 @@ updated: 2026-05-06
 @concepts/prompt-engineering-uncensored.md
 @concepts/two-pass-generation-workflow.md
 @entities/models/sdxl-fine-tunes.md
+@concepts/model-selection-workflow.md
+@entities/hardware/gpu-guide.md
+@entities/uis/comfyui.md
 
 ## Raw Concept
 

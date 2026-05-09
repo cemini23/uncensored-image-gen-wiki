@@ -15,6 +15,7 @@ related:
   - runbooks/beginner-guide-to-persona.md
   - concepts/synthetic-media-corporate-structure.md
   - sources/synthetic-media-ip-financial-roadmap.md
+  - runbooks/zimage-setup-runbook.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08
@@ -36,6 +37,9 @@ provenance:
 @concepts/openrouter-chat-workflow.md
 @runbooks/day-1-checklist-for-friend.md
 @runbooks/beginner-guide-to-persona.md
+@concepts/synthetic-media-corporate-structure.md
+@concepts/video-identity-inheritance.md
+@entities/uis/comfyui.md
 
 ## Raw Concept
 

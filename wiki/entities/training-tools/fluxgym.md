@@ -34,6 +34,8 @@ updated: 2026-05-06
 @entities/training-tools/musubi-tuner.md
 @entities/models/flux.md
 @entities/models/flux-1-dev.md
+@concepts/model-selection-workflow.md
+@entities/hardware/gpu-guide.md
 
 ## Raw Concept
 

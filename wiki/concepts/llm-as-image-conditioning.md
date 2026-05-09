@@ -19,6 +19,7 @@ updated: 2026-05-06
 @concepts/draft-evaluate-diffuse-pipeline.md
 @entities/models/sana.md
 @entities/models/flux.md
+@entities/models/playground-v3.md
 
 ## Raw Concept
 

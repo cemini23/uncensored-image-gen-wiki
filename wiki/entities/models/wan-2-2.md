@@ -30,6 +30,10 @@ updated: 2026-05-07
 ## Relations
 
 @sources/video-generation-survey-2026.md @entities/models/hunyuanvideo-1-5.md @entities/models/ltx-2.md @entities/models/mochi-1.md @entities/models/cogvideox-1-5.md @entities/models/seedance-2.md @entities/training-tools/musubi-tuner.md @entities/training-tools/ai-toolkit.md @concepts/seam-stitching-strategies.md @concepts/video-identity-inheritance.md @concepts/multi-angle-dataset-prep.md @concepts/de-censoring-techniques.md @concepts/censorship-tier-taxonomy.md
+@concepts/model-selection-workflow.md
+@concepts/synthetic-media-compute-economics.md
+@entities/models/open-sora.md
+@entities/models/openrouter-video.md
 
 ## Raw Concept
 

@@ -5,9 +5,13 @@ tags: [hardware, apple-silicon, Mac-Studio, M-series, unified-memory, UMA, local
 keywords: [Mac Studio, Apple Silicon, M4, M3, unified memory architecture, MLX, Draw Things, local inference]
 related:
   - sources/ai-creator-operations-blueprint.md
+  - concepts/persona-ops-workflow.md
+  - entities/uis/comfyui.md
+  - runbooks/day-1-checklist-for-friend.md
   - sources/ai-persona-launch-strategy-analysis.md
   - entities/hardware/gpu-guide.md
   - runbooks/zimage-setup-runbook.md
+  - sources/mac-studio-ai-content-factory-design.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08

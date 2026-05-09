@@ -25,6 +25,7 @@ updated: 2026-05-06
 @entities/models/flux.md
 @entities/models/flux-1-dev.md
 @entities/models/playground-v3.md
+@entities/marketplaces/civitai.md
 
 ## Raw Concept
 

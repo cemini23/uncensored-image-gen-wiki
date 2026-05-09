@@ -5,6 +5,8 @@ tags: [adapter, identity-injection, pulid, flux, sdxl, sd15, bytedance]
 keywords: [PuLID, PuLID-FLUX, PuLID II, PuLID-Flux II, ByteDance, Pure and Lightning ID Customization, identity adapter, FLUX face adapter, model pollution]
 related:
   - sources/synthetic-character-consistency-survey.md
+  - sources/ai-content-factory-workflow-design.md
+  - sources/mac-studio-ai-content-factory-design.md
   - concepts/persona-consistency-methods.md
   - entities/adapters/ip-adapter.md
   - entities/adapters/instantid.md
@@ -48,6 +50,10 @@ updated: 2026-05-07
 @entities/models/flux-2-klein.md
 @sources/video-generation-survey-2026.md
 @concepts/video-identity-inheritance.md
+@concepts/model-selection-workflow.md
+@entities/marketplaces/civitai.md
+@sources/ai-content-factory-workflow-design.md
+@sources/mac-studio-ai-content-factory-design.md
 
 ## Raw Concept
 

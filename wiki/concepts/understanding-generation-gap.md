@@ -17,6 +17,7 @@ updated: 2026-05-06
 @sources/unireasoner.md
 @concepts/draft-evaluate-diffuse-pipeline.md
 @entities/models/bagel.md
+@concepts/llm-as-image-conditioning.md
 
 ## Raw Concept
 

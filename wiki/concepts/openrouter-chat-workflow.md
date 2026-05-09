@@ -5,6 +5,7 @@ tags: [OpenRouter, LLM, chat, workflow, context-window, n8n, automation, API, pe
 keywords: [OpenRouter, chat completions, context window, token truncation, n8n, webhook, persona script, auto-routing]
 related:
   - sources/ai-creator-operations-blueprint.md
+  - runbooks/day-1-checklist-for-friend.md
   - sources/ai-persona-launch-strategy-analysis.md
   - runbooks/zimage-setup-runbook.md
   - concepts/persona-ops-workflow.md

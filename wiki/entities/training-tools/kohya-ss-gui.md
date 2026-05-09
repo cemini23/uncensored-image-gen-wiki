@@ -29,6 +29,7 @@ updated: 2026-05-06
 @entities/training-tools/fluxgym.md
 @entities/training-tools/ai-toolkit.md
 @entities/models/pony-v6.md
+@entities/models/sdxl-fine-tunes.md
 
 ## Raw Concept
 

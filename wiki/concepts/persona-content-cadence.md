@@ -5,6 +5,7 @@ tags: [content-cadence, persona-monetization, ai-slop, c2pa, narrative-progressi
 keywords: [AI-slop, C2PA, posting-cadence, 3-5-posts-per-week, narrative-progression, varied-angles, realistic-lighting, algorithmic-suppression, batch-prompting, gap-analysis, trend-expansion, repurposing, Opus-Clip, Vidyo-ai, Orshot, Repurpose-io]
 related:
   - sources/persona-monetization-2026.md
+  - concepts/geo-vs-seo.md
   - sources/persona-ops-stack-2026.md
   - concepts/persona-monetization-models.md
   - concepts/persona-ops-stack.md
@@ -22,6 +23,8 @@ updated: 2026-05-07
 ## Relations
 
 @sources/persona-monetization-2026.md @sources/persona-ops-stack-2026.md @concepts/persona-monetization-models.md @concepts/persona-ops-stack.md @concepts/persona-failure-modes.md @concepts/persona-consistency-methods.md @entities/persona-ops/postiz.md @entities/persona-ops/n8n.md @entities/personas/aitana-lopez.md
+@concepts/marketing-your-persona.md
+@sources/virtual-persona-narrative-development-strategy.md
 
 ## Raw Concept
 

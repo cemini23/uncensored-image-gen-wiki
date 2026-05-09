@@ -1,0 +1,26 @@
+name: wiki-lint
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Run wiki lint
+        run: python3 scripts/wiki_lint.py
+
+      - name: Run gap detection
+        run: python3 scripts/wiki_gap_detect.py
+
+      - name: Check inbox for unprocessed sources
+        run: |
+          count=$(ls -1 "research to be indexed/" 2>/dev/null | grep -v '^\.' | grep -v '^processed$' | wc -l)
+          if [ "$count" -gt 0 ]; then
+            echo "::notice::🧹 $count unprocessed item(s) in research to be indexed/"
+          fi

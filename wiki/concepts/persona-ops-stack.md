@@ -5,6 +5,9 @@ tags: [persona-ops, automation, stack-architecture, multi-account, dm-automation
 keywords: [persona-ops, scheduling, anti-detect-browsers, residential-proxies, sillytavern, local-llm, voice-cloning, n8n, orchestration, comfyui, fal-ai, replicate, modal, telegram, postiz]
 related:
   - sources/persona-ops-stack-2026.md
+  - concepts/persona-ops-workflow.md
+  - concepts/synthetic-media-ip-valuation.md
+  - concepts/synthetic-media-web3-monetization.md
   - sources/persona-monetization-2026.md
   - concepts/persona-monetization-models.md
   - concepts/persona-failure-modes.md
@@ -28,6 +31,10 @@ updated: 2026-05-07
 ## Relations
 
 @sources/persona-ops-stack-2026.md @sources/persona-monetization-2026.md @concepts/persona-monetization-models.md @concepts/persona-failure-modes.md @concepts/persona-content-cadence.md @concepts/persona-consistency-methods.md @entities/persona-ops/postiz.md @entities/persona-ops/sillytavern.md @entities/persona-ops/fish-speech.md @entities/persona-ops/n8n.md @concepts/persona-legal-landscape.md @concepts/persona-payment-rails.md @entities/personas/aitana-lopez.md
+@concepts/marketing-your-persona.md
+@concepts/model-selection-workflow.md
+@concepts/synthetic-media-ip-valuation.md
+@concepts/synthetic-media-web3-monetization.md
 
 ## Raw Concept
 

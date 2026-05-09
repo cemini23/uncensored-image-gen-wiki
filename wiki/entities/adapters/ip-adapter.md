@@ -5,6 +5,8 @@ tags: [adapter, identity-injection, image-prompt, tencent, ip-adapter, sdxl, sd1
 keywords: [IP-Adapter, IP-Adapter Plus, IP-Adapter FaceID, FaceID Plus V2, FaceID Portrait, FaceID SDXL, h94, Tencent ARC, CLIP vision encoder, holistic embedding, image prompt adapter]
 related:
   - sources/synthetic-character-consistency-survey.md
+  - sources/ai-content-factory-workflow-design.md
+  - sources/mac-studio-ai-content-factory-design.md
   - concepts/persona-consistency-methods.md
   - entities/adapters/pulid.md
   - entities/adapters/instantid.md
@@ -39,6 +41,7 @@ updated: 2026-05-06
 @concepts/reference-plus-lora-stacking.md
 @entities/models/pony-v6.md
 @entities/models/illustrious-xl.md
+@concepts/model-selection-workflow.md
 
 ## Raw Concept
 

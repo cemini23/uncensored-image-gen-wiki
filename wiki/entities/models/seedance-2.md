@@ -18,6 +18,7 @@ updated: 2026-05-07
 ## Relations
 
 @sources/video-generation-survey-2026.md @entities/models/wan-2-2.md @concepts/video-identity-inheritance.md @concepts/persona-consistency-methods.md
+@entities/models/openrouter-video.md
 
 ## Raw Concept
 

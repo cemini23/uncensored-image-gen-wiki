@@ -26,6 +26,7 @@ read_status: deep-read
 ## Relations
 
 @sources/persona-monetization-2026.md @sources/synthetic-character-consistency-survey.md @sources/video-generation-survey-2026.md @concepts/persona-ops-stack.md @concepts/persona-monetization-models.md @concepts/persona-failure-modes.md @concepts/persona-content-cadence.md @concepts/persona-consistency-methods.md @entities/persona-ops/postiz.md @entities/persona-ops/sillytavern.md @entities/persona-ops/fish-speech.md @entities/persona-ops/n8n.md
+@concepts/marketing-your-persona.md
 
 ## Raw Concept
 

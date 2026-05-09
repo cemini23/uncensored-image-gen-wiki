@@ -5,12 +5,16 @@ tags: [GEO, SEO, generative-engine-optimization, traffic, LLM-citation, schema-m
 keywords: [GEO, SEO, generative engine optimization, LLM citation, schema markup, geographic anchoring, social funnel, persona discovery]
 related:
   - sources/ai-creator-operations-blueprint.md
+  - runbooks/day-1-checklist-for-friend.md
+  - sources/ai-content-factory-workflow-design.md
   - sources/ai-persona-launch-strategy-analysis.md
   - runbooks/zimage-setup-runbook.md
   - concepts/persona-ops-workflow.md
   - concepts/marketing-your-persona.md
   - entities/marketplaces/fanvue.md
   - concepts/persona-content-cadence.md
+  - sources/mac-studio-ai-content-factory-design.md
+  - sources/virtual-persona-narrative-development-strategy.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08

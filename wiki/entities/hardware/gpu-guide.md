@@ -5,6 +5,8 @@ tags: [hardware, gpu, vram, quantization, apple-silicon, nvidia, inference, opti
 keywords: [hardware, GPU, VRAM, quantization, FP8, GGUF, Nunchaku, Apple Silicon, MPS, RTX, consumer, cloud fallback]
 related:
   - entities/models/flux-1-dev.md
+  - concepts/prompt-engineering-uncensored.md
+  - concepts/two-pass-generation-workflow.md
   - entities/models/flux-2-klein.md
   - entities/models/pony-v6.md
   - entities/models/noobai-xl.md
@@ -21,6 +23,7 @@ related:
   - concepts/lora-taxonomy.md
   - concepts/reference-plus-lora-stacking.md
   - sources/uncensored-image-generation-survey.md
+  - sources/ai-content-factory-workflow-design.md
   - sources/synthetic-character-consistency-survey.md
   - concepts/model-selection-workflow.md
   - concepts/synthetic-media-compute-economics.md
@@ -49,6 +52,13 @@ updated: 2026-05-08
 @concepts/de-censoring-techniques.md
 @concepts/lora-taxonomy.md
 @concepts/reference-plus-lora-stacking.md
+@concepts/model-selection-workflow.md
+@concepts/prompt-engineering-uncensored.md
+@concepts/synthetic-media-compute-economics.md
+@concepts/two-pass-generation-workflow.md
+@entities/hardware/mac-studio.md
+@sources/ai-content-factory-workflow-design.md
+@sources/synthetic-media-ip-financial-roadmap.md
 
 ## Raw Concept
 

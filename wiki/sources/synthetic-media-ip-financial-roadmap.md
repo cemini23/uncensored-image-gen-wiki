@@ -13,6 +13,7 @@ related:
   - concepts/persona-monetization-models.md
   - concepts/persona-payment-rails.md
   - entities/hardware/gpu-guide.md
+  - sources/ai-creator-operations-blueprint.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08

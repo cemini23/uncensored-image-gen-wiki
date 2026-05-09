@@ -43,6 +43,9 @@ updated: 2026-05-07
 @entities/models/flux-2-klein.md
 @entities/models/pony-v7.md
 @entities/models/wan-2-2.md
+@concepts/de-censoring-techniques.md
+@concepts/model-selection-workflow.md
+@entities/hardware/gpu-guide.md
 
 ## Raw Concept
 

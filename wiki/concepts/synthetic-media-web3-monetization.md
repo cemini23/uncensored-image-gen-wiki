@@ -5,6 +5,7 @@ tags: [web3, fan-tokens, token-gating, cryptocurrency, monetization, solana, pum
 keywords: [fan token, token gating, Web3 monetization, Solana, pump.fun, BVNK, Triple-A, Collab.Land, Guild.xyz, bonding curve, Jito bundles, stablecoins, crypto payment gateway, digital collectibles]
 related:
   - sources/synthetic-media-ip-financial-roadmap.md
+  - entities/models/open-sora.md
   - concepts/persona-monetization-models.md
   - concepts/persona-payment-rails.md
   - concepts/persona-ops-stack.md
@@ -21,6 +22,7 @@ updated: 2026-05-08
 @concepts/persona-payment-rails.md
 @concepts/persona-ops-stack.md
 @concepts/persona-legal-landscape.md
+@entities/models/open-sora.md
 
 ## Raw Concept
 

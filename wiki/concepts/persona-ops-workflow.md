@@ -5,6 +5,10 @@ tags: [persona-ops, workflow, operations, automation, KYC, compliance, launch-se
 keywords: [persona operations, workflow, daily ops, automation, OpenRouter, n8n, CRM, compliance, platform onboarding]
 related:
   - sources/ai-creator-operations-blueprint.md
+  - entities/models/open-sora.md
+  - entities/uis/comfyui.md
+  - runbooks/day-1-checklist-for-friend.md
+  - sources/ai-content-factory-workflow-design.md
   - sources/ai-persona-launch-strategy-analysis.md
   - runbooks/zimage-setup-runbook.md
   - concepts/persona-ops-stack.md
@@ -15,6 +19,7 @@ related:
   - concepts/persona-legal-landscape.md
   - concepts/synthetic-media-corporate-structure.md
   - sources/synthetic-media-ip-financial-roadmap.md
+  - sources/mac-studio-ai-content-factory-design.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08
@@ -26,6 +31,10 @@ provenance:
 ## Relations
 
 @sources/ai-creator-operations-blueprint.md @sources/ai-persona-launch-strategy-analysis.md @sources/mac-studio-ai-content-factory-design.md @sources/virtual-persona-narrative-development-strategy.md @runbooks/zimage-setup-runbook.md
+@concepts/synthetic-media-corporate-structure.md
+@entities/models/open-sora.md
+@entities/uis/comfyui.md
+@sources/synthetic-media-ip-financial-roadmap.md
 
 ## Raw Concept
 

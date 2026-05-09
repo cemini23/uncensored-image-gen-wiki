@@ -19,6 +19,7 @@ updated: 2026-05-06
 @concepts/understanding-generation-gap.md
 @concepts/llm-as-image-conditioning.md
 @entities/models/sana.md
+@entities/models/bagel.md
 
 ## Raw Concept
 

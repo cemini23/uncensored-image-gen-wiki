@@ -5,6 +5,9 @@ tags: [persona-monetization, payment-processors, payment-orchestration, crypto-r
 keywords: [CCBill, SegPay, Verotel, Epoch, ePayments, Paxum, NowPayments, BitPay, payment-orchestration, dynamic-routing, high-risk-merchant, Visa-Mastercard-fee, de-banking, multi-banking, machine-to-machine-fraud]
 related:
   - sources/persona-monetization-2026.md
+  - sources/synthetic-media-ip-financial-roadmap.md
+  - concepts/persona-failure-modes.md
+  - concepts/synthetic-media-corporate-structure.md
   - concepts/persona-monetization-models.md
   - concepts/synthetic-media-web3-monetization.md
   - concepts/persona-legal-landscape.md
@@ -19,6 +22,9 @@ updated: 2026-05-07
 ## Relations
 
 @sources/persona-monetization-2026.md @concepts/persona-monetization-models.md @concepts/persona-failure-modes.md @concepts/persona-legal-landscape.md @concepts/persona-ops-stack.md
+@concepts/synthetic-media-corporate-structure.md
+@concepts/synthetic-media-web3-monetization.md
+@sources/synthetic-media-ip-financial-roadmap.md
 
 ## Raw Concept
 

@@ -5,6 +5,8 @@ tags: [prompting, character-dna, xml-tags, structured-prompt, persona-prompting,
 keywords: [Character DNA, XML tag prompting, structured prompt, Identity Anchor, persona prompt, trigger token, Danbooru tag chain, T5 natural-language prompt]
 related:
   - sources/synthetic-character-consistency-survey.md
+  - concepts/prompt-engineering-uncensored.md
+  - concepts/two-pass-generation-workflow.md
   - concepts/persona-consistency-methods.md
   - concepts/likeness-collision-verification.md
   - concepts/reference-plus-lora-stacking.md
@@ -33,6 +35,9 @@ updated: 2026-05-07
 @entities/models/noobai-xl.md
 @entities/models/flux-1-dev.md
 @entities/models/flux-2-klein.md
+@concepts/prompt-engineering-uncensored.md
+@concepts/two-pass-generation-workflow.md
+@entities/persona-ops/sillytavern.md
 
 ## Raw Concept
 

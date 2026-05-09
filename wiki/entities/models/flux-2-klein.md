@@ -5,6 +5,8 @@ tags: [model, flux, flux-2, klein, mm-dit, dit, black-forest-labs, minimal-censo
 keywords: [FLUX.2 Klein, FLUX.2 Klein 9B, FLUX.2 Klein 4B, Black Forest Labs, BFL, sub-second inference, 8-13GB VRAM, multi-reference conditioning, photorealism]
 related:
   - sources/uncensored-image-generation-survey.md
+  - concepts/prompt-engineering-uncensored.md
+  - concepts/two-pass-generation-workflow.md
   - sources/synthetic-character-consistency-survey.md
   - concepts/censorship-tier-taxonomy.md
   - concepts/lora-taxonomy.md
@@ -53,6 +55,13 @@ updated: 2026-05-07
 @sources/video-generation-survey-2026.md
 @concepts/video-identity-inheritance.md
 @concepts/multi-angle-dataset-prep.md
+@concepts/model-selection-workflow.md
+@concepts/prompt-engineering-uncensored.md
+@concepts/two-pass-generation-workflow.md
+@entities/hardware/gpu-guide.md
+@entities/marketplaces/civitai.md
+@entities/uis/automatic1111.md
+@entities/uis/forge.md
 
 ## Raw Concept
 

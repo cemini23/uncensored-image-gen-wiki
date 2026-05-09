@@ -6,6 +6,8 @@ keywords: [Uncensored, DiT, U-Net pivot, FLUX.1, FLUX.2, Pony Diffusion, Illustr
 related:
   - concepts/censorship-tier-taxonomy.md
   - entities/models/flux.md
+  - concepts/prompt-engineering-uncensored.md
+  - concepts/two-pass-generation-workflow.md
   - entities/models/flux-1-dev.md
   - entities/models/flux-2-klein.md
   - entities/models/pony-v6.md
@@ -62,6 +64,12 @@ provenance:
 @entities/models/pixart-sigma.md
 @entities/models/sdxl-fine-tunes.md
 @entities/models/sd3-deprecated.md
+@concepts/model-selection-workflow.md
+@concepts/prompt-engineering-uncensored.md
+@concepts/two-pass-generation-workflow.md
+@entities/hardware/gpu-guide.md
+@entities/marketplaces/civitai.md
+@entities/uis/comfyui.md
 
 ## Raw Concept
 

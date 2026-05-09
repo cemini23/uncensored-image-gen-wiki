@@ -66,6 +66,10 @@ updated: 2026-05-07
 @entities/models/hunyuanvideo-1-5.md
 @entities/models/mochi-1.md
 @entities/models/cogvideox-1-5.md
+@concepts/prompt-engineering-uncensored.md
+@concepts/two-pass-generation-workflow.md
+@entities/hardware/gpu-guide.md
+@entities/marketplaces/civitai.md
 
 ## Raw Concept
 

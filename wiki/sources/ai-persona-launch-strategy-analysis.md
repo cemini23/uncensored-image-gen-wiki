@@ -11,6 +11,8 @@ related:
   - entities/marketplaces/fanvue.md
   - entities/uis/comfyui.md
   - concepts/video-identity-inheritance.md
+  - runbooks/day-1-checklist-for-friend.md
+  - runbooks/zimage-setup-runbook.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08

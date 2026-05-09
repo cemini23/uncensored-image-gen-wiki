@@ -7,6 +7,7 @@ related:
   - entities/uis/comfyui.md
   - entities/marketplaces/fanvue.md
   - sources/ai-creator-operations-blueprint.md
+  - runbooks/day-1-checklist-for-friend.md
   - sources/ai-persona-launch-strategy-analysis.md
   - concepts/persona-ops-workflow.md
   - concepts/geo-vs-seo.md

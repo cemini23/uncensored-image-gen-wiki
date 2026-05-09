@@ -5,6 +5,8 @@ tags: [persona-monetization, fanvue, onlyfans, revenue-mechanics, roi, ppv, dm-e
 keywords: [Fanvue, OnlyFans, subscription, PPV, pay-per-view, tips, DM-monetization, parasocial, voice-notes, ROI, ARR, AI Personality of the Year, brand-partnerships, course-economy, AICA, Filipvault, Lexi-Love, Aitana-Lopez, Emily-Pellegrini]
 related:
   - sources/persona-monetization-2026.md
+  - concepts/synthetic-media-compute-economics.md
+  - concepts/synthetic-media-corporate-structure.md
   - sources/persona-ops-stack-2026.md
   - concepts/persona-ops-stack.md
   - concepts/persona-failure-modes.md
@@ -17,6 +19,8 @@ related:
   - entities/persona-ops/fish-speech.md
   - entities/persona-ops/sillytavern.md
   - concepts/marketing-your-persona.md
+  - sources/synthetic-media-ip-financial-roadmap.md
+  - sources/virtual-persona-narrative-development-strategy.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07
@@ -25,6 +29,13 @@ updated: 2026-05-07
 ## Relations
 
 @sources/persona-monetization-2026.md @sources/persona-ops-stack-2026.md @concepts/persona-ops-stack.md @concepts/persona-failure-modes.md @concepts/persona-payment-rails.md @concepts/persona-content-cadence.md @entities/personas/aitana-lopez.md @concepts/persona-legal-landscape.md @entities/persona-ops/fish-speech.md @entities/persona-ops/sillytavern.md
+@concepts/marketing-your-persona.md
+@concepts/synthetic-media-compute-economics.md
+@concepts/synthetic-media-corporate-structure.md
+@concepts/synthetic-media-ip-valuation.md
+@concepts/synthetic-media-web3-monetization.md
+@sources/synthetic-media-ip-financial-roadmap.md
+@sources/virtual-persona-narrative-development-strategy.md
 
 ## Raw Concept
 

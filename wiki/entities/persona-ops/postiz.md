@@ -19,6 +19,8 @@ updated: 2026-05-07
 ## Relations
 
 @sources/persona-ops-stack-2026.md @concepts/persona-ops-stack.md @concepts/persona-content-cadence.md @entities/persona-ops/n8n.md
+@concepts/marketing-your-persona.md
+@concepts/model-selection-workflow.md
 
 ## Raw Concept
 

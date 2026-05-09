@@ -18,6 +18,7 @@ updated: 2026-05-07
 ## Relations
 
 @sources/persona-monetization-2026.md @concepts/persona-monetization-models.md @concepts/persona-ops-stack.md @concepts/persona-content-cadence.md @concepts/persona-consistency-methods.md
+@concepts/marketing-your-persona.md
 
 ## Raw Concept
 

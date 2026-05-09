@@ -5,6 +5,8 @@ tags: [model, sdxl, pony, danbooru, lora-base, completely-uncensored, anime, sty
 keywords: [Pony V6, Pony Diffusion, AstraliteHeart, PurpleSmart.ai, SDXL, score_9, score_8_up, Danbooru tags, e621]
 related:
   - sources/uncensored-image-generation-survey.md
+  - concepts/prompt-engineering-uncensored.md
+  - concepts/two-pass-generation-workflow.md
   - concepts/censorship-tier-taxonomy.md
   - concepts/lora-taxonomy.md
   - concepts/character-dna-templates.md
@@ -55,6 +57,12 @@ updated: 2026-05-06
 @entities/marketplaces/civitai.md
 @entities/models/anima.md
 @entities/models/sdxl-fine-tunes.md
+@concepts/model-selection-workflow.md
+@concepts/prompt-engineering-uncensored.md
+@concepts/two-pass-generation-workflow.md
+@entities/hardware/gpu-guide.md
+@entities/uis/automatic1111.md
+@entities/uis/forge.md
 
 ## Raw Concept
 

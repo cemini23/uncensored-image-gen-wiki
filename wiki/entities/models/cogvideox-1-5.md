@@ -21,6 +21,8 @@ updated: 2026-05-08
 ## Relations
 
 @sources/video-generation-survey-2026.md @entities/models/wan-2-2.md @concepts/synthetic-media-compute-economics.md @concepts/seam-stitching-strategies.md @concepts/de-censoring-techniques.md @concepts/censorship-tier-taxonomy.md
+@concepts/model-selection-workflow.md
+@entities/models/open-sora.md
 
 ## Raw Concept
 

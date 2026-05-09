@@ -5,9 +5,11 @@ tags: [marketing, persona, seo, geo, social-media, content-strategy, bridge, cro
 keywords: [persona marketing, AI influencer marketing, NSFW marketing, social media strategy, content calendar, SEO for AI personas]
 related:
   - concepts/persona-ops-stack.md
+  - concepts/geo-vs-seo.md
   - concepts/persona-monetization-models.md
   - concepts/persona-content-cadence.md
   - concepts/persona-failure-modes.md
+  - sources/virtual-persona-narrative-development-strategy.md
   - entities/persona-ops/postiz.md
   - entities/persona-ops/sillytavern.md
   - entities/personas/aitana-lopez.md
@@ -40,6 +42,8 @@ updated: 2026-05-08
 @seo-wiki/concepts/content-strategy-local.md
 @seo-wiki/entities/platforms/instagram.md
 @seo-wiki/entities/platforms/tiktok.md
+@entities/models/openrouter-video.md
+@sources/virtual-persona-narrative-development-strategy.md
 
 ## Raw Concept
 

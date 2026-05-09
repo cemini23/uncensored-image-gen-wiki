@@ -5,6 +5,7 @@ tags: [ui, inference-frontend, forge, fork, performance, sdxl, flux, open-source
 keywords: [Forge, A1111 fork, performance, VRAM optimization, SDXL, FLUX, speed, low-vram]
 related:
   - entities/uis/comfyui.md
+  - concepts/two-pass-generation-workflow.md
   - entities/uis/automatic1111.md
   - entities/models/pony-v6.md
   - entities/models/flux-1-dev.md
@@ -24,6 +25,9 @@ updated: 2026-05-08
 @entities/models/pony-v6.md
 @entities/models/flux-1-dev.md
 @entities/models/flux-2-klein.md
+@concepts/two-pass-generation-workflow.md
+@entities/uis/invokeai.md
+@entities/uis/swarmui.md
 
 ## Raw Concept
 

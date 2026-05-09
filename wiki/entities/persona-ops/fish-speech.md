@@ -18,6 +18,7 @@ updated: 2026-05-07
 ## Relations
 
 @sources/persona-ops-stack-2026.md @concepts/persona-ops-stack.md @concepts/persona-monetization-models.md @entities/persona-ops/sillytavern.md @entities/persona-ops/n8n.md
+@concepts/model-selection-workflow.md
 
 ## Raw Concept
 

@@ -22,6 +22,8 @@ updated: 2026-05-07
 ## Relations
 
 @sources/persona-monetization-2026.md @sources/persona-ops-stack-2026.md @concepts/persona-ops-stack.md @concepts/persona-monetization-models.md @concepts/persona-payment-rails.md @concepts/persona-legal-landscape.md @concepts/persona-content-cadence.md @concepts/persona-consistency-methods.md @concepts/likeness-collision-verification.md
+@concepts/marketing-your-persona.md
+@entities/persona-ops/postiz.md
 
 ## Raw Concept
 

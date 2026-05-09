@@ -52,6 +52,9 @@ updated: 2026-05-06
 @entities/models/qwen-image-2512.md
 @entities/models/sdxl-fine-tunes.md
 @entities/models/pixart-sigma.md
+@concepts/model-selection-workflow.md
+@entities/hardware/gpu-guide.md
+@entities/marketplaces/civitai.md
 
 ## Raw Concept
 

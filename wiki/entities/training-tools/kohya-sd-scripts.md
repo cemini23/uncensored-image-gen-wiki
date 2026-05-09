@@ -42,6 +42,8 @@ updated: 2026-05-06
 @entities/models/noobai-xl.md
 @entities/models/flux-1-dev.md
 @entities/models/sdxl-fine-tunes.md
+@concepts/model-selection-workflow.md
+@entities/hardware/gpu-guide.md
 
 ## Raw Concept
 
