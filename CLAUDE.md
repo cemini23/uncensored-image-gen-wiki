@@ -136,8 +136,8 @@ When a query needs data from another wiki, reference it using the `@wiki-alias/p
 
 | Alias | Path | Description |
 |-------|------|-------------|
-| `seo-wiki` | `/Users/claudiobarone/Desktop/projects/SEO:GEO B&M Business/wiki/` | SEO, local search (GEO), GEO/AEO, web design, social media marketing |
-| `osint-wiki` | `/Users/claudiobarone/Desktop/OSINT WORKSPACE/wiki/` | OSINT and financial research (includes conductor/librarian service) |
+| `seo-wiki` | `$HOME/Desktop/projects/SEO:GEO B&M Business/wiki/` | SEO, local search (GEO), GEO/AEO, web design, social media marketing |
+| `osint-wiki` | `$HOME/Desktop/OSINT WORKSPACE/wiki/` | OSINT and financial research (includes conductor/librarian service) |
 
 ### Cross-wiki link syntax
 

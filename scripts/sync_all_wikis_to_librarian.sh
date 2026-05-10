@@ -6,12 +6,12 @@
 #
 # Usage:
 #   - Manual:  ./scripts/sync_all_wikis_to_librarian.sh
-#   - Cron:  0 * * * * /Users/claudiobarone/Desktop/projects/Image\ gen/scripts/sync_all_wikis_to_librarian.sh
+#   - Cron:  0 * * * * $HOME/Desktop/projects/Image\ gen/scripts/sync_all_wikis_to_librarian.sh
 #
 # Wiki aliases (must match CLAUDE.md "Related Wikis" section):
-#   image-gen-wiki  -> /Users/claudiobarone/Desktop/projects/Image gen/wiki/
-#   seo-wiki        -> /Users/claudiobarone/Desktop/projects/SEO:GEO B&M Business/wiki/
-#   osint-wiki      -> /Users/claudiobarone/Desktop/OSINT WORKSPACE/wiki/
+#   image-gen-wiki  -> $HOME/Desktop/projects/Image gen/wiki/
+#   seo-wiki        -> $HOME/Desktop/projects/SEO:GEO B&M Business/wiki/
+#   osint-wiki      -> $HOME/Desktop/OSINT WORKSPACE/wiki/
 #
 # Exit codes:
 #   0 — success (all rsyncs + kb ingest succeeded)
@@ -27,9 +27,9 @@ LOGFILE="$HOME/Library/Logs/cemini-all-wikis-sync.log"
 
 # Wiki definitions: alias -> local_path
 declare -A WIKI_PATHS=(
-  ["image-gen-wiki"]="/Users/claudiobarone/Desktop/projects/Image gen/wiki"
-  ["seo-wiki"]="/Users/claudiobarone/Desktop/projects/SEO:GEO B&M Business/wiki"
-  ["osint-wiki"]="/Users/claudiobarone/Desktop/OSINT WORKSPACE/wiki"
+  ["image-gen-wiki"]="$HOME/Desktop/projects/Image gen/wiki"
+  ["seo-wiki"]="$HOME/Desktop/projects/SEO:GEO B&M Business/wiki"
+  ["osint-wiki"]="$HOME/Desktop/OSINT WORKSPACE/wiki"
 )
 
 # Ensure log dir exists
