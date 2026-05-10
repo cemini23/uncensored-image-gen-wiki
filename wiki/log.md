@@ -4,6 +4,14 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-05-09] create | Persona audio stack concept page
+
+- Created `wiki/concepts/persona-audio-stack.md` — comprehensive four-layer audio pipeline: voice cloning (Fish-Speech S2 Pro, CosyVoice2, IndexTTS-2), lipsync (LatentSync, MuseTalk, Wav2Lip), music generation (ACE-Step 1.5, MusicGen, Stable Audio Open), sound effects (Stable Audio Open, AudioLDM, Tango 2)
+- Integration architecture: n8n orchestration + FFmpeg muxing + ComfyUI API calls
+- Hardware requirements table per audio layer; 4090 (24 GB) fits full audio stack
+- Added bidirectional backlinks from 11 referenced pages
+- Updated `wiki/index.md` concepts section
+
 ## [2026-05-09] create | RunPod ComfyUI setup runbook
 
 - Created `wiki/runbooks/runpod-comfyui-setup.md` — RunPod-specific quickstart for custom node installation, model downloads, restart gotchas, and stack verification

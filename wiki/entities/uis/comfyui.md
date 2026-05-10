@@ -57,6 +57,7 @@ related:
   - entities/uis/swarmui.md
   - runbooks/zimage-setup-runbook.md
   - runbooks/runpod-comfyui-setup.md
+  - concepts/persona-audio-stack.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08
@@ -87,6 +88,7 @@ provenance:
 @entities/uis/invokeai.md
 @entities/uis/swarmui.md
 
+@concepts/persona-audio-stack.md
 ## Raw Concept
 
 ComfyUI — open-source, node-graph-based inference frontend for Stable Diffusion, FLUX, Hunyuan, Wan, CogVideoX, and other diffusion architectures. Back-filled from legacy notes/frameworks-tools.md + survey coverage in @sources/uncensored-image-generation-survey.md, @sources/synthetic-character-consistency-survey.md, and @sources/video-generation-survey-2026.md.

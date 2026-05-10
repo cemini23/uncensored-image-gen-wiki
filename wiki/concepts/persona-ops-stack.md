@@ -23,6 +23,7 @@ related:
   - concepts/marketing-your-persona.md
   - concepts/model-selection-workflow.md
   - entities/uis/comfyui.md
+  - concepts/persona-audio-stack.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07
@@ -36,6 +37,7 @@ updated: 2026-05-07
 @concepts/synthetic-media-ip-valuation.md
 @concepts/synthetic-media-web3-monetization.md
 
+@concepts/persona-audio-stack.md
 ## Raw Concept
 
 Page prompted by Path A step 6 ingest of the persona-ops survey docx (May 2026). Synthesizes the 7-axis architecture of the modal 2026 persona-ops stack into a single reference page. Companion to @concepts/persona-consistency-methods.md (which covers the identity layer); this page covers the operational layer **wrapped around** that identity.

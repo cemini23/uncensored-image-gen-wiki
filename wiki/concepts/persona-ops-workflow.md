@@ -21,6 +21,7 @@ related:
   - sources/synthetic-media-ip-financial-roadmap.md
   - sources/mac-studio-ai-content-factory-design.md
   - sources/virtual-persona-narrative-development-strategy.md
+  - concepts/persona-audio-stack.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08
@@ -37,6 +38,7 @@ provenance:
 @entities/uis/comfyui.md
 @sources/synthetic-media-ip-financial-roadmap.md
 
+@concepts/persona-audio-stack.md
 ## Raw Concept
 
 Synthesis of the full operational workflow for launching and managing 100% AI-generated synthetic persona agencies, drawn from the Operations Blueprint and Launch Strategy Analysis source documents.

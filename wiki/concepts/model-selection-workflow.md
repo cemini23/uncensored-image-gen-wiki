@@ -43,6 +43,7 @@ related:
   - runbooks/beginner-guide-to-persona.md
   - runbooks/day-1-checklist-for-friend.md
   - runbooks/runpod-comfyui-setup.md
+  - concepts/persona-audio-stack.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08
@@ -88,6 +89,7 @@ updated: 2026-05-08
 @concepts/two-pass-generation-workflow.md
 @runbooks/runpod-comfyui-setup.md
 
+@concepts/persona-audio-stack.md
 ## Raw Concept
 
 Decision-support page that maps a user's **hardware** and **creative goals** to a concrete model stack, image-generation workflow, and optional video/DM pipeline. Replaces the need to read every individual model page before choosing a starting point.

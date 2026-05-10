@@ -10,6 +10,7 @@ related:
   - entities/persona-ops/sillytavern.md
   - entities/persona-ops/n8n.md
   - concepts/model-selection-workflow.md
+  - concepts/persona-audio-stack.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07
@@ -20,6 +21,7 @@ updated: 2026-05-07
 @sources/persona-ops-stack-2026.md @concepts/persona-ops-stack.md @concepts/persona-monetization-models.md @entities/persona-ops/sillytavern.md @entities/persona-ops/n8n.md
 @concepts/model-selection-workflow.md
 
+@concepts/persona-audio-stack.md
 ## Raw Concept
 
 Page prompted by Path A step 6 ingest of the persona-ops survey docx (May 2026). Fish-Speech S2 Pro is the open-source voice-cloning leader on TTS-Arena2 as of May 2026 — zero-shot from 10-30 seconds of reference audio, 50+ emotion tags, supports the NSFW persona-ops voice layer that ElevenLabs (NSFW-banned) won't.

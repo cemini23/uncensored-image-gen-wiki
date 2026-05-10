@@ -17,6 +17,7 @@ related:
   - entities/persona-ops/fish-speech.md
   - entities/persona-ops/n8n.md
   - concepts/marketing-your-persona.md
+  - concepts/persona-audio-stack.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-07
@@ -28,6 +29,7 @@ read_status: deep-read
 @sources/persona-monetization-2026.md @sources/synthetic-character-consistency-survey.md @sources/video-generation-survey-2026.md @concepts/persona-ops-stack.md @concepts/persona-monetization-models.md @concepts/persona-failure-modes.md @concepts/persona-content-cadence.md @concepts/persona-consistency-methods.md @entities/persona-ops/postiz.md @entities/persona-ops/sillytavern.md @entities/persona-ops/fish-speech.md @entities/persona-ops/n8n.md
 @concepts/marketing-your-persona.md
 
+@concepts/persona-audio-stack.md
 ## Raw Concept
 
 **Title**: Comprehensive Survey of the Software Stack for Adult AI Persona Operations: Posting, Multi-Account Management, DMs, Voice, Agents, and Image/Video Pipelines (May 2026)

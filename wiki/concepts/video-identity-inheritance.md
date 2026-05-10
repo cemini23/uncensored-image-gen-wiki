@@ -21,6 +21,7 @@ related:
   - sources/headsup-3d-gaussian-head.md
   - entities/models/openrouter-video.md
   - entities/uis/comfyui.md
+  - concepts/persona-audio-stack.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07
@@ -32,6 +33,7 @@ updated: 2026-05-07
 @entities/models/openrouter-video.md
 @entities/uis/comfyui.md
 
+@concepts/persona-audio-stack.md
 ## Raw Concept
 
 Page prompted by the May 2026 video survey ingest. Video identity inheritance is the fourth axis of the persona-consistency taxonomy — propagating a single static persona master image into temporally-coherent video clips while preserving facial geometry across motion. The non-negotiable cornerstone of AI-influencer / narrative-filmmaking workflows in 2026.

@@ -12,6 +12,7 @@ related:
   - entities/models/mochi-1.md
   - entities/models/cogvideox-1-5.md
   - entities/uis/comfyui.md
+  - concepts/persona-audio-stack.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07
@@ -21,6 +22,7 @@ updated: 2026-05-07
 
 @sources/video-generation-survey-2026.md @concepts/video-identity-inheritance.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @entities/models/ltx-2.md @entities/models/mochi-1.md @entities/models/cogvideox-1-5.md
 
+@concepts/persona-audio-stack.md
 ## Raw Concept
 
 Page prompted by the May 2026 video survey ingest. Seam stitching is the family of techniques for chaining short video clips into longer outputs while preserving motion continuity, identity, and structural coherence. Critical for any production above the 5-10 second native-context limit of 2026 open-weight video models.
