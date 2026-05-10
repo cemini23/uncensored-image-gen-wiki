@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # sync_all_wikis_to_librarian.sh
 #
-# Sync all three wikis to cemini-librarian for unified kb_search.
+# Sync all four wikis to cemini-librarian for unified kb_search.
 # Requires: SSH access to cemini-librarian, kb-server running on librarian.
 #
 # Usage:
@@ -12,6 +12,7 @@
 #   image-gen-wiki  -> $HOME/Desktop/projects/Image gen/wiki/
 #   seo-wiki        -> $HOME/Desktop/projects/SEO:GEO B&M Business/wiki/
 #   osint-wiki      -> $HOME/Desktop/OSINT WORKSPACE/wiki/
+#   3d-printing-wiki -> $HOME/Desktop/projects/3d printing/wiki/
 #
 # Exit codes:
 #   0 — success (all rsyncs + kb ingest succeeded)
@@ -30,6 +31,7 @@ declare -A WIKI_PATHS=(
   ["image-gen-wiki"]="$HOME/Desktop/projects/Image gen/wiki"
   ["seo-wiki"]="$HOME/Desktop/projects/SEO:GEO B&M Business/wiki"
   ["osint-wiki"]="$HOME/Desktop/OSINT WORKSPACE/wiki"
+  ["3d-printing-wiki"]="$HOME/Desktop/projects/3d printing/wiki"
 )
 
 # Ensure log dir exists
@@ -85,7 +87,8 @@ log "kb ingest triggering on $LIBRARIAN_HOST for all wikis"
 kb_output=$(ssh "$LIBRARIAN_HOST" \
   "kb ingest $LIBRARIAN_BASE/image-gen-wiki/wiki/; \
    kb ingest $LIBRARIAN_BASE/seo-wiki/wiki/; \
-   kb ingest $LIBRARIAN_BASE/osint-wiki/wiki/" 2>&1)
+   kb ingest $LIBRARIAN_BASE/osint-wiki/wiki/; \
+   kb ingest $LIBRARIAN_BASE/3d-printing-wiki/wiki/" 2>&1)
 kb_exit=$?
 
 if [[ $kb_exit -ne 0 ]]; then
