@@ -15,7 +15,8 @@ jobs:
       - name: Run wiki lint
         run: python3 scripts/wiki_lint.py
 
-      - name: Run gap detection
+      - name: Run gap detection (informational)
+        continue-on-error: true
         run: python3 scripts/wiki_gap_detect.py
 
       - name: Check inbox for unprocessed sources

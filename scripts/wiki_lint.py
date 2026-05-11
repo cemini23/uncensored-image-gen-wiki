@@ -11,6 +11,11 @@ Reports:
   7. Stale verification   — `[NEEDS VERIFICATION YYYY-MM-DD]` tags older than --verify-age-days
                             (default 7) — Exa-resolution candidates per CLAUDE.md "External research"
   8. Cross-wiki gaps     — `@wiki-alias/path` references to other wikis that don't resolve
+
+Exit code: 0 on clean run. 1 if any of #2, #3, #4, #8, or "no frontmatter" (in #6)
+has entries — these are hard errors that block the pre-commit hook and CI.
+Orphans (#1), cited-unread stubs (#5), and stale verification tags (#7) are
+informational only.
 """
 
 import argparse
@@ -358,3 +363,27 @@ else:
             print(f"  {src}  →  @{alias}/{rel_path}  (wiki alias not found in CLAUDE.md)")
         else:
             print(f"  {src}  →  @{alias}/{rel_path}  (file not found: {target})")
+
+# -- exit code summary ---------------------------------------------------
+# Hard errors fail the build; informational findings (orphans, stale tags,
+# cited-unread stubs, missing optional frontmatter) report but pass.
+
+hard_errors = {
+    "bidirectional gaps":      len(gaps),
+    "dangling related: links": len(dangling),
+    "missing @path mentions":  len(missing_mentions),
+    "cross-wiki dangling":     len(cross_wiki_dangling),
+    "pages without frontmatter": len(no_frontmatter),
+}
+total_hard = sum(hard_errors.values())
+
+header(f"Summary — {total_hard} hard error(s)")
+for label, n in hard_errors.items():
+    marker = "FAIL" if n else "ok  "
+    print(f"  [{marker}] {label}: {n}")
+
+if total_hard:
+    print()
+    print("Hard errors found. Fix the issues above, or bypass locally with "
+          "`git commit --no-verify`.")
+    sys.exit(1)
