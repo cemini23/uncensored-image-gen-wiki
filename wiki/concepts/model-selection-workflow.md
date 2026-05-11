@@ -46,7 +46,7 @@ related:
   - concepts/persona-audio-stack.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-10
 ---
 
 ## Relations
@@ -88,23 +88,17 @@ updated: 2026-05-08
 @concepts/prompt-engineering-uncensored.md
 @concepts/two-pass-generation-workflow.md
 @runbooks/runpod-comfyui-setup.md
-
 @concepts/persona-audio-stack.md
+
 ## Raw Concept
 
 Decision-support page that maps a user's **hardware** and **creative goals** to a concrete model stack, image-generation workflow, and optional video/DM pipeline. Replaces the need to read every individual model page before choosing a starting point.
 
 ## Narrative
 
----
+Decision-support workflow that maps **hardware tier + creative goal + persona/no-persona** to a concrete model stack and generation loop. Five canonical 2026 starter stacks (Anime Creator, Photoreal Starter, Full Explicit Production, Mac-Only Creator, Budget Cloud Experimenter) cover the modal cases; the universal 7-step generation loop and decision matrix at the end handle the rest. *Pick your hardware tier → pick your goal → get a recommended stack → start generating.*
 
-# Model Selection & Workflow Builder
-
-*Pick your hardware tier → pick your goal → get a recommended stack → start generating.*
-
----
-
-## Step 1 — What hardware are you running?
+### Step 1 — What hardware are you running?
 
 | Tier | Hardware Examples | GPU VRAM | Notes |
 |------|------------------|----------|-------|
@@ -113,18 +107,18 @@ Decision-support page that maps a user's **hardware** and **creative goals** to 
 | **3 — Frontier** | RTX 4090 / 5090, M4/M5 Mac Studio 64 GB+ | 24+ GB | Everything including native video, multi-ControlNet |
 | **Cloud** | RunPod / Vast.ai RTX 4090, Modal/Replicate | Per-hour | Burst for training or anything your local rig can't handle |
 
-### Quick hardware check
+#### Quick hardware check
 - **< 8 GB VRAM** → stop here. Buy more GPU or use cloud. The modern NSFW/local stack needs 8 GB minimum.
 - **Apple Silicon (M1/M2 16 GB)** → you can run SDXL models via [Draw Things](https://drawthings.ai/) but FLUX and video gen are limited. See @entities/hardware/gpu-guide.md §Apple Silicon.
 - **Apple Silicon (M3/M4 36+ GB)** → excellent for image gen via Draw Things or ComfyUI MPS. Video gen still needs cloud burst.
 
 ---
 
-## Step 2 — What's your creative goal?
+### Step 2 — What's your creative goal?
 
 Answer these three questions:
 
-### A. What style of content?
+#### A. What style of content?
 
 | Style | Best base models | Why |
 |-------|-----------------|-----|
@@ -133,7 +127,7 @@ Answer these three questions:
 | **Photorealistic explicit** | NoobAI-XL, Lustify, Chroma1-HD, FLUX.2 Klein 9B | NSFW-trained bases that handle anatomy without mode collapse; need adapter stack for face fidelity |
 | **Artistic / painterly / fashion** | FLUX.1 Dev, FLUX.2 Klein | Strong composition and lighting from DiT architecture; good for non-photographic aesthetics |
 
-### B. Do you need video?
+#### B. Do you need video?
 
 | Need | Model | VRAM required | Notes |
 |------|-------|---------------|-------|
@@ -143,7 +137,7 @@ Answer these three questions:
 | **4K + lipsync** | LTX-2 | 24-48 GB | Single-pass audio+video; joints & foley; free for <$10M revenue |
 | **Budget entry** | CogVideoX 1.5 INT8 | 7-16 GB | Cheapest local video; 768p/10s via torchao quantization |
 
-### C. Are you building an AI persona (recurring character, not just one-off images)?
+#### C. Are you building an AI persona (recurring character, not just one-off images)?
 
 | Persona? | Implication |
 |-----------|-------------|
@@ -152,13 +146,13 @@ Answer these three questions:
 
 ---
 
-## Step 3 — Your Recommended Stack
+### Step 3 — Your Recommended Stack
 
 Based on your answers above, here are the **five canonical starter stacks** for May 2026:
 
 ---
 
-### Stack 1 — "Anime Creator" (Stylized, 8+ GB, No Video)
+#### Stack 1 — "Anime Creator" (Stylized, 8+ GB, No Video)
 
 **For:** Anime/hentai art, character design, no video needed, any GPU with 8+ GB.
 
@@ -173,7 +167,7 @@ Based on your answers above, here are the **five canonical starter stacks** for 
 
 ---
 
-### Stack 2 — "Photoreal Starter" (SFW/Soft-NSFW, 12+ GB, Optional Video)
+#### Stack 2 — "Photoreal Starter" (SFW/Soft-NSFW, 12+ GB, Optional Video)
 
 **For:** Photorealistic portraits, soft-NSFW content, someone who wants the best image quality at moderate VRAM.
 
@@ -189,7 +183,7 @@ Based on your answers above, here are the **five canonical starter stacks** for 
 
 ---
 
-### Stack 3 — "Full Explicit Production" (16+ GB, Video)
+#### Stack 3 — "Full Explicit Production" (16+ GB, Video)
 
 **For:** Adult AI persona operator. NSFW images + video clips + DM automation. The "Aitana Lopez archetype" stack.
 
@@ -206,7 +200,7 @@ This is the **modal 2026 build-track stack** described in the [persona end-to-en
 
 ---
 
-### Stack 4 — "Mac-Only Creator" (M3/M4 Pro, 36+ GB unified)
+#### Stack 4 — "Mac-Only Creator" (M3/M4 Pro, 36+ GB unified)
 
 **For:** Creators who want a quiet, portable, low-power workflow. Image generation on Mac; video and training via cloud burst.
 
@@ -222,7 +216,7 @@ This is the **modal 2026 build-track stack** described in the [persona end-to-en
 
 ---
 
-### Stack 5 — "Budget Cloud Experimenter" (Any hardware, pay-per-use)
+#### Stack 5 — "Budget Cloud Experimenter" (Any hardware, pay-per-use)
 
 **For:** Trying things out before buying GPU, or need burst capacity for training/video.
 
@@ -237,7 +231,7 @@ This is the **modal 2026 build-track stack** described in the [persona end-to-en
 
 ---
 
-## Step 4 — The Generation Workflow (Universal)
+### Step 4 — The Generation Workflow (Universal)
 
 Regardless of which stack you choose, the **generation loop** is the same:
 
@@ -273,7 +267,7 @@ Regardless of which stack you choose, the **generation loop** is the same:
 └─────────────────────────────────────────────┘
 ```
 
-### Prompting Tips
+#### Prompting Tips
 
 | Base | Prompt Style | Example |
 |------|-------------|---------|
@@ -287,7 +281,7 @@ Regardless of which stack you choose, the **generation loop** is the same:
 
 ---
 
-## Step 5 — When to Upgrade or Switch
+### Step 5 — When to Upgrade or Switch
 
 | Current Pain Point | Fix |
 |-------------------|-----|
@@ -301,7 +295,7 @@ Regardless of which stack you choose, the **generation loop** is the same:
 
 ---
 
-## Cross-Cutting Decision Matrix
+### Cross-Cutting Decision Matrix
 
 Quick-reference for the three most common trade-off decisions:
 

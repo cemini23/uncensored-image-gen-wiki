@@ -15,8 +15,9 @@ related:
   - entities/hardware/gpu-guide.md
   - sources/ai-creator-operations-blueprint.md
 maturity: validated
+read_status: deep-read
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-10
 ---
 
 ## Relations
