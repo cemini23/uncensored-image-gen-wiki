@@ -39,19 +39,38 @@ WIKI = Path(os.environ.get("WIKI_DIR", Path(__file__).resolve().parent.parent / 
 # -- cross-wiki alias mapping ----------------------------------------
 
 def load_wiki_aliases():
-    """Parse CLAUDE.md 'Related Wikis' section for alias→path mapping."""
+    """Parse CLAUDE.md 'Related Wikis' section.
+
+    Returns (aliases, known) where:
+      - aliases: dict alias→resolvable Path (only entries whose dir exists on this machine)
+      - known:   set of all alias names declared in CLAUDE.md, whether resolvable or not
+
+    The distinction matters on CI runners: sibling wikis aren't checked out,
+    so aliases is empty but known still contains every declared alias. Callers
+    use known to detect that a path *is* cross-wiki and should be skipped
+    rather than misclassified as a local dangling link.
+    """
     claude_md = WIKI.parent / "CLAUDE.md"
-    aliases = {}  # alias -> abs_path
+    aliases = {}  # alias -> abs_path (only resolvable)
+    known = set()  # all declared alias names
     if not claude_md.exists():
-        return aliases
+        return aliases, known
     text = claude_md.read_text(errors="replace")
+    # Scope to the Related Wikis section so other 2-column tables (e.g. the
+    # External research MCP tools list) don't bleed alias names into KNOWN_ALIASES.
+    section_re = re.compile(r"^##\s+Related Wikis\b(.*?)(?=^##\s|\Z)", re.MULTILINE | re.DOTALL)
+    sm = section_re.search(text)
+    if not sm:
+        return aliases, known
+    section = sm.group(1)
     # Match the Related Wikis table: | `alias` | /path/to/wiki/ | ... |
     table_re = re.compile(
         r"^\|\s*`([a-z0-9_-]+)`\s*\|\s*`?([^`\n\|]+)`?\s*\|",
         re.MULTILINE
     )
-    for m in table_re.finditer(text):
+    for m in table_re.finditer(section):
         alias = m.group(1).strip()
+        known.add(alias)
         path_str = m.group(2).strip().rstrip("/")
         # Path from CLAUDE.md already includes wiki/ — don't append again
         wiki_path = Path(path_str)
@@ -59,10 +78,10 @@ def load_wiki_aliases():
             aliases[alias] = wiki_path
         elif (wiki_path / "wiki").is_dir():
             aliases[alias] = wiki_path / "wiki"
-    return aliases
+    return aliases, known
 
 
-WIKI_ALIASES = load_wiki_aliases()
+WIKI_ALIASES, KNOWN_ALIASES = load_wiki_aliases()
 
 # -- frontmatter parsing (no PyYAML dep) ----------------------------------
 
@@ -109,14 +128,18 @@ def normalize_path(p):
 
 
 def is_cross_wiki_path_exists(normalized_path):
-    """If *normalized_path* starts with @alias/, resolve against WIKI_ALIASES.
-    Returns True if the cross-wiki file exists, False if it doesn't.
-    Returns None if it's not a cross-wiki path (no alias prefix)."""
-    if not WIKI_ALIASES:
-        return None
-    for alias in WIKI_ALIASES:
+    """If *normalized_path* starts with @<known-alias>/, classify it.
+    Returns:
+      True   - cross-wiki, alias resolves, target file exists
+      False  - cross-wiki, alias resolves, target file does NOT exist (dangling)
+      'skip' - cross-wiki, alias known but not resolvable on this machine (CI / secondary clone)
+      None   - not a cross-wiki path (truly local)
+    Callers treat 'skip' as truthy via `if xw:` (any non-empty string is truthy)."""
+    for alias in KNOWN_ALIASES:
         prefix = f"@{alias}/"
         if normalized_path.startswith(prefix):
+            if alias not in WIKI_ALIASES:
+                return "skip"
             rel = normalized_path[len(prefix):]
             target = WIKI_ALIASES[alias] / rel
             return target.exists()
