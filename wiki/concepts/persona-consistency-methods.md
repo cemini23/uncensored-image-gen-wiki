@@ -47,6 +47,8 @@ related:
   - sources/virtual-persona-narrative-development-strategy.md
   - concepts/model-selection-workflow.md
   - entities/uis/comfyui.md
+  - entities/custom-nodes/impact-pack.md
+  - entities/custom-nodes/bmab.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-05-07
@@ -96,6 +98,7 @@ updated: 2026-05-07
 @sources/persona-ops-stack-2026.md
 @sources/headsup-3d-gaussian-head.md
 @concepts/model-selection-workflow.md
+@entities/custom-nodes/impact-pack.md @entities/custom-nodes/bmab.md
 
 ## Raw Concept
 

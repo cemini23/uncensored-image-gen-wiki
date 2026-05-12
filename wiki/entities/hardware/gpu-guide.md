@@ -29,9 +29,11 @@ related:
   - concepts/synthetic-media-compute-economics.md
   - sources/synthetic-media-ip-financial-roadmap.md
   - runbooks/runpod-comfyui-setup.md
+  - entities/custom-nodes/impact-pack.md
+  - entities/custom-nodes/bmab.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-11
 ---
 
 ## Relations
@@ -61,6 +63,7 @@ updated: 2026-05-08
 @sources/ai-content-factory-workflow-design.md
 @sources/synthetic-media-ip-financial-roadmap.md
 @runbooks/runpod-comfyui-setup.md
+@entities/custom-nodes/impact-pack.md @entities/custom-nodes/bmab.md
 
 ## Raw Concept
 

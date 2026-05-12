@@ -14,15 +14,16 @@ related:
   - concepts/persona-ops-stack.md
   - entities/personas/aitana-lopez.md
   - concepts/marketing-your-persona.md
+  - concepts/persona-ops-workflow.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-11
 read_status: deep-read
 ---
 
 ## Relations
 
-@sources/persona-ops-stack-2026.md @sources/synthetic-character-consistency-survey.md @concepts/persona-monetization-models.md @concepts/persona-failure-modes.md @concepts/persona-payment-rails.md @concepts/persona-legal-landscape.md @concepts/persona-content-cadence.md @concepts/persona-ops-stack.md @entities/personas/aitana-lopez.md
+@sources/persona-ops-stack-2026.md @sources/synthetic-character-consistency-survey.md @concepts/persona-monetization-models.md @concepts/persona-failure-modes.md @concepts/persona-payment-rails.md @concepts/persona-legal-landscape.md @concepts/persona-content-cadence.md @concepts/persona-ops-stack.md @concepts/persona-ops-workflow.md @entities/personas/aitana-lopez.md
 @concepts/marketing-your-persona.md
 
 ## Raw Concept

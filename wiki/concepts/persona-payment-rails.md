@@ -12,16 +12,15 @@ related:
   - concepts/synthetic-media-web3-monetization.md
   - concepts/persona-legal-landscape.md
   - concepts/persona-ops-stack.md
-  - concepts/persona-legal-landscape.md
-  - concepts/persona-ops-stack.md
+  - concepts/persona-ops-workflow.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-11
 ---
 
 ## Relations
 
-@sources/persona-monetization-2026.md @concepts/persona-monetization-models.md @concepts/persona-failure-modes.md @concepts/persona-legal-landscape.md @concepts/persona-ops-stack.md
+@sources/persona-monetization-2026.md @concepts/persona-monetization-models.md @concepts/persona-failure-modes.md @concepts/persona-legal-landscape.md @concepts/persona-ops-stack.md @concepts/persona-ops-workflow.md
 @concepts/synthetic-media-corporate-structure.md
 @concepts/synthetic-media-web3-monetization.md
 @sources/synthetic-media-ip-financial-roadmap.md

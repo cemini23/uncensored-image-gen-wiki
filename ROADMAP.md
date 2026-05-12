@@ -8,7 +8,7 @@ Active workstreams, open decisions, and the done log. Read at session start; upd
 
 ### W1 — HEAVY-mode upgrade
 
-**Status:** Infrastructure scaffolded 2026-05-06; UniReasoner ingest 2026-05-06; persona-consistency docx back-fill steps 1 + 4 done 2026-05-06; uncensored-image-gen survey **step 2 complete** (sessions 1 + 2) done 2026-05-06; **verification sub-sweeps A + B + C + D + E complete** (49 cumulative stubs resolved, sweep done 2026-05-06/07); **video survey step 3 complete** done 2026-05-07 (10 new pages, 7 backlink-updates, 19 page-touches); **persona-ops + monetization step 6 complete** done 2026-05-07 (13 new pages, ~4 backlink-updates, ~19 page-touches); **Path A back-fill end-to-end complete on all docx sources** (steps 1+2+3+4+6 + verification A-E); origin/main synced via batched push of step 3 + step 6 commits 2026-05-07; **first post-back-fill action-ready deliverable shipped 2026-05-07**: `briefs/2026-05-07_persona-end-to-end-runbook.md` (10-phase integration runbook synthesizing the wiki into a green-field operator playbook); only step 5 (notes migration, no docx source, low-velocity) remains
+**Status:** ✅ closed 2026-05-11 — Path A back-fill end-to-end complete (steps 1+2+3+4+5+6 + verification A-E + session-3 supplement). Final piece: step 5 (notes migration) closed 2026-05-11 — `notes/models-catalog.md`, `notes/frameworks-tools.md`, `notes/hardware-optimization.md` all verified fully covered by existing wiki pages; 2 genuine gaps closed by creating `entities/custom-nodes/impact-pack.md` + `entities/custom-nodes/bmab.md`; legacy `notes/` directory deleted. Wiki now considered canonical knowledge layer.
 
 The workspace was previously LIGHT mode (notes/ + briefs/ only). Upgraded to HEAVY mode: added `wiki/`, `scripts/` (lint + preingest), `prompts/` (consolidated existing prompts), `ROADMAP.md`, `LESSONS.md`, `hot.md`, full `.gitignore`, `.env.example`, and a domain-rewritten `CLAUDE.md` schema.
 
@@ -22,7 +22,7 @@ The workspace was previously LIGHT mode (notes/ + briefs/ only). Upgraded to HEA
 | 3 | `Video Generation Models Survey 2026.docx` (3 MB) → wiki | ✅ done 2026-05-07 | 10 pages: 1 source (video-generation-survey-2026) + 6 model entities (wan-2-2, hunyuanvideo-1-5, ltx-2, mochi-1, cogvideox-1-5, seedance-2) + 3 concepts (multi-angle-dataset-prep, video-identity-inheritance, seam-stitching-strategies). 7 backlink updates closing asymmetric edges. Wiki now 59 pages. |
 | 6 | `AI Persona Operations Software Stack.docx` + `AI Personas: Monetization, Ethics, Law.docx` (3 MB ea.) → wiki | ✅ done 2026-05-07 | 13 pages: 2 sources (persona-ops-stack-2026, persona-monetization-2026) + 6 concepts (persona-ops-stack umbrella, persona-monetization-models, persona-failure-modes, persona-payment-rails, persona-legal-landscape, persona-content-cadence) + 5 entities (persona-ops/postiz, persona-ops/sillytavern, persona-ops/fish-speech, persona-ops/n8n, personas/aitana-lopez). New `entities/persona-ops/` and `entities/personas/` subtrees. Per workspace scope (MEMORY.md "skip platforms/policy") platforms-and-policy material flagged inline as research-layer reference vs build-track. |
 | 2 (session 3) | `AI Creator Operations & Compliance Blueprint.docx` + `AI Persona Launch Strategy Analysis.docx` → wiki | ✅ done 2026-05-08 | 2 new sources (ai-creator-operations-blueprint, ai-persona-launch-strategy-analysis) + 3 new entity/concept stubs (marketplaces/fanvue, hardware/mac-studio, concepts/persona-ops-workflow) + 3 new concept stubs (geo-vs-seo, openrouter-chat-workflow, video-identity-inheritance updated). Updated: comfyui.md, video-identity-inheritance.md, index.md. Moved both .docx to raw-sources/. |
-| 5 | `notes/frameworks-tools.md` + `notes/hardware-optimization.md` → wiki | pending | UI + hardware entity pages |
+| 5 | `notes/frameworks-tools.md` + `notes/hardware-optimization.md` + `notes/models-catalog.md` → wiki | ✅ done 2026-05-11 | Verified all 17 models in `models-catalog.md` already had wiki pages (Chenkin, NoobAI-XL-XIN, FLUX-UNCENSORED-Merged, BigAsp, Cosmos-Predict, expand-PE, etc.). `hardware-optimization.md` fully covered by `entities/hardware/gpu-guide.md` (186 lines, 27 quantization refs) + `entities/hardware/mac-studio.md`. 2 genuine gaps from `frameworks-tools.md`: `entities/custom-nodes/impact-pack.md` + `entities/custom-nodes/bmab.md` created. `notes/` directory deleted (legacy LIGHT-mode artifact). |
 | 4 (continuation) | Persona-consistency back-fill **continuation** | ✅ done 2026-05-06 | 10 pages: 4 adapters (CharaConsist, FLUX.1 Redux, FLUX.1 Kontext, FLUX.2 Klein 9B face-swap) + 3 trainers (kohya_ss GUI, Musubi Tuner, FluxGym) + 3 concepts (character-dna-templates, likeness-collision-verification, reference-plus-lora-stacking). `multi-angle-dataset-prep` and `video-identity-inheritance` deferred into step 3 video-survey ingest. |
 
 ### W2 — Inbox triage
@@ -43,8 +43,8 @@ Per-item verdicts:
 
 ## Open decisions
 
-- Whether to migrate legacy `notes/` content into `wiki/entities/` proactively or wait for next-touch (i.e. when a new ingest references a topic that already has notes coverage)
-- Whether to back-fill `wiki/sources/` for the 5 already-ingested briefs (source docx files in `research to be indexed/processed/`)
+- ~~Whether to migrate legacy `notes/` content into `wiki/entities/`~~ — ✅ resolved 2026-05-11 — proactive migration complete, `notes/` deleted
+- ~~Whether to back-fill `wiki/sources/` for the 5 already-ingested briefs~~ — ✅ resolved 2026-05-11 — no-op: all 5 docx sources already have `wiki/sources/` pages from Path A steps 1+2+3+6. Briefs themselves are gitignored deliverables, deliberately out of the wiki cross-link graph (per CLAUDE.md schema).
 - Whether to consolidate `research to be indexed/processed/` → `raw-sources/` (folder rename for consistency with template) — defer; not urgent
 
 ---
@@ -53,6 +53,7 @@ Per-item verdicts:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-05-11 | W1 close-out — 4 low-priority follow-ups cleared in one sweep | (1) Shipped `prompts/github-repo-eval.md` (image-gen Phase-0 audit prompt with weights-vs-code license splits, Stability/BFL/research-only red flags, 13 domain-fit slots, MPS compatibility checks). (2) Deepened `concepts/persona-ops-workflow.md` — added Phase Timing & Sequencing table (3-7 / 30-60 / 30-45 / 7-14 days, total 60-90 day time-to-launch), timeline traps (skipping Phase II GEO, over-investing Phase III, Fanvue KYC 5-10d), densified cross-links across 6 new related entries + 7 backlinks. (3) Notes migration — verified `models-catalog.md` (17 models all covered) + `hardware-optimization.md` (covered by gpu-guide + mac-studio) + `frameworks-tools.md` (only 2 genuine gaps: created `custom-nodes/impact-pack.md` + `custom-nodes/bmab.md` with face/hand detection + Grounding-DINO limb repair; pair-pattern documented); `notes/` directory deleted; 7 wiki pages backlinked to new custom-node pages. (4) 5-briefs back-fill confirmed no-op — all docx sources already ingested in Path A steps 1+2+3+6. **W1 HEAVY-mode upgrade end-to-end complete.** |
 | 2026-05-06 | HEAVY-mode upgrade scaffolded | Brings image-gen workspace up to the same wiki/scripts/prompts standard as 3D-printing and OSINT workspaces; enables structured ingest of the growing source corpus |
 | 2026-05-06 | Lint + preingest scripts ported | `wiki_lint.py` / `wiki_gap_detect.py` / `preingest_check.py` from the 3D-printing workspace (originally OSINT). Domain-agnostic; ready to run on first ingest |
 | 2026-05-06 | Existing prompts consolidated into `prompts/` | `deep-research-prompt.md` (root → `prompts/`), 4 research prompts from `research to be indexed/prompts/` (case-studies, ops-stack, persona-consistency, video-gen). One folder for all reusable prompts |
@@ -82,8 +83,9 @@ Per-item verdicts:
 
 **Lower priority:**
 
-- Migrate `notes/models-catalog.md` (~13 KB) → `wiki/entities/models/<one-page-per-model>.md`. Notes file is essentially a flat catalog of major image-gen models; splits naturally
-- Migrate `notes/frameworks-tools.md` → `wiki/entities/uis/` and `wiki/entities/tools/` (multiple pages)
-- Migrate `notes/hardware-optimization.md` → `wiki/concepts/hardware-optimization.md` + entity stubs for specific GPUs
-- Back-fill `wiki/sources/` from `research to be indexed/processed/` (5 docx files that became the existing briefs)
-- Ship `prompts/github-repo-eval.md` (image-gen-specialized version of the 3D-printing prompt — different failure modes for inference UIs, custom nodes, training tools, models, persona-ops platforms)
+- ~~Migrate `notes/models-catalog.md`~~ — ✅ done 2026-05-11 (all 17 models already had wiki pages; verified + deleted)
+- ~~Migrate `notes/frameworks-tools.md`~~ — ✅ done 2026-05-11 (covered by `comfyui.md` + custom-node pages; gap: Impact-Pack + BMAB pages created)
+- ~~Migrate `notes/hardware-optimization.md`~~ — ✅ done 2026-05-11 (fully covered by `gpu-guide.md` + `mac-studio.md`)
+- ~~Back-fill `wiki/sources/` from 5 docx files~~ — ✅ done 2026-05-11 (no-op: all 5 already ingested in Path A steps 1+2+3+6)
+- ~~Ship `prompts/github-repo-eval.md`~~ — ✅ done 2026-05-11 (image-gen-specialized Phase-0 audit prompt)
+- ~~Deepen `wiki/concepts/persona-ops-workflow.md`~~ — ✅ done 2026-05-11 (Phase Timing & Sequencing table + cross-link densification)

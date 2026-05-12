@@ -10,14 +10,15 @@ related:
   - concepts/persona-content-cadence.md
   - concepts/persona-consistency-methods.md
   - concepts/marketing-your-persona.md
+  - concepts/persona-ops-workflow.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-11
 ---
 
 ## Relations
 
-@sources/persona-monetization-2026.md @concepts/persona-monetization-models.md @concepts/persona-ops-stack.md @concepts/persona-content-cadence.md @concepts/persona-consistency-methods.md
+@sources/persona-monetization-2026.md @concepts/persona-monetization-models.md @concepts/persona-ops-stack.md @concepts/persona-ops-workflow.md @concepts/persona-content-cadence.md @concepts/persona-consistency-methods.md
 @concepts/marketing-your-persona.md
 
 ## Raw Concept

@@ -58,6 +58,8 @@ related:
   - runbooks/zimage-setup-runbook.md
   - runbooks/runpod-comfyui-setup.md
   - concepts/persona-audio-stack.md
+  - entities/custom-nodes/impact-pack.md
+  - entities/custom-nodes/bmab.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-05-08
@@ -87,6 +89,7 @@ provenance:
 @entities/uis/forge.md
 @entities/uis/invokeai.md
 @entities/uis/swarmui.md
+@entities/custom-nodes/impact-pack.md @entities/custom-nodes/bmab.md
 
 @concepts/persona-audio-stack.md
 ## Raw Concept

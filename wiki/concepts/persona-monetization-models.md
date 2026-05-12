@@ -21,14 +21,15 @@ related:
   - concepts/marketing-your-persona.md
   - sources/synthetic-media-ip-financial-roadmap.md
   - sources/virtual-persona-narrative-development-strategy.md
+  - concepts/persona-ops-workflow.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-11
 ---
 
 ## Relations
 
-@sources/persona-monetization-2026.md @sources/persona-ops-stack-2026.md @concepts/persona-ops-stack.md @concepts/persona-failure-modes.md @concepts/persona-payment-rails.md @concepts/persona-content-cadence.md @entities/personas/aitana-lopez.md @concepts/persona-legal-landscape.md @entities/persona-ops/fish-speech.md @entities/persona-ops/sillytavern.md
+@sources/persona-monetization-2026.md @sources/persona-ops-stack-2026.md @concepts/persona-ops-stack.md @concepts/persona-ops-workflow.md @concepts/persona-failure-modes.md @concepts/persona-payment-rails.md @concepts/persona-content-cadence.md @entities/personas/aitana-lopez.md @concepts/persona-legal-landscape.md @entities/persona-ops/fish-speech.md @entities/persona-ops/sillytavern.md
 @concepts/marketing-your-persona.md
 @concepts/synthetic-media-compute-economics.md
 @concepts/synthetic-media-corporate-structure.md

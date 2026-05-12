@@ -16,6 +16,7 @@ related:
   - concepts/openrouter-chat-workflow.md
   - concepts/persona-ops-workflow.md
   - concepts/persona-legal-landscape.md
+  - entities/custom-nodes/impact-pack.md
 maturity: draft
 ---
 

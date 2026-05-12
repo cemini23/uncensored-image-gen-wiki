@@ -4,6 +4,51 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-05-11] migrate | Path A step 5 — legacy notes/ → wiki (close-out)
+
+Path A step 5 (the deferred notes-migration step from the HEAVY-mode upgrade) is now complete. All three legacy LIGHT-mode notes files removed from the workspace; wiki coverage verified end-to-end.
+
+- **`notes/models-catalog.md`** (13.5 KB, 60 lines) — fully redundant. All 17 models referenced (Pony V6/V7, Illustrious XL, NoobAI-XL, Anima, FLUX.1 Dev/Schnell/Pro, FLUX.2 Klein/Dev, SD3.5, SDXL fine-tunes, Z-Image Turbo / Zeta Chroma, Qwen-Image-2512, ERNIE-Image, Playground v3, Kwai Kolors, PixArt-Σ, HunyuanVideo 1.5) have dedicated `wiki/entities/models/*.md` pages from Path A step 2. Specific model details (Chenkin Noob v.03, NoobAI-XL-XIN, FLUX-UNCENSORED-Merged, Chroma1-HD, SNOFS, Cosmos-Predict, expand-PE) all spot-confirmed in wiki. **Deleted** via `git rm`.
+- **`notes/hardware-optimization.md`** (4.1 KB, 33 lines) — fully redundant. VRAM tiers, quantization landscape (FP16/FP8/GGUF/Nunchaku), Apple Silicon (MPS + Draw Things), and multi-GPU + cloud fallbacks all covered in `wiki/entities/hardware/gpu-guide.md` (186 lines) + `wiki/entities/hardware/mac-studio.md` (103 lines). **Deleted** via `git rm`.
+- **`notes/frameworks-tools.md`** (1.8 KB, 21 lines) — partially redundant. IPAdapter Plus → @entities/adapters/ip-adapter.md ✓, Kohya sd-scripts → @entities/training-tools/kohya-sd-scripts.md + kohya-ss-gui.md ✓. **Two genuine gaps closed by new pages**: ComfyUI-Impact-Pack and ComfyUI-BMAB — previously embedded only as rows in @entities/uis/comfyui.md's custom-node table. **Deleted** via `git rm`.
+
+### New pages (2)
+
+- **`wiki/entities/custom-nodes/impact-pack.md`** — ADetailer equivalent for ComfyUI; face/hand detection (YOLO + SAM) + detailer KSamplers; install path; failure modes (detector model mismatch, over-detailing, VRAM amplification); Apple Silicon (MPS) viability note. Sibling repo (Inspire-Pack) called out. Bidirectional backlinks added on 7 referring pages.
+- **`wiki/entities/custom-nodes/bmab.md`** — Grounding-DINO-based hand/limb repair; open-vocab targeting via text prompts vs Impact-Pack's fixed-vocab YOLO. Pair pattern: Impact-Pack faces + BMAB limbs. Repo owner alias flagged `[NEEDS VERIFICATION 2026-05-11]` due to `port090401` (current) vs `portu-sim` (legacy notes reference) discrepancy. Bidirectional backlinks added on 4 referring pages.
+
+### Subtree
+
+- **New `wiki/entities/custom-nodes/`** subtree established (consistent with `CLAUDE.md` example pattern `entities/custom-nodes/ipadapter-plus.md`). Currently 2 pages; expected future additions catalogued in `wiki/index.md` Custom Nodes section.
+
+### Backlinks (11 page-touches)
+
+- @entities/uis/comfyui.md (added both new pages)
+- @entities/hardware/gpu-guide.md (added both)
+- @concepts/two-pass-generation-workflow.md (added both)
+- @concepts/persona-consistency-methods.md (added both)
+- @runbooks/runpod-comfyui-setup.md (Impact-Pack only)
+- @runbooks/day-1-checklist-for-friend.md (Impact-Pack only)
+- @runbooks/beginner-guide-to-persona.md (Impact-Pack only)
+
+### Index
+
+- `wiki/index.md` Custom Nodes section: replaced placeholder "no pages yet" with two new rows. Wiki page count: 106 → 108.
+
+### Result
+
+- Wiki state: 108 pages, 0 hard errors, 0 gap-detect findings, lint clean.
+- `notes/` folder is empty and can be removed entirely; deferred until next session for review.
+- W1 Path A back-fill **now end-to-end complete on all 5 substantive steps** (1+2+3+4+5+6 + verification A-E). Closes the final lower-priority backlog item from the HEAVY-mode upgrade.
+
+## [2026-05-11] deepen | persona-ops-workflow.md (phase timing + cross-link densification)
+
+- `wiki/concepts/persona-ops-workflow.md` updated: fixed "4-phase lifecycle" inconsistency (now "4-phase launch + ongoing-ops lifecycle"); harmonized Phase IV label ("Platform Onboarding" everywhere); rewrote Relations @mentions section to align with frontmatter `related:` (now covers all 23 referenced pages); added cross-link to `briefs/2026-05-07_persona-end-to-end-runbook.md` as the integration brief.
+- New **Phase Timing & Sequencing** subsection — approximate single-operator timeline (~60–90 days cold-start to launch) with per-phase duration, blocking dependencies, and overlap windows; common timeline traps (skipping Phase II GEO seeding, over-investing Phase III before Phase I verified, Phase IV KYC delays).
+- 6 bidirectional backlinks added: `concepts/persona-failure-modes.md`, `concepts/persona-content-cadence.md`, `concepts/persona-monetization-models.md`, `concepts/persona-payment-rails.md`, `entities/personas/aitana-lopez.md`, `sources/persona-monetization-2026.md` — each now lists `persona-ops-workflow.md` in its `related:` + Relations.
+- Cleanup: `persona-payment-rails.md` had two duplicate entries (`persona-legal-landscape.md`, `persona-ops-stack.md`) — collapsed.
+- Lint: 0 hard errors, 0 gap-detect findings. Wiki state: 106 pages.
+
 ## [2026-05-09] create | Persona audio stack concept page
 
 - Created `wiki/concepts/persona-audio-stack.md` — comprehensive four-layer audio pipeline: voice cloning (Fish-Speech S2 Pro, CosyVoice2, IndexTTS-2), lipsync (LatentSync, MuseTalk, Wav2Lip), music generation (ACE-Step 1.5, MusicGen, Stable Audio Open), sound effects (Stable Audio Open, AudioLDM, Tango 2)

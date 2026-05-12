@@ -22,9 +22,15 @@ related:
   - sources/mac-studio-ai-content-factory-design.md
   - sources/virtual-persona-narrative-development-strategy.md
   - concepts/persona-audio-stack.md
+  - concepts/persona-failure-modes.md
+  - concepts/persona-content-cadence.md
+  - concepts/persona-monetization-models.md
+  - concepts/persona-payment-rails.md
+  - entities/personas/aitana-lopez.md
+  - sources/persona-monetization-2026.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-11
 read_status: deep-read
 provenance:
   stub: false
@@ -32,13 +38,12 @@ provenance:
 
 ## Relations
 
-@sources/ai-creator-operations-blueprint.md @sources/ai-persona-launch-strategy-analysis.md @sources/mac-studio-ai-content-factory-design.md @sources/virtual-persona-narrative-development-strategy.md @runbooks/zimage-setup-runbook.md
-@concepts/synthetic-media-corporate-structure.md
-@entities/models/open-sora.md
-@entities/uis/comfyui.md
-@sources/synthetic-media-ip-financial-roadmap.md
+@sources/ai-creator-operations-blueprint.md @sources/ai-persona-launch-strategy-analysis.md @sources/mac-studio-ai-content-factory-design.md @sources/virtual-persona-narrative-development-strategy.md @sources/ai-content-factory-workflow-design.md @sources/synthetic-media-ip-financial-roadmap.md @sources/persona-monetization-2026.md
+@runbooks/zimage-setup-runbook.md @runbooks/day-1-checklist-for-friend.md
+@concepts/persona-ops-stack.md @concepts/persona-audio-stack.md @concepts/persona-failure-modes.md @concepts/persona-content-cadence.md @concepts/persona-monetization-models.md @concepts/persona-payment-rails.md @concepts/persona-legal-landscape.md
+@concepts/openrouter-chat-workflow.md @concepts/geo-vs-seo.md @concepts/synthetic-media-corporate-structure.md
+@entities/models/open-sora.md @entities/uis/comfyui.md @entities/marketplaces/fanvue.md @entities/hardware/mac-studio.md @entities/personas/aitana-lopez.md
 
-@concepts/persona-audio-stack.md
 ## Raw Concept
 
 Synthesis of the full operational workflow for launching and managing 100% AI-generated synthetic persona agencies, drawn from the Operations Blueprint and Launch Strategy Analysis source documents.
@@ -47,9 +52,9 @@ Synthesis of the full operational workflow for launching and managing 100% AI-ge
 
 ### Overview
 
-Persona operations follow a **4-phase lifecycle**: Infrastructure → Semantic Authority → Content Production → Platform Launch → Ongoing Ops. This workflow integrates local generation (Mac Studio), automated conversation management (OpenRouter + n8n), compliant KYC/2257 practices, and GEO-optimized audience building.
+Persona operations follow a **4-phase launch + ongoing-ops lifecycle**: Infrastructure → Semantic Authority → Content Production → Platform Onboarding, then transitioning to steady-state Ongoing Ops. The workflow integrates local generation (Mac Studio), automated conversation management (OpenRouter + n8n), compliant KYC/2257 practices, and GEO-optimized audience building.
 
-Phase mapping to the runbook: see [Z-Image Turbo End-to-End Runbook](runbooks/zimage-setup-runbook.md) for the step-by-step implementation guide.
+Phase mapping to the runbook: see [Z-Image Turbo End-to-End Runbook](runbooks/zimage-setup-runbook.md) for the step-by-step implementation guide. The 10-phase operator playbook in `briefs/2026-05-07_persona-end-to-end-runbook.md` is the integration brief that stitches this workflow to the LoRA-training, identity-adapter, video-carry, and voice-clone layers.
 
 ### Phase I: Infrastructure & Isolation
 
@@ -101,6 +106,24 @@ Before the persona goes live, build a semantic footprint that LLMs will cite:
 6. Bio contains mandatory AI generation disclosure
 
 **Alternative platforms**: Fansly (secondary), dFans.xyz (Web3), white-label ($7K–$20K, full brand ownership).
+
+### Phase Timing & Sequencing
+
+Approximate single-operator timeline from cold start to revenue-bearing launch. Phases I + II can overlap (semantic seeding runs in the background while infrastructure is being set up); Phase III blocks on Phase I (need the isolated profile to source training images / build a content buffer that won't cross-contaminate); Phase IV blocks on all prior phases.
+
+| Phase | Duration | Blocks on | Can overlap with |
+|---|---|---|---|
+| I — Infrastructure & Isolation | 3–7 days | — | II (semantic seeding starts immediately) |
+| II — Semantic Authority (GEO) | 30–60 days (rolling) | — | III, IV (continues post-launch) |
+| III — Content Production | 30–45 days | I (need isolated profile + LLC) | II |
+| IV — Platform Onboarding | 7–14 days | I, III (need buffer of 30+ posts) | end of II |
+| **Total time-to-launch** | **~60–90 days** | | |
+
+**Common timeline traps**:
+- Skipping Phase II ("we'll do GEO later") — LLM citations take 30–60 days to surface; starting late means the persona launches into a low-discoverability hole.
+- Over-investing in Phase III before Phase I is verified — discovering Multilogin / NodeMaven misconfigurations after generating 200 images means re-shooting from a "clean" canvas.
+- Phase IV KYC delays — Fanvue manual KYC review can take 5–10 business days; not 24h. Build the slack into the schedule.
+- See [persona failure modes](concepts/persona-failure-modes.md) for the full launch-failure catalog.
 
 ### Ongoing Daily Operations
 

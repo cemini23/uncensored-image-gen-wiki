@@ -19,9 +19,11 @@ related:
   - entities/uis/comfyui.md
   - entities/uis/forge.md
   - entities/hardware/gpu-guide.md
+  - entities/custom-nodes/impact-pack.md
+  - entities/custom-nodes/bmab.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-05-09
+updated: 2026-05-11
 ---
 
 ## Relations
@@ -42,6 +44,7 @@ updated: 2026-05-09
 @entities/uis/comfyui.md
 @entities/uis/forge.md
 @entities/hardware/gpu-guide.md
+@entities/custom-nodes/impact-pack.md @entities/custom-nodes/bmab.md
 
 ## Raw Concept
 

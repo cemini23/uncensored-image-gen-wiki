@@ -83,7 +83,9 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 
 ### Custom nodes
 
-(no pages yet — expected: ComfyUI_OmniConsistency, Wan SVI 2 Pro FLF, HunyuanVideo Lora Block Edit, ColorMatch / ColorPeel, ComfyUI Manager)
+- [ComfyUI-Impact-Pack](entities/custom-nodes/impact-pack.md) — face/hand detection + detailer suite; ADetailer equivalent for ComfyUI; YOLO+SAM detectors → secondary KSampler re-pass; canonical for two-pass post-processing and persona face-seam repair — `comfyui, custom-node, detailer, face-detection, inpainting, post-processing` ⚠ stub
+- [ComfyUI-BMAB](entities/custom-nodes/bmab.md) — Grounding-DINO-based hand/limb repair; open-vocab targeting via text prompts; FLUX-compatible; pairs with Impact-Pack (faces) for full-body persona workflows — `comfyui, custom-node, post-processing, hand-repair, limb-repair, grounding-dino` ⚠ stub
+- (additional expected: ComfyUI_OmniConsistency, Wan SVI 2 Pro FLF, HunyuanVideo Lora Block Edit, ColorMatch / ColorPeel, ComfyUI Manager)
 
 ### Training tools
 

@@ -7,6 +7,7 @@ updated: 2026-05-08
 related:
   - concepts/model-selection-workflow.md
   - sources/ai-creator-operations-blueprint.md
+  - entities/custom-nodes/impact-pack.md
 maturity: validated
 ---
 
