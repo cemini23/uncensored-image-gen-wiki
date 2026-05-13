@@ -142,6 +142,7 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
 | `image-gen-wiki` | `wiki/` | Uncensored image generation, model cataloging, ComfyUI, LoRA, persona/character ops |
 | `seo-wiki` | `../SEO:GEO B&M Business/wiki/` | Local SEO, GBP optimization, GEO/AEO, web design, social media, creator marketing |
 | `3d-printing-wiki` | `../3d printing/wiki/` | FDM/FFF printing, Bambu, materials, slicers, print farms, store ops |
+| `cybersecurity-wiki` | `../Cybersecurity wiki/wiki/` | Cybersecurity research — offensive security, defensive operations, certifications, threat actors. Shared territory: deepfakes + adversarial-image attacks when those surfaces appear in pentest scope |
 
 ### Cross-wiki link syntax
 
