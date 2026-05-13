@@ -22,9 +22,10 @@ related:
   - sources/synthetic-media-ip-financial-roadmap.md
   - sources/virtual-persona-narrative-development-strategy.md
   - concepts/persona-ops-workflow.md
+  - entities/music-models/musicgen.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-11
+updated: 2026-05-13
 ---
 
 ## Relations
@@ -37,6 +38,7 @@ updated: 2026-05-11
 @concepts/synthetic-media-web3-monetization.md
 @sources/synthetic-media-ip-financial-roadmap.md
 @sources/virtual-persona-narrative-development-strategy.md
+@entities/music-models/musicgen.md
 
 ## Raw Concept
 

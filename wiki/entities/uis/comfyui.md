@@ -60,9 +60,12 @@ related:
   - concepts/persona-audio-stack.md
   - entities/custom-nodes/impact-pack.md
   - entities/custom-nodes/bmab.md
+  - entities/lipsync/latentsync.md
+  - entities/lipsync/musetalk.md
+  - entities/lipsync/wav2lip.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-13
 read_status: deep-read
 provenance:
   stub: false
@@ -92,6 +95,8 @@ provenance:
 @entities/custom-nodes/impact-pack.md @entities/custom-nodes/bmab.md
 
 @concepts/persona-audio-stack.md
+@entities/lipsync/latentsync.md @entities/lipsync/musetalk.md @entities/lipsync/wav2lip.md
+
 ## Raw Concept
 
 ComfyUI — open-source, node-graph-based inference frontend for Stable Diffusion, FLUX, Hunyuan, Wan, CogVideoX, and other diffusion architectures. Back-filled from legacy notes/frameworks-tools.md + survey coverage in @sources/uncensored-image-generation-survey.md, @sources/synthetic-character-consistency-survey.md, and @sources/video-generation-survey-2026.md.

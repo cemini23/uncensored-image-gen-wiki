@@ -44,9 +44,13 @@ related:
   - runbooks/day-1-checklist-for-friend.md
   - runbooks/runpod-comfyui-setup.md
   - concepts/persona-audio-stack.md
+  - entities/voice-models/cosyvoice2.md
+  - entities/voice-models/kokoro.md
+  - entities/voice-models/indextts-2.md
+  - entities/voice-models/chatterbox.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-05-10
+updated: 2026-05-13
 ---
 
 ## Relations
@@ -89,6 +93,7 @@ updated: 2026-05-10
 @concepts/two-pass-generation-workflow.md
 @runbooks/runpod-comfyui-setup.md
 @concepts/persona-audio-stack.md
+@entities/voice-models/cosyvoice2.md @entities/voice-models/kokoro.md @entities/voice-models/indextts-2.md @entities/voice-models/chatterbox.md
 
 ## Raw Concept
 

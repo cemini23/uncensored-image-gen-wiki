@@ -1,6 +1,8 @@
-# Uncensored Image Gen Wiki
+# Uncensored Image + Voice/Audio Gen Wiki
 
-A research wiki for **uncensored local image generation** — model catalogs, persona-consistency methods, video generation, training tools, and AI persona operations stacks. Curated as of **May 2026**.
+A research wiki for **uncensored local generative media** — image, video, **voice/TTS, lipsync, music, and sound effects** — model catalogs, persona-consistency methods, training tools, and AI persona operations stacks. Curated as of **May 2026**.
+
+(Repo directory remains `Image gen/`; the historical name is preserved for backwards-compatibility. Scope was expanded from image-only to include voice/audio generation in W3 / 2026-05-13.)
 
 The wiki is structured for an LLM-driven librarian workflow (Claude Code, Codex, Gemini CLI, etc.) but is fully readable as plain Markdown. Every page is interlinked, citation-tagged, and built to be lint-checked.
 
@@ -8,11 +10,15 @@ The wiki is structured for an LLM-driven librarian workflow (Claude Code, Codex,
 
 | Domain | Coverage |
 |---|---|
-| **Foundation models** | FLUX.1 / FLUX.2 family, Pony V6 / V7, Illustrious XL, NoobAI XL, Z-Image Turbo, Qwen-Image, ERNIE-Image, Kwai Kolors, Anima, Playground v3, PixArt-Σ, SDXL fine-tunes, Chroma1-HD |
+| **Foundation image models** | FLUX.1 / FLUX.2 family, Pony V6 / V7, Illustrious XL, NoobAI XL, Z-Image Turbo, Qwen-Image, ERNIE-Image, Kwai Kolors, Anima, Playground v3, PixArt-Σ, SDXL fine-tunes, Chroma1-HD |
 | **Video models** | Wan 2.2, HunyuanVideo 1.5, LTX-2, Mochi 1, CogVideoX 1.5, Seedance 2 |
+| **Voice / TTS models** | Fish-Speech S2 Pro, CosyVoice2, Kokoro-82M, IndexTTS-2, Qwen3-TTS, F5-TTS, Chatterbox, MaskGCT, XTTS-v2 (legacy), Dia, Bark (legacy), ElevenLabs (closed SaaS reference) |
+| **Lipsync models** | LatentSync 1.6, MuseTalk, Wav2Lip, SadTalker, LivePortrait |
+| **Music gen models** | ACE-Step (Apache-2.0 local primary), MusicGen (research-license weights), Suno + Udio (closed cloud reference, ToS/RIAA blockers) |
+| **SFX / foley models** | Stable Audio Open, AudioLDM, Tango 2, Audio-Omni (research-future) |
 | **Identity adapters** | IP-Adapter family, PuLID / PuLID-Flux II, InstantID, ConsistentID, InfiniteYou, PhotoMaker V2, CharaConsist, FLUX.1 Redux, FLUX.1 Kontext, FLUX.2 Klein 9B face-swap |
 | **Training tools** | Kohya sd-scripts, Kohya SS GUI, ai-toolkit (Ostris), OneTrainer, FluxGym, Musubi Tuner |
-| **Concepts** | 5-tier censorship taxonomy, de-censoring techniques, LoRA / LoCon / LoHA / LoKr / DoRA taxonomy, persona consistency methods, character-DNA prompt templates, likeness-collision verification, reference + LoRA stacking, multi-angle dataset prep, video identity inheritance, seam-stitching strategies |
+| **Concepts** | 5-tier censorship taxonomy, de-censoring techniques, LoRA / LoCon / LoHA / LoKr / DoRA taxonomy, persona consistency methods, character-DNA prompt templates, likeness-collision verification, reference + LoRA stacking, multi-angle dataset prep, video identity inheritance, seam-stitching strategies, **persona audio stack (voice / lipsync / music / SFX 4-layer pipeline)**, persona legal landscape (Vacker v ElevenLabs, RIAA v Suno/Udio) |
 
 ## Architecture — three layers
 
@@ -38,13 +44,19 @@ The wiki is structured for an LLM-driven librarian workflow (Claude Code, Codex,
 │   ├── log.md           # append-only chronological operations log
 │   ├── dashboard.md     # Dataview-powered dashboard page
 │   ├── sources/         # one page per ingested source
-│   ├── entities/        # domain-organized: models/, adapters/, training-tools/, uis/,
-│   │                    #   marketplaces/, hardware/, persona-ops/, personas/
+│   ├── entities/        # domain-organized:
+│   │                    #   models/ (image + video)
+│   │                    #   voice-models/ (TTS + voice cloning)
+│   │                    #   lipsync/ (audio-driven mouth movement)
+│   │                    #   music-models/ (text-to-music)
+│   │                    #   sfx-models/ (foley / text-to-audio)
+│   │                    #   adapters/, training-tools/, custom-nodes/,
+│   │                    #   uis/, marketplaces/, hardware/,
+│   │                    #   persona-ops/, personas/
 │   ├── concepts/        # techniques, methodologies, workflows, ops strategies
 │   └── runbooks/        # beginner-to-intermediate task guides
 ├── briefs/              # polished deliverables (gitignored)
 ├── docs/                # third-party reference docs (read-only)
-├── notes/               # legacy LIGHT-mode notes (migration to wiki/ pending)
 ├── prompts/             # reusable research prompts (deep-research, case-studies, etc.)
 ├── scripts/             # wiki lint, gap detection, ingest dedup, pre-commit hook, wiki sync
 └── raw-sources/         # gitignored — raw research inputs (papers, model cards, repo dumps)
@@ -87,12 +99,14 @@ Pages link via `@path/to/page.md` syntax (relative to `wiki/`). If page A lists 
 
 ### Cross-wiki links
 
-This wiki interconnects with two sister wikis via `@wiki-alias/path/to/page.md` syntax:
+This wiki interconnects with four sister wikis via `@wiki-alias/path/to/page.md` syntax:
 
 | Alias | Wiki | Purpose |
 |---|---|---|
 | `@seo-wiki` | SEO / GEO / B&M Business | Marketing, social media, content strategy, GEO |
 | `@osint-wiki` | OSINT Workspace | Financial research, conductor/librarian service |
+| `@3d-printing-wiki` | 3D Printing | FDM/FFF printing, Bambu, materials, slicers, print farms |
+| `@cybersecurity-wiki` | Cybersecurity | Offensive / defensive security; shared territory: deepfakes + adversarial-image attacks in pentest scope |
 
 The lint script validates cross-wiki references against the target wiki's filesystem.
 
@@ -167,7 +181,7 @@ The wiki is plain Markdown — works in any editor or static-site generator (MkD
 
 ## Scope and posture
 
-This wiki documents publicly available open-weight image and video generation models and the techniques creators apply to them. Coverage is **research-oriented**: model architectures, license terms, hardware tiers, training recipes, alignment-removal techniques, persona-consistency methods. The wiki does **not** distribute model weights, NSFW content, or platform-bypass tooling — only references where information lives in upstream model cards, papers, and community posts.
+This wiki documents publicly available open-weight image, video, **voice/TTS, lipsync, music, and SFX/foley** generation models and the techniques creators apply to them. Coverage is **research-oriented**: model architectures, license terms (including code-vs-weights splits common in voice/audio), hardware tiers, training recipes, alignment-removal techniques, persona-consistency methods, **persona audio stack integration** (voice → lipsync → music → SFX), and **legal-landscape exposure** (right-of-publicity per Vacker v ElevenLabs; training-data exposure per RIAA v Suno/Udio). The wiki does **not** distribute model weights, NSFW content, voice reference audio, or platform-bypass tooling — only references where information lives in upstream model cards, papers, repositories, and community posts.
 
 Adult AI persona operations are documented as a research domain (per `MEMORY.md` scope: "adult AI personas track; hardware-agnostic; skip platforms/policy"). The wiki cites public press coverage, model cards, and community guides without identifying private creators.
 

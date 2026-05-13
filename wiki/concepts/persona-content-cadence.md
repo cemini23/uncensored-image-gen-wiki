@@ -17,9 +17,10 @@ related:
   - concepts/marketing-your-persona.md
   - sources/virtual-persona-narrative-development-strategy.md
   - concepts/persona-ops-workflow.md
+  - entities/music-models/ace-step.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-11
+updated: 2026-05-13
 ---
 
 ## Relations
@@ -27,6 +28,7 @@ updated: 2026-05-11
 @sources/persona-monetization-2026.md @sources/persona-ops-stack-2026.md @concepts/persona-monetization-models.md @concepts/persona-ops-stack.md @concepts/persona-ops-workflow.md @concepts/persona-failure-modes.md @concepts/persona-consistency-methods.md @entities/persona-ops/postiz.md @entities/persona-ops/n8n.md @entities/personas/aitana-lopez.md
 @concepts/marketing-your-persona.md
 @sources/virtual-persona-narrative-development-strategy.md
+@entities/music-models/ace-step.md
 
 ## Raw Concept
 

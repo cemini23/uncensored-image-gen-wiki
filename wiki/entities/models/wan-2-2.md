@@ -23,9 +23,10 @@ related:
   - entities/models/openrouter-video.md
   - entities/uis/comfyui.md
   - concepts/persona-audio-stack.md
+  - entities/lipsync/latentsync.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-13
 ---
 
 ## Relations
@@ -37,6 +38,8 @@ updated: 2026-05-07
 @entities/models/openrouter-video.md
 
 @concepts/persona-audio-stack.md
+@entities/lipsync/latentsync.md
+
 ## Raw Concept
 
 Page prompted by the May 2026 video survey ingest. Wan 2.2 is the foundational pillar for local NSFW video persona work — Apache 2.0, MoE-architected, scrubbed-but-LoRA-recoverable — and the backbone of the modal 2026 ComfyUI / Forge video workflow stack.

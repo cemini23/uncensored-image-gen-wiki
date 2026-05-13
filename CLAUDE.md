@@ -1,42 +1,54 @@
-# Image Generation Research Workspace — Schema
+# Image + Voice/Audio Generation Research Workspace — Schema
 
 This file is the **schema**: it tells you (the LLM) how to operate this workspace. Everything else is either a raw source, a wiki page, or a meta file. Read this on every session start. Active workstreams + open decisions live in `ROADMAP.md`, not here.
 
 ## Purpose
 
-Local knowledge hub for **uncensored local image generation** research, model cataloging, workflow tooling, and persona/character ops — a librarian that **manages, curates, and applies** that knowledge.
+Local knowledge hub for **uncensored local generative-media** research — image, video, **voice/TTS, lipsync, music, and sound effects** — model cataloging, workflow tooling, and persona/character ops. A librarian that **manages, curates, and applies** that knowledge.
 
-- **Manage** — inventory raw sources (model cards, GitHub READMEs, CivitAI pages, papers, deep-research outputs); track what's been read, extracted, and applied
+Scope as of 2026-05-13 (expanded from image-only):
+
+- **Image gen** — T2I models, identity adapters, LoRA training, ComfyUI/Forge/A1111 workflows (existing core)
+- **Video gen** — Wan / HunyuanVideo / LTX / CogVideoX / Mochi / Seedance; video-LoRA; latent chaining (existing)
+- **Voice & audio gen** — TTS / voice cloning (Fish-Speech, CosyVoice, Kokoro, etc.), lipsync (LatentSync, MuseTalk, Wav2Lip), music gen (ACE-Step, MusicGen, Stable Audio Open), foley/SFX (Stable Audio Open, AudioLDM, Tango 2) — **NEW**
+- **Persona/character ops** — orchestration (n8n / SillyTavern / Postiz), monetization, payment rails, legal landscape (existing)
+
+Operating verbs:
+
+- **Manage** — inventory raw sources (model cards, GitHub READMEs, CivitAI/HF pages, papers, deep-research outputs, voice-clone repos); track what's been read, extracted, and applied
 - **Curate** — pull relevant fragments out of raw sources; structure them as interlinked wiki pages on models, tooling, hardware, techniques, and ops stacks
 - **Apply** — route findings to a real workflow:
   - **claude.ai / DeepSeek** — research synthesis, model comparison reasoning, prompt engineering help
   - **ComfyUI / Forge / A1111** — copy-paste prompts, node graphs, LoRA recipes into local inference UIs
-  - **Local laptop workflows** — manage LoRA collections, organize generated outputs, plan persona rollouts
+  - **Local audio pipeline** — Fish-Speech / CosyVoice / LatentSync / MusicGen / Stable Audio Open run via Python/CLI + ComfyUI audio nodes where available; muxed with FFmpeg under n8n orchestration
+  - **Local laptop workflows** — manage LoRA + voice-clone collections, organize generated outputs (image / video / audio), plan persona rollouts
 
 This is a laptop-only workspace. No remote servers, no team distribution. Everything lives on a single laptop.
 
 ## Architecture — three layers
 
 1. **Raw sources** — immutable. You read them, never modify them. Live locally in `raw-sources/` (gitignored — too large/copyrighted to track) and the existing `research to be indexed/processed/` archive (legacy convention; same role as `raw-sources/`).
-   - PDFs (academic papers on diffusion, segmentation, generation)
+   - PDFs (academic papers on diffusion, segmentation, generation, TTS, vocoders, lipsync)
    - DOCX (deep-research dumps from claude.ai / Gemini / DeepSeek)
-   - GitHub repo snapshots (ComfyUI custom nodes, training scripts, LoRA collections)
+   - GitHub repo snapshots (ComfyUI custom nodes, training scripts, LoRA collections, TTS/voice-clone repos, lipsync repos, audio-gen repos)
    - Model cards (Hugging Face, CivitAI) saved as `.md`
+   - Reference audio samples (10-30s voice-clone reference clips; not committed)
    - **Drop pattern**: drop new sources into `research to be indexed/` (transient drop zone). Ingest pipeline reads + synthesizes, then archive to `raw-sources/` (or leave in `research to be indexed/processed/` per legacy convention).
 
-2. **The wiki** — LLM-written, human-read. Lives in `wiki/`. Structured pages on models, UIs, custom nodes, hardware, techniques, marketplaces.
+2. **The wiki** — LLM-written, human-read. Lives in `wiki/`. Structured pages on models (image / video / voice / lipsync / music / SFX), UIs, custom nodes, hardware, techniques, marketplaces.
 
 3. **The schema** — this file.
 
 Staging/output lives outside the wiki:
-- `briefs/` — polished deliverables ready to use elsewhere (gitignored): model comparison tables, setup runbooks, persona consistency playbooks, monetization case studies. Pre-existing briefs from this workspace's LIGHT-mode era live here (5 deep-research outputs).
-- `notes/` — legacy working-notes layer from LIGHT-mode era; contents to be migrated into `wiki/entities/` over time. Don't add new notes here — write wiki pages instead.
-- `outputs/` — generated images and intermediate artifacts (gitignored or kept local; not part of the knowledge layer)
+- `briefs/` — polished deliverables ready to use elsewhere (gitignored): model comparison tables, setup runbooks, persona consistency playbooks, monetization case studies, audio-pipeline runbooks. Pre-existing briefs from this workspace's LIGHT-mode era live here (5 deep-research outputs).
+- `outputs/` — generated images, video, and audio artifacts (gitignored or kept local; not part of the knowledge layer)
 - `docs/` — third-party reference docs (e.g. `docs/superpowers/`); read-only, not curated by this workspace
 - `research to be indexed/` — transient drop zone for new raw sources (gitignored)
 - `LESSONS.md` — meta-lessons about *how we work* (distinct from `wiki/log.md`)
 - `hot.md` — ephemeral session-state cache (gitignored)
 - `ROADMAP.md` — active workstreams + open decisions (tracked)
+
+The legacy `notes/` folder was deleted 2026-05-11 when its content migrated into `wiki/entities/`. Don't recreate it — write wiki pages directly.
 
 ## Folder layout
 
@@ -52,22 +64,28 @@ Image gen/
     processed/                 # legacy archive of post-ingest docx originals (raw-sources by another name)
   raw-sources/                 # archived raw source corpus (gitignored; new ingests go here)
   briefs/                      # polished deliverables (gitignored)
-  notes/                       # legacy LIGHT-mode notes (migration to wiki/ pending)
-  outputs/                     # generated images / intermediates (local only)
+  outputs/                     # generated images / video / audio / intermediates (local only)
   docs/                        # third-party reference docs (read-only)
   wiki/                        # canonical wiki
     index.md                   # content-oriented catalog of all wiki pages
     log.md                     # append-only chronological operations log
     sources/                   # one page per ingested source
     entities/                  # models, UIs, custom nodes, marketplaces, hardware, accounts/personas
+      models/                  # image + video diffusion/DiT models
+      voice-models/            # TTS + voice-cloning models (Fish-Speech, CosyVoice, Kokoro, etc.)
+      lipsync/                 # audio-driven mouth-movement models (LatentSync, MuseTalk, Wav2Lip)
+      music-models/            # text-to-music generators (ACE-Step, MusicGen)
+      sfx-models/              # foley / sound-effect / text-to-audio (Stable Audio Open, AudioLDM, Tango 2)
+      adapters/ training-tools/ custom-nodes/ uis/ hardware/ marketplaces/ persona-ops/ personas/
     concepts/                  # techniques, methodologies, workflows, ops strategies
+    runbooks/                  # practical end-to-end guides (tracked, unlike briefs/)
   scripts/                     # wiki_lint.py, wiki_gap_detect.py, preingest_check.py
   prompts/                     # reusable prompt templates (deep-research-prompt.md, github-repo-eval.md, etc.)
   .claude/                     # Claude Code per-project state (gitignored)
   .playwright-mcp/             # playwright session storage (gitignored)
 ```
 
-Pages can be nested inside `entities/` when `Domain > Topic > Subtopic` hierarchy is warranted (e.g. `entities/models/pony-v6.md`, `entities/uis/comfyui.md`, `entities/custom-nodes/ipadapter-plus.md`, `entities/marketplaces/civitai.md`). `concepts/` and `sources/` are flat by convention.
+Pages can be nested inside `entities/` when `Domain > Topic > Subtopic` hierarchy is warranted (e.g. `entities/models/pony-v6.md`, `entities/voice-models/cosyvoice2.md`, `entities/lipsync/latentsync.md`, `entities/music-models/musicgen.md`, `entities/uis/comfyui.md`, `entities/custom-nodes/ipadapter-plus.md`, `entities/marketplaces/civitai.md`). `concepts/`, `sources/`, and `runbooks/` are flat by convention.
 
 ## Wiki page format
 
@@ -106,8 +124,8 @@ updated: 2026-05-06
 ### Page-type quick reference
 
 - **Source page** (`wiki/sources/<slug>.md`) — one per ingested source. Raw Concept fields: title / author / type / location / retrieved / pages / read-status (skimmed | read | deep-read | unread-stub).
-- **Entity page** (`wiki/entities/<category>/<slug>.md`) — models (Pony, Flux, SDXL fine-tunes), UIs (ComfyUI, Forge), custom nodes, hardware (GPUs, quantization formats), marketplaces (CivitAI, Hugging Face), accounts/personas (one page per persona being managed). Raw Concept: what prompted the page + which sources synthesize into it.
-- **Concept page** (`wiki/concepts/<slug>.md`) — techniques (LoRA training, ControlNet, IP-Adapter), workflows (img2img loops, upscaling pipelines), de-censoring techniques, persona-consistency methods, monetization strategies. Raw Concept: the question or topic the page answers.
+- **Entity page** (`wiki/entities/<category>/<slug>.md`) — image/video models (Pony, Flux, Wan), **voice/TTS models** (Fish-Speech, CosyVoice, Kokoro), **lipsync models** (LatentSync, MuseTalk, Wav2Lip), **music-gen models** (ACE-Step, MusicGen), **SFX/foley models** (Stable Audio Open, AudioLDM, Tango 2), UIs (ComfyUI, Forge), custom nodes, hardware (GPUs, quantization formats), marketplaces (CivitAI, Hugging Face), accounts/personas (one page per persona being managed). Raw Concept: what prompted the page + which sources synthesize into it.
+- **Concept page** (`wiki/concepts/<slug>.md`) — techniques (LoRA training, ControlNet, IP-Adapter, voice cloning, lipsync pipelines), workflows (img2img loops, upscaling pipelines, audio-pipeline mux), de-censoring techniques, persona-consistency methods, monetization strategies. Raw Concept: the question or topic the page answers.
 - **Brief page** (`briefs/<YYYY-MM-DD>_<slug>.md`) — deliverable. Body sections: `## Target` (claude.ai | DeepSeek | ComfyUI | local-app) / `## Summary` / `## Body` / `## Sources`.
 
 ## Cross-link + citation conventions
@@ -139,7 +157,7 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
 | Alias | Path | Description |
 |-------|------|-------------|
 | `osint-wiki` | `../../OSINT WORKSPACE/wiki/` | Financial research, quant finance, prediction markets, CeminiSuite, RL for trading |
-| `image-gen-wiki` | `wiki/` | Uncensored image generation, model cataloging, ComfyUI, LoRA, persona/character ops |
+| `image-gen-wiki` | `wiki/` | Uncensored local generative media — image, video, **voice/TTS, lipsync, music, SFX** — model cataloging, ComfyUI, LoRA, persona/character ops. (Workspace dir name + alias retained for backwards-compatibility; scope expanded 2026-05-13 to cover voice/audio gen.) |
 | `seo-wiki` | `../SEO:GEO B&M Business/wiki/` | Local SEO, GBP optimization, GEO/AEO, web design, social media, creator marketing |
 | `3d-printing-wiki` | `../3d printing/wiki/` | FDM/FFF printing, Bambu, materials, slicers, print farms, store ops |
 | `cybersecurity-wiki` | `../Cybersecurity wiki/wiki/` | Cybersecurity research — offensive security, defensive operations, certifications, threat actors. Shared territory: deepfakes + adversarial-image attacks when those surfaces appear in pentest scope |
@@ -243,7 +261,8 @@ Material ready to leave the wiki goes through `briefs/` first:
 - **→ claude.ai** — copy the relevant brief body into a Claude conversation for research synthesis, prompt help, business decisions
 - **→ DeepSeek** — same pattern, via DeepSeek API or web UI (see `.env.example` for `DEEPSEEK_API_KEY`)
 - **→ ComfyUI / Forge / A1111** — paste workflow JSONs, prompts, LoRA recipes from `## Snippets` into the local UI. Manual transfer.
-- **→ outputs/** — generated images stay local, gitignored
+- **→ Audio pipeline (Fish-Speech / CosyVoice / LatentSync / MusicGen / Stable Audio Open)** — copy CLI commands, Python snippets, n8n flow JSONs from `## Snippets` into the local audio pipeline (run via venv/conda + FFmpeg post-mux). ComfyUI audio nodes where mature, external CLI otherwise.
+- **→ outputs/** — generated images, video, and audio stay local, gitignored
 
 No remote server, no scp, no team distribution. Everything stays on this laptop.
 
@@ -258,7 +277,7 @@ No remote server, no scp, no team distribution. Everything stays on this laptop.
 
 ## Phase-0 audit pattern (before adopting an external tool)
 
-Before adopting an image-gen tool, custom node, training script, or model into the workflow, run a Phase-0 source audit (~30 min). See `prompts/github-repo-eval.md` for the reusable prompt.
+Before adopting an image/video/audio-gen tool, custom node, training script, or model into the workflow, run a Phase-0 source audit (~30 min). See `prompts/github-repo-eval.md` for the reusable prompt.
 
 Domain-specific failure modes to check:
 
@@ -268,6 +287,10 @@ Domain-specific failure modes to check:
 - **Models (CivitAI / HF)**: license terms (commercial use, derivative works, NSFW restrictions)? Base model derivative chain (SDXL → Pony → fine-tune-of-fine-tune may inherit Stability's non-commercial clause)? Risk of takedown if hosted on a moderation-active platform?
 - **LoRA collections / aggregators**: who owns the rights? Can downstream use redistribute? CivitAI ToS vs author's stated license?
 - **Persona/account ops tools**: platform ToS risk (does this violate Twitter/X / Instagram / TikTok policy)? Self-host vs SaaS? Account-recovery story if banned?
+- **Voice / TTS models** (Fish-Speech, CosyVoice, Kokoro, F5-TTS, MaskGCT, Chatterbox, XTTS, IndexTTS, Dia): code-license vs weights-license split (common pattern: MIT code + non-commercial or OpenRAIL weights)? Zero-shot vs few-shot vs fine-tune-only cloning? Reference-audio length requirement (3s / 10-30s / longer)? Emotion-tag / prosody-control surface? Streaming-capable for low-latency DM voice notes? VRAM (8 / 16 / 24+ GB) and Apple Silicon MPS viability? NSFW posture (operator-controlled vs platform-banned like ElevenLabs)? Right-of-publicity risk if reference audio not operator-owned (Vacker v ElevenLabs precedent)?
+- **Lipsync models** (LatentSync, MuseTalk, Wav2Lip, SadTalker, LivePortrait, VideoReTalking, GeneFace++): real-time vs batch posture (FPS on consumer GPU)? Face-detection dependency (InsightFace / dlib / OpenMMLab) — install-stack heaviness? Output resolution + sharpness vs sync accuracy tradeoff? Identity drift across frames? FLUX/Wan/HunyuanVideo source compat?
+- **Music gen models** (ACE-Step, MusicGen, Stable Audio Open, Suno cloud, Udio cloud): clip-length cap (10s / 30s / 47s / full-song)? Lyrics-conditioned vs instrumental-only? Royalty-free output license? Cloud-only ToS NSFW posture (Suno/Udio restricted)? Melody-conditioning support?
+- **SFX / foley models** (Stable Audio Open, AudioLDM, Tango 2, Audio-Omni, Bark): text-to-audio vs video-to-audio? Coverage breadth (ambient / impact / speech-like / music)? Sample rate + clip-length limits?
 
 ## Session-start ritual
 

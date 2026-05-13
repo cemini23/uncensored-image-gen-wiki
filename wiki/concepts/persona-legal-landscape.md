@@ -16,9 +16,12 @@ related:
   - concepts/persona-payment-rails.md
   - concepts/persona-ops-stack.md
   - concepts/likeness-collision-verification.md
+  - entities/voice-models/elevenlabs.md
+  - entities/music-models/suno.md
+  - entities/music-models/udio.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-13
 ---
 
 ## Relations
@@ -27,6 +30,7 @@ updated: 2026-05-07
 @concepts/synthetic-media-corporate-structure.md
 @concepts/synthetic-media-web3-monetization.md
 @entities/persona-ops/fish-speech.md
+@entities/voice-models/elevenlabs.md @entities/music-models/suno.md @entities/music-models/udio.md
 
 ## Raw Concept
 

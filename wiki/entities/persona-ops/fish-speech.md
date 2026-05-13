@@ -11,6 +11,19 @@ related:
   - entities/persona-ops/n8n.md
   - concepts/model-selection-workflow.md
   - concepts/persona-audio-stack.md
+  - entities/voice-models/cosyvoice2.md
+  - entities/voice-models/kokoro.md
+  - entities/voice-models/indextts-2.md
+  - entities/voice-models/qwen3-tts.md
+  - entities/voice-models/f5-tts.md
+  - entities/voice-models/chatterbox.md
+  - entities/voice-models/maskgct.md
+  - entities/lipsync/latentsync.md
+  - entities/lipsync/musetalk.md
+  - entities/voice-models/xtts-v2.md
+  - entities/voice-models/dia.md
+  - entities/voice-models/bark.md
+  - entities/voice-models/elevenlabs.md
   - entities/persona-ops/supertonic.md
   - entities/persona-ops/voicemode.md
 maturity: draft
@@ -24,6 +37,9 @@ updated: 2026-05-13
 @concepts/model-selection-workflow.md
 
 @concepts/persona-audio-stack.md
+@entities/voice-models/cosyvoice2.md @entities/voice-models/kokoro.md @entities/lipsync/latentsync.md @entities/lipsync/musetalk.md
+@entities/voice-models/indextts-2.md @entities/voice-models/qwen3-tts.md @entities/voice-models/f5-tts.md @entities/voice-models/chatterbox.md @entities/voice-models/maskgct.md
+@entities/voice-models/xtts-v2.md @entities/voice-models/dia.md @entities/voice-models/bark.md @entities/voice-models/elevenlabs.md
 @entities/persona-ops/supertonic.md @entities/persona-ops/voicemode.md
 
 ## Raw Concept

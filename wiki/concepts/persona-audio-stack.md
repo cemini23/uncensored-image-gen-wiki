@@ -15,9 +15,33 @@ related:
   - entities/models/hunyuanvideo-1-5.md
   - entities/models/ltx-2.md
   - sources/persona-ops-stack-2026.md
+  - entities/voice-models/cosyvoice2.md
+  - entities/voice-models/kokoro.md
+  - entities/voice-models/indextts-2.md
+  - entities/voice-models/qwen3-tts.md
+  - entities/voice-models/f5-tts.md
+  - entities/voice-models/chatterbox.md
+  - entities/voice-models/maskgct.md
+  - entities/lipsync/latentsync.md
+  - entities/lipsync/musetalk.md
+  - entities/lipsync/wav2lip.md
+  - entities/lipsync/sadtalker.md
+  - entities/music-models/ace-step.md
+  - entities/music-models/musicgen.md
+  - entities/sfx-models/stable-audio-open.md
+  - entities/sfx-models/audioldm.md
+  - entities/sfx-models/tango-2.md
+  - entities/voice-models/xtts-v2.md
+  - entities/voice-models/dia.md
+  - entities/voice-models/bark.md
+  - entities/voice-models/elevenlabs.md
+  - entities/lipsync/liveportrait.md
+  - entities/music-models/suno.md
+  - entities/music-models/udio.md
+  - entities/sfx-models/audio-omni.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-05-09
+updated: 2026-05-13
 ---
 
 ## Relations
@@ -30,6 +54,18 @@ updated: 2026-05-09
 @concepts/seam-stitching-strategies.md
 @concepts/model-selection-workflow.md
 @sources/persona-ops-stack-2026.md
+@entities/voice-models/cosyvoice2.md
+@entities/voice-models/kokoro.md
+@entities/voice-models/indextts-2.md @entities/voice-models/qwen3-tts.md @entities/voice-models/f5-tts.md @entities/voice-models/chatterbox.md @entities/voice-models/maskgct.md
+@entities/lipsync/latentsync.md
+@entities/lipsync/musetalk.md
+@entities/lipsync/wav2lip.md @entities/lipsync/sadtalker.md
+@entities/music-models/ace-step.md
+@entities/music-models/musicgen.md
+@entities/sfx-models/stable-audio-open.md
+@entities/sfx-models/audioldm.md @entities/sfx-models/tango-2.md
+@entities/voice-models/xtts-v2.md @entities/voice-models/dia.md @entities/voice-models/bark.md @entities/voice-models/elevenlabs.md
+@entities/lipsync/liveportrait.md @entities/music-models/suno.md @entities/music-models/udio.md @entities/sfx-models/audio-omni.md
 
 ## Raw Concept
 

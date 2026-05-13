@@ -18,9 +18,20 @@ related:
   - entities/persona-ops/n8n.md
   - concepts/marketing-your-persona.md
   - concepts/persona-audio-stack.md
+  - entities/voice-models/cosyvoice2.md
+  - entities/voice-models/qwen3-tts.md
+  - entities/voice-models/f5-tts.md
+  - entities/voice-models/maskgct.md
+  - entities/lipsync/latentsync.md
+  - entities/lipsync/musetalk.md
+  - entities/music-models/ace-step.md
+  - entities/sfx-models/stable-audio-open.md
+  - entities/voice-models/xtts-v2.md
+  - entities/voice-models/dia.md
+  - entities/voice-models/elevenlabs.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-13
 read_status: deep-read
 ---
 
@@ -30,6 +41,10 @@ read_status: deep-read
 @concepts/marketing-your-persona.md
 
 @concepts/persona-audio-stack.md
+@entities/voice-models/cosyvoice2.md @entities/lipsync/latentsync.md @entities/lipsync/musetalk.md @entities/music-models/ace-step.md @entities/sfx-models/stable-audio-open.md
+@entities/voice-models/qwen3-tts.md @entities/voice-models/f5-tts.md @entities/voice-models/maskgct.md
+@entities/voice-models/xtts-v2.md @entities/voice-models/dia.md @entities/voice-models/elevenlabs.md
+
 ## Raw Concept
 
 **Title**: Comprehensive Survey of the Software Stack for Adult AI Persona Operations: Posting, Multi-Account Management, DMs, Voice, Agents, and Image/Video Pipelines (May 2026)

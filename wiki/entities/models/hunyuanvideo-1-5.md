@@ -17,9 +17,10 @@ related:
   - entities/models/open-sora.md
   - concepts/synthetic-media-compute-economics.md
   - concepts/persona-audio-stack.md
+  - entities/lipsync/latentsync.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-13
 ---
 
 ## Relations
@@ -30,6 +31,8 @@ updated: 2026-05-07
 @entities/models/open-sora.md
 
 @concepts/persona-audio-stack.md
+@entities/lipsync/latentsync.md
+
 ## Raw Concept
 
 Page prompted by the May 2026 video survey ingest. HunyuanVideo 1.5 is the SSTA-accelerated peer to Wan 2.2 in the local NSFW video stack — significantly faster on consumer hardware due to attention-pruning optimization, and explicitly supported in Musubi Tuner (per sub-sweep E confirmation, 2026-05-07).

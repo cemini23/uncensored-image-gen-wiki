@@ -4,6 +4,177 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-05-13] expand | Voice/audio W4 Tier 3 — 4 deferred entity pages (LivePortrait, Suno, Udio, Audio-Omni)
+
+Closed out the W4 Tier 3 backfill — the deferred slate of secondary/cloud/research-future audio entities. Tier 3 covers (a) the **premium single-image lipsync** sibling (LivePortrait) that complements SadTalker, (b) the **closed-cloud music-gen** tier (Suno + Udio) for decision-matrix completeness alongside local ACE-Step / MusicGen, and (c) the **research-future** unified-audio horizon entry (Audio-Omni) for trajectory tracking. The earlier four T3 voice-model pages (XTTS-v2, Dia, Bark, ElevenLabs) were completed in the W4-T2 closeout session and indexed here for the first time.
+
+### New entity pages (4) — W4 Tier 3
+
+- **`entities/lipsync/liveportrait.md`** — LivePortrait (Kuaishou KwaiVGI, ECCV 2024); implicit-keypoint portrait animation with stitching module + eye/mouth retargeting + cross-identity transfer; MIT (verify); 512×512 output; the **premium-quality sibling to SadTalker** for single-image animation when sharper visual fidelity matters
+- **`entities/music-models/suno.md`** — Suno (Suno AI closed cloud); text + lyrics → full song with vocals (3-4+ min); SFW-segment leader May 2026; **three blockers prevent NSFW use** — ToS content moderation + audio-fingerprint detection + ongoing RIAA litigation; Bark MIT lineage anchor (April 2023 → v3+ closed)
+- **`entities/music-models/udio.md`** — Udio (ex-Google DeepMind closed cloud, April 2024); Suno's closest rival; **edge on production polish + complex genre** (orchestral, layered jazz, dense electronic); same NSFW + RIAA blockers; RIAA co-defendant (filed June 2024); positioned as Suno alternate for SFW parallel brands only
+- **`entities/sfx-models/audio-omni.md`** — Audio-Omni (SIGGRAPH 2026); **research-future unified audio model** spanning sound + music + speech across understanding / generation / editing; not currently build-track; logged for horizon tracking + citation hygiene
+
+### Bidirectional backlinks added (18 files / 40+ edges)
+
+- `wiki/concepts/persona-audio-stack.md` — added 8 frontmatter `related:` + Relations entries (4 new T3 + earlier 4 voice-model T3s)
+- `wiki/concepts/persona-legal-landscape.md` — added elevenlabs + suno + udio (legal/litigation exposure axis)
+- `wiki/concepts/video-identity-inheritance.md` — added liveportrait (single-portrait → animation path)
+- `wiki/entities/persona-ops/fish-speech.md` — added xtts-v2 + dia + bark + elevenlabs (voice-tier alternates)
+- `wiki/entities/voice-models/chatterbox.md` — added xtts-v2 + dia + elevenlabs (voice-tier alternates)
+- `wiki/entities/voice-models/cosyvoice2.md` — added xtts-v2 + dia + elevenlabs
+- `wiki/entities/voice-models/bark.md` — added audio-omni (text-to-audio lineage)
+- `wiki/entities/music-models/ace-step.md` — added suno + udio (cloud music alternates)
+- `wiki/entities/music-models/musicgen.md` — added suno + udio
+- `wiki/entities/sfx-models/stable-audio-open.md` — added audio-omni (research-future)
+- `wiki/entities/sfx-models/audioldm.md` — added audio-omni
+- `wiki/entities/sfx-models/tango-2.md` — added audio-omni + bark
+- `wiki/entities/lipsync/sadtalker.md` — added liveportrait (single-image premium sibling)
+- `wiki/entities/lipsync/latentsync.md` — added liveportrait
+- `wiki/entities/lipsync/musetalk.md` — added liveportrait
+- `wiki/entities/lipsync/wav2lip.md` — added liveportrait
+- `wiki/sources/persona-ops-stack-2026.md` — added xtts-v2 + dia + elevenlabs
+- `wiki/index.md` — added 4 voice-models rows (xtts-v2, dia, bark, elevenlabs) + 1 lipsync row (liveportrait) + 2 music-models rows (suno, udio) + 1 sfx-models row (audio-omni)
+
+### Decisions encoded in Tier 3 pages
+
+- **LivePortrait > SadTalker on quality, SadTalker > LivePortrait on simplicity** — for single-image talking-head: use SadTalker for prototyping + speed, LivePortrait when output sharpness matters for hero-shot social content
+- **Suno + Udio = dead-end for NSFW persona-ops** — three independent blockers (ToS moderation, audio fingerprint, RIAA litigation); same dead-end shape as ElevenLabs (closed SaaS pattern). Local stack ACE-Step / MusicGen is the **only** build-track for monetized adult-track persona music
+- **Bark MIT → Suno cloud lineage** — explicit trajectory anchor; documents the open-research → closed-cloud pivot pattern that ElevenLabs / Stability / Suno all share. Forecast signal for current MIT-open releases (Fish-Speech, Chatterbox, ACE-Step)
+- **Audio-Omni is research-only watch-item** — explicit "not build-track today" with watch criteria for promotion (training-data license clarity + weights release + commercial-clean license confirmation)
+- **CI fix shipped pre-T3**: commit 0059ca7 unquoted 8 `@osint-wiki/...` cross-wiki refs (YAML-quoted refs broke `wiki_lint.py` path normalization) + added supertonic / voicemode reciprocal backlinks to fish-speech. T3 work resumed cleanly on top of green CI.
+
+### Lint state after Tier 3
+
+Expected: 0 hard errors. T3 added 40+ backlink edges with full bidirectional coverage. Verify via `python3 scripts/wiki_lint.py`.
+
+### CI commit context
+
+Tier 3 picked up after commit **0059ca7** (CI fix, pushed) restored a green main. T3 backlink wiring + page writes were performed on top of green main without re-introducing any of the prior lint failures.
+
+### Closed / Next
+
+- **W4 closed** (T1 + T2 + T3) — voice/audio entity backfill complete across 7 canonical + 9 secondary + 8 deferred = 24 audio entities. All decision-matrix axes covered (real-time vs batch, single-image vs source-video, NSFW-friendly vs SFW-only, local vs cloud, MIT vs CC-BY-NC vs ToS-restricted)
+- **README scope expansion** — companion update to mirror CLAUDE.md schema expansion (voice/audio scope, subtree announcement, cross-wiki table)
+- **W5 deferred**: audio re-check on 2026-05-09–13 ingests for missed audio URLs (Tier 1 pages already cite primary sources; W5 is gap-closure on tangential mentions)
+
+---
+
+## [2026-05-13] expand | Voice/audio W4 Tier 2 — 9 secondary entity pages
+
+Followed W3+W4-Tier-1 with the Tier 2 backfill: nine additional secondary entity pages covering the next-best alternates named (or implied) in @concepts/persona-audio-stack.md but previously without dedicated pages. Tier 2 deepens the decision-matrix coverage so the wiki can answer "which TTS / lipsync / foley model fits *this specific* operator constraint" without falling back to a generic recommendation.
+
+### New entity pages (9) — W4 Tier 2
+
+- **`entities/voice-models/indextts-2.md`** — IndexTTS-2 (Bilibili Index); ~1.7B; explicit emotion + duration control alongside zero-shot voice clone; ICASSP-2025 lineage; positioned as control-surface complement to Fish-Speech (emotion) and CosyVoice2 (latency)
+- **`entities/voice-models/qwen3-tts.md`** — Qwen3-TTS (Alibaba Qwen team); multilingual zero-shot voice clone; Apache-2.0-style weights expected (verify per release); Alibaba/CosyVoice2 sibling for production multilingual persona DMs
+- **`entities/voice-models/f5-tts.md`** — F5-TTS (SWivid); ~336M conditional flow-matching non-autoregressive; English-strong; code MIT / weights likely CC-BY-NC 4.0 (research-restricted); research baseline + English-prototyping pick
+- **`entities/voice-models/chatterbox.md`** — Chatterbox (Resemble AI); ~500M MIT-licensed (code+weights) zero-shot voice clone; PerTH watermarking built-in; **cleanest commercial license in the voice tier**; smaller emotion-tag surface than Fish-Speech
+- **`entities/voice-models/maskgct.md`** — MaskGCT (Amphion / CMU); ~1.1B masked-decode non-autoregressive TTS; multi-speaker strong; CC-BY-NC weights likely (research-restricted); academic flagship in Amphion stack
+- **`entities/lipsync/wav2lip.md`** — Wav2Lip (Rudrabha / IIIT-H, ACM MM 2020); SyncNet-supervised GAN baseline; **research-only weights** (license blocker for monetized use); 96×96 face region; sync-accuracy + lowest VRAM + widest tutorial coverage; Easy-Wav2Lip / Wav2Lip-HD / Wav2Lip-288 forks documented
+- **`entities/lipsync/sadtalker.md`** — SadTalker (OpenTalker, CVPR 2023); ExpNet (audio → 3DMM expression) + PoseVAE (head pose) + 3DMM face renderer; **single portrait + audio → talking-head video with generated head motion** (no source video needed); pairs with LatentSync final-pass for hero-shot
+- **`entities/sfx-models/audioldm.md`** — AudioLDM / AudioLDM 2 (CVSSP Surrey, ICML 2023); pioneer text-to-audio LDM; AudioLDM 2 adds GPT-2 prompt conditioner + AudioMAE for cross-modal coverage (speech+SFX+music); 16 kHz output; CC-BY-NC weights likely (research-restricted); academic precursor to Stable Audio Open / Tango 2
+- **`entities/sfx-models/tango-2.md`** — Tango 2 (Declare-Lab SUTD); FLAN-T5 + LDM + DPO on Audio-Alpaca preference dataset; **best text-prompt alignment** in the SFX layer for instruction-style prompts; 16 kHz, ~10s; CC-BY-NC-SA weights likely (research-restricted); researchy specialist complement to Stable Audio Open production primary
+
+### Bidirectional backlinks updated (8 files)
+
+- `wiki/concepts/persona-audio-stack.md` — added 9 new related: entries + 9 Relations entries
+- `wiki/entities/persona-ops/fish-speech.md` — added 5 voice-clone alternate backlinks (indextts-2, qwen3-tts, f5-tts, chatterbox, maskgct)
+- `wiki/entities/voice-models/cosyvoice2.md` — added 3 voice-tier alternate backlinks (indextts-2, qwen3-tts, chatterbox)
+- `wiki/concepts/model-selection-workflow.md` — added indextts-2 + chatterbox decision-matrix backlinks
+- `wiki/sources/persona-ops-stack-2026.md` — added 3 backlinks (qwen3-tts, f5-tts, maskgct)
+- `wiki/entities/lipsync/latentsync.md` — added wav2lip + sadtalker backlinks
+- `wiki/entities/lipsync/musetalk.md` — added wav2lip + sadtalker backlinks
+- `wiki/entities/uis/comfyui.md` — added wav2lip backlink
+- `wiki/concepts/video-identity-inheritance.md` — added sadtalker backlink (single-portrait → talking-head path)
+- `wiki/entities/sfx-models/stable-audio-open.md` — added audioldm + tango-2 alternate backlinks
+- `wiki/entities/lipsync/wav2lip.md` — added sadtalker bidirectional fix
+- `wiki/entities/sfx-models/audioldm.md` — added tango-2 bidirectional fix
+- `wiki/index.md` — added 5 Voice models + 2 Lipsync + 2 SFX/foley rows under existing subsections
+
+### Decisions encoded in Tier 2 pages
+
+- **Chatterbox MIT (both code + weights)** is the **cleanest commercial-license voice clone** in May 2026 — flagged as the license-clean fallback when Fish-Speech weights-license posture is uncomfortable for high-revenue persona ops
+- **Wav2Lip original-repo weights = research-only** — license blocker explicit; monetized persona content must use LatentSync (Apache 2.0 verify) or MuseTalk (MIT). Some community forks may relicense; verify per-fork
+- **MaskGCT / F5-TTS / AudioLDM / Tango 2** all flagged as **CC-BY-NC-class research-restricted** weights — research / prototyping / baseline use only; build-track commercial primary is Fish-Speech (operator-controlled), CosyVoice2 (Apache 2.0), Chatterbox (MIT), Stable Audio Open (<$1M ARR free)
+- **SadTalker is the photo-to-talking-head pick** — only model in the lipsync tier that doesn't need a source video; pairs well with LatentSync final-pass for hero-shot quality
+- **IndexTTS-2's emotion + duration control** distinguishes it from CosyVoice2 (latency-focused) and Fish-Speech (50+ emotion tags but less explicit duration control) — the "control surface" specialist for narrative-driven persona voice work
+
+### Lint state after Tier 2
+
+Expected: pre-W4-T2 baseline (18 hard errors / 2 bidirectional gaps post-T1) maintained or improved. Tier 2 added 13 net backlink edges with full bidirectional coverage, so no new gaps should register. Will verify via `python3 scripts/wiki_lint.py`.
+
+### Next (W4 Tier 3 + W5)
+
+Deferred:
+- **W4 Tier 3** (~8 pages, optional): XTTS-v2 (Coqui legacy reference), Dia, LivePortrait, ElevenLabs (research-layer for SFW comparison), Suno (closed cloud), Udio (closed cloud), Bark, Audio-Omni
+- **W5 audio re-check** on recent ingests (2026-05-09–13) — confirm no audio URLs missed in prior source pages
+
+---
+
+## [2026-05-13] expand | Voice/audio scope (W3 schema + W4 Tier 1 entities)
+
+User requested scope expansion: voice/audio generation alongside image+video generation, plus backfill of recently-missed audio research links. Executed W3 (CLAUDE.md schema patch) + W4 Tier 1 (seven canonical entity pages named in @concepts/persona-audio-stack.md but previously without their own pages).
+
+### Schema patch — CLAUDE.md (W3)
+
+- Title: "Image Generation Research Workspace" → "Image + Voice/Audio Generation Research Workspace"
+- Purpose section: expanded from image-only to image / video / voice & audio / persona-ops
+- Raw sources, wiki layer, and folder layout descriptions: voice/lipsync/music/SFX models referenced; legacy `notes/` reference removed (folder deleted 2026-05-11)
+- New entity subtrees announced in Folder layout: `entities/voice-models/`, `entities/lipsync/`, `entities/music-models/`, `entities/sfx-models/`
+- Page-type quick reference: extended entity catalog
+- Related Wikis: `image-gen-wiki` description updated (backwards-compatibility noted)
+- Distribution rules: local audio pipeline target added
+- Phase-0 audit pattern: four new domain-specific failure-mode categories (voice/TTS, lipsync, music gen, SFX/foley)
+
+### New entity pages (7) — W4 Tier 1
+
+- **`entities/voice-models/cosyvoice2.md`** — CosyVoice 2 (FunAudioLLM/Alibaba); Apache 2.0, 0.5B streaming TTS, ~150 ms latency; chunk-aware causal flow matching; vLLM integration; positioning vs Fish-Speech (latency vs emotion-control)
+- **`entities/voice-models/kokoro.md`** — Kokoro-82M (hexgrad); Apache 2.0, 82M StyleTTS2-LJSpeech-derived; preset voices only (no cloning); TTS engine inside voicemode MCP; Core ML accelerated on M-series
+- **`entities/lipsync/latentsync.md`** — ByteDance audio-conditioned latent diffusion via SD VAE + Whisper + SyncNet supervision; v1.6 at 512×512 (fixes 1.5 blurriness); arXiv:2412.09262; primary quality-first lipsync pick
+- **`entities/lipsync/musetalk.md`** — Tencent TMElyralab; MIT; latent-space inpainting (NOT diffusion); 30+ FPS real-time; 256×256 face region; pairs with MuseV for full virtual-human stack; canonical real-time / batch-throughput pick
+- **`entities/music-models/ace-step.md`** — ACE Studio + StepFun; Apache 2.0, 3.5B; diffusion + Sana DCAE + linear transformer; full songs in <2s on A100; v1.5 supports Mac/AMD/Intel/CUDA; **promoted to primary local music gen** for monetized persona ops
+- **`entities/music-models/musicgen.md`** — Meta FAIR AudioCraft; **code MIT / weights CC-BY-NC 4.0** (license split); autoregressive transformer over EnCodec tokens; sizes 300M/1.5B/3.3B + melody/style variants; **demoted to research-only** (commercial-use blocker via weight license); melody-conditioning is unique capability
+- **`entities/sfx-models/stable-audio-open.md`** — Stability AI; 1.21B latent diffusion + T5; Stability Community License (commercial use free under $1M ARR); up to 47 s stereo @ 44.1 kHz; CC-licensed training corpus; dual-use Layer 3+4 (short music loops + foley)
+
+### Subtrees
+
+- **New `wiki/entities/voice-models/`** (2 pages: cosyvoice2, kokoro)
+- **New `wiki/entities/lipsync/`** (2 pages: latentsync, musetalk)
+- **New `wiki/entities/music-models/`** (2 pages: ace-step, musicgen)
+- **New `wiki/entities/sfx-models/`** (1 page: stable-audio-open)
+
+### Backlinks (12 page-touches)
+
+- @concepts/persona-audio-stack.md (added all 7 new entities — the central hub)
+- @entities/persona-ops/fish-speech.md (added cosyvoice2, kokoro, latentsync, musetalk)
+- @entities/persona-ops/voicemode.md (added kokoro)
+- @concepts/persona-ops-stack.md (added cosyvoice2)
+- @concepts/model-selection-workflow.md (added cosyvoice2, kokoro)
+- @sources/persona-ops-stack-2026.md (added cosyvoice2, latentsync, musetalk, ace-step, stable-audio-open)
+- @entities/uis/comfyui.md (added latentsync, musetalk)
+- @concepts/video-identity-inheritance.md (added latentsync, musetalk)
+- @entities/models/wan-2-2.md (added latentsync)
+- @entities/models/hunyuanvideo-1-5.md (added latentsync)
+- @concepts/persona-content-cadence.md (added ace-step)
+- @concepts/persona-monetization-models.md (added musicgen)
+
+### Decision notes (build-track impact)
+
+- **ACE-Step v1.5 supersedes MusicGen as the primary local music recommendation** for persona ops — MusicGen's CC-BY-NC 4.0 weights block monetized commercial use; ACE-Step's Apache 2.0 weights are clean.
+- **Stable Audio Open dual-use** for both Layer 3 (short music loops 10-30s for Reels/TikTok background) and Layer 4 (foley/SFX) per @concepts/persona-audio-stack.md; full songs still route to ACE-Step.
+- **LatentSync vs MuseTalk** is a quality-vs-speed split: LatentSync for hero-shot final-pass posts (512×512, batch), MuseTalk for real-time avatars + batch throughput (256×256, 30+ FPS).
+
+### Index
+
+- `wiki/index.md` Entities section: 4 new subsections added (Voice models / Lipsync / Music models / SFX/foley models) with 7 new rows total.
+
+### Pending follow-ups
+
+- **W4 Tier 2** (~8 pages): IndexTTS-2, Qwen3-TTS, F5-TTS, MaskGCT, Chatterbox, Wav2Lip, SadTalker, AudioLDM, Tango 2
+- **W4 Tier 3** (~8 pages, defer): XTTS-v2, Dia, LivePortrait, ElevenLabs (research-layer), Suno, Udio, Bark, Audio-Omni
+- **W5 audio re-check** on recent sources (verify no audio URLs missed in 2026-05-09–13 ingests)
+
 ## [2026-05-11] migrate | Path A step 5 — legacy notes/ → wiki (close-out)
 
 Path A step 5 (the deferred notes-migration step from the HEAVY-mode upgrade) is now complete. All three legacy LIGHT-mode notes files removed from the workspace; wiki coverage verified end-to-end.

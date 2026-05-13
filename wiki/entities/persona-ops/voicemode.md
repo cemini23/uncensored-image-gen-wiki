@@ -7,9 +7,10 @@ related:
   - @osint-wiki/entities/tools/voicemode.md
   - @osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md
   - entities/persona-ops/fish-speech.md
+  - entities/voice-models/kokoro.md
 maturity: draft
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-05-13
 osint_eval_origin: doc1-url-19 (cross-routed; image-gen persona-ops angle)
 ---
 
@@ -18,6 +19,7 @@ osint_eval_origin: doc1-url-19 (cross-routed; image-gen persona-ops angle)
 - `@osint-wiki/entities/tools/voicemode.md` — OSINT cross-route (workflow primary)
 - `@osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md` — origin eval (URL 19)
 - `@entities/persona-ops/fish-speech.md` — alt TTS for persona voice
+- `@entities/voice-models/kokoro.md` — Kokoro-82M TTS engine inside voicemode
 
 ## Raw Concept
 
