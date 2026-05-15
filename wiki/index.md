@@ -156,6 +156,9 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Audio-Omni (SIGGRAPH 2026 — unified audio understanding + generation + editing)](entities/sfx-models/audio-omni.md) — research-future unified audio model spanning sound + music + speech across understanding / generation / editing; horizon-tracking entry for if/when training-data + license clarify into a build-track option; not currently usable — `sfx, text-to-audio, audio-omni, unified-audio, siggraph-2026, research-future, sound-music-speech-unified`
 
 ---
+- [voicebox — Local-First AI Voice Studio](entities/voicebox.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [OmniVoice — Zero-Shot Voice Cloning for 600+ Languages](entities/omnivoice.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [Open-Generative-AI — Local-First Generative Media Platform](entities/open-generative-ai.md) — cross-wiki stub routed from ingest — `cross-wiki`
 
 ## Runbooks
 

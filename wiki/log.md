@@ -1198,3 +1198,18 @@ Deep research into practical uncensored image generation techniques — prompt s
 
 - `prompts/github-repo-eval.md` — image-gen-specialized Phase-0 audit prompt still needs to be shipped (backlog item from 2026-05-08)
 - `concepts/persona-ops-workflow.md` — still a stub; could be deepened with the new workflow content
+
+## [2026-05-14] cross-wiki route | voicebox — Local-First AI Voice Studio
+
+Cross-wiki stub routed from `@osint-wiki/entities/tools/voicebox.md`.
+- Created wiki/entities/voicebox.md (stub)
+
+## [2026-05-15] cross-wiki route | OmniVoice — Zero-Shot Voice Cloning for 600+ Languages
+
+Cross-wiki stub routed from `@osint-wiki/entities/tools/omnivoice.md`.
+- Created wiki/entities/omnivoice.md (stub)
+
+## [2026-05-15] cross-wiki route | Open-Generative-AI — Local-First Generative Media Platform
+
+Cross-wiki stub routed from `@osint-wiki/entities/tools/open-generative-ai.md`.
+- Created wiki/entities/open-generative-ai.md (stub)
