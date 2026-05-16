@@ -27,10 +27,11 @@ related:
   - sources/persona-ops-stack-2026.md
   - entities/models/openrouter-video.md
   - entities/uis/comfyui.md
+  - sources/sana-wm-minute-scale-world-model.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -39,6 +40,7 @@ updated: 2026-05-07
 @entities/models/open-sora.md
 @entities/models/openrouter-video.md
 @entities/uis/comfyui.md
+@sources/sana-wm-minute-scale-world-model.md — adjacent ingest: NVIDIA's SANA-WM minute-scale camera-controlled video world model
 
 ## Raw Concept
 

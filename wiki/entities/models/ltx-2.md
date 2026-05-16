@@ -11,9 +11,11 @@ related:
   - concepts/censorship-tier-taxonomy.md
   - entities/uis/comfyui.md
   - concepts/persona-audio-stack.md
+  - entities/models/sana-wm.md
+  - sources/sana-wm-minute-scale-world-model.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -21,6 +23,8 @@ updated: 2026-05-07
 @sources/video-generation-survey-2026.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @concepts/seam-stitching-strategies.md @concepts/censorship-tier-taxonomy.md
 
 @concepts/persona-audio-stack.md
+@entities/models/sana-wm.md — SANA-WM uses a high-compression LTX2 tokenizer as its video latent codec
+@sources/sana-wm-minute-scale-world-model.md
 ## Raw Concept
 
 Page prompted by the May 2026 video survey ingest. LTX-2 is the open-weights joint audio-visual foundation model released January 2026 by Lightricks — the only open-weight peer to Veo 3.1 / Seedance 2.0 in the native-A/V class.

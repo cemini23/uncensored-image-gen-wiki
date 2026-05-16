@@ -1218,3 +1218,17 @@ Cross-wiki stub routed from `@osint-wiki/entities/tools/open-generative-ai.md`.
 
 Cross-wiki stub routed from `@osint-wiki/sources/eval-github-repos-2026-05-13.md`.
 - Created wiki/concepts/2026-05-13_gracia-ai-volumetric-video.md (stub)
+
+## [2026-05-16] ingest (cross-wiki route from OSINT) | SANA-WM — Efficient Minute-Scale World Modeling with Hybrid Linear Diffusion Transformer
+
+Cross-wiki ingest: the NVIDIA paper "SANA-WM" (arXiv:2605.15178v1, 2026-05-14) was dropped into the OSINT workspace inbox but is entirely off-topic for OSINT/finance — it is a video / world-model generation paper, primary fit image-gen. Routed here and ingested as a full source page (deep-read of abstract + intro). Raw file canonical at `cemini-librarian:/opt/cemini-bulk/research/2605.15178v1.pdf`. No OSINT backlink (no OSINT page exists for it).
+
+- Created wiki/sources/sana-wm-minute-scale-world-model.md (source, deep-read, validated) — NVIDIA's 2.6B open-source video world model: one-minute 720p, 6-DoF camera control, hybrid GDN/softmax linear attention, dual-branch camera control, two-stage long-video refiner, metric-scale pose annotation; ~213K clips / 15d on 64 H100 / 60s clip on a single GPU / distilled RTX 5090 NVFP4 variant 34s; up to 36× throughput vs baselines; LTX2 tokenizer
+- Created wiki/entities/models/sana-wm.md (entity, validated) — the model itself; extends the SANA linear-DiT lineage into camera-controlled world modeling
+- Created wiki/concepts/world-models-video-generation.md (concept, stub) — action-conditioned explorable video generators vs prompt-to-clip T2V/I2V
+- Created wiki/concepts/camera-controlled-video-generation.md (concept, stub) — conditioning video on an explicit 6-DoF camera trajectory; dual-branch design vs temporal VAE compression
+- Created wiki/concepts/hybrid-linear-attention.md (concept, stub) — interleaving Gated DeltaNet linear blocks with periodic softmax attention for minute-scale long-context modeling
+- Updated wiki/entities/models/sana.md — added SANA-WM / source / hybrid-linear-attention backlinks; bumped updated
+- Updated wiki/entities/models/ltx-2.md — added SANA-WM / source backlinks (SANA-WM uses the LTX2 tokenizer as its video latent codec); bumped updated
+- Updated wiki/sources/video-generation-survey-2026.md — added SANA-WM source backlink (adjacent video-gen ingest); bumped updated
+- Updated wiki/index.md — added 1 source, 1 model, 3 concept rows

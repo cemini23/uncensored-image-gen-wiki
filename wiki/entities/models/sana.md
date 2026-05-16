@@ -8,9 +8,12 @@ related:
   - concepts/draft-evaluate-diffuse-pipeline.md
   - concepts/llm-as-image-conditioning.md
   - entities/models/pixart-sigma.md
+  - entities/models/sana-wm.md
+  - sources/sana-wm-minute-scale-world-model.md
+  - concepts/hybrid-linear-attention.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-16
 ---
 
 ## Relations
@@ -19,6 +22,9 @@ updated: 2026-05-06
 @concepts/draft-evaluate-diffuse-pipeline.md
 @concepts/llm-as-image-conditioning.md
 @entities/models/pixart-sigma.md
+@entities/models/sana-wm.md — SANA-WM extends the SANA linear-DiT lineage into camera-controlled video world modeling
+@sources/sana-wm-minute-scale-world-model.md
+@concepts/hybrid-linear-attention.md
 
 ## Raw Concept
 
