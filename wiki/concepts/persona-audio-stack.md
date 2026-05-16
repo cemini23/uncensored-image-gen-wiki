@@ -39,9 +39,11 @@ related:
   - entities/music-models/suno.md
   - entities/music-models/udio.md
   - entities/sfx-models/audio-omni.md
+  - entities/omnivoice.md
+  - entities/voicebox.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-05-13
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -66,6 +68,8 @@ updated: 2026-05-13
 @entities/sfx-models/audioldm.md @entities/sfx-models/tango-2.md
 @entities/voice-models/xtts-v2.md @entities/voice-models/dia.md @entities/voice-models/bark.md @entities/voice-models/elevenlabs.md
 @entities/lipsync/liveportrait.md @entities/music-models/suno.md @entities/music-models/udio.md @entities/sfx-models/audio-omni.md
+@entities/omnivoice.md — Layer 1 alternate: zero-shot voice cloning, 600+ languages
+@entities/voicebox.md — Layer 1 alternate: local-first multi-engine TTS voice studio
 
 ## Raw Concept
 

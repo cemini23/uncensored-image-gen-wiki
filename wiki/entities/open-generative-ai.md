@@ -1,13 +1,15 @@
 ---
 title: Open-Generative-AI — Local-First Generative Media Platform
 type: entity
-tags: []
-keywords: []
-related: []
+tags: [inference-ui, generative-media-platform, local-first, sd-cpp, desktop-app, cross-wiki-stub]
+keywords: [open-generative-ai, sd.cpp, wan2gp, cinema studio, c++ inference engine, generative media platform]
+related:
+  - entities/uis/comfyui.md
+  - entities/uis/swarmui.md
 maturity: draft
 created: 2026-05-15
 updated: 2026-05-15
-cross-wiki-source: @osint-wiki/entities/tools/open-generative-ai.md
+cross-wiki-source: "@osint-wiki/entities/tools/open-generative-ai.md"
 ---
 
 # Open-Generative-AI — Local-First Generative Media Platform
@@ -15,6 +17,8 @@ cross-wiki-source: @osint-wiki/entities/tools/open-generative-ai.md
 ## Relations
 
 - @osint-wiki/entities/tools/open-generative-ai.md  (cross-wiki source)
+- @entities/uis/comfyui.md — sibling local inference UI; OGA is an alternative all-in-one generative-media frontend
+- @entities/uis/swarmui.md — sibling all-in-one inference UI / model-management platform
 
 ## Raw Concept
 

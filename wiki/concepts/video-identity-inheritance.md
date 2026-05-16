@@ -26,9 +26,10 @@ related:
   - entities/lipsync/musetalk.md
   - entities/lipsync/sadtalker.md
   - entities/lipsync/liveportrait.md
+  - concepts/2026-05-13_gracia-ai-volumetric-video.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-13
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -39,6 +40,7 @@ updated: 2026-05-13
 
 @concepts/persona-audio-stack.md
 @entities/lipsync/latentsync.md @entities/lipsync/musetalk.md @entities/lipsync/sadtalker.md @entities/lipsync/liveportrait.md
+@concepts/2026-05-13_gracia-ai-volumetric-video.md — volumetric video, an adjacent generative-media surface
 
 ## Raw Concept
 

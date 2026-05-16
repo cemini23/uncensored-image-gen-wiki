@@ -26,9 +26,11 @@ related:
   - concepts/model-selection-workflow.md
   - entities/hardware/gpu-guide.md
   - entities/marketplaces/civitai.md
+  - entities/training-tools/czkawka.md
+  - entities/training-tools/how-to-train-your-gpt.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -55,6 +57,8 @@ updated: 2026-05-06
 @concepts/model-selection-workflow.md
 @entities/hardware/gpu-guide.md
 @entities/marketplaces/civitai.md
+@entities/training-tools/czkawka.md — perceptual-hash dataset dedup before LoRA training
+@entities/training-tools/how-to-train-your-gpt.md — conceptual fine-tuning reference (data prep / hyperparameters / eval)
 
 ## Raw Concept
 

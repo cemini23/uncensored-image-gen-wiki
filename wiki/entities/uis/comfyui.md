@@ -55,17 +55,19 @@ related:
   - entities/uis/forge.md
   - entities/uis/invokeai.md
   - entities/uis/swarmui.md
+  - entities/open-generative-ai.md
   - runbooks/zimage-setup-runbook.md
   - runbooks/runpod-comfyui-setup.md
   - concepts/persona-audio-stack.md
   - entities/custom-nodes/impact-pack.md
   - entities/custom-nodes/bmab.md
+  - entities/custom-nodes/ai-infra-guard.md
   - entities/lipsync/latentsync.md
   - entities/lipsync/musetalk.md
   - entities/lipsync/wav2lip.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-05-13
+updated: 2026-05-15
 read_status: deep-read
 provenance:
   stub: false
@@ -92,7 +94,9 @@ provenance:
 @entities/uis/forge.md
 @entities/uis/invokeai.md
 @entities/uis/swarmui.md
+@entities/open-generative-ai.md — alternative all-in-one generative-media frontend (sd.cpp / Wan2GP backends)
 @entities/custom-nodes/impact-pack.md @entities/custom-nodes/bmab.md
+@entities/custom-nodes/ai-infra-guard.md — ComfyUI vulnerability-detection signatures (defensive ops)
 
 @concepts/persona-audio-stack.md
 @entities/lipsync/latentsync.md @entities/lipsync/musetalk.md @entities/lipsync/wav2lip.md

@@ -4,10 +4,12 @@ type: entity
 category: tool
 tags: [entity, tool, comfyui-security, vulnerability-fingerprinting, defensive-ops, k44, steal-from-doc-level-pending-phase-0]
 keywords: [ai-infra-guard, comfyui-vuln-detection, tencent, fingerprint-signatures, apache-2-with-attribution]
-related: []
+related:
+  - entities/uis/comfyui.md
+  - entities/custom-nodes/impact-pack.md
 maturity: steal-from-doc-level-pending-phase-0
 created: 2026-05-14
-updated: 2026-05-14
+updated: 2026-05-15
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
@@ -15,6 +17,8 @@ cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v
 
 - @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md — K44 source (doc-level verdict)
 - @cybersecurity-wiki/entities/tools/ai-infra-guard.md — Cybersec-side primary entity
+- @entities/uis/comfyui.md — the runtime these vulnerability-detection signatures target
+- @entities/custom-nodes/impact-pack.md — sibling ComfyUI custom-node entity
 
 ## Raw Concept
 

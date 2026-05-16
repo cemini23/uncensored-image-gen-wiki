@@ -7,6 +7,7 @@ related:
   - entities/uis/comfyui.md
   - entities/hardware/gpu-guide.md
   - entities/custom-nodes/bmab.md
+  - entities/custom-nodes/ai-infra-guard.md
   - concepts/two-pass-generation-workflow.md
   - concepts/persona-consistency-methods.md
   - runbooks/runpod-comfyui-setup.md
@@ -14,12 +15,13 @@ related:
   - runbooks/beginner-guide-to-persona.md
 maturity: draft
 created: 2026-05-11
-updated: 2026-05-11
+updated: 2026-05-15
 ---
 
 ## Relations
 
 @entities/uis/comfyui.md @entities/hardware/gpu-guide.md @entities/custom-nodes/bmab.md
+@entities/custom-nodes/ai-infra-guard.md — sibling ComfyUI custom-node entity (vulnerability detection)
 @concepts/two-pass-generation-workflow.md @concepts/persona-consistency-methods.md
 @runbooks/runpod-comfyui-setup.md @runbooks/day-1-checklist-for-friend.md @runbooks/beginner-guide-to-persona.md
 

@@ -1213,3 +1213,8 @@ Cross-wiki stub routed from `@osint-wiki/entities/tools/omnivoice.md`.
 
 Cross-wiki stub routed from `@osint-wiki/entities/tools/open-generative-ai.md`.
 - Created wiki/entities/open-generative-ai.md (stub)
+
+## [2026-05-15] cross-wiki route | gracia.ai — Gaussian Splatting volumetric video
+
+Cross-wiki stub routed from `@osint-wiki/sources/eval-github-repos-2026-05-13.md`.
+- Created wiki/concepts/2026-05-13_gracia-ai-volumetric-video.md (stub)

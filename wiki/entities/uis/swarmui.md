@@ -8,10 +8,11 @@ related:
   - entities/uis/automatic1111.md
   - entities/uis/forge.md
   - entities/uis/invokeai.md
+  - entities/open-generative-ai.md
   - sources/uncensored-image-generation-survey.md
 maturity: stub
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -20,6 +21,7 @@ updated: 2026-05-08
 @entities/uis/automatic1111.md
 @entities/uis/forge.md
 @entities/uis/invokeai.md
+@entities/open-generative-ai.md — sibling all-in-one generative-media frontend (sd.cpp / Wan2GP backends)
 
 ## Raw Concept
 

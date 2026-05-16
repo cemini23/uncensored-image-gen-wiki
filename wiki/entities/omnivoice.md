@@ -1,13 +1,15 @@
 ---
 title: OmniVoice — Zero-Shot Voice Cloning for 600+ Languages
 type: entity
-tags: []
-keywords: []
-related: []
+tags: [voice-cloning, tts, zero-shot, multilingual, persona-ops, cross-wiki-stub]
+keywords: [omnivoice, zero-shot voice cloning, 600 languages, diffusion language model, tts, persona voice]
+related:
+  - concepts/persona-audio-stack.md
+  - entities/persona-ops/fish-speech.md
 maturity: draft
 created: 2026-05-15
 updated: 2026-05-15
-cross-wiki-source: @osint-wiki/entities/tools/omnivoice.md
+cross-wiki-source: "@osint-wiki/entities/tools/omnivoice.md"
 ---
 
 # OmniVoice — Zero-Shot Voice Cloning for 600+ Languages
@@ -15,6 +17,8 @@ cross-wiki-source: @osint-wiki/entities/tools/omnivoice.md
 ## Relations
 
 - @osint-wiki/entities/tools/omnivoice.md  (cross-wiki source)
+- @concepts/persona-audio-stack.md — Layer 1 (voice cloning / TTS) of the persona audio stack
+- @entities/persona-ops/fish-speech.md — current persona-ops TTS leader; OmniVoice is a multilingual alternate
 
 ## Raw Concept
 

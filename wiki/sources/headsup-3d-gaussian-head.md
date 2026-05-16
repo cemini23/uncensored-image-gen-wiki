@@ -7,9 +7,10 @@ related:
   - concepts/multi-angle-dataset-prep.md
   - concepts/persona-consistency-methods.md
   - concepts/video-identity-inheritance.md
+  - concepts/2026-05-13_gracia-ai-volumetric-video.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-05-15
 read_status: skimmed
 ---
 
@@ -18,6 +19,7 @@ read_status: skimmed
 @concepts/multi-angle-dataset-prep.md
 @concepts/persona-consistency-methods.md
 @concepts/video-identity-inheritance.md
+@concepts/2026-05-13_gracia-ai-volumetric-video.md — sibling 3D Gaussian Splatting work (volumetric video)
 
 ## Raw Concept
 

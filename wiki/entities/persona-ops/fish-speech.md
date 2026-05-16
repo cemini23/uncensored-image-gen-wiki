@@ -26,9 +26,11 @@ related:
   - entities/voice-models/elevenlabs.md
   - entities/persona-ops/supertonic.md
   - entities/persona-ops/voicemode.md
+  - entities/omnivoice.md
+  - entities/voicebox.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-13
+updated: 2026-05-15
 ---
 
 ## Relations
@@ -41,6 +43,8 @@ updated: 2026-05-13
 @entities/voice-models/indextts-2.md @entities/voice-models/qwen3-tts.md @entities/voice-models/f5-tts.md @entities/voice-models/chatterbox.md @entities/voice-models/maskgct.md
 @entities/voice-models/xtts-v2.md @entities/voice-models/dia.md @entities/voice-models/bark.md @entities/voice-models/elevenlabs.md
 @entities/persona-ops/supertonic.md @entities/persona-ops/voicemode.md
+@entities/omnivoice.md — multilingual zero-shot voice-cloning alternate
+@entities/voicebox.md — local-first multi-engine TTS voice studio alternate
 
 ## Raw Concept
 
