@@ -99,16 +99,17 @@ Pages link via `@path/to/page.md` syntax (relative to `wiki/`). If page A lists 
 
 ### Cross-wiki links
 
-This wiki interconnects with four sister wikis via `@wiki-alias/path/to/page.md` syntax:
+This wiki is one of **six** interconnected Cemini knowledge wikis, linked via `@wiki-alias/path/to/page.md` syntax:
 
-| Alias | Wiki | Purpose |
-|---|---|---|
-| `@seo-wiki` | SEO / GEO / B&M Business | Marketing, social media, content strategy, GEO |
-| `@osint-wiki` | OSINT Workspace | Financial research, conductor/librarian service |
-| `@3d-printing-wiki` | 3D Printing | FDM/FFF printing, Bambu, materials, slicers, print farms |
-| `@cybersecurity-wiki` | Cybersecurity | Offensive / defensive security; shared territory: deepfakes + adversarial-image attacks in pentest scope |
+| Alias | Wiki | Purpose | Public? |
+|---|---|---|---|
+| `@seo-wiki` | SEO / GEO / B&M Business | Marketing, social media, content strategy, GEO | public |
+| `@osint-wiki` | OSINT Workspace | Financial research, conductor/librarian service | **private** |
+| `@3d-printing-wiki` | 3D Printing | FDM/FFF printing, Bambu, materials, slicers, print farms | public |
+| `@cybersecurity-wiki` | Cybersecurity | Offensive / defensive security; shared territory: deepfakes + adversarial-image attacks | public |
+| `@ccc-wiki` | Cemini Claude Code (CCC) | Claude Code workflow, subagents, MCP/conductor meta-wiki | **private** |
 
-The lint script validates cross-wiki references against the target wiki's filesystem.
+The **OSINT and CCC wikis are private repositories** — they are not publicly available, and cross-wiki links into them resolve only inside the Cemini workspace, not on public GitHub. The lint script validates cross-wiki references against the target wiki's filesystem.
 
 ## Operations
 
