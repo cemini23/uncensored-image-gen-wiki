@@ -4,6 +4,28 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-05-17] deepen | Type-E close — gracia-ai-volumetric-video.md expanded 86 → ~700 words
+
+Closed the final Type-E thin concept page. Original stub was a 1-line cross-route from the OSINT 14-repo eval (verdict REFERENCE-ONLY); web research on gracia.ai (homepage + TechFundingNews funding coverage) converted it into a landscape page with explicit build-track-fit analysis.
+
+### Page touched (1)
+
+- `wiki/concepts/2026-05-13_gracia-ai-volumetric-video.md` — expanded to 7 sections: (1) **What gracia.ai is** (closed-SaaS 4DGS infra; founders Andrey Volodin ex-Prisma + Georgii Vysotskii); (2) **Pipeline + delivery surfaces** table (50fps capture → cloud recon → studio editing → ~1GB/min container → Quest 3/3S, Pico 4 Ultra, WebGPU, Unity/Unreal); (3) **Funding + traction** ($1.2M 2024 + $1.7M Dec 2025; EWOR + NeRF pioneer; Karl Kani world-first 4DGS runway, Hollywood, PortAventura); (4) **Build-track relevance — REFERENCE-ONLY** with three structural reasons (closed SaaS not local weights, captured not generated, VR/AR not social-media surface); (5) **Why it still earns a page** (volumetric persona horizon, Karl Kani precedent, sibling 3DGS research stack); (6) **What's not covered** (no public technical metrics, no pricing, no license terms); (7) `## Snippets` with 3 citations + `## Dead Ends`. Resolved the prior `[NEEDS VERIFICATION 2026-05-15]` → `[CONFIRMED 2026-05-17]` license posture = closed SaaS.
+
+### Lint / gap-detect state after deepen
+
+- 0 hard errors maintained
+- Type-E: 1 → **0** — all concept pages now ≥100 narrative words
+- Type-D: still 33 (stale `[NEEDS VERIFICATION 2026-05-06/07]` tags from W2; next batch-resolution candidate)
+
+### Decisions encoded
+
+- **gracia.ai is REFERENCE-ONLY for this wiki**, structurally — closed SaaS + multi-view capture pipeline + VR/AR distribution surface all miss the locally-runnable / generated-from-prompt / social-media-clip charter
+- **Volumetric persona is a 2027–2028 horizon**, not a build-track tool today — but worth tracking because Karl Kani is the first commercial 4DGS deployment at a fashion-adjacent surface
+- **Wiki-graph hygiene**: even REFERENCE-ONLY cross-routes get full landscape pages when they earn a slot; one-line stubs are an architectural artifact of fresh routing, not a permanent state
+
+---
+
 ## [2026-05-17] deepen | Type-E close — world-models-video-generation.md expanded 97 → ~700 words
 
 Closed one of the two Type-E thin concept pages. The expansion synthesizes from @sources/sana-wm-minute-scale-world-model.md (deep-read) — the workspace's first ingested world-model paper — into a proper concept-page treatment.
