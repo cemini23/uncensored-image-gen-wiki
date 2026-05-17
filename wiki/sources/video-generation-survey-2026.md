@@ -27,6 +27,7 @@ related:
   - sources/persona-ops-stack-2026.md
   - entities/models/openrouter-video.md
   - entities/uis/comfyui.md
+  - concepts/world-models-video-generation.md
   - sources/sana-wm-minute-scale-world-model.md
 maturity: validated
 read_status: deep-read

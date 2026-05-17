@@ -13,9 +13,10 @@ related:
   - concepts/persona-audio-stack.md
   - entities/models/sana-wm.md
   - sources/sana-wm-minute-scale-world-model.md
+  - concepts/world-models-video-generation.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 ## Relations
@@ -23,6 +24,7 @@ updated: 2026-05-16
 @sources/video-generation-survey-2026.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @concepts/seam-stitching-strategies.md @concepts/censorship-tier-taxonomy.md
 
 @concepts/persona-audio-stack.md
+@concepts/world-models-video-generation.md — LTX-2's high-compression video tokenizer is the codec layer SANA-WM uses for minute-scale single-GPU world modeling
 @entities/models/sana-wm.md — SANA-WM uses a high-compression LTX2 tokenizer as its video latent codec
 @sources/sana-wm-minute-scale-world-model.md
 ## Raw Concept

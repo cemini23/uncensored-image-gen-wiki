@@ -4,6 +4,51 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-05-17] deepen | Type-E close — world-models-video-generation.md expanded 97 → ~700 words
+
+Closed one of the two Type-E thin concept pages. The expansion synthesizes from @sources/sana-wm-minute-scale-world-model.md (deep-read) — the workspace's first ingested world-model paper — into a proper concept-page treatment.
+
+### Page touched (1) + backlinks updated (3)
+
+- `wiki/concepts/world-models-video-generation.md` — narrative grew from 1 paragraph to 5 sections: (1) **Working definition** with the three properties separating a world model from a clip generator (action conditioning, long-horizon-native training, scene-identity preservation under revisit); (2) **Distinction-from-clip-generators table** with 5 axes (control input, native horizon, output relation, re-entry consistency, deployment); (3) **Architectural commitments** — hybrid attention, dual-rate action conditioning, two-stage refinement, metric-scale pose annotation, high-compression video codec; (4) **2026 landscape** — SANA-WM open + LingBot-World / HY-WorldPlay industrial; (5) **Build-track relevance** for persona ops (interactive personas vs canned clips, single-GPU minute-scale feasibility at RTX 5090, persona consistency under revisit); (6) **Open horizon** (richer action signals, single-photo entry, recipe transferability). 3 new frontmatter `related:` entries (concepts/hybrid-linear-attention, sources/video-generation-survey-2026, entities/models/ltx-2) closing the bidirectional graph.
+
+### Bidirectional backlinks added (3)
+
+- `wiki/concepts/hybrid-linear-attention.md` — added world-models-video-generation.md as canonical use case
+- `wiki/entities/models/ltx-2.md` — added world-models-video-generation.md noting LTX-2's role as the SANA-WM codec layer
+- `wiki/sources/video-generation-survey-2026.md` — added world-models-video-generation.md as the adjacent page-family entry point
+
+### Lint / gap-detect state after deepen
+
+- 0 hard errors (bidirectional cleanly closed)
+- Type-E: 2 → **1** (only `concepts/2026-05-13_gracia-ai-volumetric-video.md` at 86 words remains; needs web research on gracia.ai itself rather than synthesis from already-loaded sources)
+
+### Decisions encoded
+
+- **World model is an axis, not a model class** — a clip generator can adopt camera or audio conditioning without becoming a world model; the *native* long-horizon + explorability commitments are what matter
+- **Hybrid attention is the canonical 2026 long-horizon recipe** — pure linear loses long-range recall; pure softmax is quadratic; periodic-softmax-interleaved-with-linear is the convergent solution
+- **Action conditioning needs dual-rate** — temporal VAE compression destroys sub-stride action signal; latent-rate + raw-frame conditioning is the canonical fix
+- **Build-track relevance is forward-looking** — interactive personas (DM-driven camera navigation of a persona-rendered scene) is the structurally-different use case vs. canned 5–10s clips; consumer-hardware feasibility starts arriving at RTX 5090
+
+---
+
+## [2026-05-17] backfill | ROADMAP.md synced with May 13–17 work
+
+ROADMAP was stale since May 11 — no W3/W4/W5 entries despite the audio-scope expansion (May 13), cross-wiki routing sweep (May 13–15), and lint-regression fix (May 17). Backfilled to match `wiki/log.md` authoritative timeline. Three new closed workstreams (W3 schema, W4 entities, W5 cross-wiki routing) + 4 new done-log entries (May 13 W3+W4 close-out, May 13–15 cross-wiki routing sweep, May 15 README six-wiki sync, May 17 lint CI fix). Backlog now surfaces the 4 currently-open follow-ups (33 stale Type-D tags, 2→1 Type-E thin pages, audio-pipeline runbook brief, W5 audio re-check).
+
+---
+
+## [2026-05-17] harden | wiki_lint.py strips YAML quotes (no more quote-reintroduction CI breaks)
+
+Closes the recurring CI bug at the source. Two changes in [`scripts/wiki_lint.py`](scripts/wiki_lint.py):
+
+1. **`parse_frontmatter()`**: new `strip_yaml_quotes()` helper strips a matching pair of surrounding `"..."` or `'...'` from every parsed value (related: list items, inline list items, scalars). Defensive against ingest pipelines that YAML-quote refs starting with `@` (a YAML reserved indicator).
+2. **`CROSS_WIKI_RE`** (section 8 body scan): character class tightened from `[^\s\`)]+` to `[^\s\`)"']+` so body-text quoted refs like `"@osint-wiki/foo.md"` no longer pull the trailing quote into the resolved path.
+
+Tested by re-quoting an `@osint-wiki` ref in `voicebox.md` and confirming lint stayed at 0 hard errors (then reverted the test edit). This bug class can no longer break CI from quote re-introduction alone — though authors should still write unquoted refs per workspace convention.
+
+---
+
 ## [2026-05-17] fix | Lint CI green — unquoted remaining YAML-quoted cross-wiki refs (round 2)
 
 Picked up where commit `0059ca7` left off (May 13). That commit unquoted 8 cross-wiki refs but 15 more snuck back into the graph during the K44/K45/SANA-WM/gracia.ai cross-wiki routing sweep (May 13–15). Lint baseline this session: **24 hard errors** (9 dangling internal + 15 cross-wiki dangling, all from the same root cause — YAML-quoted `@<alias>/...` refs in frontmatter that the regex-based `wiki_lint.py` parser doesn't strip).

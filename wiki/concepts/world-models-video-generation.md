@@ -2,24 +2,76 @@
 title: World Models for Video Generation
 type: concept
 tags: [concept, world-model, video-generation, interactive, action-controllable, world-simulator]
-keywords: [world model, world simulator, interactive video generation, action-controllable, camera-controllable, minute-scale, autoregressive rollout, explorable environment, LingBot-World, HY-WorldPlay]
+keywords: [world model, world simulator, interactive video generation, action-controllable, camera-controllable, minute-scale, autoregressive rollout, explorable environment, LingBot-World, HY-WorldPlay, scene identity preservation, dual-branch camera control, hybrid linear attention]
 related:
   - sources/sana-wm-minute-scale-world-model.md
   - entities/models/sana-wm.md
   - concepts/camera-controlled-video-generation.md
+  - concepts/hybrid-linear-attention.md
+  - sources/video-generation-survey-2026.md
+  - entities/models/ltx-2.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-05-17
 ---
 
 ## Relations
 
-@sources/sana-wm-minute-scale-world-model.md @entities/models/sana-wm.md @concepts/camera-controlled-video-generation.md
+@sources/sana-wm-minute-scale-world-model.md @entities/models/sana-wm.md @concepts/camera-controlled-video-generation.md @concepts/hybrid-linear-attention.md @sources/video-generation-survey-2026.md @entities/models/ltx-2.md
 
 ## Raw Concept
 
-Stub created during the cross-wiki ingest of NVIDIA's SANA-WM paper (@sources/sana-wm-minute-scale-world-model.md), routed from the OSINT workspace 2026-05-16. Anchors the distinction between *clip generators* (prompt-to-clip T2V/I2V) and *world models*.
+Stub created during the cross-wiki ingest of NVIDIA's SANA-WM paper (@sources/sana-wm-minute-scale-world-model.md), routed from the OSINT workspace 2026-05-16. Anchors the distinction between *clip generators* (prompt-to-clip T2V/I2V) and *world models* as the wiki gains its first ingested example of the latter.
 
 ## Narrative
 
-A **video world model** is an action-conditioned, explorable video generator: rather than mapping a text prompt to a fixed 5–10s clip, it takes a first frame plus an action signal (e.g. a 6-DoF camera trajectory) and synthesizes a long, controllable video that follows that action while preserving scene identity — an explorable environment, not a one-shot clip. SANA-WM is the workspace's first ingested example (2.6B params, one-minute 720p, single-GPU); industrial peers cited in that paper are LingBot-World and HY-WorldPlay. Distinct from the prompt-to-clip T2V/I2V models catalogued in the video-generation survey. → @entities/models/sana-wm.md
+### Working definition
+
+A **video world model** is an action-conditioned, scene-identity-preserving video generator trained natively at long horizons. Three properties separate it from a clip generator:
+
+1. **Action conditioning over prompt conditioning.** The control surface is an explicit action signal — a 6-DoF camera trajectory in the SANA-WM case — rather than (or alongside) a text prompt. The output *follows* the action.
+2. **Long-horizon native training, not extrapolation.** A clip model trained on 5–10s windows produces structural artifacts past native context length; a world model is trained directly at the long horizon (minute-scale in SANA-WM) so the long context is the native regime, not an extrapolation.
+3. **Scene-identity preservation under action.** Re-visiting the same point in the scene under a returning camera trajectory should yield a consistent appearance — the world is *explorable*, not a one-shot animation. SANA-WM's benchmark explicitly tests "revisit trajectories" for this reason.
+
+### Distinction from T2V/I2V clip generators
+
+The 2026 prompt-to-clip landscape catalogued in @sources/video-generation-survey-2026.md — Wan 2.2, HunyuanVideo 1.5, LTX-2, Mochi 1, CogVideoX 1.5/2.0, Seedance 2.0 — sits on a different axis:
+
+| Axis | Clip generator (T2V/I2V) | World model |
+|---|---|---|
+| Control input | Text prompt (+ optional first frame) | Action signal (camera trajectory, etc.) + first frame |
+| Native horizon | 5–10s | minute-scale and up |
+| Output relation to input | Mapping (prompt → fixed clip) | Rollout (first frame + action → controllable trajectory) |
+| Re-entry consistency | Not a requirement | Required (explorable environment) |
+| Typical deployment | Offline render | Streaming / autoregressive / interactive |
+
+A clip generator that accepts an audio or camera signal as auxiliary conditioning is not automatically a world model — the *native* horizon and the explorability commitment are what matter.
+
+### Architectural commitments
+
+To hit those properties at a tractable cost, 2026 world models converge on a recognizable stack (well-instantiated in SANA-WM):
+
+- **Hybrid attention** — pure full-attention is quadratic in the long horizon; pure linear attention loses exact long-range recall. The current solution is to interleave linear (e.g. Gated DeltaNet) blocks with periodic softmax-attention layers. → @concepts/hybrid-linear-attention.md
+- **Dual-rate action conditioning** — temporal VAE compression collapses many raw frames into one latent token, which destroys fine action signal within each stride. A latent-rate branch (e.g. UCPE) for global trajectory + a raw-frame branch (e.g. Plücker mixing) for sub-stride detail is the canonical fix. → @concepts/camera-controlled-video-generation.md
+- **Two-stage refinement** — a coherent long draft from stage 1, then a dedicated long-video refiner to sharpen detail and correct structural artifacts across the full horizon.
+- **Metric-scale pose annotation** — action conditioning needs the action signal in consistent real-world units (metric-scale 6-DoF), not arbitrary scale. The annotation pipeline becomes a first-class component of the model.
+- **High-compression video codec** — minute-scale at 720p only stays single-GPU if the per-frame token count is aggressively compressed (e.g. SANA-WM uses the LTX-2 tokenizer → @entities/models/ltx-2.md).
+
+### 2026 landscape
+
+- **SANA-WM** (NVIDIA, May 2026) — workspace's first ingested example. 2.6B params, native one-minute 720p, single-GPU bidirectional / chunk-causal AR / distilled-AR variants; distilled variant runs 60s/720p in 34s on a single RTX 5090 with NVFP4. Open-source. → @entities/models/sana-wm.md
+- **LingBot-World** and **HY-WorldPlay** — industrial closed-source baselines cited by SANA-WM as the visual-quality reference; both predate SANA-WM's efficiency story.
+
+### Build-track relevance
+
+For the persona/character track, world models are a **research-layer reference, not yet a build-track tool**. The relevance is forward-looking:
+
+- **Interactive personas vs canned clips** — a world model lets a persona's environment be navigated in real time (DM-driven camera control over a persona-rendered scene), which is qualitatively different from delivering a pre-rendered 5–10s clip from a prompt.
+- **Single-GPU minute-scale at 720p (RTX 5090)** is the first concrete demonstration that consumer-hardware interactive video personas are feasible in 2026, not just 2027–2028.
+- **Persona consistency under camera revisit** is structurally the same problem as identity-preservation across re-entries to a scene — the consistency primitives developed in @concepts/persona-consistency-methods.md (PuLID, IP-Adapter, multi-angle LoRA) may inherit naturally, but the verification is in latent-3D / world-state space rather than image space.
+
+### Open horizon
+
+- Whether the camera-trajectory control surface generalizes to richer action signals (object placement, character action, dialogue-driven scene mutation) without rebuilding the model from scratch
+- Single-photo / sparse-input entry — SANA-WM still needs a first frame; whether the first frame can come from a one-shot persona render (FLUX.1 / Z-Image) and survive minute-scale rollout
+- Whether the hybrid-attention + dual-branch-conditioning recipe transfers to non-camera action signals or has to be redesigned per control surface
