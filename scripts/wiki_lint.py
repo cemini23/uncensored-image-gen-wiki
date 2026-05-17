@@ -90,6 +90,16 @@ RELATED_LIST_RE = re.compile(r"^related:\s*\n((?:\s+-\s+.+\n?)*)", re.MULTILINE)
 RELATED_INLINE_RE = re.compile(r"^related:\s*\[([^\]]*)\]", re.MULTILINE)
 SCALAR_RE = lambda key: re.compile(rf"^{key}:\s*(.+?)\s*$", re.MULTILINE)
 
+def strip_yaml_quotes(s):
+    """Strip a single matching pair of surrounding YAML quotes (`"..."` or `'...'`).
+    Defensive against the recurring failure mode where YAML-quoted cross-wiki refs
+    like `"@osint-wiki/foo.md"` break path normalization because the literal quote
+    characters get baked into the parsed value. See commits 0059ca7 + 37c81a4."""
+    s = s.strip()
+    if len(s) >= 2 and s[0] == s[-1] and s[0] in ('"', "'"):
+        return s[1:-1]
+    return s
+
 def parse_frontmatter(text):
     m = FRONTMATTER_RE.match(text)
     if not m:
@@ -103,20 +113,20 @@ def parse_frontmatter(text):
         for line in rl.group(1).splitlines():
             s = line.strip()
             if s.startswith("- "):
-                items.append(s[2:].strip())
+                items.append(strip_yaml_quotes(s[2:]))
         out["related"] = items
     else:
         # try inline form: related: [a, b, c]
         ri = RELATED_INLINE_RE.search(fm_text)
         if ri:
-            out["related"] = [s.strip() for s in ri.group(1).split(",") if s.strip()]
+            out["related"] = [strip_yaml_quotes(s) for s in ri.group(1).split(",") if s.strip()]
         else:
             out["related"] = []
     # scalars
     for key in ("type", "maturity", "title", "created", "updated", "read_status"):
         m2 = SCALAR_RE(key).search(fm_text)
         if m2:
-            out[key] = m2.group(1).strip()
+            out[key] = strip_yaml_quotes(m2.group(1))
     return out
 
 def normalize_path(p):
@@ -222,7 +232,7 @@ for src, fm in pages.items():
 # -- 8: cross-wiki @wiki-alias/path links ---------------------------
 # Check @wiki-alias/path/to/page.md references to other wikis.
 
-CROSS_WIKI_RE = re.compile(r"@([a-z0-9_-]+)/([^\s`)]+)")
+CROSS_WIKI_RE = re.compile(r"@([a-z0-9_-]+)/([^\s`)\"']+)")
 
 cross_wiki_dangling = []  # (src, alias, rel_path, target_path)
 cross_wiki_ok = 0
