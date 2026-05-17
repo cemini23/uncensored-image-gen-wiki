@@ -29,6 +29,18 @@ The workspace was previously LIGHT mode (notes/ + briefs/ only). Upgraded to HEA
 
 **Status:** ✅ closed 2026-05-10 — drop-all decision. None of the 9 PDFs align with the build-track (uncensored local image-gen / persona ops).
 
+### W3 — Voice/audio scope expansion (schema layer)
+
+**Status:** ✅ closed 2026-05-13 — CLAUDE.md schema patched to include voice/TTS, lipsync, music-gen, and SFX/foley alongside image+video. Folder layout updated (`entities/voice-models/`, `entities/lipsync/`, `entities/music-models/`, `entities/sfx-models/`). Page-type quick reference + Related Wikis table + Distribution rules + Phase-0 audit pattern all updated. Workspace dir name + alias retained for backwards-compatibility.
+
+### W4 — Voice/audio entity backfill
+
+**Status:** ✅ closed 2026-05-13 — three-tier sweep complete. **T1** (7 canonical models): Fish-Speech S2 Pro / CosyVoice2 / Kokoro / LatentSync / MuseTalk / ACE-Step / Stable Audio Open. **T2** (9 secondary): IndexTTS-2, Qwen3-TTS, F5-TTS, Chatterbox, MaskGCT, Wav2Lip, SadTalker, AudioLDM, Tango-2. **T3** (8 deferred): XTTS-v2, Dia, Bark, ElevenLabs (reference), LivePortrait, Suno (cloud), Udio (cloud), Audio-Omni (research-future). 24 audio entity pages total. Decision matrix covers real-time vs batch, single-image vs source-video, NSFW-friendly vs SFW-only, local vs cloud, MIT vs CC-BY-NC vs ToS-restricted.
+
+### W5 — Cross-wiki routing sweep (May 13–15)
+
+**Status:** ✅ closed 2026-05-15 (work) / 2026-05-17 (lint follow-through). K40/K44/K45 cross-routes from `@osint-wiki` brought in stubs for tool entities (awesome-design-md, czkawka, how-to-train-your-gpt, ai-infra-guard, omnivoice, voicebox, open-generative-ai); SANA-WM minute-scale world-model ingest; gracia.ai volumetric-video cross-wiki stub. README expanded to six-wiki constellation. **Lint regression**: YAML-quoted cross-wiki refs broke `wiki_lint.py` parser again (24 hard errors). Fixed 2026-05-17 in two commits — content fix (`37c81a4`, unquote 15 refs) + linter hardening (`7ce5bff`, strip quotes in parser + tighten `CROSS_WIKI_RE` body-scan regex). CI green at 0 hard errors.
+
 Per-item verdicts:
 - 3 geology / remote-sensing (Pix2Geomodel, Reservoir, Sentinel2Cap) — **drop**, off-domain
 - 1 biomedical organoid segmentation — **drop**, SAM/Grounding-DINO trace only; SAM already covered
@@ -53,6 +65,10 @@ Per-item verdicts:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-05-17 | Lint CI green — quote-reintroduction bug fixed at the source | Two commits. (1) `37c81a4` unquoted 15 cross-wiki refs across 9 wiki pages — same root cause as commit `0059ca7` (May 13) but the bug re-introduced itself via the K44/K45/SANA-WM/gracia.ai routing sweep that followed. Affected 10 `@osint-wiki/...` refs (targets verified present) + 5 `@seo-wiki/...` refs (alias known, dir absent on this laptop → linter correctly skips after unquote). (2) `7ce5bff` hardened `scripts/wiki_lint.py` — `parse_frontmatter()` now strips surrounding YAML quotes from all parsed values, and `CROSS_WIKI_RE` excludes `"` and `'` from the path character class so body-text quoted refs resolve cleanly. Tested by re-quoting one ref and confirming lint stayed at 0 hard errors. This bug class can no longer break CI from quote re-introduction alone. |
+| 2026-05-15 | README expanded to six-wiki constellation | Companion to CLAUDE.md schema expansion. README now lists all six sibling wikis (osint, image-gen, seo, 3d-printing, cybersecurity, plus image-gen voice/audio-expanded scope) with cross-link syntax + conductor/librarian query pathway. Public-repo doc now matches internal schema. |
+| 2026-05-13 to 2026-05-15 | Cross-wiki routing sweep — K40/K44/K45/SANA-WM/gracia.ai | 8 stub pages created via cross-wiki routes from `@osint-wiki`: K44 (2 tool stubs — czkawka, how-to-train-your-gpt), K45 (3 tool stubs — multi-wiki tool eval v3), SANA-WM (minute-scale video world model from OSINT), gracia.ai (volumetric-video cross-wiki stub from headsup-3d-gaussian-head source). All cross-routed pages use `cross-wiki-source:` frontmatter convention. Bidirectional backlinks added per CLAUDE.md cross-link rules. Side effect: 15 new YAML-quoted cross-wiki refs sneaked in, broke CI lint (fixed 2026-05-17 — see entry above). |
+| 2026-05-13 | W3 + W4 close-out — voice/audio scope expansion + 24 audio entity pages | **W3 (schema)**: CLAUDE.md patched in 7 edits to expand workspace from image+video to image+video+voice/audio. Folder layout grew 4 new subtrees (`entities/voice-models/`, `entities/lipsync/`, `entities/music-models/`, `entities/sfx-models/`), Page-type quick reference + Distribution rules + Phase-0 audit pattern all updated, workspace dir name + alias retained for backwards-compat. **W4 (entities)**: three-tier audio backfill — T1 7 canonical (Fish-Speech S2 Pro, CosyVoice2, Kokoro, LatentSync, MuseTalk, ACE-Step, Stable Audio Open) + T2 9 secondary (IndexTTS-2, Qwen3-TTS, F5-TTS, Chatterbox, MaskGCT, Wav2Lip, SadTalker, AudioLDM, Tango-2) + T3 8 deferred (XTTS-v2, Dia, Bark, ElevenLabs, LivePortrait, Suno, Udio, Audio-Omni) = 24 audio entity pages with full bidirectional cross-linking. Decision matrix now covers operator constraints across real-time vs batch, single-image vs source-video, NSFW-friendly vs SFW-only, local vs cloud, MIT vs CC-BY-NC vs ToS-restricted. **Persona-audio-stack hub** densified with 40+ new edges. Build-track audio production pipeline (Fish-Speech voice → LatentSync mouth → ACE-Step music → Stable Audio Open foley → FFmpeg mux) now fully discoverable from any entry point. |
 | 2026-05-11 | W1 close-out — 4 low-priority follow-ups cleared in one sweep | (1) Shipped `prompts/github-repo-eval.md` (image-gen Phase-0 audit prompt with weights-vs-code license splits, Stability/BFL/research-only red flags, 13 domain-fit slots, MPS compatibility checks). (2) Deepened `concepts/persona-ops-workflow.md` — added Phase Timing & Sequencing table (3-7 / 30-60 / 30-45 / 7-14 days, total 60-90 day time-to-launch), timeline traps (skipping Phase II GEO, over-investing Phase III, Fanvue KYC 5-10d), densified cross-links across 6 new related entries + 7 backlinks. (3) Notes migration — verified `models-catalog.md` (17 models all covered) + `hardware-optimization.md` (covered by gpu-guide + mac-studio) + `frameworks-tools.md` (only 2 genuine gaps: created `custom-nodes/impact-pack.md` + `custom-nodes/bmab.md` with face/hand detection + Grounding-DINO limb repair; pair-pattern documented); `notes/` directory deleted; 7 wiki pages backlinked to new custom-node pages. (4) 5-briefs back-fill confirmed no-op — all docx sources already ingested in Path A steps 1+2+3+6. **W1 HEAVY-mode upgrade end-to-end complete.** |
 | 2026-05-06 | HEAVY-mode upgrade scaffolded | Brings image-gen workspace up to the same wiki/scripts/prompts standard as 3D-printing and OSINT workspaces; enables structured ingest of the growing source corpus |
 | 2026-05-06 | Lint + preingest scripts ported | `wiki_lint.py` / `wiki_gap_detect.py` / `preingest_check.py` from the 3D-printing workspace (originally OSINT). Domain-agnostic; ready to run on first ingest |
@@ -79,9 +95,14 @@ Per-item verdicts:
 
 **Higher priority:**
 
-- (none — W1 back-fill end-to-end complete; W2 closed)
+- (none — W1/W2/W3/W4/W5 all closed)
 
 **Lower priority:**
+
+- **33 stale `[NEEDS VERIFICATION 2026-05-06/07]` tags** — Type-D gap-detect findings from `wiki_gap_detect.py`. Batch-resolvable via Exa queries (one round of focused web search per claim cluster). Lowest-velocity item; touches model entity pages whose stubs predate the latest verification sweeps.
+- **2 thin Type-E concept pages** — `concepts/2026-05-13_gracia-ai-volumetric-video.md` (86 narrative words; source `sources/headsup-3d-gaussian-head.md` already loaded) + `concepts/world-models-video-generation.md` (97 words; sources `sources/sana-wm-minute-scale-world-model.md` + `entities/models/sana-wm.md` already loaded). Both can be deepened without external research.
+- **Author audio-pipeline runbook brief** — `briefs/2026-05-??_audio-pipeline-runbook.md` synthesizing Fish-Speech + LatentSync + ACE-Step + Stable Audio Open + n8n + FFmpeg into an end-to-end persona-audio playbook. Audio stack is documented but no integration brief exists (parallel to 2026-05-07 persona-end-to-end-runbook brief for the image+video stack).
+- **W5 audio re-check** — confirm no audio URLs missed in 2026-05-09–13 source pages (`sources/headsup-3d-gaussian-head.md`, K40/K44/K45 routes). Deferred from W4 closeout 2026-05-13.
 
 - ~~Migrate `notes/models-catalog.md`~~ — ✅ done 2026-05-11 (all 17 models already had wiki pages; verified + deleted)
 - ~~Migrate `notes/frameworks-tools.md`~~ — ✅ done 2026-05-11 (covered by `comfyui.md` + custom-node pages; gap: Impact-Pack + BMAB pages created)
