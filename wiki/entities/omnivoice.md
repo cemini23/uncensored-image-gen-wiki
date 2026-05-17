@@ -9,7 +9,7 @@ related:
 maturity: draft
 created: 2026-05-15
 updated: 2026-05-15
-cross-wiki-source: "@osint-wiki/entities/tools/omnivoice.md"
+cross-wiki-source: @osint-wiki/entities/tools/omnivoice.md
 ---
 
 # OmniVoice — Zero-Shot Voice Cloning for 600+ Languages

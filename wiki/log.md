@@ -4,6 +4,42 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-05-17] fix | Lint CI green — unquoted remaining YAML-quoted cross-wiki refs (round 2)
+
+Picked up where commit `0059ca7` left off (May 13). That commit unquoted 8 cross-wiki refs but 15 more snuck back into the graph during the K44/K45/SANA-WM/gracia.ai cross-wiki routing sweep (May 13–15). Lint baseline this session: **24 hard errors** (9 dangling internal + 15 cross-wiki dangling, all from the same root cause — YAML-quoted `@<alias>/...` refs in frontmatter that the regex-based `wiki_lint.py` parser doesn't strip).
+
+### Root cause (confirmed in [`scripts/wiki_lint.py`](scripts/wiki_lint.py))
+
+`parse_frontmatter()` is regex-based (no PyYAML dep). For `related:` list items it appends `s[2:].strip()` literally — quotes are kept inside the string. Then `is_cross_wiki_path_exists()` checks for `startswith(@<alias>/)` — but the value starts with `"@`, so the prefix doesn't match. Result: `cross_wiki_path` returns `None` → "local path, not found" → dangling.
+
+Fix is to remove quotes entirely. Single-quotes don't help; only bare YAML scalars work.
+
+### Files touched (9)
+
+- `wiki/concepts/2026-05-13_gracia-ai-volumetric-video.md` — `cross-wiki-source:` unquoted
+- `wiki/concepts/marketing-your-persona.md` — 5 `@seo-wiki/...` refs unquoted in `related:` (SEO wiki dir absent on this laptop → alias known but unresolvable → lint correctly skips)
+- `wiki/entities/custom-nodes/ai-infra-guard.md` — `cross-wiki-source:` unquoted
+- `wiki/entities/omnivoice.md` — `cross-wiki-source:` unquoted
+- `wiki/entities/open-generative-ai.md` — `cross-wiki-source:` unquoted
+- `wiki/entities/persona-ops/awesome-design-md.md` — 2 `@osint-wiki/...` refs unquoted in `related:`
+- `wiki/entities/training-tools/czkawka.md` — `cross-wiki-source:` unquoted
+- `wiki/entities/training-tools/how-to-train-your-gpt.md` — 2 `@osint-wiki/...` refs unquoted in `related:`
+- `wiki/entities/voicebox.md` — `cross-wiki-source:` unquoted
+
+### Lint state
+
+- Before: 24 hard errors (9 dangling related: + 15 cross-wiki dangling)
+- After: **0 hard errors**, all 70 cross-wiki references resolve correctly
+- All 10 `@osint-wiki/...` targets verified present on this laptop
+- 5 `@seo-wiki/...` targets correctly skipped (alias known via CLAUDE.md `Related Wikis` table, but `../SEO:GEO B&M Business/wiki/` directory absent on this laptop)
+
+### Notes / open
+
+- `wiki_lint.py` should probably strip surrounding quotes from parsed frontmatter values to harden against future re-introductions. Not done here — left as a follow-up improvement to the linter rather than a content fix
+- 33 stale `[NEEDS VERIFICATION 2026-05-06/07]` tags (type-D) and 2 thin concept pages (type-E: `gracia-ai-volumetric-video.md` 86 words, `world-models-video-generation.md` 97 words) remain open as gap-detect findings; not blocking commits
+
+---
+
 ## [2026-05-13] expand | Voice/audio W4 Tier 3 — 4 deferred entity pages (LivePortrait, Suno, Udio, Audio-Omni)
 
 Closed out the W4 Tier 3 backfill — the deferred slate of secondary/cloud/research-future audio entities. Tier 3 covers (a) the **premium single-image lipsync** sibling (LivePortrait) that complements SadTalker, (b) the **closed-cloud music-gen** tier (Suno + Udio) for decision-matrix completeness alongside local ACE-Step / MusicGen, and (c) the **research-future** unified-audio horizon entry (Audio-Omni) for trajectory tracking. The earlier four T3 voice-model pages (XTTS-v2, Dia, Bark, ElevenLabs) were completed in the W4-T2 closeout session and indexed here for the first time.

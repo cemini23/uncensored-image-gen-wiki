@@ -4,8 +4,8 @@ type: entity
 tags: [persona-ops, ui-styling, design-system, llm-consumed-ui, mit, adopt]
 keywords: [awesome-design-md, voltagent, design.md, llm ui styling, mit, persona surface design]
 related:
-  - "@osint-wiki/entities/tools/awesome-design-md.md"
-  - "@osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md"
+  - @osint-wiki/entities/tools/awesome-design-md.md
+  - @osint-wiki/sources/evaluating-project-links-systems-2-2026-05-12.md
   - concepts/marketing-your-persona.md
 maturity: draft
 created: 2026-05-12

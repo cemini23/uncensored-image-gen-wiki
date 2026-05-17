@@ -10,7 +10,7 @@ related:
 maturity: steal-from-doc-level-pending-phase-0
 created: 2026-05-14
 updated: 2026-05-15
-cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
+cross-wiki-source: @osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md
 ---
 
 ## Relations

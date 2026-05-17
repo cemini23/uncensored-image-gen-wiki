@@ -4,8 +4,8 @@ type: entity
 tags: [training-tools, fine-tuning, tutorial, mit, reference]
 keywords: [how-to-train-your-gpt, fine-tuning tutorial, gpt training, mit]
 related:
-  - "@osint-wiki/entities/tools/how-to-train-your-gpt.md"
-  - "@osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md"
+  - @osint-wiki/entities/tools/how-to-train-your-gpt.md
+  - @osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md
   - concepts/lora-taxonomy.md
 maturity: draft
 created: 2026-05-12

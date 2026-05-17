@@ -15,11 +15,11 @@ related:
   - entities/personas/aitana-lopez.md
   - sources/persona-ops-stack-2026.md
   - sources/persona-monetization-2026.md
-  - "@seo-wiki/concepts/first-90-days-playbook.md"
-  - "@seo-wiki/concepts/generative-engine-optimization.md"
-  - "@seo-wiki/concepts/content-strategy-local.md"
-  - "@seo-wiki/entities/platforms/instagram.md"
-  - "@seo-wiki/entities/platforms/tiktok.md"
+  - @seo-wiki/concepts/first-90-days-playbook.md
+  - @seo-wiki/concepts/generative-engine-optimization.md
+  - @seo-wiki/concepts/content-strategy-local.md
+  - @seo-wiki/entities/platforms/instagram.md
+  - @seo-wiki/entities/platforms/tiktok.md
   - entities/models/openrouter-video.md
   - entities/persona-ops/awesome-design-md.md
 maturity: validated
