@@ -4,6 +4,26 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-05-19] brief | Audio-pipeline runbook shipped + W5 audio re-check closed
+
+Closed the two longest-deferred audio follow-ups in one session (both deferred from the W4 audio scope expansion, 2026-05-13).
+
+### W5 audio re-check — closed clean (no pages changed)
+
+Re-scanned the May 9–13 window for missed audio URLs. Finding: `wiki/sources/` has **zero source pages** created in that window — the index jumps from `2026-05-08` directly to `2026-05-16`. The May 9–13 audio content is the `concepts/persona-audio-stack.md` concept page (May 9) + 24 audio entity pages (May 13), not source pages. Scanned the upstream May 7–8 source pages (`persona-ops-stack-2026.md` + 6 others) for audio-tool mentions: Coqui/XTTS, Dia, ElevenLabs, F5-TTS, Fish-Speech, MaskGCT, Qwen3-TTS, Udio — **all already have entity pages**. No missed audio URLs; no source page warranted. Re-check verdict: clean.
+
+### Brief shipped (1 deliverable)
+
+- `briefs/2026-05-19_audio-pipeline-runbook.md` — end-to-end persona-audio playbook. Synthesizes `concepts/persona-audio-stack.md` (four-layer architecture) + the 24 audio entity pages into an executable runbook the concept page deliberately stops short of: (1) ordered install+run sequence for the canonical four-model stack (Fish-Speech S2 Pro → LatentSync 1.6 → ACE-Step 1.5 → Stable Audio Open 1.0), each in its own venv to avoid `transformers`/`torch` pin conflicts; (2) exact FFmpeg multi-track mux commands for all four delivery paths (DM voice note / talking-head Reel / music-only clip / full scene 3-track mix), with `amix` weight guidance; (3) n8n orchestration skeleton wiring the parallel→join chain; (4) per-stage VRAM budget table — full stack fits one RunPod 4090 if run sequentially; Apple Silicon path is voice+music+foley local with **lipsync cloud-burst required** (LatentSync is CUDA-only). `type: brief`, `## Target` ComfyUI/local-app+n8n, draft maturity. Parallels the 2026-05-07 persona-end-to-end-runbook brief for the image+video stack.
+
+### Pages touched (1 brief + 2 meta)
+
+- `briefs/2026-05-19_audio-pipeline-runbook.md` — created (gitignored; not in lint graph)
+- `ROADMAP.md` — done-log row added; backlog audio-pipeline + W5 + Type-E items struck through; Type-D count corrected 33 → 35
+- `wiki/log.md` — this entry
+
+No `wiki/` content pages changed → lint graph unaffected (still 0 hard errors).
+
 ## [2026-05-17] deepen | Type-E close — gracia-ai-volumetric-video.md expanded 86 → ~700 words
 
 Closed the final Type-E thin concept page. Original stub was a 1-line cross-route from the OSINT 14-repo eval (verdict REFERENCE-ONLY); web research on gracia.ai (homepage + TechFundingNews funding coverage) converted it into a landscape page with explicit build-track-fit analysis.
