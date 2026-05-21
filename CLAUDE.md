@@ -184,7 +184,7 @@ The OSINT workspace includes a **conductor** (MCP server that routes queries) + 
 3. Read the source (or relevant sections for long PDFs / repo READMEs / model cards)
 4. **Discuss key takeaways with the user before writing**
 4b. **Cross-wiki routing check** — before writing pages, evaluate whether the source contains off-topic content more relevant to another wiki (@osint-wiki, @seo-wiki, or @3d-printing-wiki). If so:
-   - Call `python3 "/Users/claudiobarone/Desktop/OSINT WORKSPACE/scripts/cross_wiki_route.py"` to create a stub page or brief in the correct wiki, piping content via stdin
+   - Call `python3 "../../OSINT WORKSPACE/scripts/cross_wiki_route.py"` (from this repo) to create a stub page or brief in the correct wiki, piping content via stdin — requires the private `osint-wiki` checkout as a sibling directory
    - Use `--type page` for substantive material, `--type brief` for tangential material
    - **When in doubt, prefer a brief over a stub** — briefs are cheaper and don't create maintenance burden in the target wiki
 5. Create `wiki/sources/<slug>.md` — frontmatter + Raw Concept + short Narrative

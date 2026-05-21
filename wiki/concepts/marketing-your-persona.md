@@ -43,7 +43,7 @@ updated: 2026-05-15
 
 ## Raw Concept
 
-This page bridges the image-generation wiki to the **SEO / GEO / B&M Business wiki** (`~/Desktop/projects/SEO:GEO B&M Business/`), which contains canonical marketing knowledge applicable to persona monetization. The SEO/GEO wiki was built for brick-and-mortar businesses (barbershop running example), but its SEO, social-media, content-strategy, and Generative Engine Optimization (GEO) pages directly apply to promoting an AI persona and its image-generation output.
+This page bridges the image-generation wiki to **`@seo-wiki`** (SEO / GEO / B&M Business wiki), which contains canonical marketing knowledge applicable to persona monetization. The SEO/GEO wiki was built for brick-and-mortar businesses (barbershop running example), but its SEO, social-media, content-strategy, and Generative Engine Optimization (GEO) pages directly apply to promoting an AI persona and its image-generation output.
 
 ## Narrative
 
@@ -61,7 +61,7 @@ The image-gen wiki covers *what to generate and how to build a persona*. The SEO
 | **Competitor analysis** | Not covered | `@seo-wiki/concepts/competitor-analysis-local.md` — methodology for capturing competitors' strategies |
 | **Schema markup** | Not covered | `@seo-wiki/concepts/schema-markup-local.md` — JSON-LD for getting rich results |
 
-The SEO/GEO wiki lives at `~/Desktop/projects/SEO:GEO B&M Business/`. All paths below are relative to that repo's `wiki/` directory.
+Use `@seo-wiki/...` cross-links below (public repo: `cemini23/SEO-GEO-B-M-Wiki`).
 
 ### Quick-start: what your friend should read first
 
@@ -105,7 +105,7 @@ The SEO/GEO wiki's tool pages that transfer directly:
 
 The SEO/GEO wiki lives in a separate repo. Your friend should:
 
-1. Open a second Claude Code session pointed at `~/Desktop/projects/SEO:GEO B&M Business/`
+1. Open a second session on the `seo-wiki` repository (sibling checkout in your federation layout)
 2. Ask: "Read `wiki/concepts/first-90-days-playbook.md` and adapt it for an AI persona in the [fitness/gaming/art/etc.] niche"
 3. The SEO/GEO wiki has its own CLAUDE.md schema — Claude Code will follow it
 
@@ -130,4 +130,4 @@ Alternatively, you (the workspace owner) can ingest SEO/GEO wiki pages into this
 6. @seo-wiki/entities/platforms/tiktok.md           — TikTok mechanics
 ```
 
-All paths relative to `~/Desktop/projects/SEO:GEO B&M Business/wiki/`.
+All paths are `@seo-wiki/...` aliases (see `CLAUDE.md` → Related Wikis in either wiki).
