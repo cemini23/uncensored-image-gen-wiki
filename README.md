@@ -97,19 +97,21 @@ Body sections: `## Relations` (mirrors `related:`), `## Raw Concept` (provenance
 
 Pages link via `@path/to/page.md` syntax (relative to `wiki/`). If page A lists B in `related:`, B must list A. The lint script (`scripts/wiki_lint.py`) enforces this.
 
-### Cross-wiki links
+### Cemini wiki federation
 
-This wiki is one of **six** interconnected Cemini knowledge wikis, linked via `@wiki-alias/path/to/page.md` syntax:
+**Six** wikis + private **Cemini Financial Suite**. Cross-links: `@wiki-alias/path/to/page.md` (`CLAUDE.md` → Related Wikis).
 
-| Alias | Wiki | Purpose | Public? |
-|---|---|---|---|
-| `@seo-wiki` | SEO / GEO / B&M Business | Marketing, social media, content strategy, GEO | public |
-| `@osint-wiki` | OSINT Workspace | Financial research, conductor/librarian service | **private** |
-| `@3d-printing-wiki` | 3D Printing | FDM/FFF printing, Bambu, materials, slicers, print farms | public |
-| `@cybersecurity-wiki` | Cybersecurity | Offensive / defensive security; shared territory: deepfakes + adversarial-image attacks | public |
-| `@ccc-wiki` | Cemini Claude Code (CCC) | Claude Code workflow, subagents, MCP/conductor meta-wiki | **private** |
+| Alias | Repository | Visibility | Focus |
+|-------|------------|------------|--------|
+| **`image-gen-wiki`** | **This repo** ([uncensored-image-gen-wiki](https://github.com/cemini23/uncensored-image-gen-wiki)) | **Public** | Image / video / voice / persona ops |
+| `ccc-wiki` | [cemini-claude-code-CCC](https://github.com/cemini23/cemini-claude-code-CCC) | **Public** | Cursor / Claude Code workflow, MCP, eval prompts |
+| `seo-wiki` | [SEO-GEO-B-M-Wiki](https://github.com/cemini23/SEO-GEO-B-M-Wiki) | Public | Local SEO, GEO/AEO, creator marketing |
+| `3d-printing-wiki` | [3D-Printing-Wiki](https://github.com/cemini23/3D-Printing-Wiki) | Public | FDM/FFF, Bambu, slicers |
+| `cybersecurity-wiki` | [Cybersecurity-wiki](https://github.com/cemini23/Cybersecurity-wiki) | Public | Pentest, SOC; deepfake / adversarial-image overlap |
+| `osint-wiki` | `llm-wiki-by-cemini` *(private)* | **Private** | Financial research; conductor / librarian |
+| *Cemini Financial Suite* | `Cemini-Financial-Suite` *(private)* | **Private** | Trading stack (not a wiki) |
 
-The **OSINT and CCC wikis are private repositories** — they are not publicly available, and cross-wiki links into them resolve only inside the Cemini workspace, not on public GitHub. The lint script validates cross-wiki references against the target wiki's filesystem.
+**Privacy:** **`ccc-wiki` is public.** **`osint-wiki`** and **Cemini Financial Suite** are private — lint validates `@osint-wiki/...` only when that repo is present locally.
 
 ## Operations
 
@@ -141,7 +143,7 @@ python3 scripts/wiki_gap_detect.py  # unread stubs, stale verification tags, thi
 ## Getting started
 
 ```bash
-git clone https://github.com/<your-username>/uncensored-image-gen-wiki.git
+git clone https://github.com/cemini23/uncensored-image-gen-wiki.git
 cd uncensored-image-gen-wiki
 
 # Optional: set up API keys for MCP-driven research tools
