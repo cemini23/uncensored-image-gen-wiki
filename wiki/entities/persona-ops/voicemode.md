@@ -4,8 +4,6 @@ type: entity
 tags: [persona-ops, voice, mcp, whisper, kokoro, claude-code, m-series-mac, core-ml]
 keywords: [voicemode, mbailey, whisper.cpp, kokoro tts, core ml, m-series, bidirectional voice, mcp-native]
 related:
-  - @osint-wiki/entities/tools/voicemode.md
-  - @osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md
   - entities/persona-ops/fish-speech.md
   - entities/voice-models/kokoro.md
 maturity: draft

@@ -11,7 +11,7 @@ related:
 maturity: draft
 created: 2026-05-21
 updated: 2026-05-21
-cross-wiki-source: @osint-wiki/sources/multi-wiki-tool-eval-26url-2026-05-19.md
+cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-26url-2026-05-19.md"
 provenance:
   stub: true
   ingested_from:

@@ -4,8 +4,6 @@ type: entity
 tags: [persona-ops, tts, voice-cloning, financial-speech, openrail-m, dual-license]
 keywords: [supertonic, financial tts, openrail-m, persona voice, mit code openrail weights]
 related:
-  - @osint-wiki/entities/tools/supertonic.md
-  - @osint-wiki/sources/evaluating-github-repos-trading-stack-2026-05-12.md
   - entities/persona-ops/fish-speech.md
 maturity: draft
 created: 2026-05-12

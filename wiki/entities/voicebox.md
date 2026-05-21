@@ -9,7 +9,7 @@ related:
 maturity: draft
 created: 2026-05-14
 updated: 2026-05-15
-cross-wiki-source: @osint-wiki/entities/tools/voicebox.md
+cross-wiki-source: "@osint-wiki/entities/tools/voicebox.md"
 ---
 
 # voicebox — Local-First AI Voice Studio
