@@ -58,6 +58,14 @@ Synthesized from @sources/persona-monetization-2026.md.
 
 [Source: AI Personas_ Monetization, Ethics, Law.docx Section 1, retrieved 2026-05-06]
 
+#### Tier 1 case study detail
+
+**Aitana Lopez (The Clueless Agency, Barcelona).** Launched July 2023 by Rubén Cruz and Diana Núñez. Originally presented as a 25-year-old fitness model; ~392K Instagram followers by April 2026. Earnings: ~€3K/mo average, peaking at ~€10K in good months, per direct interview with Cruz (Euronews, Dec 2024; Forbes, Nov 2023; Business Insider, Nov 2023). Brand partners: Big (supplements), Razer, Amazon Spain, Freepik, Llongueras (Vogue Business, Apr 2026). Stack: Stable Diffusion / Midjourney-class diffusion + Photoshop compositing into real-world locations; tens-of-thousands-of-euros initial production cost. Second persona **Maia** demonstrates roster scaling.
+
+**Emily Pellegrini.** Most widely covered NSFW-tier case. Launched late 2023; Fanvue November 2023. Anonymous operator. $9,688 first six weeks on Fanvue (Fanvue press release, Jan 2024, confirmed by Marca, Business Insider). $100K lifetime Fanvue earnings **confirmed on-record by Fanvue to 404 Media / Wired** (Nov 2024). Operator claims "seven figures in six months" via self-marketed "AI Influencer Accelerator" course — unverified by any third party. Fanvue told Wired Emily's on-platform usage had since become "extremely low" as the team pivoted to course sales.
+
+**Lil Miquela (SFW context).** CGI/character-IP project by Brud studio (LA, 2016), not an AI-generated photo persona. Brud raised ~$6M seed from Sequoia (2018), reported $20-30M at $125M valuation. Estimated ~$8K/post sponsored rates, ~€8.96M annual revenue (The Cut / Bloomberg / OnBuy estimates, Nov 2020). Acquired by Dapper Labs 2021. Included as a comparative SFW data point only — economics are an order of magnitude removed from Fanvue creators.
+
 ### Revenue mechanics (where the money actually comes from)
 
 Critical insight: **the bulk of mid-tier and Tier-1 revenue is NOT flat subscriptions** but per-interaction monetization:

@@ -41,6 +41,7 @@ related:
   - entities/sfx-models/audio-omni.md
   - entities/omnivoice.md
   - entities/voicebox.md
+  - entities/persona-ops/delive.md
 maturity: validated
 created: 2026-05-09
 updated: 2026-05-15
@@ -70,6 +71,7 @@ updated: 2026-05-15
 @entities/lipsync/liveportrait.md @entities/music-models/suno.md @entities/music-models/udio.md @entities/sfx-models/audio-omni.md
 @entities/omnivoice.md — Layer 1 alternate: zero-shot voice cloning, 600+ languages
 @entities/voicebox.md — Layer 1 alternate: local-first multi-engine TTS voice studio
+@entities/persona-ops/delive.md — Apache-2.0 system-audio capture + ASR for TTS-output-to-text audit trail
 
 ## Raw Concept
 

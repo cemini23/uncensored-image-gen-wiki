@@ -25,6 +25,8 @@ related:
   - entities/uis/comfyui.md
   - concepts/persona-audio-stack.md
   - entities/voice-models/cosyvoice2.md
+  - entities/persona-ops/delive.md
+  - entities/persona-ops/moneyprinter.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-13
@@ -40,6 +42,7 @@ updated: 2026-05-13
 
 @concepts/persona-audio-stack.md
 @entities/voice-models/cosyvoice2.md
+@entities/persona-ops/delive.md @entities/persona-ops/moneyprinter.md
 ## Raw Concept
 
 Page prompted by Path A step 6 ingest of the persona-ops survey docx (May 2026). Synthesizes the 7-axis architecture of the modal 2026 persona-ops stack into a single reference page. Companion to @concepts/persona-consistency-methods.md (which covers the identity layer); this page covers the operational layer **wrapped around** that identity.
@@ -59,6 +62,22 @@ A modern adult AI persona operation is built from 7 distinct tooling layers. Eac
 5. **Agentic Loops & Orchestration** — n8n (self-hosted, modal choice) / Make.com (Maia AI builder, SaaS) / LangChain / LangGraph / Temporal (Durable Agent Execution) / CrewAI / AutoGen. Enterprise-tier persona-ops budgets are $100K-$300K build + $3.2K-$13K/mo LLM API. → @entities/persona-ops/n8n.md
 6. **Triggerable Image & Video Pipelines** — ComfyUI workflow JSONs route to either Vast.ai serverless GPU endpoints or managed APIs: Fal.ai (FLUX.2 Pro $0.05/image, Wan 2.1 $0.05/sec video), Replicate, Modal.
 7. **Content-Calendar Automation** — Batch Prompting, Gap Analysis, Trend Expansion. Repurposing: Opus Clip / Vidyo.ai / Orshot. Routing: Airtable/Notion + n8n + Repurpose.io.
+
+### Distribution-channel tooling (supplement to Axis 1)
+
+**Reddit automation** — highest-leverage but most operationally fragile funnel. Tools: **Social-Rise** (rule-validation, ban-shield, proxy-aware, NSFW subreddit discovery), **Postpone** (notification-based posting: mobile alert → human clicks "publish" to bypass API-detection), **Slingshot**, **Conbersa** (multi-account proxy rotation + hardware-fingerprint spoofing). Reddit purges ~100K automated accounts daily; every account needs warming, fresh karma, and proxy isolation. April 2026: community-association auto-bans shut down but report/remove features remain.
+
+**Telegram distribution** — the definitive safe haven for adult AI content. No algorithmic feed filtering; every subscriber receives every broadcast chronologically; open Bot API for deep automation. Tools: **Manychat**, **Botpress**, **UChat**, **Sendpulse** (channel broadcast automation); **InviteMember** (subscription-tier management + payment collection inside chat); **SUCH** (fan-request customer support). Many operators run a Python script on a $5 VPS calling `sendPhoto`/`sendVideo` against the Bot API.
+
+**X/Twitter** — tightened sharply in 2026. April 2026: ~200 accounts/minute purged under new product directives; FaceID biometric verification trap for suspected bots. Surviving tools: **Hypefury** ($29/mo, auto-plug + evergreen recycling), **Typefully** (organic thread-builder), **ShortSync** (video-first distribution bypassing text-bot detection).
+
+**OF/Fanvue creator suites** — **Supercreator** (Izzy AI, AI-assisted chat), **Infloww** (CRM + AI Copilot beta), **Substy** (agency-only, real-time chat distribution), **Botly**, **OnlyMonster**, **Fans-CRM**, **CreatorHero** (revenue dashboards + AI translation). **Scrile Connect** (self-owned subscription site build-service, removing platform-lock). **Exclu** (0% commission direct-to-DM sales via bio links, bypassing OF/Fanvue revenue splits).
+
+### Voice-sync and video-automation tools
+
+- **DeLive** (`XimilalaXiang/DeLive`, Apache-2.0) — system-audio capture + 12 ASR backends for TTS-output-to-text audit trail. → @entities/persona-ops/delive.md
+- **MoneyPrinter** (`FujiwaraChoki/MoneyPrinter`, MIT) — MoviePy-based short-form video automation (YouTube Shorts/TikTok). License-corrected from phantom AGPL-3.0. → @entities/persona-ops/moneyprinter.md
+- **yt-dlp** (`yt-dlp/yt-dlp`, Unlicense source) — de-facto media extractor for feeding TTS persona-ops training pipelines. Install from Unlicense source tarball only; pre-built binaries statically bundle GPLv3+ code.
 
 ### Reference architecture
 

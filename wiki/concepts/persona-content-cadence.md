@@ -18,6 +18,7 @@ related:
   - sources/virtual-persona-narrative-development-strategy.md
   - concepts/persona-ops-workflow.md
   - entities/music-models/ace-step.md
+  - entities/persona-ops/moneyprinter.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-13
@@ -29,6 +30,7 @@ updated: 2026-05-13
 @concepts/marketing-your-persona.md
 @sources/virtual-persona-narrative-development-strategy.md
 @entities/music-models/ace-step.md
+@entities/persona-ops/moneyprinter.md
 
 ## Raw Concept
 

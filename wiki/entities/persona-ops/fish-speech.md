@@ -28,6 +28,7 @@ related:
   - entities/persona-ops/voicemode.md
   - entities/omnivoice.md
   - entities/voicebox.md
+  - entities/persona-ops/delive.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-15
@@ -45,6 +46,7 @@ updated: 2026-05-15
 @entities/persona-ops/supertonic.md @entities/persona-ops/voicemode.md
 @entities/omnivoice.md — multilingual zero-shot voice-cloning alternate
 @entities/voicebox.md — local-first multi-engine TTS voice studio alternate
+@entities/persona-ops/delive.md
 
 ## Raw Concept
 

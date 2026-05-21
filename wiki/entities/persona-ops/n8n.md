@@ -13,6 +13,8 @@ related:
   - entities/persona-ops/fish-speech.md
   - concepts/model-selection-workflow.md
   - entities/uis/comfyui.md
+  - entities/persona-ops/delive.md
+  - entities/persona-ops/moneyprinter.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-05-07
@@ -23,6 +25,7 @@ updated: 2026-05-07
 @sources/persona-ops-stack-2026.md @concepts/persona-ops-stack.md @concepts/persona-content-cadence.md @entities/persona-ops/postiz.md @entities/persona-ops/sillytavern.md @entities/persona-ops/fish-speech.md
 @concepts/model-selection-workflow.md
 @entities/uis/comfyui.md
+@entities/persona-ops/delive.md @entities/persona-ops/moneyprinter.md
 
 ## Raw Concept
 

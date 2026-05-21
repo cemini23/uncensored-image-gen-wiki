@@ -1355,3 +1355,35 @@ Cross-wiki ingest: the NVIDIA paper "SANA-WM" (arXiv:2605.15178v1, 2026-05-14) w
 - Updated wiki/entities/models/ltx-2.md — added SANA-WM / source backlinks (SANA-WM uses the LTX2 tokenizer as its video latent codec); bumped updated
 - Updated wiki/sources/video-generation-survey-2026.md — added SANA-WM source backlink (adjacent video-gen ingest); bumped updated
 - Updated wiki/index.md — added 1 source, 1 model, 3 concept rows
+
+## [2026-05-21] ingest | cross-wiki brief triage — 18 briefs processed, 2 stub entities created, 2 concept pages enhanced
+
+Full triage of all 18 briefs in `briefs/` (the gitignored deliverables directory):
+- 6 briefs were already ingested (content existed in wiki pages) — marked `processed: 2026-05-21` only
+- 2 briefs are dead-end/reference-only with no wiki-promotion value — marked `processed: 2026-05-21` only
+- 4 cross-wiki tool-eval briefs promoted — 2 became stubs, 2 were content already present
+- 6 large persona-ops briefs — content folded into existing wiki pages
+
+### Stub entities created (2)
+
+- `wiki/entities/persona-ops/delive.md` — Apache-2.0 system-audio capture + 12 ASR backends + 60+ languages. Persona-ops application: voice/TTS synchronization for character consistency workflows; MCP server + Bearer-auth for Claude Code integration. Sourced from K55 and K54 cross-wiki tool eval briefs.
+- `wiki/entities/persona-ops/moneyprinter.md` — MIT-licensed short-form video automation (MoviePy-based, 13.3k★). **License-corrected** from the K54 eval's phantom AGPL-3.0 claim — `gh api` confirms MIT. Candidate for persona-ops short-form content workflows.
+
+### Concept pages enhanced (2)
+
+- `wiki/concepts/persona-ops-stack.md` — added distribution-channel tooling (Reddit: Social-Rise/Postpone/Conbersa; Telegram: Manychat/Botpress; X/Twitter: Hypefury/Typefully; OF/Fanvue); added voice-sync (DeLive) and video-automation (MoneyPrinter, yt-dlp) tools. Enhanced from ~111 to ~140 lines.
+- `wiki/concepts/persona-monetization-models.md` — added detailed Tier 1 case studies: Aitana Lopez (€3K/mo avg, 392K IG, specific brand partners), Emily Pellegrini ($9,688 first 6 weeks Fanvue-confirmed, $100K lifetime), Lil Miquela (~$125M valuation, Dapper Labs acquisition).
+
+### Backlink fixes (3)
+
+- `wiki/entities/persona-ops/n8n.md` — added reciprocal backlinks to delive + moneyprinter
+- `wiki/entities/persona-ops/fish-speech.md` — added reciprocal backlink to delive
+- `wiki/concepts/persona-content-cadence.md` — added reciprocal backlink to moneyprinter
+
+### Index updated
+
+- `wiki/index.md` — added DeLive and MoneyPrinter entries under Persona-ops tools
+
+### Lint state
+
+0 hard errors maintained. All 72 cross-wiki references resolve.
