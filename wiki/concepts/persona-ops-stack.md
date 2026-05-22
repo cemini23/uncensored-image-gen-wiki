@@ -27,9 +27,14 @@ related:
   - entities/voice-models/cosyvoice2.md
   - entities/persona-ops/delive.md
   - entities/persona-ops/moneyprinter.md
+  - entities/persona-ops/personalive.md
+  - entities/uis/fooocus.md
+  - entities/marketplaces/fanvue.md
+  - concepts/multi-angle-dataset-prep.md
+  - concepts/persona-content-cadence.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-13
+updated: 2026-05-22
 ---
 
 ## Relations
@@ -43,6 +48,9 @@ updated: 2026-05-13
 @concepts/persona-audio-stack.md
 @entities/voice-models/cosyvoice2.md
 @entities/persona-ops/delive.md @entities/persona-ops/moneyprinter.md
+@entities/persona-ops/personalive.md @entities/uis/fooocus.md
+@entities/marketplaces/fanvue.md @concepts/multi-angle-dataset-prep.md @concepts/persona-content-cadence.md
+
 ## Raw Concept
 
 Page prompted by Path A step 6 ingest of the persona-ops survey docx (May 2026). Synthesizes the 7-axis architecture of the modal 2026 persona-ops stack into a single reference page. Companion to @concepts/persona-consistency-methods.md (which covers the identity layer); this page covers the operational layer **wrapped around** that identity.
@@ -78,6 +86,22 @@ A modern adult AI persona operation is built from 7 distinct tooling layers. Eac
 - **DeLive** (`XimilalaXiang/DeLive`, Apache-2.0) — system-audio capture + 12 ASR backends for TTS-output-to-text audit trail. → @entities/persona-ops/delive.md
 - **MoneyPrinter** (`FujiwaraChoki/MoneyPrinter`, MIT) — MoviePy-based short-form video automation (YouTube Shorts/TikTok). License-corrected from phantom AGPL-3.0. → @entities/persona-ops/moneyprinter.md
 - **yt-dlp** (`yt-dlp/yt-dlp`, Unlicense source) — de-facto media extractor for feeding TTS persona-ops training pipelines. Install from Unlicense source tarball only; pre-built binaries statically bundle GPLv3+ code.
+- **PersonaLive** (`GVCLab/PersonaLive`) — real-time portrait animation for 24/7 live virtual avatars; highest-novelty K55-2 candidate, Phase-0 unaudited → @entities/persona-ops/personalive.md
+
+### Operator playbook patterns (K57, @0xKiyoro) [TENTATIVE]
+
+Cross-routed from @osint-wiki/sources/trading-posts-llm-gustafsson-retail-weather-copy-2026-05-22.md Post 3. Treat revenue claims as marketing, not audited fact-checks.
+
+| Stage | Claimed tooling | Wiki mapping |
+|-------|-----------------|--------------|
+| Face merge | Wavespeed + nano banana (two Pinterest refs) | Cloud face-merge — compare to local Klein BFS / PuLID paths → @concepts/multi-angle-dataset-prep.md |
+| Dataset | 70/20/10 golden ratio | → @concepts/multi-angle-dataset-prep.md |
+| LoRA train | ~$3 cloud cost claim | Unverified — local Kohya/Musubi on RunPod is the build-track default |
+| Video | Wan 2.7 **or** Kling 3.0 **or** ComfyUI | Wan 2.7 = cloud/API tier → @entities/models/openrouter-video.md; local = Wan 2.2 → @entities/models/wan-2-2.md |
+| Pre-upload | CapCut metadata scrub | → @concepts/persona-content-cadence.md |
+| Monetize | Fanvue funnel | → @entities/marketplaces/fanvue.md |
+
+**GPL reference-only UIs (do not deploy):** Fooocus (`lllyasviel/Fooocus`, GPL-3.0), PhotoGIMP (`Diolinux/PhotoGIMP`, GPL-3.0 GIMP-as-Photoshop layout) — UX pattern theft only → @entities/uis/fooocus.md
 
 ### Reference architecture
 

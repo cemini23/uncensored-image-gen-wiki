@@ -17,9 +17,10 @@ related:
   - sources/headsup-3d-gaussian-head.md
   - entities/uis/comfyui.md
   - entities/training-tools/czkawka.md
+  - concepts/persona-ops-stack.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-15
+updated: 2026-05-22
 ---
 
 ## Relations
@@ -27,6 +28,7 @@ updated: 2026-05-15
 @sources/video-generation-survey-2026.md @sources/synthetic-character-consistency-survey.md @concepts/persona-consistency-methods.md @concepts/character-dna-templates.md @concepts/video-identity-inheritance.md @entities/adapters/flux-kontext.md @entities/adapters/flux-redux.md @entities/models/wan-2-2.md @entities/models/flux-2-klein.md @entities/models/qwen-image-2512.md @sources/headsup-3d-gaussian-head.md
 @concepts/persona-content-cadence.md
 @entities/training-tools/czkawka.md — Rust perceptual-hash dedup tool for the dataset-hygiene step
+@concepts/persona-ops-stack.md
 
 ## Raw Concept
 
@@ -46,6 +48,20 @@ A "production-grade" multi-angle dataset typically covers:
 - 2-4 lighting conditions (key-from-left, key-from-right, soft, hard)
 - 2-3 hair / styling permutations (held in matched-light environment)
 - Optional body angles (full-body permutations) for full-figure consistency
+
+### Dataset composition ratio (operator pattern) [TENTATIVE]
+
+@0xKiyoro's AI-influencer playbook (K57, 2026-05-22) recommends a **70 / 20 / 10** split when curating a LoRA training set:
+
+| Slice | ~% | Role |
+|-------|-----|------|
+| Hero / on-brand shots | 70 | Primary aesthetic the persona should default to |
+| Angle / pose diversity | 20 | ¾, profile, expression, lighting permutations → closes frontal bias |
+| Edge cases / hard poses | 10 | Stress-test poses that break single-reference adapters |
+
+Treat as a **heuristic**, not a hard rule — Mickmumpitz-style 96-angle Wan extractions and Kontext 5-angle sheets may already exceed the 20% diversity bucket; the ratio is most useful when hand-curating a smaller (30–80 image) set before Kohya / Musubi training.
+
+**Face-merge upstream (same playbook):** two Pinterest reference faces merged via **Wavespeed** + **nano banana** (cloud face-merge services) before dataset generation — distinct from local PuLID / Klein BFS face-swap paths. `[TENTATIVE]` — unaudited operator claim; verify identity stability before LoRA training.
 
 ### Production approaches
 

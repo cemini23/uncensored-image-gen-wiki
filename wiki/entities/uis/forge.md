@@ -13,6 +13,7 @@ related:
   - sources/uncensored-image-generation-survey.md
   - entities/uis/invokeai.md
   - entities/uis/swarmui.md
+  - entities/uis/fooocus.md
 maturity: stub
 created: 2026-05-08
 updated: 2026-05-08

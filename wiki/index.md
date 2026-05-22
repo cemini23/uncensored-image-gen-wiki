@@ -82,6 +82,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Forge](entities/uis/forge.md) — performance-optimized A1111 fork; SDXL + FLUX with VRAM efficiency patches — `ui, inference-frontend, forge, performance, sdxl, flux` ⚠ stub
 - [InvokeAI](entities/uis/invokeai.md) — creative-focused UI with unified canvas workflow — `ui, inference-frontend, invokeai, creative` ⚠ stub
 - [SwarmUI](entities/uis/swarmui.md) — multi-user collaborative generation UI; model management focus — `ui, inference-frontend, swarmui, multi-user` ⚠ stub
+- [Fooocus (GPL-3.0 SD UI)](entities/uis/fooocus.md) — lllyasviel Gradio SD UI; GPL steal-patterns-only, not deploy — `ui, gpl, reference-only` ⚠ stub
 
 ### Custom nodes
 
@@ -118,6 +119,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [n8n (self-hosted orchestration)](entities/persona-ops/n8n.md) — modal 2026 orchestration layer for persona-ops; visual workflow + 400+ integrations + AI agent nodes; self-host for data sovereignty vs Make/Zapier; ties together LLM + voice + image-gen + scheduling — `persona-ops, orchestration, n8n, automation, self-hosted, workflow-engine`
 - [DeLive — system-audio capture + ASR for persona voice sync](entities/persona-ops/delive.md) — Apache-2.0 desktop app capturing local system audio + 12 ASR backends + 60+ languages; real-time TTS-output-to-text audit trail for persona voice synchronization — `persona-ops, asr, voice-sync, apache-2-0, mcp-server` ⚠ stub
 - [MoneyPrinter — MIT short-form video automation](entities/persona-ops/moneyprinter.md) — MoviePy-based YouTube Shorts/TikTok automation; MIT-licensed (license-corrected from phantom AGPL-3.0); candidate for n8n content-calendar video rendering — `persona-ops, video-automation, short-form, mit-license` ⚠ stub
+- [PersonaLive — real-time portrait animation for live avatars](entities/persona-ops/personalive.md) — GVCLab portrait animator for 24/7 virtual streams; K55-2 highest-novelty candidate; Phase-0 unaudited — `persona-ops, live-streaming, portrait-animation, real-time` ⚠ stub
 
 ### Personas / accounts
 

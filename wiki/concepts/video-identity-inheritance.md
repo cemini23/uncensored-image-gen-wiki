@@ -19,6 +19,7 @@ related:
   - entities/models/z-image-turbo.md
   - entities/models/flux-2-klein.md
   - sources/headsup-3d-gaussian-head.md
+  - entities/persona-ops/personalive.md
   - entities/models/openrouter-video.md
   - entities/uis/comfyui.md
   - concepts/persona-audio-stack.md

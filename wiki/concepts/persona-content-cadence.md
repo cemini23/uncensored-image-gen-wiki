@@ -19,9 +19,10 @@ related:
   - concepts/persona-ops-workflow.md
   - entities/music-models/ace-step.md
   - entities/persona-ops/moneyprinter.md
+  - sources/ai-content-factory-workflow-design.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-13
+updated: 2026-05-22
 ---
 
 ## Relations
@@ -31,6 +32,7 @@ updated: 2026-05-13
 @sources/virtual-persona-narrative-development-strategy.md
 @entities/music-models/ace-step.md
 @entities/persona-ops/moneyprinter.md
+@sources/ai-content-factory-workflow-design.md
 
 ## Raw Concept
 
@@ -103,6 +105,18 @@ A single high-quality generated asset routes through:
 - **Repurpose.io** — central routing of one source asset to N destination platforms with format adaptation
 
 Combined with n8n: one Airtable row → one ComfyUI generation → 4-7 platform-adapted outputs auto-distributed. → @entities/persona-ops/n8n.md → @entities/persona-ops/postiz.md
+
+### Post-export metadata hygiene
+
+Platforms increasingly enforce **C2PA Content Credentials** and invisible watermarking (see failure-mode coverage in @concepts/persona-failure-modes.md). Operators also strip **EXIF / XMP / embedded manifests** before upload so client-side metadata does not leak generation toolchain or geolocation.
+
+| Tool | Posture | Notes |
+|------|---------|-------|
+| **ExifTool** (`-all=`) | Build-track default | Documented in @sources/ai-content-factory-workflow-design.md — batch-safe, no recompress |
+| **CapCut** (mobile editor) | Operator pattern [TENTATIVE] | @0xKiyoro playbook (K57, 2026-05-22) cites CapCut for metadata scrub before Fanvue upload — consumer-friendly re-encode path; verify it removes C2PA manifests vs only EXIF |
+| Diffusion re-noise pass | Advanced | Latent re-encode destroys SynthID / TreeRing-class watermarks before EXIF strip — same source |
+
+**Labeling vs stripping:** EU AI Act / UK OSA / TikTok policy trend toward **mandatory disclosure**, not hiding synthetic origin. Metadata hygiene here is operational (remove accidental GPS, camera model strings, ComfyUI workflow blobs) — not a substitute for platform-required AI labels where applicable → @concepts/persona-legal-landscape.md.
 
 ### Implications for the build track
 

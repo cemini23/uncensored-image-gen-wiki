@@ -39,6 +39,7 @@ related:
   - entities/models/kwai-kolors.md
   - entities/models/ernie-image.md
   - entities/models/pixart-sigma.md
+  - entities/uis/fooocus.md
   - entities/models/ltx-2.md
   - entities/models/mochi-1.md
   - entities/models/seedance-2.md

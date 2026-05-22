@@ -10,6 +10,7 @@ related:
   - sources/video-generation-survey-2026.md
   - concepts/marketing-your-persona.md
   - runbooks/day-1-checklist-for-friend.md
+  - entities/persona-ops/personalive.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08

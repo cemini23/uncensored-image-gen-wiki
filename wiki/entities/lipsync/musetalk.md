@@ -13,6 +13,7 @@ related:
   - entities/uis/comfyui.md
   - concepts/video-identity-inheritance.md
   - sources/persona-ops-stack-2026.md
+  - entities/persona-ops/personalive.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-05-13

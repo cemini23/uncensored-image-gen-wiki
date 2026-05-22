@@ -11,6 +11,7 @@ related:
   - concepts/persona-consistency-methods.md
   - concepts/persona-ops-workflow.md
   - concepts/geo-vs-seo.md
+  - concepts/persona-content-cadence.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-05-08

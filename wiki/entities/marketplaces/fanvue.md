@@ -11,9 +11,10 @@ related:
   - concepts/persona-ops-workflow.md
   - concepts/geo-vs-seo.md
   - concepts/persona-legal-landscape.md
+  - concepts/persona-ops-stack.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-05-08
+updated: 2026-05-22
 read_status: deep-read
 provenance:
   stub: false
@@ -21,7 +22,7 @@ provenance:
 
 ## Relations
 
-@sources/ai-creator-operations-blueprint.md @sources/ai-persona-launch-strategy-analysis.md
+@sources/ai-creator-operations-blueprint.md @sources/ai-persona-launch-strategy-analysis.md @concepts/persona-ops-stack.md
 
 ## Raw Concept
 
@@ -34,7 +35,7 @@ Fanvue is the premier platform for 100% AI-generated creators in 2026. Both sour
 Fanvue is the leading platform for 100% AI-generated synthetic personas:
 
 - **$500M+** in creator payouts (as of 2026)
-- **85% revenue split** to creators
+- **85% revenue split** to creators (≈15% platform fee — matches @0xKiyoro K57 playbook claim [TENTATIVE, single operator thread, 2026-05-22]; survey sources elsewhere cite **20%** commission on subs/tips/PPV → @concepts/persona-monetization-models.md — reconcile against current Fanvue pricing page before relying on either figure)
 - Built-in AI analytics, automated voice notes, AI voice calls
 - **Open API** → connect n8n/Make.com for webhook-driven DM automation
 - **Manager Accounts** → single KYC verification, then create multiple secondary AI model accounts linked to that verified identity

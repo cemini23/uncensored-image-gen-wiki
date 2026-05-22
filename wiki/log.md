@@ -4,6 +4,33 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-05-22] ingest | brief triage — K57 + K55-2 (2 new briefs since 2026-05-21 batch)
+
+Processed briefs not covered in the 2026-05-21 18-brief triage:
+
+- `briefs/2026-05-22_k57-ai-influencer-pipeline-from-osint.md` — @0xKiyoro AI-influencer playbook (face merge → 70/20/10 dataset → LoRA → Wan 2.7/Kling/ComfyUI → CapCut scrub → Fanvue). GPL tools Fooocus/PhotoGIMP marked reference-only.
+- `briefs/2026-05-21_k55-2-ridark-eth-image-gen-relevant-repos.md` — @ridark_eth repo list subset; duplicates skipped (flux, Qwen3-TTS); PersonaLive stub created.
+
+### Stub entities created (2)
+
+- `wiki/entities/persona-ops/personalive.md` — GVCLab real-time portrait animation for live streams; Phase-0 unaudited; ridark_eth credibility warning retained.
+- `wiki/entities/uis/fooocus.md` — GPL-3.0 SD UI; steal-patterns-only dead-end.
+
+### Concept / entity pages enhanced (4)
+
+- `wiki/concepts/multi-angle-dataset-prep.md` — 70/20/10 dataset ratio + Wavespeed/nano-banana face-merge operator pattern [TENTATIVE].
+- `wiki/concepts/persona-content-cadence.md` — post-export metadata hygiene table (ExifTool vs CapCut vs re-noise).
+- `wiki/concepts/persona-ops-stack.md` — K57 operator playbook table + PersonaLive + GPL UI dead-ends.
+- `wiki/entities/marketplaces/fanvue.md` — 15% fee / 85% split cross-check note vs 20% survey figure.
+
+### Index
+
+- `wiki/index.md` — PersonaLive + Fooocus rows.
+
+Briefs marked `processed: 2026-05-22` (K57, K55-2). Hub brief `2026-05-09_creator-image-gen-hub.md` already carried `processed: 2026-05-21`.
+
+---
+
 ## [2026-05-19] brief | Audio-pipeline runbook shipped + W5 audio re-check closed
 
 Closed the two longest-deferred audio follow-ups in one session (both deferred from the W4 audio scope expansion, 2026-05-13).
