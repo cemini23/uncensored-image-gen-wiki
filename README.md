@@ -99,11 +99,12 @@ Pages link via `@path/to/page.md` syntax (relative to `wiki/`). If page A lists 
 
 ### Cemini wiki federation
 
-**Six** wikis + private **Cemini Financial Suite**. Cross-links: `@wiki-alias/path/to/page.md` (`CLAUDE.md` → Related Wikis).
+**Seven** wikis + private **Cemini Financial Suite**. Cross-links: `@wiki-alias/path/to/page.md` (`CLAUDE.md` → Related Wikis).
 
 | Alias | Repository | Visibility | Focus |
 |-------|------------|------------|--------|
 | **`image-gen-wiki`** | **This repo** ([uncensored-image-gen-wiki](https://github.com/cemini23/uncensored-image-gen-wiki)) | **Public** | Image / video / voice / persona ops |
+| `gambling-wiki` | [Gambling-wiki](https://github.com/cemini23/Gambling-wiki) | **Public** | Sports betting, casino, poker, DFS |
 | `ccc-wiki` | [cemini-claude-code-CCC](https://github.com/cemini23/cemini-claude-code-CCC) | **Public** | Cursor / Claude Code workflow, MCP, eval prompts |
 | `seo-wiki` | [SEO-GEO-B-M-Wiki](https://github.com/cemini23/SEO-GEO-B-M-Wiki) | Public | Local SEO, GEO/AEO, creator marketing |
 | `3d-printing-wiki` | [3D-Printing-Wiki](https://github.com/cemini23/3D-Printing-Wiki) | Public | FDM/FFF, Bambu, slicers |
