@@ -163,7 +163,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 
 ---
 - [voicebox — Local-First AI Voice Studio](entities/voicebox.md) — cross-wiki stub routed from ingest — `cross-wiki`
-- [OmniVoice — Zero-Shot Voice Cloning for 600+ Languages](entities/omnivoice.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [OmniVoice — Zero-Shot Voice Cloning (REJECTED — license)](entities/omnivoice.md) — K93 reject: commercial license poison on `debpalash/OmniVoice-Studio`; K45 Apache-2.0 Adopt retracted — `voice-cloning, dead-end, license-blocker, k93`
 - [Open-Generative-AI — Local-First Generative Media Platform](entities/open-generative-ai.md) — cross-wiki stub routed from ingest — `cross-wiki`
 
 ## Runbooks
@@ -214,3 +214,8 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [World Models for Video Generation](concepts/world-models-video-generation.md) — action-conditioned, explorable video generators (first frame + action signal → long controllable video) vs prompt-to-clip T2V/I2V; anchored by NVIDIA's SANA-WM — `concept, world-model, video-generation, interactive, action-controllable` ⚠ stub
 - [Camera-Controlled Video Generation](concepts/camera-controlled-video-generation.md) — conditioning video synthesis on an explicit 6-DoF camera trajectory; dual-branch (latent-rate UCPE + raw-frame Plücker mixing) to survive temporal VAE compression; metric-scale pose annotation — `concept, video-generation, camera-control, 6-dof, conditioning` ⚠ stub
 - [Hybrid Linear Attention (Gated DeltaNet + Softmax)](concepts/hybrid-linear-attention.md) — interleaving linear-attention (GDN) blocks with periodic softmax layers for memory-efficient long-context modeling with exact long-range recall; enables minute-scale video context on a single GPU — `concept, linear-attention, long-context, efficient-inference, architecture` ⚠ stub
+- [Federated daily research digest](concepts/federated-daily-research-digest.md) — K93 per-wiki Exa/inbox discovery loop; scripts + LaunchAgent installed 2026-06-01; OmniVoice reject documented — `meta, automation, federation, discovery, k93`
+
+### Meta (wiki operations)
+
+- [Daily research digest cadence (image-gen)](meta/daily-research-digest-cadence.md) — 08:15 LaunchAgent, `wiki/sweeps/YYYY-MM-DD-daily.md`, pairs with gap-detect weekly — `meta, automation, discovery, k93`

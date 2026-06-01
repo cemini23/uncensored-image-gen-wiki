@@ -63,6 +63,7 @@ Synthesized from @sources/persona-ops-stack-2026.md.
 | **ElevenLabs Flash v2.5** | Hosted SaaS | 75-150ms, top-tier SFW | NO — platform-banned |
 | **Fish-Speech S2 Pro** | Open-source, self-host | TTS-Arena2 leader, slower than Flash | YES (operator-controlled) |
 | Qwen3-TTS | Open-source (Alibaba) | High quality, multi-lingual strong | Yes |
+| OmniVoice | **Reject** (K93) | 600+ langs claimed; commercial license poison | No — use Fish-Speech / Qwen3-TTS |
 | F5-TTS | Open-source | Strong on English | Yes |
 | MaskGCT | Open-source | Strong on multi-speaker | Yes |
 | Coqui XTTS | Open-source (legacy) | Older arch, surpassed | Yes (but legacy) |

@@ -1,0 +1,75 @@
+# Image-gen wiki — daily research digest config
+# Installed 2026-06-01 via K93 federated digest (see wiki/concepts/federated-daily-research-digest.md)
+# Parent reference: OSINT WORKSPACE/scripts/daily_research_config.yaml
+
+loop:
+  recency_window_days: 7
+  max_results_per_query: 3
+
+fetch:
+  enabled: true
+  max_downloads: 8
+  fetch_likely: false
+  max_results_per_paper_query: 5
+
+# Sync with ROADMAP.md open follow-ups when workstreams shift
+active_topics:
+  - "Type-D stale [NEEDS VERIFICATION] batch — NoobAI-XL / FLUX adapter cluster"
+  - "PersonaLive Phase-0 — GVCLab live avatar audit"
+  - "ComfyUI custom nodes + Wan 2.2 / FLUX.2 Klein workflow updates"
+  - "Voice/audio pipeline — Fish-Speech + LatentSync production hardening"
+  - "Federated daily digest — first sweep quality tuning (K93)"
+
+paper_queries:
+  - cluster: diffusion-lora-persona
+    query: "research paper diffusion LoRA character consistency identity adapter persona"
+    category: research paper
+
+  - cluster: video-generation-open
+    query: "research paper Wan HunyuanVideo image-to-video latent diffusion open weights"
+    category: research paper
+
+  - cluster: voice-clone-lipsync
+    query: "research paper zero-shot voice cloning lipsync TTS diffusion 2025 2026"
+    category: research paper
+
+  - cluster: uncensored-alignment
+    query: "research paper text-to-image safety alignment de-censoring fine-tune"
+    category: research paper
+
+queries:
+  - cluster: comfyui-ecosystem
+    query: "ComfyUI custom node FLUX Wan LoRA workflow release 2026"
+    category: news
+
+  - cluster: civitai-models
+    query: "CivitAI Pony Illustrious NoobAI FLUX LoRA release uncensored"
+    category: news
+
+  - cluster: persona-platforms
+    query: "AI influencer Fanvue OnlyFans synthetic creator platform policy 2026"
+    category: news
+
+  - cluster: voice-tts-opensource
+    query: "Fish-Speech CosyVoice Qwen3-TTS open source voice clone release"
+    category: news
+
+monokern_pipeline:
+  enabled: true
+  cadence: weekly
+  default_deliverable: none
+  source_modules:
+    - yt-dlp
+    - inbox_pdf
+    - web_url
+  ingest_hook: "After weekly digest, one NotebookLM pass on top active_topic (persona / video / voice lane)"
+
+social:
+  manual_pass:
+    - tool: opencli-reader
+      prompt: "Reddit r/comfyui r/StableDiffusion r/LocalLLaMA — FLUX Wan LoRA releases last 7d"
+    - tool: twitter-reader
+      prompt: "CivitAI ComfyUI FLUX Wan voice-clone model releases fintwit-adjacent creators"
+
+output:
+  path_template: "wiki/sweeps/{date}-daily.md"

@@ -32,9 +32,10 @@ related:
   - entities/marketplaces/fanvue.md
   - concepts/multi-angle-dataset-prep.md
   - concepts/persona-content-cadence.md
+  - concepts/federated-daily-research-digest.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-22
+updated: 2026-06-01
 ---
 
 ## Relations
@@ -50,6 +51,7 @@ updated: 2026-05-22
 @entities/persona-ops/delive.md @entities/persona-ops/moneyprinter.md
 @entities/persona-ops/personalive.md @entities/uis/fooocus.md
 @entities/marketplaces/fanvue.md @concepts/multi-angle-dataset-prep.md @concepts/persona-content-cadence.md
+@concepts/federated-daily-research-digest.md
 
 ## Raw Concept
 

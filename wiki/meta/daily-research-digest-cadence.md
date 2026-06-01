@@ -1,0 +1,37 @@
+---
+title: Daily research digest cadence (image-gen)
+type: concept
+tags: [meta, wiki, automation, discovery, k93]
+keywords: [daily-research-digest, exa, sweep, discovery, ingest-pipeline, launchagent]
+related:
+  - concepts/federated-daily-research-digest.md
+  - sweeps/_daily-template.md
+maturity: core
+created: 2026-06-01
+updated: 2026-06-01
+---
+
+## Relations
+
+@concepts/federated-daily-research-digest.md
+
+## Narrative
+
+| Field | Value |
+|-------|-------|
+| **Cadence** | Daily @ 08:15 local (LaunchAgent `com.cemini.daily-research-digest.image-gen`) |
+| **Script** | `python3 scripts/daily_research_digest_run.py` or `~/bin/cemini-daily-research-digest-image-gen` |
+| **Config** | `scripts/daily_research_config.yaml` |
+| **Report** | `wiki/sweeps/YYYY-MM-DD-daily.md` |
+| **Template** | `wiki/sweeps/_daily-template.md` |
+| **Inbox** | `research to be indexed/` (gitignored) |
+
+**Workflow:** overnight Exa + optional arXiv fetch → non-duplicate PDFs land in inbox → morning review sweep → **full ingest** in Cursor when rows are worth keeping.
+
+**Does not:** auto-write wiki entity pages, auto-commit, or bypass `preingest_check.py`.
+
+**Weekly overlay:** `monokern_pipeline` block in config — one deep-research pass on the top `active_topics` row (NotebookLM / yt-dlp / inbox PDFs).
+
+**Federation spec:** @concepts/federated-daily-research-digest.md (K93 install from OSINT).
+
+**Gap detect pairing:** run `python3 scripts/wiki_gap_detect.py` weekly alongside digest review when Type-D `[NEEDS VERIFICATION]` backlog is active (see ROADMAP).

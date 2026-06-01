@@ -42,9 +42,10 @@ related:
   - entities/omnivoice.md
   - entities/voicebox.md
   - entities/persona-ops/delive.md
+  - concepts/federated-daily-research-digest.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-05-15
+updated: 2026-06-01
 ---
 
 ## Relations
@@ -69,9 +70,10 @@ updated: 2026-05-15
 @entities/sfx-models/audioldm.md @entities/sfx-models/tango-2.md
 @entities/voice-models/xtts-v2.md @entities/voice-models/dia.md @entities/voice-models/bark.md @entities/voice-models/elevenlabs.md
 @entities/lipsync/liveportrait.md @entities/music-models/suno.md @entities/music-models/udio.md @entities/sfx-models/audio-omni.md
-@entities/omnivoice.md — Layer 1 alternate: zero-shot voice cloning, 600+ languages
+@entities/omnivoice.md — **dead-end** (K93 license reject); was Layer-1 multilingual alternate candidate
 @entities/voicebox.md — Layer 1 alternate: local-first multi-engine TTS voice studio
 @entities/persona-ops/delive.md — Apache-2.0 system-audio capture + ASR for TTS-output-to-text audit trail
+@concepts/federated-daily-research-digest.md
 
 ## Raw Concept
 

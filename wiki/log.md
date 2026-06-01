@@ -4,6 +4,28 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-01] ingest | K93 — federated daily digest install + OmniVoice reject
+
+Processed `briefs/2026-06-01_k93-imagegen-digest-from-osint.md`.
+
+### Structural install
+
+- Ran `install_federated_daily_digest.sh` → `scripts/daily_research_digest_run.py`, `scripts/daily_research_fetch.py`, `scripts/daily_research_config.yaml` (image-gen topics), `wiki/sweeps/`, LaunchAgent `com.cemini.daily-research-digest.image-gen` @ 08:15, wrapper `~/bin/cemini-daily-research-digest-image-gen`
+
+### Wiki pages (4 new/updated + 3 enhanced)
+
+- `wiki/concepts/federated-daily-research-digest.md` — NEW (K93 federation spec + operator loop)
+- `wiki/meta/daily-research-digest-cadence.md` — expanded from install stub
+- `wiki/sweeps/_daily-template.md` — NEW
+- `wiki/entities/omnivoice.md` — K93 **Reject** (commercial license); K45 Adopt retracted
+- `wiki/concepts/persona-audio-stack.md`, `wiki/entities/persona-ops/fish-speech.md`, `wiki/index.md` — OmniVoice dead-end + index/meta rows
+
+### Lint
+
+0 bidirectional gaps after backlink pass.
+
+---
+
 ## [2026-05-22] ingest | brief triage — K57 + K55-2 (2 new briefs since 2026-05-21 batch)
 
 Processed briefs not covered in the 2026-05-21 18-brief triage:
