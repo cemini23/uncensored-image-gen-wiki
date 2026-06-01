@@ -22,9 +22,11 @@ related:
   - entities/models/sdxl-fine-tunes.md
   - entities/hardware/gpu-guide.md
   - concepts/two-pass-generation-workflow.md
+  - concepts/visual-to-visual-generation.md
+  - sources/arxiv-visual-to-visual-generation-2605-12271.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-05-09
+updated: 2026-06-01
 ---
 
 ## Relations

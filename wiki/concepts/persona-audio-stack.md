@@ -43,6 +43,10 @@ related:
   - entities/voicebox.md
   - entities/persona-ops/delive.md
   - concepts/federated-daily-research-digest.md
+  - concepts/sync-audio-video-customization.md
+  - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
+  - sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md
+  - entities/models/omnicustom.md
 maturity: validated
 created: 2026-05-09
 updated: 2026-06-01
@@ -74,6 +78,8 @@ updated: 2026-06-01
 @entities/voicebox.md — Layer 1 alternate: local-first multi-engine TTS voice studio
 @entities/persona-ops/delive.md — Apache-2.0 system-audio capture + ASR for TTS-output-to-text audit trail
 @concepts/federated-daily-research-digest.md
+@concepts/sync-audio-video-customization.md @entities/models/omnicustom.md @sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
+@sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md — REFERENCE-ONLY neuromorphic TTS research
 
 ## Raw Concept
 

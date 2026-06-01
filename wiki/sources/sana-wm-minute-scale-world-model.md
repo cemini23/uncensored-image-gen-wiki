@@ -11,10 +11,11 @@ related:
   - entities/models/ltx-2.md
   - entities/models/sana.md
   - sources/video-generation-survey-2026.md
+  - sources/arxiv-yocausal-world-model-benchmark-2605-30346.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-06-01
 ---
 
 ## Relations

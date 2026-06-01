@@ -28,9 +28,14 @@ related:
   - entities/lipsync/sadtalker.md
   - entities/lipsync/liveportrait.md
   - concepts/2026-05-13_gracia-ai-volumetric-video.md
+  - concepts/grpo-i2v-post-training.md
+  - concepts/sync-audio-video-customization.md
+  - sources/arxiv-tagrpo-i2v-grpo-2601-05729.md
+  - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
+  - entities/models/omnicustom.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-15
+updated: 2026-06-01
 ---
 
 ## Relations

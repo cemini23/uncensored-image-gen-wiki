@@ -49,6 +49,9 @@ related:
   - entities/uis/comfyui.md
   - entities/custom-nodes/impact-pack.md
   - entities/custom-nodes/bmab.md
+  - concepts/anti-personalization-privacy.md
+  - concepts/visual-to-visual-generation.md
+  - sources/arxiv-privacy-cross-image-anti-personalization-2504-12747.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-05-07

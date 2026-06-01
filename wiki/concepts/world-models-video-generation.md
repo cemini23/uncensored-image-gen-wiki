@@ -9,15 +9,19 @@ related:
   - concepts/camera-controlled-video-generation.md
   - concepts/hybrid-linear-attention.md
   - sources/video-generation-survey-2026.md
+  - sources/arxiv-yocausal-world-model-benchmark-2605-30346.md
+  - sources/arxiv-proprio-physics-video-2605-28230.md
+  - entities/models/wan-2-2.md
   - entities/models/ltx-2.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-05-17
+updated: 2026-06-01
 ---
 
 ## Relations
 
-@sources/sana-wm-minute-scale-world-model.md @entities/models/sana-wm.md @concepts/camera-controlled-video-generation.md @concepts/hybrid-linear-attention.md @sources/video-generation-survey-2026.md @entities/models/ltx-2.md
+@sources/sana-wm-minute-scale-world-model.md @entities/models/sana-wm.md @concepts/camera-controlled-video-generation.md @concepts/hybrid-linear-attention.md @sources/video-generation-survey-2026.md
+@sources/arxiv-yocausal-world-model-benchmark-2605-30346.md @sources/arxiv-proprio-physics-video-2605-28230.md @entities/models/wan-2-2.md
 
 ## Raw Concept
 
@@ -75,3 +79,9 @@ For the persona/character track, world models are a **research-layer reference, 
 - Whether the camera-trajectory control surface generalizes to richer action signals (object placement, character action, dialogue-driven scene mutation) without rebuilding the model from scratch
 - Single-photo / sparse-input entry — SANA-WM still needs a first frame; whether the first frame can come from a one-shot persona render (FLUX.1 / Z-Image) and survive minute-scale rollout
 - Whether the hybrid-attention + dual-branch-conditioning recipe transfers to non-camera action signals or has to be redesigned per control surface
+
+### Evaluation beyond clip quality (2026-06 ingest)
+
+**YoCausal** (@sources/arxiv-yocausal-world-model-benchmark-2605-30346.md) — tests whether VDMs understand **causality** vs merely **arrow of time**, by comparing denoising loss on forward vs temporally reversed real videos. **RSI** = time-direction perception; **CCI** = causal subset minus non-causal subset. Key finding: top models (incl. Wan2.2-A14B on cleaning tasks) still trail humans; physics/aesthetics scores do not substitute for causal cognition.
+
+**Proprio** (@sources/arxiv-proprio-physics-video-2605-28230.md) — **training-free** physics gate using the generator's own **flow residual** for best-of-N or noise refinement. Complements YoCausal (semantic causality) with **dynamic plausibility** scoring — useful post-filter on Wan I2V persona rolls before lipsync.

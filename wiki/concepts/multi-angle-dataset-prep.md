@@ -18,9 +18,12 @@ related:
   - entities/uis/comfyui.md
   - entities/training-tools/czkawka.md
   - concepts/persona-ops-stack.md
+  - concepts/video-identity-inheritance.md
+  - sources/arxiv-visual-to-visual-generation-2605-12271.md
+  - concepts/visual-to-visual-generation.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-22
+updated: 2026-06-01
 ---
 
 ## Relations

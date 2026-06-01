@@ -15,9 +15,11 @@ related:
   - concepts/likeness-collision-verification.md
   - concepts/marketing-your-persona.md
   - concepts/persona-ops-workflow.md
+  - concepts/anti-personalization-privacy.md
+  - sources/arxiv-privacy-cross-image-anti-personalization-2504-12747.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-11
+updated: 2026-06-01
 ---
 
 ## Relations

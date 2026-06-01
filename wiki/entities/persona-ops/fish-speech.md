@@ -29,9 +29,10 @@ related:
   - entities/omnivoice.md
   - entities/voicebox.md
   - entities/persona-ops/delive.md
+  - concepts/sync-audio-video-customization.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-15
+updated: 2026-06-01
 ---
 
 ## Relations

@@ -18,9 +18,11 @@ related:
   - concepts/synthetic-media-compute-economics.md
   - concepts/persona-audio-stack.md
   - entities/lipsync/latentsync.md
+  - concepts/grpo-i2v-post-training.md
+  - sources/arxiv-tagrpo-i2v-grpo-2601-05729.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-13
+updated: 2026-06-01
 ---
 
 ## Relations

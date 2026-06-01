@@ -24,9 +24,14 @@ related:
   - entities/uis/comfyui.md
   - concepts/persona-audio-stack.md
   - entities/lipsync/latentsync.md
+  - concepts/grpo-i2v-post-training.md
+  - sources/arxiv-tagrpo-i2v-grpo-2601-05729.md
+  - sources/arxiv-proprio-physics-video-2605-28230.md
+  - sources/arxiv-yocausal-world-model-benchmark-2605-30346.md
+  - concepts/world-models-video-generation.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-13
+updated: 2026-06-01
 ---
 
 ## Relations
@@ -97,6 +102,12 @@ Alibaba teased Wan 2.5 (native audio) and Wan 3.0 across late-2025 / early-2026 
 
 - **Mickmumpitz 96-angle Wan I2V** persona-consistency pipeline: production-grade multi-angle character dataset generation via Wan I2V from a single PuLID-anchored static master image. → @concepts/multi-angle-dataset-prep.md → @concepts/video-identity-inheritance.md [TENTATIVE]
 - **AIrt MAchIne** ComfyUI template uses an integrated LLM to translate the static master into a Wan-driven motion-prompt sequence.
+
+### Post-training and evaluation (2026-06)
+
+- **TAGRPO** — Tencent Hunyuan I2V GRPO post-training reports consistent reward gains on Wan 2.2 where T2V GRPO ports fail → @concepts/grpo-i2v-post-training.md
+- **YoCausal** — Wan2.2-A14B ranks among top VDMs on causal wipe/clean tasks; large human gap remains → @sources/arxiv-yocausal-world-model-benchmark-2605-30346.md
+- **Proprio** — training-free physics best-of-N / refinement compatible with TurboWan2.2 class checkpoints → @sources/arxiv-proprio-physics-video-2605-28230.md
 
 ## Snippets
 

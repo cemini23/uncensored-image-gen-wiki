@@ -21,9 +21,11 @@ related:
   - concepts/model-selection-workflow.md
   - entities/hardware/gpu-guide.md
   - entities/uis/comfyui.md
+  - concepts/visual-to-visual-generation.md
+  - sources/arxiv-visual-to-visual-generation-2605-12271.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-05-07
+updated: 2026-06-01
 ---
 
 ## Relations

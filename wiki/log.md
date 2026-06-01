@@ -4,6 +4,33 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-01] ingest | video/T2I/v2v cluster — 7 arXiv PDFs from daily digest inbox
+
+Per `wiki/sweeps/2026-06-01-inbox-triage.md`. preingest_check: 7/7 NEW. PDFs archived to `raw-sources/`.
+
+### Sources created (7)
+
+- `wiki/sources/arxiv-privacy-cross-image-anti-personalization-2504-12747.md`
+- `wiki/sources/arxiv-tagrpo-i2v-grpo-2601-05729.md`
+- `wiki/sources/arxiv-omnicustom-sync-audio-video-2602-12304.md`
+- `wiki/sources/arxiv-visual-to-visual-generation-2605-12271.md`
+- `wiki/sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md` (REFERENCE-ONLY)
+- `wiki/sources/arxiv-proprio-physics-video-2605-28230.md`
+- `wiki/sources/arxiv-yocausal-world-model-benchmark-2605-30346.md`
+
+### Concepts + entity (5 new + 1 stub)
+
+- `concepts/anti-personalization-privacy.md`, `grpo-i2v-post-training.md`, `sync-audio-video-customization.md`, `visual-to-visual-generation.md`
+- `entities/models/omnicustom.md` (stub)
+- Enhanced: `world-models-video-generation.md`, `video-identity-inheritance.md`, `persona-audio-stack.md`, `wan-2-2.md`, `hunyuanvideo-1-5.md`, `qwen-image-2512.md`, `multi-angle-dataset-prep.md`, `likeness-collision-verification.md`
+
+### Meta
+
+- `wiki/sweeps/2026-06-01-inbox-triage.md` — cluster verdict table
+- `wiki/index.md` — 7 source + 5 concept + 1 entity rows
+
+---
+
 ## [2026-06-01] ingest | K93 — federated daily digest install + OmniVoice reject
 
 Processed `briefs/2026-06-01_k93-imagegen-digest-from-osint.md`.

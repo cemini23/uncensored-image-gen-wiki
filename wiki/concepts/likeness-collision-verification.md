@@ -9,9 +9,11 @@ related:
   - concepts/character-dna-templates.md
   - concepts/persona-failure-modes.md
   - concepts/persona-legal-landscape.md
+  - concepts/anti-personalization-privacy.md
+  - sources/arxiv-privacy-cross-image-anti-personalization-2504-12747.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-05-07
+updated: 2026-06-01
 ---
 
 ## Relations

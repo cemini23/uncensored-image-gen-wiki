@@ -29,10 +29,14 @@ related:
   - entities/uis/comfyui.md
   - concepts/world-models-video-generation.md
   - sources/sana-wm-minute-scale-world-model.md
+  - concepts/grpo-i2v-post-training.md
+  - sources/arxiv-tagrpo-i2v-grpo-2601-05729.md
+  - sources/arxiv-proprio-physics-video-2605-28230.md
+  - sources/arxiv-yocausal-world-model-benchmark-2605-30346.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-05-16
+updated: 2026-06-01
 ---
 
 ## Relations

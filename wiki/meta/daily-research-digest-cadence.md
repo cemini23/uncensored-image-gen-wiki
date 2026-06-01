@@ -5,7 +5,9 @@ tags: [meta, wiki, automation, discovery, k93]
 keywords: [daily-research-digest, exa, sweep, discovery, ingest-pipeline, launchagent]
 related:
   - concepts/federated-daily-research-digest.md
+  - sweeps/2026-06-01-inbox-triage.md
   - sweeps/_daily-template.md
+  - sweeps/2026-06-01-daily.md
 maturity: core
 created: 2026-06-01
 updated: 2026-06-01

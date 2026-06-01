@@ -9,6 +9,8 @@ related:
   - concepts/persona-audio-stack.md
   - entities/omnivoice.md
   - sweeps/_daily-template.md
+  - sweeps/2026-06-01-inbox-triage.md
+  - sweeps/2026-06-01-daily.md
 maturity: validated
 created: 2026-06-01
 updated: 2026-06-01

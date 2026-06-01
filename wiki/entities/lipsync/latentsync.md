@@ -15,9 +15,12 @@ related:
   - entities/models/wan-2-2.md
   - entities/models/hunyuanvideo-1-5.md
   - sources/persona-ops-stack-2026.md
+  - concepts/sync-audio-video-customization.md
+  - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
+  - sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-06-01
 ---
 
 ## Relations
