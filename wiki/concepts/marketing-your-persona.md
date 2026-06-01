@@ -61,7 +61,7 @@ The image-gen wiki covers *what to generate and how to build a persona*. The SEO
 | **Competitor analysis** | Not covered | `@seo-wiki/concepts/competitor-analysis-local.md` — methodology for capturing competitors' strategies |
 | **Schema markup** | Not covered | `@seo-wiki/concepts/schema-markup-local.md` — JSON-LD for getting rich results |
 
-Use `@seo-wiki/...` cross-links below (public repo: `cemini23/SEO-GEO-B-M-Wiki`).
+Use `@seo-wiki/` cross-links below (public repo: `cemini23/SEO-GEO-B-M-Wiki`).
 
 ### Quick-start: what your friend should read first
 
@@ -130,4 +130,4 @@ Alternatively, you (the workspace owner) can ingest SEO/GEO wiki pages into this
 6. @seo-wiki/entities/platforms/tiktok.md           — TikTok mechanics
 ```
 
-All paths are `@seo-wiki/...` aliases (see `CLAUDE.md` → Related Wikis in either wiki).
+All paths use the `@seo-wiki/` alias prefix (see `CLAUDE.md` → Related Wikis in either wiki).
