@@ -7,10 +7,12 @@ related:
   - concepts/world-models-video-generation.md
   - entities/models/wan-2-2.md
   - sources/video-generation-survey-2026.md
+  - sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md
+  - sources/arxiv-yocausal-world-model-benchmark-2605-30346.md
 maturity: draft
 read_status: read
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 ## Relations

@@ -8,10 +8,12 @@ related:
   - entities/models/wan-2-2.md
   - sources/sana-wm-minute-scale-world-model.md
   - sources/video-generation-survey-2026.md
+  - sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md
+  - sources/arxiv-proprio-physics-video-2605-28230.md
 maturity: draft
 read_status: read
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 ## Relations

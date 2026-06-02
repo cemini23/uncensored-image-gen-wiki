@@ -31,6 +31,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [EventSpeech — neuromorphic event camera TTS (arXiv:2605.26672)](sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md) — REFERENCE-ONLY expressive speech from event streams — `paper, tts, reference-only`
 - [Proprio — physics self-scoring for video (arXiv:2605.28230)](sources/arxiv-proprio-physics-video-2605-28230.md) — training-free flow-residual best-of-N / refinement — `paper, physics, inference-time`
 - [YoCausal — VDM causality benchmark (arXiv:2605.30346)](sources/arxiv-yocausal-world-model-benchmark-2605-30346.md) — RSI/CCI metrics via reversed real-world videos — `paper, world-model, causality, benchmark`
+- [OptiWorld — optimal control for video world models (arXiv:2606.00499)](sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md) — inference-time planning under physical constraints before render — `paper, world-model, optimal-control, physics`
+- [Agent guardrail (routed to cybersec, arXiv:2605.29251)](sources/arxiv-2605-29251-provably-secure-agent-guardrail-routed.md) — dedup stub; full page in cybersecurity wiki — `paper, routed, cross-wiki`
 
 ---
 

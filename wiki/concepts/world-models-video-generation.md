@@ -11,17 +11,18 @@ related:
   - sources/video-generation-survey-2026.md
   - sources/arxiv-yocausal-world-model-benchmark-2605-30346.md
   - sources/arxiv-proprio-physics-video-2605-28230.md
+  - sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md
   - entities/models/wan-2-2.md
   - entities/models/ltx-2.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 ## Relations
 
 @sources/sana-wm-minute-scale-world-model.md @entities/models/sana-wm.md @concepts/camera-controlled-video-generation.md @concepts/hybrid-linear-attention.md @sources/video-generation-survey-2026.md
-@sources/arxiv-yocausal-world-model-benchmark-2605-30346.md @sources/arxiv-proprio-physics-video-2605-28230.md @entities/models/wan-2-2.md
+@sources/arxiv-yocausal-world-model-benchmark-2605-30346.md @sources/arxiv-proprio-physics-video-2605-28230.md @sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md @entities/models/wan-2-2.md
 
 ## Raw Concept
 
@@ -85,3 +86,5 @@ For the persona/character track, world models are a **research-layer reference, 
 **YoCausal** (@sources/arxiv-yocausal-world-model-benchmark-2605-30346.md) — tests whether VDMs understand **causality** vs merely **arrow of time**, by comparing denoising loss on forward vs temporally reversed real videos. **RSI** = time-direction perception; **CCI** = causal subset minus non-causal subset. Key finding: top models (incl. Wan2.2-A14B on cleaning tasks) still trail humans; physics/aesthetics scores do not substitute for causal cognition.
 
 **Proprio** (@sources/arxiv-proprio-physics-video-2605-28230.md) — **training-free** physics gate using the generator's own **flow residual** for best-of-N or noise refinement. Complements YoCausal (semantic causality) with **dynamic plausibility** scoring — useful post-filter on Wan I2V persona rolls before lipsync.
+
+**OptiWorld** (@sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md) — **inference-time optimal control** before rendering: zero-shot world-state extraction → Riemannian-manifold trajectory planning under safety/smoothness/efficiency constraints → video conditioned on the plan. Proactive motion vs Proprio's post-hoc scoring; pairs with 3D-aware video backbones `[NEEDS VERIFICATION 2026-06-02]` for local Wan/SANA-WM stacks.

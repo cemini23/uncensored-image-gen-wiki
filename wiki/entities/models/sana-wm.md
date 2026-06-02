@@ -10,9 +10,10 @@ related:
   - concepts/hybrid-linear-attention.md
   - entities/models/sana.md
   - entities/models/ltx-2.md
+  - sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md
 maturity: validated
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-06-02
 ---
 
 ## Relations

@@ -30,6 +30,32 @@ except ImportError:
 from daily_research_fetch import FetchOutcome, fetch_papers  # noqa: E402
 
 
+FRONTMATTER_RE = re.compile(r"^---\n(.*?)\n---\n", re.DOTALL)
+
+
+def default_sweep_frontmatter(today: date, repo: Path) -> str:
+    triage = f"sweeps/{today.isoformat()}-inbox-triage.md"
+    related = [
+        "  - meta/daily-research-digest-cadence.md",
+        "  - concepts/federated-daily-research-digest.md",
+    ]
+    if (repo / "wiki" / triage).is_file():
+        related.append(f"  - {triage}")
+    rel_block = "\n".join(related)
+    return f"""---
+title: Daily Research Digest — {today.isoformat()}
+type: brief
+tags: [meta, sweep, digest]
+maturity: draft
+created: {today.isoformat()}
+updated: {today.isoformat()}
+related:
+{rel_block}
+---
+
+"""
+
+
 def load_exa_key() -> str:
     if os.environ.get("EXA_API_KEY"):
         return os.environ["EXA_API_KEY"].strip()
@@ -376,7 +402,14 @@ def main() -> int:
         ]
     )
 
-    report.write_text("\n".join(lines), encoding="utf-8")
+    body = "\n".join(lines)
+    prefix = default_sweep_frontmatter(today, repo)
+    if report.is_file():
+        existing = report.read_text(encoding="utf-8")
+        m = FRONTMATTER_RE.match(existing)
+        if m:
+            prefix = m.group(0) + "\n"
+    report.write_text(prefix + body, encoding="utf-8")
     print(f"Report: {report}")
     if n_fetched:
         print(f"Inbox: {n_fetched} new PDF(s) in research to be indexed/")

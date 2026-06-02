@@ -8,9 +8,11 @@ related:
   - sweeps/2026-06-01-inbox-triage.md
   - sweeps/_daily-template.md
   - sweeps/2026-06-01-daily.md
+  - sweeps/2026-06-02-daily.md
+  - sweeps/2026-06-02-inbox-triage.md
 maturity: core
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-02
 ---
 
 ## Relations

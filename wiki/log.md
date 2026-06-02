@@ -4,6 +4,25 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-02] ingest | daily digest inbox — OptiWorld + guardrail routing (2 PDFs)
+
+Per `wiki/sweeps/2026-06-02-inbox-triage.md`. Scheduled 08:15 LaunchAgent failed (exit 2); digest re-run manually. preingest_check: 2/2 NEW. PDFs archived to `raw-sources/`.
+
+### Sources created (1)
+
+- `wiki/sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md`
+
+### Routed (dedup stub)
+
+- `wiki/sources/arxiv-2605-29251-provably-secure-agent-guardrail-routed.md` — cybersec primary; stops daily re-fetch
+
+### Enhanced
+
+- `concepts/world-models-video-generation.md`, `entities/models/wan-2-2.md`, `sources/video-generation-survey-2026.md`, `sources/arxiv-proprio-physics-video-2605-28230.md`, `sources/arxiv-yocausal-world-model-benchmark-2605-30346.md`
+- `wiki/sweeps/2026-06-02-inbox-triage.md`, `wiki/index.md`
+
+---
+
 ## [2026-06-01] ingest | video/T2I/v2v cluster — 7 arXiv PDFs from daily digest inbox
 
 Per `wiki/sweeps/2026-06-01-inbox-triage.md`. preingest_check: 7/7 NEW. PDFs archived to `raw-sources/`.
