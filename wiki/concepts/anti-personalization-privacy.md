@@ -17,7 +17,7 @@ updated: 2026-06-03
 
 ## Relations
 
-@sources/arxiv-privacy-cross-image-anti-personalization-2504-12747.md @concepts/likeness-collision-verification.md @concepts/persona-consistency-methods.md @concepts/persona-failure-modes.md
+@sources/arxiv-privacy-cross-image-anti-personalization-2504-12747.md @concepts/likeness-collision-verification.md @concepts/persona-consistency-methods.md @concepts/persona-failure-modes.md @concepts/t2i-model-ownership-verification.md @sources/arxiv-2605-29809-cert-las-t2i-mov.md
 
 ## Raw Concept
 

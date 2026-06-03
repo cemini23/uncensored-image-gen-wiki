@@ -6,9 +6,32 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ## [2026-06-03] ingest | K95 — 6 arXiv (daily digest)
 
-- **Sources (6)** — MLLM video translation 2604.11283, Cert-LAS 2605.29809, DecMem 2605.31336, geo-cultural safety 2606.00369, DSR cross-modal jailbreak 2606.01837, Foley-Omni 2606.03672
-- **Concepts/entities** — mllm-video-translation, t2i-model-ownership-verification, decmem, pluralistic-safety-alignment, cross-modal-jailbreak-dsr, foley-omni
-- **PDFs** → librarian; inbox cleared
+K95 batch from `wiki/sweeps/2026-06-03-daily.md` inbox. preingest: 6 NEW, 0 dupes.
+
+### Sources created (6)
+
+- `wiki/sources/arxiv-2604-11283-mllm-video-translation-survey.md`
+- `wiki/sources/arxiv-2605-29809-cert-las-t2i-mov.md`
+- `wiki/sources/arxiv-2605-31336-decmem-world-generation.md`
+- `wiki/sources/arxiv-2606-00369-geo-cultural-safety-alignment.md`
+- `wiki/sources/arxiv-2606-01837-dsr-cross-modal-jailbreak.md`
+- `wiki/sources/arxiv-2606-03672-foley-omni.md`
+
+### Entities created (2)
+
+- `wiki/entities/models/decmem.md`, `wiki/entities/models/foley-omni.md`
+
+### Concepts created (4)
+
+- `wiki/concepts/mllm-video-translation.md`, `wiki/concepts/t2i-model-ownership-verification.md`, `wiki/concepts/pluralistic-safety-alignment.md`, `wiki/concepts/cross-modal-jailbreak-dsr.md`
+
+### Updated
+
+- `world-models-video-generation.md`, `persona-audio-stack.md`, `prompt-engineering-uncensored.md`, `anti-personalization-privacy.md`, `censorship-tier-taxonomy.md`, `sana-wm.md`, `index.md`
+
+### Raw sources
+
+PDFs → `cemini-librarian:/opt/cemini-bulk/research/`; inbox cleared.
 
 ## [2026-06-02] ingest | daily digest inbox — OptiWorld + guardrail routing (2 PDFs)
 

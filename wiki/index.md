@@ -33,12 +33,12 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [YoCausal — VDM causality benchmark (arXiv:2605.30346)](sources/arxiv-yocausal-world-model-benchmark-2605-30346.md) — RSI/CCI metrics via reversed real-world videos — `paper, world-model, causality, benchmark`
 - [OptiWorld — optimal control for video world models (arXiv:2606.00499)](sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md) — inference-time planning under physical constraints before render — `paper, world-model, optimal-control, physics`
 - [Agent guardrail (routed to cybersec, arXiv:2605.29251)](sources/arxiv-2605-29251-provably-secure-agent-guardrail-routed.md) — dedup stub; full page in cybersecurity wiki — `paper, routed, cross-wiki`
-- [MLLM video translation survey (arXiv:2604.11283)](sources/arxiv-2604-11283-mllm-video-translation-survey.md) — K95 — `paper, video, mllm, k95`
-- [Cert-LAS T2I/MoV ownership (arXiv:2605.29809)](sources/arxiv-2605-29809-cert-las-t2i-mov.md) — K95 — `paper, ownership, k95`
-- [DecMem world generation (arXiv:2605.31336)](sources/arxiv-2605-31336-decmem-world-generation.md) — K95 — `paper, world-model, k95`
-- [Geo-cultural safety alignment (arXiv:2606.00369)](sources/arxiv-2606-00369-geo-cultural-safety-alignment.md) — K95 — `paper, safety, k95`
-- [DSR cross-modal jailbreak (arXiv:2606.01837)](sources/arxiv-2606-01837-dsr-cross-modal-jailbreak.md) — K95 — `paper, jailbreak, k95`
-- [Foley-Omni multimodal generation (arXiv:2606.03672)](sources/arxiv-2606-03672-foley-omni.md) — K95 — `paper, audio-video, k95`
+- [MLLM Video Translation — Role-Oriented Survey (arXiv:2604.11283)](sources/arxiv-2604-11283-mllm-video-translation-survey.md) — MLLM roles (semantic reasoner / expressive performer / visual synthesizer) replacing cascaded dubbing pipelines — `paper, survey, video-translation, mllm, lipsync, dubbing`
+- [Cert-LAS — Certified T2I Model Ownership Verification (arXiv:2605.29809)](sources/arxiv-2605-29809-cert-las-t2i-mov.md) — layer-adaptive smoothing for robust diffusion watermark MOV under removal attacks — `paper, security, watermarking, t2i, ip`
+- [DecMem — Minute-Long Consistent World Generation (arXiv:2605.31336)](sources/arxiv-2605-31336-decmem-world-generation.md) — decoupled sparse-global + anchored-local memory for Kling world models — `paper, world-model, memory, long-horizon, kling`
+- [Geo-Cultural Values for Pluralistic Safety Alignment (arXiv:2606.00369)](sources/arxiv-2606-00369-geo-cultural-safety-alignment.md) — Inglehart-Welzel cultural zones explain safety-rating variance beyond demographics — `paper, safety, alignment, culture, rlhf`
+- [DSR — Cross-Modal Jailbreaking (arXiv:2606.01837)](sources/arxiv-2606-01837-dsr-cross-modal-jailbreak.md) — benign primitives recomposed into harmful MLLM outputs at inference — `paper, security, jailbreak, mllm, red-team`
+- [Foley-Omni — Unified Video Soundtrack Generation (arXiv:2606.03672)](sources/arxiv-2606-03672-foley-omni.md) — joint speech + SFX + music V2ST in one latent process; V2ST-Bench — `paper, audio, foley, v2st, unified-generation`
 
 ---
 
