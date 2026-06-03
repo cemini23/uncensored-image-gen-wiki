@@ -6,7 +6,7 @@ keywords: [DSR, distributed semantic recomposition, cross-modal jailbreak, benig
 related:
   - sources/arxiv-2606-01837-dsr-cross-modal-jailbreak.md
   - concepts/prompt-engineering-uncensored.md
-  - sources/uncensored-image-generation-survey-2026.md
+  - sources/uncensored-image-generation-survey.md
 maturity: draft
 created: 2026-06-03
 updated: 2026-06-03
@@ -14,7 +14,7 @@ updated: 2026-06-03
 
 ## Relations
 
-@sources/arxiv-2606-01837-dsr-cross-modal-jailbreak.md @concepts/prompt-engineering-uncensored.md @sources/uncensored-image-generation-survey-2026.md
+@sources/arxiv-2606-01837-dsr-cross-modal-jailbreak.md @concepts/prompt-engineering-uncensored.md @sources/uncensored-image-generation-survey.md
 
 ## Raw Concept
 

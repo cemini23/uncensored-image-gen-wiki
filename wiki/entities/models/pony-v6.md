@@ -30,9 +30,10 @@ related:
   - entities/hardware/gpu-guide.md
   - entities/uis/automatic1111.md
   - entities/uis/forge.md
+  - sources/arxiv-2605-29809-cert-las-t2i-mov.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-06-03
 ---
 
 ## Relations

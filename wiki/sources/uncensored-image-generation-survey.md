@@ -32,9 +32,15 @@ related:
   - entities/uis/forge.md
   - entities/uis/invokeai.md
   - entities/uis/swarmui.md
+  - concepts/pluralistic-safety-alignment.md
+  - concepts/t2i-model-ownership-verification.md
+  - concepts/cross-modal-jailbreak-dsr.md
+  - sources/arxiv-2605-29809-cert-las-t2i-mov.md
+  - sources/arxiv-2606-00369-geo-cultural-safety-alignment.md
+  - sources/arxiv-2606-01837-dsr-cross-modal-jailbreak.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-06-03
 read_status: deep-read
 provenance:
   title: Comprehensive Survey of Uncensored Local Image Generation Models and Frameworks (May 2026)

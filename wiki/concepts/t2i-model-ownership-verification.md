@@ -6,7 +6,7 @@ keywords: [MOV, model ownership verification, Cert-LAS, diffusion watermarking, 
 related:
   - sources/arxiv-2605-29809-cert-las-t2i-mov.md
   - concepts/anti-personalization-privacy.md
-  - sources/uncensored-image-generation-survey-2026.md
+  - sources/uncensored-image-generation-survey.md
   - entities/models/flux-1-dev.md
 maturity: draft
 created: 2026-06-03
@@ -15,7 +15,7 @@ updated: 2026-06-03
 
 ## Relations
 
-@sources/arxiv-2605-29809-cert-las-t2i-mov.md @concepts/anti-personalization-privacy.md @sources/uncensored-image-generation-survey-2026.md @entities/models/flux-1-dev.md
+@sources/arxiv-2605-29809-cert-las-t2i-mov.md @concepts/anti-personalization-privacy.md @sources/uncensored-image-generation-survey.md @entities/models/flux-1-dev.md
 
 ## Raw Concept
 

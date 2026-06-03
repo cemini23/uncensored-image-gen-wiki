@@ -11,9 +11,10 @@ related:
   - entities/models/z-image-turbo.md
   - entities/models/qwen-image-2512.md
   - entities/uis/comfyui.md
+  - entities/models/decmem.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-06-03
 ---
 
 ## Relations

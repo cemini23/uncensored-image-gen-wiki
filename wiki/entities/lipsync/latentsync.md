@@ -18,9 +18,11 @@ related:
   - concepts/sync-audio-video-customization.md
   - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
   - sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md
+  - concepts/mllm-video-translation.md
+  - sources/arxiv-2604-11283-mllm-video-translation-survey.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-01
+updated: 2026-06-03
 ---
 
 ## Relations

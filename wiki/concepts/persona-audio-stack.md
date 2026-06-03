@@ -50,6 +50,7 @@ related:
   - entities/models/foley-omni.md
   - sources/arxiv-2606-03672-foley-omni.md
   - entities/models/omnicustom.md
+  - sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md
 maturity: validated
 created: 2026-05-09
 updated: 2026-06-03

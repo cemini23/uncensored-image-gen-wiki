@@ -9,10 +9,13 @@ related:
   - concepts/persona-audio-stack.md
   - concepts/video-identity-inheritance.md
   - entities/lipsync/latentsync.md
+  - entities/models/foley-omni.md
+  - sources/arxiv-2604-11283-mllm-video-translation-survey.md
+  - sources/arxiv-2606-03672-foley-omni.md
 maturity: draft
 read_status: read
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-03
 ---
 
 ## Relations

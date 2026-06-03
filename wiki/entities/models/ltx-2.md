@@ -14,9 +14,12 @@ related:
   - entities/models/sana-wm.md
   - sources/sana-wm-minute-scale-world-model.md
   - concepts/world-models-video-generation.md
+  - entities/models/foley-omni.md
+  - sources/arxiv-2604-11283-mllm-video-translation-survey.md
+  - sources/arxiv-2606-03672-foley-omni.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-17
+updated: 2026-06-03
 ---
 
 ## Relations

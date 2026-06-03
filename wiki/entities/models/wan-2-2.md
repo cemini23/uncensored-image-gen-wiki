@@ -30,9 +30,11 @@ related:
   - sources/arxiv-yocausal-world-model-benchmark-2605-30346.md
   - sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md
   - concepts/world-models-video-generation.md
+  - entities/models/decmem.md
+  - sources/arxiv-2605-31336-decmem-world-generation.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-02
+updated: 2026-06-03
 ---
 
 ## Relations

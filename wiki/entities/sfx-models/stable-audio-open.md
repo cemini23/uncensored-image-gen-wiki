@@ -12,9 +12,11 @@ related:
   - entities/sfx-models/audio-omni.md
   - entities/voice-models/bark.md
   - sources/persona-ops-stack-2026.md
+  - entities/models/foley-omni.md
+  - sources/arxiv-2606-03672-foley-omni.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-06-03
 ---
 
 ## Relations

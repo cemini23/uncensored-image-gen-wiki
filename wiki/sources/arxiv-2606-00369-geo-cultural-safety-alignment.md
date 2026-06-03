@@ -7,6 +7,7 @@ related:
   - concepts/pluralistic-safety-alignment.md
   - sources/uncensored-image-generation-survey.md
   - concepts/prompt-engineering-uncensored.md
+  - concepts/censorship-tier-taxonomy.md
 maturity: draft
 read_status: read
 created: 2026-06-03

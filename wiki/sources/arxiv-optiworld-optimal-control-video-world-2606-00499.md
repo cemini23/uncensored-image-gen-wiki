@@ -10,12 +10,11 @@ related:
   - sources/video-generation-survey-2026.md
   - entities/models/wan-2-2.md
   - entities/models/sana-wm.md
-  - sources/arxiv-proprio-physics-video-2605-28230.md
-  - sources/arxiv-yocausal-world-model-benchmark-2605-30346.md
+  - sources/arxiv-2605-31336-decmem-world-generation.md
 maturity: draft
 read_status: read
 created: 2026-06-02
-updated: 2026-06-02
+updated: 2026-06-03
 ---
 
 ## Relations

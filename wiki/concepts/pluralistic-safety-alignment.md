@@ -5,7 +5,7 @@ tags: [concept, safety, alignment, culture, moderation, rlhf]
 keywords: [pluralistic safety, geo-cultural values, Inglehart-Welzel, RLHF homogeneity, cultural zone, refusal behavior, Eastern Vanguard]
 related:
   - sources/arxiv-2606-00369-geo-cultural-safety-alignment.md
-  - sources/uncensored-image-generation-survey-2026.md
+  - sources/uncensored-image-generation-survey.md
   - concepts/prompt-engineering-uncensored.md
   - concepts/censorship-tier-taxonomy.md
 maturity: draft
@@ -15,7 +15,7 @@ updated: 2026-06-03
 
 ## Relations
 
-@sources/arxiv-2606-00369-geo-cultural-safety-alignment.md @sources/uncensored-image-generation-survey-2026.md @concepts/prompt-engineering-uncensored.md @concepts/censorship-tier-taxonomy.md
+@sources/arxiv-2606-00369-geo-cultural-safety-alignment.md @sources/uncensored-image-generation-survey.md @concepts/prompt-engineering-uncensored.md @concepts/censorship-tier-taxonomy.md
 
 ## Raw Concept
 
@@ -26,7 +26,7 @@ Concept stub from K95 ingest — arXiv:2606.00369 quantifying geo-cultural salie
 **Safety alignment** datasets (RLHF, harm classifiers) are mostly **geo-culturally homogeneous** — rater demographics alone do not capture **cultural value systems** (Inglehart-Welzel dimensions). Consequences:
 
 - ~10% of safety items may be **culturally sensitive** — mislabeled "safe" without diverse cultural raters `[TENTATIVE]` per paper abstract
-- **Western-aligned bases** over-refuse on content other zones treat as benign — explains divergence in @sources/uncensored-image-generation-survey-2026.md **Eastern Vanguard vs Western alignment** axis
+- **Western-aligned bases** over-refuse on content other zones treat as benign — explains divergence in @sources/uncensored-image-generation-survey.md **Eastern Vanguard vs Western alignment** axis
 - **LLM-as-judge** for safety is unreliable as cultural surrogate; useful for triage only
 
 ### Implications for uncensored local gen
