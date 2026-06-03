@@ -15,6 +15,8 @@ related:
   - entities/models/noobai-xl.md
   - concepts/lora-taxonomy.md
   - concepts/de-censoring-techniques.md
+  - concepts/pluralistic-safety-alignment.md
+  - sources/arxiv-2606-00369-geo-cultural-safety-alignment.md
   - entities/models/anima.md
   - entities/models/z-image-turbo.md
   - entities/models/qwen-image-2512.md

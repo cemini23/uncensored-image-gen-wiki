@@ -4,6 +4,12 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-03] ingest | K95 — 6 arXiv (daily digest)
+
+- **Sources (6)** — MLLM video translation 2604.11283, Cert-LAS 2605.29809, DecMem 2605.31336, geo-cultural safety 2606.00369, DSR cross-modal jailbreak 2606.01837, Foley-Omni 2606.03672
+- **Concepts/entities** — mllm-video-translation, t2i-model-ownership-verification, decmem, pluralistic-safety-alignment, cross-modal-jailbreak-dsr, foley-omni
+- **PDFs** → librarian; inbox cleared
+
 ## [2026-06-02] ingest | daily digest inbox — OptiWorld + guardrail routing (2 PDFs)
 
 Per `wiki/sweeps/2026-06-02-inbox-triage.md`. Scheduled 08:15 LaunchAgent failed (exit 2); digest re-run manually. preingest_check: 2/2 NEW. PDFs archived to `raw-sources/`.

@@ -33,6 +33,12 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [YoCausal — VDM causality benchmark (arXiv:2605.30346)](sources/arxiv-yocausal-world-model-benchmark-2605-30346.md) — RSI/CCI metrics via reversed real-world videos — `paper, world-model, causality, benchmark`
 - [OptiWorld — optimal control for video world models (arXiv:2606.00499)](sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md) — inference-time planning under physical constraints before render — `paper, world-model, optimal-control, physics`
 - [Agent guardrail (routed to cybersec, arXiv:2605.29251)](sources/arxiv-2605-29251-provably-secure-agent-guardrail-routed.md) — dedup stub; full page in cybersecurity wiki — `paper, routed, cross-wiki`
+- [MLLM video translation survey (arXiv:2604.11283)](sources/arxiv-2604-11283-mllm-video-translation-survey.md) — K95 — `paper, video, mllm, k95`
+- [Cert-LAS T2I/MoV ownership (arXiv:2605.29809)](sources/arxiv-2605-29809-cert-las-t2i-mov.md) — K95 — `paper, ownership, k95`
+- [DecMem world generation (arXiv:2605.31336)](sources/arxiv-2605-31336-decmem-world-generation.md) — K95 — `paper, world-model, k95`
+- [Geo-cultural safety alignment (arXiv:2606.00369)](sources/arxiv-2606-00369-geo-cultural-safety-alignment.md) — K95 — `paper, safety, k95`
+- [DSR cross-modal jailbreak (arXiv:2606.01837)](sources/arxiv-2606-01837-dsr-cross-modal-jailbreak.md) — K95 — `paper, jailbreak, k95`
+- [Foley-Omni multimodal generation (arXiv:2606.03672)](sources/arxiv-2606-03672-foley-omni.md) — K95 — `paper, audio-video, k95`
 
 ---
 

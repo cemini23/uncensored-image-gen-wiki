@@ -23,6 +23,10 @@ related:
   - entities/hardware/gpu-guide.md
   - concepts/two-pass-generation-workflow.md
   - concepts/visual-to-visual-generation.md
+  - concepts/pluralistic-safety-alignment.md
+  - concepts/cross-modal-jailbreak-dsr.md
+  - sources/arxiv-2606-00369-geo-cultural-safety-alignment.md
+  - sources/arxiv-2606-01837-dsr-cross-modal-jailbreak.md
   - sources/arxiv-visual-to-visual-generation-2605-12271.md
 maturity: validated
 created: 2026-05-09

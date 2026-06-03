@@ -10,9 +10,11 @@ related:
   - concepts/video-identity-inheritance.md
   - entities/persona-ops/fish-speech.md
   - entities/lipsync/latentsync.md
+  - sources/arxiv-2604-11283-mllm-video-translation-survey.md
+  - concepts/mllm-video-translation.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-03
 ---
 
 ## Relations

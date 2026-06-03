@@ -45,11 +45,14 @@ related:
   - concepts/federated-daily-research-digest.md
   - concepts/sync-audio-video-customization.md
   - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
-  - sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md
+  - sources/arxiv-2604-11283-mllm-video-translation-survey.md
+  - concepts/mllm-video-translation.md
+  - entities/models/foley-omni.md
+  - sources/arxiv-2606-03672-foley-omni.md
   - entities/models/omnicustom.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-06-01
+updated: 2026-06-03
 ---
 
 ## Relations
