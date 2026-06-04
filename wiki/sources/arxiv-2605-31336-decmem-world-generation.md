@@ -10,6 +10,8 @@ related:
   - entities/models/wan-2-2.md
   - sources/sana-wm-minute-scale-world-model.md
   - sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md
+  - concepts/long-video-rag-retrieval.md
+  - sources/arxiv-2606-02553-longlive-rag-long-video-generation.md
 maturity: draft
 read_status: read
 created: 2026-06-03

@@ -33,9 +33,11 @@ related:
   - sources/arxiv-tagrpo-i2v-grpo-2601-05729.md
   - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
   - entities/models/omnicustom.md
+  - concepts/autoregressive-video-foresight-training.md
+  - sources/arxiv-2606-03971-video-mirai-autoregressive-foresight.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-01
+updated: 2026-06-04
 ---
 
 ## Relations

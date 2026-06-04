@@ -52,6 +52,12 @@ related:
   - concepts/anti-personalization-privacy.md
   - concepts/visual-to-visual-generation.md
   - sources/arxiv-privacy-cross-image-anti-personalization-2504-12747.md
+  - concepts/long-video-rag-retrieval.md
+  - concepts/autoregressive-video-foresight-training.md
+  - concepts/knowledge-graph-structured-video-control.md
+  - sources/arxiv-2605-29509-kgedit-knowledge-graph-video-editing.md
+  - sources/arxiv-2606-02553-longlive-rag-long-video-generation.md
+  - sources/arxiv-2606-03971-video-mirai-autoregressive-foresight.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-05-07

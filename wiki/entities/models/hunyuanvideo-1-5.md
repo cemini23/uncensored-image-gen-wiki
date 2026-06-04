@@ -20,6 +20,8 @@ related:
   - entities/lipsync/latentsync.md
   - concepts/grpo-i2v-post-training.md
   - sources/arxiv-tagrpo-i2v-grpo-2601-05729.md
+  - sources/arxiv-2605-29509-kgedit-knowledge-graph-video-editing.md
+  - concepts/knowledge-graph-structured-video-control.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-06-01

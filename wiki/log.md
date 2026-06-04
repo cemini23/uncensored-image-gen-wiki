@@ -4,6 +4,28 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-04] ingest | daily digest inbox — KGEdit, LongLive-RAG, Video-Mirai (3 PDFs)
+
+Per `wiki/sweeps/2026-06-04-inbox-triage.md`. preingest_check: 3/3 NEW. PDFs archived to `raw-sources/`.
+
+### Sources created (3)
+
+- `wiki/sources/arxiv-2605-29509-kgedit-knowledge-graph-video-editing.md`
+- `wiki/sources/arxiv-2606-02553-longlive-rag-long-video-generation.md`
+- `wiki/sources/arxiv-2606-03971-video-mirai-autoregressive-foresight.md`
+
+### Concepts (3)
+
+- `concepts/knowledge-graph-structured-video-control.md`
+- `concepts/long-video-rag-retrieval.md`
+- `concepts/autoregressive-video-foresight-training.md`
+
+### Enhanced
+
+- `world-models-video-generation.md`, `seam-stitching-strategies.md`, `prompt-engineering-uncensored.md`, `persona-consistency-methods.md`, `video-identity-inheritance.md`, `grpo-i2v-post-training.md`, `visual-to-visual-generation.md`, `entities/models/wan-2-2.md`, `entities/models/decmem.md`, `entities/models/hunyuanvideo-1-5.md`, `sources/video-generation-survey-2026.md`, `wiki/index.md`
+
+---
+
 ## [2026-06-03] ingest | K95 — 6 arXiv (daily digest)
 
 K95 batch from `wiki/sweeps/2026-06-03-daily.md` inbox. preingest: 6 NEW, 0 dupes.

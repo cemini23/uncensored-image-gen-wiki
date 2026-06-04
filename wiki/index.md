@@ -39,6 +39,9 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Geo-Cultural Values for Pluralistic Safety Alignment (arXiv:2606.00369)](sources/arxiv-2606-00369-geo-cultural-safety-alignment.md) — Inglehart-Welzel cultural zones explain safety-rating variance beyond demographics — `paper, safety, alignment, culture, rlhf`
 - [DSR — Cross-Modal Jailbreaking (arXiv:2606.01837)](sources/arxiv-2606-01837-dsr-cross-modal-jailbreak.md) — benign primitives recomposed into harmful MLLM outputs at inference — `paper, security, jailbreak, mllm, red-team`
 - [Foley-Omni — Unified Video Soundtrack Generation (arXiv:2606.03672)](sources/arxiv-2606-03672-foley-omni.md) — joint speech + SFX + music V2ST in one latent process; V2ST-Bench — `paper, audio, foley, v2st, unified-generation`
+- [KGEdit — knowledge-graph T2V control (arXiv:2605.29509)](sources/arxiv-2605-29509-kgedit-knowledge-graph-video-editing.md) — training-free AAKG/SSIM/TASC structured semantic control — `paper, t2v, knowledge-graph, training-free`
+- [LongLive-RAG — RAG for AR long video (arXiv:2606.02553)](sources/arxiv-2606-02553-longlive-rag-long-video-generation.md) — retrieve non-local latents against sliding-window drift — `paper, long-horizon, rag, nvidia`
+- [Video-Mirai — foresight training for AR video (arXiv:2606.03971)](sources/arxiv-2606-03971-video-mirai-autoregressive-foresight.md) — future-informed representation alignment; inference unchanged — `paper, autoregressive, training, consistency`
 
 ---
 
@@ -241,6 +244,9 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [GRPO post-training for I2V (TAGRPO)](concepts/grpo-i2v-post-training.md) — trajectory-aligned GRPO for Wan 2.2 / HunyuanVideo — `i2v, grpo, post-training`
 - [Sync audio-video customization](concepts/sync-audio-video-customization.md) — OmniCustom task tier; unified identity + timbre + BGS — `audio-video, customization`
 - [Visual-to-visual generation (V2V)](concepts/visual-to-visual-generation.md) — visual specification pages via VLM hidden states; V2V-Zero training-free — `v2v, conditioning`
+- [Knowledge-graph structured video control (KGEdit)](concepts/knowledge-graph-structured-video-control.md) — AAKG + SSIM + TASC training-free T2V semantic control — `t2v, knowledge-graph, training-free`
+- [Long-video RAG retrieval (LongLive-RAG)](concepts/long-video-rag-retrieval.md) — RAG over self-generated latents for AR long video — `long-horizon, rag, memory`
+- [Autoregressive video foresight training (Video-Mirai)](concepts/autoregressive-video-foresight-training.md) — future-informed representation alignment for causal video diffusion — `autoregressive, training, consistency`
 
 ### Meta (wiki operations)
 

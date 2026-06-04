@@ -28,9 +28,11 @@ related:
   - sources/arxiv-2606-00369-geo-cultural-safety-alignment.md
   - sources/arxiv-2606-01837-dsr-cross-modal-jailbreak.md
   - sources/arxiv-visual-to-visual-generation-2605-12271.md
+  - concepts/knowledge-graph-structured-video-control.md
+  - sources/arxiv-2605-29509-kgedit-knowledge-graph-video-editing.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-06-01
+updated: 2026-06-04
 ---
 
 ## Relations

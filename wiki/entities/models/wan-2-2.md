@@ -32,9 +32,15 @@ related:
   - concepts/world-models-video-generation.md
   - entities/models/decmem.md
   - sources/arxiv-2605-31336-decmem-world-generation.md
+  - sources/arxiv-2605-29509-kgedit-knowledge-graph-video-editing.md
+  - sources/arxiv-2606-02553-longlive-rag-long-video-generation.md
+  - sources/arxiv-2606-03971-video-mirai-autoregressive-foresight.md
+  - concepts/long-video-rag-retrieval.md
+  - concepts/autoregressive-video-foresight-training.md
+  - concepts/knowledge-graph-structured-video-control.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-03
+updated: 2026-06-04
 ---
 
 ## Relations

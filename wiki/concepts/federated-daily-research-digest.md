@@ -15,9 +15,11 @@ related:
   - sweeps/2026-06-02-daily.md
   - sources/arxiv-2605-29251-provably-secure-agent-guardrail-routed.md
   - sweeps/2026-06-03-daily.md
+  - sweeps/2026-06-04-daily.md
+  - sweeps/2026-06-04-inbox-triage.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-03
+updated: 2026-06-04
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

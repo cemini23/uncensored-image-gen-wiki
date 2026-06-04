@@ -9,9 +9,11 @@ related:
   - entities/models/hunyuanvideo-1-5.md
   - concepts/video-identity-inheritance.md
   - sources/video-generation-survey-2026.md
+  - concepts/autoregressive-video-foresight-training.md
+  - sources/arxiv-2606-03971-video-mirai-autoregressive-foresight.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-04
 ---
 
 ## Relations

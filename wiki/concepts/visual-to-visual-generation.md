@@ -9,9 +9,10 @@ related:
   - concepts/multi-angle-dataset-prep.md
   - concepts/prompt-engineering-uncensored.md
   - concepts/persona-consistency-methods.md
+  - concepts/knowledge-graph-structured-video-control.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-06-04
 ---
 
 ## Relations

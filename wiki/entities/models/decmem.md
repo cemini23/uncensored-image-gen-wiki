@@ -9,9 +9,12 @@ related:
   - entities/models/sana-wm.md
   - entities/models/wan-2-2.md
   - entities/models/kwai-kolors.md
+  - concepts/long-video-rag-retrieval.md
+  - sources/arxiv-2606-02553-longlive-rag-long-video-generation.md
+  - sources/arxiv-2606-02553-longlive-rag-long-video-generation.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-03
+updated: 2026-06-04
 ---
 
 ## Relations

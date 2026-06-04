@@ -16,9 +16,11 @@ related:
   - entities/models/decmem.md
   - entities/models/wan-2-2.md
   - entities/models/ltx-2.md
+  - concepts/long-video-rag-retrieval.md
+  - sources/arxiv-2606-02553-longlive-rag-long-video-generation.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-06-03
+updated: 2026-06-04
 ---
 
 ## Relations
@@ -90,5 +92,7 @@ For the persona/character track, world models are a **research-layer reference, 
 **Proprio** (@sources/arxiv-proprio-physics-video-2605-28230.md) — **training-free** physics gate using the generator's own **flow residual** for best-of-N or noise refinement. Complements YoCausal (semantic causality) with **dynamic plausibility** scoring — useful post-filter on Wan I2V persona rolls before lipsync.
 
 **OptiWorld** (@sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md) — **inference-time optimal control** before rendering: zero-shot world-state extraction → Riemannian-manifold trajectory planning under safety/smoothness/efficiency constraints → video conditioned on the plan. Proactive motion vs Proprio's post-hoc scoring; pairs with 3D-aware video backbones `[NEEDS VERIFICATION 2026-06-02]` for local Wan/SANA-WM stacks.
+
+**LongLive-RAG** (@sources/arxiv-2606-02553-longlive-rag-long-video-generation.md) — plug-in **RAG over self-generated latents** for AR long video; retrieves non-local history when sliding-window context drifts. Complements DecMem learned memory and attention-sink / seam-stitching post-processing → @concepts/long-video-rag-retrieval.md.
 
 **DecMem** (@sources/arxiv-2605-31336-decmem-world-generation.md, @entities/models/decmem.md) — **decoupled memory** (Sparse Global + Anchored Local) for minute-scale world generation from Kling Team; targets revisit consistency and attention dispersion in long-horizon implicit memory. Industrial closed stack as of K95 ingest — complements open SANA-WM on memory architecture research axis `[NEEDS VERIFICATION 2026-06-03]`.

@@ -13,9 +13,11 @@ related:
   - entities/models/cogvideox-1-5.md
   - entities/uis/comfyui.md
   - concepts/persona-audio-stack.md
+  - concepts/long-video-rag-retrieval.md
+  - sources/arxiv-2606-02553-longlive-rag-long-video-generation.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-06-04
 ---
 
 ## Relations

@@ -37,10 +37,16 @@ related:
   - concepts/mllm-video-translation.md
   - sources/arxiv-2604-11283-mllm-video-translation-survey.md
   - sources/arxiv-2606-03672-foley-omni.md
+  - sources/arxiv-2605-29509-kgedit-knowledge-graph-video-editing.md
+  - sources/arxiv-2606-02553-longlive-rag-long-video-generation.md
+  - sources/arxiv-2606-03971-video-mirai-autoregressive-foresight.md
+  - concepts/knowledge-graph-structured-video-control.md
+  - concepts/long-video-rag-retrieval.md
+  - concepts/autoregressive-video-foresight-training.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-06-03
+updated: 2026-06-04
 ---
 
 ## Relations
