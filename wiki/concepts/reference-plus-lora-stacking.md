@@ -26,9 +26,10 @@ related:
   - concepts/model-selection-workflow.md
   - entities/hardware/gpu-guide.md
   - entities/uis/comfyui.md
+  - concepts/preference-delta-lora-aggregation.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-06-05
 ---
 
 ## Relations

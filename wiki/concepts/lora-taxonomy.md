@@ -19,6 +19,8 @@ related:
   - entities/models/flux-1-dev.md
   - entities/models/flux-2-klein.md
   - concepts/de-censoring-techniques.md
+  - concepts/preference-delta-lora-aggregation.md
+  - sources/arxiv-weak-signals-preference-distillation-2606.00357-2026-06-05.md
   - entities/models/z-image-turbo.md
   - entities/models/qwen-image-2512.md
   - entities/models/sdxl-fine-tunes.md
@@ -45,6 +47,7 @@ updated: 2026-05-15
 @entities/training-tools/fluxgym.md
 @concepts/reference-plus-lora-stacking.md
 @concepts/censorship-tier-taxonomy.md
+@concepts/preference-delta-lora-aggregation.md
 @entities/models/pony-v6.md
 @entities/models/pony-v7.md
 @entities/models/flux-1-dev.md

@@ -11,15 +11,16 @@ related:
   - entities/models/kwai-kolors.md
   - concepts/long-video-rag-retrieval.md
   - sources/arxiv-2606-02553-longlive-rag-long-video-generation.md
-  - sources/arxiv-2606-02553-longlive-rag-long-video-generation.md
+  - entities/models/metaworld.md
+  - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-04
+updated: 2026-06-05
 ---
 
 ## Relations
 
-@sources/arxiv-2605-31336-decmem-world-generation.md @concepts/world-models-video-generation.md @entities/models/sana-wm.md @entities/models/wan-2-2.md
+@sources/arxiv-2605-31336-decmem-world-generation.md @concepts/world-models-video-generation.md @entities/models/sana-wm.md @entities/models/metaworld.md @entities/models/wan-2-2.md
 
 ## Raw Concept
 

@@ -17,6 +17,8 @@ related:
   - sweeps/2026-06-03-daily.md
   - sweeps/2026-06-04-daily.md
   - sweeps/2026-06-04-inbox-triage.md
+  - sweeps/2026-06-05-inbox-triage.md
+  - sweeps/2026-06-05-daily.md
 maturity: validated
 created: 2026-06-01
 updated: 2026-06-04

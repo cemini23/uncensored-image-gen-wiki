@@ -13,10 +13,12 @@ related:
   - sources/video-generation-survey-2026.md
   - sources/arxiv-yocausal-world-model-benchmark-2605-30346.md
   - sources/arxiv-2605-31336-decmem-world-generation.md
+  - entities/models/metaworld.md
+  - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-16
-updated: 2026-06-03
+updated: 2026-06-05
 ---
 
 ## Relations

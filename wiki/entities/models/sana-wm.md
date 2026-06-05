@@ -13,14 +13,16 @@ related:
   - sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md
   - sources/arxiv-2605-31336-decmem-world-generation.md
   - entities/models/decmem.md
+  - entities/models/metaworld.md
+  - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
 maturity: validated
 created: 2026-05-16
-updated: 2026-06-02
+updated: 2026-06-05
 ---
 
 ## Relations
 
-@sources/sana-wm-minute-scale-world-model.md @concepts/world-models-video-generation.md @concepts/camera-controlled-video-generation.md @concepts/hybrid-linear-attention.md @entities/models/sana.md @entities/models/ltx-2.md
+@sources/sana-wm-minute-scale-world-model.md @concepts/world-models-video-generation.md @concepts/camera-controlled-video-generation.md @concepts/hybrid-linear-attention.md @entities/models/sana.md @entities/models/ltx-2.md @entities/models/metaworld.md @entities/models/decmem.md
 
 ## Raw Concept
 

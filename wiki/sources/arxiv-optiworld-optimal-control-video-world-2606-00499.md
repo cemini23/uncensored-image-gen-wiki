@@ -11,15 +11,17 @@ related:
   - entities/models/wan-2-2.md
   - entities/models/sana-wm.md
   - sources/arxiv-2605-31336-decmem-world-generation.md
+  - concepts/activation-steering-video-generation.md
+  - sources/arxiv-activation-steering-video-gen-2606.04775-2026-06-05.md
 maturity: draft
 read_status: read
 created: 2026-06-02
-updated: 2026-06-03
+updated: 2026-06-05
 ---
 
 ## Relations
 
-@concepts/world-models-video-generation.md @sources/arxiv-proprio-physics-video-2605-28230.md @sources/arxiv-yocausal-world-model-benchmark-2605-30346.md @entities/models/wan-2-2.md
+@concepts/world-models-video-generation.md @sources/arxiv-proprio-physics-video-2605-28230.md @sources/arxiv-yocausal-world-model-benchmark-2605-30346.md @concepts/activation-steering-video-generation.md @entities/models/wan-2-2.md
 
 ## Raw Concept
 

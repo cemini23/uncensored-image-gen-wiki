@@ -22,6 +22,8 @@ related:
   - entities/models/qwen-image-2512.md
   - entities/models/ernie-image.md
   - entities/models/playground-v3.md
+  - concepts/preference-delta-lora-aggregation.md
+  - sources/arxiv-weak-signals-preference-distillation-2606.00357-2026-06-05.md
   - entities/models/kwai-kolors.md
   - entities/models/pixart-sigma.md
   - entities/models/sdxl-fine-tunes.md
@@ -44,6 +46,7 @@ updated: 2026-05-07
 @sources/uncensored-image-generation-survey.md
 @concepts/censorship-tier-taxonomy.md
 @concepts/lora-taxonomy.md
+@concepts/preference-delta-lora-aggregation.md
 @concepts/reference-plus-lora-stacking.md
 @entities/models/flux.md
 @entities/models/flux-1-dev.md
@@ -87,6 +90,7 @@ The four techniques map onto the tier taxonomy: **prompt engineering** addresses
 | **LoRA injection** | Minimal | ~1 hour training, ~50 MB on disk | Stack on/off freely | Style bleed at strength >1.0 |
 | **Abliteration / model surgery** | Partial-Architectural | Hours to days; specialized tooling | Permanent (creates new checkpoint) | Negligible loss when done right |
 | **Weight merging (SLERP / TIES / DARE)** | Partial-Architectural | Hours; needs uncensored donor | Permanent (creates new checkpoint) | Variable; depends on donor compatibility |
+| **Preference-delta LoRA merge (PDA / GAM)** | Research (LLM-origin) | Per-delta LoRA train + merge | Stack adapters | `[TENTATIVE]` on diffusion — geometry-aware merge before aggregation (@concepts/preference-delta-lora-aggregation.md) |
 
 Plus the hard wall — **architectural censorship** — where the latent space simply doesn't contain the foundational structures and no technique succeeds without full-parameter fine-tuning.
 

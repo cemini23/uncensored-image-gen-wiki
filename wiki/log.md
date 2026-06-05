@@ -4,11 +4,26 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
-## [2026-06-05] ingest | K100 federation morning — video steering batch (3 arXiv)
+## [2026-06-05] deep-pass | K100 federation morning — video steering batch (3 arXiv)
 
-- **Sources** — 2606.00357 preference distillation; 2606.02753 MetaWorld video; 2606.04775 activation steering
-- **Concept** — `video-generation-steering-world-models`
-- **PDFs** → librarian; inbox cleared
+Per `wiki/sweeps/2026-06-05-inbox-triage.md`. Stub ingest → deep-read.
+
+### Sources deep-read (3)
+
+- `wiki/sources/arxiv-activation-steering-video-gen-2606.04775-2026-06-05.md` — LA-LQR inference-time T2V steering
+- `wiki/sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md` — multi-agent world model from monocular video
+- `wiki/sources/arxiv-weak-signals-preference-distillation-2606.00357-2026-06-05.md` — **rerouted** PDA/GAM (LLM LoRA merge, not video)
+
+### Concepts / entities (3 new)
+
+- `concepts/activation-steering-video-generation.md`
+- `concepts/preference-delta-lora-aggregation.md`
+- `entities/models/metaworld.md`
+
+### Retired / enhanced
+
+- Deleted `concepts/video-generation-steering-world-models.md` (mis-clustered stub)
+- Enhanced `world-models-video-generation.md`, `de-censoring-techniques.md`, `censorship-tier-taxonomy.md`, `lora-taxonomy.md`, `decmem.md`, `sana-wm.md`, OptiWorld source, `wiki/index.md`
 
 ## [2026-06-04] ingest | daily digest inbox — KGEdit, LongLive-RAG, Video-Mirai (3 PDFs)
 

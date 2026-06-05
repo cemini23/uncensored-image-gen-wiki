@@ -18,15 +18,19 @@ related:
   - entities/models/ltx-2.md
   - concepts/long-video-rag-retrieval.md
   - sources/arxiv-2606-02553-longlive-rag-long-video-generation.md
+  - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
+  - entities/models/metaworld.md
+  - concepts/activation-steering-video-generation.md
+  - sources/arxiv-activation-steering-video-gen-2606.04775-2026-06-05.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-06-04
+updated: 2026-06-05
 ---
 
 ## Relations
 
 @sources/sana-wm-minute-scale-world-model.md @entities/models/sana-wm.md @concepts/camera-controlled-video-generation.md @concepts/hybrid-linear-attention.md @sources/video-generation-survey-2026.md
-@sources/arxiv-yocausal-world-model-benchmark-2605-30346.md @sources/arxiv-proprio-physics-video-2605-28230.md @sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md @entities/models/wan-2-2.md @sources/arxiv-2605-31336-decmem-world-generation.md @entities/models/decmem.md
+@sources/arxiv-yocausal-world-model-benchmark-2605-30346.md @sources/arxiv-proprio-physics-video-2605-28230.md @sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md @entities/models/wan-2-2.md @sources/arxiv-2605-31336-decmem-world-generation.md @entities/models/decmem.md @entities/models/metaworld.md @concepts/activation-steering-video-generation.md
 
 ## Raw Concept
 
@@ -96,3 +100,7 @@ For the persona/character track, world models are a **research-layer reference, 
 **LongLive-RAG** (@sources/arxiv-2606-02553-longlive-rag-long-video-generation.md) — plug-in **RAG over self-generated latents** for AR long video; retrieves non-local history when sliding-window context drifts. Complements DecMem learned memory and attention-sink / seam-stitching post-processing → @concepts/long-video-rag-retrieval.md.
 
 **DecMem** (@sources/arxiv-2605-31336-decmem-world-generation.md, @entities/models/decmem.md) — **decoupled memory** (Sparse Global + Anchored Local) for minute-scale world generation from Kling Team; targets revisit consistency and attention dispersion in long-horizon implicit memory. Industrial closed stack as of K95 ingest — complements open SANA-WM on memory architecture research axis `[NEEDS VERIFICATION 2026-06-03]`.
+
+**MetaWorld** (@sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md, @entities/models/metaworld.md) — **multi-agent multi-egocentric** world model from **single-view monocular** training video via MWSU state unrolling + per-layer **World-State Alignment** cross-attention during joint denoising. Extends world-model axis to synchronized multi-perspective scenes without multi-camera capture — forward-looking for multi-character persona environments `[NEEDS VERIFICATION 2026-06-05]`.
+
+**LA-LQR** (@concepts/activation-steering-video-generation.md) — not a world model; **inference-time activation steering** on DiT T2V using reduced-order LQR on contrastive activation subspaces. Listed here because it shares **optimal-control framing** with OptiWorld but operates **during denoising** (safety/concept suppression) rather than pre-render trajectory planning.

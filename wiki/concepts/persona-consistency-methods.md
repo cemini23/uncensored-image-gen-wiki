@@ -58,9 +58,11 @@ related:
   - sources/arxiv-2605-29509-kgedit-knowledge-graph-video-editing.md
   - sources/arxiv-2606-02553-longlive-rag-long-video-generation.md
   - sources/arxiv-2606-03971-video-mirai-autoregressive-foresight.md
+  - entities/models/metaworld.md
+  - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-05-07
+updated: 2026-06-05
 ---
 
 ## Relations

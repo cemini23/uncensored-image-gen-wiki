@@ -17,6 +17,8 @@ related:
   - concepts/de-censoring-techniques.md
   - concepts/pluralistic-safety-alignment.md
   - sources/arxiv-2606-00369-geo-cultural-safety-alignment.md
+  - concepts/activation-steering-video-generation.md
+  - sources/arxiv-activation-steering-video-gen-2606.04775-2026-06-05.md
   - entities/models/anima.md
   - entities/models/z-image-turbo.md
   - entities/models/qwen-image-2512.md
@@ -51,6 +53,7 @@ updated: 2026-05-07
 @entities/models/noobai-xl.md
 @concepts/lora-taxonomy.md
 @concepts/de-censoring-techniques.md
+@concepts/activation-steering-video-generation.md
 @entities/models/anima.md
 @entities/models/z-image-turbo.md
 @entities/models/qwen-image-2512.md

@@ -43,10 +43,14 @@ related:
   - concepts/knowledge-graph-structured-video-control.md
   - concepts/long-video-rag-retrieval.md
   - concepts/autoregressive-video-foresight-training.md
+  - concepts/activation-steering-video-generation.md
+  - sources/arxiv-activation-steering-video-gen-2606.04775-2026-06-05.md
+  - entities/models/metaworld.md
+  - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-06-04
+updated: 2026-06-05
 ---
 
 ## Relations
