@@ -4,6 +4,12 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-05] ingest | K100 federation morning — video steering batch (3 arXiv)
+
+- **Sources** — 2606.00357 preference distillation; 2606.02753 MetaWorld video; 2606.04775 activation steering
+- **Concept** — `video-generation-steering-world-models`
+- **PDFs** → librarian; inbox cleared
+
 ## [2026-06-04] ingest | daily digest inbox — KGEdit, LongLive-RAG, Video-Mirai (3 PDFs)
 
 Per `wiki/sweeps/2026-06-04-inbox-triage.md`. preingest_check: 3/3 NEW. PDFs archived to `raw-sources/`.
