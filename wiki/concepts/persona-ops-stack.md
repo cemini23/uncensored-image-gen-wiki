@@ -88,7 +88,7 @@ A modern adult AI persona operation is built from 7 distinct tooling layers. Eac
 - **DeLive** (`XimilalaXiang/DeLive`, Apache-2.0) — system-audio capture + 12 ASR backends for TTS-output-to-text audit trail. → @entities/persona-ops/delive.md
 - **MoneyPrinter** (`FujiwaraChoki/MoneyPrinter`, MIT) — MoviePy-based short-form video automation (YouTube Shorts/TikTok). License-corrected from phantom AGPL-3.0. → @entities/persona-ops/moneyprinter.md
 - **yt-dlp** (`yt-dlp/yt-dlp`, Unlicense source) — de-facto media extractor for feeding TTS persona-ops training pipelines. Install from Unlicense source tarball only; pre-built binaries statically bundle GPLv3+ code.
-- **PersonaLive** (`GVCLab/PersonaLive`) — real-time portrait animation for 24/7 live virtual avatars; highest-novelty K55-2 candidate, Phase-0 unaudited → @entities/persona-ops/personalive.md
+- **PersonaLive** (`GVCLab/PersonaLive`) — real-time portrait animation; **Phase-0 CONDITIONAL-GO** (2026-06-05) — Apache-2.0, 12GB streaming, ComfyUI node → @entities/persona-ops/personalive.md
 
 ### Operator playbook patterns (K57, @0xKiyoro) [TENTATIVE]
 

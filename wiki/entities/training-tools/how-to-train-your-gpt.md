@@ -5,9 +5,11 @@ tags: [training-tools, fine-tuning, tutorial, mit, reference]
 keywords: [how-to-train-your-gpt, fine-tuning tutorial, gpt training, mit]
 related:
   - concepts/lora-taxonomy.md
-maturity: draft
+maturity: validated
 created: 2026-05-12
-updated: 2026-05-15
+updated: 2026-06-05
+phase_0_verdict: REFERENCE
+phase_0_date: 2026-06-05
 osint_eval_origin: doc1-url-22 (cross-routed; training-tools reference)
 ---
 
@@ -24,4 +26,10 @@ osint_eval_origin: doc1-url-22 (cross-routed; training-tools reference)
 
 ## Narrative
 
-GPT fine-tuning tutorial. Reference for the broader fine-tuning training-tools ecosystem; primary value is conceptual (data preparation, hyperparameter selection, eval framework). Not a tool to install — a methodology document.
+GPT fine-tuning tutorial. Reference for the broader fine-tuning training-tools ecosystem; primary value is conceptual (data preparation, hyperparameter selection, eval framework). Not a tool to install.
+
+### Phase-0 audit [CONFIRMED 2026-06-05]
+
+`raiyanyahya/how-to-train-your-gpt` — MIT, 2.2k★. Methodology document.
+
+**Verdict: REFERENCE** — no install; supports @concepts/lora-taxonomy.md training literacy only.

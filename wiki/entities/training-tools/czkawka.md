@@ -7,9 +7,11 @@ keywords: [czkawka, czkawka-core, lora-training, dataset-deduplication, perceptu
 related:
   - concepts/multi-angle-dataset-prep.md
   - concepts/lora-taxonomy.md
-maturity: steal-from-doc-level-pending-phase-0
+maturity: validated
 created: 2026-05-14
-updated: 2026-05-15
+updated: 2026-06-05
+phase_0_verdict: CONDITIONAL-GO
+phase_0_date: 2026-06-05
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
@@ -34,7 +36,17 @@ The `czkawka_core` MIT crate provides:
 
 **Critical license isolation**: extract `czkawka_core` only. The GPL-3.0 Slint-based GUI frontends (Krokiet, Cedinia) must remain unbuilt. Verify with `cargo tree`.
 
-See @cybersecurity-wiki/entities/tools/czkawka.md for the full Phase-0 gate set.
+See @cybersecurity-wiki/entities/tools/czkawka.md for defensive filesystem use cases.
+
+### Phase-0 audit [CONFIRMED 2026-06-05]
+
+Repo: `qarmin/czkawka` — 31.3k★, pushed 2026-06-02. **Dual license**: GPL-3.0 GUI vs **MIT `czkawka_core`**.
+
+**Verdict: CONDITIONAL-GO** — integrate **`czkawka_core` only** via Rust/cargo for perceptual-hash dedup before LoRA training. Never bundle GPL Slint frontends.
+
+## Dead Ends
+
+Shipping full czkawka GUI in a commercial persona product — GPL poison.
 
 ## Snippets
 

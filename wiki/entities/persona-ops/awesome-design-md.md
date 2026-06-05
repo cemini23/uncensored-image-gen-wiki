@@ -5,9 +5,11 @@ tags: [persona-ops, ui-styling, design-system, llm-consumed-ui, mit, adopt]
 keywords: [awesome-design-md, voltagent, design.md, llm ui styling, mit, persona surface design]
 related:
   - concepts/marketing-your-persona.md
-maturity: draft
+maturity: validated
 created: 2026-05-12
-updated: 2026-05-15
+updated: 2026-06-05
+phase_0_verdict: GO
+phase_0_date: 2026-06-05
 osint_eval_origin: doc2-url-25 (cross-routed; image-gen UI angle)
 ---
 
@@ -30,3 +32,9 @@ Curated DESIGN.md library for LLM-consumed UI styling. Image-gen relevance: when
 ### Use pattern
 
 Pick DESIGN.md templates that match the target aesthetic. Drop into the project root. Reference from prompts: *"Apply DESIGN.md to all new components."*
+
+### Phase-0 audit [CONFIRMED 2026-06-05]
+
+`VoltAgent/awesome-design-md` — **MIT**, 87.7k★. Reference library only; no runtime deps.
+
+**Verdict: GO** — copy-on-use for persona landing pages / link-in-bio sites.

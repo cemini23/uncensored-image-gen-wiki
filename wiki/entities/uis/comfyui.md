@@ -63,6 +63,7 @@ related:
   - entities/custom-nodes/impact-pack.md
   - entities/custom-nodes/bmab.md
   - entities/custom-nodes/ai-infra-guard.md
+  - entities/persona-ops/personalive.md
   - entities/lipsync/latentsync.md
   - entities/lipsync/musetalk.md
   - entities/lipsync/wav2lip.md
@@ -98,6 +99,7 @@ provenance:
 @entities/open-generative-ai.md — alternative all-in-one generative-media frontend (sd.cpp / Wan2GP backends)
 @entities/custom-nodes/impact-pack.md @entities/custom-nodes/bmab.md
 @entities/custom-nodes/ai-infra-guard.md — ComfyUI vulnerability-detection signatures (defensive ops)
+@entities/persona-ops/personalive.md — ComfyUI-PersonaLive live-stream portrait animation node
 
 @concepts/persona-audio-stack.md
 @entities/lipsync/latentsync.md @entities/lipsync/musetalk.md @entities/lipsync/wav2lip.md

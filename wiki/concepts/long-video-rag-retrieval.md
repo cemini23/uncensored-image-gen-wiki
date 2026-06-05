@@ -15,7 +15,7 @@ related:
   - entities/models/wan-2-2.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-06-05
 ---
 
 ## Relations
@@ -37,7 +37,18 @@ Concept stub from 2026-06-04 ingest — arXiv:2606.02553 LongLive-RAG (NVIDIA).
 - Compressed-history tokens (detail loss)
 - **DecMem** (@entities/models/decmem.md) — learned decoupled global/local memory inside the model
 
-LongLive-RAG is **plug-in RAG** on existing AR backbones (Causal-Forcing, Self-Forcing, LongLive). GitHub: https://github.com/qixinhu11/LongLive-RAG `[TENTATIVE]` integration path for persona minute-scale Wan rolls.
+LongLive-RAG is **plug-in RAG** on existing AR backbones (Causal-Forcing, Self-Forcing, LongLive). GitHub: https://github.com/qixinhu11/LongLive-RAG
+
+### Phase-0 audit [CONFIRMED 2026-06-05]
+
+| Check | Result |
+|-------|--------|
+| License | Apache-2.0 |
+| Activity | 47★; pushed 2026-06-04; HF weights card live |
+| Integration | Requires **LongLive upstream install**; no Wan/ComfyUI wrapper yet |
+| Persona fit | Reduces identity drift on minute-scale AR persona clips vs seam-stitching alone |
+
+**Verdict: CONDITIONAL-GO** — watch for ComfyUI node; test on LongLive+Wan when integration lands `[NEEDS VERIFICATION 2026-06-05]`.
 
 ## Snippets
 

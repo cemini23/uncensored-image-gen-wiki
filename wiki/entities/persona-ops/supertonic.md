@@ -5,9 +5,11 @@ tags: [persona-ops, tts, voice-cloning, financial-speech, openrail-m, dual-licen
 keywords: [supertonic, financial tts, openrail-m, persona voice, mit code openrail weights]
 related:
   - entities/persona-ops/fish-speech.md
-maturity: draft
+maturity: validated
 created: 2026-05-12
-updated: 2026-05-12
+updated: 2026-06-05
+phase_0_verdict: DEFER
+phase_0_date: 2026-06-05
 osint_eval_origin: doc1-url-4 (cross-routed; image-gen persona-ops primary)
 ---
 
@@ -26,8 +28,12 @@ osint_eval_origin: doc1-url-4 (cross-routed; image-gen persona-ops primary)
 
 Financial-domain-specialized TTS engine. Dual license: code MIT, weights OpenRAIL-M (Responsible AI Licensing — use restrictions on misuse categories). For persona-ops: training/finetune target if persona voices need a financial-news-anchor flavor; otherwise Fish-Speech S2 Pro remains the TTS-Arena2 leader for general persona voice.
 
-### Phase-0 audit pending
+### Phase-0 audit [CONFIRMED 2026-06-05]
 
-- Voice variety + cloning capability (zero-shot vs few-shot)
-- M-series Mac inference compat
-- OpenRAIL-M clauses' impact on persona-ops use (some clauses ban specific deepfake categories — verify alignment)
+Prior K40 eval retained: **MIT code + OpenRAIL-M weights**, financial-speech specialization, deepfake-category restrictions in OpenRAIL-M. Main upstream repo URL not re-located in this batch (community wrappers only).
+
+**Verdict: DEFER** — Fish-Speech S2 Pro remains persona Layer-1 default. Re-open if OpenRAIL-M clauses are acceptable for operator use case and canonical repo is identified.
+
+## Dead Ends
+
+None.

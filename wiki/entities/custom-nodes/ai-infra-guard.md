@@ -7,9 +7,11 @@ keywords: [ai-infra-guard, comfyui-vuln-detection, tencent, fingerprint-signatur
 related:
   - entities/uis/comfyui.md
   - entities/custom-nodes/impact-pack.md
-maturity: steal-from-doc-level-pending-phase-0
+maturity: validated
 created: 2026-05-14
-updated: 2026-05-15
+updated: 2026-06-05
+phase_0_verdict: STEAL-FROM
+phase_0_date: 2026-06-05
 cross-wiki-source: "@osint-wiki/sources/eval-tool-evaluation-cemini-multi-wiki-v3-2026-05-14.md"
 ---
 
@@ -32,7 +34,17 @@ For image-gen-wiki, the relevant subset of AI-Infra-Guard is the ComfyUI-specifi
 
 **Caution**: ComfyUI is widely deployed by hobbyists with poor security hygiene; the signatures here apply to public-facing instances. Using detection signatures *against* third-party ComfyUI instances requires authorization (CFAA equivalent considerations). Image-gen-wiki use case is internal: audit your own deployments before exposing them.
 
-See @cybersecurity-wiki/entities/tools/ai-infra-guard.md for the full Phase-0 gate set.
+See @cybersecurity-wiki/entities/tools/ai-infra-guard.md for full platform scope.
+
+### Phase-0 audit [CONFIRMED 2026-06-05]
+
+Repo: `Tencent/AI-Infra-Guard` — **Apache-2.0**, 3.8k★, pushed 2026-06-05. Documents **ComfyUI** among 100+ AI framework CVE fingerprints.
+
+**Verdict: STEAL-FROM** — run against **operator-owned** ComfyUI instances before any LAN exposure. Not for unauthorized third-party scanning. Retain LICENSE/NOTICE per Apache attribution.
+
+## Dead Ends
+
+Adopting full red-team platform into image-gen build track — scope creep vs ComfyUI generation workflows.
 
 ## Snippets
 

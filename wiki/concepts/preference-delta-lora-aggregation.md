@@ -31,6 +31,10 @@ K100 ingest reroute (2026-06-05) — arXiv:2606.00357 is **LLM post-training**, 
 
 Existing merge stack uses SLERP / TIES / DARE (@concepts/de-censoring-techniques.md) for **checkpoint-level** fusion. PDA/GAM is a **2026 research pattern** for composing multiple preference-derived LoRAs without catastrophic forgetting — may apply if stacking multiple persona/style LoRAs from weak ranking data `[NEEDS VERIFICATION 2026-06-05]`. Not tested on FLUX/Wan in this paper.
 
+### Phase-0 — upstream repo [CONFIRMED 2026-06-05]
+
+`AlbertQiSun/Preference-Delta-Aggregation` — empty stub ("codes after review"), 0★, no LICENSE. **NO-GO** until code ships.
+
 ## Snippets
 
 > "We propose Preference Delta Aggregation (PDA), the first framework that derives a preference delta from each weak-weaker model pair, instantiates it as a LoRA adapter learned through preference optimization, and aggregates the resulting deltas via LoRA merging."

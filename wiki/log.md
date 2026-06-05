@@ -4,6 +4,20 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-05] phase-0 | GitHub audit batch — 14 pending candidates
+
+Audited per `prompts/github-repo-eval.md`. Full table in `briefs/2026-06-05_phase-0-batch.md`.
+
+**GO (2):** voicebox, awesome-design-md  
+**CONDITIONAL-GO (6):** PersonaLive, LongLive-RAG (concept), OmniCustom, MoneyPrinter, czkawka_core, AI-Infra-Guard  
+**STEAL-FROM (1):** Open-Generative-AI  
+**DEFER/REFERENCE (2):** supertonic, how-to-train-your-gpt  
+**NO-GO (3):** PDA repo (empty), OmniVoice (license), Foley-Omni (no code)
+
+Pages updated: personalive, voicebox, open-generative-ai, moneyprinter, supertonic, czkawka, ai-infra-guard, omnicustom, foley-omni, awesome-design-md, how-to-train-your-gpt, long-video-rag-retrieval, preference-delta-lora-aggregation, persona-ops-stack
+
+---
+
 ## [2026-06-05] deep-pass | K100 federation morning — video steering batch (3 arXiv)
 
 Per `wiki/sweeps/2026-06-05-inbox-triage.md`. Stub ingest → deep-read.

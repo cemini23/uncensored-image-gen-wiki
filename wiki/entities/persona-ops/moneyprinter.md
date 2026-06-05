@@ -7,9 +7,11 @@ related:
   - concepts/persona-ops-stack.md
   - concepts/persona-content-cadence.md
   - entities/persona-ops/n8n.md
-maturity: draft
+maturity: validated
 created: 2026-05-21
-updated: 2026-05-21
+updated: 2026-06-05
+phase_0_verdict: CONDITIONAL-GO
+phase_0_date: 2026-06-05
 cross-wiki-source: "@osint-wiki/sources/multi-wiki-tool-eval-26url-2026-05-19.md"
 provenance:
   stub: true
@@ -41,10 +43,12 @@ The original OSINT K54 eval **falsely rejected** this as AGPL-3.0. `gh api repos
 
 Candidate for automating short-form video content from persona image/video assets. Could slot into the n8n content-calendar pipeline as the video-rendering stage for TikTok/YouTube Shorts distribution.
 
-### Status
+### Phase-0 audit [CONFIRMED 2026-06-05]
 
-Re-evaluate on its merits as an MIT-licensed tool. Not yet tested in this workspace — stub pending Phase-0 audit.
+Repo: `FujiwaraChoki/MoneyPrinter` — **MIT**, 13.4k★, last push 2026-03-26. **Ollama-first** script/metadata generation + **Postgres queue worker** + MoviePy render — evolved from simple Shorts script to DB-backed pipeline.
+
+**Verdict: CONDITIONAL-GO** — optional **n8n leaf** for automated TikTok/YouTube Shorts from topics. Not part of core ComfyUI persona image/video stack; requires Docker Postgres + Ollama sidecar.
 
 ## Dead Ends
 
-None yet — unevaluated beyond K54 license correction.
+None — not evaluated for NSFW Shorts policy on platforms (operator ToS risk).

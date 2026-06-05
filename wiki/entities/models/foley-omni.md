@@ -11,7 +11,9 @@ related:
   - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-03
+updated: 2026-06-05
+phase_0_verdict: NO-GO
+phase_0_date: 2026-06-05
 ---
 
 ## Relations
@@ -34,12 +36,8 @@ Entity stub from K95 ingest of arXiv:2606.03672 — unified multimodal audio mod
 
 From **Video Rebirth** + academic collaborators. Competes conceptually with closed **Veo 3** and open **LTX-2** joint A/V — but audio-centric unification.
 
-**Build-track status:** await open weights + VRAM profile `[NEEDS VERIFICATION 2026-06-03]`. Until then, persona operators use cascaded stack in @concepts/persona-audio-stack.md.
-
-## Snippets
-
-See @sources/arxiv-2606-03672-foley-omni.md.
+**Build-track status:** Phase-0 (2026-06-05) — **no public GitHub or HF weights**. Keep cascaded stack in @concepts/persona-audio-stack.md.
 
 ## Dead Ends
 
-None until release audit.
+No open weights/code at audit date — revisit when Video Rebirth ships release.

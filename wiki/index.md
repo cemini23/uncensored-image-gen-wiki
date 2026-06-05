@@ -144,7 +144,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [n8n (self-hosted orchestration)](entities/persona-ops/n8n.md) — modal 2026 orchestration layer for persona-ops; visual workflow + 400+ integrations + AI agent nodes; self-host for data sovereignty vs Make/Zapier; ties together LLM + voice + image-gen + scheduling — `persona-ops, orchestration, n8n, automation, self-hosted, workflow-engine`
 - [DeLive — system-audio capture + ASR for persona voice sync](entities/persona-ops/delive.md) — Apache-2.0 desktop app capturing local system audio + 12 ASR backends + 60+ languages; real-time TTS-output-to-text audit trail for persona voice synchronization — `persona-ops, asr, voice-sync, apache-2-0, mcp-server` ⚠ stub
 - [MoneyPrinter — MIT short-form video automation](entities/persona-ops/moneyprinter.md) — MoviePy-based YouTube Shorts/TikTok automation; MIT-licensed (license-corrected from phantom AGPL-3.0); candidate for n8n content-calendar video rendering — `persona-ops, video-automation, short-form, mit-license` ⚠ stub
-- [PersonaLive — real-time portrait animation for live avatars](entities/persona-ops/personalive.md) — GVCLab portrait animator for 24/7 virtual streams; K55-2 highest-novelty candidate; Phase-0 unaudited — `persona-ops, live-streaming, portrait-animation, real-time` ⚠ stub
+- [PersonaLive — real-time portrait animation for live avatars](entities/persona-ops/personalive.md) — GVCLab portrait animator; **Phase-0 CONDITIONAL-GO** (Apache-2.0, 12GB streaming, ComfyUI node) — `persona-ops, live-streaming, portrait-animation, real-time`
 
 ### Personas / accounts
 
@@ -187,7 +187,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Audio-Omni (SIGGRAPH 2026 — unified audio understanding + generation + editing)](entities/sfx-models/audio-omni.md) — research-future unified audio model spanning sound + music + speech across understanding / generation / editing; horizon-tracking entry for if/when training-data + license clarify into a build-track option; not currently usable — `sfx, text-to-audio, audio-omni, unified-audio, siggraph-2026, research-future, sound-music-speech-unified`
 
 ---
-- [voicebox — Local-First AI Voice Studio](entities/voicebox.md) — cross-wiki stub routed from ingest — `cross-wiki`
+- [voicebox — Local-First AI Voice Studio](entities/voicebox.md) — MIT local voice studio (MLX, MCP); **Phase-0 GO** — Fish-Speech alternative — `voice-cloning, tts, persona-ops`
 - [OmniVoice — Zero-Shot Voice Cloning (REJECTED — license)](entities/omnivoice.md) — K93 reject: commercial license poison on `debpalash/OmniVoice-Studio`; K45 Apache-2.0 Adopt retracted — `voice-cloning, dead-end, license-blocker, k93`
 - [Open-Generative-AI — Local-First Generative Media Platform](entities/open-generative-ai.md) — cross-wiki stub routed from ingest — `cross-wiki`
 
