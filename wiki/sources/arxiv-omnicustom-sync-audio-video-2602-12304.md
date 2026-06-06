@@ -12,10 +12,11 @@ related:
   - entities/models/foley-omni.md
   - sources/arxiv-2604-11283-mllm-video-translation-survey.md
   - sources/arxiv-2606-03672-foley-omni.md
+  - sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md
 maturity: draft
 read_status: read
 created: 2026-06-01
-updated: 2026-06-03
+updated: 2026-06-06
 ---
 
 ## Relations

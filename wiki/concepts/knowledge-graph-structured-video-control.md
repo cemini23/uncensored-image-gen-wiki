@@ -11,9 +11,10 @@ related:
   - sources/video-generation-survey-2026.md
   - entities/models/hunyuanvideo-1-5.md
   - entities/models/wan-2-2.md
+  - concepts/albedo-guided-instance-video-editing.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-06-06
 ---
 
 ## Relations
@@ -35,6 +36,8 @@ When natural-language video prompts bundle identity, relations, attributes, and 
 | **TASC** | Stage-aware semantic scheduling across denoising timesteps |
 
 **Build-track posture:** research reference until code + Wan/Hunyuan node lands `[NEEDS VERIFICATION 2026-06-04]`. For persona ops, use when V2V pages (@concepts/visual-to-visual-generation.md) are insufficient and text refinement loops are costly.
+
+**vs albedo editing:** KGEdit controls **semantic structure** from text graphs; @concepts/albedo-guided-instance-video-editing.md controls **instance appearance** via intrinsic maps — complementary post-production axes, not interchangeable.
 
 ## Snippets
 

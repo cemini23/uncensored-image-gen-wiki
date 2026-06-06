@@ -19,6 +19,9 @@ related:
   - entities/uis/comfyui.md
   - entities/uis/forge.md
   - entities/hardware/gpu-guide.md
+  - sources/arxiv-2606-01362-albedoedit-video-editing.md
+  - concepts/albedo-guided-instance-video-editing.md
+  - entities/models/albedoedit.md
   - entities/custom-nodes/impact-pack.md
   - entities/custom-nodes/bmab.md
 maturity: validated

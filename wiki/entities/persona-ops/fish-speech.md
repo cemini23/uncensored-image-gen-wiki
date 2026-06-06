@@ -31,9 +31,10 @@ related:
   - entities/persona-ops/delive.md
   - concepts/sync-audio-video-customization.md
   - concepts/mllm-video-translation.md
+  - sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-03
+updated: 2026-06-06
 ---
 
 ## Relations

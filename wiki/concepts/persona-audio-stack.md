@@ -51,9 +51,12 @@ related:
   - sources/arxiv-2606-03672-foley-omni.md
   - entities/models/omnicustom.md
   - sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md
+  - sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md
+  - concepts/joint-audio-visual-instruction-editing.md
+  - entities/models/javedit.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-06-03
+updated: 2026-06-06
 ---
 
 ## Relations

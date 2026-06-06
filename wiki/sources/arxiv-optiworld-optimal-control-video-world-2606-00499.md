@@ -13,10 +13,12 @@ related:
   - sources/arxiv-2605-31336-decmem-world-generation.md
   - concepts/activation-steering-video-generation.md
   - sources/arxiv-activation-steering-video-gen-2606.04775-2026-06-05.md
+  - sources/arxiv-2603-18639-orthophys-physics-video.md
+  - concepts/physics-aware-orthogonal-view-video.md
 maturity: draft
 read_status: read
 created: 2026-06-02
-updated: 2026-06-05
+updated: 2026-06-06
 ---
 
 ## Relations

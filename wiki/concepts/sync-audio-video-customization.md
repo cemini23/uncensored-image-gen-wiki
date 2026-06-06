@@ -12,9 +12,12 @@ related:
   - entities/lipsync/latentsync.md
   - sources/arxiv-2604-11283-mllm-video-translation-survey.md
   - concepts/mllm-video-translation.md
+  - sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md
+  - concepts/joint-audio-visual-instruction-editing.md
+  - entities/models/javedit.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-03
+updated: 2026-06-06
 ---
 
 ## Relations
@@ -41,6 +44,8 @@ Ingest 2026-06-01 from OmniCustom paper — new task tier above silent video cus
 | BGS | Stable Audio Open + FFmpeg mux | Native in joint gen |
 
 **Status:** research/adoption candidate — verify weights license + ComfyUI path `[NEEDS VERIFICATION 2026-06-01]`. → @entities/models/omnicustom.md
+
+**Successor tier:** @concepts/joint-audio-visual-instruction-editing.md (JAVEdit) adds natural-language **editing** on top of reference-driven **customization** — same joint AV goal, different control surface.
 
 ## Snippets
 

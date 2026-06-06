@@ -11,9 +11,12 @@ related:
   - concepts/long-video-rag-retrieval.md
   - sources/video-generation-survey-2026.md
   - entities/models/wan-2-2.md
+  - concepts/one-step-autoregressive-video-distillation.md
+  - sources/arxiv-2606-03972-aad-1-one-step-ar-video.md
+  - concepts/seam-stitching-strategies.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-06-06
 ---
 
 ## Relations

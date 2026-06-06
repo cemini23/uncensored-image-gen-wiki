@@ -47,10 +47,16 @@ related:
   - sources/arxiv-activation-steering-video-gen-2606.04775-2026-06-05.md
   - entities/models/metaworld.md
   - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
+  - sources/arxiv-2606-03972-aad-1-one-step-ar-video.md
+  - sources/arxiv-2606-01362-albedoedit-video-editing.md
+  - sources/arxiv-2603-18639-orthophys-physics-video.md
+  - concepts/one-step-autoregressive-video-distillation.md
+  - concepts/albedo-guided-instance-video-editing.md
+  - concepts/physics-aware-orthogonal-view-video.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-06-05
+updated: 2026-06-06
 ---
 
 ## Relations

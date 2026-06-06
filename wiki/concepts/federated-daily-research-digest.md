@@ -19,9 +19,10 @@ related:
   - sweeps/2026-06-04-inbox-triage.md
   - sweeps/2026-06-05-inbox-triage.md
   - sweeps/2026-06-05-daily.md
+  - sweeps/2026-06-06-daily.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-04
+updated: 2026-06-06
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

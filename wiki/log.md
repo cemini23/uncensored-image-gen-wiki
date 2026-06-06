@@ -4,6 +4,40 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-06] ingest | daily digest inbox — AAD-1, AlbedoEdit, JAVEdit, OrthoPhys, cross-model safety (5 PDFs)
+
+Per `wiki/sweeps/2026-06-06-daily.md`. preingest_check: 5/5 NEW. PDFs archived to `raw-sources/`.
+
+### Sources created (5)
+
+- `wiki/sources/arxiv-2606-03972-aad-1-one-step-ar-video.md`
+- `wiki/sources/arxiv-2606-01362-albedoedit-video-editing.md`
+- `wiki/sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md`
+- `wiki/sources/arxiv-2603-18639-orthophys-physics-video.md`
+- `wiki/sources/arxiv-2606-05290-cross-model-safety-steering.md`
+
+### Concepts created (5)
+
+- `concepts/one-step-autoregressive-video-distillation.md`
+- `concepts/albedo-guided-instance-video-editing.md`
+- `concepts/joint-audio-visual-instruction-editing.md`
+- `concepts/physics-aware-orthogonal-view-video.md`
+- `concepts/cross-model-safety-steering.md`
+
+### Entities created (2)
+
+- `entities/models/javedit.md`, `entities/models/albedoedit.md`
+
+### Enhanced (backlinks)
+
+- `activation-steering-video-generation.md`, `world-models-video-generation.md`, `persona-audio-stack.md`, `sync-audio-video-customization.md`, `seam-stitching-strategies.md`, `autoregressive-video-foresight-training.md`, `de-censoring-techniques.md`, `wan-2-2.md`, `ltx-2.md`, `wiki/index.md`
+
+### Inbox state
+
+`research to be indexed/` cleared — 5 PDFs → `raw-sources/`.
+
+---
+
 ## [2026-06-05] phase-0 | GitHub audit batch — 14 pending candidates
 
 Audited per `prompts/github-repo-eval.md`. Full table in `briefs/2026-06-05_phase-0-batch.md`.

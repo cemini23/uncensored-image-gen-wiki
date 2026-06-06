@@ -11,9 +11,11 @@ related:
   - sources/video-generation-survey-2026.md
   - concepts/autoregressive-video-foresight-training.md
   - sources/arxiv-2606-03971-video-mirai-autoregressive-foresight.md
+  - concepts/one-step-autoregressive-video-distillation.md
+  - sources/arxiv-2606-03972-aad-1-one-step-ar-video.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-04
+updated: 2026-06-06
 ---
 
 ## Relations

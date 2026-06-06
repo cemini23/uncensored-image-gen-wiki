@@ -36,9 +36,11 @@ related:
   - entities/models/cogvideox-1-5.md
   - concepts/model-selection-workflow.md
   - entities/marketplaces/civitai.md
+  - concepts/cross-model-safety-steering.md
+  - sources/arxiv-2606-05290-cross-model-safety-steering.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-05-07
+updated: 2026-06-06
 ---
 
 ## Relations

@@ -10,9 +10,11 @@ related:
   - entities/lipsync/latentsync.md
   - entities/persona-ops/fish-speech.md
   - sources/video-generation-survey-2026.md
+  - concepts/joint-audio-visual-instruction-editing.md
+  - sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-03
+updated: 2026-06-06
 ---
 
 ## Relations

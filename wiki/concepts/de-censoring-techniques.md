@@ -36,9 +36,11 @@ related:
   - entities/hardware/gpu-guide.md
   - entities/marketplaces/civitai.md
   - entities/uis/comfyui.md
+  - concepts/cross-model-safety-steering.md
+  - sources/arxiv-2606-05290-cross-model-safety-steering.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-05-07
+updated: 2026-06-06
 ---
 
 ## Relations

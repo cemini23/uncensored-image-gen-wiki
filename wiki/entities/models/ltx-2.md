@@ -17,9 +17,12 @@ related:
   - entities/models/foley-omni.md
   - sources/arxiv-2604-11283-mllm-video-translation-survey.md
   - sources/arxiv-2606-03672-foley-omni.md
+  - sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md
+  - entities/models/javedit.md
+  - concepts/joint-audio-visual-instruction-editing.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-03
+updated: 2026-06-06
 ---
 
 ## Relations

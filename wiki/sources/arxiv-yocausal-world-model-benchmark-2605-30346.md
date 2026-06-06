@@ -10,10 +10,12 @@ related:
   - sources/video-generation-survey-2026.md
   - sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md
   - sources/arxiv-proprio-physics-video-2605-28230.md
+  - sources/arxiv-2603-18639-orthophys-physics-video.md
+  - concepts/physics-aware-orthogonal-view-video.md
 maturity: draft
 read_status: read
 created: 2026-06-01
-updated: 2026-06-02
+updated: 2026-06-06
 ---
 
 ## Relations

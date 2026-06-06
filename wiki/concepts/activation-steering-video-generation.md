@@ -12,9 +12,11 @@ related:
   - sources/video-generation-survey-2026.md
   - entities/models/wan-2-2.md
   - entities/models/hunyuanvideo-1-5.md
+  - concepts/cross-model-safety-steering.md
+  - sources/arxiv-2606-05290-cross-model-safety-steering.md
 maturity: draft
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-06
 ---
 
 ## Relations

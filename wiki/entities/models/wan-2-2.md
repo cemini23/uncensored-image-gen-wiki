@@ -44,9 +44,16 @@ related:
   - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
   - entities/models/omnicustom.md
   - entities/open-generative-ai.md
+  - sources/arxiv-2606-03972-aad-1-one-step-ar-video.md
+  - concepts/albedo-guided-instance-video-editing.md
+  - concepts/one-step-autoregressive-video-distillation.md
+  - sources/arxiv-2606-01362-albedoedit-video-editing.md
+  - entities/models/albedoedit.md
+  - concepts/cross-model-safety-steering.md
+  - sources/arxiv-2606-05290-cross-model-safety-steering.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-05
+updated: 2026-06-06
 ---
 
 ## Relations

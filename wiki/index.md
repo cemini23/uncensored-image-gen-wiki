@@ -43,6 +43,11 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [LongLive-RAG — RAG for AR long video (arXiv:2606.02553)](sources/arxiv-2606-02553-longlive-rag-long-video-generation.md) — retrieve non-local latents against sliding-window drift — `paper, long-horizon, rag, nvidia`
 - [Video-Mirai — foresight training for AR video (arXiv:2606.03971)](sources/arxiv-2606-03971-video-mirai-autoregressive-foresight.md) — future-informed representation alignment; inference unchanged — `paper, autoregressive, training, consistency`
 - [LA-LQR — activation steering for T2V (arXiv:2606.04775)](sources/arxiv-activation-steering-video-gen-2606.04775-2026-06-05.md) — reduced-order LQR on DiT activations for inference-time concept/safety steering — `paper, video-generation, steering, safety, optimal-control`
+- [AAD-1 — one-step autoregressive I2V distillation (arXiv:2606.03972)](sources/arxiv-2606-03972-aad-1-one-step-ar-video.md) — asymmetric adversarial distillation; bidirectional discriminator + DMD warmup for 1-step Wan AR I2V — `paper, autoregressive, distillation, one-step, wan`
+- [AlbedoEdit — unified instance-level video editing (arXiv:2606.01362)](sources/arxiv-2606-01362-albedoedit-video-editing.md) — albedo-conditioned VOI/VOR/VTE on Wan 2.1; illumination harmonization — `paper, video-editing, albedo, intrinsic, wan`
+- [JAVEdit — joint audio-visual instruction editing (arXiv:2606.03168)](sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md) — JAVEdit-100k + LTX-2.3 LoRA baseline; five human-centric AV edit categories — `paper, audio-visual, instruction-editing, ltx, dataset`
+- [OrthoPhys — orthogonal-view physics-guided video (arXiv:2603.18639)](sources/arxiv-2603-18639-orthophys-physics-video.md) — two-stage Phys4View + VideoSyn; four-view foreground motion under physical attributes — `paper, physics, multi-view, world-model`
+- [Cross-model safety steering (arXiv:2606.05290)](sources/arxiv-2606-05290-cross-model-safety-steering.md) — LLM safety direction transported to FLUX/Qwen-Image/Wan via benign-only alignment — `paper, safety, steering, cross-model, t2i, t2v`
 - [MetaWorld — multi-agent video world model (arXiv:2606.02753)](sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md) — monocular training → multi-egocentric world model via MWSU + World-State Alignment — `paper, world-model, multi-agent, consistency`
 - [PDA / GAM — preference delta LoRA aggregation (arXiv:2606.00357)](sources/arxiv-weak-signals-preference-distillation-2606.00357-2026-06-05.md) — **rerouted** LLM weak-signal LoRA merge (not video) — `paper, lora, merging, preference-learning, rerouted`
 
@@ -84,6 +89,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [DecMem (Kling / Kuaishou)](entities/models/decmem.md) — decoupled memory world model for minute-scale revisit-consistent generation; Sparse Global + Anchored Local memory — `model, world-model, memory, kling, long-horizon` ⚠ stub
 - [MetaWorld (SJTU / ZJU / NTU)](entities/models/metaworld.md) — multi-agent multi-egocentric video world model trained from single-view monocular video; MWSU + World-State Alignment — `model, world-model, multi-agent, egocentric` ⚠ stub
 - [Foley-Omni (Video Rebirth)](entities/models/foley-omni.md) — unified V2ST model jointly generating speech, SFX, and music for video; V2ST-Bench — `model, audio, foley, v2st, unified-generation` ⚠ stub
+- [JAVEdit (Tencent Youtu / ZJU)](entities/models/javedit.md) — LTX-2.3 LoRA for instruction-guided joint audio-visual editing; JAVEdit-100k training set — `model, video-editing, audio-visual, instruction, ltx` ⚠ stub
+- [AlbedoEdit (MPI-INF / NVIDIA Research)](entities/models/albedoedit.md) — Wan 2.1 T2V-14B finetune for albedo-guided instance insertion/removal/texture editing — `model, video-editing, albedo, wan, intrinsic` ⚠ stub
 
 ### Adapters (identity injection)
 
@@ -253,6 +260,11 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Knowledge-graph structured video control (KGEdit)](concepts/knowledge-graph-structured-video-control.md) — AAKG + SSIM + TASC training-free T2V semantic control — `t2v, knowledge-graph, training-free`
 - [Long-video RAG retrieval (LongLive-RAG)](concepts/long-video-rag-retrieval.md) — RAG over self-generated latents for AR long video — `long-horizon, rag, memory`
 - [Autoregressive video foresight training (Video-Mirai)](concepts/autoregressive-video-foresight-training.md) — future-informed representation alignment for causal video diffusion — `autoregressive, training, consistency`
+- [One-step autoregressive video distillation (AAD-1)](concepts/one-step-autoregressive-video-distillation.md) — asymmetric GAN distillation for 1-step streaming Wan I2V — `autoregressive, distillation, one-step, inference-speed`
+- [Albedo-guided instance video editing (AlbedoEdit)](concepts/albedo-guided-instance-video-editing.md) — unified VOI/VOR/VTE via first-frame albedo edits — `video-editing, albedo, intrinsic, harmonization`
+- [Joint audio-visual instruction editing (JAVEdit)](concepts/joint-audio-visual-instruction-editing.md) — natural-language joint AV edits for human-centric persona clips — `video-editing, audio-visual, instruction, persona-ops`
+- [Physics-aware orthogonal-view video (OrthoPhys)](concepts/physics-aware-orthogonal-view-video.md) — four-view foreground motion under explicit physical attributes — `physics, multi-view, world-model`
+- [Cross-model safety steering](concepts/cross-model-safety-steering.md) — portable LLM safety directions aligned to T2I/T2V generators — `safety, steering, cross-model, alignment`
 
 ### Meta (wiki operations)
 

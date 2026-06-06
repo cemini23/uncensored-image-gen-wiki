@@ -8,9 +8,11 @@ related:
   - sources/uncensored-image-generation-survey.md
   - concepts/prompt-engineering-uncensored.md
   - concepts/censorship-tier-taxonomy.md
+  - concepts/cross-model-safety-steering.md
+  - sources/arxiv-2606-05290-cross-model-safety-steering.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-03
+updated: 2026-06-06
 ---
 
 ## Relations

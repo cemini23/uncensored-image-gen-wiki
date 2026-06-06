@@ -37,9 +37,11 @@ related:
   - entities/uis/forge.md
   - concepts/t2i-model-ownership-verification.md
   - sources/arxiv-2605-29809-cert-las-t2i-mov.md
+  - concepts/cross-model-safety-steering.md
+  - sources/arxiv-2606-05290-cross-model-safety-steering.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-03
+updated: 2026-06-06
 ---
 
 ## Relations

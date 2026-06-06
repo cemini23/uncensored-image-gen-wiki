@@ -18,6 +18,9 @@ related:
   - concepts/sync-audio-video-customization.md
   - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
   - sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md
+  - sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md
+  - entities/models/javedit.md
+  - concepts/joint-audio-visual-instruction-editing.md
   - concepts/mllm-video-translation.md
   - sources/arxiv-2604-11283-mllm-video-translation-survey.md
   - entities/models/omnicustom.md
