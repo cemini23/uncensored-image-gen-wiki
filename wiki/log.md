@@ -4,6 +4,30 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-07] ingest | daily digest inbox — Dream.exe, ReCache (2 PDFs)
+
+Per `wiki/sweeps/2026-06-07-daily.md`. preingest_check: 2/2 NEW. PDFs archived to `raw-sources/`.
+
+### Sources created (2)
+
+- `wiki/sources/arxiv-2606-04811-dream-exe-robot-executability.md`
+- `wiki/sources/arxiv-2606-06060-recache-diffusion-caching.md`
+
+### Concepts created (2)
+
+- `concepts/video-generation-physical-executability.md`
+- `concepts/budget-aware-diffusion-caching.md`
+
+### Enhanced (backlinks)
+
+- `world-models-video-generation.md`, `gpu-guide.md`, `flux-1-dev.md`, `wan-2-2.md`, `hunyuanvideo-1-5.md`, `synthetic-media-compute-economics.md`, `one-step-autoregressive-video-distillation.md`, `video-generation-survey-2026.md`, `arxiv-yocausal-world-model-benchmark-2605-30346.md`, `comfyui.md`, `ltx-2.md`, `wiki/index.md`
+
+### Inbox state
+
+`research to be indexed/` cleared — 2 PDFs → `raw-sources/`.
+
+---
+
 ## [2026-06-06] ingest | daily digest inbox — AAD-1, AlbedoEdit, JAVEdit, OrthoPhys, cross-model safety (5 PDFs)
 
 Per `wiki/sweeps/2026-06-06-daily.md`. preingest_check: 5/5 NEW. PDFs archived to `raw-sources/`.

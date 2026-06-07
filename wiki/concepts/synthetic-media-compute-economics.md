@@ -12,9 +12,11 @@ related:
   - entities/models/hunyuanvideo-1-5.md
   - entities/models/cogvideox-1-5.md
   - concepts/persona-monetization-models.md
+  - sources/arxiv-2606-06060-recache-diffusion-caching.md
+  - concepts/budget-aware-diffusion-caching.md
 maturity: draft
 created: 2026-05-08
-updated: 2026-05-09
+updated: 2026-06-07
 ---
 
 ## Relations

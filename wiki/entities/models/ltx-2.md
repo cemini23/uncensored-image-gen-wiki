@@ -20,9 +20,11 @@ related:
   - sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md
   - entities/models/javedit.md
   - concepts/joint-audio-visual-instruction-editing.md
+  - sources/arxiv-2606-04811-dream-exe-robot-executability.md
+  - concepts/video-generation-physical-executability.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-06
+updated: 2026-06-07
 ---
 
 ## Relations

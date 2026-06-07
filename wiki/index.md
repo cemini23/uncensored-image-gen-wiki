@@ -48,6 +48,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [JAVEdit — joint audio-visual instruction editing (arXiv:2606.03168)](sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md) — JAVEdit-100k + LTX-2.3 LoRA baseline; five human-centric AV edit categories — `paper, audio-visual, instruction-editing, ltx, dataset`
 - [OrthoPhys — orthogonal-view physics-guided video (arXiv:2603.18639)](sources/arxiv-2603-18639-orthophys-physics-video.md) — two-stage Phys4View + VideoSyn; four-view foreground motion under physical attributes — `paper, physics, multi-view, world-model`
 - [Cross-model safety steering (arXiv:2606.05290)](sources/arxiv-2606-05290-cross-model-safety-steering.md) — LLM safety direction transported to FLUX/Qwen-Image/Wan via benign-only alignment — `paper, safety, steering, cross-model, t2i, t2v`
+- [Dream.exe — video-to-robot executability benchmark (arXiv:2606.04811)](sources/arxiv-2606-04811-dream-exe-robot-executability.md) — sim execution success as world-model probe; visual quality ≠ executability — `paper, benchmark, world-model, robotics, evaluation`
+- [ReCache — budget-aware diffusion caching (arXiv:2606.06060)](sources/arxiv-2606-06060-recache-diffusion-caching.md) — REINFORCE-learned caching schedules for FLUX/HunyuanVideo/Wan — `paper, inference, caching, optimization, flux, wan`
 - [MetaWorld — multi-agent video world model (arXiv:2606.02753)](sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md) — monocular training → multi-egocentric world model via MWSU + World-State Alignment — `paper, world-model, multi-agent, consistency`
 - [PDA / GAM — preference delta LoRA aggregation (arXiv:2606.00357)](sources/arxiv-weak-signals-preference-distillation-2606.00357-2026-06-05.md) — **rerouted** LLM weak-signal LoRA merge (not video) — `paper, lora, merging, preference-learning, rerouted`
 
@@ -265,6 +267,8 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Joint audio-visual instruction editing (JAVEdit)](concepts/joint-audio-visual-instruction-editing.md) — natural-language joint AV edits for human-centric persona clips — `video-editing, audio-visual, instruction, persona-ops`
 - [Physics-aware orthogonal-view video (OrthoPhys)](concepts/physics-aware-orthogonal-view-video.md) — four-view foreground motion under explicit physical attributes — `physics, multi-view, world-model`
 - [Cross-model safety steering](concepts/cross-model-safety-steering.md) — portable LLM safety directions aligned to T2I/T2V generators — `safety, steering, cross-model, alignment`
+- [Video generation physical executability (Dream.exe)](concepts/video-generation-physical-executability.md) — simulator execution success as world-model benchmark beyond VBench — `world-model, benchmark, physics, robotics`
+- [Budget-aware diffusion feature caching (ReCache)](concepts/budget-aware-diffusion-caching.md) — user-specified compute budget k → learned denoising-step recompute schedule — `inference, caching, optimization, hardware`
 
 ### Meta (wiki operations)
 

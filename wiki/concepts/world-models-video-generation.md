@@ -24,9 +24,11 @@ related:
   - sources/arxiv-activation-steering-video-gen-2606.04775-2026-06-05.md
   - sources/arxiv-2603-18639-orthophys-physics-video.md
   - concepts/physics-aware-orthogonal-view-video.md
+  - sources/arxiv-2606-04811-dream-exe-robot-executability.md
+  - concepts/video-generation-physical-executability.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-06-06
+updated: 2026-06-07
 ---
 
 ## Relations

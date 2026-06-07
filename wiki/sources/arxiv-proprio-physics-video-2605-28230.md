@@ -10,11 +10,13 @@ related:
   - sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md
   - sources/arxiv-yocausal-world-model-benchmark-2605-30346.md
   - sources/arxiv-2603-18639-orthophys-physics-video.md
+  - sources/arxiv-2606-04811-dream-exe-robot-executability.md
+  - concepts/video-generation-physical-executability.md
   - concepts/physics-aware-orthogonal-view-video.md
 maturity: draft
 read_status: read
 created: 2026-06-01
-updated: 2026-06-06
+updated: 2026-06-07
 ---
 
 ## Relations

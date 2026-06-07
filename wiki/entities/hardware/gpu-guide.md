@@ -31,9 +31,11 @@ related:
   - runbooks/runpod-comfyui-setup.md
   - entities/custom-nodes/impact-pack.md
   - entities/custom-nodes/bmab.md
+  - sources/arxiv-2606-06060-recache-diffusion-caching.md
+  - concepts/budget-aware-diffusion-caching.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-05-11
+updated: 2026-06-07
 ---
 
 ## Relations

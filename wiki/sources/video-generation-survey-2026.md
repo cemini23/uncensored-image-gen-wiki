@@ -53,10 +53,14 @@ related:
   - concepts/one-step-autoregressive-video-distillation.md
   - concepts/albedo-guided-instance-video-editing.md
   - concepts/physics-aware-orthogonal-view-video.md
+  - sources/arxiv-2606-04811-dream-exe-robot-executability.md
+  - concepts/video-generation-physical-executability.md
+  - sources/arxiv-2606-06060-recache-diffusion-caching.md
+  - concepts/budget-aware-diffusion-caching.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-06-06
+updated: 2026-06-07
 ---
 
 ## Relations

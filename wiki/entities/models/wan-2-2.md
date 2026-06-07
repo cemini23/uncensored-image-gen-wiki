@@ -51,9 +51,13 @@ related:
   - entities/models/albedoedit.md
   - concepts/cross-model-safety-steering.md
   - sources/arxiv-2606-05290-cross-model-safety-steering.md
+  - sources/arxiv-2606-04811-dream-exe-robot-executability.md
+  - concepts/video-generation-physical-executability.md
+  - sources/arxiv-2606-06060-recache-diffusion-caching.md
+  - concepts/budget-aware-diffusion-caching.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-06
+updated: 2026-06-07
 ---
 
 ## Relations

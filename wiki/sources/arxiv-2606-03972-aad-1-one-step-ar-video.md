@@ -10,6 +10,8 @@ related:
   - concepts/seam-stitching-strategies.md
   - sources/video-generation-survey-2026.md
   - entities/models/wan-2-2.md
+  - sources/arxiv-2606-06060-recache-diffusion-caching.md
+  - concepts/budget-aware-diffusion-caching.md
 maturity: draft
 read_status: read
 created: 2026-06-06

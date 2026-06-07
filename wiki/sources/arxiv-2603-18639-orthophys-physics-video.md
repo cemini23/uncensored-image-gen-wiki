@@ -10,10 +10,12 @@ related:
   - sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md
   - sources/arxiv-yocausal-world-model-benchmark-2605-30346.md
   - sources/video-generation-survey-2026.md
+  - concepts/video-generation-physical-executability.md
+  - sources/arxiv-2606-04811-dream-exe-robot-executability.md
 maturity: draft
 read_status: read
 created: 2026-06-06
-updated: 2026-06-06
+updated: 2026-06-07
 ---
 
 ## Relations
