@@ -22,9 +22,13 @@ related:
   - concepts/joint-audio-visual-instruction-editing.md
   - sources/arxiv-2606-04811-dream-exe-robot-executability.md
   - concepts/video-generation-physical-executability.md
+  - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
+  - concepts/multi-shot-audio-video-evaluation.md
+  - entities/models/seedance-2.md
+  - concepts/sync-audio-video-customization.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-07
+updated: 2026-06-08
 ---
 
 ## Relations
@@ -91,6 +95,10 @@ LTX-2.3 is **not** in Musubi Tuner's architecture coverage list (per training-to
 
 > "While highly optimized for single-pass cinematic outputs, the model's audio stream occasionally struggles with extended, complex conversational dialogue, though it remains unmatched in open-weight ambient sound synthesis."
 [Source: Video Generation Models Survey 2026.docx p.2]
+
+### MSAVBench (multi-shot A/V eval)
+
+**LTX-2.3 TI2AV** (Wan2.7-Image storyboard priors + per-shot A/V) is the **strongest open-weight MSAV path** in @sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md — ~75 overall on 1–4 shot prompts, competitive with closed Wan2.7-T2V/Kling. Still weak on layout-text alignment and camera adherence vs Seedance-2.0 `[TENTATIVE]`. Confirms joint A/V advantage over silent Wan + post-hoc dubbing.
 
 ## Dead Ends
 

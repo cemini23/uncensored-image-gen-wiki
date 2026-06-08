@@ -18,9 +18,11 @@ related:
   - sources/arxiv-2606-03972-aad-1-one-step-ar-video.md
   - concepts/one-step-autoregressive-video-distillation.md
   - concepts/autoregressive-video-foresight-training.md
+  - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
+  - concepts/multi-shot-audio-video-evaluation.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-06
+updated: 2026-06-08
 ---
 
 ## Relations
@@ -87,6 +89,8 @@ For long-form persona dialogue, separate visual generation from audio track and 
 | **UniSync** (arxiv 2603.03882) | Mask-free approach; eliminates hard facial-mask boundaries | 2026 SOTA; resolves color mismatches + lighting artifacts that degrade LatentSync |
 
 For 2026 production, **UniSync is the recommended default**. [CONFIRMED]
+
+**MSAVBench caveat:** @sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md shows post-hoc dubbing + lipsync stacks (LongLive+HunyuanFoley, Wan2.2+HunyuanFoley) collapse on multi-shot dialogue vs unified A/V — especially across hard cuts. Latent-chaining **visual** continuity does not fix **audio** discontinuity if dubbing happens after stitch. Prefer joint A/V per segment or LTX-2.3 TI2AV for 5+ shot dialogue reels → @concepts/multi-shot-audio-video-evaluation.md `[TENTATIVE]`.
 
 ### Decision tree — which seam strategy?
 

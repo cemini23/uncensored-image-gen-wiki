@@ -54,9 +54,11 @@ related:
   - sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md
   - concepts/joint-audio-visual-instruction-editing.md
   - entities/models/javedit.md
+  - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
+  - concepts/multi-shot-audio-video-evaluation.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-06-06
+updated: 2026-06-08
 ---
 
 ## Relations
@@ -104,6 +106,14 @@ An AI persona doesn't just need images and video — it needs a voice. The audio
 | **2. Lipsync** | Marry generated audio to generated video faces | LatentSync, MuseTalk, Wav2Lip |
 | **3. Music Generation** | Background music for social posts, persona theme music | ACE-Step 1.5, Meta MusicGen, Stable Audio Open |
 | **4. Sound Effects / Foley** | Ambient sound, scene audio for video content | Stable Audio Open, AudioLDM, Tango 2 |
+
+### MSAVBench implication (multi-shot dialogue reels)
+
+@sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md systematically shows that **video-first + post-hoc dubbing** (Wan2.2 + HunyuanFoley class pipelines) fails lip-sync, WER, and cross-shot timbre vs unified A/V models — especially at 5+ shots. The default Layer 1–2 cascade (Fish-Speech → Wan I2V → LatentSync) mirrors that failure mode for **multi-cut persona monologues** `[TENTATIVE]`.
+
+**Mitigations:** (a) native joint gen via LTX-2.3 / OmniCustom / JAVEdit for dialogue-heavy reels; (b) keep cascade for single-shot clips; (c) generate A/V jointly per segment before @concepts/seam-stitching-strategies.md, not dub after stitch.
+
+→ @concepts/multi-shot-audio-video-evaluation.md · @entities/models/ltx-2.md
 
 ---
 

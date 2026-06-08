@@ -4,6 +4,28 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-08] ingest | daily digest inbox — MSAVBench (1 PDF)
+
+Per `wiki/sweeps/2026-06-08-daily.md`. preingest_check: 1/1 NEW. PDF archived to `raw-sources/`.
+
+### Sources created (1)
+
+- `wiki/sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md`
+
+### Concepts created (1)
+
+- `concepts/multi-shot-audio-video-evaluation.md`
+
+### Enhanced (backlinks)
+
+- `ltx-2.md`, `wan-2-2.md`, `seedance-2.md`, `persona-audio-stack.md`, `sync-audio-video-customization.md`, `seam-stitching-strategies.md`, `latentsync.md`, `video-generation-survey-2026.md`, `wiki/index.md`
+
+### Inbox state
+
+`research to be indexed/` cleared — 1 PDF → `raw-sources/`.
+
+---
+
 ## [2026-06-07] ingest | daily digest inbox — Dream.exe, ReCache (2 PDFs)
 
 Per `wiki/sweeps/2026-06-07-daily.md`. preingest_check: 2/2 NEW. PDFs archived to `raw-sources/`.

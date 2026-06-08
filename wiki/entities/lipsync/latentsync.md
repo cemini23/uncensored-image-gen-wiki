@@ -24,9 +24,11 @@ related:
   - concepts/mllm-video-translation.md
   - sources/arxiv-2604-11283-mllm-video-translation-survey.md
   - entities/models/omnicustom.md
+  - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
+  - concepts/multi-shot-audio-video-evaluation.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-05
+updated: 2026-06-08
 ---
 
 ## Relations

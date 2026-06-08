@@ -15,9 +15,12 @@ related:
   - sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md
   - concepts/joint-audio-visual-instruction-editing.md
   - entities/models/javedit.md
+  - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
+  - concepts/multi-shot-audio-video-evaluation.md
+  - entities/models/ltx-2.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-06
+updated: 2026-06-08
 ---
 
 ## Relations
@@ -46,6 +49,8 @@ Ingest 2026-06-01 from OmniCustom paper — new task tier above silent video cus
 **Status:** research/adoption candidate — verify weights license + ComfyUI path `[NEEDS VERIFICATION 2026-06-01]`. → @entities/models/omnicustom.md
 
 **Successor tier:** @concepts/joint-audio-visual-instruction-editing.md (JAVEdit) adds natural-language **editing** on top of reference-driven **customization** — same joint AV goal, different control surface.
+
+**Eval tier:** @concepts/multi-shot-audio-video-evaluation.md (MSAVBench) — reference-to-AV metrics (subject/voice fidelity) show visual identity preservation lags voice cloning even on closed systems; joint customization models must optimize both.
 
 ## Snippets
 

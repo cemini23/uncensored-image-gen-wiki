@@ -12,9 +12,11 @@ related:
   - entities/models/ltx-2.md
   - entities/lipsync/latentsync.md
   - sources/arxiv-2606-03672-foley-omni.md
+  - concepts/multi-shot-audio-video-evaluation.md
+  - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-06
+updated: 2026-06-08
 ---
 
 ## Relations

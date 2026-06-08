@@ -57,10 +57,12 @@ related:
   - concepts/video-generation-physical-executability.md
   - sources/arxiv-2606-06060-recache-diffusion-caching.md
   - concepts/budget-aware-diffusion-caching.md
+  - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
+  - concepts/multi-shot-audio-video-evaluation.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-06-07
+updated: 2026-06-08
 ---
 
 ## Relations

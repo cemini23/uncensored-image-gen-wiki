@@ -10,9 +10,12 @@ related:
   - concepts/persona-consistency-methods.md
   - entities/models/openrouter-video.md
   - entities/uis/comfyui.md
+  - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
+  - concepts/multi-shot-audio-video-evaluation.md
+  - entities/models/ltx-2.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-06-08
 ---
 
 ## Relations
@@ -57,6 +60,10 @@ Per @sources/video-generation-survey-2026.md the adult-persona track concentrate
 2. Multi-input I2V architecture (9 images + 3 clips + 3 audio) is a hint at the next wave of open-weight capability — Wan 3.0 / HunyuanVideo 2 successors are likely to chase this.
 
 **This page does not prescribe Seedance 2.0 as a workflow target** for the adult-persona track — it is a reference benchmark only.
+
+### MSAVBench leaderboard (multi-shot A/V)
+
+On @sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md, **Seedance-2.0 leads overall MSAV scores** (~76–78 across shot-count bins) — strongest on narrative coherence, layout control, and cross-shot consistency among 19 evaluated systems. Confirms survey's I2V identity-preservation ranking extends to **director-level multi-shot dialogue** `[TENTATIVE]`. Wan2.7-T2V and Kling-V3 trail by ~3–5 pts overall.
 
 ## Snippets
 

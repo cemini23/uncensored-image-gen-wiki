@@ -12,10 +12,12 @@ related:
   - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
   - concepts/joint-audio-visual-instruction-editing.md
   - sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md
+  - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
+  - concepts/multi-shot-audio-video-evaluation.md
 maturity: draft
 read_status: read
 created: 2026-06-03
-updated: 2026-06-06
+updated: 2026-06-08
 ---
 
 ## Relations

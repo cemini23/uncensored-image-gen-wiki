@@ -21,9 +21,10 @@ related:
   - sweeps/2026-06-05-daily.md
   - sweeps/2026-06-06-daily.md
   - sweeps/2026-06-07-daily.md
+  - sweeps/2026-06-08-daily.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-07
+updated: 2026-06-08
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

@@ -9,9 +9,10 @@ related:
   - entities/models/ltx-2.md
   - entities/sfx-models/stable-audio-open.md
   - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
+  - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-05
+updated: 2026-06-08
 phase_0_verdict: NO-GO
 phase_0_date: 2026-06-05
 ---

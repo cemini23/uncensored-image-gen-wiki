@@ -10,9 +10,11 @@ related:
   - concepts/video-identity-inheritance.md
   - entities/models/wan-2-2.md
   - entities/lipsync/latentsync.md
+  - concepts/multi-shot-audio-video-evaluation.md
+  - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-05
+updated: 2026-06-08
 phase_0_verdict: CONDITIONAL-GO
 phase_0_date: 2026-06-05
 provenance:

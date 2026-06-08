@@ -50,6 +50,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Cross-model safety steering (arXiv:2606.05290)](sources/arxiv-2606-05290-cross-model-safety-steering.md) — LLM safety direction transported to FLUX/Qwen-Image/Wan via benign-only alignment — `paper, safety, steering, cross-model, t2i, t2v`
 - [Dream.exe — video-to-robot executability benchmark (arXiv:2606.04811)](sources/arxiv-2606-04811-dream-exe-robot-executability.md) — sim execution success as world-model probe; visual quality ≠ executability — `paper, benchmark, world-model, robotics, evaluation`
 - [ReCache — budget-aware diffusion caching (arXiv:2606.06060)](sources/arxiv-2606-06060-recache-diffusion-caching.md) — REINFORCE-learned caching schedules for FLUX/HunyuanVideo/Wan — `paper, inference, caching, optimization, flux, wan`
+- [MSAVBench — multi-shot audio-video evaluation (arXiv:2605.20183)](sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md) — 286-prompt MSAV benchmark; hybrid agentic eval; LTX-2.3 TI2AV best open path — `paper, benchmark, audio-video, multi-shot, evaluation, ltx, wan`
 - [MetaWorld — multi-agent video world model (arXiv:2606.02753)](sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md) — monocular training → multi-egocentric world model via MWSU + World-State Alignment — `paper, world-model, multi-agent, consistency`
 - [PDA / GAM — preference delta LoRA aggregation (arXiv:2606.00357)](sources/arxiv-weak-signals-preference-distillation-2606.00357-2026-06-05.md) — **rerouted** LLM weak-signal LoRA merge (not video) — `paper, lora, merging, preference-learning, rerouted`
 
@@ -269,6 +270,7 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Cross-model safety steering](concepts/cross-model-safety-steering.md) — portable LLM safety directions aligned to T2I/T2V generators — `safety, steering, cross-model, alignment`
 - [Video generation physical executability (Dream.exe)](concepts/video-generation-physical-executability.md) — simulator execution success as world-model benchmark beyond VBench — `world-model, benchmark, physics, robotics`
 - [Budget-aware diffusion feature caching (ReCache)](concepts/budget-aware-diffusion-caching.md) — user-specified compute budget k → learned denoising-step recompute schedule — `inference, caching, optimization, hardware`
+- [Multi-shot audio-video evaluation (MSAVBench)](concepts/multi-shot-audio-video-evaluation.md) — benchmark layer for cinematic multi-cut A/V beyond VBench; validates unified A/V over post-hoc dubbing — `benchmark, audio-video, multi-shot, evaluation, lipsync, narrative`
 
 ### Meta (wiki operations)
 

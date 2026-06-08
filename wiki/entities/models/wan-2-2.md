@@ -55,9 +55,11 @@ related:
   - concepts/video-generation-physical-executability.md
   - sources/arxiv-2606-06060-recache-diffusion-caching.md
   - concepts/budget-aware-diffusion-caching.md
+  - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
+  - concepts/multi-shot-audio-video-evaluation.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-07
+updated: 2026-06-08
 ---
 
 ## Relations
@@ -134,6 +136,7 @@ Alibaba teased Wan 2.5 (native audio) and Wan 3.0 across late-2025 / early-2026 
 - **TAGRPO** — Tencent Hunyuan I2V GRPO post-training reports consistent reward gains on Wan 2.2 where T2V GRPO ports fail → @concepts/grpo-i2v-post-training.md
 - **YoCausal** — Wan2.2-A14B ranks among top VDMs on causal wipe/clean tasks; large human gap remains → @sources/arxiv-yocausal-world-model-benchmark-2605-30346.md
 - **Proprio** — training-free physics best-of-N / refinement compatible with TurboWan2.2 class checkpoints → @sources/arxiv-proprio-physics-video-2605-28230.md
+- **MSAVBench** — Wan2.2 + HunyuanFoley (video-first dubbing) scores ~64–72 overall vs LTX-2.3 TI2AV ~72–75; drops **11.7%** from 1–4 to 11–15 shots. Validates that default persona stack (Wan video + separate audio) is weak on multi-cut dialogue → @concepts/multi-shot-audio-video-evaluation.md `[TENTATIVE]`
 
 ## Snippets
 
