@@ -12,9 +12,11 @@ related:
   - entities/models/wan-2-2.md
   - concepts/budget-aware-diffusion-caching.md
   - sources/arxiv-2606-06060-recache-diffusion-caching.md
+  - sources/arxiv-2606-07508-streamforce-streaming-force-video.md
+  - concepts/streaming-force-controlled-video-generation.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-07
+updated: 2026-06-10
 ---
 
 ## Relations

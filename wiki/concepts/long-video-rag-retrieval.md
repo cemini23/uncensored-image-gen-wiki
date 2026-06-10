@@ -13,9 +13,11 @@ related:
   - sources/video-generation-survey-2026.md
   - concepts/autoregressive-video-foresight-training.md
   - entities/models/wan-2-2.md
+  - sources/arxiv-2606-09056-millivid-hierarchical-latents.md
+  - concepts/hierarchical-latent-coarse-to-fine-video.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-05
+updated: 2026-06-10
 ---
 
 ## Relations

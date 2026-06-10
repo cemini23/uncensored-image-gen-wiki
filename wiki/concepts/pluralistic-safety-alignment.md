@@ -10,6 +10,7 @@ related:
   - concepts/censorship-tier-taxonomy.md
   - concepts/cross-model-safety-steering.md
   - sources/arxiv-2606-05290-cross-model-safety-steering.md
+  - sources/arxiv-2606-09701-advgrpo-red-teaming-routed.md
 maturity: draft
 created: 2026-06-03
 updated: 2026-06-06

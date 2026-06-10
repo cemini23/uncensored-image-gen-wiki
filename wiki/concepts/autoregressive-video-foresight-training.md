@@ -14,9 +14,13 @@ related:
   - concepts/one-step-autoregressive-video-distillation.md
   - sources/arxiv-2606-03972-aad-1-one-step-ar-video.md
   - concepts/seam-stitching-strategies.md
+  - sources/arxiv-2606-07508-streamforce-streaming-force-video.md
+  - concepts/streaming-force-controlled-video-generation.md
+  - sources/arxiv-2606-09056-millivid-hierarchical-latents.md
+  - concepts/hierarchical-latent-coarse-to-fine-video.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-06
+updated: 2026-06-10
 ---
 
 ## Relations

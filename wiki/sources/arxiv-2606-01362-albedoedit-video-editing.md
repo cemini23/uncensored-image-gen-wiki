@@ -9,10 +9,13 @@ related:
   - entities/models/wan-2-2.md
   - concepts/two-pass-generation-workflow.md
   - sources/video-generation-survey-2026.md
+  - sources/arxiv-2606-08260-tide-unified-video-editing.md
+  - concepts/task-isolated-unified-video-editing.md
+  - entities/models/tide.md
 maturity: draft
 read_status: read
 created: 2026-06-06
-updated: 2026-06-06
+updated: 2026-06-10
 ---
 
 ## Relations

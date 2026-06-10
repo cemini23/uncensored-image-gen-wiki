@@ -51,6 +51,11 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Dream.exe — video-to-robot executability benchmark (arXiv:2606.04811)](sources/arxiv-2606-04811-dream-exe-robot-executability.md) — sim execution success as world-model probe; visual quality ≠ executability — `paper, benchmark, world-model, robotics, evaluation`
 - [ReCache — budget-aware diffusion caching (arXiv:2606.06060)](sources/arxiv-2606-06060-recache-diffusion-caching.md) — REINFORCE-learned caching schedules for FLUX/HunyuanVideo/Wan — `paper, inference, caching, optimization, flux, wan`
 - [MSAVBench — multi-shot audio-video evaluation (arXiv:2605.20183)](sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md) — 286-prompt MSAV benchmark; hybrid agentic eval; LTX-2.3 TI2AV best open path — `paper, benchmark, audio-video, multi-shot, evaluation, ltx, wan`
+- [StreamForce — streaming force-controlled video (arXiv:2606.07508)](sources/arxiv-2606-07508-streamforce-streaming-force-video.md) — causal unified global/local time-varying force control; 16.6 FPS — `paper, world-model, interactive, force-control, streaming`
+- [TIDE — unified LTX-2.3 video editing (arXiv:2606.08260)](sources/arxiv-2606-08260-tide-unified-video-editing.md) — per-token task embeddings; instruction + ref edit + multi-ref gen — `paper, video-editing, ltx, unified-model`
+- [OmniTryOn — video try-on anything (arXiv:2606.08514)](sources/arxiv-2606-08514-omnitryon-video-try-on.md) — mask-free multi-object VVT; TryAny-Bench — `paper, virtual-try-on, persona, video-editing`
+- [MilliVid — hierarchical latents for long video (arXiv:2606.09056)](sources/arxiv-2606-09056-millivid-hierarchical-latents.md) — coarse-to-fine token hierarchy beats FramePack on long rollouts — `paper, long-horizon, hierarchical-latent, consistency`
+- [AdvGRPO adaptive red teaming — routed (arXiv:2606.09701)](sources/arxiv-2606-09701-advgrpo-red-teaming-routed.md) — LLM attacker-defender GRPO co-training; dedup stub → cybersec wiki — `paper, routed, llm-safety, red-team`
 - [MetaWorld — multi-agent video world model (arXiv:2606.02753)](sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md) — monocular training → multi-egocentric world model via MWSU + World-State Alignment — `paper, world-model, multi-agent, consistency`
 - [PDA / GAM — preference delta LoRA aggregation (arXiv:2606.00357)](sources/arxiv-weak-signals-preference-distillation-2606.00357-2026-06-05.md) — **rerouted** LLM weak-signal LoRA merge (not video) — `paper, lora, merging, preference-learning, rerouted`
 
@@ -94,6 +99,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Foley-Omni (Video Rebirth)](entities/models/foley-omni.md) — unified V2ST model jointly generating speech, SFX, and music for video; V2ST-Bench — `model, audio, foley, v2st, unified-generation` ⚠ stub
 - [JAVEdit (Tencent Youtu / ZJU)](entities/models/javedit.md) — LTX-2.3 LoRA for instruction-guided joint audio-visual editing; JAVEdit-100k training set — `model, video-editing, audio-visual, instruction, ltx` ⚠ stub
 - [AlbedoEdit (MPI-INF / NVIDIA Research)](entities/models/albedoedit.md) — Wan 2.1 T2V-14B finetune for albedo-guided instance insertion/removal/texture editing — `model, video-editing, albedo, wan, intrinsic` ⚠ stub
+- [TIDE (Bilibili / ZJU)](entities/models/tide.md) — LTX-2.3 unified instruction + reference + multi-ref video edit/gen — `model, video-editing, ltx, unified-model` ⚠ stub
+- [OmniTryOn (XJTU)](entities/models/omnitryon.md) — mask-free multi-object video try-on; TryAny-Bench — `model, virtual-try-on, video-editing` ⚠ stub
 
 ### Adapters (identity injection)
 
@@ -271,6 +278,10 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Video generation physical executability (Dream.exe)](concepts/video-generation-physical-executability.md) — simulator execution success as world-model benchmark beyond VBench — `world-model, benchmark, physics, robotics`
 - [Budget-aware diffusion feature caching (ReCache)](concepts/budget-aware-diffusion-caching.md) — user-specified compute budget k → learned denoising-step recompute schedule — `inference, caching, optimization, hardware`
 - [Multi-shot audio-video evaluation (MSAVBench)](concepts/multi-shot-audio-video-evaluation.md) — benchmark layer for cinematic multi-cut A/V beyond VBench; validates unified A/V over post-hoc dubbing — `benchmark, audio-video, multi-shot, evaluation, lipsync, narrative`
+- [Streaming force-controlled video (StreamForce)](concepts/streaming-force-controlled-video-generation.md) — force-as-cause interactive streaming world-model control — `world-model, interactive, force-control, streaming`
+- [Task-isolated unified video editing (TIDE)](concepts/task-isolated-unified-video-editing.md) — LTX-2.3 unified edit/gen via per-token task IDs — `video-editing, ltx, unified-model, multi-reference`
+- [Video try-on anything (OmniTryOn)](concepts/video-try-on-anything.md) — multi-wearable mask-free video wardrobe swap on preserved motion — `virtual-try-on, persona, video-editing`
+- [Hierarchical latent coarse-to-fine video (MilliVid)](concepts/hierarchical-latent-coarse-to-fine-video.md) — multi-scale token rollout for long-range visual consistency — `long-horizon, hierarchical-latent, coarse-to-fine`
 
 ### Meta (wiki operations)
 

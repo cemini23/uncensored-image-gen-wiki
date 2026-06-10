@@ -10,9 +10,14 @@ related:
   - concepts/two-pass-generation-workflow.md
   - concepts/knowledge-graph-structured-video-control.md
   - sources/video-generation-survey-2026.md
+  - sources/arxiv-2606-08260-tide-unified-video-editing.md
+  - concepts/task-isolated-unified-video-editing.md
+  - entities/models/tide.md
+  - sources/arxiv-2606-08514-omnitryon-video-try-on.md
+  - concepts/video-try-on-anything.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-06
+updated: 2026-06-10
 ---
 
 ## Relations

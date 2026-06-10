@@ -35,9 +35,12 @@ related:
   - entities/models/omnicustom.md
   - concepts/autoregressive-video-foresight-training.md
   - sources/arxiv-2606-03971-video-mirai-autoregressive-foresight.md
+  - sources/arxiv-2606-08514-omnitryon-video-try-on.md
+  - concepts/video-try-on-anything.md
+  - entities/models/omnitryon.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-04
+updated: 2026-06-10
 ---
 
 ## Relations

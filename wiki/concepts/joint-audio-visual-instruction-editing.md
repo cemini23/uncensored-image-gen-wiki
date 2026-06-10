@@ -14,9 +14,12 @@ related:
   - sources/arxiv-2606-03672-foley-omni.md
   - concepts/multi-shot-audio-video-evaluation.md
   - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
+  - sources/arxiv-2606-08260-tide-unified-video-editing.md
+  - concepts/task-isolated-unified-video-editing.md
+  - entities/models/tide.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 ## Relations

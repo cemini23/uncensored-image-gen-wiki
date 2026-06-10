@@ -26,9 +26,13 @@ related:
   - concepts/physics-aware-orthogonal-view-video.md
   - sources/arxiv-2606-04811-dream-exe-robot-executability.md
   - concepts/video-generation-physical-executability.md
+  - sources/arxiv-2606-07508-streamforce-streaming-force-video.md
+  - concepts/streaming-force-controlled-video-generation.md
+  - sources/arxiv-2606-09056-millivid-hierarchical-latents.md
+  - concepts/hierarchical-latent-coarse-to-fine-video.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-06-07
+updated: 2026-06-10
 ---
 
 ## Relations

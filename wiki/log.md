@@ -4,6 +4,40 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-10] ingest | daily digest inbox — StreamForce, TIDE, OmniTryOn, MilliVid + AdvGRPO routed (5 PDFs)
+
+Per `wiki/sweeps/2026-06-10-daily.md`. preingest_check: 5/5 NEW. PDFs archived to `raw-sources/`. AdvGRPO (2606.09701) routed stub only — primary home cybersecurity wiki.
+
+### Sources created (5)
+
+- `wiki/sources/arxiv-2606-07508-streamforce-streaming-force-video.md`
+- `wiki/sources/arxiv-2606-08260-tide-unified-video-editing.md`
+- `wiki/sources/arxiv-2606-08514-omnitryon-video-try-on.md`
+- `wiki/sources/arxiv-2606-09056-millivid-hierarchical-latents.md`
+- `wiki/sources/arxiv-2606-09701-advgrpo-red-teaming-routed.md`
+
+### Concepts created (4)
+
+- `concepts/streaming-force-controlled-video-generation.md`
+- `concepts/task-isolated-unified-video-editing.md`
+- `concepts/video-try-on-anything.md`
+- `concepts/hierarchical-latent-coarse-to-fine-video.md`
+
+### Entities created (2)
+
+- `entities/models/tide.md`
+- `entities/models/omnitryon.md`
+
+### Enhanced (backlinks)
+
+- `ltx-2.md`, `wan-2-2.md`, `seam-stitching-strategies.md`, `long-video-rag-retrieval.md`, `world-models-video-generation.md`, `one-step-autoregressive-video-distillation.md`, `grpo-i2v-post-training.md`, `cross-modal-jailbreak-dsr.md`, `joint-audio-visual-instruction-editing.md`, `persona-consistency-methods.md`, `video-generation-survey-2026.md`, `wiki/index.md`
+
+### Inbox state
+
+`research to be indexed/` cleared — 5 PDFs → `raw-sources/`.
+
+---
+
 ## [2026-06-08] ingest | daily digest inbox — MSAVBench (1 PDF)
 
 Per `wiki/sweeps/2026-06-08-daily.md`. preingest_check: 1/1 NEW. PDF archived to `raw-sources/`.

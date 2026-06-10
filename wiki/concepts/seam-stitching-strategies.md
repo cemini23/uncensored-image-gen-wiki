@@ -20,9 +20,13 @@ related:
   - concepts/autoregressive-video-foresight-training.md
   - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
   - concepts/multi-shot-audio-video-evaluation.md
+  - sources/arxiv-2606-09056-millivid-hierarchical-latents.md
+  - concepts/hierarchical-latent-coarse-to-fine-video.md
+  - sources/arxiv-2606-07508-streamforce-streaming-force-video.md
+  - concepts/streaming-force-controlled-video-generation.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 ## Relations

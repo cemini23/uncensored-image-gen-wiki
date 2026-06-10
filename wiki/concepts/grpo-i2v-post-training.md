@@ -13,9 +13,10 @@ related:
   - sources/arxiv-2606-03971-video-mirai-autoregressive-foresight.md
   - concepts/one-step-autoregressive-video-distillation.md
   - sources/arxiv-2606-03972-aad-1-one-step-ar-video.md
+  - sources/arxiv-2606-09701-advgrpo-red-teaming-routed.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-06
+updated: 2026-06-10
 ---
 
 ## Relations

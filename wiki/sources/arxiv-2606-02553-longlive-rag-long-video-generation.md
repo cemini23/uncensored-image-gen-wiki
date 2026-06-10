@@ -13,10 +13,12 @@ related:
   - entities/models/decmem.md
   - concepts/persona-consistency-methods.md
   - sources/arxiv-2605-31336-decmem-world-generation.md
+  - sources/arxiv-2606-09056-millivid-hierarchical-latents.md
+  - concepts/hierarchical-latent-coarse-to-fine-video.md
 maturity: draft
 read_status: read
 created: 2026-06-04
-updated: 2026-06-04
+updated: 2026-06-10
 ---
 
 ## Relations

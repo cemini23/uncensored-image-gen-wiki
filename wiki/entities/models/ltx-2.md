@@ -26,9 +26,12 @@ related:
   - concepts/multi-shot-audio-video-evaluation.md
   - entities/models/seedance-2.md
   - concepts/sync-audio-video-customization.md
+  - sources/arxiv-2606-08260-tide-unified-video-editing.md
+  - entities/models/tide.md
+  - concepts/task-isolated-unified-video-editing.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-08
+updated: 2026-06-10
 ---
 
 ## Relations

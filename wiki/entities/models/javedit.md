@@ -10,9 +10,12 @@ related:
   - concepts/persona-audio-stack.md
   - concepts/sync-audio-video-customization.md
   - entities/lipsync/latentsync.md
+  - sources/arxiv-2606-08260-tide-unified-video-editing.md
+  - concepts/task-isolated-unified-video-editing.md
+  - entities/models/tide.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-06
+updated: 2026-06-10
 ---
 
 ## Relations

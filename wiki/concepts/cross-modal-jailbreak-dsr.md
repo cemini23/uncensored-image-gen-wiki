@@ -7,9 +7,10 @@ related:
   - sources/arxiv-2606-01837-dsr-cross-modal-jailbreak.md
   - concepts/prompt-engineering-uncensored.md
   - sources/uncensored-image-generation-survey.md
+  - sources/arxiv-2606-09701-advgrpo-red-teaming-routed.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-03
+updated: 2026-06-10
 ---
 
 ## Relations
