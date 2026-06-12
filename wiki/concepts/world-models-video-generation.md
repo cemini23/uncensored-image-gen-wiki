@@ -35,15 +35,18 @@ related:
   - entities/models/prisma-world.md
   - sources/arxiv-2606-09150-ultra-flash-streaming-hr-video.md
   - concepts/cascaded-streaming-high-resolution-video.md
+  - sources/arxiv-2606-09828-mirage-latent-spatial-memory.md
+  - concepts/latent-spatial-memory-video-world-models.md
+  - entities/models/mirage.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
 ## Relations
 
 @sources/sana-wm-minute-scale-world-model.md @entities/models/sana-wm.md @concepts/camera-controlled-video-generation.md @concepts/hybrid-linear-attention.md @sources/video-generation-survey-2026.md
-@sources/arxiv-yocausal-world-model-benchmark-2605-30346.md @sources/arxiv-proprio-physics-video-2605-28230.md @sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md @entities/models/wan-2-2.md @sources/arxiv-2605-31336-decmem-world-generation.md @entities/models/decmem.md @entities/models/metaworld.md @concepts/activation-steering-video-generation.md @concepts/multi-agent-cross-view-video-world-models.md @entities/models/prisma-world.md
+@sources/arxiv-yocausal-world-model-benchmark-2605-30346.md @sources/arxiv-proprio-physics-video-2605-28230.md @sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md @entities/models/wan-2-2.md @sources/arxiv-2605-31336-decmem-world-generation.md @entities/models/decmem.md @entities/models/metaworld.md @concepts/activation-steering-video-generation.md @concepts/multi-agent-cross-view-video-world-models.md @entities/models/prisma-world.md @concepts/latent-spatial-memory-video-world-models.md @entities/models/mirage.md
 
 ## Raw Concept
 

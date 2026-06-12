@@ -4,6 +4,37 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-12] ingest | daily digest inbox — LLM governance, Mirage, HYDRA-X (3 PDFs)
+
+Per `wiki/sweeps/2026-06-12-daily.md`. preingest_check: 3/3 NEW. PDFs archived to `raw-sources/`.
+
+### Sources created (3)
+
+- `wiki/sources/arxiv-2606-08172-human-llm-interaction-governance.md`
+- `wiki/sources/arxiv-2606-09828-mirage-latent-spatial-memory.md`
+- `wiki/sources/arxiv-2606-13289-hydra-x-unified-multimodal.md`
+
+### Concepts created (3)
+
+- `concepts/llm-interaction-style-governance.md`
+- `concepts/latent-spatial-memory-video-world-models.md`
+- `concepts/holistic-visual-tokenizer-umm.md`
+
+### Entities created (2)
+
+- `entities/models/mirage.md`
+- `entities/models/hydra-x.md`
+
+### Enhanced (backlinks)
+
+- `pluralistic-safety-alignment.md`, `persona-ops-stack.md`, `sillytavern.md`, `world-models-video-generation.md`, `decmem.md`, `sana-wm.md`, `understanding-generation-gap.md`, `bagel.md`, `janus-pro.md`, `blip3-o.md`, `unireasoner.md`, `video-generation-survey-2026.md`, `wiki/index.md`
+
+### Inbox state
+
+`research to be indexed/` cleared — 3 PDFs → `raw-sources/`.
+
+---
+
 ## [2026-06-11] ingest | daily digest inbox — BareWave, Ultra Flash, LiteVSR, Prisma-World, Soul Computing (5 PDFs)
 
 Per `wiki/sweeps/2026-06-11-daily.md`. preingest_check: 5/5 NEW. PDFs archived to `raw-sources/`.

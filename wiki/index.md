@@ -61,6 +61,9 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [LiteVSR — frozen DiT video super-resolution (arXiv:2606.09250)](sources/arxiv-2606-09250-litevsr-frozen-dit-vsr.md) — 11.25% trainable State-Aware Adapter on frozen DiT; 1× A100 ~12h — `paper, vsr, super-resolution, adapter, icml`
 - [Prisma-World — multi-agent camera world model (arXiv:2606.09507)](sources/arxiv-2606-09507-prisma-world-multi-agent-video.md) — joint denoising + MA-RoPE + overlap curriculum; PrismaDataset/MultiAgentBench — `paper, world-model, multi-agent, camera-control`
 - [Soul Computing — digital consciousness framework (arXiv:2606.10413)](sources/arxiv-2606-10413-soul-computing-digital-consciousness.md) — narrow/broad soul computing architecture for persistent digital agents; persona-ops theory — `paper, persona-ops, digital-human, theoretical`
+- [Human-LLM interaction governance (arXiv:2606.08172)](sources/arxiv-2606-08172-human-llm-interaction-governance.md) — safety gating, civility steering, affective default lock-in; style drift measurement — `paper, persona-ops, llm-governance, alignment`
+- [Mirage — latent spatial memory world model (arXiv:2606.09828)](sources/arxiv-2606-09828-mirage-latent-spatial-memory.md) — 3D latent cache vs RGB point cloud; 10.57× speedup; WorldScore SOTA — `paper, world-model, spatial-memory, 3d-consistency`
+- [HYDRA-X — holistic visual tokenizer UMM (arXiv:2606.13289)](sources/arxiv-2606-13289-hydra-x-unified-multimodal.md) — single ViT tokenizer for image+video understand/gen/edit; Tencent Hunyuan 7B — `paper, unified-multimodal, tokenizer, tencent`
 - [MetaWorld — multi-agent video world model (arXiv:2606.02753)](sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md) — monocular training → multi-egocentric world model via MWSU + World-State Alignment — `paper, world-model, multi-agent, consistency`
 - [PDA / GAM — preference delta LoRA aggregation (arXiv:2606.00357)](sources/arxiv-weak-signals-preference-distillation-2606.00357-2026-06-05.md) — **rerouted** LLM weak-signal LoRA merge (not video) — `paper, lora, merging, preference-learning, rerouted`
 
@@ -102,6 +105,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [DecMem (Kling / Kuaishou)](entities/models/decmem.md) — decoupled memory world model for minute-scale revisit-consistent generation; Sparse Global + Anchored Local memory — `model, world-model, memory, kling, long-horizon` ⚠ stub
 - [MetaWorld (SJTU / ZJU / NTU)](entities/models/metaworld.md) — multi-agent multi-egocentric video world model trained from single-view monocular video; MWSU + World-State Alignment — `model, world-model, multi-agent, egocentric` ⚠ stub
 - [Prisma-World (NTU — multi-agent video world model)](entities/models/prisma-world.md) — camera-controllable N-agent joint denoising; MA-RoPE + PrismaDataset — `model, world-model, multi-agent, camera-control` ⚠ stub
+- [Mirage (ZJU — latent spatial memory world model)](entities/models/mirage.md) — 3D latent cache for geometrically consistent camera rollouts — `model, world-model, spatial-memory` ⚠ stub
+- [HYDRA-X (Tencent Hunyuan — holistic UMM)](entities/models/hydra-x.md) — 7B unified multimodal with HYDRA-XTOK holistic visual tokenizer — `model, unified-multimodal, tencent, hunyuan` ⚠ stub
 - [Foley-Omni (Video Rebirth)](entities/models/foley-omni.md) — unified V2ST model jointly generating speech, SFX, and music for video; V2ST-Bench — `model, audio, foley, v2st, unified-generation` ⚠ stub
 - [JAVEdit (Tencent Youtu / ZJU)](entities/models/javedit.md) — LTX-2.3 LoRA for instruction-guided joint audio-visual editing; JAVEdit-100k training set — `model, video-editing, audio-visual, instruction, ltx` ⚠ stub
 - [AlbedoEdit (MPI-INF / NVIDIA Research)](entities/models/albedoedit.md) — Wan 2.1 T2V-14B finetune for albedo-guided instance insertion/removal/texture editing — `model, video-editing, albedo, wan, intrinsic` ⚠ stub
@@ -294,6 +299,9 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Frozen DiT video super-resolution (LiteVSR)](concepts/frozen-dit-video-super-resolution.md) — lightweight State-Aware Adapter on frozen video DiT — `vsr, super-resolution, adapter, flow-matching`
 - [Multi-agent cross-view video world models](concepts/multi-agent-cross-view-video-world-models.md) — joint denoising for consistent overlapping agent views — `world-model, multi-agent, cross-view-consistency`
 - [Soul Computing for digital persona agents](concepts/soul-computing-digital-persona.md) — narrow/broad soul computing mapped to persona ops layers — `persona-ops, digital-human, memory, theoretical`
+- [LLM interaction style governance](concepts/llm-interaction-style-governance.md) — safety gating, civility steering, affective default lock-in in persona DMs — `persona-ops, llm-governance, style-drift`
+- [Latent spatial memory for video world models](concepts/latent-spatial-memory-video-world-models.md) — 3D latent cache replacing RGB point-cloud memory — `world-model, spatial-memory, 3d-consistency`
+- [Holistic visual tokenizer unified multimodal models](concepts/holistic-visual-tokenizer-umm.md) — single ViT tokenizer for image+video UMMs — `unified-multimodal, tokenizer, understanding-generation`
 
 ### Meta (wiki operations)
 

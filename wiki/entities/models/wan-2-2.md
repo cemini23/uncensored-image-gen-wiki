@@ -68,9 +68,12 @@ related:
   - concepts/cascaded-streaming-high-resolution-video.md
   - sources/arxiv-2606-09250-litevsr-frozen-dit-vsr.md
   - concepts/frozen-dit-video-super-resolution.md
+  - sources/arxiv-2606-09828-mirage-latent-spatial-memory.md
+  - concepts/latent-spatial-memory-video-world-models.md
+  - entities/models/mirage.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
 ## Relations

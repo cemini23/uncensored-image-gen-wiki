@@ -74,10 +74,15 @@ related:
   - concepts/frozen-dit-video-super-resolution.md
   - concepts/multi-agent-cross-view-video-world-models.md
   - entities/models/prisma-world.md
+  - sources/arxiv-2606-09828-mirage-latent-spatial-memory.md
+  - concepts/latent-spatial-memory-video-world-models.md
+  - entities/models/mirage.md
+  - sources/arxiv-2606-13289-hydra-x-unified-multimodal.md
+  - entities/models/hydra-x.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
 ## Relations

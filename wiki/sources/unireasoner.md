@@ -12,9 +12,13 @@ related:
   - entities/models/janus-pro.md
   - entities/models/blip3-o.md
   - entities/models/flux.md
+  - sources/arxiv-2606-13289-hydra-x-unified-multimodal.md
+  - concepts/holistic-visual-tokenizer-umm.md
+  - entities/models/hydra-x.md
+  - sources/unireasoner.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-06-12
 read_status: deep-read
 ---
 

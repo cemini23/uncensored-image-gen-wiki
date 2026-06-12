@@ -13,9 +13,12 @@ related:
   - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
   - concepts/multi-shot-audio-video-evaluation.md
   - entities/models/ltx-2.md
+  - sources/arxiv-2606-13289-hydra-x-unified-multimodal.md
+  - concepts/holistic-visual-tokenizer-umm.md
+  - entities/models/hydra-x.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-08
+updated: 2026-06-12
 ---
 
 ## Relations

@@ -10,9 +10,12 @@ related:
   - sources/arxiv-2606-09507-prisma-world-multi-agent-video.md
   - entities/models/prisma-world.md
   - concepts/multi-agent-cross-view-video-world-models.md
+  - sources/arxiv-2606-09828-mirage-latent-spatial-memory.md
+  - entities/models/mirage.md
+  - concepts/latent-spatial-memory-video-world-models.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
 ## Relations

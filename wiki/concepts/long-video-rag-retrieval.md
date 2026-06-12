@@ -15,9 +15,11 @@ related:
   - entities/models/wan-2-2.md
   - sources/arxiv-2606-09056-millivid-hierarchical-latents.md
   - concepts/hierarchical-latent-coarse-to-fine-video.md
+  - concepts/latent-spatial-memory-video-world-models.md
+  - sources/arxiv-2606-09828-mirage-latent-spatial-memory.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-10
+updated: 2026-06-12
 ---
 
 ## Relations

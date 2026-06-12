@@ -8,10 +8,12 @@ related:
   - sources/uncensored-image-generation-survey.md
   - concepts/prompt-engineering-uncensored.md
   - concepts/censorship-tier-taxonomy.md
+  - sources/arxiv-2606-08172-human-llm-interaction-governance.md
+  - concepts/llm-interaction-style-governance.md
 maturity: draft
 read_status: read
 created: 2026-06-03
-updated: 2026-06-03
+updated: 2026-06-12
 ---
 
 ## Relations

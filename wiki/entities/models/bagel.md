@@ -8,9 +8,13 @@ related:
   - concepts/understanding-generation-gap.md
   - entities/models/janus-pro.md
   - entities/models/blip3-o.md
+  - sources/arxiv-2606-13289-hydra-x-unified-multimodal.md
+  - entities/models/hydra-x.md
+  - concepts/understanding-generation-gap.md
+  - concepts/holistic-visual-tokenizer-umm.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-06-12
 ---
 
 ## Relations

@@ -11,9 +11,11 @@ related:
   - concepts/cross-model-safety-steering.md
   - sources/arxiv-2606-05290-cross-model-safety-steering.md
   - sources/arxiv-2606-09701-advgrpo-red-teaming-routed.md
+  - sources/arxiv-2606-08172-human-llm-interaction-governance.md
+  - concepts/llm-interaction-style-governance.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-06
+updated: 2026-06-12
 ---
 
 ## Relations

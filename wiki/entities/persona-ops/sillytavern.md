@@ -13,9 +13,11 @@ related:
   - concepts/marketing-your-persona.md
   - concepts/model-selection-workflow.md
   - entities/uis/comfyui.md
+  - concepts/llm-interaction-style-governance.md
+  - sources/arxiv-2606-08172-human-llm-interaction-governance.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-07
+updated: 2026-06-12
 ---
 
 ## Relations

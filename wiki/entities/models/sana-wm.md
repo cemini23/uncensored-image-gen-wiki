@@ -17,9 +17,12 @@ related:
   - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
   - entities/models/prisma-world.md
   - sources/arxiv-2606-09507-prisma-world-multi-agent-video.md
+  - sources/arxiv-2606-09828-mirage-latent-spatial-memory.md
+  - entities/models/mirage.md
+  - concepts/latent-spatial-memory-video-world-models.md
 maturity: validated
 created: 2026-05-16
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
 ## Relations

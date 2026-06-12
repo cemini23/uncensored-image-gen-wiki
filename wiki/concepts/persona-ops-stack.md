@@ -35,9 +35,11 @@ related:
   - concepts/federated-daily-research-digest.md
   - concepts/soul-computing-digital-persona.md
   - sources/arxiv-2606-10413-soul-computing-digital-consciousness.md
+  - concepts/llm-interaction-style-governance.md
+  - sources/arxiv-2606-08172-human-llm-interaction-governance.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-11
+updated: 2026-06-12
 ---
 
 ## Relations

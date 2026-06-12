@@ -8,9 +8,10 @@ related:
   - concepts/understanding-generation-gap.md
   - concepts/llm-as-image-conditioning.md
   - entities/models/sana.md
+  - concepts/holistic-visual-tokenizer-umm.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-06-12
 ---
 
 ## Relations

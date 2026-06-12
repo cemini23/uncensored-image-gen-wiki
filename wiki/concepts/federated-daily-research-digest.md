@@ -26,9 +26,10 @@ related:
   - sources/arxiv-2606-09701-advgrpo-red-teaming-routed.md
   - sweeps/2026-06-09-daily.md
   - sweeps/2026-06-11-daily.md
+  - sweeps/2026-06-12-daily.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-11
+updated: 2026-06-12
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

@@ -7,17 +7,19 @@ related:
   - sources/unireasoner.md
   - concepts/draft-evaluate-diffuse-pipeline.md
   - entities/models/bagel.md
+  - entities/models/janus-pro.md
+  - entities/models/blip3-o.md
+  - sources/arxiv-2606-13289-hydra-x-unified-multimodal.md
+  - concepts/holistic-visual-tokenizer-umm.md
+  - entities/models/hydra-x.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-06-12
 ---
 
 ## Relations
 
-@sources/unireasoner.md
-@concepts/draft-evaluate-diffuse-pipeline.md
-@entities/models/bagel.md
-@concepts/llm-as-image-conditioning.md
+@sources/unireasoner.md @concepts/draft-evaluate-diffuse-pipeline.md @entities/models/bagel.md @concepts/llm-as-image-conditioning.md @concepts/holistic-visual-tokenizer-umm.md @entities/models/hydra-x.md
 
 ## Raw Concept
 

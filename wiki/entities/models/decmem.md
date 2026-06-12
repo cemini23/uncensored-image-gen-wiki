@@ -13,9 +13,12 @@ related:
   - sources/arxiv-2606-02553-longlive-rag-long-video-generation.md
   - entities/models/metaworld.md
   - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
+  - sources/arxiv-2606-09828-mirage-latent-spatial-memory.md
+  - entities/models/mirage.md
+  - concepts/latent-spatial-memory-video-world-models.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-05
+updated: 2026-06-12
 ---
 
 ## Relations
