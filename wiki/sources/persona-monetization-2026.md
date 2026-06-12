@@ -15,6 +15,8 @@ related:
   - entities/personas/aitana-lopez.md
   - concepts/marketing-your-persona.md
   - concepts/persona-ops-workflow.md
+  - concepts/soul-computing-digital-persona.md
+  - sources/arxiv-2606-10413-soul-computing-digital-consciousness.md
 maturity: validated
 created: 2026-05-07
 updated: 2026-05-11

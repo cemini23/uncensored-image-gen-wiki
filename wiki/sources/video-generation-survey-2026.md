@@ -67,10 +67,17 @@ related:
   - concepts/streaming-force-controlled-video-generation.md
   - concepts/task-isolated-unified-video-editing.md
   - concepts/video-try-on-anything.md
+  - sources/arxiv-2606-09150-ultra-flash-streaming-hr-video.md
+  - sources/arxiv-2606-09250-litevsr-frozen-dit-vsr.md
+  - sources/arxiv-2606-09507-prisma-world-multi-agent-video.md
+  - concepts/cascaded-streaming-high-resolution-video.md
+  - concepts/frozen-dit-video-super-resolution.md
+  - concepts/multi-agent-cross-view-video-world-models.md
+  - entities/models/prisma-world.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-06-10
+updated: 2026-06-11
 ---
 
 ## Relations

@@ -56,6 +56,11 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [OmniTryOn — video try-on anything (arXiv:2606.08514)](sources/arxiv-2606-08514-omnitryon-video-try-on.md) — mask-free multi-object VVT; TryAny-Bench — `paper, virtual-try-on, persona, video-editing`
 - [MilliVid — hierarchical latents for long video (arXiv:2606.09056)](sources/arxiv-2606-09056-millivid-hierarchical-latents.md) — coarse-to-fine token hierarchy beats FramePack on long rollouts — `paper, long-horizon, hierarchical-latent, consistency`
 - [AdvGRPO adaptive red teaming — routed (arXiv:2606.09701)](sources/arxiv-2606-09701-advgrpo-red-teaming-routed.md) — LLM attacker-defender GRPO co-training; dedup stub → cybersec wiki — `paper, routed, llm-safety, red-team`
+- [BareWave — waveform-native flow-matching TTS (arXiv:2606.09048)](sources/arxiv-2606-09048-barewave-waveform-native-tts.md) — direct text-to-wave zero-shot cloning; no vocoder at inference; Tongyi/Alibaba — `paper, tts, flow-matching, waveform-native, zero-shot`
+- [Ultra Flash — real-time streaming HR video (arXiv:2606.09150)](sources/arxiv-2606-09150-ultra-flash-streaming-hr-video.md) — cascaded LR AR → latent SR; ~30 FPS @ 1K, ~18 FPS @ 2K single GPU — `paper, streaming, super-resolution, autoregressive, high-resolution`
+- [LiteVSR — frozen DiT video super-resolution (arXiv:2606.09250)](sources/arxiv-2606-09250-litevsr-frozen-dit-vsr.md) — 11.25% trainable State-Aware Adapter on frozen DiT; 1× A100 ~12h — `paper, vsr, super-resolution, adapter, icml`
+- [Prisma-World — multi-agent camera world model (arXiv:2606.09507)](sources/arxiv-2606-09507-prisma-world-multi-agent-video.md) — joint denoising + MA-RoPE + overlap curriculum; PrismaDataset/MultiAgentBench — `paper, world-model, multi-agent, camera-control`
+- [Soul Computing — digital consciousness framework (arXiv:2606.10413)](sources/arxiv-2606-10413-soul-computing-digital-consciousness.md) — narrow/broad soul computing architecture for persistent digital agents; persona-ops theory — `paper, persona-ops, digital-human, theoretical`
 - [MetaWorld — multi-agent video world model (arXiv:2606.02753)](sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md) — monocular training → multi-egocentric world model via MWSU + World-State Alignment — `paper, world-model, multi-agent, consistency`
 - [PDA / GAM — preference delta LoRA aggregation (arXiv:2606.00357)](sources/arxiv-weak-signals-preference-distillation-2606.00357-2026-06-05.md) — **rerouted** LLM weak-signal LoRA merge (not video) — `paper, lora, merging, preference-learning, rerouted`
 
@@ -96,6 +101,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Seedance 2.0 (ByteDance)](entities/models/seedance-2.md) — closed-API native A/V model; competes with Veo 3.1 / LTX-2 in joint-foundation class; cloud-only access; included in survey for landscape completeness — `model, video, closed-api, bytedance, seedance, joint-foundation`
 - [DecMem (Kling / Kuaishou)](entities/models/decmem.md) — decoupled memory world model for minute-scale revisit-consistent generation; Sparse Global + Anchored Local memory — `model, world-model, memory, kling, long-horizon` ⚠ stub
 - [MetaWorld (SJTU / ZJU / NTU)](entities/models/metaworld.md) — multi-agent multi-egocentric video world model trained from single-view monocular video; MWSU + World-State Alignment — `model, world-model, multi-agent, egocentric` ⚠ stub
+- [Prisma-World (NTU — multi-agent video world model)](entities/models/prisma-world.md) — camera-controllable N-agent joint denoising; MA-RoPE + PrismaDataset — `model, world-model, multi-agent, camera-control` ⚠ stub
 - [Foley-Omni (Video Rebirth)](entities/models/foley-omni.md) — unified V2ST model jointly generating speech, SFX, and music for video; V2ST-Bench — `model, audio, foley, v2st, unified-generation` ⚠ stub
 - [JAVEdit (Tencent Youtu / ZJU)](entities/models/javedit.md) — LTX-2.3 LoRA for instruction-guided joint audio-visual editing; JAVEdit-100k training set — `model, video-editing, audio-visual, instruction, ltx` ⚠ stub
 - [AlbedoEdit (MPI-INF / NVIDIA Research)](entities/models/albedoedit.md) — Wan 2.1 T2V-14B finetune for albedo-guided instance insertion/removal/texture editing — `model, video-editing, albedo, wan, intrinsic` ⚠ stub
@@ -180,6 +186,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Dia (Nari Labs — dialogue-focused open-weights TTS)](entities/voice-models/dia.md) — 1.6B dialogue-tuned TTS; two-speaker tag + nonverbal sound markers + ⓘ-emotion tags; Apache-2.0-likely weights (verify); Korean-startup release; specialist for podcast / multi-character DM scenes — `voice-cloning, tts, dia, nari-labs, dialogue-tts, apache-2-0-likely, multi-speaker`
 - [Bark (Suno — text-to-audio generative transformer, legacy)](entities/voice-models/bark.md) — MIT-licensed generative audio (multilingual TTS + nonverbal sounds + simple music); April 2023 Suno research drop that became the lineage anchor for Suno cloud — legacy reference, displaced by Fish-Speech / CosyVoice2 / Chatterbox on quality — `text-to-audio, tts, bark, suno, mit-license, generative-audio, nonverbal, legacy`
 - [ElevenLabs (closed SaaS — Flash v2.5 SFW leader, NSFW-banned)](entities/voice-models/elevenlabs.md) — closed SaaS, SFW voice-cloning leader; Flash v2.5 + Multilingual v2 + Turbo tiers; **NSFW banned** + audio-classifier detection + account termination on detection + Vacker v ElevenLabs right-of-publicity precedent — dead-end for NSFW persona-ops, useful only for SFW parallel brands — `tts, voice-cloning, elevenlabs, closed-source, saas, nsfw-banned, vacker-precedent, sfw-leader, right-of-publicity`
+- [BareWave (Tongyi — waveform-native TTS)](entities/voice-models/barewave.md) — Alibaba Tongyi direct text-to-wave flow-matching TTS; zero-shot cloning without vocoder at inference; weights pending release — `voice-cloning, tts, waveform-native, flow-matching, alibaba, tongyi` ⚠ stub
 
 ### Lipsync
 
@@ -282,6 +289,11 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Task-isolated unified video editing (TIDE)](concepts/task-isolated-unified-video-editing.md) — LTX-2.3 unified edit/gen via per-token task IDs — `video-editing, ltx, unified-model, multi-reference`
 - [Video try-on anything (OmniTryOn)](concepts/video-try-on-anything.md) — multi-wearable mask-free video wardrobe swap on preserved motion — `virtual-try-on, persona, video-editing`
 - [Hierarchical latent coarse-to-fine video (MilliVid)](concepts/hierarchical-latent-coarse-to-fine-video.md) — multi-scale token rollout for long-range visual consistency — `long-horizon, hierarchical-latent, coarse-to-fine`
+- [Waveform-native flow-matching TTS (BareWave)](concepts/waveform-native-flow-matching-tts.md) — direct text-to-wave inference without vocoder; training-only REPA/VAPA — `tts, flow-matching, waveform-native`
+- [Cascaded streaming high-resolution video (Ultra Flash)](concepts/cascaded-streaming-high-resolution-video.md) — LR AR stream + causal latent SR for real-time 1K/2K — `streaming, super-resolution, autoregressive, high-resolution`
+- [Frozen DiT video super-resolution (LiteVSR)](concepts/frozen-dit-video-super-resolution.md) — lightweight State-Aware Adapter on frozen video DiT — `vsr, super-resolution, adapter, flow-matching`
+- [Multi-agent cross-view video world models](concepts/multi-agent-cross-view-video-world-models.md) — joint denoising for consistent overlapping agent views — `world-model, multi-agent, cross-view-consistency`
+- [Soul Computing for digital persona agents](concepts/soul-computing-digital-persona.md) — narrow/broad soul computing mapped to persona ops layers — `persona-ops, digital-human, memory, theoretical`
 
 ### Meta (wiki operations)
 

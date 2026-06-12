@@ -64,9 +64,13 @@ related:
   - sources/arxiv-2606-08514-omnitryon-video-try-on.md
   - concepts/video-try-on-anything.md
   - entities/models/omnitryon.md
+  - sources/arxiv-2606-09150-ultra-flash-streaming-hr-video.md
+  - concepts/cascaded-streaming-high-resolution-video.md
+  - sources/arxiv-2606-09250-litevsr-frozen-dit-vsr.md
+  - concepts/frozen-dit-video-super-resolution.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-10
+updated: 2026-06-11
 ---
 
 ## Relations

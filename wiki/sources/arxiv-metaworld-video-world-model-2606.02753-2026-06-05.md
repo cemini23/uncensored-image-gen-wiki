@@ -12,10 +12,13 @@ related:
   - sources/sana-wm-minute-scale-world-model.md
   - entities/models/wan-2-2.md
   - sources/video-generation-survey-2026.md
+  - sources/arxiv-2606-09507-prisma-world-multi-agent-video.md
+  - concepts/multi-agent-cross-view-video-world-models.md
+  - entities/models/prisma-world.md
 maturity: draft
 read_status: deep-read
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-11
 ---
 
 ## Relations

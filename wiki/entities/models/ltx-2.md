@@ -29,9 +29,11 @@ related:
   - sources/arxiv-2606-08260-tide-unified-video-editing.md
   - entities/models/tide.md
   - concepts/task-isolated-unified-video-editing.md
+  - sources/arxiv-2606-09250-litevsr-frozen-dit-vsr.md
+  - concepts/frozen-dit-video-super-resolution.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-10
+updated: 2026-06-11
 ---
 
 ## Relations

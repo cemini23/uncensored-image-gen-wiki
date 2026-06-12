@@ -7,14 +7,17 @@ related:
   - sources/sana-wm-minute-scale-world-model.md
   - entities/models/sana-wm.md
   - concepts/world-models-video-generation.md
+  - sources/arxiv-2606-09507-prisma-world-multi-agent-video.md
+  - entities/models/prisma-world.md
+  - concepts/multi-agent-cross-view-video-world-models.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-05-16
+updated: 2026-06-11
 ---
 
 ## Relations
 
-@sources/sana-wm-minute-scale-world-model.md @entities/models/sana-wm.md @concepts/world-models-video-generation.md
+@sources/sana-wm-minute-scale-world-model.md @entities/models/sana-wm.md @concepts/world-models-video-generation.md @entities/models/prisma-world.md @concepts/multi-agent-cross-view-video-world-models.md
 
 ## Raw Concept
 

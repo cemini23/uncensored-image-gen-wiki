@@ -7,16 +7,17 @@ related:
   - concepts/persona-audio-stack.md
   - entities/persona-ops/fish-speech.md
   - sources/persona-ops-stack-2026.md
+  - entities/voice-models/barewave.md
+  - concepts/waveform-native-flow-matching-tts.md
+  - sources/arxiv-2606-09048-barewave-waveform-native-tts.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-06-11
 ---
 
 ## Relations
 
-@concepts/persona-audio-stack.md
-@entities/persona-ops/fish-speech.md
-@sources/persona-ops-stack-2026.md
+@concepts/persona-audio-stack.md @entities/persona-ops/fish-speech.md @sources/persona-ops-stack-2026.md @entities/voice-models/barewave.md @concepts/waveform-native-flow-matching-tts.md
 
 ## Raw Concept
 

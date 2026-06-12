@@ -56,6 +56,11 @@ related:
   - entities/models/javedit.md
   - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
   - concepts/multi-shot-audio-video-evaluation.md
+  - entities/voice-models/barewave.md
+  - concepts/waveform-native-flow-matching-tts.md
+  - sources/arxiv-2606-09048-barewave-waveform-native-tts.md
+  - sources/arxiv-2606-10413-soul-computing-digital-consciousness.md
+  - concepts/soul-computing-digital-persona.md
 maturity: validated
 created: 2026-05-09
 updated: 2026-06-08

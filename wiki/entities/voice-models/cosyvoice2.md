@@ -15,9 +15,12 @@ related:
   - entities/voice-models/xtts-v2.md
   - entities/voice-models/dia.md
   - entities/voice-models/elevenlabs.md
+  - entities/voice-models/barewave.md
+  - concepts/waveform-native-flow-matching-tts.md
+  - sources/arxiv-2606-09048-barewave-waveform-native-tts.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-06-11
 ---
 
 ## Relations
@@ -28,7 +31,7 @@ updated: 2026-05-13
 @concepts/model-selection-workflow.md
 @sources/persona-ops-stack-2026.md
 @entities/voice-models/indextts-2.md @entities/voice-models/qwen3-tts.md @entities/voice-models/chatterbox.md
-@entities/voice-models/xtts-v2.md @entities/voice-models/dia.md @entities/voice-models/elevenlabs.md
+@entities/voice-models/xtts-v2.md @entities/voice-models/dia.md @entities/voice-models/elevenlabs.md @entities/voice-models/barewave.md
 
 ## Raw Concept
 

@@ -8,9 +8,10 @@ related:
   - entities/persona-ops/fish-speech.md
   - entities/voice-models/cosyvoice2.md
   - sources/persona-ops-stack-2026.md
+  - entities/voice-models/barewave.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-06-11
 ---
 
 ## Relations

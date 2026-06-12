@@ -12,14 +12,17 @@ related:
   - sources/sana-wm-minute-scale-world-model.md
   - entities/models/wan-2-2.md
   - sources/video-generation-survey-2026.md
+  - entities/models/prisma-world.md
+  - sources/arxiv-2606-09507-prisma-world-multi-agent-video.md
+  - concepts/multi-agent-cross-view-video-world-models.md
 maturity: draft
 created: 2026-06-05
-updated: 2026-06-05
+updated: 2026-06-11
 ---
 
 ## Relations
 
-@sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md @concepts/world-models-video-generation.md @entities/models/decmem.md @entities/models/sana-wm.md
+@sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md @concepts/world-models-video-generation.md @entities/models/decmem.md @entities/models/sana-wm.md @entities/models/prisma-world.md @concepts/multi-agent-cross-view-video-world-models.md
 
 ## Raw Concept
 

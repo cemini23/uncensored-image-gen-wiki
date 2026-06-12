@@ -33,9 +33,11 @@ related:
   - concepts/multi-angle-dataset-prep.md
   - concepts/persona-content-cadence.md
   - concepts/federated-daily-research-digest.md
+  - concepts/soul-computing-digital-persona.md
+  - sources/arxiv-2606-10413-soul-computing-digital-consciousness.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-01
+updated: 2026-06-11
 ---
 
 ## Relations

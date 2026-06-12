@@ -13,14 +13,16 @@ related:
   - sources/arxiv-2606-03972-aad-1-one-step-ar-video.md
   - concepts/one-step-autoregressive-video-distillation.md
   - sources/video-generation-survey-2026.md
+  - sources/arxiv-2606-09150-ultra-flash-streaming-hr-video.md
+  - concepts/cascaded-streaming-high-resolution-video.md
 maturity: draft
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-11
 ---
 
 ## Relations
 
-@sources/arxiv-2606-07508-streamforce-streaming-force-video.md @concepts/world-models-video-generation.md @concepts/one-step-autoregressive-video-distillation.md @entities/models/wan-2-2.md
+@sources/arxiv-2606-07508-streamforce-streaming-force-video.md @concepts/world-models-video-generation.md @concepts/one-step-autoregressive-video-distillation.md @entities/models/wan-2-2.md @concepts/cascaded-streaming-high-resolution-video.md
 
 ## Raw Concept
 

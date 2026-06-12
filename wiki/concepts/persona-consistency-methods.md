@@ -63,9 +63,11 @@ related:
   - sources/arxiv-2606-08514-omnitryon-video-try-on.md
   - concepts/video-try-on-anything.md
   - entities/models/omnitryon.md
+  - concepts/soul-computing-digital-persona.md
+  - sources/arxiv-2606-10413-soul-computing-digital-consciousness.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-05
+updated: 2026-06-11
 ---
 
 ## Relations

@@ -29,9 +29,11 @@ related:
   - entities/voice-models/xtts-v2.md
   - entities/voice-models/dia.md
   - entities/voice-models/elevenlabs.md
+  - sources/arxiv-2606-10413-soul-computing-digital-consciousness.md
+  - concepts/soul-computing-digital-persona.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-13
+updated: 2026-06-11
 read_status: deep-read
 ---
 

@@ -24,9 +24,10 @@ related:
   - concepts/hierarchical-latent-coarse-to-fine-video.md
   - sources/arxiv-2606-07508-streamforce-streaming-force-video.md
   - concepts/streaming-force-controlled-video-generation.md
+  - concepts/cascaded-streaming-high-resolution-video.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-10
+updated: 2026-06-11
 ---
 
 ## Relations

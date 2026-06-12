@@ -4,6 +4,41 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-11] ingest | daily digest inbox — BareWave, Ultra Flash, LiteVSR, Prisma-World, Soul Computing (5 PDFs)
+
+Per `wiki/sweeps/2026-06-11-daily.md`. preingest_check: 5/5 NEW. PDFs archived to `raw-sources/`.
+
+### Sources created (5)
+
+- `wiki/sources/arxiv-2606-09048-barewave-waveform-native-tts.md`
+- `wiki/sources/arxiv-2606-09150-ultra-flash-streaming-hr-video.md`
+- `wiki/sources/arxiv-2606-09250-litevsr-frozen-dit-vsr.md`
+- `wiki/sources/arxiv-2606-09507-prisma-world-multi-agent-video.md`
+- `wiki/sources/arxiv-2606-10413-soul-computing-digital-consciousness.md`
+
+### Concepts created (5)
+
+- `concepts/waveform-native-flow-matching-tts.md`
+- `concepts/cascaded-streaming-high-resolution-video.md`
+- `concepts/frozen-dit-video-super-resolution.md`
+- `concepts/multi-agent-cross-view-video-world-models.md`
+- `concepts/soul-computing-digital-persona.md`
+
+### Entities created (2)
+
+- `entities/voice-models/barewave.md`
+- `entities/models/prisma-world.md`
+
+### Enhanced (backlinks)
+
+- `f5-tts.md`, `cosyvoice2.md`, `persona-audio-stack.md`, `world-models-video-generation.md`, `camera-controlled-video-generation.md`, `metaworld.md`, `one-step-autoregressive-video-distillation.md`, `streaming-force-controlled-video-generation.md`, `wan-2-2.md`, `ltx-2.md`, `two-pass-generation-workflow.md`, `persona-ops-stack.md`, `persona-consistency-methods.md`, `wiki/index.md`
+
+### Inbox state
+
+`research to be indexed/` cleared — 5 PDFs → `raw-sources/`.
+
+---
+
 ## [2026-06-10] ingest | daily digest inbox — StreamForce, TIDE, OmniTryOn, MilliVid + AdvGRPO routed (5 PDFs)
 
 Per `wiki/sweeps/2026-06-10-daily.md`. preingest_check: 5/5 NEW. PDFs archived to `raw-sources/`. AdvGRPO (2606.09701) routed stub only — primary home cybersecurity wiki.

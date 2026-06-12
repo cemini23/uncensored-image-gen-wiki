@@ -15,9 +15,11 @@ related:
   - entities/models/decmem.md
   - entities/models/metaworld.md
   - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
+  - entities/models/prisma-world.md
+  - sources/arxiv-2606-09507-prisma-world-multi-agent-video.md
 maturity: validated
 created: 2026-05-16
-updated: 2026-06-05
+updated: 2026-06-11
 ---
 
 ## Relations

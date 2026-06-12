@@ -24,9 +24,11 @@ related:
   - entities/models/albedoedit.md
   - entities/custom-nodes/impact-pack.md
   - entities/custom-nodes/bmab.md
+  - sources/arxiv-2606-09250-litevsr-frozen-dit-vsr.md
+  - concepts/frozen-dit-video-super-resolution.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-05-11
+updated: 2026-06-11
 ---
 
 ## Relations

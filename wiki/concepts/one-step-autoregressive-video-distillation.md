@@ -14,14 +14,16 @@ related:
   - sources/arxiv-2606-06060-recache-diffusion-caching.md
   - sources/arxiv-2606-07508-streamforce-streaming-force-video.md
   - concepts/streaming-force-controlled-video-generation.md
+  - sources/arxiv-2606-09150-ultra-flash-streaming-hr-video.md
+  - concepts/cascaded-streaming-high-resolution-video.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-10
+updated: 2026-06-11
 ---
 
 ## Relations
 
-@sources/arxiv-2606-03972-aad-1-one-step-ar-video.md @concepts/autoregressive-video-foresight-training.md @concepts/seam-stitching-strategies.md @entities/models/wan-2-2.md
+@sources/arxiv-2606-03972-aad-1-one-step-ar-video.md @concepts/autoregressive-video-foresight-training.md @concepts/seam-stitching-strategies.md @entities/models/wan-2-2.md @concepts/cascaded-streaming-high-resolution-video.md
 
 ## Raw Concept
 
