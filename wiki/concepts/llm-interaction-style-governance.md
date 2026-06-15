@@ -5,13 +5,15 @@ tags: [concept, persona-ops, llm-governance, alignment, safety, style-drift]
 keywords: [safety gating, civility steering, affective default lock-in, prompt steerability, style drift, regression-to-default, anthropomorphism, persona prompts]
 related:
   - sources/arxiv-2606-08172-human-llm-interaction-governance.md
+  - concepts/llm-instruction-hierarchy-training.md
+  - sources/arxiv-2606-10860-gravity-weighted-instruction-hierarchy-dpo.md
   - concepts/pluralistic-safety-alignment.md
   - concepts/persona-ops-stack.md
   - entities/persona-ops/sillytavern.md
   - sources/arxiv-2606-00369-geo-cultural-safety-alignment.md
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-15
 ---
 
 ## Relations

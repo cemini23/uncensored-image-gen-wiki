@@ -5,6 +5,7 @@ tags: [paper, inference, optimization, caching, diffusion, flux, wan, hunyuanvid
 keywords: [ReCache, feature caching, REINFORCE, budget-aware scheduling, TaylorSeer, HiCache, DiCache, FLOPs reduction, LPIPS, VBench]
 related:
   - concepts/budget-aware-diffusion-caching.md
+  - sources/arxiv-2606-13496-budcache-diffusion-caching.md
   - entities/hardware/gpu-guide.md
   - entities/models/flux-1-dev.md
   - entities/models/wan-2-2.md
@@ -17,7 +18,7 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-07
-updated: 2026-06-07
+updated: 2026-06-15
 ---
 
 ## Relations

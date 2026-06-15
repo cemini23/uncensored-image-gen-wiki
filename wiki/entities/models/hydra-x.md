@@ -14,9 +14,12 @@ related:
   - entities/models/blip3-o.md
   - entities/models/bagel.md
   - sources/video-generation-survey-2026.md
+  - concepts/machine-mental-imagery.md
+  - entities/benchmarks/mentisoculi.md
+  - sources/arxiv-2602-02465-mentisoculi-visual-reasoning-limits-2026-06-13.md
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-15
 ---
 
 ## Relations

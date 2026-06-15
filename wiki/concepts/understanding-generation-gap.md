@@ -12,9 +12,12 @@ related:
   - sources/arxiv-2606-13289-hydra-x-unified-multimodal.md
   - concepts/holistic-visual-tokenizer-umm.md
   - entities/models/hydra-x.md
+  - concepts/machine-mental-imagery.md
+  - entities/benchmarks/mentisoculi.md
+  - sources/arxiv-2602-02465-mentisoculi-visual-reasoning-limits-2026-06-13.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-06-12
+updated: 2026-06-15
 ---
 
 ## Relations

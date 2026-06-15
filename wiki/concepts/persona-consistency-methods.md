@@ -65,9 +65,12 @@ related:
   - entities/models/omnitryon.md
   - concepts/soul-computing-digital-persona.md
   - sources/arxiv-2606-10413-soul-computing-digital-consciousness.md
+  - sources/arxiv-2606-11751-anchoredit-multi-turn-editing.md
+  - concepts/causal-multi-turn-image-editing.md
+  - entities/models/anchoredit.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-11
+updated: 2026-06-15
 ---
 
 ## Relations

@@ -79,10 +79,14 @@ related:
   - entities/models/mirage.md
   - sources/arxiv-2606-13289-hydra-x-unified-multimodal.md
   - entities/models/hydra-x.md
+  - sources/arxiv-2606-11751-anchoredit-multi-turn-editing.md
+  - concepts/causal-multi-turn-image-editing.md
+  - entities/models/anchoredit.md
+  - sources/arxiv-2606-13496-budcache-diffusion-caching.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-06-12
+updated: 2026-06-15
 ---
 
 ## Relations

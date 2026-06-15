@@ -22,9 +22,12 @@ related:
   - sweeps/2026-06-09-daily.md
   - sweeps/2026-06-11-daily.md
   - sweeps/2026-06-12-daily.md
+  - sweeps/2026-06-15-daily.md
+  - sweeps/2026-06-13-daily.md
+  - sweeps/2026-06-14-daily.md
 maturity: core
 created: 2026-06-01
-updated: 2026-06-12
+updated: 2026-06-15
 ---
 
 ## Relations

@@ -64,6 +64,10 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Human-LLM interaction governance (arXiv:2606.08172)](sources/arxiv-2606-08172-human-llm-interaction-governance.md) — safety gating, civility steering, affective default lock-in; style drift measurement — `paper, persona-ops, llm-governance, alignment`
 - [Mirage — latent spatial memory world model (arXiv:2606.09828)](sources/arxiv-2606-09828-mirage-latent-spatial-memory.md) — 3D latent cache vs RGB point cloud; 10.57× speedup; WorldScore SOTA — `paper, world-model, spatial-memory, 3d-consistency`
 - [HYDRA-X — holistic visual tokenizer UMM (arXiv:2606.13289)](sources/arxiv-2606-13289-hydra-x-unified-multimodal.md) — single ViT tokenizer for image+video understand/gen/edit; Tencent Hunyuan 7B — `paper, unified-multimodal, tokenizer, tencent`
+- [GW-DPO — gravity-weighted instruction hierarchy (arXiv:2606.10860)](sources/arxiv-2606-10860-gravity-weighted-instruction-hierarchy-dpo.md) — k=5 hierarchy training with bilateral GW-DPO on Llama-3.1-8B — `paper, llm, alignment, instruction-hierarchy, persona-ops`
+- [AnchorEdit — causal multi-turn image editing (arXiv:2606.11751)](sources/arxiv-2606-11751-anchoredit-multi-turn-editing.md) — AR diffusion editor with self-rollout + memory; 10+ turn 1024p — `paper, image-editing, multi-turn, wan`
+- [BudCache — budget-constrained step-level caching (arXiv:2606.13496)](sources/arxiv-2606-13496-budcache-diffusion-caching.md) — fixed NFE offline SA+HC cache search; FLUX + Wan2.1; ICML 2026 — `paper, inference, caching, optimization, flux, wan`
+- [MentisOculi — limits of visual mental imagery (arXiv:2602.02465)](sources/arxiv-2602-02465-mentisoculi-visual-reasoning-limits-2026-06-13.md) — procedural 5-task benchmark; UMM visual CoT fails vs text-only MLLMs — `paper, visual-reasoning, benchmark, umm, k114`
 - [MetaWorld — multi-agent video world model (arXiv:2606.02753)](sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md) — monocular training → multi-egocentric world model via MWSU + World-State Alignment — `paper, world-model, multi-agent, consistency`
 - [PDA / GAM — preference delta LoRA aggregation (arXiv:2606.00357)](sources/arxiv-weak-signals-preference-distillation-2606.00357-2026-06-05.md) — **rerouted** LLM weak-signal LoRA merge (not video) — `paper, lora, merging, preference-learning, rerouted`
 
@@ -107,6 +111,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Prisma-World (NTU — multi-agent video world model)](entities/models/prisma-world.md) — camera-controllable N-agent joint denoising; MA-RoPE + PrismaDataset — `model, world-model, multi-agent, camera-control` ⚠ stub
 - [Mirage (ZJU — latent spatial memory world model)](entities/models/mirage.md) — 3D latent cache for geometrically consistent camera rollouts — `model, world-model, spatial-memory` ⚠ stub
 - [HYDRA-X (Tencent Hunyuan — holistic UMM)](entities/models/hydra-x.md) — 7B unified multimodal with HYDRA-XTOK holistic visual tokenizer — `model, unified-multimodal, tencent, hunyuan` ⚠ stub
+- [AnchorEdit (JD / USTC — multi-turn image editor)](entities/models/anchoredit.md) — causal AR diffusion multi-turn editor on Wan2.1-T2V-14B — `model, image-editing, multi-turn, wan` ⚠ stub
 - [Foley-Omni (Video Rebirth)](entities/models/foley-omni.md) — unified V2ST model jointly generating speech, SFX, and music for video; V2ST-Bench — `model, audio, foley, v2st, unified-generation` ⚠ stub
 - [JAVEdit (Tencent Youtu / ZJU)](entities/models/javedit.md) — LTX-2.3 LoRA for instruction-guided joint audio-visual editing; JAVEdit-100k training set — `model, video-editing, audio-visual, instruction, ltx` ⚠ stub
 - [AlbedoEdit (MPI-INF / NVIDIA Research)](entities/models/albedoedit.md) — Wan 2.1 T2V-14B finetune for albedo-guided instance insertion/removal/texture editing — `model, video-editing, albedo, wan, intrinsic` ⚠ stub
@@ -288,7 +293,9 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Physics-aware orthogonal-view video (OrthoPhys)](concepts/physics-aware-orthogonal-view-video.md) — four-view foreground motion under explicit physical attributes — `physics, multi-view, world-model`
 - [Cross-model safety steering](concepts/cross-model-safety-steering.md) — portable LLM safety directions aligned to T2I/T2V generators — `safety, steering, cross-model, alignment`
 - [Video generation physical executability (Dream.exe)](concepts/video-generation-physical-executability.md) — simulator execution success as world-model benchmark beyond VBench — `world-model, benchmark, physics, robotics`
-- [Budget-aware diffusion feature caching (ReCache)](concepts/budget-aware-diffusion-caching.md) — user-specified compute budget k → learned denoising-step recompute schedule — `inference, caching, optimization, hardware`
+- [Budget-aware diffusion feature caching (ReCache + BudCache)](concepts/budget-aware-diffusion-caching.md) — fixed compute budget → learned (ReCache) or searched (BudCache) denoising-step recompute schedule — `inference, caching, optimization, hardware`
+- [LLM instruction hierarchy training (GW-DPO)](concepts/llm-instruction-hierarchy-training.md) — k-level prompt priority lattice + gravity-weighted DPO — `llm, alignment, prompt-injection, persona-ops`
+- [Causal multi-turn image editing](concepts/causal-multi-turn-image-editing.md) — AR diffusion + memory for long edit chains vs single-turn Kontext — `image-editing, multi-turn, consistency`
 - [Multi-shot audio-video evaluation (MSAVBench)](concepts/multi-shot-audio-video-evaluation.md) — benchmark layer for cinematic multi-cut A/V beyond VBench; validates unified A/V over post-hoc dubbing — `benchmark, audio-video, multi-shot, evaluation, lipsync, narrative`
 - [Streaming force-controlled video (StreamForce)](concepts/streaming-force-controlled-video-generation.md) — force-as-cause interactive streaming world-model control — `world-model, interactive, force-control, streaming`
 - [Task-isolated unified video editing (TIDE)](concepts/task-isolated-unified-video-editing.md) — LTX-2.3 unified edit/gen via per-token task IDs — `video-editing, ltx, unified-model, multi-reference`
@@ -301,7 +308,12 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Soul Computing for digital persona agents](concepts/soul-computing-digital-persona.md) — narrow/broad soul computing mapped to persona ops layers — `persona-ops, digital-human, memory, theoretical`
 - [LLM interaction style governance](concepts/llm-interaction-style-governance.md) — safety gating, civility steering, affective default lock-in in persona DMs — `persona-ops, llm-governance, style-drift`
 - [Latent spatial memory for video world models](concepts/latent-spatial-memory-video-world-models.md) — 3D latent cache replacing RGB point-cloud memory — `world-model, spatial-memory, 3d-consistency`
-- [Holistic visual tokenizer unified multimodal models](concepts/holistic-visual-tokenizer-umm.md) — single ViT tokenizer for image+video UMMs — `unified-multimodal, tokenizer, understanding-generation`
+- [Holistic visual tokenizer unified multimodal models](concepts/holistic-visual-tokenizer-umm.md) — single ViT tokenizer for image+video UMMs; MentisOculi coupling caveat (K114) — `unified-multimodal, tokenizer, understanding-generation`
+- [Machine mental imagery — visual reasoning spectrum](concepts/machine-mental-imagery.md) — MentisOculi synthesis; generation vs interpretation failure modes — `visual-reasoning, umm, mental-imagery, k114`
+
+### Benchmarks
+
+- [MentisOculi](entities/benchmarks/mentisoculi.md) — procedural 5-task visual mental-imagery benchmark (Form Board, Rush Hour, …) — `benchmark, visual-reasoning, evaluation, umm`
 
 ### Meta (wiki operations)
 

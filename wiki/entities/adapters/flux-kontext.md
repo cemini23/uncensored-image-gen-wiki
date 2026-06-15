@@ -13,9 +13,13 @@ related:
   - entities/models/flux-1-dev.md
   - entities/models/flux-2-klein.md
   - entities/uis/comfyui.md
+  - concepts/causal-multi-turn-image-editing.md
+  - sources/arxiv-2606-11751-anchoredit-multi-turn-editing.md
+  - entities/models/anchoredit.md
+  - concepts/two-pass-generation-workflow.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-05-07
+updated: 2026-06-15
 ---
 
 ## Relations

@@ -13,9 +13,11 @@ related:
   - sources/arxiv-2606-09701-advgrpo-red-teaming-routed.md
   - sources/arxiv-2606-08172-human-llm-interaction-governance.md
   - concepts/llm-interaction-style-governance.md
+  - concepts/llm-instruction-hierarchy-training.md
+  - sources/arxiv-2606-10860-gravity-weighted-instruction-hierarchy-dpo.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-12
+updated: 2026-06-15
 ---
 
 ## Relations

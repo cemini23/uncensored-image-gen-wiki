@@ -71,9 +71,13 @@ related:
   - sources/arxiv-2606-09828-mirage-latent-spatial-memory.md
   - concepts/latent-spatial-memory-video-world-models.md
   - entities/models/mirage.md
+  - sources/arxiv-2606-11751-anchoredit-multi-turn-editing.md
+  - concepts/causal-multi-turn-image-editing.md
+  - entities/models/anchoredit.md
+  - sources/arxiv-2606-13496-budcache-diffusion-caching.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-12
+updated: 2026-06-15
 ---
 
 ## Relations

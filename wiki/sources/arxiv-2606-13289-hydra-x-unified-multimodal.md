@@ -14,10 +14,13 @@ related:
   - entities/models/seedance-2.md
   - sources/video-generation-survey-2026.md
   - sweeps/2026-06-12-daily.md
+  - concepts/machine-mental-imagery.md
+  - entities/benchmarks/mentisoculi.md
+  - sources/arxiv-2602-02465-mentisoculi-visual-reasoning-limits-2026-06-13.md
 maturity: draft
 read_status: read
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-15
 ---
 
 ## Relations

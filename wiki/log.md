@@ -4,6 +4,53 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-15] phase-0 | BudCache + AnchorEdit GitHub audits
+
+Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-15_phase-0-budcache-anchoredit.md`.
+
+- **BudCache** (`Westlake-AGI-Lab/BudCache`) — **CONDITIONAL-GO** — Apache-2.0; FLUX + Wan2.1; strict NFE caching; no ComfyUI node yet
+- **AnchorEdit** (`xuhang07/AnchorEdit`) — **CONDITIONAL-GO** (research) — Apache-2.0 code; Wan-14B finetune; ≥40GB VRAM; weights release watch
+- **GW-DPO** — no public repo URL verified — skipped
+
+---
+
+## [2026-06-15] ingest | daily digest inbox — GW-DPO, AnchorEdit, BudCache (3 PDFs)
+
+Per `wiki/sweeps/2026-06-15-daily.md`. preingest_check: 3/3 NEW. PDFs archived to `raw-sources/`.
+
+### Sources created (3)
+
+- `wiki/sources/arxiv-2606-10860-gravity-weighted-instruction-hierarchy-dpo.md`
+- `wiki/sources/arxiv-2606-11751-anchoredit-multi-turn-editing.md`
+- `wiki/sources/arxiv-2606-13496-budcache-diffusion-caching.md`
+
+### Concepts created (2)
+
+- `concepts/llm-instruction-hierarchy-training.md`
+- `concepts/causal-multi-turn-image-editing.md`
+
+### Concepts updated (1)
+
+- `concepts/budget-aware-diffusion-caching.md` — BudCache vs ReCache comparison
+
+### Entities created (1)
+
+- `entities/models/anchoredit.md`
+
+### Enhanced (backlinks)
+
+- `llm-interaction-style-governance.md`, `pluralistic-safety-alignment.md`, `persona-ops-stack.md`, `flux-kontext.md`, `flux-1-dev.md`, `wan-2-2.md`, `comfyui.md`, `recache source`, `wiki/index.md`, sweep frontmatter
+
+### Brief
+
+- `briefs/2026-06-15_phase-0-budcache-anchoredit.md`
+
+### Inbox state
+
+`research to be indexed/` cleared — 3 PDFs → `raw-sources/`.
+
+---
+
 ## [2026-06-12] ingest | daily digest inbox — LLM governance, Mirage, HYDRA-X (3 PDFs)
 
 Per `wiki/sweeps/2026-06-12-daily.md`. preingest_check: 3/3 NEW. PDFs archived to `raw-sources/`.
@@ -1748,3 +1795,13 @@ Full triage of all 18 briefs in `briefs/` (the gitignored deliverables directory
 ### Lint state
 
 0 hard errors maintained. All 72 cross-wiki references resolve.
+
+## [2026-06-13] ingest | K114 — MentisOculi visual reasoning limits
+
+**Source**: `research to be indexed/` — daily digest fetch (2026-06-13 sweep); federation K114 cross-wiki ingest.
+
+- **NEW** `@sources/arxiv-2602-02465-mentisoculi-visual-reasoning-limits-2026-06-13.md` (read) — five procedural tasks; UMM visual CoT ineffective vs text MLLMs; generation + interpretation errors
+- **NEW** `@concepts/machine-mental-imagery.md` — visual reasoning spectrum synthesis
+- **NEW** `@entities/benchmarks/mentisoculi.md` — benchmark entity (Form Board, Hinge Folding, Paper Fold, Rush Hour, Sliding Puzzle)
+- **Updated** `holistic-visual-tokenizer-umm.md`, `index.md`
+- **PDF** remains in inbox pending `raw-sources/` move — operator-gated per ingest ritual

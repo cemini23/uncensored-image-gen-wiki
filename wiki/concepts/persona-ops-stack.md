@@ -37,9 +37,11 @@ related:
   - sources/arxiv-2606-10413-soul-computing-digital-consciousness.md
   - concepts/llm-interaction-style-governance.md
   - sources/arxiv-2606-08172-human-llm-interaction-governance.md
+  - concepts/llm-instruction-hierarchy-training.md
+  - sources/arxiv-2606-10860-gravity-weighted-instruction-hierarchy-dpo.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-12
+updated: 2026-06-15
 ---
 
 ## Relations

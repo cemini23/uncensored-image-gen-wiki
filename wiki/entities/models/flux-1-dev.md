@@ -40,10 +40,11 @@ related:
   - concepts/cross-model-safety-steering.md
   - sources/arxiv-2606-05290-cross-model-safety-steering.md
   - sources/arxiv-2606-06060-recache-diffusion-caching.md
+  - sources/arxiv-2606-13496-budcache-diffusion-caching.md
   - concepts/budget-aware-diffusion-caching.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-07
+updated: 2026-06-15
 ---
 
 ## Relations

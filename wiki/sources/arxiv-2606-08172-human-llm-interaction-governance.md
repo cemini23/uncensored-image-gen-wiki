@@ -5,6 +5,8 @@ tags: [paper, persona-ops, llm-governance, alignment, safety, style-drift, plura
 keywords: [LLM governance, prompt steerability, style drift, safety gating, civility steering, affective default lock-in, anthropomorphism, SillyTavern, persona conditions]
 related:
   - concepts/llm-interaction-style-governance.md
+  - concepts/llm-instruction-hierarchy-training.md
+  - sources/arxiv-2606-10860-gravity-weighted-instruction-hierarchy-dpo.md
   - concepts/pluralistic-safety-alignment.md
   - concepts/persona-ops-stack.md
   - entities/persona-ops/sillytavern.md
@@ -13,7 +15,7 @@ related:
 maturity: draft
 read_status: read
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-15
 ---
 
 ## Relations
