@@ -27,13 +27,13 @@ This is a laptop-only workspace. No remote servers, no team distribution. Everyt
 
 ## Architecture — three layers
 
-1. **Raw sources** — immutable. You read them, never modify them. Live locally in `raw-sources/` (gitignored — too large/copyrighted to track) and the existing `research to be indexed/processed/` archive (legacy convention; same role as `raw-sources/`).
+1. **Raw sources** — immutable. Canonical archive: `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/` via OSINT `archive_raw_to_egress.sh`. Legacy `research to be indexed/processed/` may still hold older docx.
    - PDFs (academic papers on diffusion, segmentation, generation, TTS, vocoders, lipsync)
    - DOCX (deep-research dumps from claude.ai / Gemini / DeepSeek)
    - GitHub repo snapshots (ComfyUI custom nodes, training scripts, LoRA collections, TTS/voice-clone repos, lipsync repos, audio-gen repos)
    - Model cards (Hugging Face, CivitAI) saved as `.md`
    - Reference audio samples (10-30s voice-clone reference clips; not committed)
-   - **Drop pattern**: drop new sources into `research to be indexed/` (transient drop zone). Ingest pipeline reads + synthesizes, then archive to `raw-sources/` (or leave in `research to be indexed/processed/` per legacy convention).
+   - **Drop pattern**: `research to be indexed/` → ingest → archive to egress-fi (local copy removed on success)
 
 2. **The wiki** — LLM-written, human-read. Lives in `wiki/`. Structured pages on models (image / video / voice / lipsync / music / SFX), UIs, custom nodes, hardware, techniques, marketplaces.
 
@@ -169,12 +169,9 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
 - Bidirectional: if Image Gen page A references SEO wiki page B, add a matching `@image-gen-wiki/...` backlink on page B
 - When creating a stub in another wiki, note the cross-wiki dependency in `## Relations`
 
-### Using the OSINT conductor/librarian for unified search
+### Using federation wikis for unified search
 
-The OSINT workspace includes a **conductor** (MCP server that routes queries) + **librarian** (kb-server that serves wikis). To query across all four wikis:
-1. Sync all wikis to the librarian: `rsync -avz wiki/ cemini-librarian:/opt/cemini-wiki/image-gen-wiki/wiki/`
-2. Run `kb ingest` on the librarian to reindex
-3. Use `conductor_query` tool (exposed via OSINT's `conductor/mcp_server.py`) to query across all wikis
+`cemini-librarian` kb-server **decommissioned 2026-06**. Query wikis via local Read/grep; see `@osint-wiki/meta/librarian-decommission-2026-06-14.md`.
 
 ## Operations
 
@@ -194,7 +191,7 @@ The OSINT workspace includes a **conductor** (MCP server that routes queries) + 
    - If no page: create a stub. Real content accumulates over subsequent ingests
 7. Update `wiki/index.md` — add rows for new pages
 8. Append to `wiki/log.md`: `## [YYYY-MM-DD] ingest | <source title>` with bullets of what changed
-9. **Move raw source to `raw-sources/`**: `mv "research to be indexed/<filename>" raw-sources/`. Verify with `ls raw-sources/<filename>`
+9. **Archive raw to egress-fi**: `bash "../../OSINT WORKSPACE/scripts/archive_raw_to_egress.sh" --wiki-id image-gen "research to be indexed/<filename>"` — update source page `Location`
 10. Update `ROADMAP.md` if the ingest opens new follow-ups; stage briefs in `briefs/` if the ingest produced something actionable
 11. A single ingest must touch 3-15 pages. If it touches 0 new pages, ask whether the source is worth ingesting
 
