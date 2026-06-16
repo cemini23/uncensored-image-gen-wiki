@@ -30,9 +30,11 @@ related:
   - sweeps/2026-06-15-daily.md
   - sweeps/2026-06-13-daily.md
   - sweeps/2026-06-14-daily.md
+  - sweeps/2026-06-16-daily.md
+  - sources/arxiv-2606-15117-eav-dfd-deepfake-detection-routed.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-15
+updated: 2026-06-16
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

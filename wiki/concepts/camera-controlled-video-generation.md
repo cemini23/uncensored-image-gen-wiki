@@ -13,9 +13,12 @@ related:
   - sources/arxiv-2606-09828-mirage-latent-spatial-memory.md
   - entities/models/mirage.md
   - concepts/latent-spatial-memory-video-world-models.md
+  - sources/arxiv-2606-13376-moverse-panoramic-gaussian-world.md
+  - concepts/panoramic-gaussian-video-world-models.md
+  - entities/models/moverse.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-06-12
+updated: 2026-06-16
 ---
 
 ## Relations

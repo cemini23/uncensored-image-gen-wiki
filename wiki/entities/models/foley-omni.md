@@ -10,9 +10,12 @@ related:
   - entities/sfx-models/stable-audio-open.md
   - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
   - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
+  - sources/arxiv-2606-14049-foleygenex-unified-vta.md
+  - concepts/unified-controllable-video-to-audio.md
+  - entities/models/foleygenex.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-08
+updated: 2026-06-16
 phase_0_verdict: NO-GO
 phase_0_date: 2026-06-05
 ---

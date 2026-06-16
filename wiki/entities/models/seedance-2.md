@@ -16,9 +16,11 @@ related:
   - sources/arxiv-2606-13289-hydra-x-unified-multimodal.md
   - concepts/holistic-visual-tokenizer-umm.md
   - entities/models/hydra-x.md
+  - entities/models/avatar-v.md
+  - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-12
+updated: 2026-06-16
 ---
 
 ## Relations

@@ -68,9 +68,12 @@ related:
   - sources/arxiv-2606-11751-anchoredit-multi-turn-editing.md
   - concepts/causal-multi-turn-image-editing.md
   - entities/models/anchoredit.md
+  - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
+  - concepts/video-reference-avatar-generation.md
+  - entities/models/avatar-v.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-15
+updated: 2026-06-16
 ---
 
 ## Relations

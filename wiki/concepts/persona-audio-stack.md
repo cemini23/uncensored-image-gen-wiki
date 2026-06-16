@@ -61,9 +61,16 @@ related:
   - sources/arxiv-2606-09048-barewave-waveform-native-tts.md
   - sources/arxiv-2606-10413-soul-computing-digital-consciousness.md
   - concepts/soul-computing-digital-persona.md
+  - sources/arxiv-2606-14049-foleygenex-unified-vta.md
+  - concepts/unified-controllable-video-to-audio.md
+  - entities/models/foleygenex.md
+  - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
+  - concepts/video-reference-avatar-generation.md
+  - entities/models/avatar-v.md
+  - sources/arxiv-2606-15117-eav-dfd-deepfake-detection-routed.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-06-08
+updated: 2026-06-16
 ---
 
 ## Relations

@@ -17,9 +17,10 @@ related:
   - concepts/persona-ops-workflow.md
   - concepts/anti-personalization-privacy.md
   - sources/arxiv-privacy-cross-image-anti-personalization-2504-12747.md
+  - sources/arxiv-2606-15117-eav-dfd-deepfake-detection-routed.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-01
+updated: 2026-06-16
 ---
 
 ## Relations

@@ -39,9 +39,11 @@ related:
   - entities/hardware/gpu-guide.md
   - entities/marketplaces/civitai.md
   - entities/uis/comfyui.md
+  - concepts/video-reference-avatar-generation.md
+  - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-05-07
+updated: 2026-06-16
 read_status: deep-read
 ---
 

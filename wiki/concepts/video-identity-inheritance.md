@@ -38,9 +38,12 @@ related:
   - sources/arxiv-2606-08514-omnitryon-video-try-on.md
   - concepts/video-try-on-anything.md
   - entities/models/omnitryon.md
+  - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
+  - concepts/video-reference-avatar-generation.md
+  - entities/models/avatar-v.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-10
+updated: 2026-06-16
 ---
 
 ## Relations

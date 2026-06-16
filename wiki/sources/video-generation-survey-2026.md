@@ -83,10 +83,15 @@ related:
   - concepts/causal-multi-turn-image-editing.md
   - entities/models/anchoredit.md
   - sources/arxiv-2606-13496-budcache-diffusion-caching.md
+  - sources/arxiv-2606-13376-moverse-panoramic-gaussian-world.md
+  - concepts/panoramic-gaussian-video-world-models.md
+  - entities/models/moverse.md
+  - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
+  - entities/models/avatar-v.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-06-15
+updated: 2026-06-16
 ---
 
 ## Relations

@@ -19,10 +19,12 @@ related:
   - entities/models/omnicustom.md
   - sources/arxiv-2606-03672-foley-omni.md
   - sources/video-generation-survey-2026.md
+  - concepts/unified-controllable-video-to-audio.md
+  - sources/arxiv-2606-14049-foleygenex-unified-vta.md
 maturity: draft
 read_status: read
 created: 2026-06-08
-updated: 2026-06-08
+updated: 2026-06-16
 ---
 
 ## Relations

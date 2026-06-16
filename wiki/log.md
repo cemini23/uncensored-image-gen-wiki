@@ -4,6 +4,54 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-16] phase-0 | MoVerse + FoleyGenEx GitHub audits
+
+Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-16_phase-0-moverse-foleygenex.md`.
+
+- **MoVerse** (`Orange-3DV-Team/MoVerse`) — **CONDITIONAL-GO** — weights pending corporate review; 8 FPS RTX 4090 target
+- **FoleyGenEx** (`FoleyGenEx/FoleyGenEx`) — **CONDITIONAL-GO** — no LICENSE/weights at audit
+- **Avatar V** (HeyGen) — **NO-GO** — closed commercial
+- **EAV-DFD** — skipped (no repo; routed to cybersec)
+
+---
+
+## [2026-06-16] ingest | daily digest inbox — MoVerse, Avatar V, FoleyGenEx, EAV-DFD routed (4 PDFs)
+
+Per `wiki/sweeps/2026-06-16-daily.md`. preingest_check: 4/4 NEW. PDFs archived to `raw-sources/`.
+
+### Sources created (4)
+
+- `wiki/sources/arxiv-2606-13376-moverse-panoramic-gaussian-world.md`
+- `wiki/sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md`
+- `wiki/sources/arxiv-2606-14049-foleygenex-unified-vta.md`
+- `wiki/sources/arxiv-2606-15117-eav-dfd-deepfake-detection-routed.md` (routed stub)
+
+### Concepts created (3)
+
+- `concepts/panoramic-gaussian-video-world-models.md`
+- `concepts/video-reference-avatar-generation.md`
+- `concepts/unified-controllable-video-to-audio.md`
+
+### Entities created (3)
+
+- `entities/models/moverse.md`
+- `entities/models/avatar-v.md`
+- `entities/models/foleygenex.md`
+
+### Enhanced (backlinks)
+
+- `world-models-video-generation.md`, `persona-audio-stack.md`, `persona-consistency-methods.md`, `video-identity-inheritance.md`, `persona-failure-modes.md`, `foley-omni.md`, `video-generation-survey-2026.md`, `wiki/index.md`, sweep frontmatter
+
+### Brief
+
+- `briefs/2026-06-16_phase-0-moverse-foleygenex.md`
+
+### Inbox state
+
+`research to be indexed/` cleared — 4 PDFs → `raw-sources/`.
+
+---
+
 ## [2026-06-15] phase-0 | BudCache + AnchorEdit GitHub audits
 
 Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-15_phase-0-budcache-anchoredit.md`.

@@ -31,9 +31,11 @@ related:
   - concepts/task-isolated-unified-video-editing.md
   - sources/arxiv-2606-09250-litevsr-frozen-dit-vsr.md
   - concepts/frozen-dit-video-super-resolution.md
+  - sources/arxiv-2606-14049-foleygenex-unified-vta.md
+  - entities/models/foleygenex.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-11
+updated: 2026-06-16
 ---
 
 ## Relations

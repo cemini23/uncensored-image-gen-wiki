@@ -10,9 +10,11 @@ related:
   - entities/lipsync/musetalk.md
   - entities/lipsync/wav2lip.md
   - concepts/video-identity-inheritance.md
+  - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
+  - concepts/video-reference-avatar-generation.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-06-16
 ---
 
 ## Relations

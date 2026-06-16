@@ -13,9 +13,12 @@ related:
   - concepts/long-video-rag-retrieval.md
   - sources/video-generation-survey-2026.md
   - entities/models/wan-2-2.md
+  - sources/arxiv-2606-13376-moverse-panoramic-gaussian-world.md
+  - concepts/panoramic-gaussian-video-world-models.md
+  - entities/models/moverse.md
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-16
 ---
 
 ## Relations
