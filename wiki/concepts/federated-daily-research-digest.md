@@ -31,10 +31,14 @@ related:
   - sweeps/2026-06-13-daily.md
   - sweeps/2026-06-14-daily.md
   - sweeps/2026-06-16-daily.md
+  - sweeps/2026-06-17-daily.md
   - sources/arxiv-2606-15117-eav-dfd-deepfake-detection-routed.md
+  - sources/arxiv-2606-15396-chillguard-chinese-llm-safety.md
+  - sources/arxiv-2606-14317-causalmotion-physical-reasoning-video.md
+  - sources/arxiv-2606-16449-permavid-disentangled-context-memory.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-16
+updated: 2026-06-17
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

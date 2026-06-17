@@ -41,9 +41,18 @@ related:
   - sources/arxiv-2606-13376-moverse-panoramic-gaussian-world.md
   - concepts/panoramic-gaussian-video-world-models.md
   - entities/models/moverse.md
+  - sources/arxiv-2606-14667-memento-long-video-subject-reconstruction.md
+  - concepts/subject-reconstruction-long-video-memory.md
+  - entities/models/memento.md
+  - sources/arxiv-2606-16449-permavid-disentangled-context-memory.md
+  - concepts/disentangled-context-memory-video-edits.md
+  - entities/models/permavid.md
+  - concepts/vlm-guided-physical-video-generation.md
+  - sources/arxiv-2606-14317-causalmotion-physical-reasoning-video.md
+  - entities/models/causalmotion.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-06-16
+updated: 2026-06-17
 ---
 
 ## Relations

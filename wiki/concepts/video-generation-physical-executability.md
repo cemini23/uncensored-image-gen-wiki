@@ -13,9 +13,12 @@ related:
   - entities/models/wan-2-2.md
   - entities/models/hunyuanvideo-1-5.md
   - entities/models/ltx-2.md
+  - sources/arxiv-2606-14317-causalmotion-physical-reasoning-video.md
+  - concepts/vlm-guided-physical-video-generation.md
+  - entities/models/causalmotion.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-07
+updated: 2026-06-17
 ---
 
 ## Relations

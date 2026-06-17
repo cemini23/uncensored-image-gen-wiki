@@ -11,9 +11,11 @@ related:
   - concepts/persona-ops-stack.md
   - entities/persona-ops/sillytavern.md
   - sources/arxiv-2606-00369-geo-cultural-safety-alignment.md
+  - sources/arxiv-2606-15396-chillguard-chinese-llm-safety.md
+  - concepts/chinese-llm-safety-guardrails.md
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-15
+updated: 2026-06-17
 ---
 
 ## Relations

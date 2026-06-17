@@ -15,9 +15,11 @@ related:
   - concepts/llm-interaction-style-governance.md
   - concepts/llm-instruction-hierarchy-training.md
   - sources/arxiv-2606-10860-gravity-weighted-instruction-hierarchy-dpo.md
+  - sources/arxiv-2606-15396-chillguard-chinese-llm-safety.md
+  - concepts/chinese-llm-safety-guardrails.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-15
+updated: 2026-06-17
 ---
 
 ## Relations

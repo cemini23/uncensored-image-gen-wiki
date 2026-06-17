@@ -41,9 +41,12 @@ related:
   - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
   - concepts/video-reference-avatar-generation.md
   - entities/models/avatar-v.md
+  - sources/arxiv-2606-14667-memento-long-video-subject-reconstruction.md
+  - concepts/subject-reconstruction-long-video-memory.md
+  - entities/models/memento.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-16
+updated: 2026-06-17
 ---
 
 ## Relations

@@ -17,9 +17,12 @@ related:
   - concepts/hierarchical-latent-coarse-to-fine-video.md
   - concepts/latent-spatial-memory-video-world-models.md
   - sources/arxiv-2606-09828-mirage-latent-spatial-memory.md
+  - sources/arxiv-2606-14667-memento-long-video-subject-reconstruction.md
+  - concepts/subject-reconstruction-long-video-memory.md
+  - entities/models/memento.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-12
+updated: 2026-06-17
 ---
 
 ## Relations

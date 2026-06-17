@@ -15,9 +15,12 @@ related:
   - sources/arxiv-2606-13376-moverse-panoramic-gaussian-world.md
   - concepts/panoramic-gaussian-video-world-models.md
   - entities/models/moverse.md
+  - sources/arxiv-2606-16449-permavid-disentangled-context-memory.md
+  - concepts/disentangled-context-memory-video-edits.md
+  - entities/models/permavid.md
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-16
+updated: 2026-06-17
 ---
 
 ## Relations

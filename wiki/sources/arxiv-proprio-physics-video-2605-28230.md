@@ -13,10 +13,13 @@ related:
   - sources/arxiv-2606-04811-dream-exe-robot-executability.md
   - concepts/video-generation-physical-executability.md
   - concepts/physics-aware-orthogonal-view-video.md
+  - concepts/vlm-guided-physical-video-generation.md
+  - sources/arxiv-2606-14317-causalmotion-physical-reasoning-video.md
+  - entities/models/causalmotion.md
 maturity: draft
 read_status: read
 created: 2026-06-01
-updated: 2026-06-07
+updated: 2026-06-17
 ---
 
 ## Relations

@@ -78,9 +78,12 @@ related:
   - sources/arxiv-2606-13376-moverse-panoramic-gaussian-world.md
   - concepts/panoramic-gaussian-video-world-models.md
   - entities/models/moverse.md
+  - concepts/subject-reconstruction-long-video-memory.md
+  - sources/arxiv-2606-14667-memento-long-video-subject-reconstruction.md
+  - entities/models/memento.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-16
+updated: 2026-06-17
 ---
 
 ## Relations

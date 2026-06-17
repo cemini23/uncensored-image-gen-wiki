@@ -33,9 +33,12 @@ related:
   - concepts/frozen-dit-video-super-resolution.md
   - sources/arxiv-2606-14049-foleygenex-unified-vta.md
   - entities/models/foleygenex.md
+  - sources/arxiv-2606-14317-causalmotion-physical-reasoning-video.md
+  - concepts/vlm-guided-physical-video-generation.md
+  - entities/models/causalmotion.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-16
+updated: 2026-06-17
 ---
 
 ## Relations

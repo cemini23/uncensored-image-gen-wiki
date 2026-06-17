@@ -4,6 +4,51 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-17] phase-0 | CausalMotion + PermaVid GitHub audits
+
+Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-17_phase-0-causalmotion-permavid.md`.
+
+- **CausalMotion** (`zhuangsh0713/CausalMotion`) — **CONDITIONAL-GO** — no LICENSE; LTX-Video + Grounded-SAM-2 deps
+- **PermaVid** (`YS-IMTech/PermaVid`) — **CONDITIONAL-GO** — no LICENSE; DiffSynth stack
+- **Memento** (Baidu) — skipped (no public repo)
+- **CHILLGuard** — skipped (empty repo)
+
+---
+
+## [2026-06-17] ingest | daily digest inbox — CausalMotion, Memento, CHILLGuard, PermaVid (4 PDFs)
+
+Per `wiki/sweeps/2026-06-17-daily.md`. preingest_check: 4/4 NEW. PDFs archived to `raw-sources/`.
+
+### Sources created (4)
+
+- `wiki/sources/arxiv-2606-14317-causalmotion-physical-reasoning-video.md`
+- `wiki/sources/arxiv-2606-14667-memento-long-video-subject-reconstruction.md`
+- `wiki/sources/arxiv-2606-15396-chillguard-chinese-llm-safety.md`
+- `wiki/sources/arxiv-2606-16449-permavid-disentangled-context-memory.md`
+
+### Concepts created (4)
+
+- `concepts/vlm-guided-physical-video-generation.md`
+- `concepts/subject-reconstruction-long-video-memory.md`
+- `concepts/chinese-llm-safety-guardrails.md`
+- `concepts/disentangled-context-memory-video-edits.md`
+
+### Entities created (3)
+
+- `entities/models/causalmotion.md`
+- `entities/models/memento.md`
+- `entities/models/permavid.md`
+
+### Enhanced (backlinks)
+
+- `video-generation-physical-executability.md`, `world-models-video-generation.md`, `long-video-rag-retrieval.md`, `persona-consistency-methods.md`, `video-identity-inheritance.md`, `camera-controlled-video-generation.md`, `latent-spatial-memory-video-world-models.md`, `pluralistic-safety-alignment.md`, `persona-ops-stack.md`, `llm-interaction-style-governance.md`, `sillytavern.md`, `ltx-2.md`, `mirage.md`, `video-generation-survey-2026.md`, `wiki/index.md`, sweep frontmatter
+
+### Brief
+
+- `briefs/2026-06-17_phase-0-causalmotion-permavid.md`
+
+---
+
 ## [2026-06-16] phase-0 | MoVerse + FoleyGenEx GitHub audits
 
 Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-16_phase-0-moverse-foleygenex.md`.

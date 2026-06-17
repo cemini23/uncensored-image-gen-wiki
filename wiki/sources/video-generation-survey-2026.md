@@ -88,10 +88,19 @@ related:
   - entities/models/moverse.md
   - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
   - entities/models/avatar-v.md
+  - sources/arxiv-2606-14317-causalmotion-physical-reasoning-video.md
+  - sources/arxiv-2606-14667-memento-long-video-subject-reconstruction.md
+  - sources/arxiv-2606-16449-permavid-disentangled-context-memory.md
+  - entities/models/causalmotion.md
+  - entities/models/memento.md
+  - entities/models/permavid.md
+  - concepts/vlm-guided-physical-video-generation.md
+  - concepts/subject-reconstruction-long-video-memory.md
+  - concepts/disentangled-context-memory-video-edits.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-06-16
+updated: 2026-06-17
 ---
 
 ## Relations
