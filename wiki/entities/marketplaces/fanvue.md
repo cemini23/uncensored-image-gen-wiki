@@ -12,9 +12,12 @@ related:
   - concepts/geo-vs-seo.md
   - concepts/persona-legal-landscape.md
   - concepts/persona-ops-stack.md
+  - "@seo-wiki/entities/platforms/fanvue.md"
+  - "@seo-wiki/concepts/synthetic-creator-gtm.md"
+  - "@seo-wiki/concepts/creator-marketing-foundations.md"
 maturity: validated
 created: 2026-05-08
-updated: 2026-05-22
+updated: 2026-06-18
 read_status: deep-read
 provenance:
   stub: false
@@ -23,6 +26,9 @@ provenance:
 ## Relations
 
 @sources/ai-creator-operations-blueprint.md @sources/ai-persona-launch-strategy-analysis.md @concepts/persona-ops-stack.md
+@seo-wiki/entities/platforms/fanvue.md
+@seo-wiki/concepts/synthetic-creator-gtm.md
+@seo-wiki/concepts/creator-marketing-foundations.md
 
 ## Raw Concept
 

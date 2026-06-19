@@ -41,9 +41,11 @@ related:
   - sources/arxiv-2606-10860-gravity-weighted-instruction-hierarchy-dpo.md
   - sources/arxiv-2606-15396-chillguard-chinese-llm-safety.md
   - concepts/chinese-llm-safety-guardrails.md
+  - "@seo-wiki/concepts/creator-marketing-foundations.md"
+  - "@seo-wiki/concepts/synthetic-creator-gtm.md"
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-17
+updated: 2026-06-18
 ---
 
 ## Relations
@@ -60,6 +62,8 @@ updated: 2026-06-17
 @entities/persona-ops/personalive.md @entities/uis/fooocus.md
 @entities/marketplaces/fanvue.md @concepts/multi-angle-dataset-prep.md @concepts/persona-content-cadence.md
 @concepts/federated-daily-research-digest.md
+@seo-wiki/concepts/creator-marketing-foundations.md
+@seo-wiki/concepts/synthetic-creator-gtm.md
 
 ## Raw Concept
 

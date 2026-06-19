@@ -23,9 +23,12 @@ related:
   - sources/virtual-persona-narrative-development-strategy.md
   - concepts/persona-ops-workflow.md
   - entities/music-models/musicgen.md
+  - "@seo-wiki/concepts/creator-marketing-foundations.md"
+  - "@seo-wiki/entities/platforms/fanvue.md"
+  - "@seo-wiki/concepts/creator-retention.md"
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-13
+updated: 2026-06-18
 ---
 
 ## Relations
@@ -39,6 +42,9 @@ updated: 2026-05-13
 @sources/synthetic-media-ip-financial-roadmap.md
 @sources/virtual-persona-narrative-development-strategy.md
 @entities/music-models/musicgen.md
+@seo-wiki/concepts/creator-marketing-foundations.md
+@seo-wiki/entities/platforms/fanvue.md
+@seo-wiki/concepts/creator-retention.md
 
 ## Raw Concept
 

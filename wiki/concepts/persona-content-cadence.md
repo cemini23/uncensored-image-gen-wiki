@@ -20,9 +20,11 @@ related:
   - entities/music-models/ace-step.md
   - entities/persona-ops/moneyprinter.md
   - sources/ai-content-factory-workflow-design.md
+  - "@seo-wiki/concepts/creator-content-strategy.md"
+  - "@seo-wiki/concepts/creator-marketing-foundations.md"
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-22
+updated: 2026-06-18
 ---
 
 ## Relations
@@ -33,6 +35,8 @@ updated: 2026-05-22
 @entities/music-models/ace-step.md
 @entities/persona-ops/moneyprinter.md
 @sources/ai-content-factory-workflow-design.md
+@seo-wiki/concepts/creator-content-strategy.md
+@seo-wiki/concepts/creator-marketing-foundations.md
 
 ## Raw Concept
 
