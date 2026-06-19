@@ -44,9 +44,11 @@ related:
   - sources/arxiv-2606-14667-memento-long-video-subject-reconstruction.md
   - concepts/subject-reconstruction-long-video-memory.md
   - entities/models/memento.md
+  - sources/arxiv-2606-13768-cineorchestra-entity-centric-cinematic-video.md
+  - concepts/entity-centric-cinematic-video-conditioning.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-17
+updated: 2026-06-19
 ---
 
 ## Relations

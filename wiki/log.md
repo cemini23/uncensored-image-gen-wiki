@@ -4,6 +4,51 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-19] phase-0 | Kairos 3.0 GitHub audit
+
+Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-19_phase-0-kairos.md`.
+
+- **Kairos** (`kairos-agi/kairos-sensenova`) — **GO** — Apache-2.0, ~770★, HF weights
+- **CineOrchestra** (Snap) — **NO-GO** — no public repo
+- **UniTemp** (Adobe) — skipped (no repo)
+- **ProductConsistency** — skipped (no repo)
+
+---
+
+## [2026-06-19] ingest | daily digest inbox — CineOrchestra, Kairos, UniTemp, ProductConsistency (4 PDFs)
+
+Per `wiki/sweeps/2026-06-19-daily.md`. preingest_check: 4/4 NEW. PDFs archived to `raw-sources/`.
+
+### Sources created (4)
+
+- `wiki/sources/arxiv-2606-13768-cineorchestra-entity-centric-cinematic-video.md`
+- `wiki/sources/arxiv-2606-16533-kairos-native-world-model-stack.md`
+- `wiki/sources/arxiv-2606-18702-unitemp-bidirectional-video-generation.md`
+- `wiki/sources/arxiv-2606-19103-productconsistency-product-identity-editing.md`
+
+### Concepts created (4)
+
+- `concepts/entity-centric-cinematic-video-conditioning.md`
+- `concepts/physical-ai-native-world-model-stacks.md`
+- `concepts/bidirectional-autoregressive-video-generation.md`
+- `concepts/product-identity-instruction-editing.md`
+
+### Entities created (3)
+
+- `entities/models/cineorchestra.md`
+- `entities/models/kairos.md`
+- `entities/models/unitemp.md`
+
+### Enhanced (backlinks)
+
+- `world-models-video-generation.md`, `hybrid-linear-attention.md`, `camera-controlled-video-generation.md`, `persona-consistency-methods.md`, `video-identity-inheritance.md`, `seam-stitching-strategies.md`, `autoregressive-video-foresight-training.md`, `one-step-autoregressive-video-distillation.md`, `flux-kontext.md`, `qwen-image-2512.md`, `causal-multi-turn-image-editing.md`, `likeness-collision-verification.md`, `wan-2-2.md`, `video-generation-survey-2026.md`, `wiki/index.md`, sweep frontmatter
+
+### Brief
+
+- `briefs/2026-06-19_phase-0-kairos.md`
+
+---
+
 ## [2026-06-17] phase-0 | CausalMotion + PermaVid GitHub audits
 
 Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-17_phase-0-causalmotion-permavid.md`.

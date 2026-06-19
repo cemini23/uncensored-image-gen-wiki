@@ -12,9 +12,11 @@ related:
   - concepts/world-models-video-generation.md
   - entities/models/wan-2-2.md
   - sources/video-generation-survey-2026.md
+  - concepts/entity-centric-cinematic-video-conditioning.md
+  - sources/arxiv-2606-13768-cineorchestra-entity-centric-cinematic-video.md
 maturity: draft
 created: 2026-06-17
-updated: 2026-06-17
+updated: 2026-06-19
 ---
 
 ## Relations

@@ -97,10 +97,21 @@ related:
   - concepts/vlm-guided-physical-video-generation.md
   - concepts/subject-reconstruction-long-video-memory.md
   - concepts/disentangled-context-memory-video-edits.md
+  - sources/arxiv-2606-13768-cineorchestra-entity-centric-cinematic-video.md
+  - sources/arxiv-2606-16533-kairos-native-world-model-stack.md
+  - sources/arxiv-2606-18702-unitemp-bidirectional-video-generation.md
+  - sources/arxiv-2606-19103-productconsistency-product-identity-editing.md
+  - entities/models/cineorchestra.md
+  - entities/models/kairos.md
+  - entities/models/unitemp.md
+  - concepts/entity-centric-cinematic-video-conditioning.md
+  - concepts/physical-ai-native-world-model-stacks.md
+  - concepts/bidirectional-autoregressive-video-generation.md
+  - concepts/product-identity-instruction-editing.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-06-17
+updated: 2026-06-19
 ---
 
 ## Relations

@@ -11,9 +11,11 @@ related:
   - concepts/persona-consistency-methods.md
   - concepts/two-pass-generation-workflow.md
   - sources/video-generation-survey-2026.md
+  - sources/arxiv-2606-19103-productconsistency-product-identity-editing.md
+  - concepts/product-identity-instruction-editing.md
 maturity: draft
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-06-19
 ---
 
 ## Relations

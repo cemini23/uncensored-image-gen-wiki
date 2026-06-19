@@ -16,9 +16,11 @@ related:
   - concepts/streaming-force-controlled-video-generation.md
   - sources/arxiv-2606-09150-ultra-flash-streaming-hr-video.md
   - concepts/cascaded-streaming-high-resolution-video.md
+  - sources/arxiv-2606-18702-unitemp-bidirectional-video-generation.md
+  - concepts/bidirectional-autoregressive-video-generation.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-11
+updated: 2026-06-19
 ---
 
 ## Relations

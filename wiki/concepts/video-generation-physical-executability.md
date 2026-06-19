@@ -16,9 +16,11 @@ related:
   - sources/arxiv-2606-14317-causalmotion-physical-reasoning-video.md
   - concepts/vlm-guided-physical-video-generation.md
   - entities/models/causalmotion.md
+  - concepts/physical-ai-native-world-model-stacks.md
+  - sources/arxiv-2606-16533-kairos-native-world-model-stack.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-17
+updated: 2026-06-19
 ---
 
 ## Relations

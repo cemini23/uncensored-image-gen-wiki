@@ -23,9 +23,12 @@ related:
   - sources/arxiv-2606-13376-moverse-panoramic-gaussian-world.md
   - concepts/panoramic-gaussian-video-world-models.md
   - entities/models/moverse.md
+  - sources/arxiv-2606-16533-kairos-native-world-model-stack.md
+  - entities/models/kairos.md
+  - concepts/physical-ai-native-world-model-stacks.md
 maturity: validated
 created: 2026-05-16
-updated: 2026-06-16
+updated: 2026-06-19
 ---
 
 ## Relations

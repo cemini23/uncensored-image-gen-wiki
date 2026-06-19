@@ -17,9 +17,11 @@ related:
   - sources/arxiv-2606-11751-anchoredit-multi-turn-editing.md
   - entities/models/anchoredit.md
   - concepts/two-pass-generation-workflow.md
+  - sources/arxiv-2606-19103-productconsistency-product-identity-editing.md
+  - concepts/product-identity-instruction-editing.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-06-15
+updated: 2026-06-19
 ---
 
 ## Relations

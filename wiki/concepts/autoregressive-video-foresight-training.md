@@ -18,9 +18,11 @@ related:
   - concepts/streaming-force-controlled-video-generation.md
   - sources/arxiv-2606-09056-millivid-hierarchical-latents.md
   - concepts/hierarchical-latent-coarse-to-fine-video.md
+  - sources/arxiv-2606-18702-unitemp-bidirectional-video-generation.md
+  - concepts/bidirectional-autoregressive-video-generation.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-10
+updated: 2026-06-19
 ---
 
 ## Relations

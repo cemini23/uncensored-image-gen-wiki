@@ -37,9 +37,14 @@ related:
   - sources/arxiv-2606-15396-chillguard-chinese-llm-safety.md
   - sources/arxiv-2606-14317-causalmotion-physical-reasoning-video.md
   - sources/arxiv-2606-16449-permavid-disentangled-context-memory.md
+  - sources/arxiv-2606-13768-cineorchestra-entity-centric-cinematic-video.md
+  - sources/arxiv-2606-16533-kairos-native-world-model-stack.md
+  - sources/arxiv-2606-18702-unitemp-bidirectional-video-generation.md
+  - sources/arxiv-2606-19103-productconsistency-product-identity-editing.md
+  - sweeps/2026-06-19-daily.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-17
+updated: 2026-06-19
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

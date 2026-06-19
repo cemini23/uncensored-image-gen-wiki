@@ -19,9 +19,12 @@ related:
   - sources/arxiv-2606-16449-permavid-disentangled-context-memory.md
   - concepts/disentangled-context-memory-video-edits.md
   - entities/models/permavid.md
+  - sources/arxiv-2606-13768-cineorchestra-entity-centric-cinematic-video.md
+  - concepts/entity-centric-cinematic-video-conditioning.md
+  - entities/models/cineorchestra.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-06-17
+updated: 2026-06-19
 ---
 
 ## Relations

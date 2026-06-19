@@ -25,9 +25,11 @@ related:
   - sources/arxiv-visual-to-visual-generation-2605-12271.md
   - concepts/cross-model-safety-steering.md
   - sources/arxiv-2606-05290-cross-model-safety-steering.md
+  - sources/arxiv-2606-19103-productconsistency-product-identity-editing.md
+  - concepts/product-identity-instruction-editing.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-06-06
+updated: 2026-06-19
 ---
 
 ## Relations

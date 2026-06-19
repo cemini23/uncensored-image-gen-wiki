@@ -42,9 +42,11 @@ related:
   - sources/arxiv-2606-06060-recache-diffusion-caching.md
   - sources/arxiv-2606-13496-budcache-diffusion-caching.md
   - concepts/budget-aware-diffusion-caching.md
+  - concepts/product-identity-instruction-editing.md
+  - sources/arxiv-2606-19103-productconsistency-product-identity-editing.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-15
+updated: 2026-06-19
 ---
 
 ## Relations

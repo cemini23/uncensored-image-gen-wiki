@@ -11,9 +11,11 @@ related:
   - concepts/persona-legal-landscape.md
   - concepts/anti-personalization-privacy.md
   - sources/arxiv-privacy-cross-image-anti-personalization-2504-12747.md
+  - sources/arxiv-2606-19103-productconsistency-product-identity-editing.md
+  - concepts/product-identity-instruction-editing.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-01
+updated: 2026-06-19
 ---
 
 ## Relations
