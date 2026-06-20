@@ -42,9 +42,12 @@ related:
   - sources/arxiv-2606-18702-unitemp-bidirectional-video-generation.md
   - sources/arxiv-2606-19103-productconsistency-product-identity-editing.md
   - sweeps/2026-06-19-daily.md
+  - sources/arxiv-2606-17257-reins-video-safety-representation-steering.md
+  - sources/arxiv-2606-19271-turboserve-streaming-video-serving.md
+  - sweeps/2026-06-20-daily.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-19
+updated: 2026-06-20
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

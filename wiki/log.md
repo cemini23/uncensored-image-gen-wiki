@@ -4,6 +4,43 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-20] phase-0 | TurboServe GitHub audit
+
+Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-20_phase-0-turboserve.md`.
+
+- **TurboServe** (`shengshu-ai/TurboServe`) — **NO-GO** — placeholder README only; code not released
+- **REINS** (2606.17257) — skipped (no public repo)
+
+---
+
+## [2026-06-20] ingest | daily digest inbox — REINS, TurboServe (2 PDFs)
+
+Per `wiki/sweeps/2026-06-20-daily.md`. preingest_check: 2/2 NEW. PDFs archived to `raw-sources/`.
+
+### Sources created (2)
+
+- `wiki/sources/arxiv-2606-17257-reins-video-safety-representation-steering.md`
+- `wiki/sources/arxiv-2606-19271-turboserve-streaming-video-serving.md`
+
+### Concepts created (2)
+
+- `concepts/representation-space-video-safety-steering.md`
+- `concepts/streaming-video-generation-serving.md`
+
+### Entities created (1)
+
+- `entities/models/turboserve.md`
+
+### Enhanced (backlinks)
+
+- `activation-steering-video-generation.md`, `cross-model-safety-steering.md`, `de-censoring-techniques.md`, `pluralistic-safety-alignment.md`, `wan-2-2.md`, `cogvideox-1-5.md`, `cascaded-streaming-high-resolution-video.md`, `long-video-rag-retrieval.md`, `seam-stitching-strategies.md`, `video-generation-survey-2026.md`, `wiki/index.md`, sweep frontmatter
+
+### Brief
+
+- `briefs/2026-06-20_phase-0-turboserve.md`
+
+---
+
 ## [2026-06-19] phase-0 | Kairos 3.0 GitHub audit
 
 Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-19_phase-0-kairos.md`.

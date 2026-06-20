@@ -16,9 +16,12 @@ related:
   - sources/arxiv-2606-13376-moverse-panoramic-gaussian-world.md
   - concepts/panoramic-gaussian-video-world-models.md
   - entities/models/moverse.md
+  - sources/arxiv-2606-19271-turboserve-streaming-video-serving.md
+  - concepts/streaming-video-generation-serving.md
+  - entities/models/turboserve.md
 maturity: draft
 created: 2026-06-11
-updated: 2026-06-16
+updated: 2026-06-20
 ---
 
 ## Relations

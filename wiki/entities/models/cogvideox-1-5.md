@@ -13,9 +13,11 @@ related:
   - concepts/censorship-tier-taxonomy.md
   - concepts/model-selection-workflow.md
   - entities/uis/comfyui.md
+  - sources/arxiv-2606-17257-reins-video-safety-representation-steering.md
+  - concepts/representation-space-video-safety-steering.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-08
+updated: 2026-06-20
 ---
 
 ## Relations

@@ -18,9 +18,11 @@ related:
   - concepts/cascaded-streaming-high-resolution-video.md
   - sources/arxiv-2606-18702-unitemp-bidirectional-video-generation.md
   - concepts/bidirectional-autoregressive-video-generation.md
+  - sources/arxiv-2606-19271-turboserve-streaming-video-serving.md
+  - concepts/streaming-video-generation-serving.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-19
+updated: 2026-06-20
 ---
 
 ## Relations

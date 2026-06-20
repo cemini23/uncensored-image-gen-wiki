@@ -17,9 +17,11 @@ related:
   - sources/arxiv-2606-10860-gravity-weighted-instruction-hierarchy-dpo.md
   - sources/arxiv-2606-15396-chillguard-chinese-llm-safety.md
   - concepts/chinese-llm-safety-guardrails.md
+  - sources/arxiv-2606-17257-reins-video-safety-representation-steering.md
+  - concepts/representation-space-video-safety-steering.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-17
+updated: 2026-06-20
 ---
 
 ## Relations

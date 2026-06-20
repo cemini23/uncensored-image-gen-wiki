@@ -14,9 +14,11 @@ related:
   - entities/models/flux-1-dev.md
   - entities/models/qwen-image-2512.md
   - entities/models/z-image-turbo.md
+  - sources/arxiv-2606-17257-reins-video-safety-representation-steering.md
+  - concepts/representation-space-video-safety-steering.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-06
+updated: 2026-06-20
 ---
 
 ## Relations

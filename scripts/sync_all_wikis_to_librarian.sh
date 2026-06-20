@@ -1,10 +1,10 @@
 #!/usr/bin/env bash
-# sync_all_wikis_to_librarian.sh
+# sync_all_wikis_to_librarian.sh — RETIRED 2026-06-14
 #
-# Sync all four wikis to cemini-librarian for unified kb_search.
-# Requires: SSH access to cemini-librarian, kb-server running on librarian.
+# cemini-librarian / kb-server was decommissioned. Do not run.
+# Query wikis locally via Read/grep in each repo.
 #
-# Usage:
+# Historical usage (pre-decommission):
 #   - Manual:  ./scripts/sync_all_wikis_to_librarian.sh
 #   - Cron:  0 * * * * $HOME/Desktop/projects/Image\ gen/scripts/sync_all_wikis_to_librarian.sh
 #
@@ -22,6 +22,10 @@
 
 set -uo pipefail
 
+echo "ERROR: cemini-librarian decommissioned 2026-06-14. This script is retired." >&2
+exit 3
+
+# --- dead code below (kept for reference) ---
 LIBRARIAN_HOST="cemini-librarian"
 LIBRARIAN_BASE="/opt/cemini-wiki"
 LOGFILE="$HOME/Library/Logs/cemini-all-wikis-sync.log"

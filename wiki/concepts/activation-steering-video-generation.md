@@ -14,9 +14,11 @@ related:
   - entities/models/hunyuanvideo-1-5.md
   - concepts/cross-model-safety-steering.md
   - sources/arxiv-2606-05290-cross-model-safety-steering.md
+  - sources/arxiv-2606-17257-reins-video-safety-representation-steering.md
+  - concepts/representation-space-video-safety-steering.md
 maturity: draft
 created: 2026-06-05
-updated: 2026-06-06
+updated: 2026-06-20
 ---
 
 ## Relations
