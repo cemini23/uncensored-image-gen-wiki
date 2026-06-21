@@ -28,9 +28,10 @@ related:
   - concepts/budget-aware-diffusion-caching.md
   - sources/arxiv-2606-04811-dream-exe-robot-executability.md
   - concepts/video-generation-physical-executability.md
+  - sources/arxiv-2606-17536-omnidrive-llm-choreographed-driving-world.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-07
+updated: 2026-06-21
 ---
 
 ## Relations

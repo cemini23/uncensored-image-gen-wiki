@@ -81,6 +81,9 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [ProductConsistency — product identity editing (arXiv:2606.19103)](sources/arxiv-2606-19103-productconsistency-product-identity-editing.md) — cyclic consistency RL for brand-preserving edits — `paper, image-editing, identity, product`
 - [REINS — training-free video safety steering (arXiv:2606.17257)](sources/arxiv-2606-17257-reins-video-safety-representation-steering.md) — SPCA hidden-state alignment for Wan/CogVideoX — `paper, video-generation, safety, steering`
 - [TurboServe — streaming video serving (arXiv:2606.19271)](sources/arxiv-2606-19271-turboserve-streaming-video-serving.md) — stateful session placement + autoscaling — `paper, video-generation, serving, streaming`
+- [OmniDrive Choreo — LLM multi-view driving world model (arXiv:2606.17536)](sources/arxiv-2606-17536-omnidrive-llm-choreographed-driving-world.md) — WorldScript + latent co-compression — `paper, world-model, multi-view, driving`
+- [VoidPadding — MDLM [VOID] padding (arXiv:2606.17999)](sources/arxiv-2606-17999-voidpadding-mdlm-padding.md) — decouple EOS from padding in Dream/LLaDA — `paper, mdlm, language-model`
+- [UniAR — shared-context unified multimodal AR (arXiv:2606.18249)](sources/arxiv-2606-18249-uniar-shared-context-visual-tokenizer.md) — single BSQ tokenizer for understand/gen/edit — `paper, unified-multimodal, t2i, autoregressive`
 - [MentisOculi — limits of visual mental imagery (arXiv:2602.02465)](sources/arxiv-2602-02465-mentisoculi-visual-reasoning-limits-2026-06-13.md) — procedural 5-task benchmark; UMM visual CoT fails vs text-only MLLMs — `paper, visual-reasoning, benchmark, umm, k114`
 - [MetaWorld — multi-agent video world model (arXiv:2606.02753)](sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md) — monocular training → multi-egocentric world model via MWSU + World-State Alignment — `paper, world-model, multi-agent, consistency`
 - [PDA / GAM — preference delta LoRA aggregation (arXiv:2606.00357)](sources/arxiv-weak-signals-preference-distillation-2606.00357-2026-06-05.md) — **rerouted** LLM weak-signal LoRA merge (not video) — `paper, lora, merging, preference-learning, rerouted`
@@ -136,6 +139,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Kairos 3.0 (Physical AI world model)](entities/models/kairos.md) — 4B Apache-2.0 unified world stack — `model, world-model, physical-ai, open-weights` ⚠ stub
 - [UniTemp (Adobe — bidirectional AR video)](entities/models/unitemp.md) — any-direction video distillation — `model, video, autoregressive, research` ⚠ stub
 - [TurboServe (Shengshu — streaming serving)](entities/models/turboserve.md) — cluster serving for stateful video sessions — `model, serving, streaming, shengshu` ⚠ stub
+- [UniAR (Qwen Team — shared-context UMM)](entities/models/uniar.md) — single BSQ tokenizer AR understand/gen/edit — `model, unified-multimodal, t2i, qwen` ⚠ stub
 - [Foley-Omni (Video Rebirth)](entities/models/foley-omni.md) — unified V2ST model jointly generating speech, SFX, and music for video; V2ST-Bench — `model, audio, foley, v2st, unified-generation` ⚠ stub
 - [JAVEdit (Tencent Youtu / ZJU)](entities/models/javedit.md) — LTX-2.3 LoRA for instruction-guided joint audio-visual editing; JAVEdit-100k training set — `model, video-editing, audio-visual, instruction, ltx` ⚠ stub
 - [AlbedoEdit (MPI-INF / NVIDIA Research)](entities/models/albedoedit.md) — Wan 2.1 T2V-14B finetune for albedo-guided instance insertion/removal/texture editing — `model, video-editing, albedo, wan, intrinsic` ⚠ stub
@@ -333,6 +337,9 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Product identity in instruction editing](concepts/product-identity-instruction-editing.md) — ProductConsistency SFT+RL for brand-preserving edits — `image-editing, identity, product`
 - [Representation-space video safety steering](concepts/representation-space-video-safety-steering.md) — REINS SPCA direction on DiT hidden states — `video-generation, safety, steering`
 - [Streaming video generation serving](concepts/streaming-video-generation-serving.md) — TurboServe stateful chunk serving + autoscaling — `video-generation, serving, streaming`
+- [LLM-choreographed multi-view world models](concepts/llm-choreographed-multi-view-world-models.md) — OmniDrive Choreo WorldScript + latent co-compression — `world-model, multi-view, llm-agent`
+- [MDLM padding vs termination decoupling](concepts/mdlm-padding-termination-decoupling.md) — VoidPadding [VOID] vs EOS — `mdlm, language-model`
+- [Shared-context single-tokenizer UMM](concepts/shared-context-single-tokenizer-umm.md) — UniAR one BSQ tokenizer for understand/gen/edit — `unified-multimodal, tokenizer, shared-context`
 - [Multi-shot audio-video evaluation (MSAVBench)](concepts/multi-shot-audio-video-evaluation.md) — benchmark layer for cinematic multi-cut A/V beyond VBench; validates unified A/V over post-hoc dubbing — `benchmark, audio-video, multi-shot, evaluation, lipsync, narrative`
 - [Streaming force-controlled video (StreamForce)](concepts/streaming-force-controlled-video-generation.md) — force-as-cause interactive streaming world-model control — `world-model, interactive, force-control, streaming`
 - [Task-isolated unified video editing (TIDE)](concepts/task-isolated-unified-video-editing.md) — LTX-2.3 unified edit/gen via per-token task IDs — `video-editing, ltx, unified-model, multi-reference`

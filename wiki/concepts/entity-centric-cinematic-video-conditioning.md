@@ -11,9 +11,11 @@ related:
   - concepts/video-identity-inheritance.md
   - concepts/subject-reconstruction-long-video-memory.md
   - sources/video-generation-survey-2026.md
+  - concepts/llm-choreographed-multi-view-world-models.md
+  - sources/arxiv-2606-17536-omnidrive-llm-choreographed-driving-world.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-06-21
 ---
 
 ## Relations

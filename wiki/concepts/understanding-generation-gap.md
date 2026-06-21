@@ -15,9 +15,12 @@ related:
   - concepts/machine-mental-imagery.md
   - entities/benchmarks/mentisoculi.md
   - sources/arxiv-2602-02465-mentisoculi-visual-reasoning-limits-2026-06-13.md
+  - sources/arxiv-2606-18249-uniar-shared-context-visual-tokenizer.md
+  - concepts/shared-context-single-tokenizer-umm.md
+  - entities/models/uniar.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-06-15
+updated: 2026-06-21
 ---
 
 ## Relations

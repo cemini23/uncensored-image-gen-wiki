@@ -113,10 +113,15 @@ related:
   - concepts/representation-space-video-safety-steering.md
   - concepts/streaming-video-generation-serving.md
   - entities/models/turboserve.md
+  - sources/arxiv-2606-17536-omnidrive-llm-choreographed-driving-world.md
+  - sources/arxiv-2606-18249-uniar-shared-context-visual-tokenizer.md
+  - concepts/llm-choreographed-multi-view-world-models.md
+  - concepts/shared-context-single-tokenizer-umm.md
+  - entities/models/uniar.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-06-20
+updated: 2026-06-21
 ---
 
 ## Relations

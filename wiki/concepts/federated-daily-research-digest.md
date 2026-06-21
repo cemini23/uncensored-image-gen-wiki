@@ -45,9 +45,13 @@ related:
   - sources/arxiv-2606-17257-reins-video-safety-representation-steering.md
   - sources/arxiv-2606-19271-turboserve-streaming-video-serving.md
   - sweeps/2026-06-20-daily.md
+  - sources/arxiv-2606-17536-omnidrive-llm-choreographed-driving-world.md
+  - sources/arxiv-2606-17999-voidpadding-mdlm-padding.md
+  - sources/arxiv-2606-18249-uniar-shared-context-visual-tokenizer.md
+  - sweeps/2026-06-21-daily.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-20
+updated: 2026-06-21
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

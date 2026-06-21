@@ -11,9 +11,11 @@ related:
   - concepts/camera-controlled-video-generation.md
   - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
   - sources/video-generation-survey-2026.md
+  - sources/arxiv-2606-17536-omnidrive-llm-choreographed-driving-world.md
+  - concepts/llm-choreographed-multi-view-world-models.md
 maturity: draft
 created: 2026-06-11
-updated: 2026-06-11
+updated: 2026-06-21
 ---
 
 ## Relations

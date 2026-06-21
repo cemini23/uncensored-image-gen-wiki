@@ -22,9 +22,11 @@ related:
   - sources/arxiv-2606-13768-cineorchestra-entity-centric-cinematic-video.md
   - concepts/entity-centric-cinematic-video-conditioning.md
   - entities/models/cineorchestra.md
+  - sources/arxiv-2606-17536-omnidrive-llm-choreographed-driving-world.md
+  - concepts/llm-choreographed-multi-view-world-models.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-06-19
+updated: 2026-06-21
 ---
 
 ## Relations

@@ -53,9 +53,11 @@ related:
   - sources/arxiv-2606-16533-kairos-native-world-model-stack.md
   - concepts/physical-ai-native-world-model-stacks.md
   - entities/models/kairos.md
+  - sources/arxiv-2606-17536-omnidrive-llm-choreographed-driving-world.md
+  - concepts/llm-choreographed-multi-view-world-models.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-06-19
+updated: 2026-06-21
 ---
 
 ## Relations

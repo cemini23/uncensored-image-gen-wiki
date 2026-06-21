@@ -4,6 +4,46 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-21] phase-0 | UniAR + VoidPadding GitHub audits
+
+Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-21_phase-0-uniar-voidpadding.md`.
+
+- **UniAR** (`ShareLab-SII/UniAR`) — **CONDITIONAL-GO** — code + HF weights; no LICENSE in repo
+- **VoidPadding** (`Haru-LCY/VoidPadding`) — **CONDITIONAL-GO** repo / peripheral MDLM fit
+- **OmniDrive Choreo** (2606.17536) — skipped (no repo; not NVlabs OmniDrive)
+
+---
+
+## [2026-06-21] ingest | daily digest inbox — OmniDrive Choreo, VoidPadding, UniAR (3 PDFs)
+
+Per `wiki/sweeps/2026-06-21-daily.md`. preingest_check: 3/3 NEW. PDFs archived to `raw-sources/`.
+
+### Sources created (3)
+
+- `wiki/sources/arxiv-2606-17536-omnidrive-llm-choreographed-driving-world.md`
+- `wiki/sources/arxiv-2606-17999-voidpadding-mdlm-padding.md`
+- `wiki/sources/arxiv-2606-18249-uniar-shared-context-visual-tokenizer.md`
+
+### Concepts created (3)
+
+- `concepts/llm-choreographed-multi-view-world-models.md`
+- `concepts/mdlm-padding-termination-decoupling.md`
+- `concepts/shared-context-single-tokenizer-umm.md`
+
+### Entities created (1)
+
+- `entities/models/uniar.md`
+
+### Enhanced (backlinks)
+
+- `world-models-video-generation.md`, `multi-agent-cross-view-video-world-models.md`, `camera-controlled-video-generation.md`, `entity-centric-cinematic-video-conditioning.md`, `holistic-visual-tokenizer-umm.md`, `understanding-generation-gap.md`, `bagel.md`, `janus-pro.md`, `hydra-x.md`, `qwen-image-2512.md`, `video-generation-survey-2026.md`, `wiki/index.md`, sweep frontmatter
+
+### Brief
+
+- `briefs/2026-06-21_phase-0-uniar-voidpadding.md`
+
+---
+
 ## [2026-06-20] phase-0 | TurboServe GitHub audit
 
 Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-20_phase-0-turboserve.md`.

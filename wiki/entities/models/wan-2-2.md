@@ -89,9 +89,11 @@ related:
   - sources/arxiv-2606-19271-turboserve-streaming-video-serving.md
   - concepts/streaming-video-generation-serving.md
   - entities/models/turboserve.md
+  - concepts/llm-choreographed-multi-view-world-models.md
+  - sources/arxiv-2606-17536-omnidrive-llm-choreographed-driving-world.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-20
+updated: 2026-06-21
 ---
 
 ## Relations
