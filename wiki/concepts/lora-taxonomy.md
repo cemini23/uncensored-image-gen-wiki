@@ -30,9 +30,12 @@ related:
   - entities/marketplaces/civitai.md
   - entities/training-tools/czkawka.md
   - entities/training-tools/how-to-train-your-gpt.md
+  - sources/arxiv-2606-20506-freestyle-community-lora-mining.md
+  - concepts/style-content-dual-reference-generation.md
+  - entities/models/freestyle.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-05-15
+updated: 2026-06-22
 ---
 
 ## Relations

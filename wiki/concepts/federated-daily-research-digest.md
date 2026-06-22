@@ -49,9 +49,12 @@ related:
   - sources/arxiv-2606-17999-voidpadding-mdlm-padding.md
   - sources/arxiv-2606-18249-uniar-shared-context-visual-tokenizer.md
   - sweeps/2026-06-21-daily.md
+  - sources/arxiv-2606-18375-paiworld-3d-consistent-world-foundation.md
+  - sources/arxiv-2606-20506-freestyle-community-lora-mining.md
+  - sweeps/2026-06-22-daily.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-21
+updated: 2026-06-22
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

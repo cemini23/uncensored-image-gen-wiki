@@ -31,9 +31,12 @@ related:
   - entities/uis/automatic1111.md
   - entities/uis/forge.md
   - sources/arxiv-2605-29809-cert-las-t2i-mov.md
+  - sources/arxiv-2606-20506-freestyle-community-lora-mining.md
+  - concepts/style-content-dual-reference-generation.md
+  - entities/models/freestyle.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-03
+updated: 2026-06-22
 ---
 
 ## Relations

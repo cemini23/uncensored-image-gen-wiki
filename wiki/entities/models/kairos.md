@@ -10,9 +10,11 @@ related:
   - concepts/hybrid-linear-attention.md
   - entities/models/sana-wm.md
   - sources/video-generation-survey-2026.md
+  - sources/arxiv-2606-18375-paiworld-3d-consistent-world-foundation.md
+  - concepts/multi-view-3d-consistent-world-models.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-06-19
+updated: 2026-06-22
 phase_0_verdict: GO
 phase_0_date: 2026-06-19
 ---

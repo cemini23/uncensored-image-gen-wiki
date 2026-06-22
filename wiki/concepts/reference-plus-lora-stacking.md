@@ -27,6 +27,9 @@ related:
   - entities/hardware/gpu-guide.md
   - entities/uis/comfyui.md
   - concepts/preference-delta-lora-aggregation.md
+  - sources/arxiv-2606-20506-freestyle-community-lora-mining.md
+  - concepts/style-content-dual-reference-generation.md
+  - entities/models/freestyle.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-06-05

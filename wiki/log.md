@@ -4,6 +4,43 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-22] phase-0 | FreeStyle GitHub audit
+
+Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-22_phase-0-freestyle.md`.
+
+- **FreeStyle** (`Blue2Giant/FreeStyle`) — **GO** — Apache-2.0; datasets + ComfyUI triplet workflows
+- **PAIWorld** (2606.18375) — skipped (no public repo)
+
+---
+
+## [2026-06-22] ingest | daily digest inbox — PAIWorld, FreeStyle (2 PDFs)
+
+Per `wiki/sweeps/2026-06-22-daily.md`. preingest_check: 2/2 NEW. PDFs archived to `raw-sources/`.
+
+### Sources created (2)
+
+- `wiki/sources/arxiv-2606-18375-paiworld-3d-consistent-world-foundation.md`
+- `wiki/sources/arxiv-2606-20506-freestyle-community-lora-mining.md`
+
+### Concepts created (2)
+
+- `concepts/multi-view-3d-consistent-world-models.md`
+- `concepts/style-content-dual-reference-generation.md`
+
+### Entities created (1)
+
+- `entities/models/freestyle.md`
+
+### Enhanced (backlinks)
+
+- `world-models-video-generation.md`, `multi-agent-cross-view-video-world-models.md`, `physical-ai-native-world-model-stacks.md`, `video-generation-physical-executability.md`, `kairos.md`, `wan-2-2.md`, `cogvideox-1-5.md`, `reference-plus-lora-stacking.md`, `lora-taxonomy.md`, `persona-consistency-methods.md`, `civitai.md`, `flux-1-dev.md`, `pony-v6.md`, `illustrious-xl.md`, `qwen-image-2512.md`, `comfyui.md`, `video-generation-survey-2026.md`, `wiki/index.md`, sweep frontmatter
+
+### Brief
+
+- `briefs/2026-06-22_phase-0-freestyle.md`
+
+---
+
 ## [2026-06-21] phase-0 | UniAR + VoidPadding GitHub audits
 
 Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-21_phase-0-uniar-voidpadding.md`.

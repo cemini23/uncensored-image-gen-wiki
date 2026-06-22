@@ -21,9 +21,12 @@ related:
   - entities/hardware/gpu-guide.md
   - entities/marketplaces/civitai.md
   - entities/uis/automatic1111.md
+  - sources/arxiv-2606-20506-freestyle-community-lora-mining.md
+  - concepts/style-content-dual-reference-generation.md
+  - entities/models/freestyle.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-06-22
 ---
 
 ## Relations

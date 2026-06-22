@@ -118,10 +118,15 @@ related:
   - concepts/llm-choreographed-multi-view-world-models.md
   - concepts/shared-context-single-tokenizer-umm.md
   - entities/models/uniar.md
+  - sources/arxiv-2606-18375-paiworld-3d-consistent-world-foundation.md
+  - concepts/multi-view-3d-consistent-world-models.md
+  - sources/arxiv-2606-20506-freestyle-community-lora-mining.md
+  - concepts/style-content-dual-reference-generation.md
+  - entities/models/freestyle.md
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-06-21
+updated: 2026-06-22
 ---
 
 ## Relations
