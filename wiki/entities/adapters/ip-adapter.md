@@ -20,9 +20,12 @@ related:
   - entities/models/illustrious-xl.md
   - concepts/model-selection-workflow.md
   - entities/uis/comfyui.md
+  - sources/arxiv-2606-20971-unity-attention-flow-conditioning.md
+  - concepts/universal-composite-diffusion-conditioning.md
+  - entities/models/unity.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-06-23
 ---
 
 ## Relations

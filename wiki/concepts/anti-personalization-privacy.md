@@ -10,9 +10,11 @@ related:
   - concepts/persona-failure-modes.md
   - concepts/t2i-model-ownership-verification.md
   - sources/arxiv-2605-29809-cert-las-t2i-mov.md
+  - sources/arxiv-2606-21710-privacyalign-llm-agents.md
+  - concepts/contextual-privacy-alignment-llm-agents.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-03
+updated: 2026-06-23
 ---
 
 ## Relations

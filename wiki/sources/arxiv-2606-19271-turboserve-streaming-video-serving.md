@@ -15,10 +15,12 @@ related:
   - sweeps/2026-06-20-daily.md
   - concepts/federated-daily-research-digest.md
   - concepts/autoregressive-video-foresight-training.md
+  - sources/arxiv-2606-17566-aoizora-topology-aware-dit-parallel.md
+  - concepts/topology-aware-dit-parallel-inference.md
 maturity: draft
 read_status: read
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-06-23
 ---
 
 ## Relations

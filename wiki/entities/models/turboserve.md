@@ -9,9 +9,11 @@ related:
   - concepts/cascaded-streaming-high-resolution-video.md
   - entities/models/wan-2-2.md
   - sources/video-generation-survey-2026.md
+  - sources/arxiv-2606-17566-aoizora-topology-aware-dit-parallel.md
+  - concepts/topology-aware-dit-parallel-inference.md
 maturity: draft
 created: 2026-06-20
-updated: 2026-06-20
+updated: 2026-06-23
 phase_0_verdict: NO-GO
 phase_0_date: 2026-06-20
 ---

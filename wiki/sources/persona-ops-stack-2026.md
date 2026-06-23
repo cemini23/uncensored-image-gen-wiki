@@ -31,9 +31,11 @@ related:
   - entities/voice-models/elevenlabs.md
   - sources/arxiv-2606-10413-soul-computing-digital-consciousness.md
   - concepts/soul-computing-digital-persona.md
+  - sources/arxiv-2606-21710-privacyalign-llm-agents.md
+  - concepts/contextual-privacy-alignment-llm-agents.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-06-11
+updated: 2026-06-23
 read_status: deep-read
 ---
 

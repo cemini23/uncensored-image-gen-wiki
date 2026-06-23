@@ -13,9 +13,11 @@ related:
   - sources/arxiv-2606-00369-geo-cultural-safety-alignment.md
   - sources/arxiv-2606-15396-chillguard-chinese-llm-safety.md
   - concepts/chinese-llm-safety-guardrails.md
+  - sources/arxiv-2606-21710-privacyalign-llm-agents.md
+  - concepts/contextual-privacy-alignment-llm-agents.md
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-17
+updated: 2026-06-23
 ---
 
 ## Relations

@@ -4,6 +4,49 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-23] phase-0 | UNITY GitHub audit
+
+Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-23_phase-0-unity.md`.
+
+- **UNITY** (`arya-domain/UNITY`) — **CONDITIONAL-GO** — ECCV 2026 code; **no LICENSE file**
+- **AoiZora** (2606.17566) — skipped (no repo; TPU serving)
+- **BrainWorld** (2606.17742) — skipped (no indexed repo; peripheral fMRI)
+- **PrivacyAlign** (2606.21710) — skipped (no repo)
+
+---
+
+## [2026-06-23] ingest | daily digest inbox — AoiZora, BrainWorld, UNITY, PrivacyAlign (4 PDFs)
+
+Per `wiki/sweeps/2026-06-23-daily.md`. preingest_check: 4/4 NEW. PDFs archived to `raw-sources/`.
+
+### Sources created (4)
+
+- `wiki/sources/arxiv-2606-17566-aoizora-topology-aware-dit-parallel.md`
+- `wiki/sources/arxiv-2606-17742-brainworld-fmri-structural-prior.md`
+- `wiki/sources/arxiv-2606-20971-unity-attention-flow-conditioning.md`
+- `wiki/sources/arxiv-2606-21710-privacyalign-llm-agents.md`
+
+### Concepts created (4)
+
+- `concepts/topology-aware-dit-parallel-inference.md`
+- `concepts/structural-prior-conditioned-spatiotemporal-generation.md`
+- `concepts/universal-composite-diffusion-conditioning.md`
+- `concepts/contextual-privacy-alignment-llm-agents.md`
+
+### Entities created (1)
+
+- `entities/models/unity.md`
+
+### Enhanced (backlinks)
+
+- `streaming-video-generation-serving.md`, `budget-aware-diffusion-caching.md`, `world-models-video-generation.md`, `wan-2-2.md`, `turboserve.md`, `gpu-guide.md`, `ip-adapter.md`, `persona-consistency-methods.md`, `persona-ops-stack.md`, `llm-interaction-style-governance.md`, `sillytavern.md`, `n8n.md`, `comfyui.md`, `pony-v6.md`, `video-generation-survey-2026.md`, `wiki/index.md`, sweep frontmatter
+
+### Brief
+
+- `briefs/2026-06-23_phase-0-unity.md`
+
+---
+
 ## [2026-06-22] phase-0 | FreeStyle GitHub audit
 
 Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-22_phase-0-freestyle.md`.

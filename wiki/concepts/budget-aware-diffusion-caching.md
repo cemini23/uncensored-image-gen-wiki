@@ -15,9 +15,11 @@ related:
   - sources/arxiv-2606-03972-aad-1-one-step-ar-video.md
   - sources/video-generation-survey-2026.md
   - entities/uis/comfyui.md
+  - sources/arxiv-2606-17566-aoizora-topology-aware-dit-parallel.md
+  - concepts/topology-aware-dit-parallel-inference.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-15
+updated: 2026-06-23
 ---
 
 ## Relations

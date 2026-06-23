@@ -19,9 +19,11 @@ related:
   - concepts/chinese-llm-safety-guardrails.md
   - sources/arxiv-2606-17257-reins-video-safety-representation-steering.md
   - concepts/representation-space-video-safety-steering.md
+  - sources/arxiv-2606-21710-privacyalign-llm-agents.md
+  - concepts/contextual-privacy-alignment-llm-agents.md
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-20
+updated: 2026-06-23
 ---
 
 ## Relations

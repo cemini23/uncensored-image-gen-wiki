@@ -33,9 +33,11 @@ related:
   - entities/custom-nodes/bmab.md
   - sources/arxiv-2606-06060-recache-diffusion-caching.md
   - concepts/budget-aware-diffusion-caching.md
+  - sources/arxiv-2606-17566-aoizora-topology-aware-dit-parallel.md
+  - concepts/topology-aware-dit-parallel-inference.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-06-07
+updated: 2026-06-23
 ---
 
 ## Relations

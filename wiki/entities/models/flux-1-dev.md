@@ -47,9 +47,12 @@ related:
   - sources/arxiv-2606-20506-freestyle-community-lora-mining.md
   - concepts/style-content-dual-reference-generation.md
   - entities/models/freestyle.md
+  - sources/arxiv-2606-20971-unity-attention-flow-conditioning.md
+  - concepts/universal-composite-diffusion-conditioning.md
+  - entities/models/unity.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-22
+updated: 2026-06-23
 ---
 
 ## Relations

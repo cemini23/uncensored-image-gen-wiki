@@ -93,9 +93,11 @@ related:
   - sources/arxiv-2606-17536-omnidrive-llm-choreographed-driving-world.md
   - sources/arxiv-2606-18375-paiworld-3d-consistent-world-foundation.md
   - concepts/multi-view-3d-consistent-world-models.md
+  - sources/arxiv-2606-17566-aoizora-topology-aware-dit-parallel.md
+  - concepts/topology-aware-dit-parallel-inference.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-22
+updated: 2026-06-23
 ---
 
 ## Relations

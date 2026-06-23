@@ -52,9 +52,14 @@ related:
   - sources/arxiv-2606-18375-paiworld-3d-consistent-world-foundation.md
   - sources/arxiv-2606-20506-freestyle-community-lora-mining.md
   - sweeps/2026-06-22-daily.md
+  - sources/arxiv-2606-17566-aoizora-topology-aware-dit-parallel.md
+  - sources/arxiv-2606-17742-brainworld-fmri-structural-prior.md
+  - sources/arxiv-2606-20971-unity-attention-flow-conditioning.md
+  - sources/arxiv-2606-21710-privacyalign-llm-agents.md
+  - sweeps/2026-06-23-daily.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-22
+updated: 2026-06-23
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

@@ -57,9 +57,11 @@ related:
   - concepts/llm-choreographed-multi-view-world-models.md
   - sources/arxiv-2606-18375-paiworld-3d-consistent-world-foundation.md
   - concepts/multi-view-3d-consistent-world-models.md
+  - sources/arxiv-2606-17742-brainworld-fmri-structural-prior.md
+  - concepts/structural-prior-conditioned-spatiotemporal-generation.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-06-22
+updated: 2026-06-23
 ---
 
 ## Relations

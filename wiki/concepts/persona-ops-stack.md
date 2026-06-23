@@ -43,9 +43,11 @@ related:
   - concepts/chinese-llm-safety-guardrails.md
   - "@seo-wiki/concepts/creator-marketing-foundations.md"
   - "@seo-wiki/concepts/synthetic-creator-gtm.md"
+  - sources/arxiv-2606-21710-privacyalign-llm-agents.md
+  - concepts/contextual-privacy-alignment-llm-agents.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-18
+updated: 2026-06-23
 ---
 
 ## Relations
