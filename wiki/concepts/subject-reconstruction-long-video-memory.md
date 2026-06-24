@@ -1,8 +1,4 @@
 ---
-title: Subject-reconstruction long-video memory (Memento)
-type: concept
-tags: [concept, video-generation, long-horizon, memory, subject-consistency, identity]
-keywords: [Memento, subject reconstruction, dual-query memory, identity grounding, shot-level AR, long-form video]
 related:
   - sources/arxiv-2606-14667-memento-long-video-subject-reconstruction.md
   - entities/models/memento.md
@@ -14,9 +10,14 @@ related:
   - sources/video-generation-survey-2026.md
   - concepts/entity-centric-cinematic-video-conditioning.md
   - sources/arxiv-2606-13768-cineorchestra-entity-centric-cinematic-video.md
+  - concepts/causal-clip-attention-long-video.md
+title: Subject-reconstruction long-video memory (Memento)
+type: concept
+tags: [concept, video-generation, long-horizon, memory, subject-consistency, identity]
+keywords: [Memento, subject reconstruction, dual-query memory, identity grounding, shot-level AR, long-form video]
 maturity: draft
 created: 2026-06-17
-updated: 2026-06-19
+updated: 2026-06-24
 ---
 
 ## Relations

@@ -33,9 +33,10 @@ related:
   - sweeps/2026-06-21-daily.md
   - sweeps/2026-06-22-daily.md
   - sweeps/2026-06-23-daily.md
+  - sweeps/2026-06-24-daily.md
 maturity: core
 created: 2026-06-01
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations

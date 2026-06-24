@@ -1,8 +1,4 @@
 ---
-title: CogVideoX 1.5 / 2.0 (THUDM / Zhipu AI)
-type: entity
-tags: [model, video, dit, cogvideox, thudm, zhipu, apache-2-0, eastern-vanguard, low-vram]
-keywords: [cogvideox, cogvideox-1-5, cogvideox-2-0, thudm, zhipu, qingying, 5b, 3d-vae, torchao-int8, 7gb, 8gb-vram, apache-2.0, latent-space-probing, cogsound]
 related:
   - sources/video-generation-survey-2026.md
   - entities/models/wan-2-2.md
@@ -18,9 +14,15 @@ related:
   - sources/arxiv-2606-17536-omnidrive-llm-choreographed-driving-world.md
   - sources/arxiv-2606-18375-paiworld-3d-consistent-world-foundation.md
   - concepts/multi-view-3d-consistent-world-models.md
+  - entities/benchmarks/geot2v-bench.md
+  - sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md
+title: CogVideoX 1.5 / 2.0 (THUDM / Zhipu AI)
+type: entity
+tags: [model, video, dit, cogvideox, thudm, zhipu, apache-2-0, eastern-vanguard, low-vram]
+keywords: [cogvideox, cogvideox-1-5, cogvideox-2-0, thudm, zhipu, qingying, 5b, 3d-vae, torchao-int8, 7gb, 8gb-vram, apache-2.0, latent-space-probing, cogsound]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-22
+updated: 2026-06-24
 ---
 
 ## Relations

@@ -1,8 +1,4 @@
 ---
-title: LTX-2 (Lightricks)
-type: entity
-tags: [model, video, asymmetric-av, audio-visual, ltx, lightricks, joint-foundation]
-keywords: [ltx-2, ltx-video, lightricks, asymmetric-av, audio-visual, 19b, 14b-visual, 5b-audio, bidirectional-cross-attention, 4k, 50fps, foley, modality-specific-vae, ltx-2-community-license]
 related:
   - sources/video-generation-survey-2026.md
   - entities/models/wan-2-2.md
@@ -36,9 +32,17 @@ related:
   - sources/arxiv-2606-14317-causalmotion-physical-reasoning-video.md
   - concepts/vlm-guided-physical-video-generation.md
   - entities/models/causalmotion.md
+  - concepts/reconstruction-based-t2v-benchmarking.md
+  - concepts/vae-latent-space-downstream-diffusion.md
+  - entities/benchmarks/geot2v-bench.md
+  - sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md
+title: LTX-2 (Lightricks)
+type: entity
+tags: [model, video, asymmetric-av, audio-visual, ltx, lightricks, joint-foundation]
+keywords: [ltx-2, ltx-video, lightricks, asymmetric-av, audio-visual, 19b, 14b-visual, 5b-audio, bidirectional-cross-attention, 4k, 50fps, foley, modality-specific-vae, ltx-2-community-license]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-17
+updated: 2026-06-24
 ---
 
 ## Relations

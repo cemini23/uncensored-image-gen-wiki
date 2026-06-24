@@ -1,8 +1,4 @@
 ---
-title: "YoCausal — causality benchmark for video diffusion / world models (arXiv:2605.30346)"
-type: source
-tags: [paper, world-model, causality, benchmark, video-diffusion, wan]
-keywords: [YoCausal, Reverse Surprise Index, RSI, Causality Cognition Index, CCI, VoE, temporal reversal, Wan2.2]
 related:
   - concepts/world-models-video-generation.md
   - entities/models/wan-2-2.md
@@ -14,10 +10,17 @@ related:
   - concepts/physics-aware-orthogonal-view-video.md
   - sources/arxiv-2606-04811-dream-exe-robot-executability.md
   - concepts/video-generation-physical-executability.md
+  - concepts/reconstruction-based-t2v-benchmarking.md
+  - entities/benchmarks/geot2v-bench.md
+  - sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md
+title: "YoCausal — causality benchmark for video diffusion / world models (arXiv:2605.30346)"
+type: source
+tags: [paper, world-model, causality, benchmark, video-diffusion, wan]
+keywords: [YoCausal, Reverse Surprise Index, RSI, Causality Cognition Index, CCI, VoE, temporal reversal, Wan2.2]
 maturity: draft
 read_status: read
 created: 2026-06-01
-updated: 2026-06-07
+updated: 2026-06-24
 ---
 
 ## Relations

@@ -1,8 +1,4 @@
 ---
-title: "Human-LLM interaction governance — style drift (arXiv:2606.08172)"
-type: source
-tags: [paper, persona-ops, llm-governance, alignment, safety, style-drift, pluralism]
-keywords: [LLM governance, prompt steerability, style drift, safety gating, civility steering, affective default lock-in, anthropomorphism, SillyTavern, persona conditions]
 related:
   - concepts/llm-interaction-style-governance.md
   - concepts/llm-instruction-hierarchy-training.md
@@ -14,10 +10,16 @@ related:
   - sweeps/2026-06-12-daily.md
   - sources/arxiv-2606-21710-privacyalign-llm-agents.md
   - concepts/contextual-privacy-alignment-llm-agents.md
+  - concepts/domain-sensitive-llm-over-alignment.md
+  - sources/arxiv-2606-23375-tf-refusalbench-over-alignment.md
+title: "Human-LLM interaction governance — style drift (arXiv:2606.08172)"
+type: source
+tags: [paper, persona-ops, llm-governance, alignment, safety, style-drift, pluralism]
+keywords: [LLM governance, prompt steerability, style drift, safety gating, civility steering, affective default lock-in, anthropomorphism, SillyTavern, persona conditions]
 maturity: draft
 read_status: read
 created: 2026-06-12
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations

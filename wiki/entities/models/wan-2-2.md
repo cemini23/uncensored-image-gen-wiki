@@ -95,9 +95,21 @@ related:
   - concepts/multi-view-3d-consistent-world-models.md
   - sources/arxiv-2606-17566-aoizora-topology-aware-dit-parallel.md
   - concepts/topology-aware-dit-parallel-inference.md
+  - sources/arxiv-2606-22370-error-free-long-video-generation.md
+  - concepts/causal-clip-attention-long-video.md
+  - sources/arxiv-2606-23105-car-implicit-memory-video-world.md
+  - concepts/implicit-memory-retrieval-video-world-models.md
+  - sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md
+  - concepts/reconstruction-based-t2v-benchmarking.md
+  - concepts/vae-latent-space-downstream-diffusion.md
+  - sources/arxiv-2606-23254-steervte-video-text-editing.md
+  - concepts/video-text-editing-glyph-control.md
+  - entities/models/car.md
+  - entities/models/steervte.md
+  - entities/benchmarks/geot2v-bench.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations

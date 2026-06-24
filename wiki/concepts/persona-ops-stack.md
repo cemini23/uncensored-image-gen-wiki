@@ -1,8 +1,4 @@
 ---
-title: "Persona operations stack (architecture overview)"
-type: concept
-tags: [persona-ops, automation, stack-architecture, multi-account, dm-automation, voice-cloning, orchestration, content-pipelines]
-keywords: [persona-ops, scheduling, anti-detect-browsers, residential-proxies, sillytavern, local-llm, voice-cloning, n8n, orchestration, comfyui, fal-ai, replicate, modal, telegram, postiz]
 related:
   - sources/persona-ops-stack-2026.md
   - concepts/persona-ops-workflow.md
@@ -31,7 +27,6 @@ related:
   - entities/uis/fooocus.md
   - entities/marketplaces/fanvue.md
   - concepts/multi-angle-dataset-prep.md
-  - concepts/persona-content-cadence.md
   - concepts/federated-daily-research-digest.md
   - concepts/soul-computing-digital-persona.md
   - sources/arxiv-2606-10413-soul-computing-digital-consciousness.md
@@ -45,9 +40,15 @@ related:
   - "@seo-wiki/concepts/synthetic-creator-gtm.md"
   - sources/arxiv-2606-21710-privacyalign-llm-agents.md
   - concepts/contextual-privacy-alignment-llm-agents.md
+  - concepts/domain-sensitive-llm-over-alignment.md
+  - sources/arxiv-2606-23375-tf-refusalbench-over-alignment.md
+title: "Persona operations stack (architecture overview)"
+type: concept
+tags: [persona-ops, automation, stack-architecture, multi-account, dm-automation, voice-cloning, orchestration, content-pipelines]
+keywords: [persona-ops, scheduling, anti-detect-browsers, residential-proxies, sillytavern, local-llm, voice-cloning, n8n, orchestration, comfyui, fal-ai, replicate, modal, telegram, postiz]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations

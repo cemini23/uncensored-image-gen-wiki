@@ -4,6 +4,57 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-24] phase-0 | CaR + SignPoseVAE GitHub audit
+
+Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-24_phase-0-car-signposevae.md`.
+
+- **CaR** (`Orange-3DV-Team/CaR`) — **CONDITIONAL-GO** — README only; no LICENSE; code TBD
+- **SignPoseVAE** (`GFaure9/SignPoseVAE`) — **NO-GO** — sign-language domain; no LICENSE
+- **Error-free long video** (2606.22370) — skipped (no repo)
+- **SteerVTE** (2606.23254) — skipped (ByteDance; no repo)
+- **TF-RefusalBench** (2606.23375) — skipped (benchmark repo not indexed)
+- **GeoT2V-Bench** (2606.24829) — skipped (code pending)
+
+---
+
+## [2026-06-24] ingest | daily digest inbox — 6 PDFs (long video, VAE, CaR, SteerVTE, over-alignment, GeoT2V-Bench)
+
+Per `wiki/sweeps/2026-06-24-daily.md`. preingest_check: 6/6 NEW. PDFs archived to `raw-sources/`.
+
+### Sources created (6)
+
+- `wiki/sources/arxiv-2606-22370-error-free-long-video-generation.md`
+- `wiki/sources/arxiv-2606-22959-vae-latent-sign-pose-diffusion.md`
+- `wiki/sources/arxiv-2606-23105-car-implicit-memory-video-world.md`
+- `wiki/sources/arxiv-2606-23254-steervte-video-text-editing.md`
+- `wiki/sources/arxiv-2606-23375-tf-refusalbench-over-alignment.md`
+- `wiki/sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md`
+
+### Concepts created (6)
+
+- `concepts/causal-clip-attention-long-video.md`
+- `concepts/vae-latent-space-downstream-diffusion.md`
+- `concepts/implicit-memory-retrieval-video-world-models.md`
+- `concepts/video-text-editing-glyph-control.md`
+- `concepts/domain-sensitive-llm-over-alignment.md`
+- `concepts/reconstruction-based-t2v-benchmarking.md`
+
+### Entities created (3)
+
+- `entities/models/car.md`
+- `entities/models/steervte.md`
+- `entities/benchmarks/geot2v-bench.md`
+
+### Enhanced (backlinks)
+
+- `world-models-video-generation.md`, `long-video-rag-retrieval.md`, `llm-interaction-style-governance.md`, `de-censoring-techniques.md`, `multi-view-3d-consistent-world-models.md`, `wiki/index.md`, sweep frontmatter
+
+### Brief
+
+- `briefs/2026-06-24_phase-0-car-signposevae.md`
+
+---
+
 ## [2026-06-23] phase-0 | UNITY GitHub audit
 
 Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-23_phase-0-unity.md`.

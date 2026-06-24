@@ -1,8 +1,4 @@
 ---
-title: Mirage (ZJU — latent spatial memory world model)
-type: entity
-tags: [model, video, world-model, spatial-memory, research]
-keywords: [Mirage, latent spatial memory, ZJU, Microsoft Research, WorldScore, camera-controllable, 3D-consistent video]
 related:
   - sources/arxiv-2606-09828-mirage-latent-spatial-memory.md
   - concepts/latent-spatial-memory-video-world-models.md
@@ -18,9 +14,16 @@ related:
   - sources/arxiv-2606-16449-permavid-disentangled-context-memory.md
   - concepts/disentangled-context-memory-video-edits.md
   - entities/models/permavid.md
+  - concepts/implicit-memory-retrieval-video-world-models.md
+  - entities/models/car.md
+  - sources/arxiv-2606-23105-car-implicit-memory-video-world.md
+title: Mirage (ZJU — latent spatial memory world model)
+type: entity
+tags: [model, video, world-model, spatial-memory, research]
+keywords: [Mirage, latent spatial memory, ZJU, Microsoft Research, WorldScore, camera-controllable, 3D-consistent video]
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-17
+updated: 2026-06-24
 ---
 
 ## Relations

@@ -1,8 +1,4 @@
 ---
-title: "AlbedoEdit — unified instance-level video editing (arXiv:2606.01362)"
-type: source
-tags: [paper, video-editing, albedo, intrinsic, wan, voi, vor, vte]
-keywords: [AlbedoEdit, albedo guidance, video object insertion, video object removal, texture editing, Wan 2.1, DiffusionRenderer, illumination harmonization, MPI, NVIDIA]
 related:
   - concepts/albedo-guided-instance-video-editing.md
   - entities/models/albedoedit.md
@@ -12,10 +8,16 @@ related:
   - sources/arxiv-2606-08260-tide-unified-video-editing.md
   - concepts/task-isolated-unified-video-editing.md
   - entities/models/tide.md
+  - concepts/video-text-editing-glyph-control.md
+  - sources/arxiv-2606-23254-steervte-video-text-editing.md
+title: "AlbedoEdit — unified instance-level video editing (arXiv:2606.01362)"
+type: source
+tags: [paper, video-editing, albedo, intrinsic, wan, voi, vor, vte]
+keywords: [AlbedoEdit, albedo guidance, video object insertion, video object removal, texture editing, Wan 2.1, DiffusionRenderer, illumination harmonization, MPI, NVIDIA]
 maturity: draft
 read_status: read
 created: 2026-06-06
-updated: 2026-06-10
+updated: 2026-06-24
 ---
 
 ## Relations

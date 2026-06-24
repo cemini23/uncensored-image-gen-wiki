@@ -1,8 +1,4 @@
 ---
-title: "SillyTavern (NSFW DM frontend + RAG + TTS bridge)"
-type: entity
-tags: [persona-ops, dm-automation, llm-frontend, sillytavern, rag, tts, local-llm, character-card, persona-chat]
-keywords: [SillyTavern, character-card, character-ai-frontend, RAG, vector-store, MiniMax-TTS, Qwen-3, Mistral-3, Llama-4, koboldcpp, llama.cpp, lorebook, world-info, 128k-context]
 related:
   - sources/persona-ops-stack-2026.md
   - concepts/persona-ops-stack.md
@@ -21,9 +17,15 @@ related:
   - concepts/chinese-llm-safety-guardrails.md
   - sources/arxiv-2606-21710-privacyalign-llm-agents.md
   - concepts/contextual-privacy-alignment-llm-agents.md
+  - concepts/domain-sensitive-llm-over-alignment.md
+  - sources/arxiv-2606-23375-tf-refusalbench-over-alignment.md
+title: "SillyTavern (NSFW DM frontend + RAG + TTS bridge)"
+type: entity
+tags: [persona-ops, dm-automation, llm-frontend, sillytavern, rag, tts, local-llm, character-card, persona-chat]
+keywords: [SillyTavern, character-card, character-ai-frontend, RAG, vector-store, MiniMax-TTS, Qwen-3, Mistral-3, Llama-4, koboldcpp, llama.cpp, lorebook, world-info, 128k-context]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations

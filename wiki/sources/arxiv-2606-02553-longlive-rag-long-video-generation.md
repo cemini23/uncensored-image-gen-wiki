@@ -1,8 +1,4 @@
 ---
-title: "LongLive-RAG — retrieval-augmented AR long video generation (arXiv:2606.02553)"
-type: source
-tags: [paper, video-generation, long-horizon, rag, autoregressive, memory, nvidia]
-keywords: [LongLive-RAG, RAG, sliding window, latent retrieval, Window Temporal Delta Loss, VBench-Long, Causal-Forcing, Self-Forcing]
 related:
   - concepts/long-video-rag-retrieval.md
   - concepts/seam-stitching-strategies.md
@@ -11,14 +7,20 @@ related:
   - sources/video-generation-survey-2026.md
   - entities/models/wan-2-2.md
   - entities/models/decmem.md
-  - concepts/persona-consistency-methods.md
   - sources/arxiv-2605-31336-decmem-world-generation.md
   - sources/arxiv-2606-09056-millivid-hierarchical-latents.md
   - concepts/hierarchical-latent-coarse-to-fine-video.md
+  - concepts/causal-clip-attention-long-video.md
+  - sources/arxiv-2606-22370-error-free-long-video-generation.md
+  - sources/arxiv-2606-23105-car-implicit-memory-video-world.md
+title: "LongLive-RAG — retrieval-augmented AR long video generation (arXiv:2606.02553)"
+type: source
+tags: [paper, video-generation, long-horizon, rag, autoregressive, memory, nvidia]
+keywords: [LongLive-RAG, RAG, sliding window, latent retrieval, Window Temporal Delta Loss, VBench-Long, Causal-Forcing, Self-Forcing]
 maturity: draft
 read_status: read
 created: 2026-06-04
-updated: 2026-06-10
+updated: 2026-06-24
 ---
 
 ## Relations

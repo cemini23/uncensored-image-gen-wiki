@@ -1,8 +1,4 @@
 ---
-title: Video Generation Models Survey (May 2026)
-type: source
-tags: [survey, video-generation, t2v, i2v, deep-research, uncensored, latent-chaining, lipsync]
-keywords: [video, wan, hunyuan, ltx-2, mochi, cogvideox, seedance, vidu, open-sora, pyramid-flow, sora, veo, kling, hailuo, hedra, runway, pika, luma, latent-chaining, gvs, latentsync, musetalk, unisync, abliterated-text-encoder]
 related:
   - sources/synthetic-character-consistency-survey.md
   - entities/models/open-sora.md
@@ -130,10 +126,20 @@ related:
   - sources/arxiv-2606-20971-unity-attention-flow-conditioning.md
   - concepts/universal-composite-diffusion-conditioning.md
   - entities/models/unity.md
+  - concepts/causal-clip-attention-long-video.md
+  - concepts/reconstruction-based-t2v-benchmarking.md
+  - concepts/vae-latent-space-downstream-diffusion.md
+  - sources/arxiv-2606-22370-error-free-long-video-generation.md
+  - sources/arxiv-2606-23254-steervte-video-text-editing.md
+  - sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md
+title: Video Generation Models Survey (May 2026)
+type: source
+tags: [survey, video-generation, t2v, i2v, deep-research, uncensored, latent-chaining, lipsync]
+keywords: [video, wan, hunyuan, ltx-2, mochi, cogvideox, seedance, vidu, open-sora, pyramid-flow, sora, veo, kling, hailuo, hedra, runway, pika, luma, latent-chaining, gvs, latentsync, musetalk, unisync, abliterated-text-encoder]
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations

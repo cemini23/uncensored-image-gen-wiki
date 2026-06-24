@@ -1,8 +1,4 @@
 ---
-title: "Memento — reconstruct-to-remember long video consistency (arXiv:2606.14667)"
-type: source
-tags: [paper, video-generation, long-horizon, memory, subject-consistency, baidu]
-keywords: [Memento, subject reconstruction, dual-query memory, shot-level AR, ERNIE Team, Baidu, long-form video, identity grounding]
 related:
   - concepts/subject-reconstruction-long-video-memory.md
   - entities/models/memento.md
@@ -12,13 +8,17 @@ related:
   - sources/video-generation-survey-2026.md
   - concepts/world-models-video-generation.md
   - entities/models/wan-2-2.md
-  - entities/models/wan-2-2.md
-  - sources/video-generation-survey-2026.md
   - sweeps/2026-06-17-daily.md
+  - concepts/causal-clip-attention-long-video.md
+  - sources/arxiv-2606-22370-error-free-long-video-generation.md
+title: "Memento — reconstruct-to-remember long video consistency (arXiv:2606.14667)"
+type: source
+tags: [paper, video-generation, long-horizon, memory, subject-consistency, baidu]
+keywords: [Memento, subject reconstruction, dual-query memory, shot-level AR, ERNIE Team, Baidu, long-form video, identity grounding]
 maturity: draft
 read_status: read
 created: 2026-06-17
-updated: 2026-06-17
+updated: 2026-06-24
 ---
 
 ## Relations

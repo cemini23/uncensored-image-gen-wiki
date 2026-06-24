@@ -1,8 +1,4 @@
 ---
-title: "PermaVid — disentangled context memory for edited video (arXiv:2606.16449)"
-type: source
-tags: [paper, video-generation, memory, video-editing, camera-control, consistency]
-keywords: [PermaVid, RGB memory, depth memory, edit-aware retrieval, global edits, local edits, camera-controlled, SJTU, Stanford, NTU]
 related:
   - concepts/disentangled-context-memory-video-edits.md
   - entities/models/permavid.md
@@ -13,10 +9,16 @@ related:
   - sources/video-generation-survey-2026.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-17-daily.md
+  - concepts/causal-clip-attention-long-video.md
+  - sources/arxiv-2606-22370-error-free-long-video-generation.md
+title: "PermaVid — disentangled context memory for edited video (arXiv:2606.16449)"
+type: source
+tags: [paper, video-generation, memory, video-editing, camera-control, consistency]
+keywords: [PermaVid, RGB memory, depth memory, edit-aware retrieval, global edits, local edits, camera-controlled, SJTU, Stanford, NTU]
 maturity: draft
 read_status: read
 created: 2026-06-17
-updated: 2026-06-17
+updated: 2026-06-24
 ---
 
 ## Relations

@@ -14,9 +14,12 @@ related:
   - entities/models/cogvideox-1-5.md
   - sources/video-generation-survey-2026.md
   - concepts/structural-prior-conditioned-spatiotemporal-generation.md
+  - sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md
+  - concepts/reconstruction-based-t2v-benchmarking.md
+  - entities/benchmarks/geot2v-bench.md
 maturity: draft
 created: 2026-06-22
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations

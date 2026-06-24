@@ -1,8 +1,4 @@
 ---
-title: "TIDE — task-isolated unified video editing (arXiv:2606.08260)"
-type: source
-tags: [paper, video-editing, video-generation, ltx, unified-model, multi-reference]
-keywords: [TIDE, task-isolated diffusion, per-token task embeddings, dual-path conditioning, LTX-2.3, instruction editing, reference-guided editing, multi-reference generation, TIDE-Bench, OpenVE-Bench, Bilibili]
 related:
   - concepts/task-isolated-unified-video-editing.md
   - entities/models/tide.md
@@ -15,10 +11,17 @@ related:
   - sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md
   - sources/arxiv-2606-01362-albedoedit-video-editing.md
   - sources/video-generation-survey-2026.md
+  - concepts/video-text-editing-glyph-control.md
+  - entities/models/steervte.md
+  - sources/arxiv-2606-23254-steervte-video-text-editing.md
+title: "TIDE — task-isolated unified video editing (arXiv:2606.08260)"
+type: source
+tags: [paper, video-editing, video-generation, ltx, unified-model, multi-reference]
+keywords: [TIDE, task-isolated diffusion, per-token task embeddings, dual-path conditioning, LTX-2.3, instruction editing, reference-guided editing, multi-reference generation, TIDE-Bench, OpenVE-Bench, Bilibili]
 maturity: draft
 read_status: read
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-06-24
 ---
 
 ## Relations

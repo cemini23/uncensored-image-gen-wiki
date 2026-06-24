@@ -1,8 +1,4 @@
 ---
-title: "Mirage — latent spatial memory for video world models (arXiv:2606.09828)"
-type: source
-tags: [paper, world-model, video-generation, spatial-memory, 3d-consistency, camera-control]
-keywords: [Mirage, latent spatial memory, RGB point cloud alternative, depth back-projection, ControlNet memory branch, WorldScore, 10.57x speedup, revisit consistency]
 related:
   - concepts/latent-spatial-memory-video-world-models.md
   - entities/models/mirage.md
@@ -12,13 +8,18 @@ related:
   - entities/models/sana-wm.md
   - entities/models/wan-2-2.md
   - sources/video-generation-survey-2026.md
-  - entities/models/wan-2-2.md
   - concepts/long-video-rag-retrieval.md
   - sweeps/2026-06-12-daily.md
+  - concepts/implicit-memory-retrieval-video-world-models.md
+  - sources/arxiv-2606-23105-car-implicit-memory-video-world.md
+title: "Mirage — latent spatial memory for video world models (arXiv:2606.09828)"
+type: source
+tags: [paper, world-model, video-generation, spatial-memory, 3d-consistency, camera-control]
+keywords: [Mirage, latent spatial memory, RGB point cloud alternative, depth back-projection, ControlNet memory branch, WorldScore, 10.57x speedup, revisit consistency]
 maturity: draft
 read_status: read
 created: 2026-06-12
-updated: 2026-06-12
+updated: 2026-06-24
 ---
 
 ## Relations

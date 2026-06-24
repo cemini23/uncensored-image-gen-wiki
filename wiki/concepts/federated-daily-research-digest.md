@@ -57,9 +57,10 @@ related:
   - sources/arxiv-2606-20971-unity-attention-flow-conditioning.md
   - sources/arxiv-2606-21710-privacyalign-llm-agents.md
   - sweeps/2026-06-23-daily.md
+  - sweeps/2026-06-24-daily.md
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-23
+updated: 2026-06-24
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
@@ -89,8 +90,8 @@ K93 cross-wiki brief (`briefs/2026-06-01_k93-imagegen-digest-from-osint.md`) —
 Install command (idempotent):
 
 ```bash
-bash "/Users/claudiobarone/Desktop/OSINT WORKSPACE/scripts/federation/daily_digest/install_federated_daily_digest.sh" \
-  "/Users/claudiobarone/Desktop/projects/Image gen" image-gen
+bash "/Users/claudiobarone/Projects/OSINT WORKSPACE/scripts/federation/daily_digest/install_federated_daily_digest.sh" \
+  "/Users/claudiobarone/Projects/Image gen" image-gen
 ```
 
 Load scheduler (operator, once):
@@ -102,7 +103,7 @@ launchctl load ~/Library/LaunchAgents/com.cemini.daily-research-digest.image-gen
 Manual run:
 
 ```bash
-cd "/Users/claudiobarone/Desktop/projects/Image gen"
+cd "/Users/claudiobarone/Projects/Image gen"
 python3 scripts/daily_research_digest_run.py
 ```
 

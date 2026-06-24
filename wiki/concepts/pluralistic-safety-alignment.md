@@ -1,8 +1,4 @@
 ---
-title: Pluralistic Safety Alignment
-type: concept
-tags: [concept, safety, alignment, culture, moderation, rlhf]
-keywords: [pluralistic safety, geo-cultural values, Inglehart-Welzel, RLHF homogeneity, cultural zone, refusal behavior, Eastern Vanguard]
 related:
   - sources/arxiv-2606-00369-geo-cultural-safety-alignment.md
   - sources/uncensored-image-generation-survey.md
@@ -21,9 +17,14 @@ related:
   - concepts/representation-space-video-safety-steering.md
   - sources/arxiv-2606-21710-privacyalign-llm-agents.md
   - concepts/contextual-privacy-alignment-llm-agents.md
+  - concepts/domain-sensitive-llm-over-alignment.md
+title: Pluralistic Safety Alignment
+type: concept
+tags: [concept, safety, alignment, culture, moderation, rlhf]
+keywords: [pluralistic safety, geo-cultural values, Inglehart-Welzel, RLHF homogeneity, cultural zone, refusal behavior, Eastern Vanguard]
 maturity: draft
 created: 2026-06-03
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations

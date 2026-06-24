@@ -1,8 +1,4 @@
 ---
-title: "CHILLGuard — fine-grained Chinese LLM safety guardrail (arXiv:2606.15396)"
-type: source
-tags: [paper, llm, safety, guardrail, chinese, moderation, persona-ops]
-keywords: [CHILLGuard, Chinese harm taxonomy, MDPO, LlamaGuard, Qwen3Guard, content moderation, 31 micro-categories, Tsinghua]
 related:
   - concepts/chinese-llm-safety-guardrails.md
   - concepts/pluralistic-safety-alignment.md
@@ -11,10 +7,16 @@ related:
   - entities/persona-ops/sillytavern.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-17-daily.md
+  - concepts/domain-sensitive-llm-over-alignment.md
+  - sources/arxiv-2606-23375-tf-refusalbench-over-alignment.md
+title: "CHILLGuard — fine-grained Chinese LLM safety guardrail (arXiv:2606.15396)"
+type: source
+tags: [paper, llm, safety, guardrail, chinese, moderation, persona-ops]
+keywords: [CHILLGuard, Chinese harm taxonomy, MDPO, LlamaGuard, Qwen3Guard, content moderation, 31 micro-categories, Tsinghua]
 maturity: draft
 read_status: read
 created: 2026-06-17
-updated: 2026-06-17
+updated: 2026-06-24
 ---
 
 ## Relations

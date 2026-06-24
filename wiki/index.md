@@ -90,6 +90,12 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [BrainWorld — structural-prior 4D fMRI generation (arXiv:2606.17742)](sources/arxiv-2606-17742-brainworld-fmri-structural-prior.md) — sMRI-conditioned latent DiT for brain dynamics — `paper, world-model, structural-prior, peripheral`
 - [UNITY — attention flow composite conditioning (arXiv:2606.20971)](sources/arxiv-2606-20971-unity-attention-flow-conditioning.md) — universal SDXL multi-control adapter (MAF) — `paper, adapter, composite-conditioning, sdxl`
 - [PrivacyAlign — contextual privacy for LLM agents (arXiv:2606.21710)](sources/arxiv-2606-21710-privacyalign-llm-agents.md) — human-grounded agent privacy norms + RL reward — `paper, persona-ops, privacy, llm-agents`
+- [Error-free long video — causal clip attention + T-RFlow (arXiv:2606.22370)](sources/arxiv-2606-22370-error-free-long-video-generation.md) — hybrid bidirectional/causal clip attention + KV cache; Alibaba minute-scale — `paper, long-horizon, autoregressive, alibaba`
+- [VAE latent design for sign-pose diffusion (arXiv:2606.22959)](sources/arxiv-2606-22959-vae-latent-sign-pose-diffusion.md) — reconstruction ≠ downstream diffusion quality; peripheral — `paper, vae, latent-diffusion, peripheral`
+- [CaR — implicit memory for video world models (arXiv:2606.23105)](sources/arxiv-2606-23105-car-implicit-memory-video-world.md) — Retrieval Attention + SceneFly; hard-cut trajectories — `paper, world-model, memory, camera-control`
+- [SteerVTE — video text editing (arXiv:2606.23254)](sources/arxiv-2606-23254-steervte-video-text-editing.md) — glyph/style adapter on frozen DiT; SteerVTE-1M — `paper, video-editing, text-rendering, bytedance`
+- [TF-RefusalBench — domain LLM over-alignment (arXiv:2606.23375)](sources/arxiv-2606-23375-tf-refusalbench-over-alignment.md) — refusal + disclaimer vs faithfulness; abliteration eval — `paper, llm-governance, alignment, persona-ops`
+- [GeoT2V-Bench — 3D consistency via reconstruction (arXiv:2606.24829)](sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md) — MedianGS profile for camera-prompted T2V — `paper, benchmark, 3d-consistency, evaluation`
 - [MentisOculi — limits of visual mental imagery (arXiv:2602.02465)](sources/arxiv-2602-02465-mentisoculi-visual-reasoning-limits-2026-06-13.md) — procedural 5-task benchmark; UMM visual CoT fails vs text-only MLLMs — `paper, visual-reasoning, benchmark, umm, k114`
 - [MetaWorld — multi-agent video world model (arXiv:2606.02753)](sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md) — monocular training → multi-egocentric world model via MWSU + World-State Alignment — `paper, world-model, multi-agent, consistency`
 - [PDA / GAM — preference delta LoRA aggregation (arXiv:2606.00357)](sources/arxiv-weak-signals-preference-distillation-2606.00357-2026-06-05.md) — **rerouted** LLM weak-signal LoRA merge (not video) — `paper, lora, merging, preference-learning, rerouted`
@@ -148,6 +154,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [UniAR (Qwen Team — shared-context UMM)](entities/models/uniar.md) — single BSQ tokenizer AR understand/gen/edit — `model, unified-multimodal, t2i, qwen` ⚠ stub
 - [FreeStyle (community LoRA dual-reference)](entities/models/freestyle.md) — Apache-2.0 dual-ref pipeline + Civitai-mined datasets — `model, lora, style-transfer, research` ⚠ stub
 - [UNITY (universal composite conditioning)](entities/models/unity.md) — SDXL multi-control MAF adapter; Phase-0 CONDITIONAL-GO — `model, adapter, sdxl, composite-conditioning` ⚠ stub
+- [CaR (Compression and Retrieval world model)](entities/models/car.md) — implicit memory retrieval for camera world models; Phase-0 CONDITIONAL-GO — `model, world-model, memory, orange-3dv` ⚠ stub
+- [SteerVTE (video text editing)](entities/models/steervte.md) — glyph/style adapter on frozen DiT; no open weights — `model, video-editing, text-rendering` ⚠ stub
 - [Foley-Omni (Video Rebirth)](entities/models/foley-omni.md) — unified V2ST model jointly generating speech, SFX, and music for video; V2ST-Bench — `model, audio, foley, v2st, unified-generation` ⚠ stub
 - [JAVEdit (Tencent Youtu / ZJU)](entities/models/javedit.md) — LTX-2.3 LoRA for instruction-guided joint audio-visual editing; JAVEdit-100k training set — `model, video-editing, audio-visual, instruction, ltx` ⚠ stub
 - [AlbedoEdit (MPI-INF / NVIDIA Research)](entities/models/albedoedit.md) — Wan 2.1 T2V-14B finetune for albedo-guided instance insertion/removal/texture editing — `model, video-editing, albedo, wan, intrinsic` ⚠ stub
@@ -322,6 +330,12 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Visual-to-visual generation (V2V)](concepts/visual-to-visual-generation.md) — visual specification pages via VLM hidden states; V2V-Zero training-free — `v2v, conditioning`
 - [Knowledge-graph structured video control (KGEdit)](concepts/knowledge-graph-structured-video-control.md) — AAKG + SSIM + TASC training-free T2V semantic control — `t2v, knowledge-graph, training-free`
 - [Long-video RAG retrieval (LongLive-RAG)](concepts/long-video-rag-retrieval.md) — RAG over self-generated latents for AR long video — `long-horizon, rag, memory`
+- [Causal clip attention for long video](concepts/causal-clip-attention-long-video.md) — hybrid bidirectional/causal clip attention + T-RFlow — `long-horizon, autoregressive, kv-cache`
+- [Implicit memory retrieval for video world models (CaR)](concepts/implicit-memory-retrieval-video-world-models.md) — Retrieval Attention + context compression — `world-model, memory, camera-control`
+- [VAE latent space for downstream diffusion](concepts/vae-latent-space-downstream-diffusion.md) — reconstruction metrics mis-rank codecs for DiT — `vae, latent-diffusion, training`
+- [Video text editing with glyph control (SteerVTE)](concepts/video-text-editing-glyph-control.md) — style + glyph adapter on frozen DiT — `video-editing, text-rendering`
+- [Domain-sensitive LLM over-alignment](concepts/domain-sensitive-llm-over-alignment.md) — refusal + disclaimer vs task faithfulness — `llm-governance, persona-ops, abliteration`
+- [Reconstruction-based T2V benchmarking (GeoT2V-Bench)](concepts/reconstruction-based-t2v-benchmarking.md) — MedianGS profile for camera-orbit clips — `benchmark, 3d-consistency, evaluation`
 - [Autoregressive video foresight training (Video-Mirai)](concepts/autoregressive-video-foresight-training.md) — future-informed representation alignment for causal video diffusion — `autoregressive, training, consistency`
 - [One-step autoregressive video distillation (AAD-1)](concepts/one-step-autoregressive-video-distillation.md) — asymmetric GAN distillation for 1-step streaming Wan I2V — `autoregressive, distillation, one-step, inference-speed`
 - [Albedo-guided instance video editing (AlbedoEdit)](concepts/albedo-guided-instance-video-editing.md) — unified VOI/VOR/VTE via first-frame albedo edits — `video-editing, albedo, intrinsic, harmonization`
@@ -372,6 +386,7 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 ### Benchmarks
 
 - [MentisOculi](entities/benchmarks/mentisoculi.md) — procedural 5-task visual mental-imagery benchmark (Form Board, Rush Hour, …) — `benchmark, visual-reasoning, evaluation, umm`
+- [GeoT2V-Bench](entities/benchmarks/geot2v-bench.md) — reconstruction-profile 3D consistency diagnostic for camera-prompted T2V — `benchmark, 3d-consistency, evaluation, wan, ltx`
 
 ### Meta (wiki operations)
 

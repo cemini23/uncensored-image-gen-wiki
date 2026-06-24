@@ -1,8 +1,4 @@
 ---
-title: "PAIWorld — 3D-consistent multi-view world foundation model (arXiv:2606.18375)"
-type: source
-tags: [paper, world-model, video-generation, multi-view, 3d-consistency, robotics, physical-ai]
-keywords: [PAIWorld, cross-view attention, Geo-RoPE, Latent 3D-REPA, robotic manipulation, WorldArena, AgiBot-Challenge, CASIA]
 related:
   - concepts/multi-view-3d-consistent-world-models.md
   - concepts/world-models-video-generation.md
@@ -15,10 +11,16 @@ related:
   - sources/video-generation-survey-2026.md
   - sweeps/2026-06-22-daily.md
   - concepts/federated-daily-research-digest.md
+  - concepts/reconstruction-based-t2v-benchmarking.md
+  - sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md
+title: "PAIWorld — 3D-consistent multi-view world foundation model (arXiv:2606.18375)"
+type: source
+tags: [paper, world-model, video-generation, multi-view, 3d-consistency, robotics, physical-ai]
+keywords: [PAIWorld, cross-view attention, Geo-RoPE, Latent 3D-REPA, robotic manipulation, WorldArena, AgiBot-Challenge, CASIA]
 maturity: draft
 read_status: read
 created: 2026-06-22
-updated: 2026-06-22
+updated: 2026-06-24
 ---
 
 ## Relations

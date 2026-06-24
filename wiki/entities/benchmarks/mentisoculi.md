@@ -1,8 +1,4 @@
 ---
-title: MentisOculi — procedural visual mental-imagery benchmark
-type: entity
-tags: [entity, benchmark, visual-reasoning, umm, evaluation, k114]
-keywords: [mentisoculi, form board, hinge folding, paper fold, rush hour, sliding puzzle, procedural benchmark, stratified difficulty]
 related:
   - sources/arxiv-2602-02465-mentisoculi-visual-reasoning-limits-2026-06-13.md
   - concepts/machine-mental-imagery.md
@@ -14,9 +10,14 @@ related:
   - entities/models/janus-pro.md
   - sources/arxiv-2606-13289-hydra-x-unified-multimodal.md
   - sweeps/2026-06-13-daily.md
+  - entities/benchmarks/geot2v-bench.md
+title: MentisOculi — procedural visual mental-imagery benchmark
+type: entity
+tags: [entity, benchmark, visual-reasoning, umm, evaluation, k114]
+keywords: [mentisoculi, form board, hinge folding, paper fold, rush hour, sliding puzzle, procedural benchmark, stratified difficulty]
 maturity: draft
 created: 2026-06-13
-updated: 2026-06-15
+updated: 2026-06-24
 ---
 
 ## Relations

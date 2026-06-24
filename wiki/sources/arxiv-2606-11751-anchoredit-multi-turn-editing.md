@@ -1,8 +1,4 @@
 ---
-title: "AnchorEdit — causal multi-turn image editing (arXiv:2606.11751)"
-type: source
-tags: [paper, image-editing, multi-turn, autoregressive, video-prior, wan, consistency]
-keywords: [AnchorEdit, multi-turn editing, causal memory, self-rollout, diffusion forcing, RoPE extrapolation, identity drift, JD Explore Academy, USTC]
 related:
   - concepts/causal-multi-turn-image-editing.md
   - entities/models/anchoredit.md
@@ -12,10 +8,16 @@ related:
   - concepts/two-pass-generation-workflow.md
   - sources/video-generation-survey-2026.md
   - sweeps/2026-06-15-daily.md
+  - concepts/video-text-editing-glyph-control.md
+  - sources/arxiv-2606-23254-steervte-video-text-editing.md
+title: "AnchorEdit — causal multi-turn image editing (arXiv:2606.11751)"
+type: source
+tags: [paper, image-editing, multi-turn, autoregressive, video-prior, wan, consistency]
+keywords: [AnchorEdit, multi-turn editing, causal memory, self-rollout, diffusion forcing, RoPE extrapolation, identity drift, JD Explore Academy, USTC]
 maturity: draft
 read_status: read
 created: 2026-06-15
-updated: 2026-06-15
+updated: 2026-06-24
 ---
 
 ## Relations

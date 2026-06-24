@@ -1,8 +1,4 @@
 ---
-title: HunyuanVideo 1.5 (Tencent)
-type: entity
-tags: [model, video, dit, hunyuanvideo, tencent, eastern-vanguard, completely-uncensored-after-lora]
-keywords: [hunyuanvideo, hunyuan-1-5, tencent, ssta, selective-sliding-tile-attention, 8.3b, 3d-causal-vae, fp8-gemm, step-distilled, nsfwsks, theyurilover, 480p, 720p, 1080p]
 related:
   - sources/video-generation-survey-2026.md
   - entities/models/wan-2-2.md
@@ -29,9 +25,16 @@ related:
   - sources/arxiv-2606-04811-dream-exe-robot-executability.md
   - concepts/video-generation-physical-executability.md
   - sources/arxiv-2606-17536-omnidrive-llm-choreographed-driving-world.md
+  - concepts/reconstruction-based-t2v-benchmarking.md
+  - entities/benchmarks/geot2v-bench.md
+  - sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md
+title: HunyuanVideo 1.5 (Tencent)
+type: entity
+tags: [model, video, dit, hunyuanvideo, tencent, eastern-vanguard, completely-uncensored-after-lora]
+keywords: [hunyuanvideo, hunyuan-1-5, tencent, ssta, selective-sliding-tile-attention, 8.3b, 3d-causal-vae, fp8-gemm, step-distilled, nsfwsks, theyurilover, 480p, 720p, 1080p]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-21
+updated: 2026-06-24
 ---
 
 ## Relations

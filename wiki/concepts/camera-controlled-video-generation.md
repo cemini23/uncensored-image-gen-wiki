@@ -1,8 +1,4 @@
 ---
-title: Camera-Controlled Video Generation
-type: concept
-tags: [concept, video-generation, camera-control, 6-dof, conditioning]
-keywords: [camera control, 6-DoF camera trajectory, Plucker coordinates, Plucker mixing, UCPE, dual-branch camera control, metric-scale camera pose, camera conditioning, temporal VAE stride, revisit trajectory]
 related:
   - sources/sana-wm-minute-scale-world-model.md
   - entities/models/sana-wm.md
@@ -24,9 +20,16 @@ related:
   - entities/models/cineorchestra.md
   - sources/arxiv-2606-17536-omnidrive-llm-choreographed-driving-world.md
   - concepts/llm-choreographed-multi-view-world-models.md
+  - concepts/implicit-memory-retrieval-video-world-models.md
+  - entities/models/car.md
+  - sources/arxiv-2606-23105-car-implicit-memory-video-world.md
+title: Camera-Controlled Video Generation
+type: concept
+tags: [concept, video-generation, camera-control, 6-dof, conditioning]
+keywords: [camera control, 6-DoF camera trajectory, Plucker coordinates, Plucker mixing, UCPE, dual-branch camera control, metric-scale camera pose, camera conditioning, temporal VAE stride, revisit trajectory]
 maturity: draft
 created: 2026-05-16
-updated: 2026-06-21
+updated: 2026-06-24
 ---
 
 ## Relations

@@ -59,9 +59,12 @@ related:
   - concepts/multi-view-3d-consistent-world-models.md
   - sources/arxiv-2606-17742-brainworld-fmri-structural-prior.md
   - concepts/structural-prior-conditioned-spatiotemporal-generation.md
+  - sources/arxiv-2606-23105-car-implicit-memory-video-world.md
+  - concepts/implicit-memory-retrieval-video-world-models.md
+  - entities/models/car.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-06-23
+updated: 2026-06-24
 ---
 
 ## Relations
