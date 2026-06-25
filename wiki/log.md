@@ -4,6 +4,50 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-25] phase-0 | dot3d + arctic_shift + inbox skips
+
+Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-25_phase-0-dot3d-arctic-shift.md`.
+
+- **dot3d** (Inria `repo-sam.inria.fr/nerphys/dot3d/`) — **CONDITIONAL-GO** — 3DGS compositing; peripheral VFX axis
+- **arctic_shift** (`ArthurHeitmann/arctic_shift`) — **NO-GO** — Reddit data infra; HCI cite only
+- **TinyHistory** (2512.23851) — skipped (no repo)
+- **dVLA-RL** (2606.23623) — skipped (robotics peripheral)
+
+---
+
+## [2026-06-25] ingest | daily digest inbox — TinyHistory, LocalLLaMA wild, dot3d, dVLA-RL (4 PDFs)
+
+Per `wiki/sweeps/2026-06-25-daily.md`. preingest_check: 4/4 NEW. PDFs archived to egress-fi.
+
+### Sources created (4)
+
+- `wiki/sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md`
+- `wiki/sources/arxiv-2606-22211-open-ai-local-llama-wild.md`
+- `wiki/sources/arxiv-2606-22481-lighting-consistent-object-transfer-3dgs.md`
+- `wiki/sources/arxiv-2606-23623-dvla-rl-discrete-diffusion-vla.md`
+
+### Concepts created (4)
+
+- `concepts/lightweight-video-history-embeddings.md`
+- `concepts/pragmatic-open-model-adoption.md`
+- `concepts/lighting-consistent-3dgs-compositing.md`
+- `concepts/discrete-diffusion-vla-reinforcement-learning.md`
+
+### Entities created (1)
+
+- `entities/models/tinyhistory.md`
+
+### Enhanced (backlinks)
+
+- `wan-2-2.md`, `long-video-rag-retrieval.md`, `persona-ops-stack.md`, `sillytavern.md`, `wiki/index.md`, sweep frontmatter
+
+### Briefs
+
+- `briefs/2026-06-25_phase-0-dot3d-arctic-shift.md` (phase-0)
+- Existing `briefs/2026-06-25_k129-design-dna-adopt.md` — K129 design-dna skill adopt (osint eval URL 9); stays in `briefs/` per schema
+
+---
+
 ## [2026-06-24] phase-0 | CaR + SignPoseVAE GitHub audit
 
 Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-24_phase-0-car-signposevae.md`.

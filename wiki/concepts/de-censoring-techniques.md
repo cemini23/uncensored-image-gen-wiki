@@ -1,8 +1,4 @@
 ---
-title: De-censoring techniques (abliteration, LoRA injection, weight merging, prompt bypasses)
-type: concept
-tags: [de-censoring, alignment-removal, abliteration, lora-injection, weight-merging, ties-merging, dare, slerp, prompt-engineering]
-keywords: [abliteration, refusal vector, LoRA injection, FLUX-UNCENSORED-Merged, Chroma1-HD, SNOFS, SLERP, TIES-Merging, DARE, Drop And Rescale, weight merging, prompt engineering bypass, architectural censorship hard wall]
 related:
   - sources/uncensored-image-generation-survey.md
   - concepts/censorship-tier-taxonomy.md
@@ -42,10 +38,17 @@ related:
   - concepts/representation-space-video-safety-steering.md
   - sources/arxiv-2606-23375-tf-refusalbench-over-alignment.md
   - concepts/domain-sensitive-llm-over-alignment.md
+  - concepts/pragmatic-open-model-adoption.md
+  - sources/arxiv-2606-22211-open-ai-local-llama-wild.md
+title: De-censoring techniques (abliteration, LoRA injection, weight merging, prompt bypasses)
+type: concept
+tags: [de-censoring, alignment-removal, abliteration, lora-injection, weight-merging, ties-merging, dare, slerp, prompt-engineering]
+keywords: [abliteration, refusal vector, LoRA injection, FLUX-UNCENSORED-Merged, Chroma1-HD, SNOFS, SLERP, TIES-Merging, DARE, Drop And Rescale, weight merging, prompt engineering bypass, architectural censorship hard wall]
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-24
+updated: 2026-06-25
 ---
+
 
 ## Relations
 

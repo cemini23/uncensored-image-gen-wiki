@@ -1,8 +1,4 @@
 ---
-title: "Error-free long video generation — causal clip attention + T-RFlow (arXiv:2606.22370)"
-type: source
-tags: [paper, video-generation, long-horizon, autoregressive, kv-cache, alibaba]
-keywords: [error accumulation, attribute drift, causal clip attention, T-RFlow, truncation-rectified flow, KV cache, video extension, minute-scale]
 related:
   - concepts/causal-clip-attention-long-video.md
   - concepts/seam-stitching-strategies.md
@@ -14,11 +10,17 @@ related:
   - entities/models/wan-2-2.md
   - entities/models/seedance-2.md
   - sweeps/2026-06-24-daily.md
+  - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
+title: "Error-free long video generation — causal clip attention + T-RFlow (arXiv:2606.22370)"
+type: source
+tags: [paper, video-generation, long-horizon, autoregressive, kv-cache, alibaba]
+keywords: [error accumulation, attribute drift, causal clip attention, T-RFlow, truncation-rectified flow, KV cache, video extension, minute-scale]
 maturity: draft
 read_status: read
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-06-25
 ---
+
 
 ## Relations
 

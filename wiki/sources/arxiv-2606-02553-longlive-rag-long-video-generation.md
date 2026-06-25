@@ -13,6 +13,7 @@ related:
   - concepts/causal-clip-attention-long-video.md
   - sources/arxiv-2606-22370-error-free-long-video-generation.md
   - sources/arxiv-2606-23105-car-implicit-memory-video-world.md
+  - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
 title: "LongLive-RAG — retrieval-augmented AR long video generation (arXiv:2606.02553)"
 type: source
 tags: [paper, video-generation, long-horizon, rag, autoregressive, memory, nvidia]
@@ -20,8 +21,9 @@ keywords: [LongLive-RAG, RAG, sliding window, latent retrieval, Window Temporal 
 maturity: draft
 read_status: read
 created: 2026-06-04
-updated: 2026-06-24
+updated: 2026-06-25
 ---
+
 
 ## Relations
 

@@ -1,8 +1,4 @@
 ---
-title: Daily research digest cadence (image-gen)
-type: concept
-tags: [meta, wiki, automation, discovery, k93]
-keywords: [daily-research-digest, exa, sweep, discovery, ingest-pipeline, launchagent]
 related:
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-01-inbox-triage.md
@@ -34,10 +30,16 @@ related:
   - sweeps/2026-06-22-daily.md
   - sweeps/2026-06-23-daily.md
   - sweeps/2026-06-24-daily.md
+  - sweeps/2026-06-25-daily.md
+title: Daily research digest cadence (image-gen)
+type: concept
+tags: [meta, wiki, automation, discovery, k93]
+keywords: [daily-research-digest, exa, sweep, discovery, ingest-pipeline, launchagent]
 maturity: core
 created: 2026-06-01
-updated: 2026-06-24
+updated: 2026-06-25
 ---
+
 
 ## Relations
 

@@ -1,16 +1,19 @@
 ---
+related:
+  - sources/headsup-3d-gaussian-head.md
+  - concepts/video-identity-inheritance.md
+  - concepts/lighting-consistent-3dgs-compositing.md
+  - sources/arxiv-2606-22481-lighting-consistent-object-transfer-3dgs.md
 title: gracia.ai — Gaussian Splatting volumetric video
 type: concept
 tags: [volumetric-video, gaussian-splatting, 3dgs, 4dgs, generative-media, closed-saas, cross-wiki-stub]
 keywords: [gracia.ai, gaussian splatting, 3dgs, 4dgs, 4D gaussian splatting, volumetric video, Andrey Volodin, Georgii Vysotskii, Prisma, EWOR, Karl Kani, Quest 3, Pico 4 Ultra, WebGPU, Unity, Unreal, virtual sets, post-production camera control, 50fps slow-motion, 1GB per minute]
-related:
-  - sources/headsup-3d-gaussian-head.md
-  - concepts/video-identity-inheritance.md
 maturity: draft
 created: 2026-05-15
-updated: 2026-05-17
+updated: 2026-06-25
 cross-wiki-source: "@osint-wiki/sources/eval-github-repos-2026-05-13.md"
 ---
+
 
 # gracia.ai — Gaussian Splatting volumetric video
 

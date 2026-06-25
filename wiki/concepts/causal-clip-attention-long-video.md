@@ -1,8 +1,4 @@
 ---
-title: Causal clip attention for long video generation
-type: concept
-tags: [concept, video-generation, long-horizon, autoregressive, attention, kv-cache]
-keywords: [causal clip attention, hybrid attention, error accumulation, attribute drift, T-RFlow, video extension, KV cache]
 related:
   - sources/arxiv-2606-22370-error-free-long-video-generation.md
   - concepts/long-video-rag-retrieval.md
@@ -13,10 +9,17 @@ related:
   - sources/arxiv-2606-16449-permavid-disentangled-context-memory.md
   - sources/video-generation-survey-2026.md
   - entities/models/wan-2-2.md
+  - concepts/lightweight-video-history-embeddings.md
+  - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
+title: Causal clip attention for long video generation
+type: concept
+tags: [concept, video-generation, long-horizon, autoregressive, attention, kv-cache]
+keywords: [causal clip attention, hybrid attention, error accumulation, attribute drift, T-RFlow, video extension, KV cache]
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-06-25
 ---
+
 
 ## Relations
 

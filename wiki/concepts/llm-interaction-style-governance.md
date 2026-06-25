@@ -1,8 +1,4 @@
 ---
-title: LLM interaction style governance
-type: concept
-tags: [concept, persona-ops, llm-governance, alignment, safety, style-drift]
-keywords: [safety gating, civility steering, affective default lock-in, prompt steerability, style drift, regression-to-default, anthropomorphism, persona prompts]
 related:
   - sources/arxiv-2606-08172-human-llm-interaction-governance.md
   - concepts/llm-instruction-hierarchy-training.md
@@ -17,10 +13,16 @@ related:
   - concepts/contextual-privacy-alignment-llm-agents.md
   - sources/arxiv-2606-23375-tf-refusalbench-over-alignment.md
   - concepts/domain-sensitive-llm-over-alignment.md
+  - concepts/pragmatic-open-model-adoption.md
+title: LLM interaction style governance
+type: concept
+tags: [concept, persona-ops, llm-governance, alignment, safety, style-drift]
+keywords: [safety gating, civility steering, affective default lock-in, prompt steerability, style drift, regression-to-default, anthropomorphism, persona prompts]
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-24
+updated: 2026-06-25
 ---
+
 
 ## Relations
 

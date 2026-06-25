@@ -19,6 +19,8 @@ related:
   - concepts/contextual-privacy-alignment-llm-agents.md
   - concepts/domain-sensitive-llm-over-alignment.md
   - sources/arxiv-2606-23375-tf-refusalbench-over-alignment.md
+  - sources/arxiv-2606-22211-open-ai-local-llama-wild.md
+  - concepts/pragmatic-open-model-adoption.md
 title: "SillyTavern (NSFW DM frontend + RAG + TTS bridge)"
 type: entity
 tags: [persona-ops, dm-automation, llm-frontend, sillytavern, rag, tts, local-llm, character-card, persona-chat]

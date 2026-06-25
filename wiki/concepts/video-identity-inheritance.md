@@ -1,8 +1,4 @@
 ---
-title: Video identity inheritance (I2V from static master)
-type: concept
-tags: [persona-consistency, i2v, identity-inheritance, video-workflow, clip-vision-encoder, master-image]
-keywords: [i2v, image-to-video, identity-inheritance, master-image, clip-vision-encoder, raw-pixel-initialization, pulid-anchor, airt-machine, seedance, kling, wan, hunyuan, persona-consistency]
 related:
   - sources/ai-creator-operations-blueprint.md
   - sources/ai-persona-launch-strategy-analysis.md
@@ -46,10 +42,17 @@ related:
   - entities/models/memento.md
   - sources/arxiv-2606-13768-cineorchestra-entity-centric-cinematic-video.md
   - concepts/entity-centric-cinematic-video-conditioning.md
+  - concepts/lightweight-video-history-embeddings.md
+  - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
+title: Video identity inheritance (I2V from static master)
+type: concept
+tags: [persona-consistency, i2v, identity-inheritance, video-workflow, clip-vision-encoder, master-image]
+keywords: [i2v, image-to-video, identity-inheritance, master-image, clip-vision-encoder, raw-pixel-initialization, pulid-anchor, airt-machine, seedance, kling, wan, hunyuan, persona-consistency]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-19
+updated: 2026-06-25
 ---
+
 
 ## Relations
 

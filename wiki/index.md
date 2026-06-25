@@ -96,6 +96,10 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [SteerVTE — video text editing (arXiv:2606.23254)](sources/arxiv-2606-23254-steervte-video-text-editing.md) — glyph/style adapter on frozen DiT; SteerVTE-1M — `paper, video-editing, text-rendering, bytedance`
 - [TF-RefusalBench — domain LLM over-alignment (arXiv:2606.23375)](sources/arxiv-2606-23375-tf-refusalbench-over-alignment.md) — refusal + disclaimer vs faithfulness; abliteration eval — `paper, llm-governance, alignment, persona-ops`
 - [GeoT2V-Bench — 3D consistency via reconstruction (arXiv:2606.24829)](sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md) — MedianGS profile for camera-prompted T2V — `paper, benchmark, 3d-consistency, evaluation`
+- [TinyHistory — lightweight video history embeddings (arXiv:2512.23851)](sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md) — two-stage history encoder for AR Wan/Hunyuan — `paper, long-horizon, memory, autoregressive`
+- [Open AI in the Wild — r/LocalLLaMA adoption (arXiv:2606.22211)](sources/arxiv-2606-22211-open-ai-local-llama-wild.md) — pragmatic openness HCI study — `paper, persona-ops, local-llm, community`
+- [Lighting-consistent 3DGS object transfer (arXiv:2606.22481)](sources/arxiv-2606-22481-lighting-consistent-object-transfer-3dgs.md) — dot3d harmonization pipeline — `paper, 3dgs, compositing, peripheral`
+- [dVLA-RL — discrete diffusion VLA RL (arXiv:2606.23623)](sources/arxiv-2606-23623-dvla-rl-discrete-diffusion-vla.md) — robotics peripheral — `paper, robotics, vla, peripheral`
 - [MentisOculi — limits of visual mental imagery (arXiv:2602.02465)](sources/arxiv-2602-02465-mentisoculi-visual-reasoning-limits-2026-06-13.md) — procedural 5-task benchmark; UMM visual CoT fails vs text-only MLLMs — `paper, visual-reasoning, benchmark, umm, k114`
 - [MetaWorld — multi-agent video world model (arXiv:2606.02753)](sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md) — monocular training → multi-egocentric world model via MWSU + World-State Alignment — `paper, world-model, multi-agent, consistency`
 - [PDA / GAM — preference delta LoRA aggregation (arXiv:2606.00357)](sources/arxiv-weak-signals-preference-distillation-2606.00357-2026-06-05.md) — **rerouted** LLM weak-signal LoRA merge (not video) — `paper, lora, merging, preference-learning, rerouted`
@@ -156,6 +160,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [UNITY (universal composite conditioning)](entities/models/unity.md) — SDXL multi-control MAF adapter; Phase-0 CONDITIONAL-GO — `model, adapter, sdxl, composite-conditioning` ⚠ stub
 - [CaR (Compression and Retrieval world model)](entities/models/car.md) — implicit memory retrieval for camera world models; Phase-0 CONDITIONAL-GO — `model, world-model, memory, orange-3dv` ⚠ stub
 - [SteerVTE (video text editing)](entities/models/steervte.md) — glyph/style adapter on frozen DiT; no open weights — `model, video-editing, text-rendering` ⚠ stub
+- [TinyHistory (AR video history encoder)](entities/models/tinyhistory.md) — lightweight history embeddings for Wan/Hunyuan AR — `model, long-horizon, memory` ⚠ stub
 - [Foley-Omni (Video Rebirth)](entities/models/foley-omni.md) — unified V2ST model jointly generating speech, SFX, and music for video; V2ST-Bench — `model, audio, foley, v2st, unified-generation` ⚠ stub
 - [JAVEdit (Tencent Youtu / ZJU)](entities/models/javedit.md) — LTX-2.3 LoRA for instruction-guided joint audio-visual editing; JAVEdit-100k training set — `model, video-editing, audio-visual, instruction, ltx` ⚠ stub
 - [AlbedoEdit (MPI-INF / NVIDIA Research)](entities/models/albedoedit.md) — Wan 2.1 T2V-14B finetune for albedo-guided instance insertion/removal/texture editing — `model, video-editing, albedo, wan, intrinsic` ⚠ stub
@@ -336,6 +341,10 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Video text editing with glyph control (SteerVTE)](concepts/video-text-editing-glyph-control.md) — style + glyph adapter on frozen DiT — `video-editing, text-rendering`
 - [Domain-sensitive LLM over-alignment](concepts/domain-sensitive-llm-over-alignment.md) — refusal + disclaimer vs task faithfulness — `llm-governance, persona-ops, abliteration`
 - [Reconstruction-based T2V benchmarking (GeoT2V-Bench)](concepts/reconstruction-based-t2v-benchmarking.md) — MedianGS profile for camera-orbit clips — `benchmark, 3d-consistency, evaluation`
+- [Lightweight video history embeddings (TinyHistory)](concepts/lightweight-video-history-embeddings.md) — compressed AR history encoder — `long-horizon, memory, autoregressive`
+- [Pragmatic open-model adoption](concepts/pragmatic-open-model-adoption.md) — r/LocalLLaMA community practice — `persona-ops, local-llm, community`
+- [Lighting-consistent 3DGS compositing (dot3d)](concepts/lighting-consistent-3dgs-compositing.md) — harmonized object transfer — `3dgs, compositing, peripheral`
+- [Discrete-diffusion VLA RL](concepts/discrete-diffusion-vla-reinforcement-learning.md) — robotics peripheral — `robotics, vla, peripheral`
 - [Autoregressive video foresight training (Video-Mirai)](concepts/autoregressive-video-foresight-training.md) — future-informed representation alignment for causal video diffusion — `autoregressive, training, consistency`
 - [One-step autoregressive video distillation (AAD-1)](concepts/one-step-autoregressive-video-distillation.md) — asymmetric GAN distillation for 1-step streaming Wan I2V — `autoregressive, distillation, one-step, inference-speed`
 - [Albedo-guided instance video editing (AlbedoEdit)](concepts/albedo-guided-instance-video-editing.md) — unified VOI/VOR/VTE via first-frame albedo edits — `video-editing, albedo, intrinsic, harmonization`

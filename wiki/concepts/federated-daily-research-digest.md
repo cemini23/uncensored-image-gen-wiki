@@ -1,8 +1,4 @@
 ---
-title: Federated daily research digest
-type: concept
-tags: [meta, automation, federation, discovery, k93]
-keywords: [daily-research-digest, exa, inbox, sweep, federated, launchagent, discovery-loop]
 related:
   - meta/daily-research-digest-cadence.md
   - concepts/persona-ops-stack.md
@@ -58,11 +54,17 @@ related:
   - sources/arxiv-2606-21710-privacyalign-llm-agents.md
   - sweeps/2026-06-23-daily.md
   - sweeps/2026-06-24-daily.md
+  - sweeps/2026-06-25-daily.md
+title: Federated daily research digest
+type: concept
+tags: [meta, automation, federation, discovery, k93]
+keywords: [daily-research-digest, exa, inbox, sweep, federated, launchagent, discovery-loop]
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-24
+updated: 2026-06-25
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
+
 
 ## Relations
 

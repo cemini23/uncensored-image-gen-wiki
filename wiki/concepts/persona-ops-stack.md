@@ -42,6 +42,8 @@ related:
   - concepts/contextual-privacy-alignment-llm-agents.md
   - concepts/domain-sensitive-llm-over-alignment.md
   - sources/arxiv-2606-23375-tf-refusalbench-over-alignment.md
+  - sources/arxiv-2606-22211-open-ai-local-llama-wild.md
+  - concepts/pragmatic-open-model-adoption.md
 title: "Persona operations stack (architecture overview)"
 type: concept
 tags: [persona-ops, automation, stack-architecture, multi-account, dm-automation, voice-cloning, orchestration, content-pipelines]

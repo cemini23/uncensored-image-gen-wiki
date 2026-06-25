@@ -1,8 +1,4 @@
 ---
-title: Comprehensive Survey of Uncensored Local Image Generation Models and Frameworks (May 2026)
-type: source
-tags: [survey, deep-research, uncensored, local-generation, model-catalog, dit, flux, pony, illustrious, eastern-models]
-keywords: [Uncensored, DiT, U-Net pivot, FLUX.1, FLUX.2, Pony Diffusion, Illustrious XL, NoobAI-XL, Anima, Z-Image, Qwen-Image, ERNIE-Image, abliteration, censorship tiers, Apache 2.0]
 related:
   - concepts/censorship-tier-taxonomy.md
   - entities/models/flux.md
@@ -38,9 +34,15 @@ related:
   - sources/arxiv-2605-29809-cert-las-t2i-mov.md
   - sources/arxiv-2606-00369-geo-cultural-safety-alignment.md
   - sources/arxiv-2606-01837-dsr-cross-modal-jailbreak.md
+  - concepts/pragmatic-open-model-adoption.md
+  - sources/arxiv-2606-22211-open-ai-local-llama-wild.md
+title: Comprehensive Survey of Uncensored Local Image Generation Models and Frameworks (May 2026)
+type: source
+tags: [survey, deep-research, uncensored, local-generation, model-catalog, dit, flux, pony, illustrious, eastern-models]
+keywords: [Uncensored, DiT, U-Net pivot, FLUX.1, FLUX.2, Pony Diffusion, Illustrious XL, NoobAI-XL, Anima, Z-Image, Qwen-Image, ERNIE-Image, abliteration, censorship tiers, Apache 2.0]
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-03
+updated: 2026-06-25
 read_status: deep-read
 provenance:
   title: Comprehensive Survey of Uncensored Local Image Generation Models and Frameworks (May 2026)
@@ -49,6 +51,7 @@ provenance:
   size: 53,019 chars / 215 paragraphs
   retrieved: 2026-05-05 (drop date)
 ---
+
 
 ## Relations
 

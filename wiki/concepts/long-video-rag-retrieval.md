@@ -28,9 +28,12 @@ related:
   - concepts/causal-clip-attention-long-video.md
   - sources/arxiv-2606-23105-car-implicit-memory-video-world.md
   - concepts/implicit-memory-retrieval-video-world-models.md
+  - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
+  - concepts/lightweight-video-history-embeddings.md
+  - entities/models/tinyhistory.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-24
+updated: 2026-06-25
 ---
 
 ## Relations

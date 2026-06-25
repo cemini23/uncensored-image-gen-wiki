@@ -1,8 +1,4 @@
 ---
-title: Domain-sensitive LLM over-alignment
-type: concept
-tags: [concept, persona-ops, llm-governance, alignment, safety]
-keywords: [over-alignment, over-refusal, disclaimer, TF-RefusalBench, domain-sensitive content, abliteration, on-premises]
 related:
   - sources/arxiv-2606-23375-tf-refusalbench-over-alignment.md
   - concepts/llm-interaction-style-governance.md
@@ -12,10 +8,17 @@ related:
   - sources/arxiv-2606-08172-human-llm-interaction-governance.md
   - sources/arxiv-2606-15396-chillguard-chinese-llm-safety.md
   - concepts/pluralistic-safety-alignment.md
+  - concepts/pragmatic-open-model-adoption.md
+  - sources/arxiv-2606-22211-open-ai-local-llama-wild.md
+title: Domain-sensitive LLM over-alignment
+type: concept
+tags: [concept, persona-ops, llm-governance, alignment, safety]
+keywords: [over-alignment, over-refusal, disclaimer, TF-RefusalBench, domain-sensitive content, abliteration, on-premises]
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-06-25
 ---
+
 
 ## Relations
 

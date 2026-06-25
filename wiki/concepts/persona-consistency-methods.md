@@ -1,8 +1,4 @@
 ---
-title: Persona consistency methods (umbrella)
-type: concept
-tags: [persona-consistency, methods, taxonomy, identity-injection]
-keywords: [character LoRA, identity adapter, Character DNA, multi-angle dataset, two-pass inpaint, reference plus LoRA stack, face anchor seed]
 related:
   - sources/synthetic-character-consistency-survey.md
   - sources/ai-content-factory-workflow-design.md
@@ -85,10 +81,17 @@ related:
   - sources/arxiv-2606-20971-unity-attention-flow-conditioning.md
   - concepts/universal-composite-diffusion-conditioning.md
   - entities/models/unity.md
+  - concepts/lightweight-video-history-embeddings.md
+  - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
+title: Persona consistency methods (umbrella)
+type: concept
+tags: [persona-consistency, methods, taxonomy, identity-injection]
+keywords: [character LoRA, identity adapter, Character DNA, multi-angle dataset, two-pass inpaint, reference plus LoRA stack, face anchor seed]
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-23
+updated: 2026-06-25
 ---
+
 
 ## Relations
 

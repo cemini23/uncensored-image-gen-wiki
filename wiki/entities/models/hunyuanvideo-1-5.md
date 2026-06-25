@@ -28,14 +28,18 @@ related:
   - concepts/reconstruction-based-t2v-benchmarking.md
   - entities/benchmarks/geot2v-bench.md
   - sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md
+  - concepts/lightweight-video-history-embeddings.md
+  - entities/models/tinyhistory.md
+  - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
 title: HunyuanVideo 1.5 (Tencent)
 type: entity
 tags: [model, video, dit, hunyuanvideo, tencent, eastern-vanguard, completely-uncensored-after-lora]
 keywords: [hunyuanvideo, hunyuan-1-5, tencent, ssta, selective-sliding-tile-attention, 8.3b, 3d-causal-vae, fp8-gemm, step-distilled, nsfwsks, theyurilover, 480p, 720p, 1080p]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-24
+updated: 2026-06-25
 ---
+
 
 ## Relations
 

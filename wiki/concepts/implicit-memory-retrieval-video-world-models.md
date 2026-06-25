@@ -1,8 +1,4 @@
 ---
-title: Implicit memory retrieval for video world models
-type: concept
-tags: [concept, world-model, video-generation, memory, camera-control]
-keywords: [CaR, retrieval attention, context compression, SceneFly, hard-cut, viewpoint encoding, long-horizon memory]
 related:
   - sources/arxiv-2606-23105-car-implicit-memory-video-world.md
   - entities/models/car.md
@@ -13,10 +9,16 @@ related:
   - sources/arxiv-2606-09828-mirage-latent-spatial-memory.md
   - entities/models/mirage.md
   - entities/models/wan-2-2.md
+  - concepts/lightweight-video-history-embeddings.md
+title: Implicit memory retrieval for video world models
+type: concept
+tags: [concept, world-model, video-generation, memory, camera-control]
+keywords: [CaR, retrieval attention, context compression, SceneFly, hard-cut, viewpoint encoding, long-horizon memory]
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-06-25
 ---
+
 
 ## Relations
 
