@@ -17,9 +17,12 @@ related:
   - entities/persona-ops/moneyprinter.md
   - sources/arxiv-2606-21710-privacyalign-llm-agents.md
   - concepts/contextual-privacy-alignment-llm-agents.md
+  - concepts/agentic-video-editing-orchestration.md
+  - entities/models/videoagent.md
+  - sources/arxiv-2606-23327-videoagent-all-in-one-framework.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-23
+updated: 2026-06-26
 ---
 
 ## Relations

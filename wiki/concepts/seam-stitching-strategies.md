@@ -29,13 +29,14 @@ related:
   - concepts/causal-clip-attention-long-video.md
   - sources/arxiv-2606-22370-error-free-long-video-generation.md
   - concepts/lightweight-video-history-embeddings.md
+  - concepts/agentic-video-editing-orchestration.md
 title: Seam stitching strategies (extending video clip length)
 type: concept
 tags: [video-workflow, seam-stitching, latent-chaining, overlap-deduplication, gvs, generative-view-stitching, cyclic-loop, lipsync, length-extension]
 keywords: [seam-stitching, latent-chaining, overlap-deduplication, wanv2v-video-stitcher, kishor900, generative-view-stitching, gvs, omni-guidance, cyclic-latent-conditioning, latentsync, musetalk, unisync, trepa]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-25
+updated: 2026-06-26
 ---
 
 

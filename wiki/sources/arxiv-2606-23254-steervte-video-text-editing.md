@@ -13,10 +13,11 @@ related:
   - entities/models/wan-2-2.md
   - entities/models/seedance-2.md
   - sweeps/2026-06-24-daily.md
+  - sources/arxiv-2606-23610-vera-layered-content-preserving-video-editing.md
 maturity: draft
 read_status: read
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-06-26
 ---
 
 ## Relations

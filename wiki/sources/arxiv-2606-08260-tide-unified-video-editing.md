@@ -14,6 +14,10 @@ related:
   - concepts/video-text-editing-glyph-control.md
   - entities/models/steervte.md
   - sources/arxiv-2606-23254-steervte-video-text-editing.md
+  - concepts/layered-diffusion-content-preserving-video-editing.md
+  - entities/models/vera.md
+  - sources/arxiv-2606-23327-videoagent-all-in-one-framework.md
+  - sources/arxiv-2606-23610-vera-layered-content-preserving-video-editing.md
 title: "TIDE — task-isolated unified video editing (arXiv:2606.08260)"
 type: source
 tags: [paper, video-editing, video-generation, ltx, unified-model, multi-reference]
@@ -21,7 +25,7 @@ keywords: [TIDE, task-isolated diffusion, per-token task embeddings, dual-path c
 maturity: draft
 read_status: read
 created: 2026-06-10
-updated: 2026-06-24
+updated: 2026-06-26
 ---
 
 ## Relations

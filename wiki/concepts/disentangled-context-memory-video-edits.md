@@ -11,9 +11,11 @@ related:
   - concepts/world-models-video-generation.md
   - entities/models/mirage.md
   - sources/video-generation-survey-2026.md
+  - concepts/layered-diffusion-content-preserving-video-editing.md
+  - sources/arxiv-2606-23610-vera-layered-content-preserving-video-editing.md
 maturity: draft
 created: 2026-06-17
-updated: 2026-06-17
+updated: 2026-06-26
 ---
 
 ## Relations

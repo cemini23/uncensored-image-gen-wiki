@@ -10,6 +10,8 @@ related:
   - entities/models/tide.md
   - concepts/video-text-editing-glyph-control.md
   - sources/arxiv-2606-23254-steervte-video-text-editing.md
+  - concepts/layered-diffusion-content-preserving-video-editing.md
+  - sources/arxiv-2606-23610-vera-layered-content-preserving-video-editing.md
 title: "AlbedoEdit — unified instance-level video editing (arXiv:2606.01362)"
 type: source
 tags: [paper, video-editing, albedo, intrinsic, wan, voi, vor, vte]
@@ -17,7 +19,7 @@ keywords: [AlbedoEdit, albedo guidance, video object insertion, video object rem
 maturity: draft
 read_status: read
 created: 2026-06-06
-updated: 2026-06-24
+updated: 2026-06-26
 ---
 
 ## Relations

@@ -100,6 +100,9 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Open AI in the Wild — r/LocalLLaMA adoption (arXiv:2606.22211)](sources/arxiv-2606-22211-open-ai-local-llama-wild.md) — pragmatic openness HCI study — `paper, persona-ops, local-llm, community`
 - [Lighting-consistent 3DGS object transfer (arXiv:2606.22481)](sources/arxiv-2606-22481-lighting-consistent-object-transfer-3dgs.md) — dot3d harmonization pipeline — `paper, 3dgs, compositing, peripheral`
 - [dVLA-RL — discrete diffusion VLA RL (arXiv:2606.23623)](sources/arxiv-2606-23623-dvla-rl-discrete-diffusion-vla.md) — robotics peripheral — `paper, robotics, vla, peripheral`
+- [VideoAgent — agentic video understanding and editing (arXiv:2606.23327)](sources/arxiv-2606-23327-videoagent-all-in-one-framework.md) — 30+ editing agents + shot planning; VideoEdit benchmark — `paper, video-editing, agent, orchestration, snap`
+- [Vera — layered content-preserving video editing (arXiv:2606.23610)](sources/arxiv-2606-23610-vera-layered-content-preserving-video-editing.md) — edit layer + alpha matte MoT compositing — `paper, video-editing, layered-diffusion, netflix`
+- [Tatoxa — Tatar text detoxification (arXiv:2606.26015)](sources/arxiv-2606-26015-tatoxa-text-detoxification-tatar.md) — low-resource detox pipeline; peripheral moderation — `paper, nlp, detoxification, moderation, peripheral`
 - [MentisOculi — limits of visual mental imagery (arXiv:2602.02465)](sources/arxiv-2602-02465-mentisoculi-visual-reasoning-limits-2026-06-13.md) — procedural 5-task benchmark; UMM visual CoT fails vs text-only MLLMs — `paper, visual-reasoning, benchmark, umm, k114`
 - [MetaWorld — multi-agent video world model (arXiv:2606.02753)](sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md) — monocular training → multi-egocentric world model via MWSU + World-State Alignment — `paper, world-model, multi-agent, consistency`
 - [PDA / GAM — preference delta LoRA aggregation (arXiv:2606.00357)](sources/arxiv-weak-signals-preference-distillation-2606.00357-2026-06-05.md) — **rerouted** LLM weak-signal LoRA merge (not video) — `paper, lora, merging, preference-learning, rerouted`
@@ -166,6 +169,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [AlbedoEdit (MPI-INF / NVIDIA Research)](entities/models/albedoedit.md) — Wan 2.1 T2V-14B finetune for albedo-guided instance insertion/removal/texture editing — `model, video-editing, albedo, wan, intrinsic` ⚠ stub
 - [TIDE (Bilibili / ZJU)](entities/models/tide.md) — LTX-2.3 unified instruction + reference + multi-ref video edit/gen — `model, video-editing, ltx, unified-model` ⚠ stub
 - [OmniTryOn (XJTU)](entities/models/omnitryon.md) — mask-free multi-object video try-on; TryAny-Bench — `model, virtual-try-on, video-editing` ⚠ stub
+- [VideoAgent (HKU/Snap)](entities/models/videoagent.md) — MIT agentic video editing orchestration; Phase-0 GO — `model, video-editing, agent, orchestration` ⚠ stub
+- [Vera (Netflix)](entities/models/vera.md) — layered alpha-compositing video editor; no open weights — `model, video-editing, layered-diffusion, netflix` ⚠ stub
 
 ### Adapters (identity injection)
 
@@ -345,6 +350,9 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Pragmatic open-model adoption](concepts/pragmatic-open-model-adoption.md) — r/LocalLLaMA community practice — `persona-ops, local-llm, community`
 - [Lighting-consistent 3DGS compositing (dot3d)](concepts/lighting-consistent-3dgs-compositing.md) — harmonized object transfer — `3dgs, compositing, peripheral`
 - [Discrete-diffusion VLA RL](concepts/discrete-diffusion-vla-reinforcement-learning.md) — robotics peripheral — `robotics, vla, peripheral`
+- [Agentic video editing orchestration (VideoAgent)](concepts/agentic-video-editing-orchestration.md) — multi-agent tool graphs for long-form edits — `video-editing, agent, orchestration, workflow`
+- [Layered diffusion content-preserving video editing (Vera)](concepts/layered-diffusion-content-preserving-video-editing.md) — edit layer + alpha matte compositing — `video-editing, layered-diffusion, compositing, alpha-matte`
+- [Low-resource text detoxification](concepts/low-resource-text-detoxification.md) — native-language parallel data for moderation — `moderation, nlp, alignment, peripheral`
 - [Autoregressive video foresight training (Video-Mirai)](concepts/autoregressive-video-foresight-training.md) — future-informed representation alignment for causal video diffusion — `autoregressive, training, consistency`
 - [One-step autoregressive video distillation (AAD-1)](concepts/one-step-autoregressive-video-distillation.md) — asymmetric GAN distillation for 1-step streaming Wan I2V — `autoregressive, distillation, one-step, inference-speed`
 - [Albedo-guided instance video editing (AlbedoEdit)](concepts/albedo-guided-instance-video-editing.md) — unified VOI/VOR/VTE via first-frame albedo edits — `video-editing, albedo, intrinsic, harmonization`

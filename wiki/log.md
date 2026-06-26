@@ -4,6 +4,49 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-26] phase-0 | VideoAgent + Tatoxa + Vera skip
+
+Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-26_phase-0-videoagent-tatoxa.md`.
+
+- **VideoAgent** (`HKUDS/VideoAgent`) — **GO** — MIT; agentic video editing orchestration
+- **Tatoxa** (`s-nlp/tatoxa`) — **NO-GO** — no LICENSE; Tatar NLP detox; peripheral
+- **Vera** (2606.23610) — skipped (Netflix; no public repo/weights)
+
+---
+
+## [2026-06-26] ingest | daily digest inbox — VideoAgent, Vera, Tatoxa (3 PDFs)
+
+Per `wiki/sweeps/2026-06-26-daily.md`. preingest_check: 3/3 NEW. PDFs archived to egress-fi.
+
+### Sources created (3)
+
+- `wiki/sources/arxiv-2606-23327-videoagent-all-in-one-framework.md`
+- `wiki/sources/arxiv-2606-23610-vera-layered-content-preserving-video-editing.md`
+- `wiki/sources/arxiv-2606-26015-tatoxa-text-detoxification-tatar.md`
+
+### Concepts created (3)
+
+- `concepts/agentic-video-editing-orchestration.md`
+- `concepts/layered-diffusion-content-preserving-video-editing.md`
+- `concepts/low-resource-text-detoxification.md`
+
+### Entities created (2)
+
+- `entities/models/videoagent.md`
+- `entities/models/vera.md`
+
+### Enhanced (backlinks)
+
+- `concepts/persona-ops-stack.md`, `entities/persona-ops/n8n.md`, `sources/video-generation-survey-2026.md`, `entities/models/wan-2-2.md`, TIDE/AlbedoEdit/SteerVTE/AnchorEdit sources, safety concepts
+
+### Meta
+
+- `wiki/index.md`, `wiki/sweeps/2026-06-26-daily.md` (frontmatter + ingested), `hot.md`
+
+Lint: 0 hard errors expected post-backlink pass.
+
+---
+
 ## [2026-06-25] phase-0 | dot3d + arctic_shift + inbox skips
 
 Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-25_phase-0-dot3d-arctic-shift.md`.

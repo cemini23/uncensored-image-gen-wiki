@@ -136,6 +136,10 @@ related:
   - concepts/lightweight-video-history-embeddings.md
   - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
   - sources/arxiv-2606-22481-lighting-consistent-object-transfer-3dgs.md
+  - concepts/agentic-video-editing-orchestration.md
+  - concepts/layered-diffusion-content-preserving-video-editing.md
+  - sources/arxiv-2606-23327-videoagent-all-in-one-framework.md
+  - sources/arxiv-2606-23610-vera-layered-content-preserving-video-editing.md
 title: Video Generation Models Survey (May 2026)
 type: source
 tags: [survey, video-generation, t2v, i2v, deep-research, uncensored, latent-chaining, lipsync]
@@ -143,7 +147,7 @@ keywords: [video, wan, hunyuan, ltx-2, mochi, cogvideox, seedance, vidu, open-so
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-06-25
+updated: 2026-06-26
 ---
 
 

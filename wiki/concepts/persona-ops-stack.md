@@ -44,13 +44,18 @@ related:
   - sources/arxiv-2606-23375-tf-refusalbench-over-alignment.md
   - sources/arxiv-2606-22211-open-ai-local-llama-wild.md
   - concepts/pragmatic-open-model-adoption.md
+  - concepts/agentic-video-editing-orchestration.md
+  - concepts/low-resource-text-detoxification.md
+  - entities/models/videoagent.md
+  - sources/arxiv-2606-23327-videoagent-all-in-one-framework.md
+  - sources/arxiv-2606-26015-tatoxa-text-detoxification-tatar.md
 title: "Persona operations stack (architecture overview)"
 type: concept
 tags: [persona-ops, automation, stack-architecture, multi-account, dm-automation, voice-cloning, orchestration, content-pipelines]
 keywords: [persona-ops, scheduling, anti-detect-browsers, residential-proxies, sillytavern, local-llm, voice-cloning, n8n, orchestration, comfyui, fal-ai, replicate, modal, telegram, postiz]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-24
+updated: 2026-06-26
 ---
 
 ## Relations

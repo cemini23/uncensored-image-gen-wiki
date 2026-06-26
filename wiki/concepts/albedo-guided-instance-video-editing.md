@@ -15,9 +15,10 @@ related:
   - entities/models/tide.md
   - sources/arxiv-2606-08514-omnitryon-video-try-on.md
   - concepts/video-try-on-anything.md
+  - concepts/layered-diffusion-content-preserving-video-editing.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-10
+updated: 2026-06-26
 ---
 
 ## Relations

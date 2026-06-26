@@ -10,6 +10,7 @@ related:
   - sweeps/2026-06-15-daily.md
   - concepts/video-text-editing-glyph-control.md
   - sources/arxiv-2606-23254-steervte-video-text-editing.md
+  - sources/arxiv-2606-23327-videoagent-all-in-one-framework.md
 title: "AnchorEdit — causal multi-turn image editing (arXiv:2606.11751)"
 type: source
 tags: [paper, image-editing, multi-turn, autoregressive, video-prior, wan, consistency]
@@ -17,7 +18,7 @@ keywords: [AnchorEdit, multi-turn editing, causal memory, self-rollout, diffusio
 maturity: draft
 read_status: read
 created: 2026-06-15
-updated: 2026-06-24
+updated: 2026-06-26
 ---
 
 ## Relations

@@ -10,9 +10,11 @@ related:
   - concepts/persona-ops-stack.md
   - concepts/llm-interaction-style-governance.md
   - entities/persona-ops/sillytavern.md
+  - concepts/low-resource-text-detoxification.md
+  - sources/arxiv-2606-26015-tatoxa-text-detoxification-tatar.md
 maturity: draft
 created: 2026-06-17
-updated: 2026-06-17
+updated: 2026-06-26
 ---
 
 ## Relations
