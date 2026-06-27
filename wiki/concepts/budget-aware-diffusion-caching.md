@@ -17,9 +17,13 @@ related:
   - entities/uis/comfyui.md
   - sources/arxiv-2606-17566-aoizora-topology-aware-dit-parallel.md
   - concepts/topology-aware-dit-parallel-inference.md
+  - concepts/navicache-navigation-guided-video-caching.md
+  - concepts/score-gradient-matching-video-distillation.md
+  - sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md
+  - sources/arxiv-2605-30116-sgmd-score-gradient-matching-distillation.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-23
+updated: 2026-06-27
 ---
 
 ## Relations

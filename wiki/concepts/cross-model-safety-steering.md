@@ -16,9 +16,11 @@ related:
   - entities/models/z-image-turbo.md
   - sources/arxiv-2606-17257-reins-video-safety-representation-steering.md
   - concepts/representation-space-video-safety-steering.md
+  - concepts/sequential-adaptive-personality-steering.md
+  - sources/arxiv-2603-03326-personality-sliders-llm-inference-time.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-20
+updated: 2026-06-27
 ---
 
 ## Relations

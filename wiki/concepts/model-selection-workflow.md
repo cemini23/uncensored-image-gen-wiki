@@ -48,9 +48,10 @@ related:
   - entities/voice-models/kokoro.md
   - entities/voice-models/indextts-2.md
   - entities/voice-models/chatterbox.md
+  - entities/custom-nodes/lora-optimizer.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-05-13
+updated: 2026-06-27
 ---
 
 ## Relations

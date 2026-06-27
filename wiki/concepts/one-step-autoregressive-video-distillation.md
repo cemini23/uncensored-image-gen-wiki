@@ -20,9 +20,11 @@ related:
   - concepts/bidirectional-autoregressive-video-generation.md
   - sources/arxiv-2606-19271-turboserve-streaming-video-serving.md
   - concepts/streaming-video-generation-serving.md
+  - concepts/score-gradient-matching-video-distillation.md
+  - sources/arxiv-2605-30116-sgmd-score-gradient-matching-distillation.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-20
+updated: 2026-06-27
 ---
 
 ## Relations

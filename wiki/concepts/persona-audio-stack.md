@@ -68,9 +68,10 @@ related:
   - concepts/video-reference-avatar-generation.md
   - entities/models/avatar-v.md
   - sources/arxiv-2606-15117-eav-dfd-deepfake-detection-routed.md
+  - entities/voice-models/confucius4-tts.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-06-16
+updated: 2026-06-27
 ---
 
 ## Relations

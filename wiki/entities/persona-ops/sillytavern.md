@@ -21,13 +21,15 @@ related:
   - sources/arxiv-2606-23375-tf-refusalbench-over-alignment.md
   - sources/arxiv-2606-22211-open-ai-local-llama-wild.md
   - concepts/pragmatic-open-model-adoption.md
+  - concepts/sequential-adaptive-personality-steering.md
+  - sources/arxiv-2603-03326-personality-sliders-llm-inference-time.md
 title: "SillyTavern (NSFW DM frontend + RAG + TTS bridge)"
 type: entity
 tags: [persona-ops, dm-automation, llm-frontend, sillytavern, rag, tts, local-llm, character-card, persona-chat]
 keywords: [SillyTavern, character-card, character-ai-frontend, RAG, vector-store, MiniMax-TTS, Qwen-3, Mistral-3, Llama-4, koboldcpp, llama.cpp, lorebook, world-info, 128k-context]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-24
+updated: 2026-06-27
 ---
 
 ## Relations

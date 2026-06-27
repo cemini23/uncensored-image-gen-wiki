@@ -4,6 +4,49 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-27] phase-0 | NaviCache + LightX2V + LoRA Optimizer + Confucius4-TTS
+
+Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-27_phase-0-navicache-lora-optimizer-confucius4.md`.
+
+- **NaviCache** (`HelloZicky/NaviCache`) — **GO** — Apache-2.0; Wan/HunyuanVideo caching
+- **LightX2V** (`ModelTC/LightX2V`) — **CONDITIONAL-GO** — SGMD code host
+- **ComfyUI-LoRA-Optimizer** (`ethanfel/ComfyUI-LoRA-Optimizer`) — **CONDITIONAL-GO** — GPL-3.0 multi-LoRA node
+- **Confucius4-TTS** (`netease-youdao/Confucius4-TTS`) — **CONDITIONAL-GO** — 14-lang TTS
+- **Personality Sliders** (2603.03326) — skipped (no repo)
+
+---
+
+## [2026-06-27] ingest | sweep manual-fetch — NaviCache, SGMD, Personality Sliders + news Phase-0
+
+Overnight inbox empty; fetched 3 arXiv PDFs from `wiki/sweeps/2026-06-27-daily.md` candidates. preingest_check: 3/3 NEW. PDFs archived to egress-fi.
+
+### Sources created (3)
+
+- `wiki/sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md`
+- `wiki/sources/arxiv-2605.30116-sgmd-score-gradient-matching-distillation.md`
+- `wiki/sources/arxiv-2603-03326-personality-sliders-llm-inference-time.md`
+
+### Concepts created (3)
+
+- `concepts/navicache-navigation-guided-video-caching.md`
+- `concepts/score-gradient-matching-video-distillation.md`
+- `concepts/sequential-adaptive-personality-steering.md`
+
+### Entities created (2)
+
+- `entities/custom-nodes/lora-optimizer.md`
+- `entities/voice-models/confucius4-tts.md`
+
+### Enhanced (backlinks)
+
+- `concepts/budget-aware-diffusion-caching.md`, `concepts/one-step-autoregressive-video-distillation.md`, `entities/persona-ops/sillytavern.md`, `entities/uis/comfyui.md`, voice-model hubs
+
+### Meta
+
+- `wiki/index.md`, `wiki/sweeps/2026-06-27-daily.md`, `hot.md`
+
+---
+
 ## [2026-06-26] phase-0 | VideoAgent + Tatoxa + Vera skip
 
 Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-26_phase-0-videoagent-tatoxa.md`.

@@ -20,9 +20,10 @@ related:
   - concepts/agentic-video-editing-orchestration.md
   - entities/models/videoagent.md
   - sources/arxiv-2606-23327-videoagent-all-in-one-framework.md
+  - entities/voice-models/confucius4-tts.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-26
+updated: 2026-06-27
 ---
 
 ## Relations

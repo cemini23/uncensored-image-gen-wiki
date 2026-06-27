@@ -31,13 +31,15 @@ related:
   - concepts/lightweight-video-history-embeddings.md
   - entities/models/tinyhistory.md
   - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
+  - concepts/navicache-navigation-guided-video-caching.md
+  - sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md
 title: HunyuanVideo 1.5 (Tencent)
 type: entity
 tags: [model, video, dit, hunyuanvideo, tencent, eastern-vanguard, completely-uncensored-after-lora]
 keywords: [hunyuanvideo, hunyuan-1-5, tencent, ssta, selective-sliding-tile-attention, 8.3b, 3d-causal-vae, fp8-gemm, step-distilled, nsfwsks, theyurilover, 480p, 720p, 1080p]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-25
+updated: 2026-06-27
 ---
 
 

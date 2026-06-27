@@ -12,13 +12,14 @@ related:
   - sources/arxiv-2606-22211-open-ai-local-llama-wild.md
   - concepts/low-resource-text-detoxification.md
   - sources/arxiv-2606-26015-tatoxa-text-detoxification-tatar.md
+  - sources/arxiv-2603-03326-personality-sliders-llm-inference-time.md
 title: Domain-sensitive LLM over-alignment
 type: concept
 tags: [concept, persona-ops, llm-governance, alignment, safety]
 keywords: [over-alignment, over-refusal, disclaimer, TF-RefusalBench, domain-sensitive content, abliteration, on-premises]
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-26
+updated: 2026-06-27
 ---
 
 

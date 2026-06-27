@@ -15,10 +15,12 @@ related:
   - entities/uis/comfyui.md
   - concepts/one-step-autoregressive-video-distillation.md
   - sources/arxiv-2606-03972-aad-1-one-step-ar-video.md
+  - concepts/navicache-navigation-guided-video-caching.md
+  - sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md
 maturity: draft
 read_status: read
 created: 2026-06-07
-updated: 2026-06-15
+updated: 2026-06-27
 ---
 
 ## Relations

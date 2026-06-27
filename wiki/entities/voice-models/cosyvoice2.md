@@ -18,9 +18,10 @@ related:
   - entities/voice-models/barewave.md
   - concepts/waveform-native-flow-matching-tts.md
   - sources/arxiv-2606-09048-barewave-waveform-native-tts.md
+  - entities/voice-models/confucius4-tts.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-11
+updated: 2026-06-27
 ---
 
 ## Relations

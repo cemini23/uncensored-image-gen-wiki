@@ -14,13 +14,15 @@ related:
   - sources/arxiv-2606-23375-tf-refusalbench-over-alignment.md
   - concepts/domain-sensitive-llm-over-alignment.md
   - concepts/pragmatic-open-model-adoption.md
+  - concepts/sequential-adaptive-personality-steering.md
+  - sources/arxiv-2603-03326-personality-sliders-llm-inference-time.md
 title: LLM interaction style governance
 type: concept
 tags: [concept, persona-ops, llm-governance, alignment, safety, style-drift]
 keywords: [safety gating, civility steering, affective default lock-in, prompt steerability, style drift, regression-to-default, anthropomorphism, persona prompts]
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-25
+updated: 2026-06-27
 ---
 
 

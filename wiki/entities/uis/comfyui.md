@@ -76,9 +76,11 @@ related:
   - sources/arxiv-2606-20971-unity-attention-flow-conditioning.md
   - concepts/universal-composite-diffusion-conditioning.md
   - entities/models/unity.md
+  - entities/custom-nodes/lora-optimizer.md
+  - sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-06-23
+updated: 2026-06-27
 read_status: deep-read
 provenance:
   stub: false

@@ -83,13 +83,14 @@ related:
   - entities/models/unity.md
   - concepts/lightweight-video-history-embeddings.md
   - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
+  - entities/custom-nodes/lora-optimizer.md
 title: Persona consistency methods (umbrella)
 type: concept
 tags: [persona-consistency, methods, taxonomy, identity-injection]
 keywords: [character LoRA, identity adapter, Character DNA, multi-angle dataset, two-pass inpaint, reference plus LoRA stack, face anchor seed]
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-25
+updated: 2026-06-27
 ---
 
 

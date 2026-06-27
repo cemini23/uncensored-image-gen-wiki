@@ -103,6 +103,9 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [VideoAgent — agentic video understanding and editing (arXiv:2606.23327)](sources/arxiv-2606-23327-videoagent-all-in-one-framework.md) — 30+ editing agents + shot planning; VideoEdit benchmark — `paper, video-editing, agent, orchestration, snap`
 - [Vera — layered content-preserving video editing (arXiv:2606.23610)](sources/arxiv-2606-23610-vera-layered-content-preserving-video-editing.md) — edit layer + alpha matte MoT compositing — `paper, video-editing, layered-diffusion, netflix`
 - [Tatoxa — Tatar text detoxification (arXiv:2606.26015)](sources/arxiv-2606-26015-tatoxa-text-detoxification-tatar.md) — low-resource detox pipeline; peripheral moderation — `paper, nlp, detoxification, moderation, peripheral`
+- [NaviCache — test-time self-calibration video caching (arXiv:2606.26795)](sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md) — INS-guided feature caching; Wan/HunyuanVideo — `paper, video-generation, caching, inference, icml-2026`
+- [SGMD — score gradient matching video distillation (arXiv:2605.30116)](sources/arxiv-2605-30116-sgmd-score-gradient-matching-distillation.md) — DMD2 alternative; ~3× train speedup — `paper, video-generation, distillation, few-step, wan`
+- [Personality sliders — SAS inference-time LLM steering (arXiv:2603.03326)](sources/arxiv-2603-03326-personality-sliders-llm-inference-time.md) — Big Five composable activation steering — `paper, persona-ops, llm, activation-steering`
 - [MentisOculi — limits of visual mental imagery (arXiv:2602.02465)](sources/arxiv-2602-02465-mentisoculi-visual-reasoning-limits-2026-06-13.md) — procedural 5-task benchmark; UMM visual CoT fails vs text-only MLLMs — `paper, visual-reasoning, benchmark, umm, k114`
 - [MetaWorld — multi-agent video world model (arXiv:2606.02753)](sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md) — monocular training → multi-egocentric world model via MWSU + World-State Alignment — `paper, world-model, multi-agent, consistency`
 - [PDA / GAM — preference delta LoRA aggregation (arXiv:2606.00357)](sources/arxiv-weak-signals-preference-distillation-2606.00357-2026-06-05.md) — **rerouted** LLM weak-signal LoRA merge (not video) — `paper, lora, merging, preference-learning, rerouted`
@@ -171,6 +174,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [OmniTryOn (XJTU)](entities/models/omnitryon.md) — mask-free multi-object video try-on; TryAny-Bench — `model, virtual-try-on, video-editing` ⚠ stub
 - [VideoAgent (HKU/Snap)](entities/models/videoagent.md) — MIT agentic video editing orchestration; Phase-0 GO — `model, video-editing, agent, orchestration` ⚠ stub
 - [Vera (Netflix)](entities/models/vera.md) — layered alpha-compositing video editor; no open weights — `model, video-editing, layered-diffusion, netflix` ⚠ stub
+- [ComfyUI LoRA Optimizer (ethanfel)](entities/custom-nodes/lora-optimizer.md) — multi-LoRA conflict resolution node; Phase-0 CONDITIONAL-GO — `custom-nodes, lora, comfyui, gpl-3-0` ⚠ stub
 
 ### Adapters (identity injection)
 
@@ -240,6 +244,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 ### Voice models
 
 - [CosyVoice 2 (FunAudioLLM / Alibaba Tongyi)](entities/voice-models/cosyvoice2.md) — Apache 2.0 streaming zero-shot voice clone (0.5B); bidirectional flow matching, ~150 ms first-packet latency; sibling to Fish-Speech as the low-latency Eastern Vanguard TTS — `voice-cloning, tts, streaming-tts, alibaba, cosyvoice, apache-2-0, eastern-vanguard, zero-shot`
+- [Confucius4-TTS (NetEase Youdao)](entities/voice-models/confucius4-tts.md) — 14-lang cross-lingual zero-shot TTS; 3s ref no transcript; Phase-0 CONDITIONAL-GO — `voice-cloning, tts, multilingual, netease, apache-2-0, eastern-vanguard` ⚠ stub
 - [Kokoro-82M (Hexgrad / StyleTTS2-derived TTS)](entities/voice-models/kokoro.md) — Apache 2.0 lightweight TTS (82M, StyleTTS2-LJSpeech base); no voice cloning (preset voices only); TTS engine inside voicemode MCP for Claude Code bidirectional voice; Core ML accelerated on M-series — `tts, voice-models, kokoro, hexgrad, apache-2-0, styletts2, lightweight-tts, no-voice-cloning, m-series-mac`
 - [IndexTTS-2 (Bilibili Index zero-shot TTS with emotion + duration control)](entities/voice-models/indextts-2.md) — ~1.7B, zero-shot voice clone + explicit emotion + duration control; ICASSP-2025 lineage; positioned as the "control surface" complement to Fish-Speech (highest emotion) and CosyVoice2 (lowest latency) — `voice-cloning, tts, indextts, bilibili, zero-shot, emotion-control, duration-control, eastern-vanguard`
 - [Qwen3-TTS (Alibaba Qwen team multilingual TTS)](entities/voice-models/qwen3-tts.md) — Alibaba Qwen-team multilingual zero-shot voice clone; Apache-2.0-style weights expected (verify per release); positioned as Alibaba/CosyVoice2's sibling line for production multilingual persona DMs — `voice-cloning, tts, qwen, alibaba, multilingual, zero-shot, eastern-vanguard`
@@ -353,6 +358,9 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Agentic video editing orchestration (VideoAgent)](concepts/agentic-video-editing-orchestration.md) — multi-agent tool graphs for long-form edits — `video-editing, agent, orchestration, workflow`
 - [Layered diffusion content-preserving video editing (Vera)](concepts/layered-diffusion-content-preserving-video-editing.md) — edit layer + alpha matte compositing — `video-editing, layered-diffusion, compositing, alpha-matte`
 - [Low-resource text detoxification](concepts/low-resource-text-detoxification.md) — native-language parallel data for moderation — `moderation, nlp, alignment, peripheral`
+- [NaviCache navigation-guided video caching](concepts/navicache-navigation-guided-video-caching.md) — INS test-time self-calibration for Wan/HunyuanVideo — `video-generation, caching, inference, optimization`
+- [Score gradient matching video distillation (SGMD)](concepts/score-gradient-matching-video-distillation.md) — DMD2 alternative for few-step Wan distill — `video-generation, distillation, few-step, training`
+- [Sequential adaptive personality steering (SAS)](concepts/sequential-adaptive-personality-steering.md) — Big Five inference-time LLM sliders — `persona-ops, llm, activation-steering, alignment`
 - [Autoregressive video foresight training (Video-Mirai)](concepts/autoregressive-video-foresight-training.md) — future-informed representation alignment for causal video diffusion — `autoregressive, training, consistency`
 - [One-step autoregressive video distillation (AAD-1)](concepts/one-step-autoregressive-video-distillation.md) — asymmetric GAN distillation for 1-step streaming Wan I2V — `autoregressive, distillation, one-step, inference-speed`
 - [Albedo-guided instance video editing (AlbedoEdit)](concepts/albedo-guided-instance-video-editing.md) — unified VOI/VOR/VTE via first-frame albedo edits — `video-editing, albedo, intrinsic, harmonization`
