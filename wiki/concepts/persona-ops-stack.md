@@ -53,13 +53,16 @@ related:
   - sources/arxiv-2603-03326-personality-sliders-llm-inference-time.md
   - entities/custom-nodes/lora-optimizer.md
   - entities/voice-models/confucius4-tts.md
+  - sources/arxiv-2606-28026-emosh-expressive-motion-shape-disentanglement.md
+  - concepts/motion-shape-disentangled-human-animation.md
+  - entities/models/emosh.md
 title: "Persona operations stack (architecture overview)"
 type: concept
 tags: [persona-ops, automation, stack-architecture, multi-account, dm-automation, voice-cloning, orchestration, content-pipelines]
 keywords: [persona-ops, scheduling, anti-detect-browsers, residential-proxies, sillytavern, local-llm, voice-cloning, n8n, orchestration, comfyui, fal-ai, replicate, modal, telegram, postiz]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-27
+updated: 2026-06-29
 ---
 
 ## Relations

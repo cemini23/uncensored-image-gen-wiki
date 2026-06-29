@@ -4,6 +4,43 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-29] phase-0 | EMOSH + Prob-BBDM
+
+Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-29_phase-0-emosh-prob-bbdm.md`.
+
+- **EMOSH** (2606.28026) — **Skipped** — no public repo; Tencent/WeChat Vision
+- **Prob-BBDM** (`gitlab.xlim.fr/mvalls/Prob-BBDM`) — **NO-GO** — medical MRI i2i; peripheral
+
+---
+
+## [2026-06-29] ingest | daily digest inbox — EMOSH, Prob-BBDM (2 PDFs)
+
+Per `wiki/sweeps/2026-06-29-daily.md`. preingest_check: 2/2 NEW. PDFs archived to egress-fi.
+
+### Sources created (2)
+
+- `wiki/sources/arxiv-2606-28026-emosh-expressive-motion-shape-disentanglement.md`
+- `wiki/sources/arxiv-2606-24313-prob-bbdm-mri-sequence-translation.md`
+
+### Concepts created (2)
+
+- `concepts/motion-shape-disentangled-human-animation.md`
+- `concepts/brownian-bridge-medical-image-translation.md`
+
+### Entities created (1)
+
+- `entities/models/emosh.md`
+
+### Enhanced (backlinks)
+
+- `entities/models/wan-2-2.md`, `concepts/video-reference-avatar-generation.md`, `concepts/persona-consistency-methods.md`, `concepts/budget-aware-diffusion-caching.md`
+
+### Meta
+
+- `wiki/index.md`, `wiki/sweeps/2026-06-29-daily.md`, `hot.md`
+
+---
+
 ## [2026-06-27] phase-0 | NaviCache + LightX2V + LoRA Optimizer + Confucius4-TTS
 
 Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-27_phase-0-navicache-lora-optimizer-confucius4.md`.

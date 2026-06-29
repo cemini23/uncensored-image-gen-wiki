@@ -144,6 +144,8 @@ related:
   - concepts/score-gradient-matching-video-distillation.md
   - sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md
   - sources/arxiv-2605-30116-sgmd-score-gradient-matching-distillation.md
+  - sources/arxiv-2606-28026-emosh-expressive-motion-shape-disentanglement.md
+  - concepts/motion-shape-disentangled-human-animation.md
 title: Video Generation Models Survey (May 2026)
 type: source
 tags: [survey, video-generation, t2v, i2v, deep-research, uncensored, latent-chaining, lipsync]
@@ -151,7 +153,7 @@ keywords: [video, wan, hunyuan, ltx-2, mochi, cogvideox, seedance, vidu, open-so
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-06-27
+updated: 2026-06-29
 ---
 
 

@@ -57,13 +57,15 @@ related:
   - sweeps/2026-06-25-daily.md
   - sweeps/2026-06-26-daily.md
   - sweeps/2026-06-27-daily.md
+  - sweeps/2026-06-29-daily.md
+  - sweeps/2026-06-28-daily.md
 title: Federated daily research digest
 type: concept
 tags: [meta, automation, federation, discovery, k93]
 keywords: [daily-research-digest, exa, inbox, sweep, federated, launchagent, discovery-loop]
 maturity: validated
 created: 2026-06-01
-updated: 2026-06-27
+updated: 2026-06-29
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

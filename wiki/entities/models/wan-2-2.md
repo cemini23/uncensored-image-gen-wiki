@@ -113,13 +113,16 @@ related:
   - concepts/score-gradient-matching-video-distillation.md
   - sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md
   - sources/arxiv-2605-30116-sgmd-score-gradient-matching-distillation.md
+  - sources/arxiv-2606-28026-emosh-expressive-motion-shape-disentanglement.md
+  - concepts/motion-shape-disentangled-human-animation.md
+  - entities/models/emosh.md
 title: Wan 2.2 (Alibaba)
 type: entity
 tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]
 keywords: [wan2.2, wan-2-2, alibaba, mixture-of-experts, dual-expert, snr-routing, 27b, 14b, 5b, ti2v, apache-2.0, abliterated-text-encoder, mq-lab, blink, theyurilover]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-27
+updated: 2026-06-29
 ---
 
 

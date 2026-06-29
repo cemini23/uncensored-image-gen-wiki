@@ -106,6 +106,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [NaviCache — test-time self-calibration video caching (arXiv:2606.26795)](sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md) — INS-guided feature caching; Wan/HunyuanVideo — `paper, video-generation, caching, inference, icml-2026`
 - [SGMD — score gradient matching video distillation (arXiv:2605.30116)](sources/arxiv-2605-30116-sgmd-score-gradient-matching-distillation.md) — DMD2 alternative; ~3× train speedup — `paper, video-generation, distillation, few-step, wan`
 - [Personality sliders — SAS inference-time LLM steering (arXiv:2603.03326)](sources/arxiv-2603-03326-personality-sliders-llm-inference-time.md) — Big Five composable activation steering — `paper, persona-ops, llm, activation-steering`
+- [EMOSH — motion-shape disentangled human animation (arXiv:2606.28026)](sources/arxiv-2606-28026-emosh-expressive-motion-shape-disentanglement.md) — EHM mesh retarget on Wan2.1-I2V; ECCV 2026 — `paper, human-animation, avatar, motion-disentanglement, tencent`
+- [Prob-BBDM — MRI Brownian bridge translation (arXiv:2606.24313)](sources/arxiv-2606-24313-prob-bbdm-mri-sequence-translation.md) — 4-step BBDM MRI i2i; peripheral — `paper, medical-imaging, img2img, peripheral`
 - [MentisOculi — limits of visual mental imagery (arXiv:2602.02465)](sources/arxiv-2602-02465-mentisoculi-visual-reasoning-limits-2026-06-13.md) — procedural 5-task benchmark; UMM visual CoT fails vs text-only MLLMs — `paper, visual-reasoning, benchmark, umm, k114`
 - [MetaWorld — multi-agent video world model (arXiv:2606.02753)](sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md) — monocular training → multi-egocentric world model via MWSU + World-State Alignment — `paper, world-model, multi-agent, consistency`
 - [PDA / GAM — preference delta LoRA aggregation (arXiv:2606.00357)](sources/arxiv-weak-signals-preference-distillation-2606.00357-2026-06-05.md) — **rerouted** LLM weak-signal LoRA merge (not video) — `paper, lora, merging, preference-learning, rerouted`
@@ -175,6 +177,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [VideoAgent (HKU/Snap)](entities/models/videoagent.md) — MIT agentic video editing orchestration; Phase-0 GO — `model, video-editing, agent, orchestration` ⚠ stub
 - [Vera (Netflix)](entities/models/vera.md) — layered alpha-compositing video editor; no open weights — `model, video-editing, layered-diffusion, netflix` ⚠ stub
 - [ComfyUI LoRA Optimizer (ethanfel)](entities/custom-nodes/lora-optimizer.md) — multi-LoRA conflict resolution node; Phase-0 CONDITIONAL-GO — `custom-nodes, lora, comfyui, gpl-3-0` ⚠ stub
+- [EMOSH (Tencent/WeChat Vision)](entities/models/emosh.md) — EHM mesh human animation on Wan2.1-I2V; no open weights — `model, human-animation, avatar, tencent` ⚠ stub
 
 ### Adapters (identity injection)
 
@@ -361,6 +364,8 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [NaviCache navigation-guided video caching](concepts/navicache-navigation-guided-video-caching.md) — INS test-time self-calibration for Wan/HunyuanVideo — `video-generation, caching, inference, optimization`
 - [Score gradient matching video distillation (SGMD)](concepts/score-gradient-matching-video-distillation.md) — DMD2 alternative for few-step Wan distill — `video-generation, distillation, few-step, training`
 - [Sequential adaptive personality steering (SAS)](concepts/sequential-adaptive-personality-steering.md) — Big Five inference-time LLM sliders — `persona-ops, llm, activation-steering, alignment`
+- [Motion-shape disentangled human animation (EMOSH)](concepts/motion-shape-disentangled-human-animation.md) — EHM retarget for cross-driven full-body clips — `human-animation, avatar, motion-disentanglement, persona-ops`
+- [Brownian bridge medical image translation](concepts/brownian-bridge-medical-image-translation.md) — Prob-BBDM MRI i2i; peripheral — `img2img, brownian-bridge, medical-imaging, peripheral`
 - [Autoregressive video foresight training (Video-Mirai)](concepts/autoregressive-video-foresight-training.md) — future-informed representation alignment for causal video diffusion — `autoregressive, training, consistency`
 - [One-step autoregressive video distillation (AAD-1)](concepts/one-step-autoregressive-video-distillation.md) — asymmetric GAN distillation for 1-step streaming Wan I2V — `autoregressive, distillation, one-step, inference-speed`
 - [Albedo-guided instance video editing (AlbedoEdit)](concepts/albedo-guided-instance-video-editing.md) — unified VOI/VOR/VTE via first-frame albedo edits — `video-editing, albedo, intrinsic, harmonization`

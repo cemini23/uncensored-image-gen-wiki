@@ -10,9 +10,10 @@ related:
   - concepts/persona-ops-stack.md
   - concepts/seam-stitching-strategies.md
   - sources/video-generation-survey-2026.md
+  - concepts/confidence-aware-tool-orchestration.md
 maturity: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-06-29
 ---
 
 ## Relations

@@ -12,9 +12,10 @@ related:
   - concepts/video-identity-inheritance.md
   - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
   - concepts/video-reference-avatar-generation.md
+  - concepts/motion-shape-disentangled-human-animation.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-16
+updated: 2026-06-29
 ---
 
 ## Relations

@@ -21,9 +21,11 @@ related:
   - concepts/score-gradient-matching-video-distillation.md
   - sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md
   - sources/arxiv-2605-30116-sgmd-score-gradient-matching-distillation.md
+  - sources/arxiv-2606-24313-prob-bbdm-mri-sequence-translation.md
+  - concepts/brownian-bridge-medical-image-translation.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-27
+updated: 2026-06-29
 ---
 
 ## Relations
