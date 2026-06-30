@@ -13,9 +13,10 @@ related:
   - sources/arxiv-privacy-cross-image-anti-personalization-2504-12747.md
   - sources/arxiv-2606-19103-productconsistency-product-identity-editing.md
   - concepts/product-identity-instruction-editing.md
+  - concepts/generative-ai-era-deepfake-landscape.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-19
+updated: 2026-06-30
 ---
 
 ## Relations

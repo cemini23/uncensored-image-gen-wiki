@@ -8,10 +8,12 @@ related:
   - concepts/persona-failure-modes.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-06-16-daily.md
+  - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
+  - concepts/generative-ai-era-deepfake-landscape.md
 maturity: draft
 read_status: read
 created: 2026-06-16
-updated: 2026-06-16
+updated: 2026-06-30
 ---
 
 ## Relations
@@ -34,7 +36,7 @@ Primary ingest target: `@cybersecurity-wiki/` (defensive deepfake detection). Im
 
 **Results [TENTATIVE]:** Trained on FakeAVCeleb; tested on DFDC, Deepfake TIMIT, PolyGlotFake — AUC gains up to +17.94% on unseen domains with limited student data.
 
-**Image-gen touchpoint:** As local persona pipelines (@concepts/persona-audio-stack.md) produce increasingly realistic talking-head + cloned-voice content, platform-side and defensive researchers use such detectors — relevant to **persona ops risk** (@concepts/persona-failure-modes.md), not to generation quality.
+**Image-gen touchpoint:** As local persona pipelines (@concepts/persona-audio-stack.md) produce increasingly realistic talking-head + cloned-voice content, platform-side and defensive researchers use such detectors — relevant to **persona ops risk** (@concepts/persona-failure-modes.md), not to generation quality. Umbrella survey: @sources/arxiv-2411-19537-deepfake-generation-detection-survey.md (@concepts/generative-ai-era-deepfake-landscape.md).
 
 Full defensive methodology belongs in cybersecurity wiki.
 

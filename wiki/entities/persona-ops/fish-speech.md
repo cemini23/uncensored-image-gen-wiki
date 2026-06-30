@@ -33,9 +33,10 @@ related:
   - concepts/mllm-video-translation.md
   - sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md
   - entities/voice-models/confucius4-tts.md
+  - concepts/generative-ai-era-deepfake-landscape.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-27
+updated: 2026-06-30
 ---
 
 ## Relations

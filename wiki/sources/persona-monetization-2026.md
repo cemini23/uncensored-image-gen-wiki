@@ -17,9 +17,11 @@ related:
   - concepts/persona-ops-workflow.md
   - concepts/soul-computing-digital-persona.md
   - sources/arxiv-2606-10413-soul-computing-digital-consciousness.md
+  - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
+  - concepts/generative-ai-era-deepfake-landscape.md
 maturity: validated
 created: 2026-05-07
-updated: 2026-05-11
+updated: 2026-06-30
 read_status: deep-read
 ---
 

@@ -19,9 +19,11 @@ related:
   - entities/voice-models/elevenlabs.md
   - entities/music-models/suno.md
   - entities/music-models/udio.md
+  - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
+  - concepts/generative-ai-era-deepfake-landscape.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-05-13
+updated: 2026-06-30
 ---
 
 ## Relations

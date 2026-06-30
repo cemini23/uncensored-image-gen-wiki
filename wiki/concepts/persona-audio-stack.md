@@ -69,9 +69,11 @@ related:
   - entities/models/avatar-v.md
   - sources/arxiv-2606-15117-eav-dfd-deepfake-detection-routed.md
   - entities/voice-models/confucius4-tts.md
+  - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
+  - concepts/generative-ai-era-deepfake-landscape.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-06-27
+updated: 2026-06-30
 ---
 
 ## Relations

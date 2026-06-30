@@ -4,6 +4,40 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-06-30] phase-0 | BioDeep survey repo
+
+Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-30_phase-0-deepfake-survey-biodeep.md`.
+
+- **BioDeep** (`CroitoruAlin/biodeep`) — **REFERENCE** — detection benchmark; not build-track
+- **Survey** (2411.19537) — ingested as source + concept
+
+Persona ops brief: `briefs/2026-06-30_deepfake-detection-arms-race-persona-ops.md`
+
+---
+
+## [2026-06-30] ingest | daily digest inbox — deepfake survey (1 PDF)
+
+Per `wiki/sweeps/2026-06-30-daily.md`. preingest_check: 1/1 NEW. PDF archived to egress-fi.
+
+### Sources created (1)
+
+- `wiki/sources/arxiv-2411-19537-deepfake-generation-detection-survey.md`
+
+### Concepts created (1)
+
+- `concepts/generative-ai-era-deepfake-landscape.md`
+
+### Enhanced (filled out)
+
+- `concepts/persona-failure-modes.md` — detection arms race subsection
+- `sources/arxiv-2606-15117-eav-dfd-deepfake-detection-routed.md` — umbrella survey link
+
+### Meta
+
+- `wiki/index.md`, `wiki/sweeps/2026-06-30-daily.md`, `hot.md`
+
+---
+
 ## [2026-06-29] phase-0 | EMOSH + Prob-BBDM
 
 Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-29_phase-0-emosh-prob-bbdm.md`.

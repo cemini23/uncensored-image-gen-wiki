@@ -86,13 +86,15 @@ related:
   - entities/custom-nodes/lora-optimizer.md
   - sources/arxiv-2606-28026-emosh-expressive-motion-shape-disentanglement.md
   - concepts/motion-shape-disentangled-human-animation.md
+  - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
+  - concepts/generative-ai-era-deepfake-landscape.md
 title: Persona consistency methods (umbrella)
 type: concept
 tags: [persona-consistency, methods, taxonomy, identity-injection]
 keywords: [character LoRA, identity adapter, Character DNA, multi-angle dataset, two-pass inpaint, reference plus LoRA stack, face anchor seed]
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-29
+updated: 2026-06-30
 ---
 
 

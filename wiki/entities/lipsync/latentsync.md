@@ -28,9 +28,10 @@ related:
   - concepts/multi-shot-audio-video-evaluation.md
   - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
   - concepts/video-reference-avatar-generation.md
+  - concepts/generative-ai-era-deepfake-landscape.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-16
+updated: 2026-06-30
 ---
 
 ## Relations

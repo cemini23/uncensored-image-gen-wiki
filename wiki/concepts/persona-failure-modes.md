@@ -18,14 +18,16 @@ related:
   - concepts/anti-personalization-privacy.md
   - sources/arxiv-privacy-cross-image-anti-personalization-2504-12747.md
   - sources/arxiv-2606-15117-eav-dfd-deepfake-detection-routed.md
+  - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
+  - concepts/generative-ai-era-deepfake-landscape.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-16
+updated: 2026-06-30
 ---
 
 ## Relations
 
-@sources/persona-monetization-2026.md @sources/persona-ops-stack-2026.md @concepts/persona-ops-stack.md @concepts/persona-ops-workflow.md @concepts/persona-monetization-models.md @concepts/persona-payment-rails.md @concepts/persona-legal-landscape.md @concepts/persona-content-cadence.md @concepts/persona-consistency-methods.md @concepts/likeness-collision-verification.md
+@sources/persona-monetization-2026.md @sources/persona-ops-stack-2026.md @concepts/persona-ops-stack.md @concepts/persona-ops-workflow.md @concepts/persona-monetization-models.md @concepts/persona-payment-rails.md @concepts/persona-legal-landscape.md @concepts/persona-content-cadence.md @concepts/persona-consistency-methods.md @concepts/likeness-collision-verification.md @concepts/generative-ai-era-deepfake-landscape.md
 @concepts/marketing-your-persona.md
 @entities/persona-ops/postiz.md
 
@@ -58,6 +60,8 @@ Major platforms have escalated AI-slop enforcement aggressively:
 - **X**: April 2026 mass-suspension wave with FaceID biometric verification on flagged accounts. AI-persona accounts can't pass.
 
 Mitigation: anti-detect browser hygiene (Multilogin Pro 10 / GoLogin / Octobrowser), residential proxies (Bright Data, IPRoyal), strict per-persona profile isolation, and Telegram as the durable distribution surface. → @concepts/persona-ops-stack.md
+
+**Detection arms race (2026-06-30):** The BioDeep survey (@sources/arxiv-2411-19537-deepfake-generation-detection-survey.md) reports that deepfake **detectors fail to generalize** to fakes from unseen diffusion/voice-clone generators — including multimodal AV content matching local persona stacks (@concepts/persona-audio-stack.md). This does **not** reduce legal or platform-policy risk: enforcement still triggers on **real-person deepfakes**, mandatory **AI labeling**, user reports, and payment-processor compliance reviews. See @concepts/generative-ai-era-deepfake-landscape.md and `briefs/2026-06-30_deepfake-detection-arms-race-persona-ops.md`.
 
 ### 2. Public callouts and doxxing
 
