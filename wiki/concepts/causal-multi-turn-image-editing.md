@@ -13,9 +13,11 @@ related:
   - sources/video-generation-survey-2026.md
   - sources/arxiv-2606-19103-productconsistency-product-identity-editing.md
   - concepts/product-identity-instruction-editing.md
+  - sources/arxiv-2605-15523-self-prompting-scene-text-editing.md
+  - concepts/self-prompting-scene-text-editing.md
 maturity: draft
 created: 2026-06-15
-updated: 2026-06-19
+updated: 2026-07-01
 ---
 
 ## Relations

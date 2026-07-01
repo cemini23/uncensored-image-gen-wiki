@@ -4,6 +4,52 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-07-01] phase-0 | SVOO · IPA · MSTEdit · SHINE skip
+
+Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-07-01_phase-0-svoo-ipa-mstedit.md`.
+
+- **SVOO** (`Mutual-Luo/SVOO`) — **GO** — Apache-2.0; Wan2.1/2.2 sparse attention; ICML 2026
+- **IPA** (`mdswyz/IPA`) — **CONDITIONAL-GO** — MIT; VACE hand post-training; stub README
+- **MSTEdit** (2605.15523) — **WATCH** — no repo; CC BY-NC 4.0; FLUX-Fill text edit
+- **SHINE** (`MuLabPKU/SHINE`) — **NO-GO** — LLM hypernetwork LoRA; not image-gen track
+
+Operator brief: `briefs/2026-07-01_wan-speedup-hand-quality-operator.md`
+
+---
+
+## [2026-07-01] ingest | daily digest manual-fetch — SVOO, IPA, MSTEdit (3 PDFs)
+
+Per `wiki/sweeps/2026-07-01-daily.md`. Overnight sweep fetched 0 (OpenReview-only hits); manual arXiv fetch. preingest_check: 3/3 NEW. PDFs archived to egress-fi.
+
+### Sources created (3)
+
+- `wiki/sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md`
+- `wiki/sources/arxiv-2605-07545-implicit-preference-alignment-human-animation.md`
+- `wiki/sources/arxiv-2605-15523-self-prompting-scene-text-editing.md`
+
+### Concepts created (3)
+
+- `concepts/input-stable-sparse-attention-video.md`
+- `concepts/implicit-preference-alignment-human-animation.md`
+- `concepts/self-prompting-scene-text-editing.md`
+
+### Enhanced (filled out / backlinks)
+
+- `concepts/budget-aware-diffusion-caching.md` — SVOO sparse-attention axis
+- `concepts/navicache-navigation-guided-video-caching.md` — stack note with SVOO
+- `concepts/motion-shape-disentangled-human-animation.md` — IPA hand-quality axis
+- `concepts/video-text-editing-glyph-control.md` — MSTEdit image counterpart
+- `concepts/persona-consistency-methods.md` — axis 4 IPA + SVOO throughput
+- `entities/models/wan-2-2.md`, `entities/models/flux-1-dev.md`, `entities/models/emosh.md`
+- `sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md`
+- `sources/arxiv-2606-23254-steervte-video-text-editing.md`
+
+### Meta
+
+- `wiki/index.md`, `wiki/sweeps/2026-07-01-daily.md`, `hot.md`
+
+---
+
 ## [2026-06-30] phase-0 | BioDeep survey repo
 
 Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-06-30_phase-0-deepfake-survey-biodeep.md`.

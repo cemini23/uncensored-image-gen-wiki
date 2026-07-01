@@ -9,9 +9,11 @@ related:
   - entities/models/wan-2-2.md
   - concepts/persona-ops-stack.md
   - sweeps/2026-06-29-daily.md
+  - sources/arxiv-2605-07545-implicit-preference-alignment-human-animation.md
+  - concepts/implicit-preference-alignment-human-animation.md
 maturity: draft
 created: 2026-06-29
-updated: 2026-06-29
+updated: 2026-07-01
 ---
 
 ## Relations

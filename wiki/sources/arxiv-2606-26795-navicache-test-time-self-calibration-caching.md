@@ -13,10 +13,12 @@ related:
   - sources/video-generation-survey-2026.md
   - entities/uis/comfyui.md
   - sweeps/2026-06-27-daily.md
+  - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
+  - concepts/input-stable-sparse-attention-video.md
 maturity: draft
 read_status: read
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-07-01
 ---
 
 ## Relations

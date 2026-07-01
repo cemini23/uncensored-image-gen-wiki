@@ -60,6 +60,7 @@ related:
   - sweeps/2026-06-29-daily.md
   - sweeps/2026-06-28-daily.md
   - sweeps/2026-06-30-daily.md
+  - sweeps/2026-07-01-daily.md
 title: Federated daily research digest
 type: concept
 tags: [meta, automation, federation, discovery, k93]

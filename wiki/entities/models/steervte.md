@@ -8,9 +8,11 @@ related:
   - concepts/video-text-editing-glyph-control.md
   - entities/models/wan-2-2.md
   - sources/arxiv-2606-08260-tide-unified-video-editing.md
+  - sources/arxiv-2605-15523-self-prompting-scene-text-editing.md
+  - concepts/self-prompting-scene-text-editing.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-07-01
 ---
 
 ## Relations

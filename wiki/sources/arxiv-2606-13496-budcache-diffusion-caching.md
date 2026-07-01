@@ -14,6 +14,8 @@ related:
   - sweeps/2026-06-15-daily.md
   - concepts/navicache-navigation-guided-video-caching.md
   - sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md
+  - concepts/input-stable-sparse-attention-video.md
+  - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
 maturity: draft
 read_status: read
 created: 2026-06-15

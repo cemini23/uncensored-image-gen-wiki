@@ -11,9 +11,11 @@ related:
   - sources/arxiv-2606-01362-albedoedit-video-editing.md
   - entities/models/wan-2-2.md
   - entities/models/seedance-2.md
+  - sources/arxiv-2605-15523-self-prompting-scene-text-editing.md
+  - concepts/self-prompting-scene-text-editing.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-07-01
 ---
 
 ## Relations
@@ -45,9 +47,13 @@ Ingest 2026-06-24 from Zeng et al. (arXiv:2606.23254, ByteDance) — specialized
 
 Subtitle fixes, on-screen promo text swaps in Reels without re-shooting — requires temporal coherence absent from FLUX/Qwen-Image frame loops.
 
+### Image-side counterpart (2026-07-01)
+
+**MSTEdit** (@concepts/self-prompting-scene-text-editing.md) applies the same style+glyph preservation problem to **still images** via FLUX-Fill in-context self-prompting — useful for persona promo stills before SteerVTE-class video VTE matures locally.
+
 ### Build-track note
 
-No open weights at ingest. Distinct from @sources/arxiv-2606-08260-tide-unified-video-editing.md (general instruction editing) and @sources/arxiv-2606-11751-anchoredit-multi-turn-editing.md (multi-turn object edits).
+No open weights at ingest for SteerVTE. Distinct from @sources/arxiv-2606-08260-tide-unified-video-editing.md (general instruction editing) and @sources/arxiv-2606-11751-anchoredit-multi-turn-editing.md (multi-turn object edits).
 
 ## Snippets
 

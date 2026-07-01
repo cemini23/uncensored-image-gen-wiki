@@ -11,9 +11,11 @@ related:
   - entities/models/wan-2-2.md
   - entities/models/hunyuanvideo-1-5.md
   - sources/video-generation-survey-2026.md
+  - concepts/input-stable-sparse-attention-video.md
+  - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
 maturity: draft
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-07-01
 ---
 
 ## Relations
@@ -36,7 +38,7 @@ Ingest 2026-06-27 from arXiv:2606.26795 (ICML 2026) — INS-inspired offline-cal
 
 ### Persona ops mapping
 
-Long Reel batches on Wan 2.2 — plug-and-play speedup without offline calibration datasets. Complements step-budget methods (@concepts/budget-aware-diffusion-caching.md), not replacement.
+Long Reel batches on Wan 2.2 — plug-and-play speedup without offline calibration datasets. Complements step-budget methods (@concepts/budget-aware-diffusion-caching.md) and **sparse attention** (@concepts/input-stable-sparse-attention-video.md) — stack feasibility `[NEEDS VERIFICATION 2026-07-01]`.
 
 ### Build-track
 

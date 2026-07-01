@@ -11,6 +11,8 @@ related:
   - concepts/video-text-editing-glyph-control.md
   - sources/arxiv-2606-23254-steervte-video-text-editing.md
   - sources/arxiv-2606-23327-videoagent-all-in-one-framework.md
+  - sources/arxiv-2605-15523-self-prompting-scene-text-editing.md
+  - concepts/self-prompting-scene-text-editing.md
 title: "AnchorEdit — causal multi-turn image editing (arXiv:2606.11751)"
 type: source
 tags: [paper, image-editing, multi-turn, autoregressive, video-prior, wan, consistency]

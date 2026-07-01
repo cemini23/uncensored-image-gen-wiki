@@ -88,6 +88,10 @@ related:
   - concepts/motion-shape-disentangled-human-animation.md
   - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
   - concepts/generative-ai-era-deepfake-landscape.md
+  - sources/arxiv-2605-07545-implicit-preference-alignment-human-animation.md
+  - concepts/implicit-preference-alignment-human-animation.md
+  - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
+  - concepts/input-stable-sparse-attention-video.md
 title: Persona consistency methods (umbrella)
 type: concept
 tags: [persona-consistency, methods, taxonomy, identity-injection]
@@ -217,6 +221,10 @@ Captioning conventions:
 For multi-shot persona narratives: **Wan 2.7 Reference-to-Video (R2V)** accepts up to 5 reference images + 3×3 grid + voice profile. Most ambitious open-weight character-consistency input as of late 2025; higher reference-count modes only run on cloud B200/H200.
 
 **First-and-Last-Frame interpolation** (Wan 2.2 FLF2V, ComfyUI-Wan-SVI2Pro-FLF node) reduces mid-clip drift by conditioning on both endpoints.
+
+**Hand fidelity post-training (2026-07-01):** IPA (@concepts/implicit-preference-alignment-human-animation.md) good-only preference alignment on VACE-class Wan animation — complements EMOSH mesh retarget (@concepts/motion-shape-disentangled-human-animation.md) for dance-driver clips with visible hands.
+
+**Video throughput (2026-07-01):** SVOO (@concepts/input-stable-sparse-attention-video.md) training-free sparse attention on Wan 2.2 — stacks with caching methods for overnight batch renders.
 
 ### Critical failure modes
 

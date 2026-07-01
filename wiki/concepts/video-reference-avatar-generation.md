@@ -15,9 +15,11 @@ related:
   - sources/synthetic-character-consistency-survey.md
   - sources/arxiv-2606-28026-emosh-expressive-motion-shape-disentanglement.md
   - concepts/motion-shape-disentangled-human-animation.md
+  - sources/arxiv-2605-07545-implicit-preference-alignment-human-animation.md
+  - concepts/implicit-preference-alignment-human-animation.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-06-29
+updated: 2026-07-01
 ---
 
 ## Relations

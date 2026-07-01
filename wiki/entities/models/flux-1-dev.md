@@ -50,9 +50,11 @@ related:
   - sources/arxiv-2606-20971-unity-attention-flow-conditioning.md
   - concepts/universal-composite-diffusion-conditioning.md
   - entities/models/unity.md
+  - sources/arxiv-2605-15523-self-prompting-scene-text-editing.md
+  - concepts/self-prompting-scene-text-editing.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-23
+updated: 2026-07-01
 ---
 
 ## Relations

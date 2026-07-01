@@ -23,9 +23,11 @@ related:
   - sources/arxiv-2605-30116-sgmd-score-gradient-matching-distillation.md
   - sources/arxiv-2606-24313-prob-bbdm-mri-sequence-translation.md
   - concepts/brownian-bridge-medical-image-translation.md
+  - concepts/input-stable-sparse-attention-video.md
+  - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-06-29
+updated: 2026-07-01
 ---
 
 ## Relations
@@ -64,6 +66,7 @@ Concept from 2026-06-07 ingest — arXiv:2606.06060 ReCache.
 - **Quantization** (FP8/GGUF) — shrinks per-step cost
 - **Step distillation** (AAD-1) — fewer steps architecturally
 - **Budget-aware caching** — same nominal step count, skip recompute on non-critical steps
+- **Sparse attention** (SVOO) — training-free 3D attention pruning; orthogonal to step cache — see @concepts/input-stable-sparse-attention-video.md
 
 Build-track: evaluate BudCache Stage-1 on local FLUX persona workflow before ReCache RL training investment.
 

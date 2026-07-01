@@ -12,9 +12,11 @@ related:
   - concepts/persona-ops-stack.md
   - entities/lipsync/liveportrait.md
   - sources/video-generation-survey-2026.md
+  - sources/arxiv-2605-07545-implicit-preference-alignment-human-animation.md
+  - concepts/implicit-preference-alignment-human-animation.md
 maturity: draft
 created: 2026-06-29
-updated: 2026-06-29
+updated: 2026-07-01
 ---
 
 ## Relations
@@ -40,6 +42,8 @@ Ingest 2026-06-29 from Zhang et al. (arXiv:2606.28026, ECCV 2026) — EHM mesh r
 Dance Reels / motion-transfer clips: reference **persona still** + driver TikTok without copying driver's physique — same problem class as @concepts/video-reference-avatar-generation.md but **full-body** not talking-head.
 
 **Retarget rule:** $M_{ehm}^{target} = M_{ehm}(\theta^d, \psi^d, \beta_b^r, \beta_f^r)$ — driving motion + reference identity shape.
+
+**Hand quality axis (2026-07-01):** When mesh retarget is unavailable, **IPA** (@concepts/implicit-preference-alignment-human-animation.md) post-trains VACE-class Wan animation with good-only preference samples + hand-local loss — targets finger blur without cross-drive shape leakage.
 
 ### Build-track note
 

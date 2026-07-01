@@ -14,10 +14,12 @@ related:
   - entities/models/seedance-2.md
   - sweeps/2026-06-24-daily.md
   - sources/arxiv-2606-23610-vera-layered-content-preserving-video-editing.md
+  - sources/arxiv-2605-15523-self-prompting-scene-text-editing.md
+  - concepts/self-prompting-scene-text-editing.md
 maturity: draft
 read_status: read
 created: 2026-06-24
-updated: 2026-06-26
+updated: 2026-07-01
 ---
 
 ## Relations

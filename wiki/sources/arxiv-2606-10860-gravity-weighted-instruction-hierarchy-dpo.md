@@ -11,6 +11,8 @@ related:
   - entities/persona-ops/sillytavern.md
   - sources/arxiv-2606-08172-human-llm-interaction-governance.md
   - sweeps/2026-06-15-daily.md
+  - concepts/implicit-preference-alignment-human-animation.md
+  - sources/arxiv-2605-07545-implicit-preference-alignment-human-animation.md
 maturity: draft
 read_status: read
 created: 2026-06-15

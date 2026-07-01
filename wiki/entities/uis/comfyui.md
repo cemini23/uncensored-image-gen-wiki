@@ -78,6 +78,8 @@ related:
   - entities/models/unity.md
   - entities/custom-nodes/lora-optimizer.md
   - sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md
+  - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
+  - concepts/input-stable-sparse-attention-video.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-06-27

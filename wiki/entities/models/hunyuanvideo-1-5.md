@@ -33,6 +33,8 @@ related:
   - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
   - concepts/navicache-navigation-guided-video-caching.md
   - sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md
+  - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
+  - concepts/input-stable-sparse-attention-video.md
 title: HunyuanVideo 1.5 (Tencent)
 type: entity
 tags: [model, video, dit, hunyuanvideo, tencent, eastern-vanguard, completely-uncensored-after-lora]
