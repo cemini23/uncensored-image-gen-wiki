@@ -18,9 +18,11 @@ related:
   - concepts/representation-space-video-safety-steering.md
   - concepts/sequential-adaptive-personality-steering.md
   - sources/arxiv-2603-03326-personality-sliders-llm-inference-time.md
+  - concepts/autoregressive-concept-erasure-obliviate.md
+  - sources/arxiv-2606-28643-obliviate-autoregressive-concept-erasure.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-27
+updated: 2026-07-02
 ---
 
 ## Relations

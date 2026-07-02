@@ -17,13 +17,15 @@ related:
   - entities/models/permavid.md
   - concepts/implicit-memory-retrieval-video-world-models.md
   - sources/arxiv-2606-23105-car-implicit-memory-video-world.md
+  - concepts/ucm-time-aware-pe-warping-world-models.md
+  - sources/arxiv-2602-22960-ucm-camera-control-memory-world-models.md
 title: Latent spatial memory for video world models
 type: concept
 tags: [concept, world-model, video-generation, spatial-memory, 3d-consistency]
 keywords: [latent spatial memory, Mirage, 3D cache, latent-space warping, RGB point cloud bottleneck, revisit consistency, depth back-projection, world model memory]
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-24
+updated: 2026-07-02
 ---
 
 ## Relations

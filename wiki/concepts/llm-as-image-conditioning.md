@@ -8,9 +8,11 @@ related:
   - concepts/draft-evaluate-diffuse-pipeline.md
   - entities/models/sana.md
   - entities/models/flux.md
+  - concepts/self-evolving-unified-multimodal-training.md
+  - sources/arxiv-2606-27376-ask-solve-generate-self-evolving-multimodal.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-07-02
 ---
 
 ## Relations

@@ -62,9 +62,11 @@ related:
   - sources/arxiv-2606-23105-car-implicit-memory-video-world.md
   - concepts/implicit-memory-retrieval-video-world-models.md
   - entities/models/car.md
+  - sources/arxiv-2602-22960-ucm-camera-control-memory-world-models.md
+  - concepts/ucm-time-aware-pe-warping-world-models.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-06-24
+updated: 2026-07-02
 ---
 
 ## Relations

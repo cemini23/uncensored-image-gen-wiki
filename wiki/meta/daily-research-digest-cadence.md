@@ -37,6 +37,7 @@ related:
   - sweeps/2026-06-28-daily.md
   - sweeps/2026-06-30-daily.md
   - sweeps/2026-07-01-daily.md
+  - sweeps/2026-07-02-daily.md
 title: Daily research digest cadence (image-gen)
 type: concept
 tags: [meta, wiki, automation, discovery, k93]

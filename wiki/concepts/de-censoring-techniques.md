@@ -40,13 +40,16 @@ related:
   - concepts/domain-sensitive-llm-over-alignment.md
   - concepts/pragmatic-open-model-adoption.md
   - sources/arxiv-2606-22211-open-ai-local-llama-wild.md
+  - sources/arxiv-2606-28643-obliviate-autoregressive-concept-erasure.md
+  - concepts/autoregressive-concept-erasure-obliviate.md
+  - entities/models/hunyuanimage-3-0.md
 title: De-censoring techniques (abliteration, LoRA injection, weight merging, prompt bypasses)
 type: concept
 tags: [de-censoring, alignment-removal, abliteration, lora-injection, weight-merging, ties-merging, dare, slerp, prompt-engineering]
 keywords: [abliteration, refusal vector, LoRA injection, FLUX-UNCENSORED-Merged, Chroma1-HD, SNOFS, SLERP, TIES-Merging, DARE, Drop And Rescale, weight merging, prompt engineering bypass, architectural censorship hard wall]
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-25
+updated: 2026-07-02
 ---
 
 
@@ -211,6 +214,10 @@ The architectural hard wall is the *real* dividing line — not "is X censored,"
 > "There is a hard mathematical limit to de-censoring. […] No amount of prompt engineering or basic LoRA injection can easily fix this, as the foundational structures do not exist in the latent space. […] In these instances, massive, highly destructive full-parameter fine-tunes are required, driving users toward natively uncensored models like Z-Image or Pony V7 instead."
 
 — @sources/uncensored-image-generation-survey.md §4.4
+
+### Autoregressive erasure inverse (2026-07-02)
+
+Unified **autoregressive** T2I hosts (@entities/models/hunyuanimage-3-0.md) can be **post-hoc concept-erased** via Obliviate-style KL trajectory updates (@concepts/autoregressive-concept-erasure-obliviate.md) — the mirror operation to de-censoring. De-censor path for AR visual-token models remains `[NEEDS VERIFICATION 2026-07-02]`.
 
 ## Dead Ends
 

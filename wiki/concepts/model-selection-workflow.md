@@ -49,9 +49,11 @@ related:
   - entities/voice-models/indextts-2.md
   - entities/voice-models/chatterbox.md
   - entities/custom-nodes/lora-optimizer.md
+  - entities/models/hunyuanimage-3-0.md
+  - sources/arxiv-2509-23951-hunyuanimage-3-0-technical-report.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-06-27
+updated: 2026-07-02
 ---
 
 ## Relations

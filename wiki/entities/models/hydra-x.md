@@ -20,9 +20,13 @@ related:
   - sources/arxiv-2606-18249-uniar-shared-context-visual-tokenizer.md
   - concepts/shared-context-single-tokenizer-umm.md
   - entities/models/uniar.md
+  - entities/models/hunyuanimage-3-0.md
+  - sources/arxiv-2509-23951-hunyuanimage-3-0-technical-report.md
+  - sources/arxiv-2606-27376-ask-solve-generate-self-evolving-multimodal.md
+  - concepts/self-evolving-unified-multimodal-training.md
 maturity: draft
 created: 2026-06-12
-updated: 2026-06-21
+updated: 2026-07-02
 ---
 
 ## Relations

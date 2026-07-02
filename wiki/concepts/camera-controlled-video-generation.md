@@ -23,13 +23,17 @@ related:
   - concepts/implicit-memory-retrieval-video-world-models.md
   - entities/models/car.md
   - sources/arxiv-2606-23105-car-implicit-memory-video-world.md
+  - sources/arxiv-2606-27345-raype-ray-space-positional-encoding-3d-video.md
+  - concepts/ray-space-positional-encoding-video.md
+  - sources/arxiv-2602-22960-ucm-camera-control-memory-world-models.md
+  - concepts/ucm-time-aware-pe-warping-world-models.md
 title: Camera-Controlled Video Generation
 type: concept
 tags: [concept, video-generation, camera-control, 6-dof, conditioning]
 keywords: [camera control, 6-DoF camera trajectory, Plucker coordinates, Plucker mixing, UCPE, dual-branch camera control, metric-scale camera pose, camera conditioning, temporal VAE stride, revisit trajectory]
 maturity: draft
 created: 2026-05-16
-updated: 2026-06-24
+updated: 2026-07-02
 ---
 
 ## Relations
@@ -43,3 +47,5 @@ Stub created during the cross-wiki ingest of NVIDIA's SANA-WM paper (@sources/sa
 ## Narrative
 
 **Camera-controlled video generation** conditions a video model on an explicit 6-DoF camera trajectory (position + orientation) so the synthesized video follows a chosen motion path through the scene. A core difficulty: aggressive temporal VAE compression collapses many raw frames into one latent token, destroying fine camera motion. SANA-WM's answer is **dual-branch camera control** — a latent-rate UCPE branch capturing global trajectory structure plus a raw-frame Plücker mixing branch that restores fine motion inside each temporal VAE stride. Accurate **metric-scale** pose annotation (consistent real-world units) is a prerequisite, which is why SANA-WM built a dedicated pose-recovery annotation pipeline. → @entities/models/sana-wm.md
+
+**2026-07-02 additions:** **RayPE** (@concepts/ray-space-positional-encoding-video.md) injects Plücker rays directly into Wan2.2 self-attention Q/K (zero-init). **UCM** (@concepts/ucm-time-aware-pe-warping-world-models.md) warps 3D PEs of memory frames for world-model revisit consistency.

@@ -92,6 +92,9 @@ related:
   - concepts/implicit-preference-alignment-human-animation.md
   - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
   - concepts/input-stable-sparse-attention-video.md
+  - entities/models/hunyuanimage-3-0.md
+  - sources/arxiv-2509-23951-hunyuanimage-3-0-technical-report.md
+  - sources/arxiv-2606-27376-ask-solve-generate-self-evolving-multimodal.md
 title: Persona consistency methods (umbrella)
 type: concept
 tags: [persona-consistency, methods, taxonomy, identity-injection]

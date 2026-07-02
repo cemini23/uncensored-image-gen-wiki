@@ -150,6 +150,14 @@ related:
   - concepts/input-stable-sparse-attention-video.md
   - sources/arxiv-2605-07545-implicit-preference-alignment-human-animation.md
   - concepts/implicit-preference-alignment-human-animation.md
+  - sources/arxiv-2509-23951-hunyuanimage-3-0-technical-report.md
+  - entities/models/hunyuanimage-3-0.md
+  - sources/arxiv-2602-22960-ucm-camera-control-memory-world-models.md
+  - concepts/ucm-time-aware-pe-warping-world-models.md
+  - sources/arxiv-2606-27345-raype-ray-space-positional-encoding-3d-video.md
+  - concepts/ray-space-positional-encoding-video.md
+  - entities/models/hunyuanimage-3-0.md
+  - sources/arxiv-2509-23951-hunyuanimage-3-0-technical-report.md
 title: Video Generation Models Survey (May 2026)
 type: source
 tags: [survey, video-generation, t2v, i2v, deep-research, uncensored, latent-chaining, lipsync]
@@ -157,7 +165,7 @@ keywords: [video, wan, hunyuan, ltx-2, mochi, cogvideox, seedance, vidu, open-so
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-07-01
+updated: 2026-07-02
 ---
 
 

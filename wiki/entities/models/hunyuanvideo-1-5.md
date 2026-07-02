@@ -35,13 +35,18 @@ related:
   - sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md
   - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
   - concepts/input-stable-sparse-attention-video.md
+  - sources/arxiv-2606-27345-raype-ray-space-positional-encoding-3d-video.md
+  - concepts/ray-space-positional-encoding-video.md
+  - entities/models/hunyuanimage-3-0.md
+  - sources/arxiv-2509-23951-hunyuanimage-3-0-technical-report.md
+  - concepts/ucm-time-aware-pe-warping-world-models.md
 title: HunyuanVideo 1.5 (Tencent)
 type: entity
 tags: [model, video, dit, hunyuanvideo, tencent, eastern-vanguard, completely-uncensored-after-lora]
 keywords: [hunyuanvideo, hunyuan-1-5, tencent, ssta, selective-sliding-tile-attention, 8.3b, 3d-causal-vae, fp8-gemm, step-distilled, nsfwsks, theyurilover, 480p, 720p, 1080p]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-27
+updated: 2026-07-02
 ---
 
 

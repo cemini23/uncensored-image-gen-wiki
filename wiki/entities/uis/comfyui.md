@@ -80,6 +80,8 @@ related:
   - sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md
   - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
   - concepts/input-stable-sparse-attention-video.md
+  - entities/models/hunyuanimage-3-0.md
+  - sources/arxiv-2509-23951-hunyuanimage-3-0-technical-report.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-06-27

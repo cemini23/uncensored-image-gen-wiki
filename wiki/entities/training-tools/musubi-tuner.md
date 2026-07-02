@@ -17,9 +17,10 @@ related:
   - entities/models/wan-2-2.md
   - entities/models/hunyuanvideo-1-5.md
   - concepts/model-selection-workflow.md
+  - entities/models/hunyuanimage-3-0.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-05-07
+updated: 2026-07-02
 ---
 
 ## Relations

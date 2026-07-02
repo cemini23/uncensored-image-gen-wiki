@@ -36,6 +36,8 @@ related:
   - sources/arxiv-2606-01837-dsr-cross-modal-jailbreak.md
   - concepts/pragmatic-open-model-adoption.md
   - sources/arxiv-2606-22211-open-ai-local-llama-wild.md
+  - entities/models/hunyuanimage-3-0.md
+  - sources/arxiv-2509-23951-hunyuanimage-3-0-technical-report.md
 title: Comprehensive Survey of Uncensored Local Image Generation Models and Frameworks (May 2026)
 type: source
 tags: [survey, deep-research, uncensored, local-generation, model-catalog, dit, flux, pony, illustrious, eastern-models]

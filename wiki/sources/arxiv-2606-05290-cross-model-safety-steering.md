@@ -16,6 +16,8 @@ related:
   - entities/models/z-image-turbo.md
   - sources/arxiv-2606-17257-reins-video-safety-representation-steering.md
   - concepts/representation-space-video-safety-steering.md
+  - concepts/autoregressive-concept-erasure-obliviate.md
+  - sources/arxiv-2606-28643-obliviate-autoregressive-concept-erasure.md
 maturity: draft
 read_status: read
 created: 2026-06-06

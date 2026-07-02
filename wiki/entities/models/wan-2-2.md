@@ -120,13 +120,17 @@ related:
   - concepts/input-stable-sparse-attention-video.md
   - sources/arxiv-2605-07545-implicit-preference-alignment-human-animation.md
   - concepts/implicit-preference-alignment-human-animation.md
+  - sources/arxiv-2606-27345-raype-ray-space-positional-encoding-3d-video.md
+  - concepts/ray-space-positional-encoding-video.md
+  - sources/arxiv-2602-22960-ucm-camera-control-memory-world-models.md
+  - concepts/ucm-time-aware-pe-warping-world-models.md
 title: Wan 2.2 (Alibaba)
 type: entity
 tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]
 keywords: [wan2.2, wan-2-2, alibaba, mixture-of-experts, dual-expert, snr-routing, 27b, 14b, 5b, ti2v, apache-2.0, abliterated-text-encoder, mq-lab, blink, theyurilover]
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-01
+updated: 2026-07-02
 ---
 
 

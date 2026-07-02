@@ -4,6 +4,55 @@ Append-only chronological operations log. Each entry: date + operation + summary
 
 ---
 
+## [2026-07-02] phase-0 | HunyuanImage 3.0 + RayPE + UCM + Obliviate + ASG
+
+Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-07-02_phase-0-hunyuanimage-raype-ucm-obliviate-asg.md`.
+
+- **HunyuanImage 3.0** (`Tencent-Hunyuan/HunyuanImage-3.0`) — **GO (catalog)** — 3.1k★; ≥3×80 GB
+- **RayPE** (2606.27345) — **WATCH** — Wan2.2 addon; no repo
+- **UCM** (2602.22960) — **WATCH** — world-model PE warping; no repo
+- **Obliviate** (2606.28643) — **REFERENCE** — AR concept erasure
+- **ASG** (`mbzuai-oryx/Ask-Solve-Generate`) — **CONDITIONAL-GO** — Apache-2.0; 4★
+
+Operator brief: `briefs/2026-07-02_hunyuanimage-3-catalog-operator.md`
+
+---
+
+## [2026-07-02] ingest | daily digest inbox — 5 PDFs
+
+Per `wiki/sweeps/2026-07-02-daily.md`. preingest_check: 5/5 NEW. PDFs archived to egress-fi.
+
+### Sources created (5)
+
+- `wiki/sources/arxiv-2509-23951-hunyuanimage-3-0-technical-report.md`
+- `wiki/sources/arxiv-2602-22960-ucm-camera-control-memory-world-models.md`
+- `wiki/sources/arxiv-2606-27345-raype-ray-space-positional-encoding-3d-video.md`
+- `wiki/sources/arxiv-2606-27376-ask-solve-generate-self-evolving-multimodal.md`
+- `wiki/sources/arxiv-2606-28643-obliviate-autoregressive-concept-erasure.md`
+
+### Entity created (1)
+
+- `entities/models/hunyuanimage-3-0.md`
+
+### Concepts created (4)
+
+- `concepts/ray-space-positional-encoding-video.md`
+- `concepts/ucm-time-aware-pe-warping-world-models.md`
+- `concepts/autoregressive-concept-erasure-obliviate.md`
+- `concepts/self-evolving-unified-multimodal-training.md`
+
+### Enhanced
+
+- `concepts/camera-controlled-video-generation.md`, `concepts/world-models-video-generation.md`
+- `concepts/de-censoring-techniques.md`, `concepts/censorship-tier-taxonomy.md`
+- `entities/models/wan-2-2.md`, `entities/models/hunyuanvideo-1-5.md`, `entities/models/hydra-x.md`
+
+### Meta
+
+- `wiki/index.md`, `wiki/sweeps/2026-07-02-daily.md`, `hot.md`
+
+---
+
 ## [2026-07-01] phase-0 | SVOO · IPA · MSTEdit · SHINE skip
 
 Per `prompts/github-repo-eval.md`. Full write-up in `briefs/2026-07-01_phase-0-svoo-ipa-mstedit.md`.
