@@ -114,6 +114,9 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [MSTEdit — self-prompting scene text editing (arXiv:2605.15523)](sources/arxiv-2605-15523-self-prompting-scene-text-editing.md) — FLUX-Fill in-context glyph/style swap — `paper, image-editing, text-rendering, icml-2026`
 - [SGMD — score gradient matching video distillation (arXiv:2605.30116)](sources/arxiv-2605-30116-sgmd-score-gradient-matching-distillation.md) — DMD2 alternative; ~3× train speedup — `paper, video-generation, distillation, few-step, wan`
 - [Personality sliders — SAS inference-time LLM steering (arXiv:2603.03326)](sources/arxiv-2603-03326-personality-sliders-llm-inference-time.md) — Big Five composable activation steering — `paper, persona-ops, llm, activation-steering`
+- [CPE — mechanistically eliciting latent behaviors in LLMs (arXiv:2606.29604)](sources/arxiv-2606-29604-causal-perturbative-elicitation-llm.md) — unsupervised low-rank weight-space adapters for hidden LLM behavior modes; persona-ops reference, Phase-0 WATCH — `paper, persona-ops, llm, activation-steering, alignment`
+- [QWERTY — query-warped video motion control (arXiv:2607.01869)](sources/arxiv-2607-01869-qwerty-query-warped-video-motion-control.md) — training-free mask/flow motion control for Wan2.2 and CogVideoX via semantic query warping — `paper, video-generation, motion-control, training-free, wan`
+- [Flux.2 Klein 9B MatchingPose — Hugging Face model card](sources/hf-flux2-klein-9b-matchingpose.md) — mannequin-to-character FLUX.2 Klein pose-transfer LoRA; Phase-0 GO smoke-test — `model-card, lora, flux2, klein, pose-transfer`
 - [EMOSH — motion-shape disentangled human animation (arXiv:2606.28026)](sources/arxiv-2606-28026-emosh-expressive-motion-shape-disentanglement.md) — EHM mesh retarget on Wan2.1-I2V; ECCV 2026 — `paper, human-animation, avatar, motion-disentanglement, tencent`
 - [Prob-BBDM — MRI Brownian bridge translation (arXiv:2606.24313)](sources/arxiv-2606-24313-prob-bbdm-mri-sequence-translation.md) — 4-step BBDM MRI i2i; peripheral — `paper, medical-imaging, img2img, peripheral`
 - [Deepfake gen+det survey — generative AI era (arXiv:2411.19537)](sources/arxiv-2411-19537-deepfake-generation-detection-survey.md) — BioDeepAV OOD benchmark; POI detection — `survey, deepfake, detection, security, persona-ops`
@@ -201,6 +204,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [FLUX.1 Redux](entities/adapters/flux-redux.md) — BFL image-variation / composition adapter; pairs with PuLID II as the dual-node identity-and-composition stack — `adapter, image-variation, flux, black-forest-labs` ⚠ stub
 - [FLUX.1 Kontext](entities/adapters/flux-kontext.md) — BFL prompt-driven image-edit; canonical hair-override pass after PuLID; Character Turnaround Sheet LoRA backbone — `adapter, image-edit, flux, black-forest-labs` ⚠ stub
 - [FLUX.2 Klein 9B face-swap workflow](entities/adapters/flux2-klein-9b-faceswap.md) — multi-pass NSFW pipeline using Klein 9B as post-generation face-swap engine; modal mitigation #3 for NSFW anatomy degradation — `adapter, face-swap, flux2, klein, nsfw-isolation` ⚠ stub
+- [FLUX.2 Klein 9B MatchingPose LoRA](entities/adapters/flux2-klein-matchingpose.md) — Apache-2.0 mannequin-pose transfer LoRA for FLUX.2 Klein 9B; trigger `matchingpose9b`; smoke-test for repeatable persona master-frame poses — `adapter, lora, flux2, klein, pose-transfer`
 
 (other expected adapters: Hyper LoRA, ACE-Plus, Mickmumpitz Consistent Character Creator)
 
@@ -381,6 +385,8 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Self-prompting scene text editing (MSTEdit)](concepts/self-prompting-scene-text-editing.md) — FLUX-Fill style-preserving glyph swap — `image-editing, text-rendering, glyph-control, flux`
 - [Score gradient matching video distillation (SGMD)](concepts/score-gradient-matching-video-distillation.md) — DMD2 alternative for few-step Wan distill — `video-generation, distillation, few-step, training`
 - [Sequential adaptive personality steering (SAS)](concepts/sequential-adaptive-personality-steering.md) — Big Five inference-time LLM sliders — `persona-ops, llm, activation-steering, alignment`
+- [Causal Perturbative Elicitation for LLM Behavior Modes](concepts/causal-perturbative-elicitation-llm.md) — weight-space low-rank adapter discovery for hidden LLM personas / sandbagging / alignment-faking modes; research-watch for local DM stack — `persona-ops, llm, activation-steering, lora`
+- [Query-Warped Video Motion Control](concepts/query-warped-video-motion-control.md) — inference-time semantic query warping for object/camera motion control in Wan/CogVideoX I2V DiTs — `video-generation, motion-control, training-free, i2v`
 - [Motion-shape disentangled human animation (EMOSH)](concepts/motion-shape-disentangled-human-animation.md) — EHM retarget for cross-driven full-body clips — `human-animation, avatar, motion-disentanglement, persona-ops`
 - [Brownian bridge medical image translation](concepts/brownian-bridge-medical-image-translation.md) — Prob-BBDM MRI i2i; peripheral — `img2img, brownian-bridge, medical-imaging, peripheral`
 - [Generative-AI-era deepfake landscape](concepts/generative-ai-era-deepfake-landscape.md) — diffusion-era fake taxonomy + detector OOD gap — `deepfake, detection, security, persona-ops`

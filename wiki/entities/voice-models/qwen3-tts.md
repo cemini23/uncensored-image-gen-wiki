@@ -9,9 +9,11 @@ related:
   - entities/voice-models/cosyvoice2.md
   - sources/persona-ops-stack-2026.md
   - entities/voice-models/barewave.md
+  - concepts/persona-ops-stack.md
+  - sweeps/2026-07-04-daily.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-11
+updated: 2026-07-04
 ---
 
 ## Relations
@@ -20,6 +22,7 @@ updated: 2026-06-11
 @entities/persona-ops/fish-speech.md
 @entities/voice-models/cosyvoice2.md
 @sources/persona-ops-stack-2026.md
+@concepts/persona-ops-stack.md
 
 ## Raw Concept
 
@@ -31,14 +34,16 @@ Page prompted by the W4 Tier 2 voice/audio backfill (2026-05-13). Named in @conc
 
 **Qwen3-TTS** is Alibaba Qwen team's open-source multilingual TTS, part of the broader Qwen3 family ecosystem (LLM + multimodal + audio). Built on top of the Qwen3 backbone for text understanding and pairs with a neural codec / vocoder for audio synthesis. Eastern Vanguard openness posture (Alibaba's Tongyi MAI direction): permissive weight release, no NSFW guardrails at the model level.
 
-### Key facts (May 2026)
+### Key facts (confirmed July 2026)
 
-- **License**: Apache-2.0-class **OR** Tongyi Qianwen License [NEEDS VERIFICATION 2026-05-13] — Qwen family historically uses Tongyi License for some models (commercial use under registration) and Apache 2.0 for others
-- **Repo / HF**: `QwenLM/Qwen3-TTS` or `Qwen/Qwen3-TTS` namespace [NEEDS VERIFICATION 2026-05-13]
-- **Architecture**: Qwen3 LLM backbone + neural-codec audio token head [NEEDS VERIFICATION 2026-05-13]
-- **Languages**: broad multilingual (Chinese, English, Japanese, Korean, Spanish, French, etc.) — exact list [NEEDS VERIFICATION 2026-05-13]
+- **License**: Apache-2.0 for the public repo and released weights [CONFIRMED 2026-07-04]
+- **Repo / HF**: `QwenLM/Qwen3-TTS`; released HF models under `Qwen/Qwen3-TTS-*` [CONFIRMED 2026-07-04]
+- **Released models**: 12Hz tokenizer plus 0.6B and 1.7B Base / CustomVoice / VoiceDesign variants [CONFIRMED 2026-07-04]
+- **Architecture**: discrete multi-codebook LM TTS stack with 12Hz tokenizer; supports streaming and non-streaming generation [CONFIRMED 2026-07-04]
+- **Languages**: Chinese, English, Japanese, Korean, German, French, Russian, Portuguese, Spanish, Italian [CONFIRMED 2026-07-04]
+- **Latency**: claims first audio packet as low as 97ms for streaming path [TENTATIVE 2026-07-04]
 - **Strength**: multilingual quality consistency across languages; inherits Qwen3's strong text understanding
-- **Weakness vs Fish-Speech**: less emotion control [Source: @concepts/persona-audio-stack.md]
+- **Weakness vs Fish-Speech**: less mature persona-ops ecosystem; 25Hz checkpoints from the technical report still appear unreleased on HF as of July 2026 [TENTATIVE 2026-07-04]
 
 ### Positioning vs other voice clones
 
@@ -52,8 +57,8 @@ Page prompted by the W4 Tier 2 voice/audio backfill (2026-05-13). Named in @conc
 
 ### Operator notes
 
-- **Multi-language persona** (e.g. content split between English + Spanish + Mandarin): Qwen3-TTS is a stronger fit than Fish-Speech only if Fish-Speech's specific language coverage is weak — most operators don't need this breadth
-- **License risk**: if Tongyi License applies, commercial use may require Alibaba registration above a revenue threshold — pattern similar to @entities/sfx-models/stable-audio-open.md Community License
+- **Multi-language persona** (e.g. content split between English + Spanish + Mandarin): Qwen3-TTS is now a credible fully open-source fallback, especially if 3-second cloning + streaming matters more than Fish's emotion tagging.
+- **License risk**: May 2026 Tongyi-license uncertainty is resolved for the public Qwen3-TTS repo/weights: Apache-2.0.
 - **Integration maturity**: lower than Fish-Speech / CosyVoice2 in SillyTavern / n8n connector libraries as of May 2026
 
 ## Snippets
@@ -61,6 +66,9 @@ Page prompted by the W4 Tier 2 voice/audio backfill (2026-05-13). Named in @conc
 > "Qwen3-TTS — Strong multilingual, open source. Less emotion control than Fish."
 [Source: @concepts/persona-audio-stack.md Layer 1 alternates table]
 
+> "Qwen3-TTS covers 10 major languages ... and supports stable, expressive, and streaming speech generation, free-form voice design, and vivid voice cloning."
+[Source: github.com/QwenLM/Qwen3-TTS (retrieved 2026-07-04)]
+
 ## Dead Ends
 
-- **Qwen3-TTS for single-language English persona where emotional range matters**: pick Fish-Speech S2 Pro instead — Qwen3-TTS's multilingual breadth is wasted and its emotion control is weaker.
+- **Qwen3-TTS for single-language English persona where emotional range matters**: pick Fish-Speech S2 Pro first — Qwen3-TTS's multilingual breadth is wasted unless Apache-2.0 purity or low-latency streaming is the binding constraint.

@@ -28,9 +28,10 @@ related:
   - entities/uis/comfyui.md
   - concepts/video-reference-avatar-generation.md
   - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
+  - entities/adapters/flux2-klein-matchingpose.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-06-16
+updated: 2026-07-04
 ---
 
 ## Relations
@@ -56,6 +57,7 @@ updated: 2026-06-16
 @entities/marketplaces/civitai.md
 @sources/ai-content-factory-workflow-design.md
 @sources/mac-studio-ai-content-factory-design.md
+@entities/adapters/flux2-klein-matchingpose.md
 
 ## Raw Concept
 
@@ -66,6 +68,8 @@ Entity stub created during back-fill of @sources/synthetic-character-consistency
 ### What it is
 
 **PuLID** ("Pure and Lightning ID Customization") — face identity adapter from **ByteDance**. Same idea as IP-Adapter FaceID but with a cleaner training objective that keeps the face embedding more disentangled from style, lighting, and pose attributes ("ID-only" instead of "holistic image"). [Source: [github.com/ToTheBeginning/PuLID](https://github.com/ToTheBeginning/PuLID)]
+
+**2026-07-04 companion note:** MatchingPose (@entities/adapters/flux2-klein-matchingpose.md) should not replace PuLID. Use PuLID/native FLUX references for identity lock, then MatchingPose when the body pose itself needs a clean mannequin-derived control signal.
 
 Three lineage stages:
 

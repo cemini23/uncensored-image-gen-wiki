@@ -95,19 +95,22 @@ related:
   - entities/models/hunyuanimage-3-0.md
   - sources/arxiv-2509-23951-hunyuanimage-3-0-technical-report.md
   - sources/arxiv-2606-27376-ask-solve-generate-self-evolving-multimodal.md
+  - sources/hf-flux2-klein-9b-matchingpose.md
+  - entities/adapters/flux2-klein-matchingpose.md
 title: Persona consistency methods (umbrella)
 type: concept
 tags: [persona-consistency, methods, taxonomy, identity-injection]
 keywords: [character LoRA, identity adapter, Character DNA, multi-angle dataset, two-pass inpaint, reference plus LoRA stack, face anchor seed]
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-30
+updated: 2026-07-04
 ---
 
 
 ## Relations
 
 @sources/synthetic-character-consistency-survey.md
+@entities/adapters/flux2-klein-matchingpose.md
 @sources/video-generation-survey-2026.md
 @concepts/lora-taxonomy.md
 @concepts/multi-angle-dataset-prep.md
@@ -207,6 +210,8 @@ The most robust zero-shot method — no upstream training per character — laye
 ### Axis 3 — Multi-angle / multi-pose dataset prep
 
 Three canonical workflows, ordered by quality:
+
+**2026-07-04 addition:** @entities/adapters/flux2-klein-matchingpose.md is a practical pose-control shortcut for FLUX.2 Klein: convert pose references to clean mannequins, then transfer that pose onto the persona with trigger `matchingpose9b`. It does not replace a multi-angle dataset, but it is a strong smoke-test path before training more LoRAs.
 
 1. **Wan 2.2 I2V frame extraction** — feed one frontal headshot to Wan 2.2 image-to-video, prompt slow zoom-out + rotate, save 30-60 frames at varied poses. Wan 2.2's MoE architecture preserves first-frame identity through 5-8 sec, so the frames double as a turnaround dataset locked to one identity. The "VACE" variant adds depth/pose ControlNet for stricter framing.
 2. **Mickmumpitz Consistent Character Creator 3.8** — leading 2026 framework. Uses **Qwen-Image-Edit-2511** (FP8/GGUF) with explicit azimuth/elevation queries to the Qwen 2.5-VL encoder, output up to **96 precise camera angles** including notoriously difficult direct-back, profile, extreme high-angle. Generation order strictly enforced (front → 3/4 → profile → back), successful generations fed back into the reference pool as a reinforcement loop.

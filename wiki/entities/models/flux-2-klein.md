@@ -30,9 +30,11 @@ related:
   - entities/uis/automatic1111.md
   - entities/uis/comfyui.md
   - entities/uis/forge.md
+  - sources/hf-flux2-klein-9b-matchingpose.md
+  - entities/adapters/flux2-klein-matchingpose.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-05-07
+updated: 2026-07-04
 ---
 
 ## Relations
@@ -62,6 +64,7 @@ updated: 2026-05-07
 @entities/marketplaces/civitai.md
 @entities/uis/automatic1111.md
 @entities/uis/forge.md
+@entities/adapters/flux2-klein-matchingpose.md
 
 ## Raw Concept
 
@@ -89,6 +92,8 @@ The FLUX.2 generation segments by **parameter scale** rather than just license:
 | **FLUX.2 Klein 4B** | 4B | 8–13 GB | 8 GB tier bridge |
 
 This page covers the Klein distills. Klein 9B has its own role as the **face-swap engine** in NSFW workflows — see @entities/adapters/flux2-klein-9b-faceswap.md.
+
+**2026-07-04 adoption:** @entities/adapters/flux2-klein-matchingpose.md is a narrow Klein 9B LoRA for mannequin-to-character pose transfer. It is not a base-model upgrade, but it is a practical companion to Klein's native multi-reference/face-swap role.
 
 ### Why creators use it
 

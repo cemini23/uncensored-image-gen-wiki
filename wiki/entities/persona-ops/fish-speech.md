@@ -34,9 +34,10 @@ related:
   - sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md
   - entities/voice-models/confucius4-tts.md
   - concepts/generative-ai-era-deepfake-landscape.md
+  - sweeps/2026-07-04-daily.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-30
+updated: 2026-07-04
 ---
 
 ## Relations
@@ -74,6 +75,12 @@ Synthesized from @sources/persona-ops-stack-2026.md.
 | Coqui XTTS | Open-source (legacy) | Older arch, surpassed | Yes (but legacy) |
 
 Fish-Speech S2 Pro is the **default recommendation** for NSFW persona-ops voice cloning as of May 2026.
+
+### OpenAudio S1 / S1-mini check (2026-07-04)
+
+The sweep surfaced **OpenAudio S1** from Fish Audio: 4B full model on Fish Audio cloud and **S1-mini 0.5B** on Hugging Face. It supports 13 languages and parenthesized emotion/tone/effect markers such as `(angry)`, `(whispering)`, `(chuckling)`.
+
+Operator verdict: **do not replace Fish-Speech S2 Pro**. Treat S1-mini as a lightweight experiment for fast local TTS and emotion-tag prompting; S2 Pro remains the default voice-clone quality layer for paid persona voice notes.
 
 ### Capabilities
 
@@ -125,6 +132,9 @@ Voice notes carry a high premium on Fanvue / OF — they're harder to fake at sc
 
 > "ElevenLabs Flash v2.5 has 75-150ms latency and top-tier SFW quality but is NSFW-banned at platform level."
 [Source: AI Persona Operations Software Stack.docx Section 4 (retrieved 2026-05-06)]
+
+> "S1-mini (0.5B) — a distilled version for resource-constrained environments, available on Hugging Face."
+[Source: fish.audio/blog/introducing-s1 (retrieved 2026-07-04)]
 
 ## Dead Ends
 

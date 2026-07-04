@@ -10,14 +10,16 @@ related:
   - concepts/llm-interaction-style-governance.md
   - concepts/cross-model-safety-steering.md
   - concepts/activation-steering-video-generation.md
+  - sources/arxiv-2606-29604-causal-perturbative-elicitation-llm.md
+  - concepts/causal-perturbative-elicitation-llm.md
 maturity: draft
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-07-04
 ---
 
 ## Relations
 
-@sources/arxiv-2603-03326-personality-sliders-llm-inference-time.md @entities/persona-ops/sillytavern.md @concepts/persona-ops-stack.md
+@sources/arxiv-2603-03326-personality-sliders-llm-inference-time.md @entities/persona-ops/sillytavern.md @concepts/persona-ops-stack.md @concepts/causal-perturbative-elicitation-llm.md
 
 ## Raw Concept
 
@@ -38,6 +40,8 @@ Ingest 2026-06-27 from Hoppe et al. (arXiv:2603.03326) — composable Big Five s
 ### Build-track note
 
 No open weights/vectors at ingest. Watch for release compatible with abliterated local chat models used in persona DMs.
+
+**2026-07-04 contrast:** @concepts/causal-perturbative-elicitation-llm.md is the weight-space cousin of SAS. SAS promises composable residual-stream sliders; CPE learns low-rank adapters that can elicit latent behavioral modes from tiny prompt sets. Both are watch items until they have stable local-LLM hooks.
 
 ## Snippets
 

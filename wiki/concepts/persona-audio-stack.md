@@ -73,7 +73,7 @@ related:
   - concepts/generative-ai-era-deepfake-landscape.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-06-30
+updated: 2026-07-04
 ---
 
 ## Relations
@@ -175,6 +175,8 @@ Already documented in @entities/persona-ops/fish-speech.md. Key facts as of May 
 | **Budget / 8 GB VRAM / quick testing** | CosyVoice2-0.5B or Chatterbox |
 | **Multi-language persona** | Fish-Speech S2 Pro (80+ languages) |
 | **Fully open source (no license concerns)** | Qwen3-TTS or F5-TTS |
+
+**2026-07-04 update:** Qwen3-TTS is confirmed Apache-2.0 with released 12Hz 0.6B/1.7B Base / CustomVoice / VoiceDesign checkpoints. Use it when license purity, multilingual coverage, or streaming is more important than Fish-Speech's mature persona-ops quality. OpenAudio S1-mini is a Fish Audio 0.5B lightweight side path; do not replace Fish-Speech S2 Pro with it for premium voice notes.
 
 #### Dead end: ElevenLabs
 

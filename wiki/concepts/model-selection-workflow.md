@@ -51,9 +51,11 @@ related:
   - entities/custom-nodes/lora-optimizer.md
   - entities/models/hunyuanimage-3-0.md
   - sources/arxiv-2509-23951-hunyuanimage-3-0-technical-report.md
+  - sources/hf-flux2-klein-9b-matchingpose.md
+  - entities/adapters/flux2-klein-matchingpose.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-07-02
+updated: 2026-07-04
 ---
 
 ## Relations
@@ -97,6 +99,7 @@ updated: 2026-07-02
 @runbooks/runpod-comfyui-setup.md
 @concepts/persona-audio-stack.md
 @entities/voice-models/cosyvoice2.md @entities/voice-models/kokoro.md @entities/voice-models/indextts-2.md @entities/voice-models/chatterbox.md
+@entities/adapters/flux2-klein-matchingpose.md
 
 ## Raw Concept
 
@@ -134,6 +137,8 @@ Answer these three questions:
 | **Photorealistic SFW / soft-NSFW** | FLUX.1 Dev, Z-Image Turbo | High-fidelity faces and skin; minimal censorship tier; works with identity adapters |
 | **Photorealistic explicit** | NoobAI-XL, Lustify, Chroma1-HD, FLUX.2 Klein 9B | NSFW-trained bases that handle anatomy without mode collapse; need adapter stack for face fidelity |
 | **Artistic / painterly / fashion** | FLUX.1 Dev, FLUX.2 Klein | Strong composition and lighting from DiT architecture; good for non-photographic aesthetics |
+
+**Pose-transfer add-on (2026-07-04):** if the goal is repeatable pose across outfit/character variants on FLUX.2 Klein, smoke-test @entities/adapters/flux2-klein-matchingpose.md before training a new pose/control LoRA. It is a narrow add-on to the Sweet Spot / Frontier FLUX.2 Klein stack, not a replacement for identity adapters.
 
 #### B. Do you need video?
 

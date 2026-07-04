@@ -27,18 +27,20 @@ related:
   - concepts/ray-space-positional-encoding-video.md
   - sources/arxiv-2602-22960-ucm-camera-control-memory-world-models.md
   - concepts/ucm-time-aware-pe-warping-world-models.md
+  - sources/arxiv-2607-01869-qwerty-query-warped-video-motion-control.md
+  - concepts/query-warped-video-motion-control.md
 title: Camera-Controlled Video Generation
 type: concept
 tags: [concept, video-generation, camera-control, 6-dof, conditioning]
 keywords: [camera control, 6-DoF camera trajectory, Plucker coordinates, Plucker mixing, UCPE, dual-branch camera control, metric-scale camera pose, camera conditioning, temporal VAE stride, revisit trajectory]
 maturity: draft
 created: 2026-05-16
-updated: 2026-07-02
+updated: 2026-07-04
 ---
 
 ## Relations
 
-@sources/sana-wm-minute-scale-world-model.md @entities/models/sana-wm.md @concepts/world-models-video-generation.md @entities/models/prisma-world.md @concepts/multi-agent-cross-view-video-world-models.md
+@sources/sana-wm-minute-scale-world-model.md @entities/models/sana-wm.md @concepts/world-models-video-generation.md @entities/models/prisma-world.md @concepts/multi-agent-cross-view-video-world-models.md @concepts/query-warped-video-motion-control.md
 
 ## Raw Concept
 
@@ -49,3 +51,5 @@ Stub created during the cross-wiki ingest of NVIDIA's SANA-WM paper (@sources/sa
 **Camera-controlled video generation** conditions a video model on an explicit 6-DoF camera trajectory (position + orientation) so the synthesized video follows a chosen motion path through the scene. A core difficulty: aggressive temporal VAE compression collapses many raw frames into one latent token, destroying fine camera motion. SANA-WM's answer is **dual-branch camera control** — a latent-rate UCPE branch capturing global trajectory structure plus a raw-frame Plücker mixing branch that restores fine motion inside each temporal VAE stride. Accurate **metric-scale** pose annotation (consistent real-world units) is a prerequisite, which is why SANA-WM built a dedicated pose-recovery annotation pipeline. → @entities/models/sana-wm.md
 
 **2026-07-02 additions:** **RayPE** (@concepts/ray-space-positional-encoding-video.md) injects Plücker rays directly into Wan2.2 self-attention Q/K (zero-init). **UCM** (@concepts/ucm-time-aware-pe-warping-world-models.md) warps 3D PEs of memory frames for world-model revisit consistency.
+
+**2026-07-04 addition:** **QWERTY** (@concepts/query-warped-video-motion-control.md) is the inference-time branch of the same camera-control story: derive optical flow from depth + camera pose, then warp semantic query channels during early denoising instead of training a camera-control module.

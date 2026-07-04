@@ -16,13 +16,15 @@ related:
   - concepts/multi-view-3d-consistent-world-models.md
   - entities/benchmarks/geot2v-bench.md
   - sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md
+  - sources/arxiv-2607-01869-qwerty-query-warped-video-motion-control.md
+  - concepts/query-warped-video-motion-control.md
 title: CogVideoX 1.5 / 2.0 (THUDM / Zhipu AI)
 type: entity
 tags: [model, video, dit, cogvideox, thudm, zhipu, apache-2-0, eastern-vanguard, low-vram]
 keywords: [cogvideox, cogvideox-1-5, cogvideox-2-0, thudm, zhipu, qingying, 5b, 3d-vae, torchao-int8, 7gb, 8gb-vram, apache-2.0, latent-space-probing, cogsound]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-24
+updated: 2026-07-04
 ---
 
 ## Relations
@@ -30,6 +32,7 @@ updated: 2026-06-24
 @sources/video-generation-survey-2026.md @entities/models/wan-2-2.md @concepts/synthetic-media-compute-economics.md @concepts/seam-stitching-strategies.md @concepts/de-censoring-techniques.md @concepts/censorship-tier-taxonomy.md
 @concepts/model-selection-workflow.md
 @entities/models/open-sora.md
+@concepts/query-warped-video-motion-control.md
 
 ## Raw Concept
 
@@ -47,6 +50,8 @@ Synthesized from @sources/video-generation-survey-2026.md.
 - **Strong prompt adherence** [CONFIRMED]
 
 [Source: Video Generation Models Survey 2026.docx p.2-3, citing alphaneural.io/assets/THUDM/CogVideoX1.5-5B + news.aibase.com/news/13101]
+
+**2026-07-04 control watch:** QWERTY (@concepts/query-warped-video-motion-control.md) reports implementation on **CogVideoX-I2V-5B** as well as Wan 2.2. CogVideoX remains the low-VRAM testbed if QWERTY code appears before a Wan ComfyUI port.
 
 ### CogVideoX 2.0 / Qingying 2.0
 

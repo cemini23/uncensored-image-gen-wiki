@@ -82,9 +82,11 @@ related:
   - concepts/input-stable-sparse-attention-video.md
   - entities/models/hunyuanimage-3-0.md
   - sources/arxiv-2509-23951-hunyuanimage-3-0-technical-report.md
+  - sources/hf-flux2-klein-9b-matchingpose.md
+  - entities/adapters/flux2-klein-matchingpose.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-06-27
+updated: 2026-07-04
 read_status: deep-read
 provenance:
   stub: false
@@ -118,6 +120,7 @@ provenance:
 
 @concepts/persona-audio-stack.md
 @entities/lipsync/latentsync.md @entities/lipsync/musetalk.md @entities/lipsync/wav2lip.md
+@entities/adapters/flux2-klein-matchingpose.md
 
 ## Raw Concept
 
@@ -226,6 +229,12 @@ Install all by cloning into the `custom_nodes/` directory, then restart ComfyUI.
 [Base Image] → Face Detection (Impact-Pack) → [Face Crop]
 [Face Crop] + [Klein 9B] → Face Swap Node → [Face-Swapped Image]
 [Face-Swapped Image] → Detailer (Impact-Pack) → [Final Output]
+```
+
+**FLUX.2 Klein mannequin pose-transfer pipeline** (per @entities/adapters/flux2-klein-matchingpose.md):
+```
+[Pose Reference] → [Mannequin LoRA] → [Clean Mannequin Pose]
+[Clean Mannequin Pose] + [Character Reference] + [MatchingPose LoRA: matchingpose9b] → [Pose-matched Persona Still]
 ```
 
 ### API / Automation

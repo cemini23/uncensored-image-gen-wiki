@@ -44,13 +44,17 @@ related:
   - concepts/entity-centric-cinematic-video-conditioning.md
   - concepts/lightweight-video-history-embeddings.md
   - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
+  - sources/arxiv-2607-01869-qwerty-query-warped-video-motion-control.md
+  - concepts/query-warped-video-motion-control.md
+  - sources/hf-flux2-klein-9b-matchingpose.md
+  - entities/adapters/flux2-klein-matchingpose.md
 title: Video identity inheritance (I2V from static master)
 type: concept
 tags: [persona-consistency, i2v, identity-inheritance, video-workflow, clip-vision-encoder, master-image]
 keywords: [i2v, image-to-video, identity-inheritance, master-image, clip-vision-encoder, raw-pixel-initialization, pulid-anchor, airt-machine, seedance, kling, wan, hunyuan, persona-consistency]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-25
+updated: 2026-07-04
 ---
 
 
@@ -63,6 +67,7 @@ updated: 2026-06-25
 @concepts/persona-audio-stack.md
 @entities/lipsync/latentsync.md @entities/lipsync/musetalk.md @entities/lipsync/sadtalker.md @entities/lipsync/liveportrait.md
 @concepts/2026-05-13_gracia-ai-volumetric-video.md — volumetric video, an adjacent generative-media surface
+@concepts/query-warped-video-motion-control.md @entities/adapters/flux2-klein-matchingpose.md
 
 ## Raw Concept
 
@@ -120,6 +125,10 @@ This bridges the gap between static reference and temporal diffusion — the LLM
 - **Master with PuLID II strength too high (>0.55)** → master locks identity rigidly; I2V refuses meaningful pose change
 - **Master with PuLID II strength too low (<0.35)** → identity drifts across video clip even with CLIP Vision encoder
 - **Wan 2.2 base model on NSFW master** → master frame is preserved but downstream frames artifact (anatomy scrubbed) → use abliterated text encoder + NSFW LoRA stack on Wan, or generate master on FLUX/Qwen and let identity ride through the I2V's CLIP Vision pathway
+
+### 2026-07-04 pose/motion control additions
+
+**MatchingPose** (@entities/adapters/flux2-klein-matchingpose.md) belongs before I2V: use it to generate clean FLUX.2 Klein master frames in repeatable mannequin-derived poses. **QWERTY** (@concepts/query-warped-video-motion-control.md) belongs inside I2V: once code ships, it should let Wan/CogVideoX follow object/camera motion with early-step query guidance while preserving the master-frame identity.
 
 ## Snippets
 

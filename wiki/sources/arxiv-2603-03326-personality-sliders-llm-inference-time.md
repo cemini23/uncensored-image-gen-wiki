@@ -11,15 +11,17 @@ related:
   - concepts/cross-model-safety-steering.md
   - concepts/domain-sensitive-llm-over-alignment.md
   - sweeps/2026-06-27-daily.md
+  - concepts/causal-perturbative-elicitation-llm.md
+  - sources/arxiv-2606-29604-causal-perturbative-elicitation-llm.md
 maturity: draft
 read_status: read
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-07-04
 ---
 
 ## Relations
 
-@concepts/sequential-adaptive-personality-steering.md @entities/persona-ops/sillytavern.md @concepts/persona-ops-stack.md
+@concepts/sequential-adaptive-personality-steering.md @entities/persona-ops/sillytavern.md @concepts/persona-ops-stack.md @concepts/causal-perturbative-elicitation-llm.md
 
 ## Raw Concept
 
@@ -40,6 +42,8 @@ updated: 2026-06-27
 **Fix:** train probes sequentially on residual streams **already shifted** by prior trait interventions → orthogonalized steering primitives composable via coefficients α.
 
 Alternative to per-persona SFT/RLHF for SillyTavern-style DM stacks. Phase-0: **Skipped** — no public implementation repo at ingest.
+
+2026-07-04 follow-up: CPE (@sources/arxiv-2606-29604-causal-perturbative-elicitation-llm.md) attacks a nearby problem with low-rank weight perturbations instead of residual-stream sliders. For operator planning, SAS remains more likely to become an inference-time UI control; CPE is a heavier model-audit / adapter-discovery path.
 
 ## Snippets
 

@@ -1,3 +1,31 @@
+## [2026-07-04] ingest | CPE, QWERTY, MatchingPose, Qwen3-TTS/OpenAudio triage
+
+Daily sweep full ingest for 2026-07-04.
+
+### Created
+
+- `wiki/sources/arxiv-2606-29604-causal-perturbative-elicitation-llm.md` — CPE paper; LLM weight-space behavior elicitation; Phase-0 **WATCH** (`amack315/cpe`, no license metadata, 1★)
+- `wiki/concepts/causal-perturbative-elicitation-llm.md` — CPE concept page, positioned as persona-ops research-watch rather than current DM-stack adoption
+- `wiki/sources/arxiv-2607-01869-qwerty-query-warped-video-motion-control.md` — QWERTY paper; training-free Wan/CogVideoX query-warped motion control; Phase-0 **WATCH** (no public repo)
+- `wiki/concepts/query-warped-video-motion-control.md` — inference-time DiT query-warping concept for mask/object and optical-flow/camera control
+- `wiki/sources/hf-flux2-klein-9b-matchingpose.md` — HF model-card source for Flux.2 Klein MatchingPose
+- `wiki/entities/adapters/flux2-klein-matchingpose.md` — Phase-0 **GO (smoke-test)** adapter entity; trigger `matchingpose9b`
+
+### Updated
+
+- `wiki/sweeps/2026-07-04-daily.md` — added frontmatter, ingested marker, and manual-row decisions
+- `wiki/entities/voice-models/qwen3-tts.md` — resolved stale May verification stubs: Apache-2.0, `QwenLM/Qwen3-TTS`, 12Hz 0.6B/1.7B release set, 10 languages
+- `wiki/entities/persona-ops/fish-speech.md` + `wiki/concepts/persona-audio-stack.md` — OpenAudio S1-mini classified as lightweight experiment, not Fish-Speech S2 Pro replacement
+- `wiki/entities/models/wan-2-2.md`, `wiki/entities/models/cogvideox-1-5.md`, `wiki/concepts/camera-controlled-video-generation.md`, `wiki/concepts/video-identity-inheritance.md` — QWERTY watch hooks
+- `wiki/entities/models/flux-2-klein.md`, `wiki/entities/adapters/pulid.md`, `wiki/entities/adapters/flux2-klein-9b-faceswap.md`, `wiki/concepts/persona-consistency-methods.md`, `wiki/entities/uis/comfyui.md`, `wiki/concepts/model-selection-workflow.md` — MatchingPose adoption path
+- `wiki/index.md` — added new source, concept, and adapter rows
+
+### Brief / routing
+
+- Created local adoption brief `briefs/2026-07-04_flux2-matchingpose-qwen3tts-adoption.md`.
+- Checked `active_project_brief_targets.yaml`: this sweep does **not** map to XSP/PM/poker/DFS/castle/WC lanes; default posture is wiki-only, so no prod SCP.
+
+---
 # Wiki Log
 
 Append-only chronological operations log. Each entry: date + operation + summary + pages touched.

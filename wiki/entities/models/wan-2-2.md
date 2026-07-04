@@ -124,13 +124,15 @@ related:
   - concepts/ray-space-positional-encoding-video.md
   - sources/arxiv-2602-22960-ucm-camera-control-memory-world-models.md
   - concepts/ucm-time-aware-pe-warping-world-models.md
+  - sources/arxiv-2607-01869-qwerty-query-warped-video-motion-control.md
+  - concepts/query-warped-video-motion-control.md
 title: Wan 2.2 (Alibaba)
 type: entity
 tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]
 keywords: [wan2.2, wan-2-2, alibaba, mixture-of-experts, dual-expert, snr-routing, 27b, 14b, 5b, ti2v, apache-2.0, abliterated-text-encoder, mq-lab, blink, theyurilover]
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-02
+updated: 2026-07-04
 ---
 
 
@@ -144,6 +146,7 @@ updated: 2026-07-02
 
 @concepts/persona-audio-stack.md
 @entities/lipsync/latentsync.md
+@concepts/query-warped-video-motion-control.md
 
 ## Raw Concept
 
@@ -162,6 +165,8 @@ Synthesized from @sources/video-generation-survey-2026.md.
 - **Consumer variant**: TI2V-5B dense model bridges high-end workstations and enthusiast GPUs [CONFIRMED]
 
 [Source: Video Generation Models Survey 2026.docx p.1, citing github.com/Wan-Video/Wan2.2 (retrieved 2026-05-06)]
+
+**2026-07-04 control watch:** QWERTY (@concepts/query-warped-video-motion-control.md) implements training-free query-warped motion control on **Wan 2.2 TI2V-5B**. No public implementation was found at ingest, but a ComfyUI/diffusers port would be high priority for persona I2V motion control.
 
 ### Licensing and commercial posture
 

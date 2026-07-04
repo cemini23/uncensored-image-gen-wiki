@@ -15,9 +15,10 @@ related:
   - concepts/model-selection-workflow.md
   - entities/marketplaces/civitai.md
   - entities/uis/comfyui.md
+  - entities/adapters/flux2-klein-matchingpose.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-07-04
 ---
 
 ## Relations
@@ -34,6 +35,7 @@ updated: 2026-05-06
 @entities/adapters/characonsist.md
 @entities/marketplaces/civitai.md
 @entities/uis/comfyui.md
+@entities/adapters/flux2-klein-matchingpose.md
 
 ## Raw Concept
 
@@ -44,6 +46,8 @@ Entity stub from back-fill of @sources/synthetic-character-consistency-survey.md
 ### What it is
 
 **FLUX.2 Klein 9B** — distilled 9-billion-parameter variant of FLUX.2-Dev (32B) released by Black Forest Labs Nov 2025. Smaller, faster, and the cheapest *high-quality* face-LoRA training path of 2026 (~30 min on a 4060 Ti 16 GB per [r/StableDiffusion: Klein 9B 4060 16gb](https://www.reddit.com/r/StableDiffusion/comments/1rcc1cy/lora_klein_9b_fantastic_likeness_4060_16gb/)).
+
+**2026-07-04 companion note:** @entities/adapters/flux2-klein-matchingpose.md adds a body-pose control stage to the Klein toolbox. Face-swap is for identity; MatchingPose is for mannequin-derived pose fidelity.
 
 The **face-swap workflow** ([YouTube: ComfyUI Face Swap 2026: Flux Klein 9B](https://www.youtube.com/watch?v=fRUwgogoJNk)) is a multi-pass pipeline that uses Klein 9B as the face-swap engine after a separate base model generates the body composition:
 

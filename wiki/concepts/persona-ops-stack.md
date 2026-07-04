@@ -56,13 +56,16 @@ related:
   - sources/arxiv-2606-28026-emosh-expressive-motion-shape-disentanglement.md
   - concepts/motion-shape-disentangled-human-animation.md
   - entities/models/emosh.md
+  - entities/voice-models/qwen3-tts.md
+  - concepts/causal-perturbative-elicitation-llm.md
+  - sources/arxiv-2606-29604-causal-perturbative-elicitation-llm.md
 title: "Persona operations stack (architecture overview)"
 type: concept
 tags: [persona-ops, automation, stack-architecture, multi-account, dm-automation, voice-cloning, orchestration, content-pipelines]
 keywords: [persona-ops, scheduling, anti-detect-browsers, residential-proxies, sillytavern, local-llm, voice-cloning, n8n, orchestration, comfyui, fal-ai, replicate, modal, telegram, postiz]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-29
+updated: 2026-07-04
 ---
 
 ## Relations
@@ -81,6 +84,7 @@ updated: 2026-06-29
 @concepts/federated-daily-research-digest.md
 @seo-wiki/concepts/creator-marketing-foundations.md
 @seo-wiki/concepts/synthetic-creator-gtm.md
+@entities/voice-models/qwen3-tts.md @concepts/causal-perturbative-elicitation-llm.md
 
 ## Raw Concept
 
@@ -155,6 +159,7 @@ Anti-detect browser (Multilogin Pro 10) + residential proxy ──── Posting
 - **Distribution surface migration**: Reddit (April 2026 crackdown, ~200K accounts purged daily) and X (mass-suspension wave with FaceID biometric verification post-April 2026) drove operators toward Telegram as the durable channel. Fanvue / OnlyFans remain the gated monetization endpoints.
 - **NSFW LLM reality**: hosted-LLM NSFW capability is dead. Local Qwen 3 / Mistral 3 / Llama 4 via SillyTavern is the only reliable DM stack.
 - **Voice clone open-sourcing**: Fish-Speech S2 Pro and Qwen3-TTS now exceed ElevenLabs on TTS-Arena2 for cloning quality on short reference clips. The NSFW-banned Eleven workflow has been fully replaced.
+- **2026-07-04 voice/LLM steering update**: Qwen3-TTS is confirmed Apache-2.0 and viable as the fully open multilingual/streaming TTS fallback. CPE (@concepts/causal-perturbative-elicitation-llm.md) is only a research-watch path for future local chat model persona steering; do not adopt it in the DM stack yet.
 - **Cost arbitrage via Model Routers**: simple NLP tasks → cheap models (GPT-4o-mini class); complex reasoning → premium (Claude 3.5 Sonnet / GPT-5.4). Reported infrastructure savings 60-90%.
 
 ### Tier ladders
