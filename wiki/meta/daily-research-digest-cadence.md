@@ -39,13 +39,18 @@ related:
   - sweeps/2026-07-01-daily.md
   - sweeps/2026-07-02-daily.md
   - sweeps/2026-07-04-daily.md
+  - sweeps/2026-07-05-daily.md
+  - sweeps/2026-07-06-daily.md
+  - sweeps/2026-07-07-daily.md
+  - sweeps/2026-07-08-daily.md
+  - sweeps/2026-07-09-daily.md
 title: Daily research digest cadence (image-gen)
 type: concept
 tags: [meta, wiki, automation, discovery, k93]
 keywords: [daily-research-digest, exa, sweep, discovery, ingest-pipeline, launchagent]
 maturity: core
 created: 2026-06-01
-updated: 2026-07-04
+updated: 2026-07-09
 ---
 
 

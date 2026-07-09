@@ -19,6 +19,7 @@ related:
   - sources/arxiv-2606-19271-turboserve-streaming-video-serving.md
   - concepts/streaming-video-generation-serving.md
   - entities/models/turboserve.md
+  - concepts/mobile-wan-chunkwise-video-distillation.md
 maturity: draft
 created: 2026-06-11
 updated: 2026-06-20

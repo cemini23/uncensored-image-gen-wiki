@@ -15,6 +15,8 @@ related:
   - entities/uis/comfyui.md
   - concepts/persona-consistency-methods.md
   - sweeps/2026-07-01-daily.md
+  - sources/arxiv-2607-06173-mobilewan-mobile-video-diffusion.md
+  - concepts/mobile-wan-chunkwise-video-distillation.md
 maturity: draft
 created: 2026-07-01
 updated: 2026-07-01

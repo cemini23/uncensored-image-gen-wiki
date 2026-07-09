@@ -35,9 +35,10 @@ related:
   - entities/voice-models/confucius4-tts.md
   - concepts/generative-ai-era-deepfake-landscape.md
   - sweeps/2026-07-04-daily.md
+  - sweeps/2026-07-09-daily.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-04
+updated: 2026-07-09
 ---
 
 ## Relations
@@ -81,6 +82,10 @@ Fish-Speech S2 Pro is the **default recommendation** for NSFW persona-ops voice 
 The sweep surfaced **OpenAudio S1** from Fish Audio: 4B full model on Fish Audio cloud and **S1-mini 0.5B** on Hugging Face. It supports 13 languages and parenthesized emotion/tone/effect markers such as `(angry)`, `(whispering)`, `(chuckling)`.
 
 Operator verdict: **do not replace Fish-Speech S2 Pro**. Treat S1-mini as a lightweight experiment for fast local TTS and emotion-tag prompting; S2 Pro remains the default voice-clone quality layer for paid persona voice notes.
+
+### Fish Audio S2 news check (2026-07-09)
+
+Digest rows R9/R10 surface **Fish Audio S2** marketing around **word-level emotion control** and multilingual cloning. [TENTATIVE] Treat as confirmation that S2 remains the active Fish Audio open-weight line — not a new model family to migrate toward blindly. Re-verify against official Fish Audio release notes before changing production emotion-tag conventions; S2 Pro stays default until a documented S2 Pro → S2 delta is tested locally.
 
 ### Capabilities
 

@@ -29,6 +29,7 @@ related:
   - entities/marketplaces/civitai.md
   - entities/uis/automatic1111.md
   - entities/uis/comfyui.md
+  - concepts/stage-aware-lora-distribution-calibrated-selection.md
   - entities/uis/forge.md
   - sources/hf-flux2-klein-9b-matchingpose.md
   - entities/adapters/flux2-klein-matchingpose.md

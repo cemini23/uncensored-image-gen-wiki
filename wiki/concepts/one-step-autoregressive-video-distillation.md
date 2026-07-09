@@ -18,6 +18,8 @@ related:
   - concepts/cascaded-streaming-high-resolution-video.md
   - sources/arxiv-2606-18702-unitemp-bidirectional-video-generation.md
   - concepts/bidirectional-autoregressive-video-generation.md
+  - sources/arxiv-2607-06173-mobilewan-mobile-video-diffusion.md
+  - concepts/mobile-wan-chunkwise-video-distillation.md
   - sources/arxiv-2606-19271-turboserve-streaming-video-serving.md
   - concepts/streaming-video-generation-serving.md
   - concepts/score-gradient-matching-video-distillation.md

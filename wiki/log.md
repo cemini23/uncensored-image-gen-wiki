@@ -1,5 +1,32 @@
 ## [2026-07-04] ingest | CPE, QWERTY, MatchingPose, Qwen3-TTS/OpenAudio triage
 
+Daily sweep full ingest for 2026-07-09.
+
+### Created
+
+- `wiki/sources/arxiv-2607-04553-lights-camera-carbon-video-energy-scaling.md` — T2V/T2VA energy scaling laws; Phase-0 **REFERENCE**
+- `wiki/concepts/video-generation-energy-scaling-laws.md` — operator planning concept for batch video Wh/resolution tradeoffs
+- `wiki/sources/arxiv-2607-06173-mobilewan-mobile-video-diffusion.md` — Qualcomm MobileWan Wan2.2-5B mobile distillation; Phase-0 **WATCH** (no weights)
+- `wiki/concepts/mobile-wan-chunkwise-video-distillation.md` — recurrence + head-prune mobile video concept
+- `wiki/sources/arxiv-2607-07173-spara-dcal-subject-driven-personalization.md` — SPaRa–DCAL persona LoRA paper; Phase-0 **WATCH** (no repo), DCAL procedure **GO**
+- `wiki/concepts/stage-aware-lora-distribution-calibrated-selection.md` — stage-aware LoRA + calibrated multi-candidate selection
+
+### Updated
+
+- `wiki/sweeps/2026-07-09-daily.md` — frontmatter, ingested marker, inbox cleared
+- `wiki/entities/models/wan-2-2.md` — MobileWan watch + energy scaling hooks
+- `wiki/concepts/synthetic-media-compute-economics.md` — energy scaling law cross-link
+- `wiki/concepts/persona-consistency-methods.md`, `wiki/concepts/lora-taxonomy.md`, `wiki/concepts/video-identity-inheritance.md` — SPaRa–DCAL hooks
+- `wiki/entities/persona-ops/fish-speech.md` — Fish Audio S2 word-level emotion news triage (TENTATIVE, S2 Pro stays default)
+- `wiki/index.md` — new source + concept rows
+
+### Brief / routing
+
+- Created local adoption brief `briefs/2026-07-09_dcal-persona-video-energy-adoption.md`.
+- Checked `active_project_brief_targets.yaml`: wiki-only; no prod SCP.
+
+---
+
 Daily sweep full ingest for 2026-07-04.
 
 ### Created

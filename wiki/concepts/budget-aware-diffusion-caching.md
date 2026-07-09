@@ -11,6 +11,7 @@ related:
   - entities/models/wan-2-2.md
   - entities/models/hunyuanvideo-1-5.md
   - concepts/synthetic-media-compute-economics.md
+  - concepts/video-generation-energy-scaling-laws.md
   - concepts/one-step-autoregressive-video-distillation.md
   - sources/arxiv-2606-03972-aad-1-one-step-ar-video.md
   - sources/video-generation-survey-2026.md

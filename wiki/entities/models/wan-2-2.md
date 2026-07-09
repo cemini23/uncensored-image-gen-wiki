@@ -125,14 +125,19 @@ related:
   - sources/arxiv-2602-22960-ucm-camera-control-memory-world-models.md
   - concepts/ucm-time-aware-pe-warping-world-models.md
   - sources/arxiv-2607-01869-qwerty-query-warped-video-motion-control.md
+  - sources/arxiv-2607-06173-mobilewan-mobile-video-diffusion.md
+  - concepts/mobile-wan-chunkwise-video-distillation.md
+  - sources/arxiv-2607-04553-lights-camera-carbon-video-energy-scaling.md
+  - concepts/video-generation-energy-scaling-laws.md
   - concepts/query-warped-video-motion-control.md
+  - sweeps/2026-07-09-daily.md
 title: Wan 2.2 (Alibaba)
 type: entity
 tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]
 keywords: [wan2.2, wan-2-2, alibaba, mixture-of-experts, dual-expert, snr-routing, 27b, 14b, 5b, ti2v, apache-2.0, abliterated-text-encoder, mq-lab, blink, theyurilover]
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-04
+updated: 2026-07-09
 ---
 
 
@@ -147,6 +152,7 @@ updated: 2026-07-04
 @concepts/persona-audio-stack.md
 @entities/lipsync/latentsync.md
 @concepts/query-warped-video-motion-control.md
+@concepts/mobile-wan-chunkwise-video-distillation.md
 
 ## Raw Concept
 
@@ -214,6 +220,11 @@ Alibaba teased Wan 2.5 (native audio) and Wan 3.0 across late-2025 / early-2026 
 - **YoCausal** — Wan2.2-A14B ranks among top VDMs on causal wipe/clean tasks; large human gap remains → @sources/arxiv-yocausal-world-model-benchmark-2605-30346.md
 - **Proprio** — training-free physics best-of-N / refinement compatible with TurboWan2.2 class checkpoints → @sources/arxiv-proprio-physics-video-2605-28230.md
 - **MSAVBench** — Wan2.2 + HunyuanFoley (video-first dubbing) scores ~64–72 overall vs LTX-2.3 TI2AV ~72–75; drops **11.7%** from 1–4 to 11–15 shots. Validates that default persona stack (Wan video + separate audio) is weak on multi-cut dialogue → @concepts/multi-shot-audio-video-evaluation.md `[TENTATIVE]`
+
+### Mobile / distillation watch (2026-07-09)
+
+- **MobileWan** (Qualcomm, arXiv:2607.06173) distills **Wan2.2-5B** into chunk-wise autoregressive + head-pruned mobile inference (VBench 83.79 on phone-class NPU). **WATCH** — no open weights at ingest; laptop/RunPod path unchanged. → @concepts/mobile-wan-chunkwise-video-distillation.md
+- **Energy scaling** for batch planning: @concepts/video-generation-energy-scaling-laws.md from Lights, Camera, Carbon (2607.04553)
 
 ## Snippets
 

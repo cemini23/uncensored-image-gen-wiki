@@ -19,6 +19,7 @@ related:
   - entities/models/flux.md
   - entities/models/flux-1-dev.md
   - entities/models/flux-2-klein.md
+  - concepts/stage-aware-lora-distribution-calibrated-selection.md
   - entities/models/pony-v6.md
   - entities/models/pony-v7.md
   - concepts/de-censoring-techniques.md

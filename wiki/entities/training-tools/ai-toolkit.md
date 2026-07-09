@@ -21,6 +21,8 @@ related:
   - entities/models/wan-2-2.md
   - concepts/model-selection-workflow.md
   - entities/hardware/gpu-guide.md
+  - sources/arxiv-2607-07173-spara-dcal-subject-driven-personalization.md
+  - concepts/stage-aware-lora-distribution-calibrated-selection.md
 maturity: draft
 created: 2026-05-06
 updated: 2026-05-07

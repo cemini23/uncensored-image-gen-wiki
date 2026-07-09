@@ -12,6 +12,8 @@ related:
   - entities/uis/comfyui.md
   - entities/models/open-sora.md
   - concepts/synthetic-media-compute-economics.md
+  - sources/arxiv-2607-04553-lights-camera-carbon-video-energy-scaling.md
+  - concepts/video-generation-energy-scaling-laws.md
   - concepts/persona-audio-stack.md
   - entities/lipsync/latentsync.md
   - concepts/grpo-i2v-post-training.md

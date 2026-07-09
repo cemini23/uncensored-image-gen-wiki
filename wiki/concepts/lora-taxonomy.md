@@ -33,9 +33,11 @@ related:
   - sources/arxiv-2606-20506-freestyle-community-lora-mining.md
   - concepts/style-content-dual-reference-generation.md
   - entities/models/freestyle.md
+  - sources/arxiv-2607-07173-spara-dcal-subject-driven-personalization.md
+  - concepts/stage-aware-lora-distribution-calibrated-selection.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-22
+updated: 2026-07-09
 ---
 
 ## Relations

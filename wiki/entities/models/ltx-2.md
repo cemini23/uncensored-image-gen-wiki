@@ -7,6 +7,8 @@ related:
   - concepts/censorship-tier-taxonomy.md
   - entities/uis/comfyui.md
   - concepts/persona-audio-stack.md
+  - sources/arxiv-2607-04553-lights-camera-carbon-video-energy-scaling.md
+  - concepts/video-generation-energy-scaling-laws.md
   - entities/models/sana-wm.md
   - sources/sana-wm-minute-scale-world-model.md
   - concepts/world-models-video-generation.md

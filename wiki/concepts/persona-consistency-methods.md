@@ -97,13 +97,15 @@ related:
   - sources/arxiv-2606-27376-ask-solve-generate-self-evolving-multimodal.md
   - sources/hf-flux2-klein-9b-matchingpose.md
   - entities/adapters/flux2-klein-matchingpose.md
+  - sources/arxiv-2607-07173-spara-dcal-subject-driven-personalization.md
+  - concepts/stage-aware-lora-distribution-calibrated-selection.md
 title: Persona consistency methods (umbrella)
 type: concept
 tags: [persona-consistency, methods, taxonomy, identity-injection]
 keywords: [character LoRA, identity adapter, Character DNA, multi-angle dataset, two-pass inpaint, reference plus LoRA stack, face anchor seed]
 maturity: validated
 created: 2026-05-06
-updated: 2026-07-04
+updated: 2026-07-09
 ---
 
 
@@ -111,6 +113,7 @@ updated: 2026-07-04
 
 @sources/synthetic-character-consistency-survey.md
 @entities/adapters/flux2-klein-matchingpose.md
+@concepts/stage-aware-lora-distribution-calibrated-selection.md
 @sources/video-generation-survey-2026.md
 @concepts/lora-taxonomy.md
 @concepts/multi-angle-dataset-prep.md
@@ -206,6 +209,8 @@ The most robust zero-shot method — no upstream training per character — laye
 **Scheduler Selection**: DDIMScheduler or EulerDiscreteScheduler recommended over DPM++ 2M Karras for biometric latent fidelity.
 
 **The 2026 modal recipe — reference + LoRA stacking**: NSFW-trained character LoRA at 0.85 strength + PuLID/InstantID at 0.45 strength. The LoRA carries explicit anatomy and persona-specific style; the adapter nudges face fidelity without forcing the holistic clothed-reference geometry that breaks NSFW outputs (see Axis 4 failure mode).
+
+**SPaRa–DCAL watch (2026-07-09)**: @concepts/stage-aware-lora-distribution-calibrated-selection.md — stage-dependent LoRA strength (SPaRa, training) plus multi-candidate selection that penalizes identity-only collapse (DCAL, inference). **Adopt DCAL now** as a batch-selection procedure; **watch SPaRa** until trainer plugins land.
 
 ### Axis 3 — Multi-angle / multi-pose dataset prep
 

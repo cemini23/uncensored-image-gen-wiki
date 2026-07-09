@@ -17,9 +17,11 @@ related:
   - sources/arxiv-2606-13496-budcache-diffusion-caching.md
   - sources/arxiv-2606-17566-aoizora-topology-aware-dit-parallel.md
   - concepts/topology-aware-dit-parallel-inference.md
+  - sources/arxiv-2607-04553-lights-camera-carbon-video-energy-scaling.md
+  - concepts/video-generation-energy-scaling-laws.md
 maturity: draft
 created: 2026-05-08
-updated: 2026-06-23
+updated: 2026-07-09
 ---
 
 ## Relations
@@ -32,6 +34,8 @@ updated: 2026-06-23
 @entities/models/hunyuanvideo-1-5.md
 @entities/models/cogvideox-1-5.md
 @concepts/persona-monetization-models.md
+@sources/arxiv-2607-04553-lights-camera-carbon-video-energy-scaling.md
+@concepts/video-generation-energy-scaling-laws.md
 
 ## Raw Concept
 
