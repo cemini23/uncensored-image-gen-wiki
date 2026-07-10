@@ -26,9 +26,10 @@ related:
   - "@seo-wiki/concepts/creator-marketing-foundations.md"
   - "@seo-wiki/entities/platforms/fanvue.md"
   - "@seo-wiki/concepts/creator-retention.md"
+  - sweeps/2026-07-10-daily.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-18
+updated: 2026-07-10
 ---
 
 ## Relations
@@ -84,7 +85,7 @@ Critical insight: **the bulk of mid-tier and Tier-1 revenue is NOT flat subscrip
 
 ### Platform-side mechanics
 
-- **Fanvue** as of January 2026: $100M ARR (450% YoY), 325K creators, 17M MAU, 20% commission on subs/tips/PPV/paywalled. The "AI Personality of the Year Awards" ($90K prize pool, 2026, with OpenArt + ElevenLabs) formalized the pageant economy. → @sources/persona-monetization-2026.md
+- **Fanvue** as of July 2026: press reports **$200M ARR** (doubled from $100M cited Jan 2026) [TENTATIVE — news row R6, 2026-07-09; verify against next Fanvue official release]. Prior confirmed baseline: $100M ARR, 325K creators, 17M MAU, 20% commission. → @sources/persona-monetization-2026.md
 - **OnlyFans**: increasingly hostile to AI as of 2026; mandatory AI labeling, zero-tolerance deepfake/face-swap policy. → @concepts/persona-failure-modes.md
 - **Instagram / TikTok** as top-of-funnel: aggressive AI-slop suppression algorithms; identity verification mismatches trigger permanent suspension. → @concepts/persona-failure-modes.md
 

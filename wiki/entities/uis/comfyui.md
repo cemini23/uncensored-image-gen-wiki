@@ -84,9 +84,13 @@ related:
   - sources/arxiv-2509-23951-hunyuanimage-3-0-technical-report.md
   - sources/hf-flux2-klein-9b-matchingpose.md
   - entities/adapters/flux2-klein-matchingpose.md
+  - entities/custom-nodes/comfyui-angelo.md
+  - sources/arxiv-2607-05711-fourtune-4bit-diffusion-post-training.md
+  - concepts/fourtune-w4a4g4-diffusion-lora-training.md
+  - sweeps/2026-07-10-daily.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-07-04
+updated: 2026-07-10
 read_status: deep-read
 provenance:
   stub: false
@@ -190,6 +194,7 @@ Per the [Launch Strategy Analysis](sources/ai-persona-launch-strategy-analysis.m
 |-----------|---------|-----------------|
 | **ComfyUI-GGUF** | Load GGUF quantized models (Z-Image Turbo) | `git clone https://github.com/city96/ComfyUI-GGUF.git` |
 | **ComfyUI-Impact-Pack** | Face/hand detection, detailer nodes, regional KSampler | `git clone https://github.com/ltdrdata/ComfyUI-Impact-Pack.git` |
+| **ComfyUI-Angelo** | FLUX.2 Klein click-to-refine + smart inpaint in one node | `git clone https://github.com/shootthesound/ComfyUI-Angelo.git` → @entities/custom-nodes/comfyui-angelo.md |
 | **ComfyUI-IPAdapter-Plus** | IP-Adapter image-prompt conditioning (SDXL, FLUX) | `git clone https://github.com/cubiq/ComfyUI_IPAdapter_plus.git` |
 | **ComfyUI-BMAB** | Grounding DINO-based post-processing for hand/limb repair | `git clone https://github.com/port090401/comfyui_bmab.git` |
 | **ComfyUI-PuLID-Flux2** | PuLID identity adapter for FLUX | `git clone https://github.com/iFayens/ComfyUI-PuLID-Flux2.git` |

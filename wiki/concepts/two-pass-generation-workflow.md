@@ -29,6 +29,7 @@ related:
   - sources/arxiv-2606-11751-anchoredit-multi-turn-editing.md
   - concepts/causal-multi-turn-image-editing.md
   - entities/adapters/flux-kontext.md
+  - entities/custom-nodes/comfyui-angelo.md
 maturity: validated
 created: 2026-05-09
 updated: 2026-06-15

@@ -23,6 +23,8 @@ related:
   - entities/hardware/gpu-guide.md
   - sources/arxiv-2607-07173-spara-dcal-subject-driven-personalization.md
   - concepts/stage-aware-lora-distribution-calibrated-selection.md
+  - sources/arxiv-2607-05711-fourtune-4bit-diffusion-post-training.md
+  - concepts/fourtune-w4a4g4-diffusion-lora-training.md
 maturity: draft
 created: 2026-05-06
 updated: 2026-05-07

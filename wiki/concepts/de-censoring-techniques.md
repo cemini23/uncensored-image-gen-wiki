@@ -43,13 +43,15 @@ related:
   - sources/arxiv-2606-28643-obliviate-autoregressive-concept-erasure.md
   - concepts/autoregressive-concept-erasure-obliviate.md
   - entities/models/hunyuanimage-3-0.md
+  - entities/training-tools/heretic.md
+  - sweeps/2026-07-10-daily.md
 title: De-censoring techniques (abliteration, LoRA injection, weight merging, prompt bypasses)
 type: concept
 tags: [de-censoring, alignment-removal, abliteration, lora-injection, weight-merging, ties-merging, dare, slerp, prompt-engineering]
 keywords: [abliteration, refusal vector, LoRA injection, FLUX-UNCENSORED-Merged, Chroma1-HD, SNOFS, SLERP, TIES-Merging, DARE, Drop And Rescale, weight merging, prompt engineering bypass, architectural censorship hard wall]
 maturity: validated
 created: 2026-05-06
-updated: 2026-07-02
+updated: 2026-07-10
 ---
 
 
@@ -85,6 +87,7 @@ updated: 2026-07-02
 @concepts/two-pass-generation-workflow.md
 @entities/hardware/gpu-guide.md
 @entities/marketplaces/civitai.md
+@entities/training-tools/heretic.md
 
 ## Raw Concept
 
@@ -118,7 +121,7 @@ The procedure:
 2. **Project them out** — modify the attention matrices so their span no longer includes the refusal direction. Equivalent to a low-rank correction that cancels the safety component without disturbing the rest of the representation.
 3. **Validate** — re-test on the explicit prompt set; the model now generates without the alignment penalty.
 
-The output is sometimes called a "Heretic" or "Uncensored" base model. **No retraining required** — the cost is mapping and projection, not gradient descent. This is what makes abliteration tractable for community work on multi-billion-parameter DiTs.
+The output is sometimes called a "Heretic" or "Uncensored" base model. **No retraining required** — the cost is mapping and projection, not gradient descent. Automated tooling: @entities/training-tools/heretic.md (`p-e-w/heretic`, AGPL-3.0, primarily LLM-focused). This is what makes abliteration tractable for community work on multi-billion-parameter DiTs.
 
 ### 2. Weight merging (SLERP / TIES-Merging / DARE)
 

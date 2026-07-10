@@ -33,9 +33,11 @@ related:
   - sources/arxiv-2606-20506-freestyle-community-lora-mining.md
   - concepts/style-content-dual-reference-generation.md
   - entities/models/freestyle.md
+  - sources/arxiv-2607-05711-fourtune-4bit-diffusion-post-training.md
+  - concepts/fourtune-w4a4g4-diffusion-lora-training.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-06-22
+updated: 2026-07-10
 ---
 
 ## Relations

@@ -35,9 +35,11 @@ related:
   - concepts/budget-aware-diffusion-caching.md
   - sources/arxiv-2606-17566-aoizora-topology-aware-dit-parallel.md
   - concepts/topology-aware-dit-parallel-inference.md
+  - sources/arxiv-2607-05711-fourtune-4bit-diffusion-post-training.md
+  - concepts/fourtune-w4a4g4-diffusion-lora-training.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-06-23
+updated: 2026-07-10
 ---
 
 ## Relations

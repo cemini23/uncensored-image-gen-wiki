@@ -99,6 +99,8 @@ related:
   - entities/adapters/flux2-klein-matchingpose.md
   - sources/arxiv-2607-07173-spara-dcal-subject-driven-personalization.md
   - concepts/stage-aware-lora-distribution-calibrated-selection.md
+  - entities/custom-nodes/comfyui-angelo.md
+  - sweeps/2026-07-10-daily.md
 title: Persona consistency methods (umbrella)
 type: concept
 tags: [persona-consistency, methods, taxonomy, identity-injection]

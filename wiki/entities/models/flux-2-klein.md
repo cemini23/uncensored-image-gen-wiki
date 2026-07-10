@@ -33,9 +33,13 @@ related:
   - entities/uis/forge.md
   - sources/hf-flux2-klein-9b-matchingpose.md
   - entities/adapters/flux2-klein-matchingpose.md
+  - concepts/fourtune-w4a4g4-diffusion-lora-training.md
+  - entities/custom-nodes/comfyui-angelo.md
+  - sources/arxiv-2607-05711-fourtune-4bit-diffusion-post-training.md
+  - sweeps/2026-07-10-daily.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-07-04
+updated: 2026-07-10
 ---
 
 ## Relations
@@ -94,7 +98,9 @@ The FLUX.2 generation segments by **parameter scale** rather than just license:
 
 This page covers the Klein distills. Klein 9B has its own role as the **face-swap engine** in NSFW workflows — see @entities/adapters/flux2-klein-9b-faceswap.md.
 
-**2026-07-04 adoption:** @entities/adapters/flux2-klein-matchingpose.md is a narrow Klein 9B LoRA for mannequin-to-character pose transfer. It is not a base-model upgrade, but it is a practical companion to Klein's native multi-reference/face-swap role.
+**2026-07-10:** @concepts/fourtune-w4a4g4-diffusion-lora-training.md — WATCH for W4A4G4 Klein LoRA training when MIT HAN Lab releases code. @entities/custom-nodes/comfyui-angelo.md — GO smoke-test for click-to-refine master frames.
+
+**2026-07-04 adoption:** @entities/adapters/flux2-klein-matchingpose.md is a narrow Klein 9B LoRA for mannequin-to-character pose transfer.
 
 ### Why creators use it
 

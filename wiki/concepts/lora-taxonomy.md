@@ -35,9 +35,12 @@ related:
   - entities/models/freestyle.md
   - sources/arxiv-2607-07173-spara-dcal-subject-driven-personalization.md
   - concepts/stage-aware-lora-distribution-calibrated-selection.md
+  - concepts/fourtune-w4a4g4-diffusion-lora-training.md
+  - sources/arxiv-2607-05711-fourtune-4bit-diffusion-post-training.md
+  - sweeps/2026-07-10-daily.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-07-09
+updated: 2026-07-10
 ---
 
 ## Relations

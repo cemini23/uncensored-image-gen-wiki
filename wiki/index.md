@@ -119,6 +119,9 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Lights, Camera, Carbon — video energy scaling (arXiv:2607.04553)](sources/arxiv-2607-04553-lights-camera-carbon-video-energy-scaling.md) — architectural T2V/T2VA energy scaling laws; <3% MAPE on six open models — `paper, video-generation, sustainability, compute-economics`
 - [MobileWan — mobile Wan2.2 distillation (arXiv:2607.06173)](sources/arxiv-2607-06173-mobilewan-mobile-video-diffusion.md) — Qualcomm chunk-wise Wan2.2-5B → phone NPU; WATCH for weights — `paper, video-generation, wan, mobile, distillation`
 - [SPaRa–DCAL — stage-aware persona LoRA (arXiv:2607.07173)](sources/arxiv-2607-07173-spara-dcal-subject-driven-personalization.md) — timestep LoRA scaling + distribution-calibrated candidate selection — `paper, persona-consistency, lora, personalization`
+- [FourTune — W4A4G4 diffusion LoRA post-training (arXiv:2607.05711)](sources/arxiv-2607-05711-fourtune-4bit-diffusion-post-training.md) — native 4-bit LoRA train on FLUX.1-dev; 2.25× memory / 2.27× throughput vs BF16 — `paper, lora-training, quantization, flux`
+- [HARVEY backdoor removal (arXiv:2607.05748)](sources/arxiv-2607-05748-harvey-backdoor-removal.md) — learn backdoor oracle to remove backdoor; peripheral ML security — `paper, ml-security, peripheral`
+- [Straight-path flow matching IMVC (arXiv:2607.06281)](sources/arxiv-2607-06281-straight-path-flow-matching-imvc.md) — clustering peripheral false positive — `paper, peripheral, clustering`
 - [Flux.2 Klein 9B MatchingPose — Hugging Face model card](sources/hf-flux2-klein-9b-matchingpose.md) — mannequin-to-character FLUX.2 Klein pose-transfer LoRA; Phase-0 GO smoke-test — `model-card, lora, flux2, klein, pose-transfer`
 - [EMOSH — motion-shape disentangled human animation (arXiv:2606.28026)](sources/arxiv-2606-28026-emosh-expressive-motion-shape-disentanglement.md) — EHM mesh retarget on Wan2.1-I2V; ECCV 2026 — `paper, human-animation, avatar, motion-disentanglement, tencent`
 - [Prob-BBDM — MRI Brownian bridge translation (arXiv:2606.24313)](sources/arxiv-2606-24313-prob-bbdm-mri-sequence-translation.md) — 4-step BBDM MRI i2i; peripheral — `paper, medical-imaging, img2img, peripheral`
@@ -223,6 +226,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 ### Custom nodes
 
 - [ComfyUI-Impact-Pack](entities/custom-nodes/impact-pack.md) — face/hand detection + detailer suite; ADetailer equivalent for ComfyUI; YOLO+SAM detectors → secondary KSampler re-pass; canonical for two-pass post-processing and persona face-seam repair — `comfyui, custom-node, detailer, face-detection, inpainting, post-processing` ⚠ stub
+- [ComfyUI-Angelo](entities/custom-nodes/comfyui-angelo.md) — FLUX.2 Klein click-to-refine + smart inpaint in one node; Phase-0 GO smoke-test — `comfyui, custom-node, flux2, klein, interactive-editing`
 - [ComfyUI-BMAB](entities/custom-nodes/bmab.md) — Grounding-DINO-based hand/limb repair; open-vocab targeting via text prompts; FLUX-compatible; pairs with Impact-Pack (faces) for full-body persona workflows — `comfyui, custom-node, post-processing, hand-repair, limb-repair, grounding-dino` ⚠ stub
 - (additional expected: ComfyUI_OmniConsistency, Wan SVI 2 Pro FLF, HunyuanVideo Lora Block Edit, ColorMatch / ColorPeel, ComfyUI Manager)
 
@@ -230,6 +234,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 
 - [Kohya sd-scripts](entities/training-tools/kohya-sd-scripts.md) — canonical CLI training suite (kohya-ss); SD1.5/SDXL/Pony/Illustrious/NoobAI/FLUX/Hunyuan/Wan via Musubi sibling project — `training-tool, lora-training, sdxl, flux, hunyuan` ⚠ stub
 - [ai-toolkit (Ostris)](entities/training-tools/ai-toolkit.md) — FLUX-first Python trainer, YAML config, Modal/Replicate hosted-trainer bridge; canonical FLUX.1/FLUX.2/Wan 2.2 LoRA path — `training-tool, lora-training, flux, wan, modal` ⚠ stub
+- [Heretic (abliteration CLI)](entities/training-tools/heretic.md) — automatic LLM refusal-vector removal; AGPL-3.0; REFERENCE for TE surgery — `training-tool, abliteration, de-censoring, llm`
 - [OneTrainer](entities/training-tools/onetrainer.md) — GUI-first Tk trainer with the strongest 8 GB VRAM FLUX recipe; native DoRA support — `training-tool, lora-training, gui, 8gb-vram` ⚠ stub
 - [kohya_ss GUI (bmaltais)](entities/training-tools/kohya-ss-gui.md) — Gradio frontend wrapping kohya sd-scripts; the most-installed LoRA-trainer GUI in the 2024-2026 community; SDXL-popular, FLUX support tracking sd-scripts — `training-tool, lora-training, gui, kohya-ss, bmaltais` ⚠ stub
 - [Musubi Tuner](entities/training-tools/musubi-tuner.md) — kohya-ss video-LoRA sibling for Hunyuan / Wan 2.2 dual-expert / LTX; uv packaging, RAM-offload knobs — `training-tool, lora-training, video-lora, kohya, hunyuan, wan` ⚠ stub
@@ -390,6 +395,7 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Sequential adaptive personality steering (SAS)](concepts/sequential-adaptive-personality-steering.md) — Big Five inference-time LLM sliders — `persona-ops, llm, activation-steering, alignment`
 - [Causal Perturbative Elicitation for LLM Behavior Modes](concepts/causal-perturbative-elicitation-llm.md) — weight-space low-rank adapter discovery for hidden LLM personas / sandbagging / alignment-faking modes; research-watch for local DM stack — `persona-ops, llm, activation-steering, lora`
 - [Query-Warped Video Motion Control](concepts/query-warped-video-motion-control.md) — inference-time semantic query warping for object/camera motion control in Wan/CogVideoX I2V DiTs — `video-generation, motion-control, training-free, i2v`
+- [FourTune W4A4G4 diffusion LoRA training](concepts/fourtune-w4a4g4-diffusion-lora-training.md) — native 4-bit LoRA post-training watch for FLUX/Qwen persona trains — `lora-training, quantization, flux`
 - [Video generation energy scaling laws](concepts/video-generation-energy-scaling-laws.md) — T2V/T2VA Wh from resolution, duration, steps; planning reference — `compute-economics, video-generation, sustainability`
 - [MobileWan chunk-wise video distillation](concepts/mobile-wan-chunkwise-video-distillation.md) — Wan2.2 recurrence + head-prune mobile stack; WATCH — `video-generation, wan, distillation, mobile`
 - [Stage-aware LoRA + DCAL selection](concepts/stage-aware-lora-distribution-calibrated-selection.md) — SPaRa timestep LoRA + multi-candidate persona pick — `persona-consistency, lora, inference`

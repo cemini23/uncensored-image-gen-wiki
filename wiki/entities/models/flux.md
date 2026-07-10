@@ -33,6 +33,7 @@ related:
   - entities/marketplaces/civitai.md
   - entities/uis/automatic1111.md
   - entities/uis/comfyui.md
+  - entities/training-tools/heretic.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-05-06

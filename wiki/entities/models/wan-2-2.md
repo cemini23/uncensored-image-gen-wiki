@@ -131,6 +131,8 @@ related:
   - concepts/video-generation-energy-scaling-laws.md
   - concepts/query-warped-video-motion-control.md
   - sweeps/2026-07-09-daily.md
+  - sweeps/2026-07-10-daily.md
+  - entities/training-tools/heretic.md
 title: Wan 2.2 (Alibaba)
 type: entity
 tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]

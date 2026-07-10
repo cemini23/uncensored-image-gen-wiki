@@ -45,6 +45,7 @@ related:
   - sources/arxiv-2606-28643-obliviate-autoregressive-concept-erasure.md
   - concepts/autoregressive-concept-erasure-obliviate.md
   - sources/arxiv-2509-23951-hunyuanimage-3-0-technical-report.md
+  - entities/training-tools/heretic.md
 maturity: draft
 created: 2026-05-06
 updated: 2026-07-02

@@ -14,6 +14,7 @@ related:
   - concepts/model-selection-workflow.md
   - sweeps/2026-07-04-daily.md
   - concepts/stage-aware-lora-distribution-calibrated-selection.md
+  - entities/custom-nodes/comfyui-angelo.md
 maturity: draft
 created: 2026-07-04
 updated: 2026-07-04

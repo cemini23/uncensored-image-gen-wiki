@@ -1,5 +1,30 @@
 ## [2026-07-04] ingest | CPE, QWERTY, MatchingPose, Qwen3-TTS/OpenAudio triage
 
+Daily sweep full ingest for 2026-07-10.
+
+### Created
+
+- `wiki/sources/arxiv-2607-05711-fourtune-4bit-diffusion-post-training.md` — FourTune W4A4G4 LoRA post-training; Phase-0 **WATCH** (no public repo)
+- `wiki/concepts/fourtune-w4a4g4-diffusion-lora-training.md` — persona LoRA training efficiency concept
+- `wiki/sources/arxiv-2607-05748-harvey-backdoor-removal.md` — HARVEY backdoor defense; **SKIP** (peripheral)
+- `wiki/sources/arxiv-2607-06281-straight-path-flow-matching-imvc.md` — IMVC clustering; **DISCARD** (peripheral)
+- `wiki/entities/custom-nodes/comfyui-angelo.md` — FLUX.2 Klein click-to-refine; Phase-0 **GO (smoke-test)**
+- `wiki/entities/training-tools/heretic.md` — abliteration CLI; Phase-0 **REFERENCE** (AGPL-3.0)
+
+### Updated
+
+- `wiki/sweeps/2026-07-10-daily.md` — frontmatter, ingested marker
+- `wiki/entities/uis/comfyui.md`, `wiki/entities/models/flux-2-klein.md`, `wiki/entities/models/flux-1-dev.md` — Angelo + FourTune hooks
+- `wiki/concepts/lora-taxonomy.md`, `wiki/concepts/de-censoring-techniques.md` — FourTune + Heretic cross-links
+- `wiki/concepts/persona-monetization-models.md` — Fanvue $200M ARR news triage [TENTATIVE]
+- `wiki/index.md` — new rows
+
+### Brief / routing
+
+- `briefs/2026-07-10_angelo-fourtune-adoption.md` — wiki-only; no prod SCP
+
+---
+
 Daily sweep full ingest for 2026-07-09.
 
 ### Created

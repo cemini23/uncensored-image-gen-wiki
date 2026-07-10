@@ -29,6 +29,7 @@ related:
   - concepts/video-reference-avatar-generation.md
   - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
   - entities/adapters/flux2-klein-matchingpose.md
+  - entities/custom-nodes/comfyui-angelo.md
 maturity: draft
 created: 2026-05-06
 updated: 2026-07-04

@@ -13,6 +13,7 @@ related:
   - runbooks/runpod-comfyui-setup.md
   - runbooks/day-1-checklist-for-friend.md
   - runbooks/beginner-guide-to-persona.md
+  - entities/custom-nodes/comfyui-angelo.md
 maturity: draft
 created: 2026-05-11
 updated: 2026-05-15

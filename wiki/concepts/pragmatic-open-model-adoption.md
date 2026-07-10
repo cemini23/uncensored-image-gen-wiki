@@ -12,6 +12,7 @@ related:
   - concepts/llm-interaction-style-governance.md
   - sources/uncensored-image-generation-survey.md
   - sources/arxiv-2606-08172-human-llm-interaction-governance.md
+  - entities/training-tools/heretic.md
 maturity: draft
 created: 2026-06-25
 updated: 2026-06-25
