@@ -22,6 +22,7 @@ related:
   - sources/ai-content-factory-workflow-design.md
   - "@seo-wiki/concepts/creator-content-strategy.md"
   - "@seo-wiki/concepts/creator-marketing-foundations.md"
+  - concepts/hunyuanvideo-homa-weak-hoi-video.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-06-18

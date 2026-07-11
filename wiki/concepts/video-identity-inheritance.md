@@ -37,6 +37,9 @@ related:
   - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
   - concepts/video-reference-avatar-generation.md
   - entities/models/avatar-v.md
+  - sources/arxiv-2506-08797-hunyuanvideo-homa.md
+  - concepts/hunyuanvideo-homa-weak-hoi-video.md
+  - sweeps/2026-07-11-daily.md
   - sources/arxiv-2606-14667-memento-long-video-subject-reconstruction.md
   - concepts/subject-reconstruction-long-video-memory.md
   - entities/models/memento.md

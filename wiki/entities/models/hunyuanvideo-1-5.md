@@ -42,6 +42,9 @@ related:
   - entities/models/hunyuanimage-3-0.md
   - sources/arxiv-2509-23951-hunyuanimage-3-0-technical-report.md
   - concepts/ucm-time-aware-pe-warping-world-models.md
+  - sources/arxiv-2506-08797-hunyuanvideo-homa.md
+  - concepts/hunyuanvideo-homa-weak-hoi-video.md
+  - sweeps/2026-07-11-daily.md
 title: HunyuanVideo 1.5 (Tencent)
 type: entity
 tags: [model, video, dit, hunyuanvideo, tencent, eastern-vanguard, completely-uncensored-after-lora]
@@ -50,6 +53,8 @@ maturity: draft
 created: 2026-05-07
 updated: 2026-07-02
 ---
+
+**HOMA extension (Jul 2026):** Tencent HunyuanVideo-HOMA adds weak human–object interaction on the HunyuanVideo backbone — @sources/arxiv-2506-08797-hunyuanvideo-homa.md @concepts/hunyuanvideo-homa-weak-hoi-video.md. WATCH for open weights.
 
 
 ## Relations

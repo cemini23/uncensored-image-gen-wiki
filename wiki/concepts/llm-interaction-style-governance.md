@@ -16,6 +16,8 @@ related:
   - concepts/pragmatic-open-model-adoption.md
   - concepts/sequential-adaptive-personality-steering.md
   - sources/arxiv-2603-03326-personality-sliders-llm-inference-time.md
+  - sources/arxiv-2505-14215-safety-degradation-ai-agents.md
+  - concepts/retrieval-agent-safety-degradation.md
 title: LLM interaction style governance
 type: concept
 tags: [concept, persona-ops, llm-governance, alignment, safety, style-drift]

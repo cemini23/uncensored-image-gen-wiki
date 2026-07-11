@@ -20,6 +20,9 @@ related:
   - sources/arxiv-2606-15117-eav-dfd-deepfake-detection-routed.md
   - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
   - concepts/generative-ai-era-deepfake-landscape.md
+  - sources/arxiv-2505-14215-safety-degradation-ai-agents.md
+  - concepts/retrieval-agent-safety-degradation.md
+  - sources/arxiv-2505-14215-safety-degradation-ai-agents.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-06-30

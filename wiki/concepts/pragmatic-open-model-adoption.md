@@ -13,6 +13,9 @@ related:
   - sources/uncensored-image-generation-survey.md
   - sources/arxiv-2606-08172-human-llm-interaction-governance.md
   - entities/training-tools/heretic.md
+  - sources/arxiv-2505-14215-safety-degradation-ai-agents.md
+  - concepts/retrieval-agent-safety-degradation.md
+  - sweeps/2026-07-11-daily.md
 maturity: draft
 created: 2026-06-25
 updated: 2026-06-25

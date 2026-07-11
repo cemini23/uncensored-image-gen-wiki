@@ -132,7 +132,10 @@ related:
   - concepts/query-warped-video-motion-control.md
   - sweeps/2026-07-09-daily.md
   - sweeps/2026-07-10-daily.md
+  - sweeps/2026-07-11-daily.md
   - entities/training-tools/heretic.md
+  - sources/arxiv-2506-08797-hunyuanvideo-homa.md
+  - concepts/hunyuanvideo-homa-weak-hoi-video.md
 title: Wan 2.2 (Alibaba)
 type: entity
 tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]

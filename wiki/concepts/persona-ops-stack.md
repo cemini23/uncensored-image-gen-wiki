@@ -43,6 +43,10 @@ related:
   - concepts/domain-sensitive-llm-over-alignment.md
   - sources/arxiv-2606-23375-tf-refusalbench-over-alignment.md
   - sources/arxiv-2606-22211-open-ai-local-llama-wild.md
+  - sources/arxiv-2505-14215-safety-degradation-ai-agents.md
+  - concepts/retrieval-agent-safety-degradation.md
+  - entities/custom-nodes/comfyui-mcp.md
+  - sweeps/2026-07-11-daily.md
   - concepts/pragmatic-open-model-adoption.md
   - concepts/agentic-video-editing-orchestration.md
   - concepts/low-resource-text-detoxification.md

@@ -29,6 +29,8 @@ related:
   - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
   - concepts/video-reference-avatar-generation.md
   - concepts/generative-ai-era-deepfake-landscape.md
+  - sources/arxiv-2506-08797-hunyuanvideo-homa.md
+  - concepts/hunyuanvideo-homa-weak-hoi-video.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-06-30

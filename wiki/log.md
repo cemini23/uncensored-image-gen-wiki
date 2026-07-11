@@ -1,3 +1,31 @@
+## [2026-07-11] ingest | HunyuanVideo-HOMA, safety degradation, ComfyUI-MCP
+
+Daily sweep full ingest for 2026-07-11.
+
+### Created
+
+- `wiki/sources/arxiv-2506-08797-hunyuanvideo-homa.md` — HOMA weak HOI video; Phase-0 **WATCH** (no public weights)
+- `wiki/concepts/hunyuanvideo-homa-weak-hoi-video.md` — persona prop/merch demo use case
+- `wiki/sources/arxiv-2505-14215-safety-degradation-ai-agents.md` — retrieval agent safety; **REFERENCE** for persona-ops
+- `wiki/concepts/retrieval-agent-safety-degradation.md` — SillyTavern / RAG mitigation checklist
+- `wiki/entities/custom-nodes/comfyui-mcp.md` — MCP control plane; Phase-0 **WATCH**
+
+### Updated
+
+- `wiki/sweeps/2026-07-11-daily.md` — frontmatter, ingested marker
+- `wiki/entities/models/hunyuanvideo-1-5.md`, `wiki/concepts/video-identity-inheritance.md` — HOMA hooks
+- `wiki/entities/uis/comfyui.md` — ComfyUI-MCP row
+- `wiki/entities/persona-ops/sillytavern.md`, `wiki/concepts/persona-ops-stack.md`, `wiki/concepts/persona-failure-modes.md` — retrieval safety
+- `wiki/entities/persona-ops/fish-speech.md` — Fish S2 news re-triage
+- `wiki/concepts/persona-monetization-models.md` — Fanvue AI labeling [TENTATIVE]
+- `wiki/index.md` — new rows
+
+### Brief / routing
+
+- `briefs/2026-07-11_homa-mcp-adoption-watch.md` — wiki-only; no prod SCP
+
+---
+
 ## [2026-07-04] ingest | CPE, QWERTY, MatchingPose, Qwen3-TTS/OpenAudio triage
 
 Daily sweep full ingest for 2026-07-10.

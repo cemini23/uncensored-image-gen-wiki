@@ -30,6 +30,8 @@ related:
   - sources/arxiv-2606-22370-error-free-long-video-generation.md
   - concepts/lightweight-video-history-embeddings.md
   - concepts/agentic-video-editing-orchestration.md
+  - sources/arxiv-2506-08797-hunyuanvideo-homa.md
+  - concepts/hunyuanvideo-homa-weak-hoi-video.md
 title: Seam stitching strategies (extending video clip length)
 type: concept
 tags: [video-workflow, seam-stitching, latent-chaining, overlap-deduplication, gvs, generative-view-stitching, cyclic-loop, lipsync, length-extension]

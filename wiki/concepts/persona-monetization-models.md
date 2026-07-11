@@ -27,9 +27,10 @@ related:
   - "@seo-wiki/entities/platforms/fanvue.md"
   - "@seo-wiki/concepts/creator-retention.md"
   - sweeps/2026-07-10-daily.md
+  - sweeps/2026-07-11-daily.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-10
+updated: 2026-07-11
 ---
 
 ## Relations
@@ -86,6 +87,7 @@ Critical insight: **the bulk of mid-tier and Tier-1 revenue is NOT flat subscrip
 ### Platform-side mechanics
 
 - **Fanvue** as of July 2026: press reports **$200M ARR** (doubled from $100M cited Jan 2026) [TENTATIVE — news row R6, 2026-07-09; verify against next Fanvue official release]. Prior confirmed baseline: $100M ARR, 325K creators, 17M MAU, 20% commission. → @sources/persona-monetization-2026.md
+- **Fanvue AI labeling (Jul 2026):** Third-party guides report mandatory **AI creator disclosure** rules on Fanvue (label synthetic personas in profile/content) [TENTATIVE — news R7, Vixxxen.ai 2026-07-06]. Treat as compliance gate alongside OnlyFans labeling — document in onboarding checklist before scaling new personas.
 - **OnlyFans**: increasingly hostile to AI as of 2026; mandatory AI labeling, zero-tolerance deepfake/face-swap policy. → @concepts/persona-failure-modes.md
 - **Instagram / TikTok** as top-of-funnel: aggressive AI-slop suppression algorithms; identity verification mismatches trigger permanent suspension. → @concepts/persona-failure-modes.md
 

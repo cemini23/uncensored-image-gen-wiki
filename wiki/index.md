@@ -120,6 +120,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [MobileWan — mobile Wan2.2 distillation (arXiv:2607.06173)](sources/arxiv-2607-06173-mobilewan-mobile-video-diffusion.md) — Qualcomm chunk-wise Wan2.2-5B → phone NPU; WATCH for weights — `paper, video-generation, wan, mobile, distillation`
 - [SPaRa–DCAL — stage-aware persona LoRA (arXiv:2607.07173)](sources/arxiv-2607-07173-spara-dcal-subject-driven-personalization.md) — timestep LoRA scaling + distribution-calibrated candidate selection — `paper, persona-consistency, lora, personalization`
 - [FourTune — W4A4G4 diffusion LoRA post-training (arXiv:2607.05711)](sources/arxiv-2607-05711-fourtune-4bit-diffusion-post-training.md) — native 4-bit LoRA train on FLUX.1-dev; 2.25× memory / 2.27× throughput vs BF16 — `paper, lora-training, quantization, flux`
+- [HunyuanVideo-HOMA — weak HOI animation (arXiv:2506.08797)](sources/arxiv-2506-08797-hunyuanvideo-homa.md) — human+object weak-control video on HunyuanVideo; WATCH for weights — `paper, video-generation, hunyuanvideo, hoi`
+- [Safety Degradation in AI Agents (arXiv:2505.14215)](sources/arxiv-2505-14215-safety-degradation-ai-agents.md) — retrieval broadens agent harm/refusal collapse; persona-ops REFERENCE — `paper, llm-safety, retrieval, persona-ops`
 - [HARVEY backdoor removal (arXiv:2607.05748)](sources/arxiv-2607-05748-harvey-backdoor-removal.md) — learn backdoor oracle to remove backdoor; peripheral ML security — `paper, ml-security, peripheral`
 - [Straight-path flow matching IMVC (arXiv:2607.06281)](sources/arxiv-2607-06281-straight-path-flow-matching-imvc.md) — clustering peripheral false positive — `paper, peripheral, clustering`
 - [Flux.2 Klein 9B MatchingPose — Hugging Face model card](sources/hf-flux2-klein-9b-matchingpose.md) — mannequin-to-character FLUX.2 Klein pose-transfer LoRA; Phase-0 GO smoke-test — `model-card, lora, flux2, klein, pose-transfer`
@@ -227,6 +229,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 
 - [ComfyUI-Impact-Pack](entities/custom-nodes/impact-pack.md) — face/hand detection + detailer suite; ADetailer equivalent for ComfyUI; YOLO+SAM detectors → secondary KSampler re-pass; canonical for two-pass post-processing and persona face-seam repair — `comfyui, custom-node, detailer, face-detection, inpainting, post-processing` ⚠ stub
 - [ComfyUI-Angelo](entities/custom-nodes/comfyui-angelo.md) — FLUX.2 Klein click-to-refine + smart inpaint in one node; Phase-0 GO smoke-test — `comfyui, custom-node, flux2, klein, interactive-editing`
+- [ComfyUI-MCP](entities/custom-nodes/comfyui-mcp.md) — agent-native MCP control plane for ComfyUI; Phase-0 WATCH — `comfyui, mcp, agent, claude-code`
 - [ComfyUI-BMAB](entities/custom-nodes/bmab.md) — Grounding-DINO-based hand/limb repair; open-vocab targeting via text prompts; FLUX-compatible; pairs with Impact-Pack (faces) for full-body persona workflows — `comfyui, custom-node, post-processing, hand-repair, limb-repair, grounding-dino` ⚠ stub
 - (additional expected: ComfyUI_OmniConsistency, Wan SVI 2 Pro FLF, HunyuanVideo Lora Block Edit, ColorMatch / ColorPeel, ComfyUI Manager)
 
@@ -396,6 +399,8 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Causal Perturbative Elicitation for LLM Behavior Modes](concepts/causal-perturbative-elicitation-llm.md) — weight-space low-rank adapter discovery for hidden LLM personas / sandbagging / alignment-faking modes; research-watch for local DM stack — `persona-ops, llm, activation-steering, lora`
 - [Query-Warped Video Motion Control](concepts/query-warped-video-motion-control.md) — inference-time semantic query warping for object/camera motion control in Wan/CogVideoX I2V DiTs — `video-generation, motion-control, training-free, i2v`
 - [FourTune W4A4G4 diffusion LoRA training](concepts/fourtune-w4a4g4-diffusion-lora-training.md) — native 4-bit LoRA post-training watch for FLUX/Qwen persona trains — `lora-training, quantization, flux`
+- [HunyuanVideo-HOMA weak HOI video](concepts/hunyuanvideo-homa-weak-hoi-video.md) — persona prop/merch demo clips via weak object trajectory control — `video-generation, hoi, persona-ops`
+- [Retrieval-agent safety degradation](concepts/retrieval-agent-safety-degradation.md) — RAG/web-search collapse of refusal in DM agents — `persona-ops, llm-safety, retrieval`
 - [Video generation energy scaling laws](concepts/video-generation-energy-scaling-laws.md) — T2V/T2VA Wh from resolution, duration, steps; planning reference — `compute-economics, video-generation, sustainability`
 - [MobileWan chunk-wise video distillation](concepts/mobile-wan-chunkwise-video-distillation.md) — Wan2.2 recurrence + head-prune mobile stack; WATCH — `video-generation, wan, distillation, mobile`
 - [Stage-aware LoRA + DCAL selection](concepts/stage-aware-lora-distribution-calibrated-selection.md) — SPaRa timestep LoRA + multi-candidate persona pick — `persona-consistency, lora, inference`
