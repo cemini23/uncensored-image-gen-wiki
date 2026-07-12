@@ -1,3 +1,28 @@
+## [2026-07-12] ingest | Nemotron Audex unified audio LLM
+
+Daily sweep full ingest for 2026-07-12.
+
+### Created
+
+- `wiki/sources/arxiv-2607-05196-nemotron-audex-unified-audio-intelligence.md` — Audex technical report; Phase-0 **REFERENCE** (NVIDIA NC license)
+- `wiki/concepts/unified-audio-text-llm-no-text-regression.md` — unified vs modular audio stack
+- `wiki/entities/voice-models/nemotron-audex.md` — HF weights + license audit
+
+### Updated
+
+- `wiki/sweeps/2026-07-12-daily.md` — frontmatter, ingested marker
+- `wiki/concepts/persona-audio-stack.md`, `wiki/entities/persona-ops/fish-speech.md` — Audex positioning; Fish remains default
+- `wiki/entities/voice-models/qwen3-tts.md` — Flash variant news [TENTATIVE]
+- `wiki/entities/sfx-models/stable-audio-open.md` — Audex TTA training cite
+- `wiki/concepts/persona-monetization-models.md` — Fanvue R8 ARR corroboration
+- `wiki/index.md` — new rows
+
+### Brief / routing
+
+- `briefs/2026-07-12_audex-fish-stack-unchanged.md` — wiki-only; no prod SCP
+
+---
+
 ## [2026-07-11] ingest | HunyuanVideo-HOMA, safety degradation, ComfyUI-MCP
 
 Daily sweep full ingest for 2026-07-11.

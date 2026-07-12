@@ -9,6 +9,7 @@ related:
   - entities/sfx-models/audioldm.md
   - entities/sfx-models/audio-omni.md
   - entities/voice-models/bark.md
+  - entities/voice-models/nemotron-audex.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-05-13

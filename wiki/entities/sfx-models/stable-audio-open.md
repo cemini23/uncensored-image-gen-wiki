@@ -17,9 +17,13 @@ related:
   - sources/arxiv-2606-14049-foleygenex-unified-vta.md
   - concepts/unified-controllable-video-to-audio.md
   - entities/models/foleygenex.md
+  - concepts/unified-audio-text-llm-no-text-regression.md
+  - sources/arxiv-2607-05196-nemotron-audex-unified-audio-intelligence.md
+  - entities/voice-models/nemotron-audex.md
+  - sweeps/2026-07-12-daily.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-16
+updated: 2026-07-12
 ---
 
 ## Relations

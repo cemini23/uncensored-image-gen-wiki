@@ -71,9 +71,13 @@ related:
   - entities/voice-models/confucius4-tts.md
   - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
   - concepts/generative-ai-era-deepfake-landscape.md
+  - sources/arxiv-2607-05196-nemotron-audex-unified-audio-intelligence.md
+  - concepts/unified-audio-text-llm-no-text-regression.md
+  - entities/voice-models/nemotron-audex.md
+  - sweeps/2026-07-12-daily.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-07-04
+updated: 2026-07-12
 ---
 
 ## Relations
@@ -121,6 +125,8 @@ An AI persona doesn't just need images and video — it needs a voice. The audio
 | **2. Lipsync** | Marry generated audio to generated video faces | LatentSync, MuseTalk, Wav2Lip |
 | **3. Music Generation** | Background music for social posts, persona theme music | ACE-Step 1.5, Meta MusicGen, Stable Audio Open |
 | **4. Sound Effects / Foley** | Ambient sound, scene audio for video content | Stable Audio Open, AudioLDM, Tango 2 |
+
+**Unified audio-text LLMs (Jul 2026):** NVIDIA **Audex** collapses layers 1+4 (+ ASR) into one MoE checkpoint but ships under **noncommercial license** and multi-GPU inference — @entities/voice-models/nemotron-audex.md. Production stack unchanged: modular Fish-Speech + Stable Audio Open.
 
 ### MSAVBench implication (multi-shot dialogue reels)
 

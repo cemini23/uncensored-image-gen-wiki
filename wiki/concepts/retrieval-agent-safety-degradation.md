@@ -11,6 +11,7 @@ related:
   - concepts/pragmatic-open-model-adoption.md
   - concepts/persona-failure-modes.md
   - sweeps/2026-07-11-daily.md
+  - concepts/unified-audio-text-llm-no-text-regression.md
 maturity: draft
 created: 2026-07-11
 updated: 2026-07-11

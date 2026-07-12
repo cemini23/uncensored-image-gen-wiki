@@ -47,6 +47,10 @@ related:
   - concepts/retrieval-agent-safety-degradation.md
   - entities/custom-nodes/comfyui-mcp.md
   - sweeps/2026-07-11-daily.md
+  - sources/arxiv-2607-05196-nemotron-audex-unified-audio-intelligence.md
+  - concepts/unified-audio-text-llm-no-text-regression.md
+  - entities/voice-models/nemotron-audex.md
+  - sweeps/2026-07-12-daily.md
   - concepts/pragmatic-open-model-adoption.md
   - concepts/agentic-video-editing-orchestration.md
   - concepts/low-resource-text-detoxification.md

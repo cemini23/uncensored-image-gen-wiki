@@ -37,9 +37,13 @@ related:
   - sweeps/2026-07-04-daily.md
   - sweeps/2026-07-09-daily.md
   - sweeps/2026-07-11-daily.md
+  - sweeps/2026-07-12-daily.md
+  - sources/arxiv-2607-05196-nemotron-audex-unified-audio-intelligence.md
+  - concepts/unified-audio-text-llm-no-text-regression.md
+  - entities/voice-models/nemotron-audex.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-11
+updated: 2026-07-12
 ---
 
 ## Relations
@@ -87,6 +91,10 @@ Operator verdict: **do not replace Fish-Speech S2 Pro**. Treat S1-mini as a ligh
 ### Fish Audio S2 news check (2026-07-11)
 
 Digest rows R9–R11 repeat **Fish Audio S2** / **S2 Pro** quick-start content (word-level emotion tags, multilingual cloning). No change to default stack — still **S2 Pro** until local A/B vs any newly tagged weights. See also 2026-07-09 triage above.
+
+### Nemotron Audex check (2026-07-12)
+
+NVIDIA released **Nemotron-Labs-Audex-30B-A3B** (unified audio-text MoE) with strong TTS/ASR/speech-to-speech benchmarks. **Do not replace Fish-Speech** — Audex weights carry **NVIDIA Oneway Noncommercial License** and multi-GPU vLLM inference. See @entities/voice-models/nemotron-audex.md @sources/arxiv-2607-05196-nemotron-audex-unified-audio-intelligence.md.
 
 ### Capabilities
 

@@ -11,9 +11,14 @@ related:
   - entities/voice-models/barewave.md
   - concepts/persona-ops-stack.md
   - sweeps/2026-07-04-daily.md
+  - entities/voice-models/nemotron-audex.md
+  - entities/voice-models/nemotron-audex.md
+  - sources/arxiv-2607-05196-nemotron-audex-unified-audio-intelligence.md
+  - concepts/unified-audio-text-llm-no-text-regression.md
+  - sweeps/2026-07-12-daily.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-07-04
+updated: 2026-07-12
 ---
 
 ## Relations
@@ -60,6 +65,14 @@ Page prompted by the W4 Tier 2 voice/audio backfill (2026-05-13). Named in @conc
 - **Multi-language persona** (e.g. content split between English + Spanish + Mandarin): Qwen3-TTS is now a credible fully open-source fallback, especially if 3-second cloning + streaming matters more than Fish's emotion tagging.
 - **License risk**: May 2026 Tongyi-license uncertainty is resolved for the public Qwen3-TTS repo/weights: Apache-2.0.
 - **Integration maturity**: lower than Fish-Speech / CosyVoice2 in SillyTavern / n8n connector libraries as of May 2026
+
+### Qwen3-TTS Flash variants (2026-07-12)
+
+Digest row R9 surfaces **Qwen3-TTS-VD-Flash** and **Qwen3-TTS-VC-Flash** (voice-design / voice-clone flash checkpoints with Russian among supported langs) [TENTATIVE — third-party blog, not yet verified on official Qwen HF org]. Treat as latency experiment candidates only; Fish-Speech S2 Pro remains default for NSFW emotion-tagged DMs until local A/B confirms parity.
+
+### Audex training dependency
+
+NVIDIA Audex uses **Qwen3-TTS-12Hz-1.7B-Base** for synthetic voice conversion in TTS training corpus — signals Qwen3-TTS maturity in frontier stacks (@entities/voice-models/nemotron-audex.md).
 
 ## Snippets
 

@@ -26,6 +26,10 @@ related:
   - sources/arxiv-2505-14215-safety-degradation-ai-agents.md
   - concepts/retrieval-agent-safety-degradation.md
   - sweeps/2026-07-11-daily.md
+  - entities/voice-models/nemotron-audex.md
+  - sources/arxiv-2607-05196-nemotron-audex-unified-audio-intelligence.md
+  - concepts/unified-audio-text-llm-no-text-regression.md
+  - sweeps/2026-07-12-daily.md
 title: "SillyTavern (NSFW DM frontend + RAG + TTS bridge)"
 type: entity
 tags: [persona-ops, dm-automation, llm-frontend, sillytavern, rag, tts, local-llm, character-card, persona-chat]
