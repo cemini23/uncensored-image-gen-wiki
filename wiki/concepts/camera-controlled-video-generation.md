@@ -29,6 +29,9 @@ related:
   - concepts/ucm-time-aware-pe-warping-world-models.md
   - sources/arxiv-2607-01869-qwerty-query-warped-video-motion-control.md
   - concepts/query-warped-video-motion-control.md
+  - entities/models/moworld.md
+  - sources/arxiv-2607-06216-moworld-flash-world-model.md
+  - sweeps/2026-07-13-daily.md
 title: Camera-Controlled Video Generation
 type: concept
 tags: [concept, video-generation, camera-control, 6-dof, conditioning]

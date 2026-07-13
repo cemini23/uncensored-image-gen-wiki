@@ -13,6 +13,8 @@ related:
   - concepts/low-resource-text-detoxification.md
   - sources/arxiv-2606-26015-tatoxa-text-detoxification-tatar.md
   - sources/arxiv-2603-03326-personality-sliders-llm-inference-time.md
+  - sources/arxiv-2607-08034-plural-value-alignment-dataset.md
+  - sweeps/2026-07-13-daily.md
 title: Domain-sensitive LLM over-alignment
 type: concept
 tags: [concept, persona-ops, llm-governance, alignment, safety]

@@ -52,6 +52,11 @@ monokern_pipeline:
   - web_url
   ingest_hook: After weekly digest, one NotebookLM pass on top active_topic (persona
     / video / voice lane)
+brief_routing_note: |
+  David persona adoption briefs: write `briefs/YYYY-MM-DD_*-adoption.md`, then mirror with
+  `python3 scripts/route_david_adoption_brief.py` → `../projects/tipdrop-workspace-kit/briefs/*-david.md`.
+  Canon: OSINT `scripts/active_project_brief_targets.yaml` row `david-persona-image-gen` ·
+  @concepts/david-adoption-brief-routing.md
 social:
   manual_pass:
   - tool: opencli-reader

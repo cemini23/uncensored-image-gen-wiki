@@ -29,6 +29,8 @@ related:
   - sweeps/2026-07-10-daily.md
   - sweeps/2026-07-11-daily.md
   - sweeps/2026-07-12-daily.md
+  - sources/arxiv-2607-08034-plural-value-alignment-dataset.md
+  - sweeps/2026-07-13-daily.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-07-12

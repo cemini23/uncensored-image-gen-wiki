@@ -26,6 +26,9 @@ related:
   - sources/arxiv-2606-16533-kairos-native-world-model-stack.md
   - entities/models/kairos.md
   - concepts/physical-ai-native-world-model-stacks.md
+  - entities/models/moworld.md
+  - sources/arxiv-2607-06216-moworld-flash-world-model.md
+  - sweeps/2026-07-13-daily.md
 maturity: validated
 created: 2026-05-16
 updated: 2026-06-19

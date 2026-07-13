@@ -6,6 +6,7 @@ keywords: [voice cloning, TTS, Fish-Speech, CosyVoice, lipsync, LatentSync, Muse
 related:
   - entities/persona-ops/fish-speech.md
   - concepts/persona-ops-stack.md
+  - concepts/david-adoption-brief-routing.md
   - concepts/persona-ops-workflow.md
   - entities/uis/comfyui.md
   - concepts/video-identity-inheritance.md
@@ -74,10 +75,12 @@ related:
   - sources/arxiv-2607-05196-nemotron-audex-unified-audio-intelligence.md
   - concepts/unified-audio-text-llm-no-text-regression.md
   - entities/voice-models/nemotron-audex.md
+  - entities/voice-models/speech-swift.md
   - sweeps/2026-07-12-daily.md
+  - sweeps/2026-07-13-daily.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-07-12
+updated: 2026-07-13
 ---
 
 ## Relations
@@ -127,6 +130,8 @@ An AI persona doesn't just need images and video — it needs a voice. The audio
 | **4. Sound Effects / Foley** | Ambient sound, scene audio for video content | Stable Audio Open, AudioLDM, Tango 2 |
 
 **Unified audio-text LLMs (Jul 2026):** NVIDIA **Audex** collapses layers 1+4 (+ ASR) into one MoE checkpoint but ships under **noncommercial license** and multi-GPU inference — @entities/voice-models/nemotron-audex.md. Production stack unchanged: modular Fish-Speech + Stable Audio Open.
+
+**Apple Silicon sandbox (Jul 2026):** **speech-swift** (`soniqo/speech-swift`, Apache-2.0) bundles CosyVoice, Qwen3-TTS (CoreML), and experimental Fish S2 on Mac — @entities/voice-models/speech-swift.md. **WATCH** for offline Mac voice-note experiments; CUDA Fish-Speech remains production for monetized personas.
 
 ### MSAVBench implication (multi-shot dialogue reels)
 

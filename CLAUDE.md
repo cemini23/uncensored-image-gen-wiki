@@ -260,6 +260,7 @@ Material ready to leave the wiki goes through `briefs/` first:
 - **→ DeepSeek** — same pattern, via DeepSeek API or web UI (see `.env.example` for `DEEPSEEK_API_KEY`)
 - **→ ComfyUI / Forge / A1111** — paste workflow JSONs, prompts, LoRA recipes from `## Snippets` into the local UI. Manual transfer.
 - **→ Audio pipeline (Fish-Speech / CosyVoice / LatentSync / MusicGen / Stable Audio Open)** — copy CLI commands, Python snippets, n8n flow JSONs from `## Snippets` into the local audio pipeline (run via venv/conda + FFmpeg post-mux). ComfyUI audio nodes where mature, external CLI otherwise.
+- **→ David / TipDrop shared kit** — persona adoption briefs mirror to `../projects/tipdrop-workspace-kit/briefs/*-david.md` via `python3 scripts/route_david_adoption_brief.py` (see @concepts/david-adoption-brief-routing.md)
 - **→ outputs/** — generated images, video, and audio stay local, gitignored
 
 No remote server, no scp, no team distribution. Everything stays on this laptop.

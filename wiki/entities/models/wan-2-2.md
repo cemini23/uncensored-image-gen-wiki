@@ -136,6 +136,9 @@ related:
   - entities/training-tools/heretic.md
   - sources/arxiv-2506-08797-hunyuanvideo-homa.md
   - concepts/hunyuanvideo-homa-weak-hoi-video.md
+  - entities/models/moworld.md
+  - sources/arxiv-2607-06216-moworld-flash-world-model.md
+  - sweeps/2026-07-13-daily.md
 title: Wan 2.2 (Alibaba)
 type: entity
 tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]

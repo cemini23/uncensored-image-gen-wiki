@@ -14,6 +14,8 @@ related:
   - entities/sfx-models/tango-2.md
   - concepts/persona-ops-stack.md
   - sweeps/2026-07-12-daily.md
+  - entities/voice-models/speech-swift.md
+  - sweeps/2026-07-13-daily.md
 maturity: draft
 created: 2026-07-12
 updated: 2026-07-12

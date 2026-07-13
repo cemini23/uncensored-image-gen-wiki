@@ -8,6 +8,7 @@ related:
   - concepts/persona-consistency-methods.md
   - concepts/lora-taxonomy.md
   - concepts/reference-plus-lora-stacking.md
+  - concepts/david-adoption-brief-routing.md
   - entities/training-tools/kohya-sd-scripts.md
   - entities/training-tools/ai-toolkit.md
   - entities/models/flux-2-klein.md
@@ -17,7 +18,7 @@ related:
   - sweeps/2026-07-09-daily.md
 maturity: draft
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-07-12
 ---
 
 ## Relations

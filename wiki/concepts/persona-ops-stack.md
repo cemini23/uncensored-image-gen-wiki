@@ -20,6 +20,7 @@ related:
   - concepts/model-selection-workflow.md
   - entities/uis/comfyui.md
   - concepts/persona-audio-stack.md
+  - concepts/david-adoption-brief-routing.md
   - entities/voice-models/cosyvoice2.md
   - entities/persona-ops/delive.md
   - entities/persona-ops/moneyprinter.md
@@ -67,6 +68,8 @@ related:
   - entities/voice-models/qwen3-tts.md
   - concepts/causal-perturbative-elicitation-llm.md
   - sources/arxiv-2606-29604-causal-perturbative-elicitation-llm.md
+  - sources/arxiv-2607-08034-plural-value-alignment-dataset.md
+  - sweeps/2026-07-13-daily.md
 title: "Persona operations stack (architecture overview)"
 type: concept
 tags: [persona-ops, automation, stack-architecture, multi-account, dm-automation, voice-cloning, orchestration, content-pipelines]

@@ -19,6 +19,8 @@ related:
   - concepts/waveform-native-flow-matching-tts.md
   - sources/arxiv-2606-09048-barewave-waveform-native-tts.md
   - entities/voice-models/confucius4-tts.md
+  - entities/voice-models/speech-swift.md
+  - sweeps/2026-07-13-daily.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-06-27

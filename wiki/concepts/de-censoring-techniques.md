@@ -42,16 +42,20 @@ related:
   - sources/arxiv-2606-22211-open-ai-local-llama-wild.md
   - sources/arxiv-2606-28643-obliviate-autoregressive-concept-erasure.md
   - concepts/autoregressive-concept-erasure-obliviate.md
+  - concepts/multimodal-machine-unlearning.md
   - entities/models/hunyuanimage-3-0.md
   - entities/training-tools/heretic.md
   - sweeps/2026-07-10-daily.md
+  - concepts/multimodal-machine-unlearning.md
+  - sources/arxiv-2607-07907-multimodal-unlearning-survey.md
+  - sweeps/2026-07-13-daily.md
 title: De-censoring techniques (abliteration, LoRA injection, weight merging, prompt bypasses)
 type: concept
 tags: [de-censoring, alignment-removal, abliteration, lora-injection, weight-merging, ties-merging, dare, slerp, prompt-engineering]
 keywords: [abliteration, refusal vector, LoRA injection, FLUX-UNCENSORED-Merged, Chroma1-HD, SNOFS, SLERP, TIES-Merging, DARE, Drop And Rescale, weight merging, prompt engineering bypass, architectural censorship hard wall]
 maturity: validated
 created: 2026-05-06
-updated: 2026-07-10
+updated: 2026-07-13
 ---
 
 

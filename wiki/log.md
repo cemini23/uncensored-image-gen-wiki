@@ -1,3 +1,44 @@
+## [2026-07-13] ingest | MoWorld + unlearning survey + PLURAL + speech-swift
+
+Daily sweep full ingest for 2026-07-13.
+
+### Created
+
+- `wiki/sources/arxiv-2607-06216-moworld-flash-world-model.md` — MoWorld WATCH (weights pending)
+- `wiki/entities/models/moworld.md`
+- `wiki/sources/arxiv-2607-07907-multimodal-unlearning-survey.md` — REFERENCE
+- `wiki/concepts/multimodal-machine-unlearning.md`
+- `wiki/sources/arxiv-2607-08034-plural-value-alignment-dataset.md` — REFERENCE
+- `wiki/entities/voice-models/speech-swift.md` — Phase-0 WATCH (Apache-2.0 Mac toolkit)
+
+### Updated
+
+- `wiki/sweeps/2026-07-13-daily.md` — ingested marker; inbox cleared
+- `wiki/concepts/world-models-video-generation.md`, `wiki/concepts/persona-audio-stack.md`, `wiki/concepts/de-censoring-techniques.md`
+- `wiki/entities/persona-ops/fish-speech.md`, `wiki/entities/voice-models/qwen3-tts.md`
+- `wiki/index.md`
+
+### Brief / routing
+
+- `briefs/2026-07-13_speech-swift-moworld-adoption-watch.md` → TipDrop kit mirror
+- Checked `active_project_brief_targets.yaml`: `david-persona-image-gen`; no prod SCP
+- **David/TipDrop:** speech-swift Mac WATCH; MoWorld WATCH (no weights)
+
+### Archive
+
+- 3 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/`
+
+---
+
+## [2026-07-12] meta | David adoption brief routing → TipDrop shared kit
+
+- Created `wiki/concepts/david-adoption-brief-routing.md` — mirror lane for persona adoption briefs
+- Added `scripts/route_david_adoption_brief.py` — copies `briefs/*-adoption*.md` → `../projects/tipdrop-workspace-kit/briefs/*-david.md`
+- OSINT `scripts/active_project_brief_targets.yaml` row: `david-persona-image-gen`
+- Backfilled 5 adoption briefs (2026-07-04 … 2026-07-12) to kit
+
+---
+
 ## [2026-07-12] ingest | Nemotron Audex unified audio LLM
 
 Daily sweep full ingest for 2026-07-12.
@@ -19,7 +60,7 @@ Daily sweep full ingest for 2026-07-12.
 
 ### Brief / routing
 
-- `briefs/2026-07-12_audex-fish-stack-unchanged.md` — wiki-only; no prod SCP
+- `briefs/2026-07-12_audex-fish-stack-unchanged.md` — TipDrop kit mirror (`route_david_adoption_brief.py`); no prod SCP
 
 ---
 

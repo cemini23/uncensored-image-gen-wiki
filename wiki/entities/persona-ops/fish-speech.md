@@ -41,9 +41,11 @@ related:
   - sources/arxiv-2607-05196-nemotron-audex-unified-audio-intelligence.md
   - concepts/unified-audio-text-llm-no-text-regression.md
   - entities/voice-models/nemotron-audex.md
+  - entities/voice-models/speech-swift.md
+  - sweeps/2026-07-13-daily.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-12
+updated: 2026-07-13
 ---
 
 ## Relations

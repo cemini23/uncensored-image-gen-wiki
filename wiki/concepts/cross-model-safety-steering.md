@@ -20,6 +20,9 @@ related:
   - sources/arxiv-2603-03326-personality-sliders-llm-inference-time.md
   - concepts/autoregressive-concept-erasure-obliviate.md
   - sources/arxiv-2606-28643-obliviate-autoregressive-concept-erasure.md
+  - concepts/multimodal-machine-unlearning.md
+  - sources/arxiv-2607-07907-multimodal-unlearning-survey.md
+  - sweeps/2026-07-13-daily.md
 maturity: draft
 created: 2026-06-06
 updated: 2026-07-02

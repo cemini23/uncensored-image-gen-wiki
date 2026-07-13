@@ -72,6 +72,7 @@ related:
   - entities/custom-nodes/comfyui-mcp.md
   - sweeps/2026-07-11-daily.md
   - sweeps/2026-07-12-daily.md
+  - sweeps/2026-07-13-daily.md
 title: Federated daily research digest
 type: concept
 tags: [meta, automation, federation, discovery, k93]

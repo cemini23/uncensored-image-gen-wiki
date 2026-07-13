@@ -64,9 +64,12 @@ related:
   - entities/models/car.md
   - sources/arxiv-2602-22960-ucm-camera-control-memory-world-models.md
   - concepts/ucm-time-aware-pe-warping-world-models.md
+  - sources/arxiv-2607-06216-moworld-flash-world-model.md
+  - entities/models/moworld.md
+  - sweeps/2026-07-13-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-07-02
+updated: 2026-07-13
 ---
 
 ## Relations
@@ -115,6 +118,7 @@ To hit those properties at a tractable cost, 2026 world models converge on a rec
 ### 2026 landscape
 
 - **SANA-WM** (NVIDIA, May 2026) — workspace's first ingested example. 2.6B params, native one-minute 720p, single-GPU bidirectional / chunk-causal AR / distilled-AR variants; distilled variant runs 60s/720p in 34s on a single RTX 5090 with NVFP4. Open-source. → @entities/models/sana-wm.md
+- **MoWorld** (Moxin Technology, Jul 2026) — **Flash World Model** targeting **50 FPS** real-time interaction on **NPU** hardware; weights/code not open at ingest. Efficiency / latency reference — @entities/models/moworld.md
 - **LingBot-World** and **HY-WorldPlay** — industrial closed-source baselines cited by SANA-WM as the visual-quality reference; both predate SANA-WM's efficiency story.
 
 ### Build-track relevance
