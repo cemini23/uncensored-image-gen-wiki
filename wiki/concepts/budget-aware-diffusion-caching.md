@@ -23,17 +23,18 @@ related:
   - sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md
   - sources/arxiv-2605-30116-sgmd-score-gradient-matching-distillation.md
   - sources/arxiv-2606-24313-prob-bbdm-mri-sequence-translation.md
+  - concepts/multimodal-diffusion-mamba-efficient-t2v.md
   - concepts/brownian-bridge-medical-image-translation.md
   - concepts/input-stable-sparse-attention-video.md
   - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-07-01
+updated: 2026-07-14
 ---
 
 ## Relations
 
-@sources/arxiv-2606-06060-recache-diffusion-caching.md @entities/hardware/gpu-guide.md @entities/models/flux-1-dev.md @entities/models/wan-2-2.md
+@sources/arxiv-2606-06060-recache-diffusion-caching.md @entities/hardware/gpu-guide.md @entities/models/flux-1-dev.md @entities/models/wan-2-2.md @concepts/multimodal-diffusion-mamba-efficient-t2v.md
 
 ## Raw Concept
 

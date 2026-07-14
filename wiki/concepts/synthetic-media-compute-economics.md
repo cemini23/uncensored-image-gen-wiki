@@ -19,9 +19,12 @@ related:
   - concepts/topology-aware-dit-parallel-inference.md
   - sources/arxiv-2607-04553-lights-camera-carbon-video-energy-scaling.md
   - concepts/video-generation-energy-scaling-laws.md
+  - concepts/multimodal-diffusion-mamba-efficient-t2v.md
+  - entities/models/m4v.md
+  - sources/arxiv-2506-10915-m4v-multimodal-mamba-t2v.md
 maturity: draft
 created: 2026-05-08
-updated: 2026-07-09
+updated: 2026-07-14
 ---
 
 ## Relations
@@ -36,10 +39,7 @@ updated: 2026-07-09
 @concepts/persona-monetization-models.md
 @sources/arxiv-2607-04553-lights-camera-carbon-video-energy-scaling.md
 @concepts/video-generation-energy-scaling-laws.md
-
-## Raw Concept
-
-Question: What are the exact unit economics of AI-generated image and video production, and how do they interact with the 90% gross profit margin target for synthetic media businesses?
+@concepts/multimodal-diffusion-mamba-efficient-t2v.md @entities/models/m4v.md
 
 Synthesized from: @sources/synthetic-media-ip-financial-roadmap.md (entire Section 2).
 

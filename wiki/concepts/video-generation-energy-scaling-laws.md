@@ -10,15 +10,18 @@ related:
   - entities/models/hunyuanvideo-1-5.md
   - entities/models/ltx-2.md
   - concepts/budget-aware-diffusion-caching.md
+  - concepts/multimodal-diffusion-mamba-efficient-t2v.md
+  - entities/models/m4v.md
+  - sources/arxiv-2506-10915-m4v-multimodal-mamba-t2v.md
   - sweeps/2026-07-09-daily.md
 maturity: draft
 created: 2026-07-09
-updated: 2026-07-09
+updated: 2026-07-14
 ---
 
 ## Relations
 
-@sources/arxiv-2607-04553-lights-camera-carbon-video-energy-scaling.md @concepts/synthetic-media-compute-economics.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @entities/models/ltx-2.md @concepts/budget-aware-diffusion-caching.md
+@sources/arxiv-2607-04553-lights-camera-carbon-video-energy-scaling.md @concepts/synthetic-media-compute-economics.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @entities/models/ltx-2.md @concepts/budget-aware-diffusion-caching.md @concepts/multimodal-diffusion-mamba-efficient-t2v.md @entities/models/m4v.md
 
 ## Raw Concept
 
@@ -42,6 +45,8 @@ where `T` is spatiotemporal token volume (resolution × frames), `S` is denoisin
 | Batch persona renders | Linear in `B` only when clips are independent |
 
 This complements dollar-based unit economics in @concepts/synthetic-media-compute-economics.md — use Wh estimates when comparing step-distilled vs full-step Wan on RunPod before large persona video batches.
+
+Architectural attack on the same bill: **M4V / MM-DiM** claims ~45% mixer FLOP cut vs full attention at 768p long clips (@concepts/multimodal-diffusion-mamba-efficient-t2v.md) — watch for open Wan grafts before re-estimating \$/clip.
 
 Phase-0 posture: **REFERENCE** — no tooling to install.
 

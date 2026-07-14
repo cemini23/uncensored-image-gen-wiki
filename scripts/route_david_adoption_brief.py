@@ -18,8 +18,8 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 BRIEFS_DIR = REPO_ROOT / "briefs"
 
 TIPDROP_CANDIDATES = [
-    REPO_ROOT.parent / "projects" / "tipdrop-workspace-kit",
     Path.home() / "Desktop" / "projects" / "tipdrop-workspace-kit",
+    REPO_ROOT.parent / "projects" / "tipdrop-workspace-kit",
 ]
 
 

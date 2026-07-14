@@ -139,13 +139,17 @@ related:
   - entities/models/moworld.md
   - sources/arxiv-2607-06216-moworld-flash-world-model.md
   - sweeps/2026-07-13-daily.md
+  - entities/models/m4v.md
+  - sources/arxiv-2506-10915-m4v-multimodal-mamba-t2v.md
+  - concepts/multimodal-diffusion-mamba-efficient-t2v.md
+  - sweeps/2026-07-14-daily.md
 title: Wan 2.2 (Alibaba)
 type: entity
 tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]
 keywords: [wan2.2, wan-2-2, alibaba, mixture-of-experts, dual-expert, snr-routing, 27b, 14b, 5b, ti2v, apache-2.0, abliterated-text-encoder, mq-lab, blink, theyurilover]
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-09
+updated: 2026-07-14
 ---
 
 
@@ -161,6 +165,7 @@ updated: 2026-07-09
 @entities/lipsync/latentsync.md
 @concepts/query-warped-video-motion-control.md
 @concepts/mobile-wan-chunkwise-video-distillation.md
+@entities/models/m4v.md @concepts/multimodal-diffusion-mamba-efficient-t2v.md @sources/arxiv-2506-10915-m4v-multimodal-mamba-t2v.md
 
 ## Raw Concept
 
@@ -232,6 +237,7 @@ Alibaba teased Wan 2.5 (native audio) and Wan 3.0 across late-2025 / early-2026 
 ### Mobile / distillation watch (2026-07-09)
 
 - **MobileWan** (Qualcomm, arXiv:2607.06173) distills **Wan2.2-5B** into chunk-wise autoregressive + head-pruned mobile inference (VBench 83.79 on phone-class NPU). **WATCH** — no open weights at ingest; laptop/RunPod path unchanged. → @concepts/mobile-wan-chunkwise-video-distillation.md
+- **M4V** (Meituan, arXiv:2506.10915) grafts **MM-DiM (Mamba)** mixers onto **Wan2.1** (paper reports VBench Total 86.14 vs Wan2.1 84.70 + faster A100 decode). **WATCH** — weights/code not public at 2026-07-14 ingest; if a Wan2.2 port ships with a clean license, re-evaluate \$/clip vs stock Wan. → @entities/models/m4v.md @concepts/multimodal-diffusion-mamba-efficient-t2v.md
 - **Energy scaling** for batch planning: @concepts/video-generation-energy-scaling-laws.md from Lights, Camera, Carbon (2607.04553)
 
 ## Snippets

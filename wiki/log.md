@@ -1,3 +1,33 @@
+## [2026-07-14] ingest | M4V Multimodal Mamba efficient T2V
+
+Daily sweep full ingest for 2026-07-14.
+
+### Created
+
+- `wiki/sources/arxiv-2506-10915-m4v-multimodal-mamba-t2v.md` — M4V / MM-DiM; Phase-0 **WATCH** (weights pending)
+- `wiki/entities/models/m4v.md`
+- `wiki/concepts/multimodal-diffusion-mamba-efficient-t2v.md` — sibling to hybrid linear attention
+
+### Updated
+
+- `wiki/sweeps/2026-07-14-daily.md` — ingested marker; inbox cleared
+- `wiki/entities/models/wan-2-2.md` — Wan2.1 MM-DiM graft note
+- `wiki/concepts/hybrid-linear-attention.md`, `wiki/concepts/video-generation-energy-scaling-laws.md`, `wiki/concepts/synthetic-media-compute-economics.md`
+- `wiki/sources/video-generation-survey-2026.md` — backlink
+- `wiki/index.md`
+
+### Brief / routing
+
+- `briefs/2026-07-14_m4v-multimodal-mamba-adoption-watch.md` → TipDrop kit mirror
+- Checked `active_project_brief_targets.yaml`: `david-persona-image-gen` only; no poker / prod SCP
+- **Local adopt:** none (no public weights/code)
+
+### Archive
+
+- 1 PDF → `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/`
+
+---
+
 ## [2026-07-13] ingest | MoWorld + unlearning survey + PLURAL + speech-swift
 
 Daily sweep full ingest for 2026-07-13.
