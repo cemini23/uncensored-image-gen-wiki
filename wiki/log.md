@@ -1,3 +1,27 @@
+## [2026-07-15] ingest | Contravariance Theory (peripheral NeuroAI)
+
+Daily sweep full ingest for 2026-07-15.
+
+### Created
+
+- `wiki/sources/arxiv-2607-08561-contravariance-theory-strong-alignment.md` — Yamins/Nayebi NeuroAI theory; Phase-0 **SKIP** / peripheral REFERENCE
+
+### Updated
+
+- `wiki/sweeps/2026-07-15-daily.md` — ingested marker; inbox cleared
+- `wiki/index.md`
+
+### Brief / routing
+
+- None — no TipDrop / poker / prod (no install path; keyword false positive on "strong alignment")
+- **Local adopt:** none
+
+### Archive
+
+- 1 PDF → `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/`
+
+---
+
 ## [2026-07-14] ingest | M4V Multimodal Mamba efficient T2V
 
 Daily sweep full ingest for 2026-07-14.
@@ -18,13 +42,16 @@ Daily sweep full ingest for 2026-07-14.
 
 ### Brief / routing
 
-- `briefs/2026-07-14_m4v-multimodal-mamba-adoption-watch.md` → TipDrop kit mirror
-- Checked `active_project_brief_targets.yaml`: `david-persona-image-gen` only; no poker / prod SCP
+- **No David adoption brief** — M4V has no install path (no public code/weights); per @concepts/david-adoption-brief-routing.md a WATCH-only research finding does not warrant a brief. Wiki shelf only (source + entity + concept pages above).
 - **Local adopt:** none (no public weights/code)
+
+### Correction (2026-07-14, same-day)
+
+- An initial automated pass wrote `briefs/2026-07-14_m4v-multimodal-mamba-adoption-watch.md` (`david: true`) and mirrored it to `tipdrop-workspace-kit/briefs/`. Both copies were removed — WATCH-only findings with no install path should stay wiki-only, not become a David brief. Verified via GitHub MCP that `huangjch526/M4V` holds only `README.md` + `abs.png` (no code/weights), confirming the WATCH verdict and sharpening the source/entity pages accordingly.
 
 ### Archive
 
-- 1 PDF → `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/`
+- 1 PDF → `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/` (confirmed present, 11,635,227 bytes)
 
 ---
 

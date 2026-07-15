@@ -32,7 +32,7 @@ Entity from 2026-07-14 ingest of arXiv:2506.10915. Meituan-led **Mamba-for-T2V**
 | Field | Value |
 |-------|--------|
 | Paper | arXiv:2506.10915v2 / CVPR 2026 |
-| Code / weights | **Not released** — "will be publicly available" on project page |
+| Code / weights | **Not released** — `github.com/huangjch526/M4V` exists (5★) but holds only README + one figure, no code/weights |
 | License | Unknown until release |
 | Bases studied | PyramidFlow (FLUX MM-DiT hybrid) + Wan2.1 full-attn→MM-DiM swap |
 | Hardware story | A100 paper timings; Mamba CUDA kernels assumed — no MPS story |
@@ -53,7 +53,7 @@ Complements @concepts/hybrid-linear-attention.md (SANA-WM GDN+softmax) as a diff
 |------|-------|
 | Domain fit | Model release (video) — efficiency fork of Wan/PyramidFlow |
 | License | Unknown — do not adopt until SPDX + weights ToS clear |
-| Maturity | Paper + project demos only; no repo stars/commits to score |
+| Maturity | Paper + project demos only; repo has 5★ but zero code commits to score |
 | Failure modes | Weights delayed; training-data license poison; no ComfyUI Day-0; Apple Silicon unlikely first-class |
 | Verdict | **WATCH** — no local adopt (<500 MB N/A; nothing to download) |
 
@@ -62,3 +62,7 @@ Complements @concepts/hybrid-linear-attention.md (SANA-WM GDN+softmax) as a diff
 > "…the Mamba blocks in M4V reduce the FLOPs by 45% compared to the attention alternative when generating 121-frame videos at 768×1280 resolution."
 
 [Source: https://huangjch526.github.io/M4V_project/ (retrieved 2026-07-14)]
+
+## Dead Ends
+
+- Checked `github.com/huangjch526/M4V` on 2026-07-14 hoping for a Day-0 code drop — repo exists but is a placeholder (README + `abs.png` only). No Hugging Face org/model found either. Re-check on next M4V mention.

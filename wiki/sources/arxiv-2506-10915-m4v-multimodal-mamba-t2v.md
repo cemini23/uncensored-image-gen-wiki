@@ -55,7 +55,7 @@ Reported highlights [TENTATIVE — paper numbers, unreproduced]:
 
 Training mix (~10M single-shot clips after preprocess) includes WebVid-10M, OpenVid-1M, Open-Sora Plan watermark-free set, plus large **proprietary / third-party image** piles (LAION-aesthetic, Midjourney synth, Instagram, internal portraits). Commercial redistribution of any released weights will need a separate license audit.
 
-**Phase-0 verdict: WATCH** — project page says *"Code and models will be publicly available"*; no GitHub repo or Hugging Face weights found on 2026-07-14. No local install path under 500 MB.
+**Phase-0 verdict: WATCH** — project page says *"Code and models will be publicly available"*. As of 2026-07-14, `github.com/huangjch526/M4V` exists (5★) but ships **README.md + one figure image only** — no inference code, no training code, no weights. No Hugging Face repo found. No local install path under 500 MB; nothing adoptable to download.
 
 ## Snippets
 
@@ -66,6 +66,10 @@ Training mix (~10M single-shot clips after preprocess) includes WebVid-10M, Open
 > "Code and models will be publicly available at https://huangjch526.github.io/M4V_project/."
 
 [Source: project page HTML (retrieved 2026-07-14)]
+
+> Repo contents: `README.md` (2.6 KB, paper abstract only), `abs.png` (figure). No `.py`/`.json`/model files.
+
+[Source: github.com/huangjch526/M4V @ e0878e7 (retrieved 2026-07-14)]
 
 > "M4V\* (Wan2.1) … Total Score 86.14 … Wan2.1 … 84.70"
 
