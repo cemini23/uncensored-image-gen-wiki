@@ -1,34 +1,56 @@
 loop:
-  recency_window_days: 7
+  recency_window_days: 14
   max_results_per_query: 3
 fetch:
   enabled: true
   max_downloads: 8
   fetch_likely: false
-  max_results_per_paper_query: 5
+  max_results_per_paper_query: 3
 arxiv_fallback:
   enabled: true
   request_interval_seconds: 3
-  max_terms_per_query: 6
+  max_terms_per_query: 4
+exa:
+  news_enabled: false
+  paper_mode: arxiv-only
+  include_domains:
+  - arxiv.org
+  search_type: auto
 active_topics:
 - Type-D stale [NEEDS VERIFICATION] batch — NoobAI-XL / FLUX adapter cluster
 - PersonaLive Phase-0 — GVCLab live avatar audit
 - ComfyUI custom nodes + Wan 2.2 / FLUX.2 Klein workflow updates
 - Voice/audio pipeline — Fish-Speech + LatentSync production hardening
 - Federated daily digest — first sweep quality tuning (K93)
+brief_routing_note: 'David persona adoption briefs: write `briefs/YYYY-MM-DD_*-adoption.md`, then mirror
+  with
+
+  `python3 scripts/route_david_adoption_brief.py` → `../projects/tipdrop-workspace-kit/briefs/*-david.md`.
+
+  Canon: OSINT `scripts/active_project_brief_targets.yaml` row `david-persona-image-gen` ·
+
+  @concepts/david-adoption-brief-routing.md
+
+  '
 paper_queries:
 - cluster: diffusion-lora-persona
   query: research paper diffusion LoRA character consistency identity adapter persona
   category: research paper
+  arxiv_query: (all:LoRA OR all:diffusion) AND (all:persona OR all:identity OR all:face OR all:subject)
 - cluster: video-generation-open
   query: research paper Wan HunyuanVideo image-to-video latent diffusion open weights
   category: research paper
+  arxiv_query: (all:"video generation" OR all:I2V OR all:T2V) AND (all:diffusion OR all:open-source OR
+    all:video)
 - cluster: voice-clone-lipsync
   query: research paper zero-shot voice cloning lipsync TTS diffusion 2025 2026
   category: research paper
+  arxiv_query: (all:"voice clone" OR all:lipsync OR all:"lip sync" OR all:TTS) AND (all:speech OR all:audio
+    OR all:video)
 - cluster: uncensored-alignment
   query: research paper text-to-image safety alignment de-censoring fine-tune
   category: research paper
+  arxiv_query: (all:alignment OR all:uncensored OR all:safety) AND (all:LLM OR all:diffusion OR all:moderation)
 queries:
 - cluster: comfyui-ecosystem
   query: ComfyUI custom node FLUX Wan LoRA workflow release 2026
@@ -50,18 +72,11 @@ monokern_pipeline:
   - yt-dlp
   - inbox_pdf
   - web_url
-  ingest_hook: After weekly digest, one NotebookLM pass on top active_topic (persona
-    / video / voice lane)
-brief_routing_note: |
-  David persona adoption briefs: write `briefs/YYYY-MM-DD_*-adoption.md`, then mirror with
-  `python3 scripts/route_david_adoption_brief.py` → `../projects/tipdrop-workspace-kit/briefs/*-david.md`.
-  Canon: OSINT `scripts/active_project_brief_targets.yaml` row `david-persona-image-gen` ·
-  @concepts/david-adoption-brief-routing.md
+  ingest_hook: After weekly digest, one NotebookLM pass on top active_topic (persona / video / voice lane)
 social:
   manual_pass:
   - tool: opencli-reader
-    prompt: Reddit r/comfyui r/StableDiffusion r/LocalLLaMA — FLUX Wan LoRA releases
-      last 7d
+    prompt: Reddit r/comfyui r/StableDiffusion r/LocalLLaMA — FLUX Wan LoRA releases last 7d
   - tool: twitter-reader
     prompt: CivitAI ComfyUI FLUX Wan voice-clone model releases fintwit-adjacent creators
 output:
