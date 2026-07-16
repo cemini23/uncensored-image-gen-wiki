@@ -13,6 +13,7 @@ related:
   - entities/models/cogvideox-1-5.md
   - entities/models/hunyuanvideo-1-5.md
   - entities/models/ltx-2.md
+  - entities/benchmarks/vgif-score.md
 maturity: draft
 created: 2026-06-24
 updated: 2026-06-24

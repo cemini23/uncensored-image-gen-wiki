@@ -9,15 +9,17 @@ related:
   - entities/models/ltx-2.md
   - entities/models/wan-2-2.md
   - sources/arxiv-2606-22959-vae-latent-sign-pose-diffusion.md
+  - entities/models/videorae.md
+  - sources/arxiv-2607-14088-videorae-vfm-representation-autoencoder.md
+  - sweeps/2026-07-16-daily.md
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-24
+updated: 2026-07-16
 ---
 
 ## Relations
 
-@sources/arxiv-2606-22959-vae-latent-sign-pose-diffusion.md
-
+@sources/arxiv-2606-22959-vae-latent-sign-pose-diffusion.md @entities/models/ltx-2.md @entities/models/wan-2-2.md @entities/models/videorae.md @sources/arxiv-2607-14088-videorae-vfm-representation-autoencoder.md
 ## Raw Concept
 
 Ingest 2026-06-24 from Fauré et al. (arXiv:2606.22959) — sign-language pose VAE study with transferable latent-diffusion lesson.
@@ -36,7 +38,7 @@ Ingest 2026-06-24 from Fauré et al. (arXiv:2606.22959) — sign-language pose V
 
 ### Image/video gen parallel
 
-Same pattern noted in image latent diffusion literature — SD/VAE and video tokenizers (LTX, Wan VAE) should be evaluated on **DiT sample quality**, not PSNR/SSIM alone.
+Same pattern noted in image latent diffusion literature — SD/VAE and video tokenizers (LTX, Wan VAE) should be evaluated on **DiT sample quality**, not PSNR/SSIM alone. **VideoRAE** (arXiv:2607.14088) makes the same point empirically: V-JEPA 2 teacher beats VideoMAEv2 on generation gFVD despite weaker PSNR; claimed LTX-VAE drop-in at 2B T2V. → @entities/models/videorae.md
 
 ### Build-track note
 

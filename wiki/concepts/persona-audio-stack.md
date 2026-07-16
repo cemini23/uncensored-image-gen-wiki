@@ -76,11 +76,16 @@ related:
   - concepts/unified-audio-text-llm-no-text-regression.md
   - entities/voice-models/nemotron-audex.md
   - entities/voice-models/speech-swift.md
+  - entities/voice-models/zipl-dialog.md
+  - entities/voice-models/autosift.md
+  - sources/arxiv-2607-12496-zipl-dialog-latent-flow-matching.md
+  - sources/arxiv-2607-12706-autosift-style-infilling-tts.md
   - sweeps/2026-07-12-daily.md
   - sweeps/2026-07-13-daily.md
+  - sweeps/2026-07-16-daily.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-07-13
+updated: 2026-07-16
 ---
 
 ## Relations
@@ -176,6 +181,8 @@ Already documented in @entities/persona-ops/fish-speech.md. Key facts as of May 
 | **XTTS-v2 (Coqui)** | Most downloaded, 6-sec cloning | Company shut down 2024; legacy arch |
 | **Chatterbox (Resemble AI)** | Permissive license, real-time, lightweight | Newer, smaller ecosystem |
 | **Dia (Nari Labs)** | Dialogue-focused TTS, conversational | Purpose-built for chat, not broadcast |
+| **ZipL-Dialog** (WATCH) | Latent flow-matching multi-minute dialog | Memory-efficient multi-speaker; no public weights 2026-07-16 — @entities/voice-models/zipl-dialog.md |
+| **AutoSIFT** (WATCH) | Category-level style infilling | Edit emotion/age/gender while keeping residual style; no public weights — @entities/voice-models/autosift.md |
 
 #### Decision matrix for persona voice
 

@@ -10,14 +10,15 @@ related:
   - entities/models/wan-2-2.md
   - concepts/camera-controlled-video-generation.md
   - sweeps/2026-07-13-daily.md
+  - sources/arxiv-2607-14076-interactive-world-models-game-engines.md
 maturity: draft
 created: 2026-07-13
-updated: 2026-07-13
+updated: 2026-07-16
 ---
 
 ## Relations
 
-@sources/arxiv-2607-06216-moworld-flash-world-model.md @concepts/world-models-video-generation.md @entities/models/sana-wm.md @entities/models/wan-2-2.md
+@sources/arxiv-2607-06216-moworld-flash-world-model.md @concepts/world-models-video-generation.md @entities/models/sana-wm.md @entities/models/wan-2-2.md @sources/arxiv-2607-14076-interactive-world-models-game-engines.md
 
 ## Raw Concept
 

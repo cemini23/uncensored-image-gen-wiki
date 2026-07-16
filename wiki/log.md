@@ -1,3 +1,39 @@
+## [2026-07-16] ingest | ZipL/AutoSIFT/VideoRAE/VGIF + peripherals
+
+Daily sweep full ingest for 2026-07-16 (8 PDFs).
+
+### Created (in-scope)
+
+- `wiki/sources/arxiv-2607-12496-zipl-dialog-latent-flow-matching.md` + `entities/voice-models/zipl-dialog.md` — **WATCH**
+- `wiki/sources/arxiv-2607-12706-autosift-style-infilling-tts.md` + `entities/voice-models/autosift.md` — **WATCH**
+- `wiki/sources/arxiv-2607-13527-vgif-score-video-instruction-eval.md` + `entities/benchmarks/vgif-score.md` — **WATCH** (placeholder repo)
+- `wiki/sources/arxiv-2607-14088-videorae-vfm-representation-autoencoder.md` + `entities/models/videorae.md` — **WATCH**
+- `wiki/sources/arxiv-2607-14076-interactive-world-models-game-engines.md` — **REFERENCE**
+
+### Created (peripheral SKIP)
+
+- `wiki/sources/arxiv-2607-13563-nexus-native-mesh-diffusion.md`
+- `wiki/sources/arxiv-2607-13391-nonequilibrium-markov-particles.md`
+- `wiki/sources/arxiv-2607-13425-attention-head-reweighting-llm.md`
+
+### Updated
+
+- `wiki/sweeps/2026-07-16-daily.md`, `wiki/index.md`
+- `wiki/concepts/persona-audio-stack.md`, `vae-latent-space-downstream-diffusion.md`, `world-models-video-generation.md`, `multi-shot-audio-video-evaluation.md`, `streaming-force-controlled-video-generation.md`
+- `wiki/entities/models/{wan-2-2,ltx-2,moworld,sana-wm}.md`, `voice-models/dia.md`, `benchmarks/geot2v-bench.md`
+- `wiki/sources/video-generation-survey-2026.md`
+
+### Brief / routing
+
+- **None** — no TipDrop / poker / prod (no public install paths; David rule: wiki-only WATCH)
+- **Local adopt:** none
+
+### Archive
+
+- 8 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/`
+
+---
+
 ## [2026-07-15] ingest | Contravariance Theory (peripheral NeuroAI)
 
 Daily sweep full ingest for 2026-07-15.

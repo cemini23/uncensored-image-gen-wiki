@@ -8,10 +8,12 @@ related:
   - entities/persona-ops/fish-speech.md
   - entities/voice-models/cosyvoice2.md
   - entities/voice-models/chatterbox.md
+  - entities/voice-models/zipl-dialog.md
   - sources/persona-ops-stack-2026.md
+  - sources/arxiv-2607-12496-zipl-dialog-latent-flow-matching.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-07-16
 ---
 
 ## Relations
@@ -20,6 +22,7 @@ updated: 2026-05-13
 @entities/persona-ops/fish-speech.md
 @entities/voice-models/cosyvoice2.md
 @entities/voice-models/chatterbox.md
+@entities/voice-models/zipl-dialog.md
 @sources/persona-ops-stack-2026.md
 
 ## Raw Concept

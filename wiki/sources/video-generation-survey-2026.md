@@ -161,6 +161,10 @@ related:
   - sources/arxiv-2506-10915-m4v-multimodal-mamba-t2v.md
   - entities/models/m4v.md
   - concepts/multimodal-diffusion-mamba-efficient-t2v.md
+  - sources/arxiv-2607-14088-videorae-vfm-representation-autoencoder.md
+  - entities/models/videorae.md
+  - sources/arxiv-2607-13527-vgif-score-video-instruction-eval.md
+  - entities/benchmarks/vgif-score.md
 title: Video Generation Models Survey (May 2026)
 type: source
 tags: [survey, video-generation, t2v, i2v, deep-research, uncensored, latent-chaining, lipsync]
@@ -168,7 +172,7 @@ keywords: [video, wan, hunyuan, ltx-2, mochi, cogvideox, seedance, vidu, open-so
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-07-14
+updated: 2026-07-16
 ---
 
 
@@ -180,6 +184,7 @@ updated: 2026-07-14
 @entities/uis/comfyui.md
 @sources/sana-wm-minute-scale-world-model.md — adjacent ingest: NVIDIA's SANA-WM minute-scale camera-controlled video world model
 @sources/arxiv-2506-10915-m4v-multimodal-mamba-t2v.md @entities/models/m4v.md @concepts/multimodal-diffusion-mamba-efficient-t2v.md — M4V efficiency fork (Mamba T2V)
+@sources/arxiv-2607-14088-videorae-vfm-representation-autoencoder.md @entities/models/videorae.md @entities/benchmarks/vgif-score.md
 
 ## Raw Concept
 

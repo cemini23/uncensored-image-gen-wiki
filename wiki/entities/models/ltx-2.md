@@ -38,13 +38,18 @@ related:
   - concepts/vae-latent-space-downstream-diffusion.md
   - entities/benchmarks/geot2v-bench.md
   - sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md
+  - sources/arxiv-2607-14088-videorae-vfm-representation-autoencoder.md
+  - entities/models/videorae.md
+  - sources/arxiv-2607-13527-vgif-score-video-instruction-eval.md
+  - entities/benchmarks/vgif-score.md
+  - sweeps/2026-07-16-daily.md
 title: LTX-2 (Lightricks)
 type: entity
 tags: [model, video, asymmetric-av, audio-visual, ltx, lightricks, joint-foundation]
 keywords: [ltx-2, ltx-video, lightricks, asymmetric-av, audio-visual, 19b, 14b-visual, 5b-audio, bidirectional-cross-attention, 4k, 50fps, foley, modality-specific-vae, ltx-2-community-license]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-24
+updated: 2026-07-16
 ---
 
 ## Relations
@@ -53,6 +58,8 @@ updated: 2026-06-24
 
 @concepts/persona-audio-stack.md
 @concepts/world-models-video-generation.md — LTX-2's high-compression video tokenizer is the codec layer SANA-WM uses for minute-scale single-GPU world modeling
+@entities/models/videorae.md @sources/arxiv-2607-14088-videorae-vfm-representation-autoencoder.md — VideoRAE claims better VBench when replacing LTX-VAE in a 2B T2V control (WATCH; weights pending)
+@entities/benchmarks/vgif-score.md — instruction-following diagnostic bench (WATCH)
 @entities/models/sana-wm.md — SANA-WM uses a high-compression LTX2 tokenizer as its video latent codec
 @sources/sana-wm-minute-scale-world-model.md
 ## Raw Concept

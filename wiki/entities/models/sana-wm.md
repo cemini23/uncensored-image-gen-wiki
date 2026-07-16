@@ -29,14 +29,15 @@ related:
   - entities/models/moworld.md
   - sources/arxiv-2607-06216-moworld-flash-world-model.md
   - sweeps/2026-07-13-daily.md
+  - sources/arxiv-2607-14076-interactive-world-models-game-engines.md
 maturity: validated
 created: 2026-05-16
-updated: 2026-06-19
+updated: 2026-07-16
 ---
 
 ## Relations
 
-@sources/sana-wm-minute-scale-world-model.md @concepts/world-models-video-generation.md @concepts/camera-controlled-video-generation.md @concepts/hybrid-linear-attention.md @entities/models/sana.md @entities/models/ltx-2.md @entities/models/metaworld.md @entities/models/decmem.md
+@sources/sana-wm-minute-scale-world-model.md @concepts/world-models-video-generation.md @concepts/camera-controlled-video-generation.md @concepts/hybrid-linear-attention.md @entities/models/sana.md @entities/models/ltx-2.md @entities/models/metaworld.md @entities/models/decmem.md @sources/arxiv-2607-14076-interactive-world-models-game-engines.md
 
 ## Raw Concept
 

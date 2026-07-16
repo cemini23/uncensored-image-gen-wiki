@@ -42,10 +42,14 @@ related:
   - concepts/unified-audio-text-llm-no-text-regression.md
   - entities/voice-models/nemotron-audex.md
   - entities/voice-models/speech-swift.md
+  - entities/voice-models/zipl-dialog.md
+  - entities/voice-models/autosift.md
+  - sources/arxiv-2607-12496-zipl-dialog-latent-flow-matching.md
+  - sources/arxiv-2607-12706-autosift-style-infilling-tts.md
   - sweeps/2026-07-13-daily.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-13
+updated: 2026-07-16
 ---
 
 ## Relations

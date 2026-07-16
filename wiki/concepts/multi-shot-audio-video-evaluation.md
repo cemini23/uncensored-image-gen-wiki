@@ -18,14 +18,16 @@ related:
   - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
   - sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md
   - sources/arxiv-2606-03672-foley-omni.md
+  - sources/arxiv-2607-13527-vgif-score-video-instruction-eval.md
+  - entities/benchmarks/vgif-score.md
 maturity: draft
 created: 2026-06-08
-updated: 2026-06-08
+updated: 2026-07-16
 ---
 
 ## Relations
 
-@sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md @concepts/sync-audio-video-customization.md @concepts/persona-audio-stack.md @concepts/seam-stitching-strategies.md @entities/models/ltx-2.md @entities/models/wan-2-2.md @entities/models/seedance-2.md
+@sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md @concepts/sync-audio-video-customization.md @concepts/persona-audio-stack.md @concepts/seam-stitching-strategies.md @entities/models/ltx-2.md @entities/models/wan-2-2.md @entities/models/seedance-2.md @entities/benchmarks/vgif-score.md
 
 ## Raw Concept
 

@@ -143,13 +143,18 @@ related:
   - sources/arxiv-2506-10915-m4v-multimodal-mamba-t2v.md
   - concepts/multimodal-diffusion-mamba-efficient-t2v.md
   - sweeps/2026-07-14-daily.md
+  - sources/arxiv-2607-14088-videorae-vfm-representation-autoencoder.md
+  - entities/models/videorae.md
+  - sources/arxiv-2607-13527-vgif-score-video-instruction-eval.md
+  - entities/benchmarks/vgif-score.md
+  - sweeps/2026-07-16-daily.md
 title: Wan 2.2 (Alibaba)
 type: entity
 tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]
 keywords: [wan2.2, wan-2-2, alibaba, mixture-of-experts, dual-expert, snr-routing, 27b, 14b, 5b, ti2v, apache-2.0, abliterated-text-encoder, mq-lab, blink, theyurilover]
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-14
+updated: 2026-07-16
 ---
 
 
@@ -166,6 +171,7 @@ updated: 2026-07-14
 @concepts/query-warped-video-motion-control.md
 @concepts/mobile-wan-chunkwise-video-distillation.md
 @entities/models/m4v.md @concepts/multimodal-diffusion-mamba-efficient-t2v.md @sources/arxiv-2506-10915-m4v-multimodal-mamba-t2v.md
+@entities/models/videorae.md @entities/benchmarks/vgif-score.md
 
 ## Raw Concept
 

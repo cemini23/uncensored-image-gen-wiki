@@ -20,10 +20,12 @@ related:
   - sources/arxiv-2606-09048-barewave-waveform-native-tts.md
   - entities/voice-models/confucius4-tts.md
   - entities/voice-models/speech-swift.md
+  - entities/voice-models/autosift.md
+  - sources/arxiv-2607-12706-autosift-style-infilling-tts.md
   - sweeps/2026-07-13-daily.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-27
+updated: 2026-07-16
 ---
 
 ## Relations
