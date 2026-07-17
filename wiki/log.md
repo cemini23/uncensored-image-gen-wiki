@@ -1,3 +1,44 @@
+## [2026-07-17] ingest | D2DF/MeanFlowNFT + TAMF/Dialogs/RW-Voice-EQ + peripherals
+
+Daily sweep full ingest for 2026-07-17 (8 PDFs).
+
+### Created (in-scope)
+
+- `wiki/sources/arxiv-2607-14976-d2df-one-step-video-object-removal.md` + `entities/models/d2df.md` + `concepts/one-step-video-object-removal.md` — **CONDITIONAL-GO** (code)
+- `wiki/sources/arxiv-2607-15273-meanflownft-forward-process-rl.md` + `entities/models/meanflownft.md` — **WATCH**
+- `wiki/sources/arxiv-2607-14807-tamf-vton-mask-free-virtual-try-on.md` + `entities/models/tamf-vton.md` — **WATCH** (no code)
+- `wiki/sources/arxiv-2607-14310-dialogs-russian-speech-corpus.md` + `entities/datasets/dialogs-russian-speech.md` — **REFERENCE**
+- `wiki/sources/arxiv-2607-14846-rw-voice-eq-bench.md` + `entities/benchmarks/rw-voice-eq-bench.md` — **REFERENCE**
+- `wiki/sources/arxiv-2607-14753-lalms-spoofing-aware-asv.md` — **REFERENCE** (deepfake)
+- `wiki/sources/arxiv-2607-15278-hierarchical-denoising-visual-reasoning.md` — **REFERENCE**
+
+### Created (peripheral SKIP)
+
+- `wiki/sources/arxiv-2607-14984-synthetic-medical-images-bias.md`
+
+### Updated
+
+- `wiki/sweeps/2026-07-17-daily.md`, `wiki/index.md`
+- `wiki/concepts/{grpo-i2v-post-training,video-try-on-anything,persona-audio-stack,generative-ai-era-deepfake-landscape,world-models-video-generation,video-identity-inheritance,albedo-guided-instance-video-editing,task-isolated-unified-video-editing}.md`
+- `wiki/entities/models/{wan-2-2,cogvideox-1-5,omnitryon}.md`, `persona-ops/fish-speech.md`
+- `wiki/sources/arxiv-tagrpo-i2v-grpo-2601-05729.md`
+
+### Brief / routing
+
+- `briefs/2026-07-17_d2df-meanflownft-adoption.md` (`david: true`) → TipDrop kit via `route_david_adoption_brief.py`
+- No poker / prod SCP
+
+### Local adopt
+
+- Code-only clones: `~/Desktop/projects/D2DF` (~41 MB), `~/Desktop/projects/MeanFlowNFT` (~74 MB)
+- Weights deferred (CogVideoX / Wan / SD3.5 >>500 MB)
+
+### Archive
+
+- 8 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/`
+
+---
+
 ## [2026-07-16] ingest | ZipL/AutoSIFT/VideoRAE/VGIF + peripherals
 
 Daily sweep full ingest for 2026-07-16 (8 PDFs).

@@ -136,7 +136,15 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Interactive world models as game engines (arXiv:2607.14076)](sources/arxiv-2607-14076-interactive-world-models-game-engines.md) — action-state-obs taxonomy — `paper, world-model, survey`
 - [Nexus native mesh diffusion (arXiv:2607.13563)](sources/arxiv-2607-13563-nexus-native-mesh-diffusion.md) — 3D mesh peripheral — `paper, 3d, mesh, peripheral`
 - [Nonequilibrium Markov particles (arXiv:2607.13391)](sources/arxiv-2607-13391-nonequilibrium-markov-particles.md) — math peripheral — `paper, theory, peripheral`
-- [Attention head reweighting LLM adapt (arXiv:2607.13425)](sources/arxiv-2607-13425-attention-head-reweighting-llm.md) — LLM PEFT peripheral — `paper, llm, peripheral`
+- [Attention head reweighting LLM adapt (arXiv:2607.13425)](sources/arxiv-2607-13425-attention-head-reweighting-llm.md)
+- [Dialogs Russian speech corpus (arXiv:2607.14310)](sources/arxiv-2607-14310-dialogs-russian-speech-corpus.md) — studio RU conversational; REFERENCE — `paper, speech-corpus, russian, reference`
+- [LALMs spoofing-aware ASV (arXiv:2607.14753)](sources/arxiv-2607-14753-lalms-spoofing-aware-asv.md) — deepfake detection adjacent; peripheral — `paper, deepfake, audio, peripheral`
+- [TAMF-VTON mask-free virtual try-on (arXiv:2607.14807)](sources/arxiv-2607-14807-tamf-vton-mask-free-virtual-try-on.md) — texture-aware VTON; no code — `paper, virtual-try-on, watch`
+- [RW-Voice-EQ Bench (arXiv:2607.14846)](sources/arxiv-2607-14846-rw-voice-eq-bench.md) — Hume real-world voice AI EQ; HF Space — `paper, benchmark, voice`
+- [D2DF one-step video object removal (arXiv:2607.14976)](sources/arxiv-2607-14976-d2df-one-step-video-object-removal.md) — CogVideoX distill; Apache code; CONDITIONAL-GO — `paper, video-editing, object-removal`
+- [Synthetic medical images bias (arXiv:2607.14984)](sources/arxiv-2607-14984-synthetic-medical-images-bias.md) — medical peripheral SKIP — `paper, medical, peripheral`
+- [MeanFlowNFT forward-process RL (arXiv:2607.15273)](sources/arxiv-2607-15273-meanflownft-forward-process-rl.md) — MeanFlow RL; Wan WIP; WATCH — `paper, meanflow, rl, wan`
+- [Hierarchical denoising visual reasoning (arXiv:2607.15278)](sources/arxiv-2607-15278-hierarchical-denoising-visual-reasoning.md) — world-model adjacent REFERENCE — `paper, visual-reasoning, reference` — LLM PEFT peripheral — `paper, llm, peripheral`
 - [Straight-path flow matching IMVC (arXiv:2607.06281)](sources/arxiv-2607-06281-straight-path-flow-matching-imvc.md) — clustering peripheral false positive — `paper, peripheral, clustering`
 - [Flux.2 Klein 9B MatchingPose — Hugging Face model card](sources/hf-flux2-klein-9b-matchingpose.md) — mannequin-to-character FLUX.2 Klein pose-transfer LoRA; Phase-0 GO smoke-test — `model-card, lora, flux2, klein, pose-transfer`
 - [EMOSH — motion-shape disentangled human animation (arXiv:2606.28026)](sources/arxiv-2606-28026-emosh-expressive-motion-shape-disentanglement.md) — EHM mesh retarget on Wan2.1-I2V; ECCV 2026 — `paper, human-animation, avatar, motion-disentanglement, tencent`
@@ -298,6 +306,11 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [ZipL-Dialog (latent flow-matching dialog TTS)](entities/voice-models/zipl-dialog.md) — multi-minute multi-speaker; WATCH — `voice-cloning, tts, dialog`
 - [AutoSIFT (category style-infilling TTS)](entities/voice-models/autosift.md) — ASI style surgery; WATCH — `voice-cloning, tts, style-control`
 - [VGIF-Score / VGIF-Bench](entities/benchmarks/vgif-score.md) — diagnostic video instruction eval; placeholder repo — `benchmark, video-generation, evaluation`
+- [D2DF (one-step video object removal)](entities/models/d2df.md) — CogVideoX-5B-I2V; Apache code clone; weights deferred — `model, video-editing, apache-2-0`
+- [MeanFlowNFT (forward-process RL)](entities/models/meanflownft.md) — MeanFlow NFT RL; Wan branch WIP — `model, meanflow, rl, apache-2-0`
+- [TAMF-VTON (mask-free VTON)](entities/models/tamf-vton.md) — paper-only WATCH — `model, virtual-try-on, watch`
+- [Dialogs RU speech corpus](entities/datasets/dialogs-russian-speech.md) — Russian studio dialog; REFERENCE — `dataset, speech, russian`
+- [RW-Voice-EQ Bench (Hume)](entities/benchmarks/rw-voice-eq-bench.md) — real-world voice EQ Space — `benchmark, voice, hume`
 - [F5-TTS (SWivid CFM non-autoregressive TTS)](entities/voice-models/f5-tts.md) — ~336M conditional flow-matching non-AR TTS; English-strong; code MIT / weights likely CC-BY-NC (research-restricted) — research baseline / English-prototyping pick — `voice-cloning, tts, f5-tts, swivid, cfm, non-autoregressive, english, cc-by-nc-likely`
 - [Chatterbox (Resemble AI MIT-licensed TTS with PerTH watermark)](entities/voice-models/chatterbox.md) — ~500M MIT-licensed zero-shot voice clone (code + weights both MIT); PerTH watermarking built-in; cleanest commercial license in the voice-clone tier; smaller emotion tag surface than Fish-Speech — `voice-cloning, tts, chatterbox, resemble-ai, mit-license, perth-watermark, zero-shot`
 - [MaskGCT (Amphion CMU masked-decode TTS)](entities/voice-models/maskgct.md) — ~1.1B masked-decode non-autoregressive TTS; multi-speaker strong; CC-BY-NC weights likely (research-restricted); Amphion (CMU) academic flagship — research/multi-speaker specialist — `voice-cloning, tts, maskgct, amphion, cmu, masked-decoding, non-autoregressive, cc-by-nc-likely`
@@ -469,6 +482,7 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Streaming force-controlled video (StreamForce)](concepts/streaming-force-controlled-video-generation.md) — force-as-cause interactive streaming world-model control — `world-model, interactive, force-control, streaming`
 - [Task-isolated unified video editing (TIDE)](concepts/task-isolated-unified-video-editing.md) — LTX-2.3 unified edit/gen via per-token task IDs — `video-editing, ltx, unified-model, multi-reference`
 - [Video try-on anything (OmniTryOn)](concepts/video-try-on-anything.md) — multi-wearable mask-free video wardrobe swap on preserved motion — `virtual-try-on, persona, video-editing`
+- [One-step video object removal (D2DF)](concepts/one-step-video-object-removal.md) — draft-free erase via PPCD/SGFP; persona B-roll cleanup — `concept, video-editing, object-removal`
 - [Hierarchical latent coarse-to-fine video (MilliVid)](concepts/hierarchical-latent-coarse-to-fine-video.md) — multi-scale token rollout for long-range visual consistency — `long-horizon, hierarchical-latent, coarse-to-fine`
 - [Waveform-native flow-matching TTS (BareWave)](concepts/waveform-native-flow-matching-tts.md) — direct text-to-wave inference without vocoder; training-only REPA/VAPA — `tts, flow-matching, waveform-native`
 - [Cascaded streaming high-resolution video (Ultra Flash)](concepts/cascaded-streaming-high-resolution-video.md) — LR AR stream + causal latent SR for real-time 1K/2K — `streaming, super-resolution, autoregressive, high-resolution`

@@ -14,9 +14,12 @@ related:
   - concepts/one-step-autoregressive-video-distillation.md
   - sources/arxiv-2606-03972-aad-1-one-step-ar-video.md
   - sources/arxiv-2606-09701-advgrpo-red-teaming-routed.md
+  - sources/arxiv-2607-15273-meanflownft-forward-process-rl.md
+  - entities/models/meanflownft.md
+  - sweeps/2026-07-17-daily.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-06-10
+updated: 2026-07-17
 ---
 
 ## Relations
@@ -41,6 +44,8 @@ Reward models cited: Q-Save, HPSv3 `[TENTATIVE — verify open weights]`.
 ### Persona-ops fit
 
 Post-training hook **after** identity-locked master image I2V — could improve motion quality / preference alignment without retraining character LoRA. Track release of Hunyuan/Tencent scripts before build-track adoption → @entities/models/wan-2-2.md.
+
+**2026-07-17 adjacent:** @entities/models/meanflownft.md applies **forward-process RL (NFT)** to MeanFlow few-step generators (SD3.5-M primary; Wan2.1 branch WIP). Complements TAGRPO (trajectory GRPO on I2V) — different objective (average-velocity / few-step) but same persona question: post-train open video stacks without new LoRAs. Phase-0 **WATCH** until Wan weights + smoke path fit budget.
 
 ## Snippets
 

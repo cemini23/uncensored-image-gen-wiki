@@ -12,9 +12,12 @@ related:
   - concepts/albedo-guided-instance-video-editing.md
   - entities/models/wan-2-2.md
   - sources/video-generation-survey-2026.md
+  - sources/arxiv-2607-14807-tamf-vton-mask-free-virtual-try-on.md
+  - entities/models/tamf-vton.md
+  - sweeps/2026-07-17-daily.md
 maturity: draft
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-07-17
 ---
 
 ## Relations
@@ -44,6 +47,8 @@ Ingest 2026-06-10 — extends single-garment VVT to **multi-object simultaneous 
 - Face swap + outfit in unified pass (TryAny-Bench includes identity changes)
 
 Complements **static** try-on (IDM-VTON image) and **generative** customization (OmniCustom joint A/V) — this is **video-preserving** appearance transfer.
+
+**2026-07-17:** @entities/models/tamf-vton.md — image-domain **mask-free** VTON (texture-aware). No code yet; watch for wardrobe stills / OmniTryOn adjacency.
 
 ## Snippets
 

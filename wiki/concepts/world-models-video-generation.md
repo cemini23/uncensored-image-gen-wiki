@@ -69,9 +69,11 @@ related:
   - sweeps/2026-07-13-daily.md
   - sources/arxiv-2607-14076-interactive-world-models-game-engines.md
   - sweeps/2026-07-16-daily.md
+  - sources/arxiv-2607-15278-hierarchical-denoising-visual-reasoning.md
+  - sweeps/2026-07-17-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-07-16
+updated: 2026-07-17
 ---
 
 ## Relations

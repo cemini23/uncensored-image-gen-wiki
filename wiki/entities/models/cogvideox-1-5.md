@@ -18,13 +18,17 @@ related:
   - sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md
   - sources/arxiv-2607-01869-qwerty-query-warped-video-motion-control.md
   - concepts/query-warped-video-motion-control.md
+  - sources/arxiv-2607-14976-d2df-one-step-video-object-removal.md
+  - entities/models/d2df.md
+  - concepts/one-step-video-object-removal.md
+  - sweeps/2026-07-17-daily.md
 title: CogVideoX 1.5 / 2.0 (THUDM / Zhipu AI)
 type: entity
 tags: [model, video, dit, cogvideox, thudm, zhipu, apache-2-0, eastern-vanguard, low-vram]
 keywords: [cogvideox, cogvideox-1-5, cogvideox-2-0, thudm, zhipu, qingying, 5b, 3d-vae, torchao-int8, 7gb, 8gb-vram, apache-2.0, latent-space-probing, cogsound]
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-04
+updated: 2026-07-17
 ---
 
 ## Relations

@@ -148,13 +148,19 @@ related:
   - sources/arxiv-2607-13527-vgif-score-video-instruction-eval.md
   - entities/benchmarks/vgif-score.md
   - sweeps/2026-07-16-daily.md
+  - sources/arxiv-2607-14976-d2df-one-step-video-object-removal.md
+  - entities/models/d2df.md
+  - concepts/one-step-video-object-removal.md
+  - sources/arxiv-2607-15273-meanflownft-forward-process-rl.md
+  - entities/models/meanflownft.md
+  - sweeps/2026-07-17-daily.md
 title: Wan 2.2 (Alibaba)
 type: entity
 tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]
 keywords: [wan2.2, wan-2-2, alibaba, mixture-of-experts, dual-expert, snr-routing, 27b, 14b, 5b, ti2v, apache-2.0, abliterated-text-encoder, mq-lab, blink, theyurilover]
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-16
+updated: 2026-07-17
 ---
 
 

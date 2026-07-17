@@ -9,10 +9,13 @@ related:
   - entities/models/hunyuanvideo-1-5.md
   - concepts/video-identity-inheritance.md
   - sources/video-generation-survey-2026.md
+  - sources/arxiv-2607-15273-meanflownft-forward-process-rl.md
+  - entities/models/meanflownft.md
+  - sweeps/2026-07-17-daily.md
 maturity: draft
 read_status: read
 created: 2026-06-01
-updated: 2026-06-01
+updated: 2026-07-17
 ---
 
 ## Relations

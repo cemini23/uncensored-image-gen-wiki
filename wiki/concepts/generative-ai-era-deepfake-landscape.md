@@ -15,9 +15,11 @@ related:
   - sources/persona-monetization-2026.md
   - concepts/likeness-collision-verification.md
   - sweeps/2026-06-30-daily.md
+  - sources/arxiv-2607-14753-lalms-spoofing-aware-asv.md
+  - sweeps/2026-07-17-daily.md
 maturity: draft
 created: 2026-06-30
-updated: 2026-06-30
+updated: 2026-07-17
 ---
 
 ## Relations

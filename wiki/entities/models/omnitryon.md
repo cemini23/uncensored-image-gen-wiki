@@ -9,9 +9,12 @@ related:
   - concepts/video-identity-inheritance.md
   - concepts/persona-consistency-methods.md
   - entities/models/wan-2-2.md
+  - entities/models/tamf-vton.md
+  - sources/arxiv-2607-14807-tamf-vton-mask-free-virtual-try-on.md
+  - sweeps/2026-07-17-daily.md
 maturity: draft
 created: 2026-06-10
-updated: 2026-06-10
+updated: 2026-07-17
 ---
 
 ## Relations
