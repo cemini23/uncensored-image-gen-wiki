@@ -1,3 +1,31 @@
+## [2026-07-18] ingest | teLLMe driving causal + PPA LLM self-consistency (peripheral)
+
+Daily sweep full ingest for 2026-07-18 (2 PDFs). Both out-of-scope for persona generative stack.
+
+### Created (peripheral)
+
+- `wiki/sources/arxiv-2607-15254-tellme-why-urban-driving-causal.md` — **REFERENCE** (thin world-models adjacency)
+- `wiki/sources/arxiv-2607-15277-partition-prompt-aggregate-llm-self-consistency.md` — **SKIP**
+
+### Updated
+
+- `wiki/sweeps/2026-07-18-daily.md`, `wiki/index.md`
+- `wiki/concepts/world-models-video-generation.md` — teLLMe peripheral pointer
+
+### Brief / routing
+
+- **None** — no TipDrop / poker / prod (no install paths)
+
+### Local adopt
+
+- none
+
+### Archive
+
+- 2 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/`
+
+---
+
 ## [2026-07-17] ingest | D2DF/MeanFlowNFT + TAMF/Dialogs/RW-Voice-EQ + peripherals
 
 Daily sweep full ingest for 2026-07-17 (8 PDFs).

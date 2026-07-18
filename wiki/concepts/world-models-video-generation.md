@@ -71,9 +71,11 @@ related:
   - sweeps/2026-07-16-daily.md
   - sources/arxiv-2607-15278-hierarchical-denoising-visual-reasoning.md
   - sweeps/2026-07-17-daily.md
+  - sources/arxiv-2607-15254-tellme-why-urban-driving-causal.md
+  - sweeps/2026-07-18-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-07-17
+updated: 2026-07-18
 ---
 
 ## Relations
@@ -86,6 +88,8 @@ updated: 2026-07-17
 Stub created during the cross-wiki ingest of NVIDIA's SANA-WM paper (@sources/sana-wm-minute-scale-world-model.md), routed from the OSINT workspace 2026-05-16. Anchors the distinction between *clip generators* (prompt-to-clip T2V/I2V) and *world models* as the wiki gains its first ingested example of the latter.
 
 ## Narrative
+
+**2026-07-18 peripheral:** @sources/arxiv-2607-15254-tellme-why-urban-driving-causal.md — dashcam causal-analysis tooling (not a generator); archive-only.
 
 ### Working definition
 
