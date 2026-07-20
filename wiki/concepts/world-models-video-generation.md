@@ -73,9 +73,12 @@ related:
   - sweeps/2026-07-17-daily.md
   - sources/arxiv-2607-15254-tellme-why-urban-driving-causal.md
   - sweeps/2026-07-18-daily.md
+  - sources/arxiv-2607-15849-tango-test-time-noise-guided-ar-video.md
+  - entities/models/tango-ar-video.md
+  - sweeps/2026-07-20-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-07-18
+updated: 2026-07-20
 ---
 
 ## Relations

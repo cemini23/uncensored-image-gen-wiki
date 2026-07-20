@@ -7,10 +7,11 @@ related:
   - concepts/generative-ai-era-deepfake-landscape.md
   - concepts/persona-audio-stack.md
   - sweeps/2026-07-17-daily.md
+  - sources/arxiv-2607-15694-voice-clone-attribution-geometry-floor.md
 maturity: draft
 read_status: skimmed
 created: 2026-07-17
-updated: 2026-07-17
+updated: 2026-07-20
 ---
 
 ## Relations

@@ -10,9 +10,11 @@ related:
   - entities/models/wan-2-2.md
   - entities/models/ltx-2.md
   - sources/video-generation-survey-2026.md
+  - sources/arxiv-2607-15711-ddr-difficulty-aware-real-isr.md
+  - sweeps/2026-07-20-daily.md
 maturity: draft
 created: 2026-06-11
-updated: 2026-06-11
+updated: 2026-07-20
 ---
 
 ## Relations

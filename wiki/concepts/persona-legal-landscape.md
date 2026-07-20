@@ -21,9 +21,11 @@ related:
   - entities/music-models/udio.md
   - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
   - concepts/generative-ai-era-deepfake-landscape.md
+  - sources/arxiv-2607-15694-voice-clone-attribution-geometry-floor.md
+  - sweeps/2026-07-20-daily.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-30
+updated: 2026-07-20
 ---
 
 ## Relations

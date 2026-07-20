@@ -20,9 +20,12 @@ related:
   - sources/arxiv-2606-03672-foley-omni.md
   - sources/arxiv-2607-13527-vgif-score-video-instruction-eval.md
   - entities/benchmarks/vgif-score.md
+  - sources/arxiv-2607-16107-audio-visual-flamingo.md
+  - entities/models/av-flamingo.md
+  - sweeps/2026-07-20-daily.md
 maturity: draft
 created: 2026-06-08
-updated: 2026-07-16
+updated: 2026-07-20
 ---
 
 ## Relations

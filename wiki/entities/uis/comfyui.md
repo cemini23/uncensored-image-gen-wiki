@@ -92,9 +92,12 @@ related:
   - sources/arxiv-2506-08797-hunyuanvideo-homa.md
   - sweeps/2026-07-11-daily.md
   - concepts/hunyuanvideo-homa-weak-hoi-video.md
+  - entities/inference/chitu-diffusion.md
+  - concepts/ditango-parallel-diffusion-attention.md
+  - sources/arxiv-2607-15711-ddr-difficulty-aware-real-isr.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-07-10
+updated: 2026-07-20
 read_status: deep-read
 provenance:
   stub: false

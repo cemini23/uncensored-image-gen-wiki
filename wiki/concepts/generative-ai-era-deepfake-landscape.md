@@ -17,9 +17,11 @@ related:
   - sweeps/2026-06-30-daily.md
   - sources/arxiv-2607-14753-lalms-spoofing-aware-asv.md
   - sweeps/2026-07-17-daily.md
+  - sources/arxiv-2607-15694-voice-clone-attribution-geometry-floor.md
+  - sweeps/2026-07-20-daily.md
 maturity: draft
 created: 2026-06-30
-updated: 2026-07-17
+updated: 2026-07-20
 ---
 
 ## Relations
@@ -56,6 +58,10 @@ Survey notes diffusion **prompt deepfakes** (celebrity name in text) are lower f
 ## Snippets
 
 > "Covering both generation and detection, as well as all deepfake media types."
+
+### 2026-07-20 — voice-clone attribution floor
+
+Kato (arXiv:2607.15694): geometry-limited ASV misID floor on pro Japanese voice actors; fixed-threshold 1:N clone attribution unreliable / unfair on generic encoders. Reinforces operator rule: ML attribution ≠ enforcement. See @sources/arxiv-2607-15694-voice-clone-attribution-geometry-floor.md.
 
 ## Dead Ends
 

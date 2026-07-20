@@ -31,9 +31,11 @@ related:
   - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
   - concepts/lightweight-video-history-embeddings.md
   - entities/models/tinyhistory.md
+  - sources/arxiv-2607-15849-tango-test-time-noise-guided-ar-video.md
+  - entities/models/tango-ar-video.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-06-25
+updated: 2026-07-20
 ---
 
 ## Relations

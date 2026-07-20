@@ -17,9 +17,14 @@ related:
   - sweeps/2026-07-01-daily.md
   - sources/arxiv-2607-06173-mobilewan-mobile-video-diffusion.md
   - concepts/mobile-wan-chunkwise-video-distillation.md
+  - sources/arxiv-2607-16190-fvattn-sparse-attention-video.md
+  - concepts/ditango-parallel-diffusion-attention.md
+  - entities/inference/chitu-diffusion.md
+  - sweeps/2026-07-20-daily.md
+  - sources/arxiv-2607-15650-ditango-chitudiffusion.md
 maturity: draft
 created: 2026-07-01
-updated: 2026-07-01
+updated: 2026-07-20
 ---
 
 ## Relations
@@ -53,6 +58,11 @@ Phase-0 **GO** on `Mutual-Luo/SVOO` (Apache-2.0). CUDA Linux only; Wan 14B needs
 ## Snippets
 
 > "Attention sparsity of each layer is its intrinsic property, with minor effects across different inputs."
+
+### 2026-07-20 — FVAttn / DiTango adjacency
+
+- **FVAttn** (arXiv:2607.16190): training-free Top-p sparse attn + runtime head load-balancing under Ulysses SP on step-distilled Wan2.2 I2V — WATCH (no public code yet). Complements SVOO's offline-profile sparsity with a **distributed straggler** fix.
+- **DiTango / ChituDiffusion** (arXiv:2607.15650): CP attention-state reuse for multi-node DiT — CONDITIONAL-GO code clone. See @concepts/ditango-parallel-diffusion-attention.md.
 
 ## Dead Ends
 

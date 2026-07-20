@@ -37,9 +37,11 @@ related:
   - entities/custom-nodes/comfyui-angelo.md
   - sources/arxiv-2607-05711-fourtune-4bit-diffusion-post-training.md
   - sweeps/2026-07-10-daily.md
+  - entities/inference/chitu-diffusion.md
+  - sources/arxiv-2607-15650-ditango-chitudiffusion.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-07-10
+updated: 2026-07-20
 ---
 
 ## Relations

@@ -142,11 +142,22 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [TAMF-VTON mask-free virtual try-on (arXiv:2607.14807)](sources/arxiv-2607-14807-tamf-vton-mask-free-virtual-try-on.md) — texture-aware VTON; no code — `paper, virtual-try-on, watch`
 - [RW-Voice-EQ Bench (arXiv:2607.14846)](sources/arxiv-2607-14846-rw-voice-eq-bench.md) — Hume real-world voice AI EQ; HF Space — `paper, benchmark, voice`
 - [D2DF one-step video object removal (arXiv:2607.14976)](sources/arxiv-2607-14976-d2df-one-step-video-object-removal.md) — CogVideoX distill; Apache code; CONDITIONAL-GO — `paper, video-editing, object-removal`
+- [TANGO AR video (CERTH/UvA)](entities/models/tango-ar-video.md) — test-time noise-guided terminal-point avoidance; WATCH — `video-generation, autoregressive, test-time`
+- [Audio-Visual Flamingo (NVIDIA)](entities/models/av-flamingo.md) — long-form AV understanding; NVIDIA noncommercial; WATCH — `audio-visual, multimodal, nvidia`
 - [Synthetic medical images bias (arXiv:2607.14984)](sources/arxiv-2607-14984-synthetic-medical-images-bias.md) — medical peripheral SKIP — `paper, medical, peripheral`
 - [MeanFlowNFT forward-process RL (arXiv:2607.15273)](sources/arxiv-2607-15273-meanflownft-forward-process-rl.md) — MeanFlow RL; Wan WIP; WATCH — `paper, meanflow, rl, wan`
 - [Hierarchical denoising visual reasoning (arXiv:2607.15278)](sources/arxiv-2607-15278-hierarchical-denoising-visual-reasoning.md) — world-model adjacent REFERENCE — `paper, visual-reasoning, reference`
 - [teLLMe Why urban driving causal analysis (arXiv:2607.15254)](sources/arxiv-2607-15254-tellme-why-urban-driving-causal.md) — dashcam Causal Card; peripheral REFERENCE — `paper, driving, causal, peripheral`
 - [Partition Prompt Aggregate LLM self-consistency (arXiv:2607.15277)](sources/arxiv-2607-15277-partition-prompt-aggregate-llm-self-consistency.md) — LLM statistical self-consistency; peripheral SKIP — `paper, llm, peripheral` — LLM PEFT peripheral — `paper, llm, peripheral`
+- [Penalty-scaling NIPG shallow-water (arXiv:2607.15643)](sources/arxiv-2607-15643-penalty-scaling-nipg-shallow-water.md) — math.NA peripheral SKIP — `paper, math, peripheral`
+- [DiTango / ChituDiffusion parallel DiT (arXiv:2607.15650)](sources/arxiv-2607-15650-ditango-chitudiffusion.md) — selective attention state reuse; MIT code; CONDITIONAL-GO — `paper, dit, parallel, inference`
+- [Voice-clone attribution geometry floor (arXiv:2607.15694)](sources/arxiv-2607-15694-voice-clone-attribution-geometry-floor.md) — ASV floor on pro VA voices; REFERENCE — `paper, voice, deepfake, attribution`
+- [DDR difficulty-aware Real-ISR (arXiv:2607.15711)](sources/arxiv-2607-15711-ddr-difficulty-aware-real-isr.md) — SD Real-ISR dynamic routing; WATCH no code — `paper, super-resolution, watch`
+- [DSTAR DiT accelerator (arXiv:2607.15846)](sources/arxiv-2607-15846-dstar-dit-accelerator.md) — HW co-design peripheral SKIP — `paper, hardware, peripheral`
+- [TANGO test-time noise-guided AR video (arXiv:2607.15849)](sources/arxiv-2607-15849-tango-test-time-noise-guided-ar-video.md) — terminal-point avoidance; code soon; WATCH — `paper, video-generation, autoregressive`
+- [Audio-Visual Flamingo (arXiv:2607.16107)](sources/arxiv-2607-16107-audio-visual-flamingo.md) — NVIDIA long AV understanding; noncommercial; WATCH — `paper, audio-visual, nvidia`
+- [FVAttn sparse attn + load balance (arXiv:2607.16190)](sources/arxiv-2607-16190-fvattn-sparse-attention-video.md) — Wan2.2 Ulysses Top-p; WATCH no code — `paper, sparse-attention, wan`
+
 - [Straight-path flow matching IMVC (arXiv:2607.06281)](sources/arxiv-2607-06281-straight-path-flow-matching-imvc.md) — clustering peripheral false positive — `paper, peripheral, clustering`
 - [Flux.2 Klein 9B MatchingPose — Hugging Face model card](sources/hf-flux2-klein-9b-matchingpose.md) — mannequin-to-character FLUX.2 Klein pose-transfer LoRA; Phase-0 GO smoke-test — `model-card, lora, flux2, klein, pose-transfer`
 - [EMOSH — motion-shape disentangled human animation (arXiv:2606.28026)](sources/arxiv-2606-28026-emosh-expressive-motion-shape-disentanglement.md) — EHM mesh retarget on Wan2.1-I2V; ECCV 2026 — `paper, human-animation, avatar, motion-disentanglement, tencent`
@@ -159,6 +170,10 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 ---
 
 ## Entities
+
+### Inference / serving
+
+- [ChituDiffusion (thu-pacman)](entities/inference/chitu-diffusion.md) — MIT DiT parallel + FlexCache + DiTango; CUDA multi-GPU; CONDITIONAL-GO code — `inference, dit, parallel, mit, flux, wan`
 
 ### Models
 
@@ -428,6 +443,7 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Low-resource text detoxification](concepts/low-resource-text-detoxification.md) — native-language parallel data for moderation — `moderation, nlp, alignment, peripheral`
 - [NaviCache navigation-guided video caching](concepts/navicache-navigation-guided-video-caching.md) — INS test-time self-calibration for Wan/HunyuanVideo — `video-generation, caching, inference, optimization`
 - [Input-stable sparse attention for video (SVOO)](concepts/input-stable-sparse-attention-video.md) — offline layer profiles + QK co-clustering on Wan — `video-generation, sparse-attention, inference, optimization`
+- [DiTango parallel diffusion attention](concepts/ditango-parallel-diffusion-attention.md) — selective CP attention-state reuse for multi-node DiT (ChituDiffusion) — `inference, parallel, dit, caching`
 - [Ray-space positional encoding for video (RayPE)](concepts/ray-space-positional-encoding-video.md) — Plücker additive Q/K on Wan2.2 — `video-generation, camera-control, 3d-aware`
 - [UCM time-aware PE warping for world models](concepts/ucm-time-aware-pe-warping-world-models.md) — explicit memory+camera PE remap — `world-model, camera-control, memory`
 - [Autoregressive concept erasure (Obliviate)](concepts/autoregressive-concept-erasure-obliviate.md) — AR visual-token erasure inverse to de-censoring — `concept-erasure, safety, autoregressive`

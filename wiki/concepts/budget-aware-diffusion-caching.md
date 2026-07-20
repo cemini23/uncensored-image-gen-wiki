@@ -27,9 +27,14 @@ related:
   - concepts/brownian-bridge-medical-image-translation.md
   - concepts/input-stable-sparse-attention-video.md
   - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
+  - sources/arxiv-2607-15650-ditango-chitudiffusion.md
+  - entities/inference/chitu-diffusion.md
+  - concepts/ditango-parallel-diffusion-attention.md
+  - sweeps/2026-07-20-daily.md
+  - sources/arxiv-2607-15846-dstar-dit-accelerator.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-07-14
+updated: 2026-07-20
 ---
 
 ## Relations

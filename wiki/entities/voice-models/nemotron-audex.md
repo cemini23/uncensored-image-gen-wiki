@@ -16,9 +16,11 @@ related:
   - sweeps/2026-07-12-daily.md
   - entities/voice-models/speech-swift.md
   - sweeps/2026-07-13-daily.md
+  - entities/models/av-flamingo.md
+  - sources/arxiv-2607-16107-audio-visual-flamingo.md
 maturity: draft
 created: 2026-07-12
-updated: 2026-07-12
+updated: 2026-07-20
 ---
 
 ## Relations

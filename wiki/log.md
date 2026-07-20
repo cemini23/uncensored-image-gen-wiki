@@ -1,3 +1,43 @@
+## [2026-07-20] ingest | DiTango/ChituDiffusion + TANGO/FVAttn/AVF + peripherals
+
+Daily sweep full ingest for 2026-07-20 (8 PDFs).
+
+### Created (in-scope)
+
+- `wiki/sources/arxiv-2607-15650-ditango-chitudiffusion.md` + `entities/inference/chitu-diffusion.md` + `concepts/ditango-parallel-diffusion-attention.md` — **CONDITIONAL-GO** (MIT code)
+- `wiki/sources/arxiv-2607-15849-tango-test-time-noise-guided-ar-video.md` + `entities/models/tango-ar-video.md` — **WATCH** (code soon)
+- `wiki/sources/arxiv-2607-16190-fvattn-sparse-attention-video.md` — **WATCH** (no code)
+- `wiki/sources/arxiv-2607-16107-audio-visual-flamingo.md` + `entities/models/av-flamingo.md` — **WATCH/REFERENCE** (NVIDIA NC)
+- `wiki/sources/arxiv-2607-15694-voice-clone-attribution-geometry-floor.md` — **REFERENCE**
+- `wiki/sources/arxiv-2607-15711-ddr-difficulty-aware-real-isr.md` — **WATCH** (no code)
+
+### Created (peripheral SKIP)
+
+- `wiki/sources/arxiv-2607-15643-penalty-scaling-nipg-shallow-water.md` — math.NA
+- `wiki/sources/arxiv-2607-15846-dstar-dit-accelerator.md` — ASIC/HW
+
+### Updated
+
+- `wiki/sweeps/2026-07-20-daily.md`, `wiki/index.md`
+- `wiki/concepts/{input-stable-sparse-attention-video,budget-aware-diffusion-caching,generative-ai-era-deepfake-landscape,persona-legal-landscape,persona-audio-stack,autoregressive-video-foresight-training,world-models-video-generation,frozen-dit-video-super-resolution,multi-shot-audio-video-evaluation,long-video-rag-retrieval}.md`
+- `wiki/entities/models/{wan-2-2,flux-1-dev,flux-2-klein,z-image-turbo,qwen-image-2512}.md`, `uis/comfyui.md`, `persona-ops/fish-speech.md`, `voice-models/nemotron-audex.md`
+
+### Brief / routing
+
+- `briefs/2026-07-20_chitudiffusion-ditango-adoption.md` (`david: true`) → TipDrop kit via `route_david_adoption_brief.py`
+- No poker / prod SCP
+
+### Local adopt
+
+- Code-only clone: `~/Desktop/projects/ChituDiffusion` (~60 MB)
+- Weights deferred (FLUX/Wan >>500 MB); TANGO/FVAttn/AVF not adoptable yet
+
+### Archive
+
+- 8 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/`
+
+---
+
 ## [2026-07-18] ingest | teLLMe driving causal + PPA LLM self-consistency (peripheral)
 
 Daily sweep full ingest for 2026-07-18 (2 PDFs). Both out-of-scope for persona generative stack.

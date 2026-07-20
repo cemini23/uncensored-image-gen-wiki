@@ -23,9 +23,11 @@ related:
   - entities/uis/comfyui.md
   - concepts/cross-model-safety-steering.md
   - sources/arxiv-2606-05290-cross-model-safety-steering.md
+  - entities/inference/chitu-diffusion.md
+  - sources/arxiv-2607-15650-ditango-chitudiffusion.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-06
+updated: 2026-07-20
 ---
 
 ## Relations
