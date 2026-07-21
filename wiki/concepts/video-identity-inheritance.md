@@ -57,13 +57,16 @@ related:
   - entities/models/d2df.md
   - concepts/one-step-video-object-removal.md
   - sweeps/2026-07-17-daily.md
+  - sources/arxiv-2607-18217-homie-video-personalization.md
+  - entities/models/homie.md
+  - sweeps/2026-07-21-daily.md
 title: Video identity inheritance (I2V from static master)
 type: concept
 tags: [persona-consistency, i2v, identity-inheritance, video-workflow, clip-vision-encoder, master-image]
 keywords: [i2v, image-to-video, identity-inheritance, master-image, clip-vision-encoder, raw-pixel-initialization, pulid-anchor, airt-machine, seedance, kling, wan, hunyuan, persona-consistency]
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-17
+updated: 2026-07-21
 ---
 
 

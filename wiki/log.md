@@ -1,3 +1,43 @@
+## [2026-07-21] ingest | HOMIE HOCVP + CFT/Harness/FlowMimic watches + peripherals
+
+Daily sweep full ingest for 2026-07-21 (8 PDFs).
+
+### Created (in-scope)
+
+- `wiki/sources/arxiv-2607-18217-homie-video-personalization.md` + `entities/models/homie.md` — **CONDITIONAL-GO** (Apache-2.0 code)
+- `wiki/sources/arxiv-2607-17833-cft-image-relighting.md` + `entities/models/cft-relighting.md` — **WATCH** (placeholder repo)
+- `wiki/sources/arxiv-2607-17900-harness-tts.md` — **WATCH**
+- `wiki/sources/arxiv-2607-18227-flowmimic-mask-free-editing.md` — **WATCH**
+- `wiki/sources/arxiv-2607-18171-flashrt-agent-harness.md` — **WATCH** (GitHub 404)
+- `wiki/sources/arxiv-2607-17615-re-sonance-dysarthric-aac.md` — **REFERENCE**
+
+### Created (peripheral SKIP)
+
+- `wiki/sources/arxiv-2607-18106-av-failure-importance-sampling.md`
+- `wiki/sources/arxiv-2607-18130-mhc-peft-llm.md`
+
+### Updated
+
+- `wiki/sweeps/2026-07-21-daily.md`, `wiki/index.md`
+- `wiki/concepts/{persona-consistency-methods,video-identity-inheritance,reference-plus-lora-stacking,persona-audio-stack,albedo-guided-instance-video-editing,task-isolated-unified-video-editing,ditango-parallel-diffusion-attention,lora-taxonomy}.md`
+- `wiki/entities/models/{wan-2-2,omnitryon,tamf-vton}.md`, `uis/comfyui.md`, `voice-models/cosyvoice2.md`, `persona-ops/fish-speech.md`, `inference/chitu-diffusion.md`
+
+### Brief / routing
+
+- `briefs/2026-07-21_homie-video-personalization-adoption.md` (`david: true`) → TipDrop kit
+- No poker / prod SCP
+
+### Local adopt
+
+- Code-only clone: `~/Desktop/projects/HOMIE` (~17 MB)
+- Weights deferred (Wan2.1-14B + HOMIE + Qwen3-VL >>500 MB)
+
+### Archive
+
+- 8 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/`
+
+---
+
 ## [2026-07-20] ingest | DiTango/ChituDiffusion + TANGO/FVAttn/AVF + peripherals
 
 Daily sweep full ingest for 2026-07-20 (8 PDFs).

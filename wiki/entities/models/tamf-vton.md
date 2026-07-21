@@ -8,9 +8,10 @@ related:
   - concepts/video-try-on-anything.md
   - entities/models/omnitryon.md
   - sweeps/2026-07-17-daily.md
+  - sources/arxiv-2607-18227-flowmimic-mask-free-editing.md
 maturity: draft
 created: 2026-07-17
-updated: 2026-07-17
+updated: 2026-07-21
 ---
 
 ## Relations

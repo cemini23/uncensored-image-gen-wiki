@@ -143,6 +143,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [RW-Voice-EQ Bench (arXiv:2607.14846)](sources/arxiv-2607-14846-rw-voice-eq-bench.md) — Hume real-world voice AI EQ; HF Space — `paper, benchmark, voice`
 - [D2DF one-step video object removal (arXiv:2607.14976)](sources/arxiv-2607-14976-d2df-one-step-video-object-removal.md) — CogVideoX distill; Apache code; CONDITIONAL-GO — `paper, video-editing, object-removal`
 - [TANGO AR video (CERTH/UvA)](entities/models/tango-ar-video.md) — test-time noise-guided terminal-point avoidance; WATCH — `video-generation, autoregressive, test-time`
+- [HOMIE (HKUST Wan2.1 HOCVP)](entities/models/homie.md) — human-object video personalization; Apache; CONDITIONAL-GO — `video-generation, personalization, wan`
+- [CFT relighting (Meitu/BIT)](entities/models/cft-relighting.md) — portrait relighting; WATCH — `relighting, image-editing`
 - [Audio-Visual Flamingo (NVIDIA)](entities/models/av-flamingo.md) — long-form AV understanding; NVIDIA noncommercial; WATCH — `audio-visual, multimodal, nvidia`
 - [Synthetic medical images bias (arXiv:2607.14984)](sources/arxiv-2607-14984-synthetic-medical-images-bias.md) — medical peripheral SKIP — `paper, medical, peripheral`
 - [MeanFlowNFT forward-process RL (arXiv:2607.15273)](sources/arxiv-2607-15273-meanflownft-forward-process-rl.md) — MeanFlow RL; Wan WIP; WATCH — `paper, meanflow, rl, wan`
@@ -157,6 +159,15 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [TANGO test-time noise-guided AR video (arXiv:2607.15849)](sources/arxiv-2607-15849-tango-test-time-noise-guided-ar-video.md) — terminal-point avoidance; code soon; WATCH — `paper, video-generation, autoregressive`
 - [Audio-Visual Flamingo (arXiv:2607.16107)](sources/arxiv-2607-16107-audio-visual-flamingo.md) — NVIDIA long AV understanding; noncommercial; WATCH — `paper, audio-visual, nvidia`
 - [FVAttn sparse attn + load balance (arXiv:2607.16190)](sources/arxiv-2607-16190-fvattn-sparse-attention-video.md) — Wan2.2 Ulysses Top-p; WATCH no code — `paper, sparse-attention, wan`
+- [Re-Sonance dysarthric AAC (arXiv:2607.17615)](sources/arxiv-2607-17615-re-sonance-dysarthric-aac.md) — Whisper+Qwen+CosyVoice assistive; REFERENCE — `paper, speech, assistive`
+- [CFT image relighting (arXiv:2607.17833)](sources/arxiv-2607-17833-cft-image-relighting.md) — consistent feature transport; WATCH placeholder repo — `paper, relighting, eccv`
+- [Harness TTS expressive control (arXiv:2607.17900)](sources/arxiv-2607-17900-harness-tts.md) — style prompt-tool routing; WATCH — `paper, tts, expressive`
+- [AV failure importance sampling (arXiv:2607.18106)](sources/arxiv-2607-18106-av-failure-importance-sampling.md) — commercial AV peripheral SKIP — `paper, autonomous-vehicles, peripheral`
+- [mHC PEFT LLM residuals (arXiv:2607.18130)](sources/arxiv-2607-18130-mhc-peft-llm.md) — LLM PEFT peripheral SKIP — `paper, llm, peft, peripheral`
+- [FlashRT multimodal agent harness (arXiv:2607.18171)](sources/arxiv-2607-18171-flashrt-agent-harness.md) — multi-GPU deploy agent; GitHub 404; WATCH — `paper, serving, multimodal`
+- [HOMIE HOCVP on Wan2.1 (arXiv:2607.18217)](sources/arxiv-2607-18217-homie-video-personalization.md) — Apache code; CONDITIONAL-GO — `paper, video-personalization, wan`
+- [FlowMimic mask-free edit data (arXiv:2607.18227)](sources/arxiv-2607-18227-flowmimic-mask-free-editing.md) — ByteDance; WATCH no code — `paper, video-editing, data-generation`
+
 
 - [Straight-path flow matching IMVC (arXiv:2607.06281)](sources/arxiv-2607-06281-straight-path-flow-matching-imvc.md) — clustering peripheral false positive — `paper, peripheral, clustering`
 - [Flux.2 Klein 9B MatchingPose — Hugging Face model card](sources/hf-flux2-klein-9b-matchingpose.md) — mannequin-to-character FLUX.2 Klein pose-transfer LoRA; Phase-0 GO smoke-test — `model-card, lora, flux2, klein, pose-transfer`

@@ -101,13 +101,18 @@ related:
   - concepts/stage-aware-lora-distribution-calibrated-selection.md
   - entities/custom-nodes/comfyui-angelo.md
   - sweeps/2026-07-10-daily.md
+  - sources/arxiv-2607-18217-homie-video-personalization.md
+  - entities/models/homie.md
+  - sources/arxiv-2607-17833-cft-image-relighting.md
+  - entities/models/cft-relighting.md
+  - sweeps/2026-07-21-daily.md
 title: Persona consistency methods (umbrella)
 type: concept
 tags: [persona-consistency, methods, taxonomy, identity-injection]
 keywords: [character LoRA, identity adapter, Character DNA, multi-angle dataset, two-pass inpaint, reference plus LoRA stack, face anchor seed]
 maturity: validated
 created: 2026-05-06
-updated: 2026-07-09
+updated: 2026-07-21
 ---
 
 
@@ -266,3 +271,8 @@ For multi-shot persona narratives: **Wan 2.7 Reference-to-Video (R2V)** accepts 
 
 > "Treat the persona's face dataset as the canonical asset; treat the LoRAs as cheap derivatives. Production workflow is to maintain parallel LoRAs per base."
 > — @sources/synthetic-character-consistency-survey.md §6, distilled production loop
+
+### 2026-07-21 — HOMIE + CFT
+
+- **HOMIE** (arXiv:2607.18217): Wan2.1-14B human-object video personalization; Apache code CONDITIONAL-GO. See @entities/models/homie.md.
+- **CFT** (arXiv:2607.17833): portrait relighting via consistent feature transport; WATCH (repo placeholder).

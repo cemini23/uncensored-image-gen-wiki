@@ -23,9 +23,11 @@ related:
   - entities/voice-models/autosift.md
   - sources/arxiv-2607-12706-autosift-style-infilling-tts.md
   - sweeps/2026-07-13-daily.md
+  - sources/arxiv-2607-17615-re-sonance-dysarthric-aac.md
+  - sources/arxiv-2607-17900-harness-tts.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-07-16
+updated: 2026-07-21
 ---
 
 ## Relations

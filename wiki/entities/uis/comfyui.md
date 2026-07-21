@@ -95,9 +95,13 @@ related:
   - entities/inference/chitu-diffusion.md
   - concepts/ditango-parallel-diffusion-attention.md
   - sources/arxiv-2607-15711-ddr-difficulty-aware-real-isr.md
+  - entities/models/homie.md
+  - entities/models/cft-relighting.md
+  - sources/arxiv-2607-17833-cft-image-relighting.md
+  - sources/arxiv-2607-18217-homie-video-personalization.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-07-20
+updated: 2026-07-21
 read_status: deep-read
 provenance:
   stub: false

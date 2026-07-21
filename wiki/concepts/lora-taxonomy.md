@@ -38,9 +38,10 @@ related:
   - concepts/fourtune-w4a4g4-diffusion-lora-training.md
   - sources/arxiv-2607-05711-fourtune-4bit-diffusion-post-training.md
   - sweeps/2026-07-10-daily.md
+  - sources/arxiv-2607-18130-mhc-peft-llm.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-07-10
+updated: 2026-07-21
 ---
 
 ## Relations

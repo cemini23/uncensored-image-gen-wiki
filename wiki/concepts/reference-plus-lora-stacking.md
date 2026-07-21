@@ -34,9 +34,11 @@ related:
   - sources/arxiv-2606-20971-unity-attention-flow-conditioning.md
   - concepts/universal-composite-diffusion-conditioning.md
   - entities/models/unity.md
+  - sources/arxiv-2607-18217-homie-video-personalization.md
+  - entities/models/homie.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-06-23
+updated: 2026-07-21
 ---
 
 ## Relations

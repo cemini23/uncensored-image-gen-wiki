@@ -12,9 +12,11 @@ related:
   - entities/models/wan-2-2.md
   - entities/uis/comfyui.md
   - sweeps/2026-07-20-daily.md
+  - sources/arxiv-2607-18171-flashrt-agent-harness.md
+  - sweeps/2026-07-21-daily.md
 maturity: draft
 created: 2026-07-20
-updated: 2026-07-20
+updated: 2026-07-21
 ---
 
 ## Relations

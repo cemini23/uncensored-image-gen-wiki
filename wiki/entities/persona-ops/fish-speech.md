@@ -53,9 +53,10 @@ related:
   - entities/benchmarks/rw-voice-eq-bench.md
   - sweeps/2026-07-17-daily.md
   - sources/arxiv-2607-15694-voice-clone-attribution-geometry-floor.md
+  - sources/arxiv-2607-17900-harness-tts.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-20
+updated: 2026-07-21
 ---
 
 ## Relations

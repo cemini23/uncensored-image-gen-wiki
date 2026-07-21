@@ -93,9 +93,12 @@ related:
   - sources/arxiv-2607-16107-audio-visual-flamingo.md
   - entities/models/av-flamingo.md
   - sweeps/2026-07-20-daily.md
+  - sources/arxiv-2607-17615-re-sonance-dysarthric-aac.md
+  - sources/arxiv-2607-17900-harness-tts.md
+  - sweeps/2026-07-21-daily.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-07-20
+updated: 2026-07-21
 ---
 
 ## Relations
