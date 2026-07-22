@@ -99,9 +99,11 @@ related:
   - entities/models/cft-relighting.md
   - sources/arxiv-2607-17833-cft-image-relighting.md
   - sources/arxiv-2607-18217-homie-video-personalization.md
+  - entities/models/appearance-pointers.md
+  - sources/arxiv-2607-19344-appearance-pointers.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-07-21
+updated: 2026-07-22
 read_status: deep-read
 provenance:
   stub: false

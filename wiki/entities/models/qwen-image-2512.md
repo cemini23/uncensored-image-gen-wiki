@@ -37,9 +37,11 @@ related:
   - concepts/fourtune-w4a4g4-diffusion-lora-training.md
   - entities/inference/chitu-diffusion.md
   - sources/arxiv-2607-15650-ditango-chitudiffusion.md
+  - sources/arxiv-2607-19139-dit-template-token-registers.md
+  - concepts/dit-template-token-semantic-registers.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-07-20
+updated: 2026-07-22
 ---
 
 ## Relations

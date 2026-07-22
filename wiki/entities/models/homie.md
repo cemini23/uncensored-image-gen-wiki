@@ -11,9 +11,11 @@ related:
   - entities/models/wan-2-2.md
   - entities/uis/comfyui.md
   - sweeps/2026-07-21-daily.md
+  - sources/arxiv-2607-19038-filmworld-novel-to-film.md
+  - entities/models/filmworld.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-07-21
+updated: 2026-07-22
 ---
 
 ## Relations

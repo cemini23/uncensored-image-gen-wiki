@@ -96,9 +96,12 @@ related:
   - sources/arxiv-2607-17615-re-sonance-dysarthric-aac.md
   - sources/arxiv-2607-17900-harness-tts.md
   - sweeps/2026-07-21-daily.md
+  - sources/arxiv-2607-17544-x-translator-s2st.md
+  - entities/voice-models/x-translator.md
+  - sweeps/2026-07-22-daily.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-07-21
+updated: 2026-07-22
 ---
 
 ## Relations

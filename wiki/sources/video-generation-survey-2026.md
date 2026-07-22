@@ -165,6 +165,7 @@ related:
   - entities/models/videorae.md
   - sources/arxiv-2607-13527-vgif-score-video-instruction-eval.md
   - entities/benchmarks/vgif-score.md
+  - sources/arxiv-2607-18789-moving-alphabet-t2v-data.md
 title: Video Generation Models Survey (May 2026)
 type: source
 tags: [survey, video-generation, t2v, i2v, deep-research, uncensored, latent-chaining, lipsync]
@@ -172,7 +173,7 @@ keywords: [video, wan, hunyuan, ltx-2, mochi, cogvideox, seedance, vidu, open-so
 maturity: validated
 read_status: deep-read
 created: 2026-05-07
-updated: 2026-07-16
+updated: 2026-07-22
 ---
 
 

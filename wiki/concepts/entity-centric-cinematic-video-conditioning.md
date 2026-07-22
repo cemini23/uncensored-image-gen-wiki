@@ -13,9 +13,12 @@ related:
   - sources/video-generation-survey-2026.md
   - concepts/llm-choreographed-multi-view-world-models.md
   - sources/arxiv-2606-17536-omnidrive-llm-choreographed-driving-world.md
+  - sources/arxiv-2607-19038-filmworld-novel-to-film.md
+  - entities/models/filmworld.md
+  - sweeps/2026-07-22-daily.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-06-21
+updated: 2026-07-22
 ---
 
 ## Relations

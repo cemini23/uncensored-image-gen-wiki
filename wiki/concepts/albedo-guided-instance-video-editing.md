@@ -22,9 +22,10 @@ related:
   - sweeps/2026-07-17-daily.md
   - sources/arxiv-2607-18227-flowmimic-mask-free-editing.md
   - sweeps/2026-07-21-daily.md
+  - sources/arxiv-2607-19344-appearance-pointers.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-07-21
+updated: 2026-07-22
 ---
 
 ## Relations

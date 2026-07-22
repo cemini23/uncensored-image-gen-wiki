@@ -19,9 +19,11 @@ related:
   - concepts/two-pass-generation-workflow.md
   - sources/arxiv-2606-19103-productconsistency-product-identity-editing.md
   - concepts/product-identity-instruction-editing.md
+  - sources/arxiv-2607-19344-appearance-pointers.md
+  - entities/models/appearance-pointers.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-06-19
+updated: 2026-07-22
 ---
 
 ## Relations

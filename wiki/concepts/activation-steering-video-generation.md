@@ -17,9 +17,10 @@ related:
   - sources/arxiv-2606-17257-reins-video-safety-representation-steering.md
   - concepts/representation-space-video-safety-steering.md
   - concepts/sequential-adaptive-personality-steering.md
+  - sources/arxiv-2607-18924-phyparam-physical-video.md
 maturity: draft
 created: 2026-06-05
-updated: 2026-06-27
+updated: 2026-07-22
 ---
 
 ## Relations

@@ -32,9 +32,11 @@ related:
   - concepts/ditango-parallel-diffusion-attention.md
   - sweeps/2026-07-20-daily.md
   - sources/arxiv-2607-15846-dstar-dit-accelerator.md
+  - sources/arxiv-2607-19139-dit-template-token-registers.md
+  - concepts/dit-template-token-semantic-registers.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-07-20
+updated: 2026-07-22
 ---
 
 ## Relations

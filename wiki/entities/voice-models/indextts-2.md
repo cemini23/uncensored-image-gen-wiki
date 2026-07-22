@@ -8,9 +8,11 @@ related:
   - entities/persona-ops/fish-speech.md
   - entities/voice-models/cosyvoice2.md
   - concepts/model-selection-workflow.md
+  - sources/arxiv-2607-17544-x-translator-s2st.md
+  - entities/voice-models/x-translator.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-07-22
 ---
 
 ## Relations

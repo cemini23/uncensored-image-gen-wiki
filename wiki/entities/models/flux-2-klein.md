@@ -39,9 +39,10 @@ related:
   - sweeps/2026-07-10-daily.md
   - entities/inference/chitu-diffusion.md
   - sources/arxiv-2607-15650-ditango-chitudiffusion.md
+  - sources/arxiv-2607-19139-dit-template-token-registers.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-07-20
+updated: 2026-07-22
 ---
 
 ## Relations

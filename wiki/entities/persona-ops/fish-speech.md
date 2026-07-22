@@ -54,9 +54,11 @@ related:
   - sweeps/2026-07-17-daily.md
   - sources/arxiv-2607-15694-voice-clone-attribution-geometry-floor.md
   - sources/arxiv-2607-17900-harness-tts.md
+  - sources/arxiv-2607-17544-x-translator-s2st.md
+  - entities/voice-models/x-translator.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-21
+updated: 2026-07-22
 ---
 
 ## Relations

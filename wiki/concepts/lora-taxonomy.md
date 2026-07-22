@@ -39,9 +39,10 @@ related:
   - sources/arxiv-2607-05711-fourtune-4bit-diffusion-post-training.md
   - sweeps/2026-07-10-daily.md
   - sources/arxiv-2607-18130-mhc-peft-llm.md
+  - sources/arxiv-2607-19326-malora-mara-llm-peft.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-07-21
+updated: 2026-07-22
 ---
 
 ## Relations

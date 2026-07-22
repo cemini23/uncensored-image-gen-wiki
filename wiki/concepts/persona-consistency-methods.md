@@ -106,13 +106,16 @@ related:
   - sources/arxiv-2607-17833-cft-image-relighting.md
   - entities/models/cft-relighting.md
   - sweeps/2026-07-21-daily.md
+  - sources/arxiv-2607-19344-appearance-pointers.md
+  - entities/models/appearance-pointers.md
+  - sweeps/2026-07-22-daily.md
 title: Persona consistency methods (umbrella)
 type: concept
 tags: [persona-consistency, methods, taxonomy, identity-injection]
 keywords: [character LoRA, identity adapter, Character DNA, multi-angle dataset, two-pass inpaint, reference plus LoRA stack, face anchor seed]
 maturity: validated
 created: 2026-05-06
-updated: 2026-07-21
+updated: 2026-07-22
 ---
 
 
@@ -276,3 +279,7 @@ For multi-shot persona narratives: **Wan 2.7 Reference-to-Video (R2V)** accepts 
 
 - **HOMIE** (arXiv:2607.18217): Wan2.1-14B human-object video personalization; Apache code CONDITIONAL-GO. See @entities/models/homie.md.
 - **CFT** (arXiv:2607.17833): portrait relighting via consistent feature transport; WATCH (repo placeholder).
+
+### 2026-07-22 — Appearance Pointers
+
+Adobe/Brown multimodal region control of DiTs (arXiv:2607.19344) — WATCH. See @entities/models/appearance-pointers.md.

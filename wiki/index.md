@@ -144,6 +144,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [D2DF one-step video object removal (arXiv:2607.14976)](sources/arxiv-2607-14976-d2df-one-step-video-object-removal.md) — CogVideoX distill; Apache code; CONDITIONAL-GO — `paper, video-editing, object-removal`
 - [TANGO AR video (CERTH/UvA)](entities/models/tango-ar-video.md) — test-time noise-guided terminal-point avoidance; WATCH — `video-generation, autoregressive, test-time`
 - [HOMIE (HKUST Wan2.1 HOCVP)](entities/models/homie.md) — human-object video personalization; Apache; CONDITIONAL-GO — `video-generation, personalization, wan`
+- [FilmWorld (Wan Team novel-to-film)](entities/models/filmworld.md) — agentic cinematic world modeling; WATCH — `video-generation, agentic, long-form`
+- [Appearance Pointers (Brown/Adobe)](entities/models/appearance-pointers.md) — multimodal DiT region control; WATCH — `dit, region-control, editing`
 - [CFT relighting (Meitu/BIT)](entities/models/cft-relighting.md) — portrait relighting; WATCH — `relighting, image-editing`
 - [Audio-Visual Flamingo (NVIDIA)](entities/models/av-flamingo.md) — long-form AV understanding; NVIDIA noncommercial; WATCH — `audio-visual, multimodal, nvidia`
 - [Synthetic medical images bias (arXiv:2607.14984)](sources/arxiv-2607-14984-synthetic-medical-images-bias.md) — medical peripheral SKIP — `paper, medical, peripheral`
@@ -167,6 +169,14 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [FlashRT multimodal agent harness (arXiv:2607.18171)](sources/arxiv-2607-18171-flashrt-agent-harness.md) — multi-GPU deploy agent; GitHub 404; WATCH — `paper, serving, multimodal`
 - [HOMIE HOCVP on Wan2.1 (arXiv:2607.18217)](sources/arxiv-2607-18217-homie-video-personalization.md) — Apache code; CONDITIONAL-GO — `paper, video-personalization, wan`
 - [FlowMimic mask-free edit data (arXiv:2607.18227)](sources/arxiv-2607-18227-flowmimic-mask-free-editing.md) — ByteDance; WATCH no code — `paper, video-editing, data-generation`
+- [X-Translator speaker-aware S2ST (arXiv:2607.17544)](sources/arxiv-2607-17544-x-translator-s2st.md) — modular ASR-MT-TTS; CONDITIONAL-GO demo — `paper, speech, translation`
+- [Moving Alphabet T2V data study (arXiv:2607.18789)](sources/arxiv-2607-18789-moving-alphabet-t2v-data.md) — Meta caption/data science; REFERENCE — `paper, video-generation, training-data`
+- [PhyParam physical I2V control (arXiv:2607.18924)](sources/arxiv-2607-18924-phyparam-physical-video.md) — force/mass/friction; WATCH — `paper, physics, video-generation`
+- [FilmWorld novel-to-film agents (arXiv:2607.19038)](sources/arxiv-2607-19038-filmworld-novel-to-film.md) — Wan Team; code under review; WATCH — `paper, agentic, long-form`
+- [DiT template-token registers (arXiv:2607.19139)](sources/arxiv-2607-19139-dit-template-token-registers.md) — training-free prune tip; WATCH — `paper, dit, interpretability`
+- [MaLoRA/MaRA LLM PEFT (arXiv:2607.19326)](sources/arxiv-2607-19326-malora-mara-llm-peft.md) — LLM peripheral SKIP — `paper, llm, peft, peripheral`
+- [Appearance Pointers DiT region control (arXiv:2607.19344)](sources/arxiv-2607-19344-appearance-pointers.md) — Adobe/Brown; WATCH — `paper, region-control, dit`
+
 
 
 - [Straight-path flow matching IMVC (arXiv:2607.06281)](sources/arxiv-2607-06281-straight-path-flow-matching-imvc.md) — clustering peripheral false positive — `paper, peripheral, clustering`
@@ -325,6 +335,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Confucius4-TTS (NetEase Youdao)](entities/voice-models/confucius4-tts.md) — 14-lang cross-lingual zero-shot TTS; 3s ref no transcript; Phase-0 CONDITIONAL-GO — `voice-cloning, tts, multilingual, netease, apache-2-0, eastern-vanguard` ⚠ stub
 - [Kokoro-82M (Hexgrad / StyleTTS2-derived TTS)](entities/voice-models/kokoro.md) — Apache 2.0 lightweight TTS (82M, StyleTTS2-LJSpeech base); no voice cloning (preset voices only); TTS engine inside voicemode MCP for Claude Code bidirectional voice; Core ML accelerated on M-series — `tts, voice-models, kokoro, hexgrad, apache-2-0, styletts2, lightweight-tts, no-voice-cloning, m-series-mac`
 - [IndexTTS-2 (Bilibili Index zero-shot TTS with emotion + duration control)](entities/voice-models/indextts-2.md) — ~1.7B, zero-shot voice clone + explicit emotion + duration control; ICASSP-2025 lineage; positioned as the "control surface" complement to Fish-Speech (highest emotion) and CosyVoice2 (lowest latency) — `voice-cloning, tts, indextts, bilibili, zero-shot, emotion-control, duration-control, eastern-vanguard`
+- [X-Translator (SJTU S2ST)](entities/voice-models/x-translator.md) — real-time speaker-aware speech-to-speech; CONDITIONAL-GO demo — `voice, translation, streaming`
 - [Qwen3-TTS (Alibaba Qwen team multilingual TTS)](entities/voice-models/qwen3-tts.md) — Alibaba Qwen-team multilingual zero-shot voice clone; Apache-2.0-style weights expected (verify per release); positioned as Alibaba/CosyVoice2's sibling line for production multilingual persona DMs — `voice-cloning, tts, qwen, alibaba, multilingual, zero-shot, eastern-vanguard`
 - [Nemotron-Labs-Audex (NVIDIA unified audio-text LLM)](entities/voice-models/nemotron-audex.md) — unified TTS/ASR/TTA/speech-to-speech MoE; Phase-0 REFERENCE (NVIDIA noncommercial license) — `voice-cloning, tts, nvidia, audex, unified-llm, moe`
 - [speech-swift (Soniqo Apple Silicon speech toolkit)](entities/voice-models/speech-swift.md) — MLX/CoreML ASR+TTS; CosyVoice/Qwen3-TTS/Fish S2; Phase-0 WATCH — `voice-cloning, tts, apple-silicon, mlx, apache-2.0`
@@ -455,6 +466,7 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [NaviCache navigation-guided video caching](concepts/navicache-navigation-guided-video-caching.md) — INS test-time self-calibration for Wan/HunyuanVideo — `video-generation, caching, inference, optimization`
 - [Input-stable sparse attention for video (SVOO)](concepts/input-stable-sparse-attention-video.md) — offline layer profiles + QK co-clustering on Wan — `video-generation, sparse-attention, inference, optimization`
 - [DiTango parallel diffusion attention](concepts/ditango-parallel-diffusion-attention.md) — selective CP attention-state reuse for multi-node DiT (ChituDiffusion) — `inference, parallel, dit, caching`
+- [DiT template-token semantic registers](concepts/dit-template-token-semantic-registers.md) — chat-template tokens as identity sinks; training-free head prune — `dit, interpretability, pruning`
 - [Ray-space positional encoding for video (RayPE)](concepts/ray-space-positional-encoding-video.md) — Plücker additive Q/K on Wan2.2 — `video-generation, camera-control, 3d-aware`
 - [UCM time-aware PE warping for world models](concepts/ucm-time-aware-pe-warping-world-models.md) — explicit memory+camera PE remap — `world-model, camera-control, memory`
 - [Autoregressive concept erasure (Obliviate)](concepts/autoregressive-concept-erasure-obliviate.md) — AR visual-token erasure inverse to de-censoring — `concept-erasure, safety, autoregressive`

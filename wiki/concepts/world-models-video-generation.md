@@ -76,9 +76,14 @@ related:
   - sources/arxiv-2607-15849-tango-test-time-noise-guided-ar-video.md
   - entities/models/tango-ar-video.md
   - sweeps/2026-07-20-daily.md
+  - sources/arxiv-2607-19038-filmworld-novel-to-film.md
+  - entities/models/filmworld.md
+  - sources/arxiv-2607-18924-phyparam-physical-video.md
+  - sources/arxiv-2607-18789-moving-alphabet-t2v-data.md
+  - sweeps/2026-07-22-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-07-20
+updated: 2026-07-22
 ---
 
 ## Relations

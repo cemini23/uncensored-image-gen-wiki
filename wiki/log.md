@@ -1,3 +1,40 @@
+## [2026-07-22] ingest | X-Translator S2ST + FilmWorld/AppearancePointers/PhyParam watches
+
+Daily sweep full ingest for 2026-07-22 (7 PDFs).
+
+### Created (in-scope)
+
+- `wiki/sources/arxiv-2607-17544-x-translator-s2st.md` + `entities/voice-models/x-translator.md` — **CONDITIONAL-GO** (demo; license unknown)
+- `wiki/sources/arxiv-2607-19038-filmworld-novel-to-film.md` + `entities/models/filmworld.md` — **WATCH**
+- `wiki/sources/arxiv-2607-19344-appearance-pointers.md` + `entities/models/appearance-pointers.md` — **WATCH**
+- `wiki/sources/arxiv-2607-18924-phyparam-physical-video.md` — **WATCH**
+- `wiki/sources/arxiv-2607-19139-dit-template-token-registers.md` + `concepts/dit-template-token-semantic-registers.md` — **WATCH**
+- `wiki/sources/arxiv-2607-18789-moving-alphabet-t2v-data.md` — **REFERENCE**
+
+### Created (peripheral SKIP)
+
+- `wiki/sources/arxiv-2607-19326-malora-mara-llm-peft.md`
+
+### Updated
+
+- `wiki/sweeps/2026-07-22-daily.md`, `wiki/index.md`
+- hubs: persona-audio/consistency, world-models, DiT accel, Wan/FLUX/Qwen, Fish-Speech/CosyVoice/IndexTTS, ComfyUI, Homie
+
+### Brief / routing
+
+- `briefs/2026-07-22_x-translator-s2st-adoption.md` → TipDrop kit
+- No poker / prod SCP
+
+### Local adopt
+
+- `~/Desktop/projects/X-Translator` (~2.2 MB)
+
+### Archive
+
+- 7 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/`
+
+---
+
 ## [2026-07-21] ingest | HOMIE HOCVP + CFT/Harness/FlowMimic watches + peripherals
 
 Daily sweep full ingest for 2026-07-21 (8 PDFs).
