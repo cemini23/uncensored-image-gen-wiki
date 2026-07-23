@@ -4,16 +4,18 @@ type: concept
 tags: [concept, dit, interpretability, pruning, inference]
 keywords: [template-tokens, attention-sinks, GenEval, training-free-prune]
 related:
-  - sources/arxiv-2607-19139-dit-template-token-registers.md
-  - concepts/ditango-parallel-diffusion-attention.md
   - concepts/budget-aware-diffusion-caching.md
-  - entities/models/qwen-image-2512.md
-  - entities/models/flux-1-dev.md
+  - concepts/ditango-parallel-diffusion-attention.md
   - entities/inference/chitu-diffusion.md
+  - entities/models/flux-1-dev.md
+  - entities/models/qwen-image-2512.md
+  - sources/arxiv-2607-19139-dit-template-token-registers.md
+  - sources/arxiv-2607-20048-importance-aware-obs-pruning.md
   - sweeps/2026-07-22-daily.md
+  - sweeps/2026-07-23-daily.md
 maturity: draft
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-23
 ---
 
 ## Relations

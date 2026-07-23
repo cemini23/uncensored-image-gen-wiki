@@ -1,121 +1,125 @@
 ---
 related:
-  - sources/synthetic-character-consistency-survey.md
-  - sources/ai-content-factory-workflow-design.md
-  - sources/mac-studio-ai-content-factory-design.md
-  - sources/video-generation-survey-2026.md
-  - concepts/lora-taxonomy.md
-  - concepts/multi-angle-dataset-prep.md
-  - concepts/video-identity-inheritance.md
-  - entities/adapters/ip-adapter.md
-  - entities/adapters/pulid.md
-  - entities/adapters/instantid.md
-  - entities/adapters/consistentid.md
-  - entities/adapters/infinite-you.md
-  - entities/adapters/photomaker-v2.md
-  - entities/training-tools/kohya-sd-scripts.md
-  - entities/training-tools/ai-toolkit.md
-  - entities/training-tools/onetrainer.md
-  - entities/training-tools/kohya-ss-gui.md
-  - entities/training-tools/musubi-tuner.md
-  - entities/training-tools/fluxgym.md
-  - entities/adapters/characonsist.md
-  - entities/adapters/flux-redux.md
-  - entities/adapters/flux-kontext.md
-  - entities/adapters/flux2-klein-9b-faceswap.md
+  - concepts/anti-personalization-privacy.md
+  - concepts/autoregressive-video-foresight-training.md
+  - concepts/causal-multi-turn-image-editing.md
   - concepts/character-dna-templates.md
+  - concepts/entity-centric-cinematic-video-conditioning.md
+  - concepts/generative-ai-era-deepfake-landscape.md
+  - concepts/implicit-preference-alignment-human-animation.md
+  - concepts/input-stable-sparse-attention-video.md
+  - concepts/knowledge-graph-structured-video-control.md
+  - concepts/lightweight-video-history-embeddings.md
   - concepts/likeness-collision-verification.md
-  - concepts/reference-plus-lora-stacking.md
-  - entities/models/flux.md
-  - entities/models/flux-1-dev.md
-  - entities/models/pony-v6.md
-  - entities/models/pony-v7.md
-  - entities/models/illustrious-xl.md
-  - entities/models/noobai-xl.md
-  - entities/models/seedance-2.md
+  - concepts/long-video-rag-retrieval.md
+  - concepts/lora-taxonomy.md
+  - concepts/model-selection-workflow.md
+  - concepts/motion-shape-disentangled-human-animation.md
+  - concepts/multi-angle-dataset-prep.md
   - concepts/persona-content-cadence.md
   - concepts/persona-failure-modes.md
   - concepts/persona-ops-stack.md
+  - concepts/product-identity-instruction-editing.md
+  - concepts/reference-plus-lora-stacking.md
+  - concepts/soul-computing-digital-persona.md
+  - concepts/stage-aware-lora-distribution-calibrated-selection.md
+  - concepts/style-content-dual-reference-generation.md
+  - concepts/subject-reconstruction-long-video-memory.md
+  - concepts/universal-composite-diffusion-conditioning.md
+  - concepts/video-identity-inheritance.md
+  - concepts/video-reference-avatar-generation.md
+  - concepts/video-try-on-anything.md
+  - concepts/visual-to-visual-generation.md
+  - entities/adapters/characonsist.md
+  - entities/adapters/consistentid.md
+  - entities/adapters/flux-kontext.md
+  - entities/adapters/flux-redux.md
+  - entities/adapters/flux2-klein-9b-faceswap.md
+  - entities/adapters/flux2-klein-matchingpose.md
+  - entities/adapters/infinite-you.md
+  - entities/adapters/instantid.md
+  - entities/adapters/ip-adapter.md
+  - entities/adapters/photomaker-v2.md
+  - entities/adapters/pulid.md
+  - entities/custom-nodes/bmab.md
+  - entities/custom-nodes/comfyui-angelo.md
+  - entities/custom-nodes/impact-pack.md
+  - entities/custom-nodes/lora-optimizer.md
+  - entities/models/anchoredit.md
+  - entities/models/appearance-pointers.md
+  - entities/models/avatar-v.md
+  - entities/models/cft-relighting.md
+  - entities/models/cineorchestra.md
+  - entities/models/flux-1-dev.md
+  - entities/models/flux.md
+  - entities/models/freestyle.md
+  - entities/models/homie.md
+  - entities/models/hunyuanimage-3-0.md
+  - entities/models/illustrious-xl.md
+  - entities/models/memento.md
+  - entities/models/metaworld.md
+  - entities/models/noobai-xl.md
+  - entities/models/omnitryon.md
+  - entities/models/pony-v6.md
+  - entities/models/pony-v7.md
+  - entities/models/seedance-2.md
+  - entities/models/unity.md
+  - entities/models/vera-identity-s2v.md
   - entities/persona-ops/sillytavern.md
   - entities/personas/aitana-lopez.md
-  - sources/persona-ops-stack-2026.md
-  - sources/headsup-3d-gaussian-head.md
-  - sources/virtual-persona-narrative-development-strategy.md
-  - concepts/model-selection-workflow.md
+  - entities/training-tools/ai-toolkit.md
+  - entities/training-tools/fluxgym.md
+  - entities/training-tools/kohya-sd-scripts.md
+  - entities/training-tools/kohya-ss-gui.md
+  - entities/training-tools/musubi-tuner.md
+  - entities/training-tools/onetrainer.md
   - entities/uis/comfyui.md
-  - entities/custom-nodes/impact-pack.md
-  - entities/custom-nodes/bmab.md
-  - concepts/anti-personalization-privacy.md
-  - concepts/visual-to-visual-generation.md
-  - sources/arxiv-privacy-cross-image-anti-personalization-2504-12747.md
-  - concepts/long-video-rag-retrieval.md
-  - concepts/autoregressive-video-foresight-training.md
-  - concepts/knowledge-graph-structured-video-control.md
+  - sources/ai-content-factory-workflow-design.md
+  - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
+  - sources/arxiv-2509-23951-hunyuanimage-3-0-technical-report.md
+  - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
+  - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
+  - sources/arxiv-2605-07545-implicit-preference-alignment-human-animation.md
   - sources/arxiv-2605-29509-kgedit-knowledge-graph-video-editing.md
   - sources/arxiv-2606-02553-longlive-rag-long-video-generation.md
   - sources/arxiv-2606-03971-video-mirai-autoregressive-foresight.md
-  - entities/models/metaworld.md
-  - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
   - sources/arxiv-2606-08514-omnitryon-video-try-on.md
-  - concepts/video-try-on-anything.md
-  - entities/models/omnitryon.md
-  - concepts/soul-computing-digital-persona.md
   - sources/arxiv-2606-10413-soul-computing-digital-consciousness.md
   - sources/arxiv-2606-11751-anchoredit-multi-turn-editing.md
-  - concepts/causal-multi-turn-image-editing.md
-  - entities/models/anchoredit.md
-  - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
-  - concepts/video-reference-avatar-generation.md
-  - entities/models/avatar-v.md
-  - sources/arxiv-2606-14667-memento-long-video-subject-reconstruction.md
-  - concepts/subject-reconstruction-long-video-memory.md
-  - entities/models/memento.md
   - sources/arxiv-2606-13768-cineorchestra-entity-centric-cinematic-video.md
-  - concepts/entity-centric-cinematic-video-conditioning.md
+  - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
+  - sources/arxiv-2606-14667-memento-long-video-subject-reconstruction.md
   - sources/arxiv-2606-19103-productconsistency-product-identity-editing.md
-  - concepts/product-identity-instruction-editing.md
-  - entities/models/cineorchestra.md
   - sources/arxiv-2606-20506-freestyle-community-lora-mining.md
-  - concepts/style-content-dual-reference-generation.md
-  - entities/models/freestyle.md
   - sources/arxiv-2606-20971-unity-attention-flow-conditioning.md
-  - concepts/universal-composite-diffusion-conditioning.md
-  - entities/models/unity.md
-  - concepts/lightweight-video-history-embeddings.md
-  - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
-  - entities/custom-nodes/lora-optimizer.md
-  - sources/arxiv-2606-28026-emosh-expressive-motion-shape-disentanglement.md
-  - concepts/motion-shape-disentangled-human-animation.md
-  - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
-  - concepts/generative-ai-era-deepfake-landscape.md
-  - sources/arxiv-2605-07545-implicit-preference-alignment-human-animation.md
-  - concepts/implicit-preference-alignment-human-animation.md
-  - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
-  - concepts/input-stable-sparse-attention-video.md
-  - entities/models/hunyuanimage-3-0.md
-  - sources/arxiv-2509-23951-hunyuanimage-3-0-technical-report.md
   - sources/arxiv-2606-27376-ask-solve-generate-self-evolving-multimodal.md
-  - sources/hf-flux2-klein-9b-matchingpose.md
-  - entities/adapters/flux2-klein-matchingpose.md
+  - sources/arxiv-2606-28026-emosh-expressive-motion-shape-disentanglement.md
   - sources/arxiv-2607-07173-spara-dcal-subject-driven-personalization.md
-  - concepts/stage-aware-lora-distribution-calibrated-selection.md
-  - entities/custom-nodes/comfyui-angelo.md
-  - sweeps/2026-07-10-daily.md
-  - sources/arxiv-2607-18217-homie-video-personalization.md
-  - entities/models/homie.md
   - sources/arxiv-2607-17833-cft-image-relighting.md
-  - entities/models/cft-relighting.md
-  - sweeps/2026-07-21-daily.md
+  - sources/arxiv-2607-18217-homie-video-personalization.md
   - sources/arxiv-2607-19344-appearance-pointers.md
-  - entities/models/appearance-pointers.md
+  - sources/arxiv-2607-20174-streamhoi.md
+  - sources/arxiv-2607-20247-vera-identity-faithful-s2v.md
+  - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
+  - sources/arxiv-privacy-cross-image-anti-personalization-2504-12747.md
+  - sources/headsup-3d-gaussian-head.md
+  - sources/hf-flux2-klein-9b-matchingpose.md
+  - sources/mac-studio-ai-content-factory-design.md
+  - sources/persona-ops-stack-2026.md
+  - sources/synthetic-character-consistency-survey.md
+  - sources/video-generation-survey-2026.md
+  - sources/virtual-persona-narrative-development-strategy.md
+  - sweeps/2026-07-10-daily.md
+  - sweeps/2026-07-21-daily.md
   - sweeps/2026-07-22-daily.md
+  - sweeps/2026-07-23-daily.md
 title: Persona consistency methods (umbrella)
 type: concept
 tags: [persona-consistency, methods, taxonomy, identity-injection]
 keywords: [character LoRA, identity adapter, Character DNA, multi-angle dataset, two-pass inpaint, reference plus LoRA stack, face anchor seed]
 maturity: validated
 created: 2026-05-06
-updated: 2026-07-22
+updated: 2026-07-23
 ---
 
 

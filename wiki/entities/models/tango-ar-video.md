@@ -4,15 +4,18 @@ type: entity
 tags: [model, video-generation, autoregressive, test-time, watch]
 keywords: [TANGO, terminal-points, mever-team, ECCV-2026]
 related:
-  - sources/arxiv-2607-15849-tango-test-time-noise-guided-ar-video.md
   - concepts/autoregressive-video-foresight-training.md
-  - entities/models/wan-2-2.md
-  - concepts/world-models-video-generation.md
-  - sweeps/2026-07-20-daily.md
   - concepts/long-video-rag-retrieval.md
+  - concepts/world-models-video-generation.md
+  - entities/models/self-gradient-forcing.md
+  - entities/models/wan-2-2.md
+  - sources/arxiv-2607-15849-tango-test-time-noise-guided-ar-video.md
+  - sources/arxiv-2607-20368-self-gradient-forcing.md
+  - sweeps/2026-07-20-daily.md
+  - sweeps/2026-07-23-daily.md
 maturity: draft
 created: 2026-07-20
-updated: 2026-07-20
+updated: 2026-07-23
 ---
 
 ## Relations

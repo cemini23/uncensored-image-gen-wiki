@@ -146,6 +146,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [HOMIE (HKUST Wan2.1 HOCVP)](entities/models/homie.md) — human-object video personalization; Apache; CONDITIONAL-GO — `video-generation, personalization, wan`
 - [FilmWorld (Wan Team novel-to-film)](entities/models/filmworld.md) — agentic cinematic world modeling; WATCH — `video-generation, agentic, long-form`
 - [Appearance Pointers (Brown/Adobe)](entities/models/appearance-pointers.md) — multimodal DiT region control; WATCH — `dit, region-control, editing`
+- [Self Gradient Forcing (JD long AR video)](entities/models/self-gradient-forcing.md) — native long extrapolation; Apache; CONDITIONAL-GO — `video-generation, autoregressive, long-form`
+- [Vera (Kuaishou identity S2V)](entities/models/vera-identity-s2v.md) — IFMS+RALA human S2V; WATCH — `video-generation, identity, persona`
 - [CFT relighting (Meitu/BIT)](entities/models/cft-relighting.md) — portrait relighting; WATCH — `relighting, image-editing`
 - [Audio-Visual Flamingo (NVIDIA)](entities/models/av-flamingo.md) — long-form AV understanding; NVIDIA noncommercial; WATCH — `audio-visual, multimodal, nvidia`
 - [Synthetic medical images bias (arXiv:2607.14984)](sources/arxiv-2607-14984-synthetic-medical-images-bias.md) — medical peripheral SKIP — `paper, medical, peripheral`
@@ -176,6 +178,14 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [DiT template-token registers (arXiv:2607.19139)](sources/arxiv-2607-19139-dit-template-token-registers.md) — training-free prune tip; WATCH — `paper, dit, interpretability`
 - [MaLoRA/MaRA LLM PEFT (arXiv:2607.19326)](sources/arxiv-2607-19326-malora-mara-llm-peft.md) — LLM peripheral SKIP — `paper, llm, peft, peripheral`
 - [Appearance Pointers DiT region control (arXiv:2607.19344)](sources/arxiv-2607-19344-appearance-pointers.md) — Adobe/Brown; WATCH — `paper, region-control, dit`
+- [StellarTTS mobile NAR TTS (arXiv:2607.19859)](sources/arxiv-2607-19859-stellartts.md) — sparse temporal embedding; WATCH — `paper, tts, mobile`
+- [Importance-aware OBS pruning (arXiv:2607.20048)](sources/arxiv-2607-20048-importance-aware-obs-pruning.md) — PixArt-Σ training-free; WATCH — `paper, pruning, diffusion`
+- [StreamHOI streaming HOI video (arXiv:2607.20174)](sources/arxiv-2607-20174-streamhoi.md) — temporal memory; WATCH — `paper, video-generation, hoi`
+- [Vera identity-faithful S2V (arXiv:2607.20247)](sources/arxiv-2607-20247-vera-identity-faithful-s2v.md) — Kuaishou IFMS/RALA; WATCH — `paper, identity, persona`
+- [Nonlocal spectral math (arXiv:2607.20288)](sources/arxiv-2607-20288-nonlocal-spectral-math.md) — math peripheral SKIP — `paper, math, peripheral`
+- [PyroDash SLM-LLM inference (arXiv:2607.20327)](sources/arxiv-2607-20327-pyrodash-slm-llm.md) — LLM peripheral SKIP — `paper, llm, peripheral`
+- [Self Gradient Forcing (arXiv:2607.20368)](sources/arxiv-2607-20368-self-gradient-forcing.md) — Apache code; CONDITIONAL-GO — `paper, video-generation, long-form`
+- [LKValues Sri Lankan LLM values (arXiv:2607.20410)](sources/arxiv-2607-20410-lkvalues.md) — LLM peripheral SKIP — `paper, llm, peripheral`
 
 
 

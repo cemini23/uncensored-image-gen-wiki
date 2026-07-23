@@ -4,104 +4,106 @@ type: concept
 tags: [audio, voice-cloning, tts, lipsync, music-generation, sound-effects, persona-ops, audio-pipeline]
 keywords: [voice cloning, TTS, Fish-Speech, CosyVoice, lipsync, LatentSync, MuseTalk, Wav2Lip, music generation, MusicGen, ACE-Step, Stable Audio, sound effects, AudioLDM, Tango, audio-video integration, FFmpeg, ComfyUI audio nodes]
 related:
-  - entities/persona-ops/fish-speech.md
-  - concepts/persona-ops-stack.md
   - concepts/david-adoption-brief-routing.md
-  - concepts/persona-ops-workflow.md
-  - entities/uis/comfyui.md
-  - concepts/video-identity-inheritance.md
-  - concepts/seam-stitching-strategies.md
+  - concepts/federated-daily-research-digest.md
+  - concepts/generative-ai-era-deepfake-landscape.md
+  - concepts/joint-audio-visual-instruction-editing.md
+  - concepts/mllm-video-translation.md
   - concepts/model-selection-workflow.md
-  - entities/models/wan-2-2.md
-  - entities/models/hunyuanvideo-1-5.md
-  - entities/models/ltx-2.md
-  - sources/persona-ops-stack-2026.md
-  - entities/voice-models/cosyvoice2.md
-  - entities/voice-models/kokoro.md
-  - entities/voice-models/indextts-2.md
-  - entities/voice-models/qwen3-tts.md
-  - entities/voice-models/f5-tts.md
-  - entities/voice-models/chatterbox.md
-  - entities/voice-models/maskgct.md
+  - concepts/multi-shot-audio-video-evaluation.md
+  - concepts/persona-ops-stack.md
+  - concepts/persona-ops-workflow.md
+  - concepts/seam-stitching-strategies.md
+  - concepts/soul-computing-digital-persona.md
+  - concepts/sync-audio-video-customization.md
+  - concepts/unified-audio-text-llm-no-text-regression.md
+  - concepts/unified-controllable-video-to-audio.md
+  - concepts/video-identity-inheritance.md
+  - concepts/video-reference-avatar-generation.md
+  - concepts/waveform-native-flow-matching-tts.md
+  - entities/benchmarks/rw-voice-eq-bench.md
+  - entities/datasets/dialogs-russian-speech.md
   - entities/lipsync/latentsync.md
+  - entities/lipsync/liveportrait.md
   - entities/lipsync/musetalk.md
-  - entities/lipsync/wav2lip.md
   - entities/lipsync/sadtalker.md
+  - entities/lipsync/wav2lip.md
+  - entities/models/av-flamingo.md
+  - entities/models/avatar-v.md
+  - entities/models/foley-omni.md
+  - entities/models/foleygenex.md
+  - entities/models/hunyuanvideo-1-5.md
+  - entities/models/javedit.md
+  - entities/models/ltx-2.md
+  - entities/models/omnicustom.md
+  - entities/models/wan-2-2.md
   - entities/music-models/ace-step.md
   - entities/music-models/musicgen.md
-  - entities/sfx-models/stable-audio-open.md
-  - entities/sfx-models/audioldm.md
-  - entities/sfx-models/tango-2.md
-  - entities/voice-models/xtts-v2.md
-  - entities/voice-models/dia.md
-  - entities/voice-models/bark.md
-  - entities/voice-models/elevenlabs.md
-  - entities/lipsync/liveportrait.md
   - entities/music-models/suno.md
   - entities/music-models/udio.md
-  - entities/sfx-models/audio-omni.md
   - entities/omnivoice.md
-  - entities/voicebox.md
   - entities/persona-ops/delive.md
-  - concepts/federated-daily-research-digest.md
-  - concepts/sync-audio-video-customization.md
-  - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
-  - sources/arxiv-2604-11283-mllm-video-translation-survey.md
-  - concepts/mllm-video-translation.md
-  - entities/models/foley-omni.md
-  - sources/arxiv-2606-03672-foley-omni.md
-  - entities/models/omnicustom.md
-  - sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md
-  - sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md
-  - concepts/joint-audio-visual-instruction-editing.md
-  - entities/models/javedit.md
-  - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
-  - concepts/multi-shot-audio-video-evaluation.md
+  - entities/persona-ops/fish-speech.md
+  - entities/sfx-models/audio-omni.md
+  - entities/sfx-models/audioldm.md
+  - entities/sfx-models/stable-audio-open.md
+  - entities/sfx-models/tango-2.md
+  - entities/uis/comfyui.md
+  - entities/voice-models/autosift.md
   - entities/voice-models/barewave.md
-  - concepts/waveform-native-flow-matching-tts.md
+  - entities/voice-models/bark.md
+  - entities/voice-models/chatterbox.md
+  - entities/voice-models/confucius4-tts.md
+  - entities/voice-models/cosyvoice2.md
+  - entities/voice-models/dia.md
+  - entities/voice-models/elevenlabs.md
+  - entities/voice-models/f5-tts.md
+  - entities/voice-models/indextts-2.md
+  - entities/voice-models/kokoro.md
+  - entities/voice-models/maskgct.md
+  - entities/voice-models/nemotron-audex.md
+  - entities/voice-models/qwen3-tts.md
+  - entities/voice-models/speech-swift.md
+  - entities/voice-models/x-translator.md
+  - entities/voice-models/xtts-v2.md
+  - entities/voice-models/zipl-dialog.md
+  - entities/voicebox.md
+  - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
+  - sources/arxiv-2604-11283-mllm-video-translation-survey.md
+  - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
+  - sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md
+  - sources/arxiv-2606-03672-foley-omni.md
   - sources/arxiv-2606-09048-barewave-waveform-native-tts.md
   - sources/arxiv-2606-10413-soul-computing-digital-consciousness.md
-  - concepts/soul-computing-digital-persona.md
-  - sources/arxiv-2606-14049-foleygenex-unified-vta.md
-  - concepts/unified-controllable-video-to-audio.md
-  - entities/models/foleygenex.md
   - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
-  - concepts/video-reference-avatar-generation.md
-  - entities/models/avatar-v.md
+  - sources/arxiv-2606-14049-foleygenex-unified-vta.md
   - sources/arxiv-2606-15117-eav-dfd-deepfake-detection-routed.md
-  - entities/voice-models/confucius4-tts.md
-  - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
-  - concepts/generative-ai-era-deepfake-landscape.md
   - sources/arxiv-2607-05196-nemotron-audex-unified-audio-intelligence.md
-  - concepts/unified-audio-text-llm-no-text-regression.md
-  - entities/voice-models/nemotron-audex.md
-  - entities/voice-models/speech-swift.md
-  - entities/voice-models/zipl-dialog.md
-  - entities/voice-models/autosift.md
   - sources/arxiv-2607-12496-zipl-dialog-latent-flow-matching.md
   - sources/arxiv-2607-12706-autosift-style-infilling-tts.md
+  - sources/arxiv-2607-14310-dialogs-russian-speech-corpus.md
+  - sources/arxiv-2607-14753-lalms-spoofing-aware-asv.md
+  - sources/arxiv-2607-14846-rw-voice-eq-bench.md
+  - sources/arxiv-2607-15694-voice-clone-attribution-geometry-floor.md
+  - sources/arxiv-2607-16107-audio-visual-flamingo.md
+  - sources/arxiv-2607-17544-x-translator-s2st.md
+  - sources/arxiv-2607-17615-re-sonance-dysarthric-aac.md
+  - sources/arxiv-2607-17900-harness-tts.md
+  - sources/arxiv-2607-19859-stellartts.md
+  - sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md
+  - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
+  - sources/persona-ops-stack-2026.md
   - sweeps/2026-07-12-daily.md
   - sweeps/2026-07-13-daily.md
   - sweeps/2026-07-16-daily.md
-  - sources/arxiv-2607-14310-dialogs-russian-speech-corpus.md
-  - entities/datasets/dialogs-russian-speech.md
-  - sources/arxiv-2607-14846-rw-voice-eq-bench.md
-  - entities/benchmarks/rw-voice-eq-bench.md
-  - sources/arxiv-2607-14753-lalms-spoofing-aware-asv.md
   - sweeps/2026-07-17-daily.md
-  - sources/arxiv-2607-15694-voice-clone-attribution-geometry-floor.md
-  - sources/arxiv-2607-16107-audio-visual-flamingo.md
-  - entities/models/av-flamingo.md
   - sweeps/2026-07-20-daily.md
-  - sources/arxiv-2607-17615-re-sonance-dysarthric-aac.md
-  - sources/arxiv-2607-17900-harness-tts.md
   - sweeps/2026-07-21-daily.md
-  - sources/arxiv-2607-17544-x-translator-s2st.md
-  - entities/voice-models/x-translator.md
   - sweeps/2026-07-22-daily.md
+  - sweeps/2026-07-23-daily.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-07-22
+updated: 2026-07-23
 ---
 
 ## Relations

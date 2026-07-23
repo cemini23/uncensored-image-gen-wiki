@@ -1,72 +1,78 @@
 ---
 related:
-  - sources/ai-creator-operations-blueprint.md
-  - sources/ai-persona-launch-strategy-analysis.md
-  - sources/video-generation-survey-2026.md
-  - sources/synthetic-character-consistency-survey.md
-  - concepts/persona-consistency-methods.md
+  - concepts/2026-05-13_gracia-ai-volumetric-video.md
+  - concepts/autoregressive-video-foresight-training.md
+  - concepts/entity-centric-cinematic-video-conditioning.md
+  - concepts/grpo-i2v-post-training.md
+  - concepts/hunyuanvideo-homa-weak-hoi-video.md
+  - concepts/lightweight-video-history-embeddings.md
   - concepts/multi-angle-dataset-prep.md
-  - concepts/seam-stitching-strategies.md
-  - entities/adapters/pulid.md
-  - entities/models/wan-2-2.md
-  - entities/models/hunyuanvideo-1-5.md
-  - entities/models/seedance-2.md
-  - entities/models/qwen-image-2512.md
-  - entities/models/z-image-turbo.md
-  - entities/models/flux-2-klein.md
-  - sources/headsup-3d-gaussian-head.md
-  - entities/persona-ops/personalive.md
-  - entities/models/openrouter-video.md
-  - entities/uis/comfyui.md
+  - concepts/one-step-video-object-removal.md
   - concepts/persona-audio-stack.md
+  - concepts/persona-consistency-methods.md
+  - concepts/query-warped-video-motion-control.md
+  - concepts/seam-stitching-strategies.md
+  - concepts/stage-aware-lora-distribution-calibrated-selection.md
+  - concepts/subject-reconstruction-long-video-memory.md
+  - concepts/sync-audio-video-customization.md
+  - concepts/video-reference-avatar-generation.md
+  - concepts/video-try-on-anything.md
+  - entities/adapters/flux2-klein-matchingpose.md
+  - entities/adapters/pulid.md
   - entities/lipsync/latentsync.md
+  - entities/lipsync/liveportrait.md
   - entities/lipsync/musetalk.md
   - entities/lipsync/sadtalker.md
-  - entities/lipsync/liveportrait.md
-  - concepts/2026-05-13_gracia-ai-volumetric-video.md
-  - concepts/grpo-i2v-post-training.md
-  - concepts/sync-audio-video-customization.md
-  - sources/arxiv-tagrpo-i2v-grpo-2601-05729.md
-  - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
+  - entities/models/avatar-v.md
+  - entities/models/d2df.md
+  - entities/models/flux-2-klein.md
+  - entities/models/homie.md
+  - entities/models/hunyuanvideo-1-5.md
+  - entities/models/memento.md
   - entities/models/omnicustom.md
-  - concepts/autoregressive-video-foresight-training.md
+  - entities/models/omnitryon.md
+  - entities/models/openrouter-video.md
+  - entities/models/qwen-image-2512.md
+  - entities/models/seedance-2.md
+  - entities/models/self-gradient-forcing.md
+  - entities/models/vera-identity-s2v.md
+  - entities/models/wan-2-2.md
+  - entities/models/z-image-turbo.md
+  - entities/persona-ops/personalive.md
+  - entities/uis/comfyui.md
+  - sources/ai-creator-operations-blueprint.md
+  - sources/ai-persona-launch-strategy-analysis.md
+  - sources/arxiv-2506-08797-hunyuanvideo-homa.md
+  - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
   - sources/arxiv-2606-03971-video-mirai-autoregressive-foresight.md
   - sources/arxiv-2606-08514-omnitryon-video-try-on.md
-  - concepts/video-try-on-anything.md
-  - entities/models/omnitryon.md
-  - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
-  - concepts/video-reference-avatar-generation.md
-  - entities/models/avatar-v.md
-  - sources/arxiv-2506-08797-hunyuanvideo-homa.md
-  - concepts/hunyuanvideo-homa-weak-hoi-video.md
-  - sweeps/2026-07-11-daily.md
-  - sources/arxiv-2606-14667-memento-long-video-subject-reconstruction.md
-  - concepts/subject-reconstruction-long-video-memory.md
-  - entities/models/memento.md
   - sources/arxiv-2606-13768-cineorchestra-entity-centric-cinematic-video.md
-  - concepts/entity-centric-cinematic-video-conditioning.md
-  - concepts/lightweight-video-history-embeddings.md
-  - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
+  - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
+  - sources/arxiv-2606-14667-memento-long-video-subject-reconstruction.md
   - sources/arxiv-2607-01869-qwerty-query-warped-video-motion-control.md
-  - concepts/query-warped-video-motion-control.md
-  - sources/hf-flux2-klein-9b-matchingpose.md
-  - entities/adapters/flux2-klein-matchingpose.md
   - sources/arxiv-2607-07173-spara-dcal-subject-driven-personalization.md
-  - concepts/stage-aware-lora-distribution-calibrated-selection.md
   - sources/arxiv-2607-14976-d2df-one-step-video-object-removal.md
-  - entities/models/d2df.md
-  - concepts/one-step-video-object-removal.md
-  - sweeps/2026-07-17-daily.md
   - sources/arxiv-2607-18217-homie-video-personalization.md
-  - entities/models/homie.md
+  - sources/arxiv-2607-20174-streamhoi.md
+  - sources/arxiv-2607-20247-vera-identity-faithful-s2v.md
+  - sources/arxiv-2607-20368-self-gradient-forcing.md
+  - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
+  - sources/arxiv-tagrpo-i2v-grpo-2601-05729.md
+  - sources/headsup-3d-gaussian-head.md
+  - sources/hf-flux2-klein-9b-matchingpose.md
+  - sources/synthetic-character-consistency-survey.md
+  - sources/video-generation-survey-2026.md
+  - sweeps/2026-07-11-daily.md
+  - sweeps/2026-07-17-daily.md
   - sweeps/2026-07-21-daily.md
+  - sweeps/2026-07-23-daily.md
 title: Video identity inheritance (I2V from static master)
 type: concept
 tags: [persona-consistency, i2v, identity-inheritance, video-workflow, clip-vision-encoder, master-image]
 keywords: [i2v, image-to-video, identity-inheritance, master-image, clip-vision-encoder, raw-pixel-initialization, pulid-anchor, airt-machine, seedance, kling, wan, hunyuan, persona-consistency]
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-21
+updated: 2026-07-23
 ---
 
 

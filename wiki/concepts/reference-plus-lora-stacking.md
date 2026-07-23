@@ -4,41 +4,43 @@ type: concept
 tags: [persona-consistency, production-pattern, lora-stacking, identity-adapter-stack, nsfw-mitigation, two-pass-pipeline]
 keywords: [reference plus LoRA, stack, 0.85 LoRA + 0.45 adapter, modal 2026 stack, two-pass face inpaint, Klein 9B face-swap, Chroma1-HD, NSFW LoRA stack]
 related:
-  - sources/synthetic-character-consistency-survey.md
-  - concepts/prompt-engineering-uncensored.md
-  - concepts/two-pass-generation-workflow.md
-  - concepts/persona-consistency-methods.md
-  - concepts/lora-taxonomy.md
   - concepts/character-dna-templates.md
-  - entities/adapters/ip-adapter.md
-  - entities/adapters/pulid.md
-  - entities/adapters/instantid.md
+  - concepts/de-censoring-techniques.md
+  - concepts/lora-taxonomy.md
+  - concepts/model-selection-workflow.md
+  - concepts/persona-consistency-methods.md
+  - concepts/preference-delta-lora-aggregation.md
+  - concepts/prompt-engineering-uncensored.md
+  - concepts/stage-aware-lora-distribution-calibrated-selection.md
+  - concepts/style-content-dual-reference-generation.md
+  - concepts/two-pass-generation-workflow.md
+  - concepts/universal-composite-diffusion-conditioning.md
   - entities/adapters/characonsist.md
   - entities/adapters/flux-redux.md
   - entities/adapters/flux2-klein-9b-faceswap.md
-  - entities/models/flux.md
+  - entities/adapters/instantid.md
+  - entities/adapters/ip-adapter.md
+  - entities/adapters/pulid.md
+  - entities/hardware/gpu-guide.md
   - entities/models/flux-1-dev.md
   - entities/models/flux-2-klein.md
-  - concepts/stage-aware-lora-distribution-calibrated-selection.md
+  - entities/models/flux.md
+  - entities/models/freestyle.md
+  - entities/models/homie.md
   - entities/models/pony-v6.md
   - entities/models/pony-v7.md
-  - concepts/de-censoring-techniques.md
   - entities/models/sdxl-fine-tunes.md
-  - concepts/model-selection-workflow.md
-  - entities/hardware/gpu-guide.md
-  - entities/uis/comfyui.md
-  - concepts/preference-delta-lora-aggregation.md
-  - sources/arxiv-2606-20506-freestyle-community-lora-mining.md
-  - concepts/style-content-dual-reference-generation.md
-  - entities/models/freestyle.md
-  - sources/arxiv-2606-20971-unity-attention-flow-conditioning.md
-  - concepts/universal-composite-diffusion-conditioning.md
   - entities/models/unity.md
+  - entities/uis/comfyui.md
+  - sources/arxiv-2606-20506-freestyle-community-lora-mining.md
+  - sources/arxiv-2606-20971-unity-attention-flow-conditioning.md
   - sources/arxiv-2607-18217-homie-video-personalization.md
-  - entities/models/homie.md
+  - sources/arxiv-2607-20247-vera-identity-faithful-s2v.md
+  - sources/synthetic-character-consistency-survey.md
+  - sweeps/2026-07-23-daily.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-07-21
+updated: 2026-07-23
 ---
 
 ## Relations

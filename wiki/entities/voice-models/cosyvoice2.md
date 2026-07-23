@@ -4,32 +4,34 @@ type: entity
 tags: [voice-cloning, tts, streaming-tts, alibaba, funaudiollm, cosyvoice, apache-2-0, eastern-vanguard, zero-shot]
 keywords: [CosyVoice2, CosyVoice2-0.5B, CosyVoice3, Fun-CosyVoice3-0.5B, streaming TTS, bidirectional streaming, 150ms latency, chunk-aware flow matching, FunAudioLLM, Tongyi, iic, vLLM, Seed-TTS]
 related:
-  - concepts/persona-audio-stack.md
-  - entities/persona-ops/fish-speech.md
-  - concepts/persona-ops-stack.md
   - concepts/model-selection-workflow.md
-  - sources/persona-ops-stack-2026.md
-  - entities/voice-models/indextts-2.md
-  - entities/voice-models/qwen3-tts.md
+  - concepts/persona-audio-stack.md
+  - concepts/persona-ops-stack.md
+  - concepts/waveform-native-flow-matching-tts.md
+  - entities/persona-ops/fish-speech.md
+  - entities/voice-models/autosift.md
+  - entities/voice-models/barewave.md
   - entities/voice-models/chatterbox.md
-  - entities/voice-models/xtts-v2.md
+  - entities/voice-models/confucius4-tts.md
   - entities/voice-models/dia.md
   - entities/voice-models/elevenlabs.md
-  - entities/voice-models/barewave.md
-  - concepts/waveform-native-flow-matching-tts.md
-  - sources/arxiv-2606-09048-barewave-waveform-native-tts.md
-  - entities/voice-models/confucius4-tts.md
+  - entities/voice-models/indextts-2.md
+  - entities/voice-models/qwen3-tts.md
   - entities/voice-models/speech-swift.md
-  - entities/voice-models/autosift.md
+  - entities/voice-models/x-translator.md
+  - entities/voice-models/xtts-v2.md
+  - sources/arxiv-2606-09048-barewave-waveform-native-tts.md
   - sources/arxiv-2607-12706-autosift-style-infilling-tts.md
-  - sweeps/2026-07-13-daily.md
+  - sources/arxiv-2607-17544-x-translator-s2st.md
   - sources/arxiv-2607-17615-re-sonance-dysarthric-aac.md
   - sources/arxiv-2607-17900-harness-tts.md
-  - sources/arxiv-2607-17544-x-translator-s2st.md
-  - entities/voice-models/x-translator.md
+  - sources/arxiv-2607-19859-stellartts.md
+  - sources/persona-ops-stack-2026.md
+  - sweeps/2026-07-13-daily.md
+  - sweeps/2026-07-23-daily.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-07-22
+updated: 2026-07-23
 ---
 
 ## Relations

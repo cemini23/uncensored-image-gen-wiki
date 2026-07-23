@@ -4,22 +4,24 @@ type: concept
 tags: [concept, inference, parallel, dit, caching, optimization]
 keywords: [DiTango, context-parallelism, attention-state-reuse, ChituDiffusion, multi-node]
 related:
-  - sources/arxiv-2607-15650-ditango-chitudiffusion.md
-  - entities/inference/chitu-diffusion.md
-  - concepts/input-stable-sparse-attention-video.md
   - concepts/budget-aware-diffusion-caching.md
-  - sources/arxiv-2607-16190-fvattn-sparse-attention-video.md
+  - concepts/dit-template-token-semantic-registers.md
+  - concepts/input-stable-sparse-attention-video.md
+  - entities/inference/chitu-diffusion.md
   - entities/models/wan-2-2.md
   - entities/uis/comfyui.md
-  - sweeps/2026-07-20-daily.md
+  - sources/arxiv-2607-15650-ditango-chitudiffusion.md
+  - sources/arxiv-2607-16190-fvattn-sparse-attention-video.md
   - sources/arxiv-2607-18171-flashrt-agent-harness.md
-  - sweeps/2026-07-21-daily.md
   - sources/arxiv-2607-19139-dit-template-token-registers.md
-  - concepts/dit-template-token-semantic-registers.md
+  - sources/arxiv-2607-20048-importance-aware-obs-pruning.md
+  - sweeps/2026-07-20-daily.md
+  - sweeps/2026-07-21-daily.md
   - sweeps/2026-07-22-daily.md
+  - sweeps/2026-07-23-daily.md
 maturity: draft
 created: 2026-07-20
-updated: 2026-07-22
+updated: 2026-07-23
 ---
 
 ## Relations

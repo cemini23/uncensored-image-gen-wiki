@@ -1,3 +1,41 @@
+## [2026-07-23] ingest | Self Gradient Forcing + Vera/StreamHOI/StellarTTS watches + peripherals
+
+Daily sweep full ingest for 2026-07-23 (8 PDFs).
+
+### Created (in-scope)
+
+- `wiki/sources/arxiv-2607-20368-self-gradient-forcing.md` + `entities/models/self-gradient-forcing.md` — **CONDITIONAL-GO** (Apache-2.0 code)
+- `wiki/sources/arxiv-2607-20247-vera-identity-faithful-s2v.md` + `entities/models/vera-identity-s2v.md` — **WATCH** (priority identity S2V)
+- `wiki/sources/arxiv-2607-20174-streamhoi.md` — **WATCH**
+- `wiki/sources/arxiv-2607-19859-stellartts.md` — **WATCH**
+- `wiki/sources/arxiv-2607-20048-importance-aware-obs-pruning.md` — **WATCH**
+
+### Created (peripheral SKIP)
+
+- `wiki/sources/arxiv-2607-20288-nonlocal-spectral-math.md`
+- `wiki/sources/arxiv-2607-20327-pyrodash-slm-llm.md`
+- `wiki/sources/arxiv-2607-20410-lkvalues.md`
+
+### Updated
+
+- `wiki/sweeps/2026-07-23-daily.md`, `wiki/index.md`
+- hubs: persona-audio/consistency, video-identity, world-models/AR foresight, DiT accel, Wan/Homie/Tango, Fish-Speech/CosyVoice, PixArt-Σ
+
+### Brief / routing
+
+- `briefs/2026-07-23_self-gradient-forcing-adoption.md` → TipDrop kit
+- No poker / prod SCP
+
+### Local adopt
+
+- `~/Desktop/projects/Self_Gradient_Forcing` (~5 MB code; weights deferred — Wan2.1 1.3B/14B)
+
+### Archive
+
+- 8 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/`
+
+---
+
 ## [2026-07-22] ingest | X-Translator S2ST + FilmWorld/AppearancePointers/PhyParam watches
 
 Daily sweep full ingest for 2026-07-22 (7 PDFs).
@@ -695,7 +733,7 @@ Per `wiki/sweeps/2026-06-26-daily.md`. preingest_check: 3/3 NEW. PDFs archived t
 ### Entities created (2)
 
 - `entities/models/videoagent.md`
-- `entities/models/vera.md`
+- `entities/models/vera-identity-s2v.md`
 
 ### Enhanced (backlinks)
 

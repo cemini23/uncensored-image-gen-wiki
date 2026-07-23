@@ -4,12 +4,14 @@ type: entity
 tags: [entity, video-editing, layered-diffusion, netflix, compositing]
 keywords: [Vera, Netflix, alpha matte, MoT, content preservation]
 related:
-  - sources/arxiv-2606-23610-vera-layered-content-preserving-video-editing.md
   - concepts/layered-diffusion-content-preserving-video-editing.md
+  - entities/models/vera-identity-s2v.md
   - sources/arxiv-2606-08260-tide-unified-video-editing.md
+  - sources/arxiv-2606-23610-vera-layered-content-preserving-video-editing.md
+  - sources/arxiv-2607-20247-vera-identity-faithful-s2v.md
 maturity: draft
 created: 2026-06-26
-updated: 2026-06-26
+updated: 2026-07-23
 ---
 
 ## Relations
@@ -21,6 +23,9 @@ updated: 2026-06-26
 Entity for **Vera** (arXiv:2606.23610) — Netflix layered diffusion video editor.
 
 ## Narrative
+
+**Name collision note (2026-07-23):** Kuaishou identity-faithful S2V is `@entities/models/vera-identity-s2v.md` (arXiv:2607.20247) — not this Netflix layered editor.
+
 
 | Attribute | Value |
 |-----------|-------|

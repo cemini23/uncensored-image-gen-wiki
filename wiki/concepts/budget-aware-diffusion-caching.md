@@ -4,39 +4,41 @@ type: concept
 tags: [concept, inference, optimization, caching, diffusion, hardware]
 keywords: [ReCache, feature caching, caching schedule, REINFORCE, TaylorSeer, HiCache, compute budget, inference acceleration]
 related:
+  - concepts/brownian-bridge-medical-image-translation.md
+  - concepts/dit-template-token-semantic-registers.md
+  - concepts/ditango-parallel-diffusion-attention.md
+  - concepts/input-stable-sparse-attention-video.md
+  - concepts/multimodal-diffusion-mamba-efficient-t2v.md
+  - concepts/navicache-navigation-guided-video-caching.md
+  - concepts/one-step-autoregressive-video-distillation.md
+  - concepts/score-gradient-matching-video-distillation.md
+  - concepts/synthetic-media-compute-economics.md
+  - concepts/topology-aware-dit-parallel-inference.md
+  - concepts/video-generation-energy-scaling-laws.md
+  - entities/hardware/gpu-guide.md
+  - entities/inference/chitu-diffusion.md
+  - entities/models/flux-1-dev.md
+  - entities/models/hunyuanvideo-1-5.md
+  - entities/models/wan-2-2.md
+  - entities/uis/comfyui.md
+  - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
+  - sources/arxiv-2605-30116-sgmd-score-gradient-matching-distillation.md
+  - sources/arxiv-2606-03972-aad-1-one-step-ar-video.md
   - sources/arxiv-2606-06060-recache-diffusion-caching.md
   - sources/arxiv-2606-13496-budcache-diffusion-caching.md
-  - entities/hardware/gpu-guide.md
-  - entities/models/flux-1-dev.md
-  - entities/models/wan-2-2.md
-  - entities/models/hunyuanvideo-1-5.md
-  - concepts/synthetic-media-compute-economics.md
-  - concepts/video-generation-energy-scaling-laws.md
-  - concepts/one-step-autoregressive-video-distillation.md
-  - sources/arxiv-2606-03972-aad-1-one-step-ar-video.md
-  - sources/video-generation-survey-2026.md
-  - entities/uis/comfyui.md
   - sources/arxiv-2606-17566-aoizora-topology-aware-dit-parallel.md
-  - concepts/topology-aware-dit-parallel-inference.md
-  - concepts/navicache-navigation-guided-video-caching.md
-  - concepts/score-gradient-matching-video-distillation.md
-  - sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md
-  - sources/arxiv-2605-30116-sgmd-score-gradient-matching-distillation.md
   - sources/arxiv-2606-24313-prob-bbdm-mri-sequence-translation.md
-  - concepts/multimodal-diffusion-mamba-efficient-t2v.md
-  - concepts/brownian-bridge-medical-image-translation.md
-  - concepts/input-stable-sparse-attention-video.md
-  - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
+  - sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md
   - sources/arxiv-2607-15650-ditango-chitudiffusion.md
-  - entities/inference/chitu-diffusion.md
-  - concepts/ditango-parallel-diffusion-attention.md
-  - sweeps/2026-07-20-daily.md
   - sources/arxiv-2607-15846-dstar-dit-accelerator.md
   - sources/arxiv-2607-19139-dit-template-token-registers.md
-  - concepts/dit-template-token-semantic-registers.md
+  - sources/arxiv-2607-20048-importance-aware-obs-pruning.md
+  - sources/video-generation-survey-2026.md
+  - sweeps/2026-07-20-daily.md
+  - sweeps/2026-07-23-daily.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-07-22
+updated: 2026-07-23
 ---
 
 ## Relations

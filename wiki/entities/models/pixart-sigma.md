@@ -4,17 +4,19 @@ type: entity
 tags: [model, dit, pixart, pixart-sigma, t5-encoder, 4k-resolution, academic-precursor, lightweight-dit, partial-censorship]
 keywords: [PixArt-Σ, PixArt Sigma, PixArt-Sigma, T5 encoder, 4K resolution, lightweight DiT, academic precursor, easy fine-tuning, NSFW LoRA bypass]
 related:
-  - sources/uncensored-image-generation-survey.md
   - concepts/censorship-tier-taxonomy.md
   - concepts/de-censoring-techniques.md
   - concepts/lora-taxonomy.md
-  - entities/models/flux.md
   - entities/models/flux-1-dev.md
+  - entities/models/flux.md
   - entities/models/sana.md
   - entities/uis/comfyui.md
+  - sources/arxiv-2607-20048-importance-aware-obs-pruning.md
+  - sources/uncensored-image-generation-survey.md
+  - sweeps/2026-07-23-daily.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-07-23
 ---
 
 ## Relations

@@ -1,182 +1,188 @@
 ---
 related:
-  - sources/video-generation-survey-2026.md
+  - concepts/activation-steering-video-generation.md
+  - concepts/albedo-guided-instance-video-editing.md
+  - concepts/autoregressive-video-foresight-training.md
+  - concepts/bidirectional-autoregressive-video-generation.md
+  - concepts/budget-aware-diffusion-caching.md
+  - concepts/cascaded-streaming-high-resolution-video.md
+  - concepts/causal-clip-attention-long-video.md
+  - concepts/causal-multi-turn-image-editing.md
+  - concepts/censorship-tier-taxonomy.md
+  - concepts/cross-model-safety-steering.md
+  - concepts/de-censoring-techniques.md
+  - concepts/ditango-parallel-diffusion-attention.md
+  - concepts/frozen-dit-video-super-resolution.md
+  - concepts/grpo-i2v-post-training.md
+  - concepts/hierarchical-latent-coarse-to-fine-video.md
+  - concepts/hunyuanvideo-homa-weak-hoi-video.md
+  - concepts/implicit-memory-retrieval-video-world-models.md
+  - concepts/implicit-preference-alignment-human-animation.md
+  - concepts/input-stable-sparse-attention-video.md
+  - concepts/knowledge-graph-structured-video-control.md
+  - concepts/latent-spatial-memory-video-world-models.md
+  - concepts/lightweight-video-history-embeddings.md
+  - concepts/llm-choreographed-multi-view-world-models.md
+  - concepts/long-video-rag-retrieval.md
+  - concepts/mobile-wan-chunkwise-video-distillation.md
+  - concepts/model-selection-workflow.md
+  - concepts/motion-shape-disentangled-human-animation.md
+  - concepts/multi-angle-dataset-prep.md
+  - concepts/multi-shot-audio-video-evaluation.md
+  - concepts/multi-view-3d-consistent-world-models.md
+  - concepts/multimodal-diffusion-mamba-efficient-t2v.md
+  - concepts/navicache-navigation-guided-video-caching.md
+  - concepts/one-step-autoregressive-video-distillation.md
+  - concepts/one-step-video-object-removal.md
+  - concepts/panoramic-gaussian-video-world-models.md
+  - concepts/persona-audio-stack.md
+  - concepts/query-warped-video-motion-control.md
+  - concepts/ray-space-positional-encoding-video.md
+  - concepts/reconstruction-based-t2v-benchmarking.md
+  - concepts/representation-space-video-safety-steering.md
+  - concepts/score-gradient-matching-video-distillation.md
+  - concepts/seam-stitching-strategies.md
+  - concepts/streaming-force-controlled-video-generation.md
+  - concepts/streaming-video-generation-serving.md
+  - concepts/subject-reconstruction-long-video-memory.md
+  - concepts/synthetic-media-compute-economics.md
+  - concepts/topology-aware-dit-parallel-inference.md
+  - concepts/ucm-time-aware-pe-warping-world-models.md
+  - concepts/vae-latent-space-downstream-diffusion.md
+  - concepts/video-generation-energy-scaling-laws.md
+  - concepts/video-generation-physical-executability.md
+  - concepts/video-identity-inheritance.md
+  - concepts/video-text-editing-glyph-control.md
+  - concepts/video-try-on-anything.md
+  - concepts/world-models-video-generation.md
+  - entities/benchmarks/geot2v-bench.md
+  - entities/benchmarks/vgif-score.md
+  - entities/inference/chitu-diffusion.md
+  - entities/lipsync/latentsync.md
+  - entities/models/albedoedit.md
+  - entities/models/anchoredit.md
+  - entities/models/car.md
+  - entities/models/cogvideox-1-5.md
+  - entities/models/d2df.md
+  - entities/models/decmem.md
+  - entities/models/emosh.md
+  - entities/models/filmworld.md
+  - entities/models/homie.md
   - entities/models/hunyuanvideo-1-5.md
   - entities/models/ltx-2.md
+  - entities/models/m4v.md
+  - entities/models/meanflownft.md
+  - entities/models/memento.md
+  - entities/models/metaworld.md
+  - entities/models/mirage.md
   - entities/models/mochi-1.md
-  - entities/models/cogvideox-1-5.md
+  - entities/models/moverse.md
+  - entities/models/moworld.md
+  - entities/models/omnicustom.md
+  - entities/models/omnitryon.md
   - entities/models/open-sora.md
-  - concepts/synthetic-media-compute-economics.md
-  - entities/models/seedance-2.md
-  - entities/training-tools/musubi-tuner.md
-  - entities/training-tools/ai-toolkit.md
-  - concepts/seam-stitching-strategies.md
-  - concepts/video-identity-inheritance.md
-  - concepts/multi-angle-dataset-prep.md
-  - concepts/de-censoring-techniques.md
-  - concepts/censorship-tier-taxonomy.md
-  - concepts/model-selection-workflow.md
   - entities/models/openrouter-video.md
+  - entities/models/seedance-2.md
+  - entities/models/self-gradient-forcing.md
+  - entities/models/steervte.md
+  - entities/models/tango-ar-video.md
+  - entities/models/tinyhistory.md
+  - entities/models/turboserve.md
+  - entities/models/unitemp.md
+  - entities/models/vera-identity-s2v.md
+  - entities/models/videorae.md
+  - entities/open-generative-ai.md
+  - entities/training-tools/ai-toolkit.md
+  - entities/training-tools/heretic.md
+  - entities/training-tools/musubi-tuner.md
   - entities/uis/comfyui.md
-  - concepts/persona-audio-stack.md
-  - entities/lipsync/latentsync.md
-  - concepts/grpo-i2v-post-training.md
-  - sources/arxiv-tagrpo-i2v-grpo-2601-05729.md
-  - sources/arxiv-proprio-physics-video-2605-28230.md
-  - sources/arxiv-yocausal-world-model-benchmark-2605-30346.md
-  - sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md
-  - concepts/world-models-video-generation.md
-  - entities/models/decmem.md
-  - sources/arxiv-2605-31336-decmem-world-generation.md
+  - sources/arxiv-2506-08797-hunyuanvideo-homa.md
+  - sources/arxiv-2506-10915-m4v-multimodal-mamba-t2v.md
+  - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
+  - sources/arxiv-2602-22960-ucm-camera-control-memory-world-models.md
+  - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
+  - sources/arxiv-2605-07545-implicit-preference-alignment-human-animation.md
+  - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
   - sources/arxiv-2605-29509-kgedit-knowledge-graph-video-editing.md
+  - sources/arxiv-2605-30116-sgmd-score-gradient-matching-distillation.md
+  - sources/arxiv-2605-31336-decmem-world-generation.md
+  - sources/arxiv-2606-01362-albedoedit-video-editing.md
   - sources/arxiv-2606-02553-longlive-rag-long-video-generation.md
   - sources/arxiv-2606-03971-video-mirai-autoregressive-foresight.md
-  - concepts/long-video-rag-retrieval.md
-  - concepts/autoregressive-video-foresight-training.md
-  - concepts/knowledge-graph-structured-video-control.md
-  - concepts/activation-steering-video-generation.md
-  - sources/arxiv-activation-steering-video-gen-2606.04775-2026-06-05.md
-  - entities/models/metaworld.md
-  - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
-  - entities/models/omnicustom.md
-  - entities/open-generative-ai.md
   - sources/arxiv-2606-03972-aad-1-one-step-ar-video.md
-  - concepts/albedo-guided-instance-video-editing.md
-  - concepts/one-step-autoregressive-video-distillation.md
-  - sources/arxiv-2606-01362-albedoedit-video-editing.md
-  - entities/models/albedoedit.md
-  - concepts/cross-model-safety-steering.md
-  - sources/arxiv-2606-05290-cross-model-safety-steering.md
   - sources/arxiv-2606-04811-dream-exe-robot-executability.md
-  - concepts/video-generation-physical-executability.md
+  - sources/arxiv-2606-05290-cross-model-safety-steering.md
   - sources/arxiv-2606-06060-recache-diffusion-caching.md
-  - concepts/budget-aware-diffusion-caching.md
-  - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
-  - concepts/multi-shot-audio-video-evaluation.md
   - sources/arxiv-2606-07508-streamforce-streaming-force-video.md
-  - concepts/streaming-force-controlled-video-generation.md
-  - sources/arxiv-2606-09056-millivid-hierarchical-latents.md
-  - concepts/hierarchical-latent-coarse-to-fine-video.md
   - sources/arxiv-2606-08514-omnitryon-video-try-on.md
-  - concepts/video-try-on-anything.md
-  - entities/models/omnitryon.md
+  - sources/arxiv-2606-09056-millivid-hierarchical-latents.md
   - sources/arxiv-2606-09150-ultra-flash-streaming-hr-video.md
-  - concepts/cascaded-streaming-high-resolution-video.md
   - sources/arxiv-2606-09250-litevsr-frozen-dit-vsr.md
-  - concepts/frozen-dit-video-super-resolution.md
   - sources/arxiv-2606-09828-mirage-latent-spatial-memory.md
-  - concepts/latent-spatial-memory-video-world-models.md
-  - entities/models/mirage.md
   - sources/arxiv-2606-11751-anchoredit-multi-turn-editing.md
-  - concepts/causal-multi-turn-image-editing.md
-  - entities/models/anchoredit.md
-  - sources/arxiv-2606-13496-budcache-diffusion-caching.md
   - sources/arxiv-2606-13376-moverse-panoramic-gaussian-world.md
-  - concepts/panoramic-gaussian-video-world-models.md
-  - entities/models/moverse.md
-  - concepts/subject-reconstruction-long-video-memory.md
+  - sources/arxiv-2606-13496-budcache-diffusion-caching.md
   - sources/arxiv-2606-14667-memento-long-video-subject-reconstruction.md
-  - entities/models/memento.md
-  - sources/arxiv-2606-18702-unitemp-bidirectional-video-generation.md
-  - concepts/bidirectional-autoregressive-video-generation.md
-  - entities/models/unitemp.md
   - sources/arxiv-2606-17257-reins-video-safety-representation-steering.md
-  - concepts/representation-space-video-safety-steering.md
-  - sources/arxiv-2606-19271-turboserve-streaming-video-serving.md
-  - concepts/streaming-video-generation-serving.md
-  - entities/models/turboserve.md
-  - concepts/llm-choreographed-multi-view-world-models.md
   - sources/arxiv-2606-17536-omnidrive-llm-choreographed-driving-world.md
-  - sources/arxiv-2606-18375-paiworld-3d-consistent-world-foundation.md
-  - concepts/multi-view-3d-consistent-world-models.md
   - sources/arxiv-2606-17566-aoizora-topology-aware-dit-parallel.md
-  - concepts/topology-aware-dit-parallel-inference.md
+  - sources/arxiv-2606-18375-paiworld-3d-consistent-world-foundation.md
+  - sources/arxiv-2606-18702-unitemp-bidirectional-video-generation.md
+  - sources/arxiv-2606-19271-turboserve-streaming-video-serving.md
   - sources/arxiv-2606-22370-error-free-long-video-generation.md
-  - concepts/causal-clip-attention-long-video.md
-  - sources/arxiv-2606-23105-car-implicit-memory-video-world.md
-  - concepts/implicit-memory-retrieval-video-world-models.md
-  - sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md
-  - concepts/reconstruction-based-t2v-benchmarking.md
-  - concepts/vae-latent-space-downstream-diffusion.md
-  - sources/arxiv-2606-23254-steervte-video-text-editing.md
-  - concepts/video-text-editing-glyph-control.md
-  - entities/models/car.md
-  - entities/models/steervte.md
-  - entities/benchmarks/geot2v-bench.md
-  - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
-  - concepts/lightweight-video-history-embeddings.md
-  - entities/models/tinyhistory.md
   - sources/arxiv-2606-22481-lighting-consistent-object-transfer-3dgs.md
+  - sources/arxiv-2606-23105-car-implicit-memory-video-world.md
+  - sources/arxiv-2606-23254-steervte-video-text-editing.md
   - sources/arxiv-2606-23327-videoagent-all-in-one-framework.md
   - sources/arxiv-2606-23610-vera-layered-content-preserving-video-editing.md
-  - concepts/navicache-navigation-guided-video-caching.md
-  - concepts/score-gradient-matching-video-distillation.md
+  - sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md
   - sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md
-  - sources/arxiv-2605-30116-sgmd-score-gradient-matching-distillation.md
-  - sources/arxiv-2606-28026-emosh-expressive-motion-shape-disentanglement.md
-  - concepts/motion-shape-disentangled-human-animation.md
-  - entities/models/emosh.md
-  - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
-  - concepts/input-stable-sparse-attention-video.md
-  - sources/arxiv-2605-07545-implicit-preference-alignment-human-animation.md
-  - concepts/implicit-preference-alignment-human-animation.md
   - sources/arxiv-2606-27345-raype-ray-space-positional-encoding-3d-video.md
-  - concepts/ray-space-positional-encoding-video.md
-  - sources/arxiv-2602-22960-ucm-camera-control-memory-world-models.md
-  - concepts/ucm-time-aware-pe-warping-world-models.md
+  - sources/arxiv-2606-28026-emosh-expressive-motion-shape-disentanglement.md
   - sources/arxiv-2607-01869-qwerty-query-warped-video-motion-control.md
-  - sources/arxiv-2607-06173-mobilewan-mobile-video-diffusion.md
-  - concepts/mobile-wan-chunkwise-video-distillation.md
   - sources/arxiv-2607-04553-lights-camera-carbon-video-energy-scaling.md
-  - concepts/video-generation-energy-scaling-laws.md
-  - concepts/query-warped-video-motion-control.md
+  - sources/arxiv-2607-06173-mobilewan-mobile-video-diffusion.md
+  - sources/arxiv-2607-06216-moworld-flash-world-model.md
+  - sources/arxiv-2607-13527-vgif-score-video-instruction-eval.md
+  - sources/arxiv-2607-14088-videorae-vfm-representation-autoencoder.md
+  - sources/arxiv-2607-14976-d2df-one-step-video-object-removal.md
+  - sources/arxiv-2607-15273-meanflownft-forward-process-rl.md
+  - sources/arxiv-2607-15650-ditango-chitudiffusion.md
+  - sources/arxiv-2607-15849-tango-test-time-noise-guided-ar-video.md
+  - sources/arxiv-2607-16190-fvattn-sparse-attention-video.md
+  - sources/arxiv-2607-18217-homie-video-personalization.md
+  - sources/arxiv-2607-18227-flowmimic-mask-free-editing.md
+  - sources/arxiv-2607-18789-moving-alphabet-t2v-data.md
+  - sources/arxiv-2607-18924-phyparam-physical-video.md
+  - sources/arxiv-2607-19038-filmworld-novel-to-film.md
+  - sources/arxiv-2607-20174-streamhoi.md
+  - sources/arxiv-2607-20247-vera-identity-faithful-s2v.md
+  - sources/arxiv-2607-20368-self-gradient-forcing.md
+  - sources/arxiv-activation-steering-video-gen-2606.04775-2026-06-05.md
+  - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
+  - sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md
+  - sources/arxiv-proprio-physics-video-2605-28230.md
+  - sources/arxiv-tagrpo-i2v-grpo-2601-05729.md
+  - sources/arxiv-yocausal-world-model-benchmark-2605-30346.md
+  - sources/video-generation-survey-2026.md
   - sweeps/2026-07-09-daily.md
   - sweeps/2026-07-10-daily.md
   - sweeps/2026-07-11-daily.md
-  - entities/training-tools/heretic.md
-  - sources/arxiv-2506-08797-hunyuanvideo-homa.md
-  - concepts/hunyuanvideo-homa-weak-hoi-video.md
-  - entities/models/moworld.md
-  - sources/arxiv-2607-06216-moworld-flash-world-model.md
   - sweeps/2026-07-13-daily.md
-  - entities/models/m4v.md
-  - sources/arxiv-2506-10915-m4v-multimodal-mamba-t2v.md
-  - concepts/multimodal-diffusion-mamba-efficient-t2v.md
   - sweeps/2026-07-14-daily.md
-  - sources/arxiv-2607-14088-videorae-vfm-representation-autoencoder.md
-  - entities/models/videorae.md
-  - sources/arxiv-2607-13527-vgif-score-video-instruction-eval.md
-  - entities/benchmarks/vgif-score.md
   - sweeps/2026-07-16-daily.md
-  - sources/arxiv-2607-14976-d2df-one-step-video-object-removal.md
-  - entities/models/d2df.md
-  - concepts/one-step-video-object-removal.md
-  - sources/arxiv-2607-15273-meanflownft-forward-process-rl.md
-  - entities/models/meanflownft.md
   - sweeps/2026-07-17-daily.md
-  - sources/arxiv-2607-15650-ditango-chitudiffusion.md
-  - sources/arxiv-2607-16190-fvattn-sparse-attention-video.md
-  - entities/inference/chitu-diffusion.md
-  - concepts/ditango-parallel-diffusion-attention.md
-  - entities/models/tango-ar-video.md
   - sweeps/2026-07-20-daily.md
-  - sources/arxiv-2607-15849-tango-test-time-noise-guided-ar-video.md
-  - sources/arxiv-2607-18217-homie-video-personalization.md
-  - entities/models/homie.md
-  - sources/arxiv-2607-18227-flowmimic-mask-free-editing.md
   - sweeps/2026-07-21-daily.md
-  - sources/arxiv-2607-19038-filmworld-novel-to-film.md
-  - entities/models/filmworld.md
-  - sources/arxiv-2607-18924-phyparam-physical-video.md
-  - sources/arxiv-2607-18789-moving-alphabet-t2v-data.md
   - sweeps/2026-07-22-daily.md
+  - sweeps/2026-07-23-daily.md
 title: Wan 2.2 (Alibaba)
 type: entity
 tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]
 keywords: [wan2.2, wan-2-2, alibaba, mixture-of-experts, dual-expert, snr-routing, 27b, 14b, 5b, ti2v, apache-2.0, abliterated-text-encoder, mq-lab, blink, theyurilover]
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-22
+updated: 2026-07-23
 ---
 
 

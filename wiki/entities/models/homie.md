@@ -4,18 +4,22 @@ type: entity
 tags: [model, video-generation, personalization, wan, apache-2-0]
 keywords: [HOMIE, HOCVP, Wan2.1-T2V-14B, Qwen3-VL, subject-driven]
 related:
-  - sources/arxiv-2607-18217-homie-video-personalization.md
   - concepts/persona-consistency-methods.md
-  - concepts/video-identity-inheritance.md
   - concepts/reference-plus-lora-stacking.md
+  - concepts/video-identity-inheritance.md
+  - entities/models/filmworld.md
+  - entities/models/vera-identity-s2v.md
   - entities/models/wan-2-2.md
   - entities/uis/comfyui.md
-  - sweeps/2026-07-21-daily.md
+  - sources/arxiv-2607-18217-homie-video-personalization.md
   - sources/arxiv-2607-19038-filmworld-novel-to-film.md
-  - entities/models/filmworld.md
+  - sources/arxiv-2607-20174-streamhoi.md
+  - sources/arxiv-2607-20247-vera-identity-faithful-s2v.md
+  - sweeps/2026-07-21-daily.md
+  - sweeps/2026-07-23-daily.md
 maturity: draft
 created: 2026-07-21
-updated: 2026-07-22
+updated: 2026-07-23
 ---
 
 ## Relations
