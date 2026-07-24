@@ -38,10 +38,12 @@ related:
   - entities/models/moworld.md
   - entities/models/permavid.md
   - entities/models/prisma-world.md
+  - entities/models/sana-video-2.md
   - entities/models/sana-wm.md
   - entities/models/self-gradient-forcing.md
   - entities/models/tango-ar-video.md
   - entities/models/wan-2-2.md
+  - entities/models/worldweaver.md
   - sources/arxiv-2602-22960-ucm-camera-control-memory-world-models.md
   - sources/arxiv-2603-18639-orthophys-physics-video.md
   - sources/arxiv-2605-31336-decmem-world-generation.md
@@ -70,6 +72,8 @@ related:
   - sources/arxiv-2607-18924-phyparam-physical-video.md
   - sources/arxiv-2607-19038-filmworld-novel-to-film.md
   - sources/arxiv-2607-20368-self-gradient-forcing.md
+  - sources/arxiv-2607-21553-sana-video-2-0.md
+  - sources/arxiv-2607-21594-worldweaver.md
   - sources/arxiv-activation-steering-video-gen-2606.04775-2026-06-05.md
   - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
   - sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md
@@ -84,9 +88,10 @@ related:
   - sweeps/2026-07-20-daily.md
   - sweeps/2026-07-22-daily.md
   - sweeps/2026-07-23-daily.md
+  - sweeps/2026-07-24-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-07-23
+updated: 2026-07-24
 ---
 
 ## Relations

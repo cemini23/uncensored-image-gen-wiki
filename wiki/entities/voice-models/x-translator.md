@@ -4,15 +4,17 @@ type: entity
 tags: [voice, translation, streaming, s2st, watch]
 keywords: [X-Translator, S2ST, OpenSTBench, IndexTTS, speaker-prompt]
 related:
-  - sources/arxiv-2607-17544-x-translator-s2st.md
   - concepts/persona-audio-stack.md
   - entities/persona-ops/fish-speech.md
   - entities/voice-models/cosyvoice2.md
   - entities/voice-models/indextts-2.md
+  - sources/arxiv-2607-17544-x-translator-s2st.md
+  - sources/arxiv-2607-21042-faster-indextts-2.md
   - sweeps/2026-07-22-daily.md
+  - sweeps/2026-07-24-daily.md
 maturity: draft
 created: 2026-07-22
-updated: 2026-07-22
+updated: 2026-07-24
 ---
 
 ## Relations

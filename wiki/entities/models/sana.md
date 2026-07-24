@@ -4,16 +4,19 @@ type: entity
 tags: [model, diffusion, t2i, linear-transformer, nvidia, mit]
 keywords: [SANA, linear diffusion transformer, efficient T2I, high-resolution diffusion, ICLR 2025]
 related:
-  - sources/unireasoner.md
   - concepts/draft-evaluate-diffuse-pipeline.md
+  - concepts/hybrid-linear-attention.md
   - concepts/llm-as-image-conditioning.md
   - entities/models/pixart-sigma.md
+  - entities/models/sana-video-2.md
   - entities/models/sana-wm.md
+  - sources/arxiv-2607-21553-sana-video-2-0.md
   - sources/sana-wm-minute-scale-world-model.md
-  - concepts/hybrid-linear-attention.md
+  - sources/unireasoner.md
+  - sweeps/2026-07-24-daily.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-05-16
+updated: 2026-07-24
 ---
 
 ## Relations

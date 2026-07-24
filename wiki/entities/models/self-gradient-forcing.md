@@ -4,16 +4,19 @@ type: entity
 tags: [model, video-generation, autoregressive, long-form, apache-2-0]
 keywords: [SGF, Self-Forcing, Wan, causal-memory]
 related:
-  - sources/arxiv-2607-20368-self-gradient-forcing.md
   - concepts/autoregressive-video-foresight-training.md
-  - concepts/world-models-video-generation.md
   - concepts/video-identity-inheritance.md
-  - entities/models/wan-2-2.md
+  - concepts/world-models-video-generation.md
   - entities/models/tango-ar-video.md
+  - entities/models/wan-2-2.md
+  - entities/models/worldweaver.md
+  - sources/arxiv-2607-20368-self-gradient-forcing.md
+  - sources/arxiv-2607-21594-worldweaver.md
   - sweeps/2026-07-23-daily.md
+  - sweeps/2026-07-24-daily.md
 maturity: draft
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-07-24
 ---
 
 ## Relations

@@ -4,35 +4,40 @@ type: entity
 tags: [model, video, world-model, camera-control, linear-attention, nvidia, efficient-inference, diffusion-transformer]
 keywords: [SANA-WM, world model, minute-scale video, 720p, 2.6B, 6-DoF camera control, hybrid linear attention, Gated DeltaNet, GDN, dual-branch camera control, UCPE, Plucker mixing, two-stage refiner, LTX2 tokenizer, NVFP4, RTX 5090, distilled autoregressive, chunk-causal, bidirectional generator]
 related:
-  - sources/sana-wm-minute-scale-world-model.md
-  - concepts/world-models-video-generation.md
   - concepts/camera-controlled-video-generation.md
   - concepts/hybrid-linear-attention.md
-  - entities/models/sana.md
-  - entities/models/ltx-2.md
-  - sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md
-  - sources/arxiv-2605-31336-decmem-world-generation.md
+  - concepts/latent-spatial-memory-video-world-models.md
+  - concepts/panoramic-gaussian-video-world-models.md
+  - concepts/physical-ai-native-world-model-stacks.md
+  - concepts/world-models-video-generation.md
   - entities/models/decmem.md
+  - entities/models/kairos.md
+  - entities/models/ltx-2.md
   - entities/models/metaworld.md
-  - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
+  - entities/models/mirage.md
+  - entities/models/moverse.md
+  - entities/models/moworld.md
   - entities/models/prisma-world.md
+  - entities/models/sana-video-2.md
+  - entities/models/sana.md
+  - entities/models/worldweaver.md
+  - sources/arxiv-2605-31336-decmem-world-generation.md
   - sources/arxiv-2606-09507-prisma-world-multi-agent-video.md
   - sources/arxiv-2606-09828-mirage-latent-spatial-memory.md
-  - entities/models/mirage.md
-  - concepts/latent-spatial-memory-video-world-models.md
   - sources/arxiv-2606-13376-moverse-panoramic-gaussian-world.md
-  - concepts/panoramic-gaussian-video-world-models.md
-  - entities/models/moverse.md
   - sources/arxiv-2606-16533-kairos-native-world-model-stack.md
-  - entities/models/kairos.md
-  - concepts/physical-ai-native-world-model-stacks.md
-  - entities/models/moworld.md
   - sources/arxiv-2607-06216-moworld-flash-world-model.md
-  - sweeps/2026-07-13-daily.md
   - sources/arxiv-2607-14076-interactive-world-models-game-engines.md
+  - sources/arxiv-2607-21553-sana-video-2-0.md
+  - sources/arxiv-2607-21594-worldweaver.md
+  - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
+  - sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md
+  - sources/sana-wm-minute-scale-world-model.md
+  - sweeps/2026-07-13-daily.md
+  - sweeps/2026-07-24-daily.md
 maturity: validated
 created: 2026-05-16
-updated: 2026-07-16
+updated: 2026-07-24
 ---
 
 ## Relations

@@ -82,6 +82,7 @@ related:
   - entities/models/omnitryon.md
   - entities/models/open-sora.md
   - entities/models/openrouter-video.md
+  - entities/models/sana-video-2.md
   - entities/models/seedance-2.md
   - entities/models/self-gradient-forcing.md
   - entities/models/steervte.md
@@ -158,6 +159,8 @@ related:
   - sources/arxiv-2607-20174-streamhoi.md
   - sources/arxiv-2607-20247-vera-identity-faithful-s2v.md
   - sources/arxiv-2607-20368-self-gradient-forcing.md
+  - sources/arxiv-2607-21553-sana-video-2-0.md
+  - sources/arxiv-2607-21580-graphvid.md
   - sources/arxiv-activation-steering-video-gen-2606.04775-2026-06-05.md
   - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
   - sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md
@@ -176,13 +179,14 @@ related:
   - sweeps/2026-07-21-daily.md
   - sweeps/2026-07-22-daily.md
   - sweeps/2026-07-23-daily.md
+  - sweeps/2026-07-24-daily.md
 title: Wan 2.2 (Alibaba)
 type: entity
 tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]
 keywords: [wan2.2, wan-2-2, alibaba, mixture-of-experts, dual-expert, snr-routing, 27b, 14b, 5b, ti2v, apache-2.0, abliterated-text-encoder, mq-lab, blink, theyurilover]
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-23
+updated: 2026-07-24
 ---
 
 

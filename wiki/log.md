@@ -1,3 +1,44 @@
+## [2026-07-24] ingest | Faster IndexTTS-2 + Progressive Seed Pruning + SANA-Video 2.0 watches
+
+Daily sweep full ingest for 2026-07-24 (8 PDFs).
+
+### Created (in-scope)
+
+- `wiki/sources/arxiv-2607-21042-faster-indextts-2.md` — **CONDITIONAL-GO** (NVIDIA deploy; Bilibili license)
+- `wiki/sources/arxiv-2607-21591-progressive-seed-pruning.md` + `entities/models/progressive-seed-pruning.md` — **CONDITIONAL-GO** (MIT)
+- `wiki/sources/arxiv-2607-21553-sana-video-2-0.md` + `entities/models/sana-video-2.md` — **WATCH**
+- `wiki/sources/arxiv-2607-21594-worldweaver.md` + `entities/models/worldweaver.md` — **WATCH**
+- `wiki/sources/arxiv-2607-21434-adaptive-identity-anchoring.md` — **WATCH**
+- `wiki/sources/arxiv-2607-21580-graphvid.md` — **WATCH**
+
+### Created (peripheral SKIP)
+
+- `wiki/sources/arxiv-2607-21091-metasurfaces-silicon-photonics.md`
+- `wiki/sources/arxiv-2607-21352-double-screening-pinn.md`
+
+### Updated
+
+- `wiki/sweeps/2026-07-24-daily.md`, `wiki/index.md`
+- `entities/voice-models/indextts-2.md` — Faster deploy + Bilibili license CONFIRMED
+- hubs: persona-audio, hybrid-linear/SANA, world-models, budget-aware DiT, identity/consistency
+
+### Brief / routing
+
+- `briefs/2026-07-24_faster-indextts-psp-adoption.md` → TipDrop kit
+- No poker / prod SCP
+
+### Local adopt
+
+- `~/Desktop/projects/faster-indextts-2` (~69 MB)
+- `~/Desktop/projects/PSP` (~260 MB)
+- `~/Desktop/projects/WorldWeaver` (~20 MB placeholder)
+
+### Archive
+
+- 8 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/`
+
+---
+
 ## [2026-07-23] ingest | Self Gradient Forcing + Vera/StreamHOI/StellarTTS watches + peripherals
 
 Daily sweep full ingest for 2026-07-23 (8 PDFs).

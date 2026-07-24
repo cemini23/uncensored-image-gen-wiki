@@ -50,6 +50,7 @@ related:
   - sources/arxiv-2607-17544-x-translator-s2st.md
   - sources/arxiv-2607-17900-harness-tts.md
   - sources/arxiv-2607-19859-stellartts.md
+  - sources/arxiv-2607-21042-faster-indextts-2.md
   - sources/persona-ops-stack-2026.md
   - sweeps/2026-07-04-daily.md
   - sweeps/2026-07-09-daily.md
@@ -58,9 +59,10 @@ related:
   - sweeps/2026-07-13-daily.md
   - sweeps/2026-07-17-daily.md
   - sweeps/2026-07-23-daily.md
+  - sweeps/2026-07-24-daily.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-23
+updated: 2026-07-24
 ---
 
 ## Relations

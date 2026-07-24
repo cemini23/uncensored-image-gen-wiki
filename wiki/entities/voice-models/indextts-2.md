@@ -4,15 +4,17 @@ type: entity
 tags: [voice-cloning, tts, indextts, bilibili, zero-shot, emotion-control, duration-control, eastern-vanguard]
 keywords: [IndexTTS, IndexTTS-2, Bilibili Index, zero-shot voice cloning, emotion control, duration control, Index-TTS, GPT-style TTS, neural codec, bilibili-index]
 related:
+  - concepts/model-selection-workflow.md
   - concepts/persona-audio-stack.md
   - entities/persona-ops/fish-speech.md
   - entities/voice-models/cosyvoice2.md
-  - concepts/model-selection-workflow.md
-  - sources/arxiv-2607-17544-x-translator-s2st.md
   - entities/voice-models/x-translator.md
+  - sources/arxiv-2607-17544-x-translator-s2st.md
+  - sources/arxiv-2607-21042-faster-indextts-2.md
+  - sweeps/2026-07-24-daily.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-07-22
+updated: 2026-07-24
 ---
 
 ## Relations
@@ -32,9 +34,13 @@ Page prompted by the W4 Tier 2 voice/audio backfill (2026-05-13). Named in @conc
 
 **IndexTTS-2** is Bilibili's Index team open-source TTS engine. GPT-style autoregressive transformer over a neural-codec token sequence, trained on internal Bilibili-scale Chinese + English data. Distinctive feature: **explicit duration control** — operator can specify total speech duration, useful for dubbing fixed-length video clips (lipsync alignment, ad-spot fitting).
 
+### Faster IndexTTS-2 (2026-07-24)
+
+NVIDIA **Faster IndexTTS-2** (arXiv:2607.21042) — TensorRT/Triton streaming deploy under `~/Desktop/projects/faster-indextts-2/deploy`. **CONDITIONAL-GO (code)**; CUDA Docker + checkpoints on RunPod. License remains Bilibili Model Use License (confirmed NOASSERTION / custom — not Apache).
+
 ### Key facts (May 2026)
 
-- **License**: open weights — exact terms [NEEDS VERIFICATION 2026-05-13]; expected Apache-2.0-class but Index team historically uses custom community-license patterns
+- **License**: **Bilibili Model Use License** (custom; [CONFIRMED] via `LICENSE` @ index-tts/index-tts — MAU/revenue caps; no improving other AI models)
 - **Repo**: `github.com/index-tts/index-tts` [NEEDS VERIFICATION 2026-05-13]
 - **Architecture**: autoregressive transformer + neural audio codec (GPT-style next-token prediction over codec tokens)
 - **Size**: ~1.7B parameters [NEEDS VERIFICATION 2026-05-13]

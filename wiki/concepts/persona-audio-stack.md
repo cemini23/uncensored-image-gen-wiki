@@ -90,6 +90,7 @@ related:
   - sources/arxiv-2607-17615-re-sonance-dysarthric-aac.md
   - sources/arxiv-2607-17900-harness-tts.md
   - sources/arxiv-2607-19859-stellartts.md
+  - sources/arxiv-2607-21042-faster-indextts-2.md
   - sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md
   - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
   - sources/persona-ops-stack-2026.md
@@ -101,9 +102,10 @@ related:
   - sweeps/2026-07-21-daily.md
   - sweeps/2026-07-22-daily.md
   - sweeps/2026-07-23-daily.md
+  - sweeps/2026-07-24-daily.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-07-23
+updated: 2026-07-24
 ---
 
 ## Relations

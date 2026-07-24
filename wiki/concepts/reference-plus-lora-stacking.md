@@ -36,11 +36,13 @@ related:
   - sources/arxiv-2606-20971-unity-attention-flow-conditioning.md
   - sources/arxiv-2607-18217-homie-video-personalization.md
   - sources/arxiv-2607-20247-vera-identity-faithful-s2v.md
+  - sources/arxiv-2607-21434-adaptive-identity-anchoring.md
   - sources/synthetic-character-consistency-survey.md
   - sweeps/2026-07-23-daily.md
+  - sweeps/2026-07-24-daily.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-07-23
+updated: 2026-07-24
 ---
 
 ## Relations

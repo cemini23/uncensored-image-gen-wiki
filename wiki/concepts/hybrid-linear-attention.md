@@ -4,19 +4,22 @@ type: concept
 tags: [concept, linear-attention, long-context, efficient-inference, architecture]
 keywords: [hybrid linear attention, Gated DeltaNet, GDN, softmax attention, linear attention, long-context modeling, recurrent context aggregation, exact long-range recall, minute-scale context, quadratic attention]
 related:
-  - sources/sana-wm-minute-scale-world-model.md
+  - concepts/multimodal-diffusion-mamba-efficient-t2v.md
+  - concepts/physical-ai-native-world-model-stacks.md
+  - concepts/world-models-video-generation.md
+  - entities/models/kairos.md
+  - entities/models/m4v.md
+  - entities/models/sana-video-2.md
   - entities/models/sana-wm.md
   - entities/models/sana.md
-  - concepts/world-models-video-generation.md
-  - sources/arxiv-2606-16533-kairos-native-world-model-stack.md
-  - concepts/physical-ai-native-world-model-stacks.md
-  - entities/models/kairos.md
-  - concepts/multimodal-diffusion-mamba-efficient-t2v.md
-  - entities/models/m4v.md
   - sources/arxiv-2506-10915-m4v-multimodal-mamba-t2v.md
+  - sources/arxiv-2606-16533-kairos-native-world-model-stack.md
+  - sources/arxiv-2607-21553-sana-video-2-0.md
+  - sources/sana-wm-minute-scale-world-model.md
+  - sweeps/2026-07-24-daily.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-07-14
+updated: 2026-07-24
 ---
 
 ## Relations

@@ -26,12 +26,14 @@ related:
   - sources/arxiv-2607-17615-re-sonance-dysarthric-aac.md
   - sources/arxiv-2607-17900-harness-tts.md
   - sources/arxiv-2607-19859-stellartts.md
+  - sources/arxiv-2607-21042-faster-indextts-2.md
   - sources/persona-ops-stack-2026.md
   - sweeps/2026-07-13-daily.md
   - sweeps/2026-07-23-daily.md
+  - sweeps/2026-07-24-daily.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-07-23
+updated: 2026-07-24
 ---
 
 ## Relations

@@ -100,6 +100,8 @@ related:
   - sources/arxiv-2607-19344-appearance-pointers.md
   - sources/arxiv-2607-20174-streamhoi.md
   - sources/arxiv-2607-20247-vera-identity-faithful-s2v.md
+  - sources/arxiv-2607-21434-adaptive-identity-anchoring.md
+  - sources/arxiv-2607-21580-graphvid.md
   - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
   - sources/arxiv-privacy-cross-image-anti-personalization-2504-12747.md
   - sources/headsup-3d-gaussian-head.md
@@ -113,13 +115,14 @@ related:
   - sweeps/2026-07-21-daily.md
   - sweeps/2026-07-22-daily.md
   - sweeps/2026-07-23-daily.md
+  - sweeps/2026-07-24-daily.md
 title: Persona consistency methods (umbrella)
 type: concept
 tags: [persona-consistency, methods, taxonomy, identity-injection]
 keywords: [character LoRA, identity adapter, Character DNA, multi-angle dataset, two-pass inpaint, reference plus LoRA stack, face anchor seed]
 maturity: validated
 created: 2026-05-06
-updated: 2026-07-23
+updated: 2026-07-24
 ---
 
 

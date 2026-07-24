@@ -146,6 +146,9 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [HOMIE (HKUST Wan2.1 HOCVP)](entities/models/homie.md) — human-object video personalization; Apache; CONDITIONAL-GO — `video-generation, personalization, wan`
 - [FilmWorld (Wan Team novel-to-film)](entities/models/filmworld.md) — agentic cinematic world modeling; WATCH — `video-generation, agentic, long-form`
 - [Appearance Pointers (Brown/Adobe)](entities/models/appearance-pointers.md) — multimodal DiT region control; WATCH — `dit, region-control, editing`
+- [Progressive Seed Pruning (Caltech)](entities/models/progressive-seed-pruning.md) — inference-time seed prune; MIT; CONDITIONAL-GO — `diffusion, inference-scaling`
+- [SANA-Video 2.0 (NVIDIA hybrid)](entities/models/sana-video-2.md) — linear+softmax AttnRes; WATCH — `video-generation, linear-attention, nvidia`
+- [WorldWeaver (UCLA/Adobe)](entities/models/worldweaver.md) — multi-agent world-state registers; WATCH — `world-model, multi-agent, streaming`
 - [Self Gradient Forcing (JD long AR video)](entities/models/self-gradient-forcing.md) — native long extrapolation; Apache; CONDITIONAL-GO — `video-generation, autoregressive, long-form`
 - [Vera (Kuaishou identity S2V)](entities/models/vera-identity-s2v.md) — IFMS+RALA human S2V; WATCH — `video-generation, identity, persona`
 - [CFT relighting (Meitu/BIT)](entities/models/cft-relighting.md) — portrait relighting; WATCH — `relighting, image-editing`
@@ -185,6 +188,14 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Nonlocal spectral math (arXiv:2607.20288)](sources/arxiv-2607-20288-nonlocal-spectral-math.md) — math peripheral SKIP — `paper, math, peripheral`
 - [PyroDash SLM-LLM inference (arXiv:2607.20327)](sources/arxiv-2607-20327-pyrodash-slm-llm.md) — LLM peripheral SKIP — `paper, llm, peripheral`
 - [Self Gradient Forcing (arXiv:2607.20368)](sources/arxiv-2607-20368-self-gradient-forcing.md) — Apache code; CONDITIONAL-GO — `paper, video-generation, long-form`
+- [Faster IndexTTS-2 streaming (arXiv:2607.21042)](sources/arxiv-2607-21042-faster-indextts-2.md) — NVIDIA Triton/TRT deploy; CONDITIONAL-GO — `paper, tts, streaming`
+- [Metasurfaces silicon photonics PhD (arXiv:2607.21091)](sources/arxiv-2607-21091-metasurfaces-silicon-photonics.md) — photonics peripheral SKIP — `paper, photonics, peripheral`
+- [VIPINN double screening (arXiv:2607.21352)](sources/arxiv-2607-21352-double-screening-pinn.md) — math peripheral SKIP — `paper, math, peripheral`
+- [Adaptive Identity Anchoring (arXiv:2607.21434)](sources/arxiv-2607-21434-adaptive-identity-anchoring.md) — closed-loop face-swap keyframes; WATCH — `paper, identity, face-swap`
+- [SANA-Video 2.0 (arXiv:2607.21553)](sources/arxiv-2607-21553-sana-video-2-0.md) — hybrid linear AttnRes; WATCH — `paper, video-generation, nvidia`
+- [GraphVid graph-controllable video (arXiv:2607.21580)](sources/arxiv-2607-21580-graphvid.md) — interactive graph control; WATCH — `paper, controllable, video`
+- [Progressive Seed Pruning (arXiv:2607.21591)](sources/arxiv-2607-21591-progressive-seed-pruning.md) — MIT code; CONDITIONAL-GO — `paper, diffusion, inference-scaling`
+- [WorldWeaver multi-agent AR (arXiv:2607.21594)](sources/arxiv-2607-21594-worldweaver.md) — world-state registers; WATCH — `paper, world-model, multi-agent`
 - [LKValues Sri Lankan LLM values (arXiv:2607.20410)](sources/arxiv-2607-20410-lkvalues.md) — LLM peripheral SKIP — `paper, llm, peripheral`
 
 

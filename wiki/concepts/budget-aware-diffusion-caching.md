@@ -19,6 +19,7 @@ related:
   - entities/inference/chitu-diffusion.md
   - entities/models/flux-1-dev.md
   - entities/models/hunyuanvideo-1-5.md
+  - entities/models/progressive-seed-pruning.md
   - entities/models/wan-2-2.md
   - entities/uis/comfyui.md
   - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
@@ -33,12 +34,14 @@ related:
   - sources/arxiv-2607-15846-dstar-dit-accelerator.md
   - sources/arxiv-2607-19139-dit-template-token-registers.md
   - sources/arxiv-2607-20048-importance-aware-obs-pruning.md
+  - sources/arxiv-2607-21591-progressive-seed-pruning.md
   - sources/video-generation-survey-2026.md
   - sweeps/2026-07-20-daily.md
   - sweeps/2026-07-23-daily.md
+  - sweeps/2026-07-24-daily.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-07-23
+updated: 2026-07-24
 ---
 
 ## Relations

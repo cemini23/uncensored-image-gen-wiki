@@ -4,16 +4,18 @@ type: entity
 tags: [model, video-generation, identity, persona, watch]
 keywords: [Vera, IFMS, RALA, S2V, multi-person, Kuaishou]
 related:
-  - sources/arxiv-2607-20247-vera-identity-faithful-s2v.md
   - concepts/persona-consistency-methods.md
   - concepts/video-identity-inheritance.md
   - entities/models/homie.md
-  - entities/models/wan-2-2.md
   - entities/models/vera.md
+  - entities/models/wan-2-2.md
+  - sources/arxiv-2607-20247-vera-identity-faithful-s2v.md
+  - sources/arxiv-2607-21434-adaptive-identity-anchoring.md
   - sweeps/2026-07-23-daily.md
+  - sweeps/2026-07-24-daily.md
 maturity: draft
 created: 2026-07-23
-updated: 2026-07-23
+updated: 2026-07-24
 ---
 
 ## Relations
