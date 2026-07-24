@@ -6,6 +6,12 @@ Newest entries on top.
 
 ---
 
+## [2026-07-24] Image-gen ingest adopts are for TipDrop/David — not this laptop
+
+Claudio does not run the gen stack locally. Full ingest still does Phase-0 + David briefs + TipDrop mirror, but **skip local `~/Desktop/projects/` clones** (even when &lt;500 MB). Put install paths in the adoption brief for David's host / RunPod only. Removed prior research clones (PSP, Faster IndexTTS, SGF, HOMIE, ChituDiffusion, X-Translator, WorldWeaver) from this machine.
+
+---
+
 ## [2026-05-06] LIGHT → HEAVY upgrade was mostly drop-in once the OSINT/3D-printing template existed
 
 Upgrading this workspace from LIGHT mode (notes/ + briefs/ only) to HEAVY mode (wiki/ + scripts/ + prompts/ + ROADMAP/LESSONS/hot) required:

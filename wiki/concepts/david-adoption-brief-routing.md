@@ -12,7 +12,7 @@ related:
   - @osint-wiki/concepts/active-project-research-routing.md
 maturity: core
 created: 2026-07-12
-updated: 2026-07-13
+updated: 2026-07-24
 ---
 
 ## Relations
@@ -26,6 +26,8 @@ updated: 2026-07-13
 
 Operator decision (2026-07-12): David persona **adoption briefs** from image-gen ingests should mirror into the TipDrop shared kit, alongside OSINT tool-eval **David/TipDrop** briefs. Local `briefs/` remains canonical; `tipdrop-workspace-kit/briefs/` is the shared handoff copy.
 
+**Operator clarification (2026-07-24):** Claudio's laptop does **not** run the image/voice gen stack. Full ingest Phase-0 still audits license + size, but **do not clone repos onto this machine**. CONDITIONAL-GO install paths belong in the TipDrop/David brief only (David's host / CUDA RunPod). Weights and code clones stay off the wiki laptop unless the operator explicitly asks.
+
 ## Narrative
 
 ### What routes
@@ -35,12 +37,19 @@ Briefs with a **David install path** for the uncensored persona stack:
 - ComfyUI custom nodes (Angelo, MCP, HOMA watch)
 - FLUX/Wan LoRA and pose adapters (MatchingPose, DCAL)
 - Audio stack decisions (Fish-Speech vs Audex/Qwen3-TTS)
+- Inference accelerators / streaming TTS / long-video research sidecars (PSP, Faster IndexTTS, SGF, etc.)
 
 ### What does not route
 
 - Operator-only phase-0 audits with no adoption verdict
 - Wiki-only reference rows with no David action block
 - Briefs destined for `cemini-prod` (xsp/pm lanes — OSINT only)
+
+### What does not land on this laptop
+
+- `git clone` of CONDITIONAL-GO repos under `~/Desktop/projects/` (or anywhere on Claudio's machine)
+- Weight / checkpoint downloads for Wan, IndexTTS, SANA, FLUX, etc.
+- Local ComfyUI / Fish-Speech / LatentSync runtime setup
 
 ### Routing rule
 
