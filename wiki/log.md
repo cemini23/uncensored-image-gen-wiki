@@ -1,3 +1,28 @@
+## [2026-07-25] ingest | TFA help-seeking + LLM sycophancy peripherals (SKIP)
+
+Daily sweep full ingest for 2026-07-25 (2 PDFs). Both false positives for generative-media stack.
+
+### Created (peripheral SKIP)
+
+- `wiki/sources/arxiv-2607-21549-tfa-online-support.md` — HCI / TFA victim support
+- `wiki/sources/arxiv-2607-21558-beyond-sycophancy-llm-moral.md` — LLM moral alignment
+
+### Updated
+
+- `wiki/sweeps/2026-07-25-daily.md`, `wiki/index.md`
+
+### Brief / routing
+
+- None — no CONDITIONAL-GO / TipDrop install path
+- No poker / prod SCP
+- No local clones (operator rule: TipDrop/David only)
+
+### Archive
+
+- 2 PDFs → `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/`
+
+---
+
 ## [2026-07-24] ingest | Faster IndexTTS-2 + Progressive Seed Pruning + SANA-Video 2.0 watches
 
 Daily sweep full ingest for 2026-07-24 (8 PDFs).

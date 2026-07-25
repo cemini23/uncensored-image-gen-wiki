@@ -196,6 +196,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [GraphVid graph-controllable video (arXiv:2607.21580)](sources/arxiv-2607-21580-graphvid.md) — interactive graph control; WATCH — `paper, controllable, video`
 - [Progressive Seed Pruning (arXiv:2607.21591)](sources/arxiv-2607-21591-progressive-seed-pruning.md) — MIT code; CONDITIONAL-GO — `paper, diffusion, inference-scaling`
 - [WorldWeaver multi-agent AR (arXiv:2607.21594)](sources/arxiv-2607-21594-worldweaver.md) — world-state registers; WATCH — `paper, world-model, multi-agent`
+- [TFA online support HCI (arXiv:2607.21549)](sources/arxiv-2607-21549-tfa-online-support.md) — help-seeking study; peripheral SKIP — `paper, hci, safety, peripheral`
+- [Beyond Sycophancy LLM moral (arXiv:2607.21558)](sources/arxiv-2607-21558-beyond-sycophancy-llm-moral.md) — LLM alignment peripheral SKIP — `paper, llm, peripheral`
 - [LKValues Sri Lankan LLM values (arXiv:2607.20410)](sources/arxiv-2607-20410-lkvalues.md) — LLM peripheral SKIP — `paper, llm, peripheral`
 
 
