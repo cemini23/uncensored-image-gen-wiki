@@ -17,9 +17,11 @@ related:
   - concepts/unified-audio-text-llm-no-text-regression.md
   - sweeps/2026-07-12-daily.md
   - sweeps/2026-07-13-daily.md
+  - entities/voice-models/qwen-audio-3-tts.md
+  - sources/arxiv-2607-23938-qwen-audio-3-0-tts.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-07-13
+updated: 2026-07-28
 ---
 
 ## Relations
@@ -86,3 +88,7 @@ NVIDIA Audex uses **Qwen3-TTS-12Hz-1.7B-Base** for synthetic voice conversion in
 ## Dead Ends
 
 - **Qwen3-TTS for single-language English persona where emotional range matters**: pick Fish-Speech S2 Pro first — Qwen3-TTS's multilingual breadth is wasted unless Apache-2.0 purity or low-latency streaming is the binding constraint.
+
+### Qwen-Audio-3.0-TTS (hosted, 2026-07-28)
+
+Alibaba Tongyi shipped **Qwen-Audio-3.0-TTS** Flash/Plus as DashScope APIs (#1 Artificial Analysis claims). **No open weights** — not a drop-in replacement for this page's Apache Qwen3-TTS self-host line. See @entities/voice-models/qwen-audio-3-tts.md.

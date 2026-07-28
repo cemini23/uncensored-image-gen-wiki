@@ -43,13 +43,17 @@ related:
   - sources/arxiv-2607-13527-vgif-score-video-instruction-eval.md
   - entities/benchmarks/vgif-score.md
   - sweeps/2026-07-16-daily.md
+  - sources/arxiv-2607-24359-taomate.md
+  - entities/models/taomate.md
+  - sources/arxiv-2607-24241-filmbench.md
+  - entities/benchmarks/filmbench.md
 title: LTX-2 (Lightricks)
 type: entity
 tags: [model, video, asymmetric-av, audio-visual, ltx, lightricks, joint-foundation]
 keywords: [ltx-2, ltx-video, lightricks, asymmetric-av, audio-visual, 19b, 14b-visual, 5b-audio, bidirectional-cross-attention, 4k, 50fps, foley, modality-specific-vae, ltx-2-community-license]
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-16
+updated: 2026-07-28
 ---
 
 ## Relations

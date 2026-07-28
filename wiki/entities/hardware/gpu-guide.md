@@ -37,9 +37,11 @@ related:
   - concepts/topology-aware-dit-parallel-inference.md
   - sources/arxiv-2607-05711-fourtune-4bit-diffusion-post-training.md
   - concepts/fourtune-w4a4g4-diffusion-lora-training.md
+  - concepts/mxfp4-attention-video.md
+  - sources/arxiv-2607-24377-mxattention.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-07-10
+updated: 2026-07-28
 ---
 
 ## Relations

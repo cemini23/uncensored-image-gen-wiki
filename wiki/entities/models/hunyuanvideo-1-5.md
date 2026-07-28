@@ -45,13 +45,15 @@ related:
   - sources/arxiv-2506-08797-hunyuanvideo-homa.md
   - concepts/hunyuanvideo-homa-weak-hoi-video.md
   - sweeps/2026-07-11-daily.md
+  - sources/arxiv-2607-24377-mxattention.md
+  - concepts/mxfp4-attention-video.md
 title: HunyuanVideo 1.5 (Tencent)
 type: entity
 tags: [model, video, dit, hunyuanvideo, tencent, eastern-vanguard, completely-uncensored-after-lora]
 keywords: [hunyuanvideo, hunyuan-1-5, tencent, ssta, selective-sliding-tile-attention, 8.3b, 3d-causal-vae, fp8-gemm, step-distilled, nsfwsks, theyurilover, 480p, 720p, 1080p]
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-02
+updated: 2026-07-28
 ---
 
 **HOMA extension (Jul 2026):** Tencent HunyuanVideo-HOMA adds weak human–object interaction on the HunyuanVideo backbone — @sources/arxiv-2506-08797-hunyuanvideo-homa.md @concepts/hunyuanvideo-homa-weak-hoi-video.md. WATCH for open weights.

@@ -103,9 +103,14 @@ related:
   - sweeps/2026-07-22-daily.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
+  - entities/voice-models/qwen-audio-3-tts.md
+  - sources/arxiv-2607-23938-qwen-audio-3-0-tts.md
+  - sources/arxiv-2607-23027-singlish-tts.md
+  - entities/models/taomate.md
+  - sources/arxiv-2607-24359-taomate.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-07-24
+updated: 2026-07-28
 ---
 
 ## Relations

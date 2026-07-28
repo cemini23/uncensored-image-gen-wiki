@@ -1,5 +1,29 @@
 ## [2026-07-25] ingest | TFA help-seeking + LLM sycophancy peripherals (SKIP)
 
+## [2026-07-28] ingest | FilmBench/FilmOps + TaoMate + Qwen-Audio-3.0 + MXAttention (+ 3 SKIP)
+
+Full inbox ingest of 8 NEW arXiv PDFs (preingest clean).
+
+### GO / CONDITIONAL / WATCH
+- **NEW** `@sources/arxiv-2607-24241-filmbench.md` + `@entities/benchmarks/filmbench.md` + `@entities/benchmarks/filmops.md` — FilmBench cinematic bench; FilmOps Apache-2.0; **CONDITIONAL-GO code** cloned `~/Desktop/projects/FilmOps` (~17 MB); weights ~62 GB deferred to David CUDA
+- **NEW** `@sources/arxiv-2607-24359-taomate.md` + `@entities/models/taomate.md` — Apache long-form AV digital human on LTX-2.3; **CONDITIONAL-GO CUDA only** (72 GB); no laptop clone
+- **NEW** `@sources/arxiv-2607-23938-qwen-audio-3-0-tts.md` + `@entities/voice-models/qwen-audio-3-tts.md` — hosted Flash/Plus DashScope; **SKIP local** (no weights); updated Qwen3-TTS sibling note
+- **NEW** `@sources/arxiv-2607-24377-mxattention.md` + `@concepts/mxfp4-attention-video.md` — MXFP4 attention UOS+PNQ; Ascend MindIE-SD → **SKIP CUDA today / WATCH**
+- **NEW** `@sources/arxiv-2607-23027-singlish-tts.md` — Chatterbox/CosyVoice3 accent method; **SKIP install**; notes on chatterbox + cosyvoice2
+
+### SKIP peripherals
+- `@sources/arxiv-2607-24378-bayesian-feature.md` — EEG stats
+- `@sources/arxiv-2607-24422-ijcb-afmfr.md` — biometric FR competition
+- `@sources/arxiv-2607-24468-tumor-gompertz.md` — medical math
+
+### Briefs / routing
+- `briefs/2026-07-28_filmops-taomate-qwen-audio-adoption.md` → TipDrop kit via `route_david_adoption_brief.py`
+- No poker / cemini-prod briefs
+
+### Local adopt (<500 MB)
+- FilmOps code-only only. No gen weight clones (ops rule).
+
+
 Daily sweep full ingest for 2026-07-25 (2 PDFs). Both false positives for generative-media stack.
 
 ### Created (peripheral SKIP)

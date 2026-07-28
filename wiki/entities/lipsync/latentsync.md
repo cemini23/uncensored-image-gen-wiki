@@ -31,9 +31,11 @@ related:
   - concepts/generative-ai-era-deepfake-landscape.md
   - sources/arxiv-2506-08797-hunyuanvideo-homa.md
   - concepts/hunyuanvideo-homa-weak-hoi-video.md
+  - entities/models/taomate.md
+  - sources/arxiv-2607-24359-taomate.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-30
+updated: 2026-07-28
 ---
 
 ## Relations

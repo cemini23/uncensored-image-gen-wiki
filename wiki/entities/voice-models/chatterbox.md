@@ -11,9 +11,10 @@ related:
   - entities/voice-models/dia.md
   - entities/voice-models/elevenlabs.md
   - concepts/model-selection-workflow.md
+  - sources/arxiv-2607-23027-singlish-tts.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-07-28
 ---
 
 ## Relations
@@ -77,3 +78,7 @@ Page prompted by the W4 Tier 2 voice/audio backfill (2026-05-13). Named in @conc
 
 - **Chatterbox where audio-anti-detect on platforms is critical**: PerTH watermark is a known-signal; if platforms tune for it, output becomes detectable as AI-generated even when other signals are clean. Use unwatermarked open TTS (CosyVoice2, F5-TTS) for that posture.
 - **Chatterbox for maximum emotional range**: Fish-Speech inline-emotion control is still ahead. Use Chatterbox for license-clean baseline + Fish-Speech for high-impact emotion-heavy posts.
+
+### Accent transfer caveat (2026-07-28)
+
+arXiv:2607.23027 shows off-the-shelf Chatterbox preserves timbre from Singlish prompts but flattens accent; targeted fine-tuning on IMDA NSC recovers accent similarity. [Source: @sources/arxiv-2607-23027-singlish-tts.md]

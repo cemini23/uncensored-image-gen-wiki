@@ -11,13 +11,15 @@ related:
   - entities/models/wan-2-2.md
   - concepts/lightweight-video-history-embeddings.md
   - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
+  - sources/arxiv-2607-24359-taomate.md
+  - entities/models/taomate.md
 title: Causal clip attention for long video generation
 type: concept
 tags: [concept, video-generation, long-horizon, autoregressive, attention, kv-cache]
 keywords: [causal clip attention, hybrid attention, error accumulation, attribute drift, T-RFlow, video extension, KV cache]
 maturity: draft
 created: 2026-06-24
-updated: 2026-06-25
+updated: 2026-07-28
 ---
 
 

@@ -11,9 +11,10 @@ related:
   - entities/benchmarks/geot2v-bench.md
   - sources/video-generation-survey-2026.md
   - sweeps/2026-07-16-daily.md
+  - entities/benchmarks/filmbench.md
 maturity: draft
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-07-28
 ---
 
 ## Relations

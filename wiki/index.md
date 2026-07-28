@@ -199,6 +199,14 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [TFA online support HCI (arXiv:2607.21549)](sources/arxiv-2607-21549-tfa-online-support.md) — help-seeking study; peripheral SKIP — `paper, hci, safety, peripheral`
 - [Beyond Sycophancy LLM moral (arXiv:2607.21558)](sources/arxiv-2607-21558-beyond-sycophancy-llm-moral.md) — LLM alignment peripheral SKIP — `paper, llm, peripheral`
 - [LKValues Sri Lankan LLM values (arXiv:2607.20410)](sources/arxiv-2607-20410-lkvalues.md) — LLM peripheral SKIP — `paper, llm, peripheral`
+- [Singlish TTS accent fine-tune (arXiv:2607.23027)](sources/arxiv-2607-23027-singlish-tts.md) — Chatterbox/CosyVoice3 Singlish; SKIP install — `paper, tts, accent, peripheral`
+- [Qwen-Audio-3.0-TTS hosted (arXiv:2607.23938)](sources/arxiv-2607-23938-qwen-audio-3-0-tts.md) — Flash/Plus DashScope API; no weights — `paper, tts, hosted-api`
+- [FilmBench cinematic video bench (arXiv:2607.24241)](sources/arxiv-2607-24241-filmbench.md) — FilmOps Apache eval; CONDITIONAL-GO code — `paper, benchmark, cinematic`
+- [TaoMate long-form AV digital human (arXiv:2607.24359)](sources/arxiv-2607-24359-taomate.md) — LTX-2.3 anchor memory; CONDITIONAL-GO CUDA — `paper, digital-human, lipsync`
+- [MXAttention MXFP4 Wan/Hunyuan (arXiv:2607.24377)](sources/arxiv-2607-24377-mxattention.md) — Ascend MindIE-SD; SKIP CUDA today — `paper, quantization, mxfp4`
+- [Bayesian spatio-temporal EEG (arXiv:2607.24378)](sources/arxiv-2607-24378-bayesian-feature.md) — stats peripheral SKIP — `paper, statistics, peripheral`
+- [IJCB-AFMFR synthetic FR (arXiv:2607.24422)](sources/arxiv-2607-24422-ijcb-afmfr.md) — biometrics peripheral SKIP — `paper, biometrics, peripheral`
+- [Tumor Gompertz optimal control (arXiv:2607.24468)](sources/arxiv-2607-24468-tumor-gompertz.md) — medical math SKIP — `paper, math, peripheral`
 
 
 
@@ -247,6 +255,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [HunyuanVideo 1.5 (Tencent)](entities/models/hunyuanvideo-1-5.md) — 8.3B DiT + 3D causal VAE; Selective and Sliding Tile Attention (SSTA) ~2× over FlashAttention-3 for 10s 720p; native 1080p; FP8 GEMM; step-distilled 480p in 8-12 steps; Tencent-shipped LoRA tuning + community NSFW LoRAs (`nsfwsks` trigger) — `model, video, dit, hunyuanvideo, tencent, eastern-vanguard, completely-uncensored-after-lora`
 - [HunyuanImage 3.0 (Tencent)](entities/models/hunyuanimage-3-0.md) — 80B MoE AR native multimodal T2I; 13B active; ≥3×80 GB — `model, t2i, multimodal, moe, tencent, eastern-vanguard` ⚠ stub
 - [LTX-2 (Lightricks)](entities/models/ltx-2.md) — 19B asymmetric joint A/V foundation (14B visual + 5B audio with bidirectional cross-attention); native 4K @ 50fps with synchronized lipsync + foley single-pass; modality-specific VAEs at 1:192; LTX-2 Community License (free commercial under $10M revenue) — `model, video, asymmetric-av, audio-visual, ltx, lightricks, joint-foundation`
+- [TaoMate (Alibaba Taobao long-form AV digital human)](entities/models/taomate.md) — anchor-guided memory on LTX-2.3 22B; Apache code; 72 GB GPU CONDITIONAL-GO — `model, digital-human, audio-video, lipsync, apache-2-0`
 - [Mochi 1 (Genmo)](entities/models/mochi-1.md) — 10B AsymmDiT (75% visual / 25% text resource allocation, single T5-XXL encoder); 30fps fluid motion; Apache 2.0; aggressive automatic NSFW filter (community bypasses by stripping the safety classifier); 4×80GB native → 24GB FP8 ComfyUI wrappers — `model, video, asymmdit, mochi, genmo, apache-2-0`
 - [CogVideoX 1.5 / 2.0 (THUDM)](entities/models/cogvideox-1-5.md) — 5B DiT + 3D VAE integrating text/time/space (no traditional cross-attention); 768p / 10s outputs; torchao INT8 compresses 24GB→7GB (cheapest local entry); Apache 2.0; CogVideoX 2.0 adds native 1080p + CogSound — `model, video, dit, cogvideox, thudm, zhipu, apache-2-0, lowest-vram`
 - [Open-Sora (Open-Source Video Generation)](entities/models/open-sora.md) — open-weight DiT video model; Apache 2.0; ~$0.48/min production cost on A100 cloud GPUs; recommended for 90% margin DTC video monetization — `model, video, open-source, dit, synthetic-media, cost-efficient`
@@ -360,6 +369,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [IndexTTS-2 (Bilibili Index zero-shot TTS with emotion + duration control)](entities/voice-models/indextts-2.md) — ~1.7B, zero-shot voice clone + explicit emotion + duration control; ICASSP-2025 lineage; positioned as the "control surface" complement to Fish-Speech (highest emotion) and CosyVoice2 (lowest latency) — `voice-cloning, tts, indextts, bilibili, zero-shot, emotion-control, duration-control, eastern-vanguard`
 - [X-Translator (SJTU S2ST)](entities/voice-models/x-translator.md) — real-time speaker-aware speech-to-speech; CONDITIONAL-GO demo — `voice, translation, streaming`
 - [Qwen3-TTS (Alibaba Qwen team multilingual TTS)](entities/voice-models/qwen3-tts.md) — Alibaba Qwen-team multilingual zero-shot voice clone; Apache-2.0-style weights expected (verify per release); positioned as Alibaba/CosyVoice2's sibling line for production multilingual persona DMs — `voice-cloning, tts, qwen, alibaba, multilingual, zero-shot, eastern-vanguard`
+- [Qwen-Audio-3.0-TTS (hosted Flash/Plus)](entities/voice-models/qwen-audio-3-tts.md) — DashScope API-only; #1 AA claims; SKIP local NSFW path — `voice-cloning, tts, hosted-api, alibaba`
 - [Nemotron-Labs-Audex (NVIDIA unified audio-text LLM)](entities/voice-models/nemotron-audex.md) — unified TTS/ASR/TTA/speech-to-speech MoE; Phase-0 REFERENCE (NVIDIA noncommercial license) — `voice-cloning, tts, nvidia, audex, unified-llm, moe`
 - [speech-swift (Soniqo Apple Silicon speech toolkit)](entities/voice-models/speech-swift.md) — MLX/CoreML ASR+TTS; CosyVoice/Qwen3-TTS/Fish S2; Phase-0 WATCH — `voice-cloning, tts, apple-silicon, mlx, apache-2.0`
 - [MoWorld (Moxin Flash World Model)](entities/models/moworld.md) — real-time 50 FPS world model; open weights pending — `world-model, video, flash, moxin`
@@ -557,11 +567,14 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Latent spatial memory for video world models](concepts/latent-spatial-memory-video-world-models.md) — 3D latent cache replacing RGB point-cloud memory — `world-model, spatial-memory, 3d-consistency`
 - [Holistic visual tokenizer unified multimodal models](concepts/holistic-visual-tokenizer-umm.md) — single ViT tokenizer for image+video UMMs; MentisOculi coupling caveat (K114) — `unified-multimodal, tokenizer, understanding-generation`
 - [Machine mental imagery — visual reasoning spectrum](concepts/machine-mental-imagery.md) — MentisOculi synthesis; generation vs interpretation failure modes — `visual-reasoning, umm, mental-imagery, k114`
+- [MXFP4 attention quantization for video DiTs](concepts/mxfp4-attention-video.md) — MXAttention UOS+PNQ; Ascend today, CUDA watch — `quantization, mxfp4, wan, hunyuan`
 
 ### Benchmarks
 
 - [MentisOculi](entities/benchmarks/mentisoculi.md) — procedural 5-task visual mental-imagery benchmark (Form Board, Rush Hour, …) — `benchmark, visual-reasoning, evaluation, umm`
 - [GeoT2V-Bench](entities/benchmarks/geot2v-bench.md) — reconstruction-profile 3D consistency diagnostic for camera-prompted T2V — `benchmark, 3d-consistency, evaluation, wan, ltx`
+- [FilmBench](entities/benchmarks/filmbench.md) — film-academy cinematic T2V/R2V prompts + taxonomy — `benchmark, cinematic, evaluation`
+- [FilmOps](entities/benchmarks/filmops.md) — Apache cinematography operator suite; code cloned locally — `benchmark, evaluation, apache-2-0`
 
 ### Meta (wiki operations)
 

@@ -23,9 +23,12 @@ related:
   - sources/arxiv-2607-16107-audio-visual-flamingo.md
   - entities/models/av-flamingo.md
   - sweeps/2026-07-20-daily.md
+  - entities/benchmarks/filmbench.md
+  - entities/benchmarks/filmops.md
+  - sources/arxiv-2607-24241-filmbench.md
 maturity: draft
 created: 2026-06-08
-updated: 2026-07-20
+updated: 2026-07-28
 ---
 
 ## Relations

@@ -180,13 +180,19 @@ related:
   - sweeps/2026-07-22-daily.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
+  - sources/arxiv-2607-24377-mxattention.md
+  - concepts/mxfp4-attention-video.md
+  - sources/arxiv-2607-24241-filmbench.md
+  - entities/models/taomate.md
+  - entities/benchmarks/filmbench.md
+  - entities/benchmarks/filmops.md
 title: Wan 2.2 (Alibaba)
 type: entity
 tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]
 keywords: [wan2.2, wan-2-2, alibaba, mixture-of-experts, dual-expert, snr-routing, 27b, 14b, 5b, ti2v, apache-2.0, abliterated-text-encoder, mq-lab, blink, theyurilover]
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-24
+updated: 2026-07-28
 ---
 
 

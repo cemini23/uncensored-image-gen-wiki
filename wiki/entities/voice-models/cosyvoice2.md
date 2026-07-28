@@ -31,9 +31,12 @@ related:
   - sweeps/2026-07-13-daily.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
+  - sources/arxiv-2607-23027-singlish-tts.md
+  - entities/voice-models/qwen-audio-3-tts.md
+  - sources/arxiv-2607-23938-qwen-audio-3-0-tts.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-07-24
+updated: 2026-07-28
 ---
 
 ## Relations
@@ -112,3 +115,7 @@ huggingface-cli download FunAudioLLM/CosyVoice2-0.5B --local-dir pretrained_mode
 ## Dead Ends
 
 - **CosyVoice 1.0 / 300M legacy variants**: superseded by 2.0 (lower CER) and 3.0 (recommended upstream). Use Fun-CosyVoice3-0.5B for new builds.
+
+### CosyVoice 3 Singlish fine-tune (2026-07-28)
+
+Same Singlish study fine-tunes CosyVoice 3 alongside Chatterbox; accent gains hold on held-out speakers. Method reference only — no weights ingested. [Source: @sources/arxiv-2607-23027-singlish-tts.md]
