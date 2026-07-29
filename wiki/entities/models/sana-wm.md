@@ -35,9 +35,11 @@ related:
   - sources/sana-wm-minute-scale-world-model.md
   - sweeps/2026-07-13-daily.md
   - sweeps/2026-07-24-daily.md
+  - entities/models/wonder.md
+  - sources/arxiv-2607-26037-wonder.md
 maturity: validated
 created: 2026-05-16
-updated: 2026-07-24
+updated: 2026-07-29
 ---
 
 ## Relations

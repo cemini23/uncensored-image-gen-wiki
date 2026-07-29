@@ -89,9 +89,13 @@ related:
   - sweeps/2026-07-22-daily.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
+  - entities/models/wonder.md
+  - entities/models/garfield.md
+  - sources/arxiv-2607-26037-wonder.md
+  - sources/arxiv-2607-25984-schroedingers-cat.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-07-24
+updated: 2026-07-29
 ---
 
 ## Relations

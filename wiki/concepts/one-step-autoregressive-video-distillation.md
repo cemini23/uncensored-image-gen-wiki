@@ -24,9 +24,11 @@ related:
   - concepts/streaming-video-generation-serving.md
   - concepts/score-gradient-matching-video-distillation.md
   - sources/arxiv-2605-30116-sgmd-score-gradient-matching-distillation.md
+  - concepts/parallel-decoding-distillation.md
+  - sources/arxiv-2607-26004-pdd.md
 maturity: draft
 created: 2026-06-06
-updated: 2026-06-27
+updated: 2026-07-29
 ---
 
 ## Relations

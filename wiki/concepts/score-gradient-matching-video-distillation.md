@@ -9,9 +9,11 @@ related:
   - concepts/budget-aware-diffusion-caching.md
   - entities/models/wan-2-2.md
   - sources/video-generation-survey-2026.md
+  - concepts/parallel-decoding-distillation.md
+  - sources/arxiv-2607-26004-pdd.md
 maturity: draft
 created: 2026-06-27
-updated: 2026-06-27
+updated: 2026-07-29
 ---
 
 ## Relations

@@ -62,9 +62,11 @@ related:
   - sweeps/2026-07-24-daily.md
   - entities/voice-models/qwen-audio-3-tts.md
   - sources/arxiv-2607-23938-qwen-audio-3-0-tts.md
+  - entities/voice-models/supertonic-embed.md
+  - sources/arxiv-2607-25351-voice-style-inverse-opt.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-28
+updated: 2026-07-29
 ---
 
 ## Relations

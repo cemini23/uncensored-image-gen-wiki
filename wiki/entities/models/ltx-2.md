@@ -47,13 +47,16 @@ related:
   - entities/models/taomate.md
   - sources/arxiv-2607-24241-filmbench.md
   - entities/benchmarks/filmbench.md
+  - sources/arxiv-2607-26004-pdd.md
+  - concepts/parallel-decoding-distillation.md
+  - entities/models/wonder.md
 title: LTX-2 (Lightricks)
 type: entity
 tags: [model, video, asymmetric-av, audio-visual, ltx, lightricks, joint-foundation]
 keywords: [ltx-2, ltx-video, lightricks, asymmetric-av, audio-visual, 19b, 14b-visual, 5b-audio, bidirectional-cross-attention, 4k, 50fps, foley, modality-specific-vae, ltx-2-community-license]
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-28
+updated: 2026-07-29
 ---
 
 ## Relations

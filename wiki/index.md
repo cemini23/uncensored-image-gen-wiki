@@ -207,6 +207,14 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Bayesian spatio-temporal EEG (arXiv:2607.24378)](sources/arxiv-2607-24378-bayesian-feature.md) — stats peripheral SKIP — `paper, statistics, peripheral`
 - [IJCB-AFMFR synthetic FR (arXiv:2607.24422)](sources/arxiv-2607-24422-ijcb-afmfr.md) — biometrics peripheral SKIP — `paper, biometrics, peripheral`
 - [Tumor Gompertz optimal control (arXiv:2607.24468)](sources/arxiv-2607-24468-tumor-gompertz.md) — medical math SKIP — `paper, math, peripheral`
+- [Voice style inverse opt (arXiv:2607.25351)](sources/arxiv-2607-25351-voice-style-inverse-opt.md) — SupertonicTTS style recovery; CONDITIONAL CUDA — `paper, tts, style-vector`
+- [Colloidal reciprocal theorem (arXiv:2607.25385)](sources/arxiv-2607-25385-colloidal-reciprocal.md) — physics peripheral SKIP — `paper, physics, peripheral`
+- [CSAM LoRA weight detect (arXiv:2607.25750)](sources/arxiv-2607-25750-csam-lora-weight-detect.md) — UK AISI u1 fingerprint; REFERENCE — `paper, safety, moderation`
+- [Clinical time-series LLM QA (arXiv:2607.25947)](sources/arxiv-2607-25947-clinical-timeseries-llm.md) — medical peripheral SKIP — `paper, medical, peripheral`
+- [Perovskite mobile ions (arXiv:2607.25951)](sources/arxiv-2607-25951-perovskite-ions.md) — materials peripheral SKIP — `paper, materials, peripheral`
+- [Schrödinger's Cat / GARFIELD (arXiv:2607.25984)](sources/arxiv-2607-25984-schroedingers-cat.md) — CompVis kinematics; non-commercial — `paper, world-model, motion`
+- [Parallel Decoding Distillation (arXiv:2607.26004)](sources/arxiv-2607-26004-pdd.md) — Wan/LTX/Qwen-Image 4–8 NFE; WATCH FastGen — `paper, distillation, nvidia`
+- [Wonder video world model (arXiv:2607.26037)](sources/arxiv-2607-26037-wonder.md) — Adobe interactive 16 FPS; WATCH — `paper, world-model, adobe`
 
 
 
@@ -256,6 +264,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [HunyuanImage 3.0 (Tencent)](entities/models/hunyuanimage-3-0.md) — 80B MoE AR native multimodal T2I; 13B active; ≥3×80 GB — `model, t2i, multimodal, moe, tencent, eastern-vanguard` ⚠ stub
 - [LTX-2 (Lightricks)](entities/models/ltx-2.md) — 19B asymmetric joint A/V foundation (14B visual + 5B audio with bidirectional cross-attention); native 4K @ 50fps with synchronized lipsync + foley single-pass; modality-specific VAEs at 1:192; LTX-2 Community License (free commercial under $10M revenue) — `model, video, asymmetric-av, audio-visual, ltx, lightricks, joint-foundation`
 - [TaoMate (Alibaba Taobao long-form AV digital human)](entities/models/taomate.md) — anchor-guided memory on LTX-2.3 22B; Apache code; 72 GB GPU CONDITIONAL-GO — `model, digital-human, audio-video, lipsync, apache-2-0`
+- [Wonder (Adobe interactive world model)](entities/models/wonder.md) — 6-DoF camera · 16 FPS; code coming soon WATCH — `model, world-model, adobe`
+- [GARFIELD / Schrödingers Cat](entities/models/garfield.md) — CompVis kinematics; non-commercial — `model, world-model, motion, non-commercial`
 - [Mochi 1 (Genmo)](entities/models/mochi-1.md) — 10B AsymmDiT (75% visual / 25% text resource allocation, single T5-XXL encoder); 30fps fluid motion; Apache 2.0; aggressive automatic NSFW filter (community bypasses by stripping the safety classifier); 4×80GB native → 24GB FP8 ComfyUI wrappers — `model, video, asymmdit, mochi, genmo, apache-2-0`
 - [CogVideoX 1.5 / 2.0 (THUDM)](entities/models/cogvideox-1-5.md) — 5B DiT + 3D VAE integrating text/time/space (no traditional cross-attention); 768p / 10s outputs; torchao INT8 compresses 24GB→7GB (cheapest local entry); Apache 2.0; CogVideoX 2.0 adds native 1080p + CogSound — `model, video, dit, cogvideox, thudm, zhipu, apache-2-0, lowest-vram`
 - [Open-Sora (Open-Source Video Generation)](entities/models/open-sora.md) — open-weight DiT video model; Apache 2.0; ~$0.48/min production cost on A100 cloud GPUs; recommended for 90% margin DTC video monetization — `model, video, open-source, dit, synthetic-media, cost-efficient`
@@ -370,6 +380,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [X-Translator (SJTU S2ST)](entities/voice-models/x-translator.md) — real-time speaker-aware speech-to-speech; CONDITIONAL-GO demo — `voice, translation, streaming`
 - [Qwen3-TTS (Alibaba Qwen team multilingual TTS)](entities/voice-models/qwen3-tts.md) — Alibaba Qwen-team multilingual zero-shot voice clone; Apache-2.0-style weights expected (verify per release); positioned as Alibaba/CosyVoice2's sibling line for production multilingual persona DMs — `voice-cloning, tts, qwen, alibaba, multilingual, zero-shot, eastern-vanguard`
 - [Qwen-Audio-3.0-TTS (hosted Flash/Plus)](entities/voice-models/qwen-audio-3-tts.md) — DashScope API-only; #1 AA claims; SKIP local NSFW path — `voice-cloning, tts, hosted-api, alibaba`
+- [supertonic.embed (style-vector inversion)](entities/voice-models/supertonic-embed.md) — recover SupertonicTTS styles; CONDITIONAL CUDA research — `voice-cloning, tts, style-vector`
 - [Nemotron-Labs-Audex (NVIDIA unified audio-text LLM)](entities/voice-models/nemotron-audex.md) — unified TTS/ASR/TTA/speech-to-speech MoE; Phase-0 REFERENCE (NVIDIA noncommercial license) — `voice-cloning, tts, nvidia, audex, unified-llm, moe`
 - [speech-swift (Soniqo Apple Silicon speech toolkit)](entities/voice-models/speech-swift.md) — MLX/CoreML ASR+TTS; CosyVoice/Qwen3-TTS/Fish S2; Phase-0 WATCH — `voice-cloning, tts, apple-silicon, mlx, apache-2.0`
 - [MoWorld (Moxin Flash World Model)](entities/models/moworld.md) — real-time 50 FPS world model; open weights pending — `world-model, video, flash, moxin`
@@ -568,6 +579,8 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Holistic visual tokenizer unified multimodal models](concepts/holistic-visual-tokenizer-umm.md) — single ViT tokenizer for image+video UMMs; MentisOculi coupling caveat (K114) — `unified-multimodal, tokenizer, understanding-generation`
 - [Machine mental imagery — visual reasoning spectrum](concepts/machine-mental-imagery.md) — MentisOculi synthesis; generation vs interpretation failure modes — `visual-reasoning, umm, mental-imagery, k114`
 - [MXFP4 attention quantization for video DiTs](concepts/mxfp4-attention-video.md) — MXAttention UOS+PNQ; Ascend today, CUDA watch — `quantization, mxfp4, wan, hunyuan`
+- [Parallel Decoding Distillation (PDD)](concepts/parallel-decoding-distillation.md) — multi-step-per-NFE; Wan/LTX/Qwen-Image — `distillation, acceleration, nvidia`
+- [LoRA weight-space fingerprint moderation](concepts/lora-weight-fingerprint-moderation.md) — u1 singular-vector screening; defensive — `safety, moderation, lora`
 
 ### Benchmarks
 

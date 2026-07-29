@@ -32,13 +32,17 @@ related:
   - entities/models/moworld.md
   - sources/arxiv-2607-06216-moworld-flash-world-model.md
   - sweeps/2026-07-13-daily.md
+  - entities/models/wonder.md
+  - entities/models/garfield.md
+  - sources/arxiv-2607-26037-wonder.md
+  - sources/arxiv-2607-25984-schroedingers-cat.md
 title: Camera-Controlled Video Generation
 type: concept
 tags: [concept, video-generation, camera-control, 6-dof, conditioning]
 keywords: [camera control, 6-DoF camera trajectory, Plucker coordinates, Plucker mixing, UCPE, dual-branch camera control, metric-scale camera pose, camera conditioning, temporal VAE stride, revisit trajectory]
 maturity: draft
 created: 2026-05-16
-updated: 2026-07-04
+updated: 2026-07-29
 ---
 
 ## Relations

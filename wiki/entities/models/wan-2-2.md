@@ -186,13 +186,15 @@ related:
   - entities/models/taomate.md
   - entities/benchmarks/filmbench.md
   - entities/benchmarks/filmops.md
+  - sources/arxiv-2607-26004-pdd.md
+  - concepts/parallel-decoding-distillation.md
 title: Wan 2.2 (Alibaba)
 type: entity
 tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]
 keywords: [wan2.2, wan-2-2, alibaba, mixture-of-experts, dual-expert, snr-routing, 27b, 14b, 5b, ti2v, apache-2.0, abliterated-text-encoder, mq-lab, blink, theyurilover]
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-28
+updated: 2026-07-29
 ---
 
 

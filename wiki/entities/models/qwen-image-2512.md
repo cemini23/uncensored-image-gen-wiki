@@ -39,9 +39,11 @@ related:
   - sources/arxiv-2607-15650-ditango-chitudiffusion.md
   - sources/arxiv-2607-19139-dit-template-token-registers.md
   - concepts/dit-template-token-semantic-registers.md
+  - sources/arxiv-2607-26004-pdd.md
+  - concepts/parallel-decoding-distillation.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-07-22
+updated: 2026-07-29
 ---
 
 ## Relations

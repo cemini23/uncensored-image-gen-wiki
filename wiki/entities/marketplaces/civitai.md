@@ -25,9 +25,11 @@ related:
   - sources/arxiv-2606-20971-unity-attention-flow-conditioning.md
   - concepts/universal-composite-diffusion-conditioning.md
   - entities/models/unity.md
+  - concepts/lora-weight-fingerprint-moderation.md
+  - sources/arxiv-2607-25750-csam-lora-weight-detect.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-06-23
+updated: 2026-07-29
 ---
 
 ## Relations

@@ -108,9 +108,11 @@ related:
   - sources/arxiv-2607-23027-singlish-tts.md
   - entities/models/taomate.md
   - sources/arxiv-2607-24359-taomate.md
+  - entities/voice-models/supertonic-embed.md
+  - sources/arxiv-2607-25351-voice-style-inverse-opt.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-07-28
+updated: 2026-07-29
 ---
 
 ## Relations

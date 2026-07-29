@@ -5,9 +5,11 @@ tags: [persona-ops, tts, voice-cloning, financial-speech, openrail-m, dual-licen
 keywords: [supertonic, financial tts, openrail-m, persona voice, mit code openrail weights]
 related:
   - entities/persona-ops/fish-speech.md
+  - sources/arxiv-2607-25351-voice-style-inverse-opt.md
+  - entities/voice-models/supertonic-embed.md
 maturity: validated
 created: 2026-05-12
-updated: 2026-06-05
+updated: 2026-07-29
 phase_0_verdict: DEFER
 phase_0_date: 2026-06-05
 osint_eval_origin: doc1-url-4 (cross-routed; image-gen persona-ops primary)
@@ -37,3 +39,7 @@ Prior K40 eval retained: **MIT code + OpenRAIL-M weights**, financial-speech spe
 ## Dead Ends
 
 None.
+
+### Related: style-vector inversion (2026-07-29)
+
+`kdrkdrkdr/supertonic.embed` (arXiv:2607.25351) recovers style vectors for **Supertone/supertonic-2** TTS when the encoder is withheld — different product from this financial-speech DEFER entity. See @entities/voice-models/supertonic-embed.md.

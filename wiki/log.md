@@ -1,5 +1,28 @@
 ## [2026-07-25] ingest | TFA help-seeking + LLM sycophancy peripherals (SKIP)
 
+## [2026-07-29] ingest | PDD + Wonder + GARFIELD + supertonic.embed (+ CSAM LoRA fingerprint REFERENCE)
+
+Full inbox ingest of 8 NEW arXiv PDFs (preingest clean).
+
+### GO / CONDITIONAL / WATCH
+- **NEW** `@sources/arxiv-2607-26004-pdd.md` + `@concepts/parallel-decoding-distillation.md` — NVIDIA PDD 4–8 NFE on Wan/LTX/Qwen-Image; **WATCH** until FastGen drop
+- **NEW** `@sources/arxiv-2607-26037-wonder.md` + `@entities/models/wonder.md` — Adobe interactive world model; **WATCH** (code coming soon)
+- **NEW** `@sources/arxiv-2607-25984-schroedingers-cat.md` + `@entities/models/garfield.md` — CompVis GARFIELD; **CONDITIONAL research non-commercial**
+- **NEW** `@sources/arxiv-2607-25351-voice-style-inverse-opt.md` + `@entities/voice-models/supertonic-embed.md` — style inversion; **CONDITIONAL-GO CUDA** (consent); updated financial-speech supertonic DEFER note
+- **NEW** `@sources/arxiv-2607-25750-csam-lora-weight-detect.md` + `@concepts/lora-weight-fingerprint-moderation.md` — UK AISI defensive REFERENCE; cybersec brief cross-routed
+
+### SKIP peripherals
+- colloids · clinical LLM · perovskite
+
+### Briefs / routing
+- `briefs/2026-07-29_pdd-wonder-supertonic-embed-adoption.md` → TipDrop kit
+- Cybersec: `briefs/2026-07-29_aisi-lora-weight-fingerprint-from-image-gen.md`
+- No atto / poker / cemini-prod
+
+### Local adopt (<500 MB)
+- None (CUDA-only / non-commercial / code-not-ready). Ops: no gen clones on wiki laptop.
+
+
 ## [2026-07-28] ingest | FilmBench/FilmOps + TaoMate + Qwen-Audio-3.0 + MXAttention (+ 3 SKIP)
 
 Full inbox ingest of 8 NEW arXiv PDFs (preingest clean).

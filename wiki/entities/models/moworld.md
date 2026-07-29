@@ -11,9 +11,11 @@ related:
   - concepts/camera-controlled-video-generation.md
   - sweeps/2026-07-13-daily.md
   - sources/arxiv-2607-14076-interactive-world-models-game-engines.md
+  - entities/models/wonder.md
+  - sources/arxiv-2607-26037-wonder.md
 maturity: draft
 created: 2026-07-13
-updated: 2026-07-16
+updated: 2026-07-29
 ---
 
 ## Relations
