@@ -110,9 +110,13 @@ related:
   - sources/arxiv-2607-24359-taomate.md
   - entities/voice-models/supertonic-embed.md
   - sources/arxiv-2607-25351-voice-style-inverse-opt.md
+  - concepts/face-to-speech-synthesis.md
+  - entities/voice-models/qwen-audio-3-gen.md
+  - sources/arxiv-2607-26742-face-to-speech.md
+  - sources/arxiv-2607-27011-qwen-audio-3-gen.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-07-29
+updated: 2026-07-31
 ---
 
 ## Relations
@@ -142,7 +146,7 @@ updated: 2026-07-29
 @entities/persona-ops/delive.md — Apache-2.0 system-audio capture + ASR for TTS-output-to-text audit trail
 @concepts/federated-daily-research-digest.md
 @concepts/sync-audio-video-customization.md @entities/models/omnicustom.md @sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
-@sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md — REFERENCE-ONLY neuromorphic TTS research
+@sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md — REFERENCE-ONLY neuromorphic TTS research @concepts/face-to-speech-synthesis.md @entities/voice-models/qwen-audio-3-gen.md @sources/arxiv-2607-26742-face-to-speech.md @sources/arxiv-2607-27011-qwen-audio-3-gen.md
 
 ## Raw Concept
 

@@ -11,9 +11,11 @@ related:
   - entities/sfx-models/stable-audio-open.md
   - concepts/persona-content-cadence.md
   - sources/persona-ops-stack-2026.md
+  - entities/voice-models/qwen-audio-3-gen.md
+  - sources/arxiv-2607-27011-qwen-audio-3-gen.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-07-31
 ---
 
 ## Relations
@@ -23,7 +25,7 @@ updated: 2026-05-13
 @entities/music-models/suno.md @entities/music-models/udio.md
 @entities/sfx-models/stable-audio-open.md
 @concepts/persona-content-cadence.md
-@sources/persona-ops-stack-2026.md
+@sources/persona-ops-stack-2026.md @entities/voice-models/qwen-audio-3-gen.md @sources/arxiv-2607-27011-qwen-audio-3-gen.md
 
 ## Raw Concept
 

@@ -11,14 +11,15 @@ related:
   - entities/models/wan-2-2.md
   - entities/models/ltx-2.md
   - sweeps/2026-07-28-daily.md
+  - entities/benchmarks/refcaptioner.md
 maturity: draft
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-07-31
 ---
 
 ## Relations
 
-@sources/arxiv-2607-24241-filmbench.md @entities/benchmarks/filmops.md @concepts/multi-shot-audio-video-evaluation.md @entities/benchmarks/vgif-score.md
+@sources/arxiv-2607-24241-filmbench.md @entities/benchmarks/filmops.md @concepts/multi-shot-audio-video-evaluation.md @entities/benchmarks/vgif-score.md @entities/benchmarks/refcaptioner.md
 
 ## Raw Concept
 

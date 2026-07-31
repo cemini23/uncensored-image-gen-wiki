@@ -64,15 +64,17 @@ related:
   - sources/arxiv-2607-23938-qwen-audio-3-0-tts.md
   - entities/voice-models/supertonic-embed.md
   - sources/arxiv-2607-25351-voice-style-inverse-opt.md
+  - concepts/face-to-speech-synthesis.md
+  - sources/arxiv-2607-26742-face-to-speech.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-29
+updated: 2026-07-31
 ---
 
 ## Relations
 
 @sources/persona-ops-stack-2026.md @concepts/persona-ops-stack.md @concepts/persona-monetization-models.md @entities/persona-ops/sillytavern.md @entities/persona-ops/n8n.md
-@concepts/model-selection-workflow.md
+@concepts/model-selection-workflow.md @concepts/face-to-speech-synthesis.md @sources/arxiv-2607-26742-face-to-speech.md
 
 @concepts/persona-audio-stack.md
 @entities/voice-models/cosyvoice2.md @entities/voice-models/kokoro.md @entities/lipsync/latentsync.md @entities/lipsync/musetalk.md

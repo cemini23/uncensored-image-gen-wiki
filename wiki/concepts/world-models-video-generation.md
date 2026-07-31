@@ -93,15 +93,20 @@ related:
   - entities/models/garfield.md
   - sources/arxiv-2607-26037-wonder.md
   - sources/arxiv-2607-25984-schroedingers-cat.md
+  - entities/models/egogenesis.md
+  - sources/arxiv-2607-28243-egogenesis.md
+  - entities/models/freqforcing.md
+  - sources/arxiv-2607-27036-video-repr-regularization.md
+  - sources/arxiv-2607-28581-road-3d.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-07-29
+updated: 2026-07-31
 ---
 
 ## Relations
 
-@sources/sana-wm-minute-scale-world-model.md @entities/models/sana-wm.md @concepts/camera-controlled-video-generation.md @concepts/hybrid-linear-attention.md @sources/video-generation-survey-2026.md
-@sources/arxiv-yocausal-world-model-benchmark-2605-30346.md @sources/arxiv-proprio-physics-video-2605-28230.md @sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md @entities/models/wan-2-2.md @sources/arxiv-2605-31336-decmem-world-generation.md @entities/models/decmem.md @entities/models/metaworld.md @concepts/activation-steering-video-generation.md @concepts/multi-agent-cross-view-video-world-models.md @entities/models/prisma-world.md @concepts/latent-spatial-memory-video-world-models.md @entities/models/mirage.md
+@sources/sana-wm-minute-scale-world-model.md @entities/models/sana-wm.md @concepts/camera-controlled-video-generation.md @concepts/hybrid-linear-attention.md @sources/video-generation-survey-2026.md @sources/arxiv-2607-27036-video-repr-regularization.md @sources/arxiv-2607-28581-road-3d.md
+@sources/arxiv-yocausal-world-model-benchmark-2605-30346.md @sources/arxiv-proprio-physics-video-2605-28230.md @sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md @entities/models/wan-2-2.md @sources/arxiv-2605-31336-decmem-world-generation.md @entities/models/decmem.md @entities/models/metaworld.md @concepts/activation-steering-video-generation.md @concepts/multi-agent-cross-view-video-world-models.md @entities/models/prisma-world.md @concepts/latent-spatial-memory-video-world-models.md @entities/models/mirage.md @entities/models/egogenesis.md @sources/arxiv-2607-28243-egogenesis.md @entities/models/freqforcing.md
 
 ## Raw Concept
 

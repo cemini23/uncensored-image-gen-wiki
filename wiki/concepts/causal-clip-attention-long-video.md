@@ -13,19 +13,23 @@ related:
   - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
   - sources/arxiv-2607-24359-taomate.md
   - entities/models/taomate.md
+  - sources/arxiv-2607-27110-freqforcing.md
+  - entities/models/freqforcing.md
+  - concepts/video-representation-regularization.md
+  - sources/arxiv-2607-27036-video-repr-regularization.md
 title: Causal clip attention for long video generation
 type: concept
 tags: [concept, video-generation, long-horizon, autoregressive, attention, kv-cache]
 keywords: [causal clip attention, hybrid attention, error accumulation, attribute drift, T-RFlow, video extension, KV cache]
 maturity: draft
 created: 2026-06-24
-updated: 2026-07-28
+updated: 2026-07-31
 ---
 
 
 ## Relations
 
-@sources/arxiv-2606-22370-error-free-long-video-generation.md @concepts/long-video-rag-retrieval.md @concepts/seam-stitching-strategies.md
+@sources/arxiv-2606-22370-error-free-long-video-generation.md @concepts/long-video-rag-retrieval.md @concepts/seam-stitching-strategies.md @sources/arxiv-2607-27110-freqforcing.md @entities/models/freqforcing.md @concepts/video-representation-regularization.md @sources/arxiv-2607-27036-video-repr-regularization.md
 
 ## Raw Concept
 

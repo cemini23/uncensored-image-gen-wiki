@@ -13,14 +13,16 @@ related:
   - entities/models/wan-2-2.md
   - entities/uis/comfyui.md
   - sweeps/2026-07-11-daily.md
+  - concepts/hand-object-interaction-generation.md
+  - sources/arxiv-2607-28394-hoi-foundation-survey.md
 maturity: draft
 created: 2026-07-11
-updated: 2026-07-11
+updated: 2026-07-31
 ---
 
 ## Relations
 
-@sources/arxiv-2506-08797-hunyuanvideo-homa.md @entities/models/hunyuanvideo-1-5.md @concepts/video-identity-inheritance.md @concepts/seam-stitching-strategies.md @concepts/persona-content-cadence.md @entities/lipsync/latentsync.md @entities/models/wan-2-2.md @entities/uis/comfyui.md
+@sources/arxiv-2506-08797-hunyuanvideo-homa.md @entities/models/hunyuanvideo-1-5.md @concepts/video-identity-inheritance.md @concepts/seam-stitching-strategies.md @concepts/persona-content-cadence.md @entities/lipsync/latentsync.md @entities/models/wan-2-2.md @entities/uis/comfyui.md @concepts/hand-object-interaction-generation.md @sources/arxiv-2607-28394-hoi-foundation-survey.md
 
 ## Raw Concept
 

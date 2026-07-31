@@ -10,14 +10,16 @@ related:
   - entities/persona-ops/fish-speech.md
   - concepts/persona-audio-stack.md
   - sweeps/2026-07-28-daily.md
+  - entities/voice-models/qwen-audio-3-gen.md
+  - sources/arxiv-2607-27011-qwen-audio-3-gen.md
 maturity: draft
 created: 2026-07-28
-updated: 2026-07-28
+updated: 2026-07-31
 ---
 
 ## Relations
 
-@sources/arxiv-2607-23938-qwen-audio-3-0-tts.md @entities/voice-models/qwen3-tts.md @entities/persona-ops/fish-speech.md @concepts/persona-audio-stack.md
+@sources/arxiv-2607-23938-qwen-audio-3-0-tts.md @entities/voice-models/qwen3-tts.md @entities/persona-ops/fish-speech.md @concepts/persona-audio-stack.md @entities/voice-models/qwen-audio-3-gen.md @sources/arxiv-2607-27011-qwen-audio-3-gen.md
 
 ## Raw Concept
 

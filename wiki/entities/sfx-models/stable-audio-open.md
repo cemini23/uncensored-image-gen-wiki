@@ -21,9 +21,11 @@ related:
   - sources/arxiv-2607-05196-nemotron-audex-unified-audio-intelligence.md
   - entities/voice-models/nemotron-audex.md
   - sweeps/2026-07-12-daily.md
+  - entities/voice-models/qwen-audio-3-gen.md
+  - sources/arxiv-2607-27011-qwen-audio-3-gen.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-07-12
+updated: 2026-07-31
 ---
 
 ## Relations
@@ -34,7 +36,7 @@ updated: 2026-07-12
 @entities/sfx-models/audioldm.md
 @entities/sfx-models/tango-2.md
 @entities/sfx-models/audio-omni.md @entities/voice-models/bark.md
-@sources/persona-ops-stack-2026.md
+@sources/persona-ops-stack-2026.md @entities/voice-models/qwen-audio-3-gen.md @sources/arxiv-2607-27011-qwen-audio-3-gen.md
 
 ## Raw Concept
 

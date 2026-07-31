@@ -216,6 +216,23 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Parallel Decoding Distillation (arXiv:2607.26004)](sources/arxiv-2607-26004-pdd.md) — Wan/LTX/Qwen-Image 4–8 NFE; WATCH FastGen — `paper, distillation, nvidia`
 - [Wonder video world model (arXiv:2607.26037)](sources/arxiv-2607-26037-wonder.md) — Adobe interactive 16 FPS; WATCH — `paper, world-model, adobe`
 
+- [Quantum Brownian transport (arXiv:2607.26678)](sources/arxiv-2607-26678-quantum-brownian.md) — physics peripheral SKIP — `paper, physics, peripheral`
+- [Face-to-Speech StyleTTS2 adapter (arXiv:2607.26742)](sources/arxiv-2607-26742-face-to-speech.md) — F2S via face→style latent; WATCH — `paper, tts, face-to-speech`
+- [Visual floorplan FLoc (arXiv:2607.26817)](sources/arxiv-2607-26817-floorplan-floc.md) — indoor loc peripheral SKIP — `paper, robotics, peripheral`
+- [Pegasus embodied experience (arXiv:2607.26903)](sources/arxiv-2607-26903-pegasus-embodied.md) — robot data from video SKIP — `paper, robotics, peripheral`
+- [Qwen-Audio-3.0-Gen-Preview (arXiv:2607.27011)](sources/arxiv-2607-27011-qwen-audio-3-gen.md) — unified speech/music/SFX DiT; hosted preview — `paper, audio-gen, qwen`
+- [Video repr regularization (arXiv:2607.27036)](sources/arxiv-2607-27036-video-repr-regularization.md) — erank vs compounding error; WATCH — `paper, video-generation, regularization`
+- [FreqForcing SSA long AR video (arXiv:2607.27110)](sources/arxiv-2607-27110-freqforcing.md) — spectral self-anchoring; inference TODO — `paper, video-generation, autoregressive`
+- [Spatial reasoning MLLM (arXiv:2607.27145)](sources/arxiv-2607-27145-spatial-reasoning-mllm.md) — MLLM peripheral SKIP — `paper, mllm, peripheral`
+- [EgoGenesis egocentric WAM (arXiv:2607.28243)](sources/arxiv-2607-28243-egogenesis.md) — OAPM + A3D-RoPE; WATCH — `paper, world-model, egocentric`
+- [Rotational diffusion macromolecules (arXiv:2607.28325)](sources/arxiv-2607-28325-rotational-diffusion-macro.md) — chemistry peripheral SKIP — `paper, chemistry, peripheral`
+- [HOI foundation survey (arXiv:2607.28394)](sources/arxiv-2607-28394-hoi-foundation-survey.md) — recon/gen/embodiment HOI; REFERENCE — `paper, survey, hoi`
+- [Large action spaces RL (arXiv:2607.28408)](sources/arxiv-2607-28408-large-action-spaces.md) — RL thesis peripheral SKIP — `paper, rl, peripheral`
+- [RefCaptioner MRVBench (arXiv:2607.28509)](sources/arxiv-2607-28509-refcaptioner.md) — multi-ref grounded captions; CONDITIONAL-GO code — `paper, video-captioning, evaluation`
+- [MIND medical fusion (arXiv:2607.28565)](sources/arxiv-2607-28565-mind-medical-fusion.md) — medical peripheral SKIP — `paper, medical, peripheral`
+- [Markov micro→macro geometry (arXiv:2607.28578)](sources/arxiv-2607-28578-markov-micro-macro.md) — math peripheral SKIP — `paper, math, peripheral`
+- [ROAD 3D shape gen (arXiv:2607.28581)](sources/arxiv-2607-28581-road-3d.md) — discriminative-prior DiT 3D; CONDITIONAL TipDrop — `paper, 3d-generation`
+
 
 
 - [Straight-path flow matching IMVC (arXiv:2607.06281)](sources/arxiv-2607-06281-straight-path-flow-matching-imvc.md) — clustering peripheral false positive — `paper, peripheral, clustering`
@@ -265,6 +282,9 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [LTX-2 (Lightricks)](entities/models/ltx-2.md) — 19B asymmetric joint A/V foundation (14B visual + 5B audio with bidirectional cross-attention); native 4K @ 50fps with synchronized lipsync + foley single-pass; modality-specific VAEs at 1:192; LTX-2 Community License (free commercial under $10M revenue) — `model, video, asymmetric-av, audio-visual, ltx, lightricks, joint-foundation`
 - [TaoMate (Alibaba Taobao long-form AV digital human)](entities/models/taomate.md) — anchor-guided memory on LTX-2.3 22B; Apache code; 72 GB GPU CONDITIONAL-GO — `model, digital-human, audio-video, lipsync, apache-2-0`
 - [Wonder (Adobe interactive world model)](entities/models/wonder.md) — 6-DoF camera · 16 FPS; code coming soon WATCH — `model, world-model, adobe`
+- [FreqForcing](entities/models/freqforcing.md) — SSA long AR video; WATCH inference — `model, video-generation, autoregressive, watch`
+- [EgoGenesis](entities/models/egogenesis.md) — egocentric world-action; WATCH — `model, world-model, egocentric, watch`
+- [ROAD 3D](entities/models/road-3d.md) — discriminative-prior 3D DiT; CONDITIONAL TipDrop — `model, 3d-generation, apache-2-0`
 - [GARFIELD / Schrödingers Cat](entities/models/garfield.md) — CompVis kinematics; non-commercial — `model, world-model, motion, non-commercial`
 - [Mochi 1 (Genmo)](entities/models/mochi-1.md) — 10B AsymmDiT (75% visual / 25% text resource allocation, single T5-XXL encoder); 30fps fluid motion; Apache 2.0; aggressive automatic NSFW filter (community bypasses by stripping the safety classifier); 4×80GB native → 24GB FP8 ComfyUI wrappers — `model, video, asymmdit, mochi, genmo, apache-2-0`
 - [CogVideoX 1.5 / 2.0 (THUDM)](entities/models/cogvideox-1-5.md) — 5B DiT + 3D VAE integrating text/time/space (no traditional cross-attention); 768p / 10s outputs; torchao INT8 compresses 24GB→7GB (cheapest local entry); Apache 2.0; CogVideoX 2.0 adds native 1080p + CogSound — `model, video, dit, cogvideox, thudm, zhipu, apache-2-0, lowest-vram`
@@ -381,6 +401,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Qwen3-TTS (Alibaba Qwen team multilingual TTS)](entities/voice-models/qwen3-tts.md) — Alibaba Qwen-team multilingual zero-shot voice clone; Apache-2.0-style weights expected (verify per release); positioned as Alibaba/CosyVoice2's sibling line for production multilingual persona DMs — `voice-cloning, tts, qwen, alibaba, multilingual, zero-shot, eastern-vanguard`
 - [Qwen-Audio-3.0-TTS (hosted Flash/Plus)](entities/voice-models/qwen-audio-3-tts.md) — DashScope API-only; #1 AA claims; SKIP local NSFW path — `voice-cloning, tts, hosted-api, alibaba`
 - [supertonic.embed (style-vector inversion)](entities/voice-models/supertonic-embed.md) — recover SupertonicTTS styles; CONDITIONAL CUDA research — `voice-cloning, tts, style-vector`
+- [Qwen-Audio-3.0-Gen-Preview (unified audio DiT)](entities/voice-models/qwen-audio-3-gen.md) — speech+music+SFX hosted preview; SKIP local — `audio-gen, qwen, hosted-preview`
 - [Nemotron-Labs-Audex (NVIDIA unified audio-text LLM)](entities/voice-models/nemotron-audex.md) — unified TTS/ASR/TTA/speech-to-speech MoE; Phase-0 REFERENCE (NVIDIA noncommercial license) — `voice-cloning, tts, nvidia, audex, unified-llm, moe`
 - [speech-swift (Soniqo Apple Silicon speech toolkit)](entities/voice-models/speech-swift.md) — MLX/CoreML ASR+TTS; CosyVoice/Qwen3-TTS/Fish S2; Phase-0 WATCH — `voice-cloning, tts, apple-silicon, mlx, apache-2.0`
 - [MoWorld (Moxin Flash World Model)](entities/models/moworld.md) — real-time 50 FPS world model; open weights pending — `world-model, video, flash, moxin`
@@ -581,6 +602,9 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [MXFP4 attention quantization for video DiTs](concepts/mxfp4-attention-video.md) — MXAttention UOS+PNQ; Ascend today, CUDA watch — `quantization, mxfp4, wan, hunyuan`
 - [Parallel Decoding Distillation (PDD)](concepts/parallel-decoding-distillation.md) — multi-step-per-NFE; Wan/LTX/Qwen-Image — `distillation, acceleration, nvidia`
 - [LoRA weight-space fingerprint moderation](concepts/lora-weight-fingerprint-moderation.md) — u1 singular-vector screening; defensive — `safety, moderation, lora`
+- [Face-to-Speech synthesis](concepts/face-to-speech-synthesis.md) — image→voice without audio refs; research WATCH — `tts, face-to-speech, persona-ops`
+- [Video representation regularization](concepts/video-representation-regularization.md) — erank vs AR compounding error — `video-generation, autoregressive, regularization`
+- [Hand-object interaction generation](concepts/hand-object-interaction-generation.md) — HOI under foundation models (survey hub) — `hoi, video-generation, survey`
 
 ### Benchmarks
 
@@ -588,6 +612,7 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [GeoT2V-Bench](entities/benchmarks/geot2v-bench.md) — reconstruction-profile 3D consistency diagnostic for camera-prompted T2V — `benchmark, 3d-consistency, evaluation, wan, ltx`
 - [FilmBench](entities/benchmarks/filmbench.md) — film-academy cinematic T2V/R2V prompts + taxonomy — `benchmark, cinematic, evaluation`
 - [FilmOps](entities/benchmarks/filmops.md) — Apache cinematography operator suite; code cloned locally — `benchmark, evaluation, apache-2-0`
+- [RefCaptioner / MRVBench](entities/benchmarks/refcaptioner.md) — multi-ref grounded video captions; code cloned ~6 MB — `benchmark, video-captioning, apache-2-0`
 
 ### Meta (wiki operations)
 

@@ -1,3 +1,27 @@
+## [2026-07-31] ingest | RefCaptioner CONDITIONAL + FreqForcing/EgoGenesis/F2S/Qwen-Audio-Gen WATCH (+ 8 SKIP)
+
+Full inbox ingest of 16 NEW arXiv PDFs (preingest clean). Mix of Jul 30–31 drops.
+
+### GO / CONDITIONAL / WATCH
+- **NEW** `@sources/arxiv-2607-28509-refcaptioner.md` + `@entities/benchmarks/refcaptioner.md` — multi-ref grounded captions; **CONDITIONAL-GO code** cloned `~/Desktop/projects/RefCaptioner` (~6 MB); weights deferred to David CUDA
+- **NEW** `@sources/arxiv-2607-27110-freqforcing.md` + `@entities/models/freqforcing.md` — SSA long AR video; **WATCH** (inference TODO)
+- **NEW** `@sources/arxiv-2607-27036-video-repr-regularization.md` + `@concepts/video-representation-regularization.md` — erank vs compounding error; **WATCH**
+- **NEW** `@sources/arxiv-2607-28243-egogenesis.md` + `@entities/models/egogenesis.md` — egocentric WAM; **WATCH**
+- **NEW** `@sources/arxiv-2607-26742-face-to-speech.md` + `@concepts/face-to-speech-synthesis.md` — StyleTTS2 Face Adapter; **WATCH** (no public code)
+- **NEW** `@sources/arxiv-2607-27011-qwen-audio-3-gen.md` + `@entities/voice-models/qwen-audio-3-gen.md` — unified DiT speech/music/SFX; **SKIP local / WATCH** (hosted preview)
+- **NEW** `@sources/arxiv-2607-28394-hoi-foundation-survey.md` + `@concepts/hand-object-interaction-generation.md` — **REFERENCE**
+- **NEW** `@sources/arxiv-2607-28581-road-3d.md` + `@entities/models/road-3d.md` — **CONDITIONAL TipDrop CUDA** (no laptop clone)
+
+### SKIP peripherals
+- quantum Brownian · floorplan FLoc · Pegasus embodied · spatial MLLM · rotational diffusion · large action spaces · MIND medical · Markov geometry
+
+### Briefs / routing
+- `briefs/2026-07-31_refcaptioner-freqforcing-qwen-audio-gen-adoption.md` → TipDrop kit
+- No atto / poker / cemini-prod / cybersec
+
+### Local adopt (<500 MB)
+- RefCaptioner code-only (~6 MB). No gen weight clones (ops rule).
+
 ## [2026-07-25] ingest | TFA help-seeking + LLM sycophancy peripherals (SKIP)
 
 ## [2026-07-29] ingest | PDD + Wonder + GARFIELD + supertonic.embed (+ CSAM LoRA fingerprint REFERENCE)

@@ -32,19 +32,20 @@ related:
   - concepts/agentic-video-editing-orchestration.md
   - sources/arxiv-2506-08797-hunyuanvideo-homa.md
   - concepts/hunyuanvideo-homa-weak-hoi-video.md
+  - sources/arxiv-2607-27110-freqforcing.md
 title: Seam stitching strategies (extending video clip length)
 type: concept
 tags: [video-workflow, seam-stitching, latent-chaining, overlap-deduplication, gvs, generative-view-stitching, cyclic-loop, lipsync, length-extension]
 keywords: [seam-stitching, latent-chaining, overlap-deduplication, wanv2v-video-stitcher, kishor900, generative-view-stitching, gvs, omni-guidance, cyclic-latent-conditioning, latentsync, musetalk, unisync, trepa]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-26
+updated: 2026-07-31
 ---
 
 
 ## Relations
 
-@sources/video-generation-survey-2026.md @concepts/video-identity-inheritance.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @entities/models/ltx-2.md @entities/models/mochi-1.md @entities/models/cogvideox-1-5.md
+@sources/video-generation-survey-2026.md @concepts/video-identity-inheritance.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @entities/models/ltx-2.md @entities/models/mochi-1.md @entities/models/cogvideox-1-5.md @sources/arxiv-2607-27110-freqforcing.md
 
 @concepts/persona-audio-stack.md
 ## Raw Concept

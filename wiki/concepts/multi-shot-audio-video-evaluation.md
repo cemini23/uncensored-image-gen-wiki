@@ -26,14 +26,16 @@ related:
   - entities/benchmarks/filmbench.md
   - entities/benchmarks/filmops.md
   - sources/arxiv-2607-24241-filmbench.md
+  - entities/benchmarks/refcaptioner.md
+  - sources/arxiv-2607-28509-refcaptioner.md
 maturity: draft
 created: 2026-06-08
-updated: 2026-07-28
+updated: 2026-07-31
 ---
 
 ## Relations
 
-@sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md @concepts/sync-audio-video-customization.md @concepts/persona-audio-stack.md @concepts/seam-stitching-strategies.md @entities/models/ltx-2.md @entities/models/wan-2-2.md @entities/models/seedance-2.md @entities/benchmarks/vgif-score.md
+@sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md @concepts/sync-audio-video-customization.md @concepts/persona-audio-stack.md @concepts/seam-stitching-strategies.md @entities/models/ltx-2.md @entities/models/wan-2-2.md @entities/models/seedance-2.md @entities/benchmarks/vgif-score.md @entities/benchmarks/refcaptioner.md @sources/arxiv-2607-28509-refcaptioner.md
 
 ## Raw Concept
 

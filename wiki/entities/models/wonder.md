@@ -13,14 +13,16 @@ related:
   - sweeps/2026-07-29-daily.md
   - entities/models/ltx-2.md
   - sources/arxiv-2607-25984-schroedingers-cat.md
+  - entities/models/egogenesis.md
+  - sources/arxiv-2607-28243-egogenesis.md
 maturity: draft
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-07-31
 ---
 
 ## Relations
 
-@sources/arxiv-2607-26037-wonder.md @concepts/world-models-video-generation.md @entities/models/sana-wm.md @entities/models/garfield.md
+@sources/arxiv-2607-26037-wonder.md @concepts/world-models-video-generation.md @entities/models/sana-wm.md @entities/models/garfield.md @entities/models/egogenesis.md @sources/arxiv-2607-28243-egogenesis.md
 
 ## Raw Concept
 

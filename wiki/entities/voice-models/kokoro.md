@@ -8,9 +8,11 @@ related:
   - entities/persona-ops/voicemode.md
   - entities/persona-ops/fish-speech.md
   - concepts/model-selection-workflow.md
+  - concepts/face-to-speech-synthesis.md
+  - sources/arxiv-2607-26742-face-to-speech.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-07-31
 ---
 
 ## Relations
@@ -18,7 +20,7 @@ updated: 2026-05-13
 @concepts/persona-audio-stack.md
 @entities/persona-ops/voicemode.md
 @entities/persona-ops/fish-speech.md
-@concepts/model-selection-workflow.md
+@concepts/model-selection-workflow.md @concepts/face-to-speech-synthesis.md @sources/arxiv-2607-26742-face-to-speech.md
 
 ## Raw Concept
 
