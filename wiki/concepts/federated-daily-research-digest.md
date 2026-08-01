@@ -73,13 +73,15 @@ related:
   - sweeps/2026-07-11-daily.md
   - sweeps/2026-07-12-daily.md
   - sweeps/2026-07-13-daily.md
+  - sources/arxiv-2607-28520-cs-rnr-opponent-exploit-routed.md
+  - sweeps/2026-08-01-daily.md
 title: Federated daily research digest
 type: concept
 tags: [meta, automation, federation, discovery, k93]
 keywords: [daily-research-digest, exa, inbox, sweep, federated, launchagent, discovery-loop]
 maturity: validated
 created: 2026-06-01
-updated: 2026-07-12
+updated: 2026-08-01
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

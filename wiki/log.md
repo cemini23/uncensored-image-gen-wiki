@@ -1,3 +1,18 @@
+## [2026-08-01] ingest | CS-RNR opponent exploit routed → poker (SKIP gen)
+
+Full inbox ingest of 1 NEW arXiv PDF (preingest clean). Digest false positive.
+
+### ROUTEd / SKIP
+- **NEW** `@sources/arxiv-2607-28520-cs-rnr-opponent-exploit-routed.md` — CS-RNR certified safe opponent exploitation (Leduc / Liar's Dice). **Phase-0: SKIP gen stack.** Primary: `@gambling-wiki/sources/arxiv-2607-28520-cs-rnr-safe-opponent-exploitation.md` + Poker Arena brief `2026-08-01_cs-rnr-safe-exploit-steal.md` (CONDITIONAL research / WATCH code — no public repo).
+
+### Briefs / routing
+- Poker Arena → `OSINT WORKSPACE/agents/devfun-poker-arena/briefs/`
+- Gambling wiki source page + opponent-modeling backlink
+- No TipDrop / atto / cemini-prod / cybersec
+
+### Local adopt (<500 MB)
+- None (no code).
+
 ## [2026-07-31] ingest | RefCaptioner CONDITIONAL + FreqForcing/EgoGenesis/F2S/Qwen-Audio-Gen WATCH (+ 8 SKIP)
 
 Full inbox ingest of 16 NEW arXiv PDFs (preingest clean). Mix of Jul 30–31 drops.

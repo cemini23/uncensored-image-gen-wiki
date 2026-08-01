@@ -232,6 +232,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [MIND medical fusion (arXiv:2607.28565)](sources/arxiv-2607-28565-mind-medical-fusion.md) — medical peripheral SKIP — `paper, medical, peripheral`
 - [Markov micro→macro geometry (arXiv:2607.28578)](sources/arxiv-2607-28578-markov-micro-macro.md) — math peripheral SKIP — `paper, math, peripheral`
 - [ROAD 3D shape gen (arXiv:2607.28581)](sources/arxiv-2607-28581-road-3d.md) — discriminative-prior DiT 3D; CONDITIONAL TipDrop — `paper, 3d-generation`
+- [CS-RNR safe opponent exploit — routed poker (arXiv:2607.28520)](sources/arxiv-2607-28520-cs-rnr-opponent-exploit-routed.md) — Leduc/Liar's Dice certificate exploit; poker steal — `paper, routed, poker, game-theory`
 
 
 
