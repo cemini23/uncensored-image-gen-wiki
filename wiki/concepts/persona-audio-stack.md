@@ -114,14 +114,17 @@ related:
   - entities/voice-models/qwen-audio-3-gen.md
   - sources/arxiv-2607-26742-face-to-speech.md
   - sources/arxiv-2607-27011-qwen-audio-3-gen.md
+  - sources/arxiv-2608-02235-tts-domain-eval.md
+  - sources/arxiv-2608-02474-echocache.md
+  - entities/models/echocache.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-07-31
+updated: 2026-08-04
 ---
 
 ## Relations
 
-@entities/persona-ops/fish-speech.md
+@entities/persona-ops/fish-speech.md @sources/arxiv-2608-02235-tts-domain-eval.md @sources/arxiv-2608-02474-echocache.md @entities/models/echocache.md
 @concepts/persona-ops-stack.md
 @concepts/persona-ops-workflow.md
 @entities/uis/comfyui.md

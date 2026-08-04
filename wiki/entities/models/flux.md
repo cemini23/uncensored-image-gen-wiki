@@ -34,14 +34,16 @@ related:
   - entities/uis/automatic1111.md
   - entities/uis/comfyui.md
   - entities/training-tools/heretic.md
+  - concepts/frequency-aware-flow-matching.md
+  - sources/arxiv-2607-28760-wait-frequency-aware-flow.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-08-04
 ---
 
 ## Relations
 
-@sources/uncensored-image-generation-survey.md
+@sources/uncensored-image-generation-survey.md @concepts/frequency-aware-flow-matching.md @sources/arxiv-2607-28760-wait-frequency-aware-flow.md
 @sources/unireasoner.md
 @sources/synthetic-character-consistency-survey.md
 @concepts/censorship-tier-taxonomy.md

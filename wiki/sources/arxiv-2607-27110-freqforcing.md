@@ -11,15 +11,16 @@ related:
   - concepts/seam-stitching-strategies.md
   - sweeps/2026-07-31-daily.md
   - sources/arxiv-2607-27036-video-repr-regularization.md
+  - sources/arxiv-2608-02504-token-radius-attention.md
 maturity: draft
 read_status: read
 created: 2026-07-31
-updated: 2026-07-31
+updated: 2026-08-04
 ---
 
 ## Relations
 
-@entities/models/freqforcing.md @concepts/causal-clip-attention-long-video.md @concepts/video-representation-regularization.md @entities/models/wan-2-2.md @sweeps/2026-07-31-daily.md @sources/arxiv-2607-27036-video-repr-regularization.md
+@entities/models/freqforcing.md @concepts/causal-clip-attention-long-video.md @concepts/video-representation-regularization.md @entities/models/wan-2-2.md @sweeps/2026-07-31-daily.md @sources/arxiv-2607-27036-video-repr-regularization.md @sources/arxiv-2608-02504-token-radius-attention.md
 
 ## Raw Concept
 

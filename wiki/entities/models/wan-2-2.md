@@ -196,19 +196,28 @@ related:
   - sources/arxiv-2607-28243-egogenesis.md
   - sources/arxiv-2607-28394-hoi-foundation-survey.md
   - sources/arxiv-2607-28509-refcaptioner.md
+  - entities/models/token-radius-attention.md
+  - sources/arxiv-2608-02504-token-radius-attention.md
+  - entities/models/bwm.md
+  - sources/arxiv-2607-29302-bwm-world-model.md
+  - entities/models/moroute.md
+  - sources/arxiv-2607-29545-moroute.md
+  - entities/models/echocache.md
+  - sources/arxiv-2607-28760-wait-frequency-aware-flow.md
+  - sources/arxiv-2608-02474-echocache.md
 title: Wan 2.2 (Alibaba)
 type: entity
 tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]
 keywords: [wan2.2, wan-2-2, alibaba, mixture-of-experts, dual-expert, snr-routing, 27b, 14b, 5b, ti2v, apache-2.0, abliterated-text-encoder, mq-lab, blink, theyurilover]
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-31
+updated: 2026-08-04
 ---
 
 
 ## Relations
 
-@sources/video-generation-survey-2026.md @entities/models/hunyuanvideo-1-5.md @entities/models/ltx-2.md @entities/models/mochi-1.md @entities/models/cogvideox-1-5.md @entities/models/seedance-2.md @entities/training-tools/musubi-tuner.md @entities/training-tools/ai-toolkit.md @concepts/seam-stitching-strategies.md @concepts/video-identity-inheritance.md @concepts/multi-angle-dataset-prep.md @concepts/de-censoring-techniques.md @concepts/censorship-tier-taxonomy.md @concepts/hand-object-interaction-generation.md @sources/arxiv-2607-27036-video-repr-regularization.md @sources/arxiv-2607-28243-egogenesis.md @sources/arxiv-2607-28394-hoi-foundation-survey.md @sources/arxiv-2607-28509-refcaptioner.md
+@sources/video-generation-survey-2026.md @entities/models/hunyuanvideo-1-5.md @entities/models/ltx-2.md @entities/models/mochi-1.md @entities/models/cogvideox-1-5.md @entities/models/seedance-2.md @entities/training-tools/musubi-tuner.md @entities/training-tools/ai-toolkit.md @concepts/seam-stitching-strategies.md @concepts/video-identity-inheritance.md @concepts/multi-angle-dataset-prep.md @concepts/de-censoring-techniques.md @concepts/censorship-tier-taxonomy.md @concepts/hand-object-interaction-generation.md @sources/arxiv-2607-27036-video-repr-regularization.md @sources/arxiv-2607-28243-egogenesis.md @sources/arxiv-2607-28394-hoi-foundation-survey.md @sources/arxiv-2607-28509-refcaptioner.md @entities/models/token-radius-attention.md @sources/arxiv-2608-02504-token-radius-attention.md @entities/models/bwm.md @sources/arxiv-2607-29302-bwm-world-model.md @entities/models/moroute.md @sources/arxiv-2607-29545-moroute.md @entities/models/echocache.md @sources/arxiv-2607-28760-wait-frequency-aware-flow.md @sources/arxiv-2608-02474-echocache.md
 @concepts/model-selection-workflow.md
 @concepts/synthetic-media-compute-economics.md
 @entities/models/open-sora.md

@@ -50,18 +50,19 @@ related:
   - sources/arxiv-2607-26004-pdd.md
   - concepts/parallel-decoding-distillation.md
   - entities/models/wonder.md
+  - sources/arxiv-2607-29545-moroute.md
 title: LTX-2 (Lightricks)
 type: entity
 tags: [model, video, asymmetric-av, audio-visual, ltx, lightricks, joint-foundation]
 keywords: [ltx-2, ltx-video, lightricks, asymmetric-av, audio-visual, 19b, 14b-visual, 5b-audio, bidirectional-cross-attention, 4k, 50fps, foley, modality-specific-vae, ltx-2-community-license]
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-29
+updated: 2026-08-04
 ---
 
 ## Relations
 
-@sources/video-generation-survey-2026.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @concepts/seam-stitching-strategies.md @concepts/censorship-tier-taxonomy.md
+@sources/video-generation-survey-2026.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @concepts/seam-stitching-strategies.md @concepts/censorship-tier-taxonomy.md @sources/arxiv-2607-29545-moroute.md
 
 @concepts/persona-audio-stack.md
 @concepts/world-models-video-generation.md — LTX-2's high-compression video tokenizer is the codec layer SANA-WM uses for minute-scale single-GPU world modeling

@@ -33,14 +33,16 @@ related:
   - concepts/hunyuanvideo-homa-weak-hoi-video.md
   - entities/models/taomate.md
   - sources/arxiv-2607-24359-taomate.md
+  - entities/models/echocache.md
+  - sources/arxiv-2608-02474-echocache.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-07-28
+updated: 2026-08-04
 ---
 
 ## Relations
 
-@concepts/persona-audio-stack.md
+@concepts/persona-audio-stack.md @entities/models/echocache.md @sources/arxiv-2608-02474-echocache.md
 @entities/lipsync/musetalk.md
 @entities/lipsync/wav2lip.md
 @entities/lipsync/sadtalker.md

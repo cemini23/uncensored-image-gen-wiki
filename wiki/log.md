@@ -1,3 +1,34 @@
+## [2026-08-04] ingest | TRA/EchoCache/MoRoute/WaiT WATCH + BWM/WorldExam + DiffAttack→cybersec (+ skips)
+
+Full inbox ingest of 16 NEW arXiv PDFs (preingest clean). Mix of Aug 2–4 drops.
+
+### GO / CONDITIONAL / WATCH
+- **NEW** `@sources/arxiv-2608-02504-token-radius-attention.md` + `@entities/models/token-radius-attention.md` — Wan/Hunyuan TRA; **WATCH** (claimed GH 404)
+- **NEW** `@sources/arxiv-2608-02474-echocache.md` + `@entities/models/echocache.md` — A2V EchoCache; **WATCH** (GH 404)
+- **NEW** `@sources/arxiv-2607-29545-moroute.md` + `@entities/models/moroute.md` — multimodal VLM→DiT routing; **WATCH**
+- **NEW** `@sources/arxiv-2607-28760-wait-frequency-aware-flow.md` + `@concepts/frequency-aware-flow-matching.md` — Meta FAIR WaiT; **WATCH**
+- **NEW** `@sources/arxiv-2607-29302-bwm-world-model.md` + `@entities/models/bwm.md` — Apache Wan2.2 robot WM; **WATCH TipDrop** (no laptop clone)
+- **NEW** `@sources/arxiv-2608-02603-worldexam.md` + `@entities/benchmarks/worldexam.md` — reactivity bench; **WATCH**
+- **NEW** `@sources/arxiv-2608-02235-tts-domain-eval.md` — TTS eval REFERENCE (Urdu MIT repo skipped)
+- **NEW** `@sources/arxiv-2608-02293-creator-traffic-allocation.md` — creator platform traffic → TipDrop ops
+- **NEW** `@sources/arxiv-2608-02406-kl-entropy-diffusion.md` — theory REFERENCE
+- **ROUTED** `@sources/arxiv-2607-28936-diffattack-fr-evasion.md` → cybersec brief
+
+### SKIP peripherals
+- scDiffusion · ModelEquivBench · OSAGEN · agentic-engineer education · dysarthric ASR · AURORA-LM
+
+### Phase-1
+- Image-gen local wire: **none** (federation skip). Entities `wire_status: deferred` → TipDrop David brief.
+- Cybersec: DiffAttack defensive brief only.
+
+### Briefs / routing
+- `briefs/2026-08-04_tra-echocache-moroute-wait-adoption.md` → TipDrop kit
+- Cybersec: `briefs/2026-08-04_diffattack-fr-evasion-from-image-gen.md`
+- No atto / poker / guruwatcher / cemini-prod
+
+### Local adopt (<500 MB)
+- None (TRA/EchoCache repos 404; BWM robotics-primary; WorldExam incomplete/no SPDX; Urdu not persona-default).
+
 ## [2026-08-01] ingest | CS-RNR opponent exploit routed → poker (SKIP gen)
 
 Full inbox ingest of 1 NEW arXiv PDF (preingest clean). Digest false positive.

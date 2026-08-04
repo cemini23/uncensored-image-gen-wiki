@@ -234,6 +234,23 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [ROAD 3D shape gen (arXiv:2607.28581)](sources/arxiv-2607-28581-road-3d.md) — discriminative-prior DiT 3D; CONDITIONAL TipDrop — `paper, 3d-generation`
 - [CS-RNR safe opponent exploit — routed poker (arXiv:2607.28520)](sources/arxiv-2607-28520-cs-rnr-opponent-exploit-routed.md) — Leduc/Liar's Dice certificate exploit; poker steal — `paper, routed, poker, game-theory`
 
+- [WaiT frequency-aware flow matching (arXiv:2607.28760)](sources/arxiv-2607-28760-wait-frequency-aware-flow.md) — Meta FAIR wavelet wait; WATCH — `paper, t2i, flow-matching`
+- [DiffAttack FR evasion — routed (arXiv:2607.28936)](sources/arxiv-2607-28936-diffattack-fr-evasion.md) — LDM adversarial faces → cybersec — `paper, routed, adversarial`
+- [scDiffusion SB-CFG (arXiv:2607.29043)](sources/arxiv-2607-29043-scdiffusion-sbcfg.md) — scRNA peripheral SKIP — `paper, biology, peripheral`
+- [BWM Boundless World Model (arXiv:2607.29302)](sources/arxiv-2607-29302-bwm-world-model.md) — Wan2.2 robot WM; WATCH TipDrop — `paper, world-model, robotics, wan`
+- [ModelEquivBench (arXiv:2607.29431)](sources/arxiv-2607-29431-modelequivbench.md) — LLM opt models SKIP — `paper, llm, peripheral`
+- [OSAGEN industrial anomaly (arXiv:2607.29533)](sources/arxiv-2607-29533-osagen-anomaly.md) — industrial SKIP — `paper, industrial, peripheral`
+- [MoRoute multimodal video routing (arXiv:2607.29545)](sources/arxiv-2607-29545-moroute.md) — VLM→DiT dynamic routing; WATCH — `paper, video-generation, multimodal`
+- [Agentic engineer education (arXiv:2607.29610)](sources/arxiv-2607-29610-agentic-engineer-education.md) — education peripheral SKIP — `paper, education, peripheral`
+- [Dysarthric ASR probing (arXiv:2608.01865)](sources/arxiv-2608-01865-dysarthric-asr-probing.md) — medical ASR SKIP — `paper, asr, peripheral`
+- [Domain-specific TTS evaluation (arXiv:2608.02235)](sources/arxiv-2608-02235-tts-domain-eval.md) — multi-metric Urdu case; REFERENCE — `paper, tts, evaluation`
+- [Creator traffic allocation (arXiv:2608.02293)](sources/arxiv-2608-02293-creator-traffic-allocation.md) — platform nurture vs harvest; TipDrop ops — `paper, persona-ops, monetization`
+- [KL entropy-production diffusion (arXiv:2608.02406)](sources/arxiv-2608-02406-kl-entropy-diffusion.md) — theory REFERENCE — `paper, theory, diffusion`
+- [EchoCache A2V caching (arXiv:2608.02474)](sources/arxiv-2608-02474-echocache.md) — energy-guided cache; repo 404 WATCH — `paper, caching, audio-driven`
+- [Token Radius Attention (arXiv:2608.02504)](sources/arxiv-2608-02504-token-radius-attention.md) — Wan/Hunyuan sparse attn; repo 404 WATCH — `paper, attention, efficiency, wan`
+- [AURORA-LM continuous latent LM (arXiv:2608.02602)](sources/arxiv-2608-02602-aurora-lm.md) — language peripheral SKIP — `paper, llm, peripheral`
+- [WorldExam world-model bench (arXiv:2608.02603)](sources/arxiv-2608-02603-worldexam.md) — appearance vs reactivity; WATCH — `paper, benchmark, world-model`
+
 
 
 - [Straight-path flow matching IMVC (arXiv:2607.06281)](sources/arxiv-2607-06281-straight-path-flow-matching-imvc.md) — clustering peripheral false positive — `paper, peripheral, clustering`
@@ -283,6 +300,10 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [LTX-2 (Lightricks)](entities/models/ltx-2.md) — 19B asymmetric joint A/V foundation (14B visual + 5B audio with bidirectional cross-attention); native 4K @ 50fps with synchronized lipsync + foley single-pass; modality-specific VAEs at 1:192; LTX-2 Community License (free commercial under $10M revenue) — `model, video, asymmetric-av, audio-visual, ltx, lightricks, joint-foundation`
 - [TaoMate (Alibaba Taobao long-form AV digital human)](entities/models/taomate.md) — anchor-guided memory on LTX-2.3 22B; Apache code; 72 GB GPU CONDITIONAL-GO — `model, digital-human, audio-video, lipsync, apache-2-0`
 - [Wonder (Adobe interactive world model)](entities/models/wonder.md) — 6-DoF camera · 16 FPS; code coming soon WATCH — `model, world-model, adobe`
+- [BWM](entities/models/bwm.md) — Wan2.2 robot world model; WATCH TipDrop — `model, world-model, robotics, watch`
+- [MoRoute](entities/models/moroute.md) — VLM→DiT multimodal video routing; WATCH — `model, video-generation, multimodal, watch`
+- [EchoCache](entities/models/echocache.md) — A2V energy-guided caching; WATCH — `model, caching, a2v, watch`
+- [Token Radius Attention](entities/models/token-radius-attention.md) — sparse Wan/Hunyuan attn; WATCH — `model, attention, efficiency, watch`
 - [FreqForcing](entities/models/freqforcing.md) — SSA long AR video; WATCH inference — `model, video-generation, autoregressive, watch`
 - [EgoGenesis](entities/models/egogenesis.md) — egocentric world-action; WATCH — `model, world-model, egocentric, watch`
 - [ROAD 3D](entities/models/road-3d.md) — discriminative-prior 3D DiT; CONDITIONAL TipDrop — `model, 3d-generation, apache-2-0`
@@ -603,6 +624,7 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [MXFP4 attention quantization for video DiTs](concepts/mxfp4-attention-video.md) — MXAttention UOS+PNQ; Ascend today, CUDA watch — `quantization, mxfp4, wan, hunyuan`
 - [Parallel Decoding Distillation (PDD)](concepts/parallel-decoding-distillation.md) — multi-step-per-NFE; Wan/LTX/Qwen-Image — `distillation, acceleration, nvidia`
 - [LoRA weight-space fingerprint moderation](concepts/lora-weight-fingerprint-moderation.md) — u1 singular-vector screening; defensive — `safety, moderation, lora`
+- [Frequency-aware flow matching (WaiT)](concepts/frequency-aware-flow-matching.md) — wavelet high-freq wait; Meta FAIR — `t2i, flow-matching, wavelet`
 - [Face-to-Speech synthesis](concepts/face-to-speech-synthesis.md) — image→voice without audio refs; research WATCH — `tts, face-to-speech, persona-ops`
 - [Video representation regularization](concepts/video-representation-regularization.md) — erank vs AR compounding error — `video-generation, autoregressive, regularization`
 - [Hand-object interaction generation](concepts/hand-object-interaction-generation.md) — HOI under foundation models (survey hub) — `hoi, video-generation, survey`
@@ -614,6 +636,7 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [FilmBench](entities/benchmarks/filmbench.md) — film-academy cinematic T2V/R2V prompts + taxonomy — `benchmark, cinematic, evaluation`
 - [FilmOps](entities/benchmarks/filmops.md) — Apache cinematography operator suite; code cloned locally — `benchmark, evaluation, apache-2-0`
 - [RefCaptioner / MRVBench](entities/benchmarks/refcaptioner.md) — multi-ref grounded video captions; code cloned ~6 MB — `benchmark, video-captioning, apache-2-0`
+- [WorldExam](entities/benchmarks/worldexam.md) — appearance vs inherent reactivity; WATCH — `benchmark, world-model, watch`
 
 ### Meta (wiki operations)
 

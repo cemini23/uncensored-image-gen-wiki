@@ -66,14 +66,15 @@ related:
   - sources/arxiv-2607-25351-voice-style-inverse-opt.md
   - concepts/face-to-speech-synthesis.md
   - sources/arxiv-2607-26742-face-to-speech.md
+  - sources/arxiv-2608-02235-tts-domain-eval.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-31
+updated: 2026-08-04
 ---
 
 ## Relations
 
-@sources/persona-ops-stack-2026.md @concepts/persona-ops-stack.md @concepts/persona-monetization-models.md @entities/persona-ops/sillytavern.md @entities/persona-ops/n8n.md
+@sources/persona-ops-stack-2026.md @concepts/persona-ops-stack.md @concepts/persona-monetization-models.md @entities/persona-ops/sillytavern.md @entities/persona-ops/n8n.md @sources/arxiv-2608-02235-tts-domain-eval.md
 @concepts/model-selection-workflow.md @concepts/face-to-speech-synthesis.md @sources/arxiv-2607-26742-face-to-speech.md
 
 @concepts/persona-audio-stack.md

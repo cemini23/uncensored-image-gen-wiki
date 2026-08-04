@@ -10,14 +10,15 @@ related:
   - concepts/model-selection-workflow.md
   - concepts/face-to-speech-synthesis.md
   - sources/arxiv-2607-26742-face-to-speech.md
+  - sources/arxiv-2608-02235-tts-domain-eval.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-07-31
+updated: 2026-08-04
 ---
 
 ## Relations
 
-@concepts/persona-audio-stack.md
+@concepts/persona-audio-stack.md @sources/arxiv-2608-02235-tts-domain-eval.md
 @entities/persona-ops/voicemode.md
 @entities/persona-ops/fish-speech.md
 @concepts/model-selection-workflow.md @concepts/face-to-speech-synthesis.md @sources/arxiv-2607-26742-face-to-speech.md
