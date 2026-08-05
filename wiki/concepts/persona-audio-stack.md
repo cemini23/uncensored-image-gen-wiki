@@ -117,14 +117,18 @@ related:
   - sources/arxiv-2608-02235-tts-domain-eval.md
   - sources/arxiv-2608-02474-echocache.md
   - entities/models/echocache.md
+  - sources/arxiv-2608-03011-daien-tts.md
+  - entities/voice-models/daien-tts.md
+  - sources/arxiv-2608-03215-grow-tts-rl.md
+  - entities/voice-models/grow-tts.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
 ## Relations
 
-@entities/persona-ops/fish-speech.md @sources/arxiv-2608-02235-tts-domain-eval.md @sources/arxiv-2608-02474-echocache.md @entities/models/echocache.md
+@entities/persona-ops/fish-speech.md @sources/arxiv-2608-02235-tts-domain-eval.md @sources/arxiv-2608-02474-echocache.md @entities/models/echocache.md @sources/arxiv-2608-03011-daien-tts.md @entities/voice-models/daien-tts.md @sources/arxiv-2608-03215-grow-tts-rl.md @entities/voice-models/grow-tts.md
 @concepts/persona-ops-stack.md
 @concepts/persona-ops-workflow.md
 @entities/uis/comfyui.md

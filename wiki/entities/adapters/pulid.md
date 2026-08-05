@@ -30,14 +30,16 @@ related:
   - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
   - entities/adapters/flux2-klein-matchingpose.md
   - entities/custom-nodes/comfyui-angelo.md
+  - sources/arxiv-2608-03708-multicompose.md
+  - entities/models/multicompose.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-07-04
+updated: 2026-08-05
 ---
 
 ## Relations
 
-@sources/synthetic-character-consistency-survey.md
+@sources/synthetic-character-consistency-survey.md @sources/arxiv-2608-03708-multicompose.md @entities/models/multicompose.md
 @concepts/persona-consistency-methods.md
 @entities/adapters/ip-adapter.md
 @entities/adapters/instantid.md

@@ -17,14 +17,16 @@ related:
   - sources/arxiv-2607-15273-meanflownft-forward-process-rl.md
   - entities/models/meanflownft.md
   - sweeps/2026-07-17-daily.md
+  - sources/arxiv-2608-03215-grow-tts-rl.md
+  - entities/voice-models/grow-tts.md
 maturity: draft
 created: 2026-06-01
-updated: 2026-07-17
+updated: 2026-08-05
 ---
 
 ## Relations
 
-@sources/arxiv-tagrpo-i2v-grpo-2601-05729.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @concepts/video-identity-inheritance.md @sources/video-generation-survey-2026.md
+@sources/arxiv-tagrpo-i2v-grpo-2601-05729.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @concepts/video-identity-inheritance.md @sources/video-generation-survey-2026.md @sources/arxiv-2608-03215-grow-tts-rl.md @entities/voice-models/grow-tts.md
 
 ## Raw Concept
 

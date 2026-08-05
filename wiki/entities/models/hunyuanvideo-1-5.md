@@ -49,13 +49,15 @@ related:
   - concepts/mxfp4-attention-video.md
   - entities/models/token-radius-attention.md
   - sources/arxiv-2608-02504-token-radius-attention.md
+  - sources/arxiv-2608-03335-spade.md
+  - entities/models/spade.md
 title: HunyuanVideo 1.5 (Tencent)
 type: entity
 tags: [model, video, dit, hunyuanvideo, tencent, eastern-vanguard, completely-uncensored-after-lora]
 keywords: [hunyuanvideo, hunyuan-1-5, tencent, ssta, selective-sliding-tile-attention, 8.3b, 3d-causal-vae, fp8-gemm, step-distilled, nsfwsks, theyurilover, 480p, 720p, 1080p]
 maturity: draft
 created: 2026-05-07
-updated: 2026-08-04
+updated: 2026-08-05
 ---
 
 **HOMA extension (Jul 2026):** Tencent HunyuanVideo-HOMA adds weak human–object interaction on the HunyuanVideo backbone — @sources/arxiv-2506-08797-hunyuanvideo-homa.md @concepts/hunyuanvideo-homa-weak-hoi-video.md. WATCH for open weights.
@@ -63,7 +65,7 @@ updated: 2026-08-04
 
 ## Relations
 
-@sources/video-generation-survey-2026.md @entities/models/wan-2-2.md @entities/models/ltx-2.md @entities/training-tools/musubi-tuner.md @concepts/seam-stitching-strategies.md @concepts/video-identity-inheritance.md @concepts/de-censoring-techniques.md @concepts/censorship-tier-taxonomy.md @entities/models/token-radius-attention.md @sources/arxiv-2608-02504-token-radius-attention.md
+@sources/video-generation-survey-2026.md @entities/models/wan-2-2.md @entities/models/ltx-2.md @entities/training-tools/musubi-tuner.md @concepts/seam-stitching-strategies.md @concepts/video-identity-inheritance.md @concepts/de-censoring-techniques.md @concepts/censorship-tier-taxonomy.md @entities/models/token-radius-attention.md @sources/arxiv-2608-02504-token-radius-attention.md @sources/arxiv-2608-03335-spade.md @entities/models/spade.md
 @concepts/model-selection-workflow.md
 @concepts/synthetic-media-compute-economics.md
 @entities/models/open-sora.md

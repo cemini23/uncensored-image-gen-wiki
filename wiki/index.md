@@ -251,6 +251,15 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [AURORA-LM continuous latent LM (arXiv:2608.02602)](sources/arxiv-2608-02602-aurora-lm.md) — language peripheral SKIP — `paper, llm, peripheral`
 - [WorldExam world-model bench (arXiv:2608.02603)](sources/arxiv-2608-02603-worldexam.md) — appearance vs reactivity; WATCH — `paper, benchmark, world-model`
 
+- [DAIEN-TTS environment-aware F5 (arXiv:2608.03011)](sources/arxiv-2608-03011-daien-tts.md) — speaker vs env prompts; demo-only WATCH — `paper, tts, f5-tts`
+- [GROW flow-matching TTS RL (arXiv:2608.03215)](sources/arxiv-2608-03215-grow-tts-rl.md) — group-relative on-policy; empty repo WATCH — `paper, tts, rl`
+- [SPADE sparse attn engine (arXiv:2608.03335)](sources/arxiv-2608-03335-spade.md) — Wan/Hunyuan CUDA engine; CONDITIONAL TipDrop — `paper, attention, wan, cuda`
+- [RoboReact humanoid skills (arXiv:2608.03387)](sources/arxiv-2608-03387-roboreact.md) — robotics peripheral SKIP — `paper, robotics, peripheral`
+- [GVCCTurbo generative compression (arXiv:2608.03517)](sources/arxiv-2608-03517-gvccturbo.md) — codec peripheral SKIP — `paper, compression, peripheral`
+- [MultiCompose multi-concept T2I (arXiv:2608.03708)](sources/arxiv-2608-03708-multicompose.md) — per-subject attribute bind; stub repo WATCH — `paper, t2i, personalization`
+- [Omega-S LLM forgetting penalty (arXiv:2608.03887)](sources/arxiv-2608-03887-omega-s.md) — AGPL+patent NO-GO commercial — `paper, llm, agpl`
+- [Bimanual Jetson 8GB ACT (arXiv:2608.03938)](sources/arxiv-2608-03938-bimanual-jetson.md) — robotics peripheral SKIP — `paper, robotics, peripheral`
+
 
 
 - [Straight-path flow matching IMVC (arXiv:2607.06281)](sources/arxiv-2607-06281-straight-path-flow-matching-imvc.md) — clustering peripheral false positive — `paper, peripheral, clustering`
@@ -303,6 +312,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [BWM](entities/models/bwm.md) — Wan2.2 robot world model; WATCH TipDrop — `model, world-model, robotics, watch`
 - [MoRoute](entities/models/moroute.md) — VLM→DiT multimodal video routing; WATCH — `model, video-generation, multimodal, watch`
 - [EchoCache](entities/models/echocache.md) — A2V energy-guided caching; WATCH — `model, caching, a2v, watch`
+- [SPADE / sparseDiTEngine](entities/models/spade.md) — Wan/Hunyuan sparse attn CUDA; CONDITIONAL TipDrop — `model, attention, cuda, conditional`
+- [MultiCompose](entities/models/multicompose.md) — multi-subject attribute binding; WATCH — `model, t2i, personalization, watch`
 - [Token Radius Attention](entities/models/token-radius-attention.md) — sparse Wan/Hunyuan attn; WATCH — `model, attention, efficiency, watch`
 - [FreqForcing](entities/models/freqforcing.md) — SSA long AR video; WATCH inference — `model, video-generation, autoregressive, watch`
 - [EgoGenesis](entities/models/egogenesis.md) — egocentric world-action; WATCH — `model, world-model, egocentric, watch`
@@ -424,6 +435,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Qwen-Audio-3.0-TTS (hosted Flash/Plus)](entities/voice-models/qwen-audio-3-tts.md) — DashScope API-only; #1 AA claims; SKIP local NSFW path — `voice-cloning, tts, hosted-api, alibaba`
 - [supertonic.embed (style-vector inversion)](entities/voice-models/supertonic-embed.md) — recover SupertonicTTS styles; CONDITIONAL CUDA research — `voice-cloning, tts, style-vector`
 - [Qwen-Audio-3.0-Gen-Preview (unified audio DiT)](entities/voice-models/qwen-audio-3-gen.md) — speech+music+SFX hosted preview; SKIP local — `audio-gen, qwen, hosted-preview`
+- [DAIEN-TTS](entities/voice-models/daien-tts.md) — environment-aware F5 extension; WATCH — `voice-cloning, tts, f5-tts, watch`
+- [GROW TTS RL](entities/voice-models/grow-tts.md) — group-relative flow-matching RL; WATCH — `voice-cloning, tts, rl, watch`
 - [Nemotron-Labs-Audex (NVIDIA unified audio-text LLM)](entities/voice-models/nemotron-audex.md) — unified TTS/ASR/TTA/speech-to-speech MoE; Phase-0 REFERENCE (NVIDIA noncommercial license) — `voice-cloning, tts, nvidia, audex, unified-llm, moe`
 - [speech-swift (Soniqo Apple Silicon speech toolkit)](entities/voice-models/speech-swift.md) — MLX/CoreML ASR+TTS; CosyVoice/Qwen3-TTS/Fish S2; Phase-0 WATCH — `voice-cloning, tts, apple-silicon, mlx, apache-2.0`
 - [MoWorld (Moxin Flash World Model)](entities/models/moworld.md) — real-time 50 FPS world model; open weights pending — `world-model, video, flash, moxin`

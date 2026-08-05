@@ -32,20 +32,21 @@ related:
   - sweeps/2026-07-12-daily.md
   - sources/arxiv-2607-08034-plural-value-alignment-dataset.md
   - sweeps/2026-07-13-daily.md
+  - sources/arxiv-2608-03887-omega-s.md
 title: "SillyTavern (NSFW DM frontend + RAG + TTS bridge)"
 type: entity
 tags: [persona-ops, dm-automation, llm-frontend, sillytavern, rag, tts, local-llm, character-card, persona-chat]
 keywords: [SillyTavern, character-card, character-ai-frontend, RAG, vector-store, MiniMax-TTS, Qwen-3, Mistral-3, Llama-4, koboldcpp, llama.cpp, lorebook, world-info, 128k-context]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-27
+updated: 2026-08-05
 ---
 
 **Retrieval safety (Jul 2026):** Web-search / RAG plugins can cause **safety degradation** per @sources/arxiv-2505-14215-safety-degradation-ai-agents.md — default off for open-web tools unless audited.
 
 ## Relations
 
-@sources/persona-ops-stack-2026.md @concepts/persona-ops-stack.md @concepts/persona-monetization-models.md @entities/persona-ops/fish-speech.md @concepts/persona-consistency-methods.md @entities/persona-ops/n8n.md
+@sources/persona-ops-stack-2026.md @concepts/persona-ops-stack.md @concepts/persona-monetization-models.md @entities/persona-ops/fish-speech.md @concepts/persona-consistency-methods.md @entities/persona-ops/n8n.md @sources/arxiv-2608-03887-omega-s.md
 @concepts/marketing-your-persona.md
 @concepts/model-selection-workflow.md
 

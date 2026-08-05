@@ -9,16 +9,18 @@ related:
   - sweeps/2026-08-04-daily.md
   - entities/models/hunyuanvideo-1-5.md
   - entities/models/wan-2-2.md
+  - sources/arxiv-2608-03335-spade.md
+  - entities/models/spade.md
 maturity: draft
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-05
 wire_status: deferred
 wire_target: tipdrop-workspace-kit/briefs (David adoption — no Image-gen local wire)
 ---
 
 ## Relations
 
-@sources/arxiv-2608-02504-token-radius-attention.md @concepts/budget-aware-diffusion-caching.md @entities/models/hunyuanvideo-1-5.md @entities/models/wan-2-2.md
+@sources/arxiv-2608-02504-token-radius-attention.md @concepts/budget-aware-diffusion-caching.md @entities/models/hunyuanvideo-1-5.md @entities/models/wan-2-2.md @sources/arxiv-2608-03335-spade.md @entities/models/spade.md
 
 ## Raw Concept
 

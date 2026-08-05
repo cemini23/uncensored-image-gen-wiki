@@ -116,19 +116,21 @@ related:
   - sweeps/2026-07-22-daily.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
+  - sources/arxiv-2608-03708-multicompose.md
+  - entities/models/multicompose.md
 title: Persona consistency methods (umbrella)
 type: concept
 tags: [persona-consistency, methods, taxonomy, identity-injection]
 keywords: [character LoRA, identity adapter, Character DNA, multi-angle dataset, two-pass inpaint, reference plus LoRA stack, face anchor seed]
 maturity: validated
 created: 2026-05-06
-updated: 2026-07-24
+updated: 2026-08-05
 ---
 
 
 ## Relations
 
-@sources/synthetic-character-consistency-survey.md
+@sources/synthetic-character-consistency-survey.md @sources/arxiv-2608-03708-multicompose.md @entities/models/multicompose.md
 @entities/adapters/flux2-klein-matchingpose.md
 @concepts/stage-aware-lora-distribution-calibrated-selection.md
 @sources/video-generation-survey-2026.md

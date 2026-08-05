@@ -77,20 +77,21 @@ related:
   - sweeps/2026-08-01-daily.md
   - sources/arxiv-2607-28936-diffattack-fr-evasion.md
   - sweeps/2026-08-04-daily.md
+  - sweeps/2026-08-05-daily.md
 title: Federated daily research digest
 type: concept
 tags: [meta, automation, federation, discovery, k93]
 keywords: [daily-research-digest, exa, inbox, sweep, federated, launchagent, discovery-loop]
 maturity: validated
 created: 2026-06-01
-updated: 2026-08-04
+updated: 2026-08-05
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 
 
 ## Relations
 
-@meta/daily-research-digest-cadence.md @concepts/persona-ops-stack.md @concepts/persona-audio-stack.md @entities/omnivoice.md @sweeps/_daily-template.md @sources/arxiv-2607-28936-diffattack-fr-evasion.md @sweeps/2026-08-04-daily.md
+@meta/daily-research-digest-cadence.md @concepts/persona-ops-stack.md @concepts/persona-audio-stack.md @entities/omnivoice.md @sweeps/_daily-template.md @sources/arxiv-2607-28936-diffattack-fr-evasion.md @sweeps/2026-08-04-daily.md @sweeps/2026-08-05-daily.md
 
 ## Raw Concept
 

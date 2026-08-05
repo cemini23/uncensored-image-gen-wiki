@@ -1,3 +1,27 @@
+## [2026-08-05] ingest | SPADE CONDITIONAL + DAIEN/GROW/MultiCompose WATCH + Omega-S NO-GO (+ 3 SKIP)
+
+Full inbox ingest of 8 NEW arXiv PDFs (preingest clean).
+
+### GO / CONDITIONAL / WATCH
+- **NEW** `@sources/arxiv-2608-03335-spade.md` + `@entities/models/spade.md` — BSD-3 CUDA sparse attn for Wan/Hunyuan; **CONDITIONAL-GO David CUDA** (no laptop clone)
+- **NEW** `@sources/arxiv-2608-03011-daien-tts.md` + `@entities/voice-models/daien-tts.md` — env-aware F5-TTS; **WATCH** (demo site only)
+- **NEW** `@sources/arxiv-2608-03215-grow-tts-rl.md` + `@entities/voice-models/grow-tts.md` — flow-matching TTS RL; **WATCH** (empty GH)
+- **NEW** `@sources/arxiv-2608-03708-multicompose.md` + `@entities/models/multicompose.md` — multi-subject attribute bind; **WATCH** (README stub)
+- **NEW** `@sources/arxiv-2608-03887-omega-s.md` — LLM forgetting penalty; **NO-GO commercial** (AGPL + USPTO pending)
+
+### SKIP peripherals
+- RoboReact · GVCCTurbo · Jetson bimanual ACT
+
+### Phase-1
+- Image-gen local wire: **none**. SPADE/DAIEN/GROW/MultiCompose `wire_status: deferred` → TipDrop. Omega-S `wont_wire`.
+
+### Briefs / routing
+- `briefs/2026-08-05_spade-daien-grow-multicompose-adoption.md` → TipDrop kit
+- No atto / poker / guruwatcher / cemini-prod / cybersec
+
+### Local adopt (<500 MB)
+- None (SPADE CUDA-only; GROW/MultiCompose empty; DAIEN demo samples; Omega-S AGPL+patent).
+
 ## [2026-08-04] ingest | TRA/EchoCache/MoRoute/WaiT WATCH + BWM/WorldExam + DiffAttack→cybersec (+ skips)
 
 Full inbox ingest of 16 NEW arXiv PDFs (preingest clean). Mix of Aug 2–4 drops.
