@@ -13,14 +13,16 @@ related:
   - sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md
   - concepts/video-reference-avatar-generation.md
   - concepts/motion-shape-disentangled-human-animation.md
+  - sources/arxiv-2608-04709-empaava.md
+  - entities/persona-ops/empaava.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-06-29
+updated: 2026-08-06
 ---
 
 ## Relations
 
-@concepts/persona-audio-stack.md
+@concepts/persona-audio-stack.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md
 @entities/lipsync/sadtalker.md
 @entities/lipsync/latentsync.md
 @entities/lipsync/musetalk.md

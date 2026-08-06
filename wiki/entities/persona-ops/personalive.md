@@ -9,9 +9,11 @@ related:
   - entities/lipsync/musetalk.md
   - entities/models/openrouter-video.md
   - entities/uis/comfyui.md
+  - sources/arxiv-2608-04709-empaava.md
+  - entities/persona-ops/empaava.md
 maturity: validated
 created: 2026-05-22
-updated: 2026-06-05
+updated: 2026-08-06
 phase_0_verdict: CONDITIONAL-GO
 phase_0_date: 2026-06-05
 cross-wiki-source: "@osint-wiki/sources/trading-posts-oil-polymarket-html-dex-sniping-2026-05-21.md"
@@ -23,7 +25,7 @@ provenance:
 
 ## Relations
 
-@concepts/persona-ops-stack.md @concepts/video-identity-inheritance.md @entities/lipsync/musetalk.md @entities/models/openrouter-video.md @entities/uis/comfyui.md
+@concepts/persona-ops-stack.md @concepts/video-identity-inheritance.md @entities/lipsync/musetalk.md @entities/models/openrouter-video.md @entities/uis/comfyui.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md
 
 ## Raw Concept
 

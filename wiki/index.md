@@ -260,6 +260,15 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Omega-S LLM forgetting penalty (arXiv:2608.03887)](sources/arxiv-2608-03887-omega-s.md) — AGPL+patent NO-GO commercial — `paper, llm, agpl`
 - [Bimanual Jetson 8GB ACT (arXiv:2608.03938)](sources/arxiv-2608-03938-bimanual-jetson.md) — robotics peripheral SKIP — `paper, robotics, peripheral`
 
+- [Predictive State Retrieval PSR (arXiv:2608.04426)](sources/arxiv-2608-04426-psr-future-state.md) — future-state retrieval; peripheral SKIP — `paper, video-retrieval, peripheral`
+- [Galaxy merger tides (arXiv:2608.04528)](sources/arxiv-2608-04528-galaxy-tides.md) — astrophysics SKIP — `paper, astrophysics, peripheral`
+- [MobileWAM mobile manipulation (arXiv:2608.04657)](sources/arxiv-2608-04657-mobilewam.md) — robotics WAM SKIP — `paper, robotics, peripheral`
+- [EmpaAva 3D-avatar live chatbot (arXiv:2608.04709)](sources/arxiv-2608-04709-empaava.md) — Apache Tri-Agent GS avatar; CONDITIONAL-GO code — `paper, avatar, persona-ops`
+- [ReSem-Face identity inpainting (arXiv:2608.04820)](sources/arxiv-2608-04820-resem-face.md) — multi-ref face inpaint under occlusion; WATCH — `paper, t2i, identity`
+- [Slang-Q queer slang LLM eval (arXiv:2608.04847)](sources/arxiv-2608-04847-slang-q.md) — NLP peripheral SKIP — `paper, nlp, peripheral`
+- [HelloWorld interactive WM characters (arXiv:2608.05070)](sources/arxiv-2608-05070-helloworld.md) — social F-press responses; code soon WATCH — `paper, world-model, interactive`
+- [Skill Entropy LLM reasoning (arXiv:2608.05139)](sources/arxiv-2608-05139-skill-entropy.md) — LLM RL peripheral SKIP — `paper, llm, peripheral`
+
 
 
 - [Straight-path flow matching IMVC (arXiv:2607.06281)](sources/arxiv-2607-06281-straight-path-flow-matching-imvc.md) — clustering peripheral false positive — `paper, peripheral, clustering`
@@ -312,6 +321,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [BWM](entities/models/bwm.md) — Wan2.2 robot world model; WATCH TipDrop — `model, world-model, robotics, watch`
 - [MoRoute](entities/models/moroute.md) — VLM→DiT multimodal video routing; WATCH — `model, video-generation, multimodal, watch`
 - [EchoCache](entities/models/echocache.md) — A2V energy-guided caching; WATCH — `model, caching, a2v, watch`
+- [HelloWorld](entities/models/helloworld.md) — socially interactive video WM characters; WATCH — `model, world-model, interactive, watch`
 - [SPADE / sparseDiTEngine](entities/models/spade.md) — Wan/Hunyuan sparse attn CUDA; CONDITIONAL TipDrop — `model, attention, cuda, conditional`
 - [MultiCompose](entities/models/multicompose.md) — multi-subject attribute binding; WATCH — `model, t2i, personalization, watch`
 - [Token Radius Attention](entities/models/token-radius-attention.md) — sparse Wan/Hunyuan attn; WATCH — `model, attention, efficiency, watch`
@@ -418,6 +428,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [n8n (self-hosted orchestration)](entities/persona-ops/n8n.md) — modal 2026 orchestration layer for persona-ops; visual workflow + 400+ integrations + AI agent nodes; self-host for data sovereignty vs Make/Zapier; ties together LLM + voice + image-gen + scheduling — `persona-ops, orchestration, n8n, automation, self-hosted, workflow-engine`
 - [DeLive — system-audio capture + ASR for persona voice sync](entities/persona-ops/delive.md) — Apache-2.0 desktop app capturing local system audio + 12 ASR backends + 60+ languages; real-time TTS-output-to-text audit trail for persona voice synchronization — `persona-ops, asr, voice-sync, apache-2-0, mcp-server` ⚠ stub
 - [MoneyPrinter — MIT short-form video automation](entities/persona-ops/moneyprinter.md) — MoviePy-based YouTube Shorts/TikTok automation; MIT-licensed (license-corrected from phantom AGPL-3.0); candidate for n8n content-calendar video rendering — `persona-ops, video-automation, short-form, mit-license` ⚠ stub
+- [EmpaAva — agentic 3D-avatar empathetic live chatbot](entities/persona-ops/empaava.md) — Apache Tri-Agent GS avatar; code cloned; NC third-party render — `persona-ops, avatar, 3d-gaussian, apache-2-0`
 - [PersonaLive — real-time portrait animation for live avatars](entities/persona-ops/personalive.md) — GVCLab portrait animator; **Phase-0 CONDITIONAL-GO** (Apache-2.0, 12GB streaming, ComfyUI node) — `persona-ops, live-streaming, portrait-animation, real-time`
 
 ### Personas / accounts

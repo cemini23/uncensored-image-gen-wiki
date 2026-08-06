@@ -17,14 +17,16 @@ related:
   - sources/arxiv-2607-28243-egogenesis.md
   - entities/benchmarks/worldexam.md
   - sources/arxiv-2608-02603-worldexam.md
+  - sources/arxiv-2608-05070-helloworld.md
+  - entities/models/helloworld.md
 maturity: draft
 created: 2026-07-29
-updated: 2026-08-04
+updated: 2026-08-06
 ---
 
 ## Relations
 
-@sources/arxiv-2607-26037-wonder.md @concepts/world-models-video-generation.md @entities/models/sana-wm.md @entities/models/garfield.md @entities/models/egogenesis.md @sources/arxiv-2607-28243-egogenesis.md @entities/benchmarks/worldexam.md @sources/arxiv-2608-02603-worldexam.md
+@sources/arxiv-2607-26037-wonder.md @concepts/world-models-video-generation.md @entities/models/sana-wm.md @entities/models/garfield.md @entities/models/egogenesis.md @sources/arxiv-2607-28243-egogenesis.md @entities/benchmarks/worldexam.md @sources/arxiv-2608-02603-worldexam.md @sources/arxiv-2608-05070-helloworld.md @entities/models/helloworld.md
 
 ## Raw Concept
 

@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""Mirror David persona adoption briefs to tipdrop-workspace-kit/briefs/.
+"""RETIRED 2026-08-05 — David/TipDrop kit mirror.
 
-Canonical during full ingest after writing briefs/YYYY-MM-DD_*-adoption*.md locally.
-See wiki/concepts/david-adoption-brief-routing.md and OSINT
-scripts/active_project_brief_targets.yaml (david-persona-image-gen).
+Do not push briefs to tipdrop-workspace-kit. Local abliterated AI lab
+(Cybersecurity wiki/briefs/) replaced that research-queue slot.
+See wiki/concepts/david-adoption-brief-routing.md (archived).
 """
 
 from __future__ import annotations
@@ -21,6 +21,12 @@ TIPDROP_CANDIDATES = [
     Path.home() / "Desktop" / "projects" / "tipdrop-workspace-kit",
     REPO_ROOT.parent / "projects" / "tipdrop-workspace-kit",
 ]
+
+_RETIRED_MSG = (
+    "RETIRED 2026-08-05: TipDrop/David kit brief mirror is off. "
+    "Do not route to tipdrop-workspace-kit. "
+    "Use Cybersecurity wiki/briefs/ for local-abliterated-lab topics."
+)
 
 
 def resolve_tipdrop_kit(create: bool) -> Path:
@@ -94,44 +100,12 @@ def route_brief(src: Path, kit: Path, dry_run: bool) -> Path | None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument(
-        "briefs",
-        nargs="*",
-        help="Specific brief paths (default: scan briefs/ for David adoption briefs)",
-    )
-    parser.add_argument("--dry-run", action="store_true", help="Print routes without copying")
-    parser.add_argument(
-        "--no-create-kit",
-        action="store_true",
-        help="Fail if tipdrop-workspace-kit directory does not exist",
-    )
-    args = parser.parse_args()
-
-    try:
-        kit = resolve_tipdrop_kit(create=not args.no_create_kit)
-    except FileNotFoundError as exc:
-        print(exc, file=sys.stderr)
-        return 1
-
-    if args.briefs:
-        sources = [Path(p).resolve() for p in args.briefs]
-    else:
-        sources = sorted(BRIEFS_DIR.glob("*.md")) if BRIEFS_DIR.is_dir() else []
-
-    routed = 0
-    for src in sources:
-        if not src.is_file():
-            print(f"Skip missing file: {src}", file=sys.stderr)
-            continue
-        if route_brief(src, kit, args.dry_run):
-            routed += 1
-
-    if routed == 0:
-        print("No David adoption briefs matched.", file=sys.stderr)
-        return 2
-
-    print(f"Done — {routed} brief(s) -> {kit / 'briefs'}")
-    return 0
+    parser.add_argument("briefs", nargs="*", help=argparse.SUPPRESS)
+    parser.add_argument("--dry-run", action="store_true", help=argparse.SUPPRESS)
+    parser.add_argument("--no-create-kit", action="store_true", help=argparse.SUPPRESS)
+    parser.parse_args()
+    print(_RETIRED_MSG, file=sys.stderr)
+    return 3
 
 
 if __name__ == "__main__":

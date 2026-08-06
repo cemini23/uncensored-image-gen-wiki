@@ -11,16 +11,18 @@ related:
   - entities/models/seedance-2.md
   - concepts/video-identity-inheritance.md
   - sources/video-generation-survey-2026.md
+  - sources/arxiv-2608-04709-empaava.md
+  - entities/persona-ops/empaava.md
 maturity: draft
 created: 2026-06-16
-updated: 2026-06-16
+updated: 2026-08-06
 phase_0_verdict: NO-GO
 phase_0_date: 2026-06-16
 ---
 
 ## Relations
 
-@sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md @concepts/video-reference-avatar-generation.md @concepts/persona-consistency-methods.md
+@sources/arxiv-2606-13872-avatar-v-video-reference-avatar.md @concepts/video-reference-avatar-generation.md @concepts/persona-consistency-methods.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md
 
 ## Raw Concept
 

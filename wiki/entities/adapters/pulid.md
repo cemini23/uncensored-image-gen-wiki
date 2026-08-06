@@ -32,14 +32,15 @@ related:
   - entities/custom-nodes/comfyui-angelo.md
   - sources/arxiv-2608-03708-multicompose.md
   - entities/models/multicompose.md
+  - sources/arxiv-2608-04820-resem-face.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-08-05
+updated: 2026-08-06
 ---
 
 ## Relations
 
-@sources/synthetic-character-consistency-survey.md @sources/arxiv-2608-03708-multicompose.md @entities/models/multicompose.md
+@sources/synthetic-character-consistency-survey.md @sources/arxiv-2608-03708-multicompose.md @entities/models/multicompose.md @sources/arxiv-2608-04820-resem-face.md
 @concepts/persona-consistency-methods.md
 @entities/adapters/ip-adapter.md
 @entities/adapters/instantid.md

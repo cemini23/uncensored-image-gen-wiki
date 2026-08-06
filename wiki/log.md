@@ -1,3 +1,25 @@
+## [2026-08-06] ingest | EmpaAva CONDITIONAL-GO + HelloWorld/ReSem-Face WATCH (+ 5 SKIP)
+
+Full inbox ingest of 8 NEW arXiv PDFs (preingest clean).
+
+### GO / CONDITIONAL / WATCH
+- **NEW** `@sources/arxiv-2608-04709-empaava.md` + `@entities/persona-ops/empaava.md` — Apache-2.0 Tri-Agent 3D GS live avatar; **CONDITIONAL-GO code** cloned `~/Desktop/projects/EmpaAva_System` (~42 MB); GaussianAvatars/VHAP **CC BY-NC-SA** — monetized render blocked unless replaced; weights deferred to David
+- **NEW** `@sources/arxiv-2608-05070-helloworld.md` + `@entities/models/helloworld.md` — interactive social characters in video WMs; **WATCH** (code coming soon / no SPDX)
+- **NEW** `@sources/arxiv-2608-04820-resem-face.md` — identity-preserving face inpainting; **WATCH** (no public code)
+
+### SKIP peripherals
+- PSR future-state retrieval · galaxy tides · MobileWAM · Slang-Q · Skill Entropy
+
+### Phase-1
+- Image-gen local wire: **none**. EmpaAva/HelloWorld/ReSem `wire_status: deferred` (operator CUDA when ready).
+
+### Briefs / routing
+- `briefs/2026-08-06_empaava-helloworld-resem-adoption.md` — local-only (TipDrop/David kit mirror retired 2026-08-05)
+- No atto / poker / guruwatcher / cemini-prod / cybersec
+
+### Local adopt (<500 MB)
+- EmpaAva_System code-only only (~42 MB). No gen weight clones.
+
 ## [2026-08-05] ingest | SPADE CONDITIONAL + DAIEN/GROW/MultiCompose WATCH + Omega-S NO-GO (+ 3 SKIP)
 
 Full inbox ingest of 8 NEW arXiv PDFs (preingest clean).

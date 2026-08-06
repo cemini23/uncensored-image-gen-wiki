@@ -9,16 +9,18 @@ related:
   - sweeps/2026-08-04-daily.md
   - entities/models/wan-2-2.md
   - sources/arxiv-2608-02603-worldexam.md
+  - sources/arxiv-2608-05070-helloworld.md
+  - entities/models/helloworld.md
 maturity: draft
 created: 2026-08-04
-updated: 2026-08-04
+updated: 2026-08-06
 wire_status: deferred
 wire_target: tipdrop-workspace-kit/briefs (David adoption — no Image-gen local wire)
 ---
 
 ## Relations
 
-@sources/arxiv-2607-29302-bwm-world-model.md @concepts/world-models-video-generation.md @entities/models/wan-2-2.md @sources/arxiv-2608-02603-worldexam.md
+@sources/arxiv-2607-29302-bwm-world-model.md @concepts/world-models-video-generation.md @entities/models/wan-2-2.md @sources/arxiv-2608-02603-worldexam.md @sources/arxiv-2608-05070-helloworld.md @entities/models/helloworld.md
 
 ## Raw Concept
 

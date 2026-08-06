@@ -35,14 +35,16 @@ related:
   - sources/arxiv-2607-24359-taomate.md
   - entities/models/echocache.md
   - sources/arxiv-2608-02474-echocache.md
+  - sources/arxiv-2608-04709-empaava.md
+  - entities/persona-ops/empaava.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-08-04
+updated: 2026-08-06
 ---
 
 ## Relations
 
-@concepts/persona-audio-stack.md @entities/models/echocache.md @sources/arxiv-2608-02474-echocache.md
+@concepts/persona-audio-stack.md @entities/models/echocache.md @sources/arxiv-2608-02474-echocache.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md
 @entities/lipsync/musetalk.md
 @entities/lipsync/wav2lip.md
 @entities/lipsync/sadtalker.md
