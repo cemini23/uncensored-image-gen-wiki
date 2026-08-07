@@ -269,6 +269,15 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [HelloWorld interactive WM characters (arXiv:2608.05070)](sources/arxiv-2608-05070-helloworld.md) — social F-press responses; code soon WATCH — `paper, world-model, interactive`
 - [Skill Entropy LLM reasoning (arXiv:2608.05139)](sources/arxiv-2608-05139-skill-entropy.md) — LLM RL peripheral SKIP — `paper, llm, peripheral`
 
+- [AffectDF speech deepfake (arXiv:2608.05507)](sources/arxiv-2608-05507-affectdf-routed.md) — emotional SDD bench; ROUTE cybersec — `paper, deepfake, routed`
+- [Adaptive-WAM Wan early-exit planner (arXiv:2608.06008)](sources/arxiv-2608-06008-adaptive-wam.md) — AV world-action SKIP — `paper, robotics, peripheral`
+- [Monte Carlo bosonic QD (arXiv:2608.06056)](sources/arxiv-2608-06056-monte-carlo-bosonic.md) — quantum SKIP — `paper, physics, peripheral`
+- [VIDP impedance diffusion policy (arXiv:2608.06210)](sources/arxiv-2608-06210-vidp.md) — robotics SKIP — `paper, robotics, peripheral`
+- [EmoWorld emotional video (arXiv:2608.06231)](sources/arxiv-2608-06231-emoworld.md) — Wan2.2 affective steering; WATCH — `paper, video, emotion`
+- [SG-TULA Langevin (arXiv:2608.06283)](sources/arxiv-2608-06283-sg-tula.md) — sampling theory SKIP — `paper, ml-theory, peripheral`
+- [Ultraneuron ultrasound (arXiv:2608.06321)](sources/arxiv-2608-06321-ultraneuron.md) — medical sim SKIP — `paper, medical, peripheral`
+- [GeniWorld robot WM (arXiv:2608.06332)](sources/arxiv-2608-06332-geniworld.md) — robotics interactive WM SKIP — `paper, robotics, peripheral`
+
 
 
 - [Straight-path flow matching IMVC (arXiv:2607.06281)](sources/arxiv-2607-06281-straight-path-flow-matching-imvc.md) — clustering peripheral false positive — `paper, peripheral, clustering`
@@ -321,6 +330,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [BWM](entities/models/bwm.md) — Wan2.2 robot world model; WATCH TipDrop — `model, world-model, robotics, watch`
 - [MoRoute](entities/models/moroute.md) — VLM→DiT multimodal video routing; WATCH — `model, video-generation, multimodal, watch`
 - [EchoCache](entities/models/echocache.md) — A2V energy-guided caching; WATCH — `model, caching, a2v, watch`
+- [EmoWorld](entities/models/emoworld.md) — Wan affective-field emotion steering; WATCH (no code) — `model, video, emotion, watch`
 - [HelloWorld](entities/models/helloworld.md) — socially interactive video WM characters; WATCH — `model, world-model, interactive, watch`
 - [SPADE / sparseDiTEngine](entities/models/spade.md) — Wan/Hunyuan sparse attn CUDA; CONDITIONAL TipDrop — `model, attention, cuda, conditional`
 - [MultiCompose](entities/models/multicompose.md) — multi-subject attribute binding; WATCH — `model, t2i, personalization, watch`

@@ -34,14 +34,16 @@ related:
   - sources/arxiv-2607-23027-singlish-tts.md
   - entities/voice-models/qwen-audio-3-tts.md
   - sources/arxiv-2607-23938-qwen-audio-3-0-tts.md
+  - sources/arxiv-2608-05507-affectdf-routed.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-07-28
+updated: 2026-08-07
 ---
 
 ## Relations
 
-@concepts/persona-audio-stack.md
+@concepts/persona-audio-stack.md @sources/arxiv-2608-05507-affectdf-routed.md
+
 @entities/persona-ops/fish-speech.md
 @concepts/persona-ops-stack.md
 @concepts/model-selection-workflow.md

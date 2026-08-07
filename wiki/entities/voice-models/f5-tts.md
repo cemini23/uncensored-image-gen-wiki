@@ -14,14 +14,16 @@ related:
   - entities/voice-models/daien-tts.md
   - sources/arxiv-2608-03215-grow-tts-rl.md
   - entities/voice-models/grow-tts.md
+  - sources/arxiv-2608-05507-affectdf-routed.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-08-05
+updated: 2026-08-07
 ---
 
 ## Relations
 
-@concepts/persona-audio-stack.md @entities/persona-ops/fish-speech.md @sources/persona-ops-stack-2026.md @entities/voice-models/barewave.md @concepts/waveform-native-flow-matching-tts.md @sources/arxiv-2608-03011-daien-tts.md @entities/voice-models/daien-tts.md @sources/arxiv-2608-03215-grow-tts-rl.md @entities/voice-models/grow-tts.md
+@concepts/persona-audio-stack.md @entities/persona-ops/fish-speech.md @sources/persona-ops-stack-2026.md @entities/voice-models/barewave.md @concepts/waveform-native-flow-matching-tts.md @sources/arxiv-2608-03011-daien-tts.md @entities/voice-models/daien-tts.md @sources/arxiv-2608-03215-grow-tts-rl.md @entities/voice-models/grow-tts.md @sources/arxiv-2608-05507-affectdf-routed.md
+
 
 ## Raw Concept
 

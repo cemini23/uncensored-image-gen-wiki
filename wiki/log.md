@@ -1,3 +1,29 @@
+## [2026-08-07] ingest | EmoWorld WATCH + AffectDF→cybersec (+ 6 SKIP)
+
+Full inbox ingest of 8 NEW arXiv PDFs (preingest clean).
+
+### GO / CONDITIONAL / WATCH
+- **NEW** `@sources/arxiv-2608-06231-emoworld.md` + `@entities/models/emoworld.md` — frozen Wan2.2 Video DiT affective steering (VAS/SAS/TAS); **WATCH** (no public code)
+- **ROUTE** `@sources/arxiv-2608-05507-affectdf-routed.md` → Cybersecurity `briefs/2026-08-07_affectdf-emotional-speech-deepfake-from-image-gen.md` — emotional speech deepfake bench (CC BY-NC); CosyVoice/F5-TTS attack surface note
+
+### SKIP peripherals
+- Adaptive-WAM (AV Wan early-exit; code TBA) · GeniWorld (robot WM) · VIDP · Ultraneuron · Monte Carlo bosonic · SG-TULA Langevin
+
+### Phase-1
+- Image-gen local wire: **none**. EmoWorld `wire_status: deferred`.
+
+### Briefs / routing
+- `briefs/2026-08-07_emoworld-emotional-video-adoption.md` — local-only (TipDrop/David retired)
+- AffectDF → cybersec brief (not atto/poker/guru/prod)
+- No cemini-prod SCP
+
+### Local adopt (<500 MB)
+- None (no GO code; AffectDF corpus ~260h NC — do not clone)
+
+### Archive
+- **egress-fi SSH timeout** — PDFs parked at `raw-sources/pending-egress-2026-08-07/` (gitignored). Re-run `archive_raw_to_egress.sh --wiki-id image-gen` when jump host recovers.
+
+
 ## [2026-08-06] ingest | EmpaAva CONDITIONAL-GO + HelloWorld/ReSem-Face WATCH (+ 5 SKIP)
 
 Full inbox ingest of 8 NEW arXiv PDFs (preingest clean).

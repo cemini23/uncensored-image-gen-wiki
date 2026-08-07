@@ -76,18 +76,22 @@ related:
   - sources/arxiv-2608-04709-empaava.md
   - entities/persona-ops/empaava.md
   - sources/arxiv-2608-05070-helloworld.md
+  - sources/arxiv-2608-06231-emoworld.md
+  - entities/models/emoworld.md
 title: "Persona operations stack (architecture overview)"
 type: concept
 tags: [persona-ops, automation, stack-architecture, multi-account, dm-automation, voice-cloning, orchestration, content-pipelines]
 keywords: [persona-ops, scheduling, anti-detect-browsers, residential-proxies, sillytavern, local-llm, voice-cloning, n8n, orchestration, comfyui, fal-ai, replicate, modal, telegram, postiz]
 maturity: draft
 created: 2026-05-07
-updated: 2026-08-06
+updated: 2026-08-07
 ---
 
 ## Relations
 
-@sources/persona-ops-stack-2026.md @sources/persona-monetization-2026.md @concepts/persona-monetization-models.md @concepts/persona-failure-modes.md @concepts/persona-content-cadence.md @concepts/persona-consistency-methods.md @entities/persona-ops/postiz.md @entities/persona-ops/sillytavern.md @entities/persona-ops/fish-speech.md @entities/persona-ops/n8n.md @concepts/persona-legal-landscape.md @concepts/persona-payment-rails.md @entities/personas/aitana-lopez.md @sources/arxiv-2608-03887-omega-s.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md @sources/arxiv-2608-05070-helloworld.md
+@sources/persona-ops-stack-2026.md @sources/persona-monetization-2026.md @concepts/persona-monetization-models.md @concepts/persona-failure-modes.md @concepts/persona-content-cadence.md @concepts/persona-consistency-methods.md @entities/persona-ops/postiz.md @entities/persona-ops/sillytavern.md @entities/persona-ops/fish-speech.md @entities/persona-ops/n8n.md @concepts/persona-legal-landscape.md @concepts/persona-payment-rails.md @entities/personas/aitana-lopez.md @sources/arxiv-2608-03887-omega-s.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md @sources/arxiv-2608-05070-helloworld.md @sources/arxiv-2608-06231-emoworld.md @entities/models/emoworld.md
+
+
 @concepts/marketing-your-persona.md
 @concepts/model-selection-workflow.md
 @concepts/synthetic-media-ip-valuation.md

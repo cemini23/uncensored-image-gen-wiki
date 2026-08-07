@@ -19,14 +19,16 @@ related:
   - sweeps/2026-07-17-daily.md
   - sources/arxiv-2607-15694-voice-clone-attribution-geometry-floor.md
   - sweeps/2026-07-20-daily.md
+  - sources/arxiv-2608-05507-affectdf-routed.md
 maturity: draft
 created: 2026-06-30
-updated: 2026-07-20
+updated: 2026-08-07
 ---
 
 ## Relations
 
-@sources/arxiv-2411-19537-deepfake-generation-detection-survey.md @concepts/persona-failure-modes.md @concepts/persona-audio-stack.md
+@sources/arxiv-2411-19537-deepfake-generation-detection-survey.md @concepts/persona-failure-modes.md @concepts/persona-audio-stack.md @sources/arxiv-2608-05507-affectdf-routed.md
+
 
 ## Raw Concept
 
