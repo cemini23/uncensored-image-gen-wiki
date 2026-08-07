@@ -19,7 +19,7 @@ updated: 2026-08-07
 
 - **Title**: The Tamed Subgradient Unadjusted Langevin Algorithm beyond Convexity
 - **Type**: arXiv:2608.06283
-- **Location**: `raw-sources/pending-egress-2026-08-07/arxiv-2608.06283-the-tamed-subgradient-unadjusted-langevin-algori.pdf` (egress-fi SSH timeout 2026-08-07; intended `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2608.06283-the-tamed-subgradient-unadjusted-langevin-algori.pdf`)
+- **Location**: `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2608.06283-the-tamed-subgradient-unadjusted-langevin-algori.pdf`
 - **URL**: https://arxiv.org/abs/2608.06283
 - **Retrieved**: 2026-08-07
 

@@ -21,7 +21,7 @@ Full inbox ingest of 8 NEW arXiv PDFs (preingest clean).
 - None (no GO code; AffectDF corpus ~260h NC — do not clone)
 
 ### Archive
-- **egress-fi SSH timeout** — PDFs parked at `raw-sources/pending-egress-2026-08-07/` (gitignored). Re-run `archive_raw_to_egress.sh --wiki-id image-gen` when jump host recovers.
+- All 8 PDFs archived to egress-fi (retry after SSH recovery). Pending local dir cleared.
 
 
 ## [2026-08-06] ingest | EmpaAva CONDITIONAL-GO + HelloWorld/ReSem-Face WATCH (+ 5 SKIP)

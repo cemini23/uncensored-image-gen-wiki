@@ -24,7 +24,7 @@ Primary: cybersecurity wiki brief `briefs/2026-08-07_affectdf-emotional-speech-d
 
 - **Title**: AffectDF: The Most Comprehensive Benchmark for Speech Deepfake Detection against Emotionally Expressive Attacks
 - **Type**: arXiv:2608.05507
-- **Location**: `raw-sources/pending-egress-2026-08-07/arxiv-2608.05507-affectdf-the-most-comprehensive-benchmark-for-sp.pdf` (egress-fi SSH timeout 2026-08-07; intended `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2608.05507-affectdf-the-most-comprehensive-benchmark-for-sp.pdf`)
+- **Location**: `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2608.05507-affectdf-the-most-comprehensive-benchmark-for-sp.pdf`
 - **URL**: https://arxiv.org/abs/2608.05507
 - **Resources**: https://affectdf33-data.github.io/AffectDF-Data/ · HF `AffectDF/AffectDF_EmotionSDD` (empty at ingest)
 - **License (dataset)**: CC BY-NC 4.0 (research / non-commercial)

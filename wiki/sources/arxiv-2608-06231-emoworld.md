@@ -24,7 +24,7 @@ updated: 2026-08-07
 
 - **Title**: EmoWorld: A Decoupled Affective Field for Controllable Emotional Video Generation
 - **Type**: arXiv:2608.06231
-- **Location**: `raw-sources/pending-egress-2026-08-07/arxiv-2608.06231-emoworld-a-decoupled-affective-field-for-control.pdf` (egress-fi SSH timeout 2026-08-07; intended `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2608.06231-emoworld-a-decoupled-affective-field-for-control.pdf`)
+- **Location**: `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2608.06231-emoworld-a-decoupled-affective-field-for-control.pdf`
 - **URL**: https://arxiv.org/abs/2608.06231
 - **Code**: none public at ingest (no matching GitHub)
 - **Retrieved**: 2026-08-07

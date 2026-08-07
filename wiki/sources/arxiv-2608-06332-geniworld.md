@@ -20,7 +20,7 @@ updated: 2026-08-07
 
 - **Title**: GeniWorld: A Generalizable Interactive World Model for Robotic Manipulation via Visual Actions
 - **Type**: arXiv:2608.06332
-- **Location**: `raw-sources/pending-egress-2026-08-07/arxiv-2608.06332-geniworld-a-generalizable-interactive-world-mode.pdf` (egress-fi SSH timeout 2026-08-07; intended `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2608.06332-geniworld-a-generalizable-interactive-world-mode.pdf`)
+- **Location**: `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2608.06332-geniworld-a-generalizable-interactive-world-mode.pdf`
 - **URL**: https://arxiv.org/abs/2608.06332
 - **Retrieved**: 2026-08-07
 

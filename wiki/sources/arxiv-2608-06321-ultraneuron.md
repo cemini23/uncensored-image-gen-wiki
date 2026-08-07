@@ -19,7 +19,7 @@ updated: 2026-08-07
 
 - **Title**: An open-source framework for predicting ultrasound neuromodulation
 - **Type**: arXiv:2608.06321
-- **Location**: `raw-sources/pending-egress-2026-08-07/arxiv-2608.06321-an-open-source-framework-for-predicting-ultrasou.pdf` (egress-fi SSH timeout 2026-08-07; intended `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2608.06321-an-open-source-framework-for-predicting-ultrasou.pdf`)
+- **Location**: `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2608.06321-an-open-source-framework-for-predicting-ultrasou.pdf`
 - **URL**: https://arxiv.org/abs/2608.06321
 - **Retrieved**: 2026-08-07
 
