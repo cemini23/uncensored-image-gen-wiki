@@ -1,10 +1,10 @@
 # Uncensored Image + Voice/Audio Gen Wiki
 
-A research wiki for **uncensored local generative media** — image, video, **voice/TTS, lipsync, music, and sound effects** — model catalogs, persona-consistency methods, training tools, and AI persona operations stacks. Curated as of **May 2026**.
+Welcome. This is a research wiki for **uncensored local generative media** — image, video, **voice/TTS, lipsync, music, and sound effects** — plus model catalogs, persona-consistency methods, training tools, and AI persona operations stacks. Curated through **August 2026**.
 
-(Repo directory remains `Image gen/`; the historical name is preserved for backwards-compatibility. Scope was expanded from image-only to include voice/audio generation in W3 / 2026-05-13.)
+(Repo directory remains `Image gen/`; the historical name is kept for backwards-compatibility. Scope expanded from image-only to include voice/audio generation in W3 / 2026-05-13.)
 
-The wiki is structured for an LLM-driven librarian workflow (Claude Code, Codex, Gemini CLI, etc.) but is fully readable as plain Markdown. Every page is interlinked, citation-tagged, and built to be lint-checked.
+The wiki is structured for an LLM-driven librarian workflow (Claude Code, Codex, Gemini CLI, Cursor, etc.) and remains fully readable as plain Markdown. Every page is interlinked, citation-tagged, and built to be lint-checked.
 
 ## What's inside
 
@@ -22,8 +22,8 @@ The wiki is structured for an LLM-driven librarian workflow (Claude Code, Codex,
 
 ## Architecture — three layers
 
-1. **Raw sources** (`raw-sources/`, gitignored) — immutable inputs: deep-research dumps, model cards, papers, GitHub READMEs.
-2. **The wiki** (`wiki/`) — LLM-written, human-read. Source pages, entity pages (models, adapters, training tools), concept pages.
+1. **Raw sources** (`raw-sources/`, gitignored; new drops land in `research to be indexed/`) — immutable inputs: deep-research dumps, model cards, papers, GitHub READMEs.
+2. **The wiki** (`wiki/`) — LLM-written, human-read. Source pages, entity pages (models, adapters, training tools), concept pages, runbooks.
 3. **The schema** (`CLAUDE.md`) — operational instructions for the LLM agent maintaining the wiki.
 
 ## Layout
@@ -52,14 +52,17 @@ The wiki is structured for an LLM-driven librarian workflow (Claude Code, Codex,
 │   │                    #   sfx-models/ (foley / text-to-audio)
 │   │                    #   adapters/, training-tools/, custom-nodes/,
 │   │                    #   uis/, marketplaces/, hardware/,
-│   │                    #   persona-ops/, personas/
+│   │                    #   persona-ops/, personas/, …
 │   ├── concepts/        # techniques, methodologies, workflows, ops strategies
-│   └── runbooks/        # beginner-to-intermediate task guides
+│   ├── runbooks/        # beginner-to-intermediate task guides
+│   ├── meta/            # wiki meta pages
+│   └── sweeps/          # daily research-sweep notes
 ├── briefs/              # polished deliverables (gitignored)
-├── docs/                # third-party reference docs (read-only)
+├── docs/                # third-party / setup reference docs
 ├── prompts/             # reusable research prompts (deep-research, case-studies, etc.)
-├── scripts/             # wiki lint, gap detection, ingest dedup, pre-commit hook, wiki sync
-└── raw-sources/         # gitignored — raw research inputs (papers, model cards, repo dumps)
+├── scripts/             # wiki lint, gap detection, ingest dedup, hooks, sync helpers
+├── research to be indexed/  # transient drop zone (gitignored)
+└── raw-sources/         # gitignored — archived raw research inputs
 ```
 
 ## Wiki page format
@@ -121,13 +124,11 @@ Pages link via `@path/to/page.md` syntax (relative to `wiki/`). If page A lists 
 
 ```bash
 # 1. Drop the source file into research to be indexed/
-# 2. Check for duplicates against existing sources/
+# 2. Check for duplicates against existing wiki/sources/
 python3 scripts/preingest_check.py
 
-# 3. Read, synthesize, and create wiki pages (LLM-driven)
-# 4. Move raw source to raw-sources/
-mv "research to be indexed/<filename>" raw-sources/
-
+# 3. Read, synthesize, and create wiki pages (LLM-driven; see CLAUDE.md)
+# 4. Archive the raw file (local raw-sources/ and/or operator egress per CLAUDE.md)
 # 5. Append to wiki/log.md and update wiki/index.md
 ```
 
@@ -182,24 +183,30 @@ After running the script, open Obsidian → **Open Vault** → select `~/ImageGe
 
 Enable CSS snippets in Settings → Appearance for citation badge and cross-link styling (`.obsidian/snippets/cross-links-and-citations.css`).
 
-The wiki is plain Markdown — works in any editor or static-site generator (MkDocs, Quartz) too.
+More detail: [`docs/obsidian-setup.md`](docs/obsidian-setup.md). The wiki is plain Markdown — it also works in any editor or static-site generator (MkDocs, Quartz).
 
 ## Scope and posture
 
 This wiki documents publicly available open-weight image, video, **voice/TTS, lipsync, music, and SFX/foley** generation models and the techniques creators apply to them. Coverage is **research-oriented**: model architectures, license terms (including code-vs-weights splits common in voice/audio), hardware tiers, training recipes, alignment-removal techniques, persona-consistency methods, **persona audio stack integration** (voice → lipsync → music → SFX), and **legal-landscape exposure** (right-of-publicity per Vacker v ElevenLabs; training-data exposure per RIAA v Suno/Udio). The wiki does **not** distribute model weights, NSFW content, voice reference audio, or platform-bypass tooling — only references where information lives in upstream model cards, papers, repositories, and community posts.
 
-Adult AI persona operations are documented as a research domain (per `MEMORY.md` scope: "adult AI personas track; hardware-agnostic; skip platforms/policy"). The wiki cites public press coverage, model cards, and community guides without identifying private creators.
+Adult AI persona operations are documented as a research domain (hardware-agnostic; public methods and legal landscape — see `CLAUDE.md` / `ROADMAP.md` for active scope). The wiki cites public press coverage, model cards, and community guides without identifying private creators.
 
 ## Related
 
-- Methodology newsletter: [Outlier Weekly](https://outlierweekly.substack.com)
-- YouTube: [@Cemini23](https://www.youtube.com/@Cemini23)
 - Wiki federation hub: [cemini-claude-code-CCC](https://github.com/cemini23/cemini-claude-code-CCC)
 - Agent toolkit: [wikilint](https://github.com/cemini23/wikilint) · [vet](https://github.com/cemini23/vet) · [ara-schema](https://github.com/cemini23/ara-schema)
-- Sibling wikis: [SEO/GEO](https://github.com/cemini23/SEO-GEO-B-M-Wiki) · [Cybersecurity](https://github.com/cemini23/Cybersecurity-wiki) · [3D Printing](https://github.com/cemini23/3D-Printing-Wiki)
-
+- Sibling wikis: [Gambling](https://github.com/cemini23/Gambling-wiki) · [Game Dev](https://github.com/cemini23/Game-Dev-wiki) · [SEO/GEO](https://github.com/cemini23/SEO-GEO-B-M-Wiki) · [Cybersecurity](https://github.com/cemini23/Cybersecurity-wiki) · [3D Printing](https://github.com/cemini23/3D-Printing-Wiki)
 
 ## Support
+
+Thank you for visiting — and thank you for any support you send our way. Tips and attention help keep this wiki and related open research moving.
+
+**Projects & sites**
+
+- Newsletter: [Outlier Weekly](https://outlierweekly.substack.com) on Substack
+- Atto: [youratto.com](https://youratto.com)
+- GuruWatcher: [guruwatcher.com](https://guruwatcher.com)
+- YouTube: [@Cemini23](https://www.youtube.com/@Cemini23)
 
 Voluntary tips fund open research and tooling. **Donation-only addresses** — not trading or production wallets.
 
@@ -208,7 +215,6 @@ Voluntary tips fund open research and tooling. **Donation-only addresses** — n
 | **EVM** (Ethereum, Polygon, Base, Arbitrum, …) | `0x444C5C2eC439E0382aa5a17F70313c536BcC5D58` |
 | **Solana / SVM** | `J4zNn4hK9jTrKBFY8sbAGJHLoZvXvQf4B9pQSbSrocZE` |
 | **Polymarket** (referral) | [polymarket.com/?r=Cemini23](https://polymarket.com/?r=Cemini23) |
-
 
 ## License
 
