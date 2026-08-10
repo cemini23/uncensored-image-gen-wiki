@@ -4,38 +4,40 @@ type: concept
 tags: [benchmark, audio-video, multi-shot, evaluation, cinematic, lipsync, narrative]
 keywords: [MSAV, MSAVBench, multi-shot audio-video, VBench, AVGen-Bench, ViStoryBench, narrative coherence, lip synchronization, shot segmentation, video-first dubbing, unified AV architecture, director-level control]
 related:
-  - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
-  - concepts/sync-audio-video-customization.md
   - concepts/joint-audio-visual-instruction-editing.md
   - concepts/persona-audio-stack.md
   - concepts/seam-stitching-strategies.md
-  - entities/models/ltx-2.md
-  - entities/models/wan-2-2.md
-  - entities/models/seedance-2.md
+  - concepts/sync-audio-video-customization.md
+  - entities/benchmarks/filmbench.md
+  - entities/benchmarks/filmops.md
+  - entities/benchmarks/mmag.md
+  - entities/benchmarks/refcaptioner.md
+  - entities/benchmarks/vgif-score.md
   - entities/lipsync/latentsync.md
+  - entities/models/av-flamingo.md
+  - entities/models/ltx-2.md
   - entities/models/omnicustom.md
-  - sources/video-generation-survey-2026.md
-  - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
+  - entities/models/seedance-2.md
+  - entities/models/wan-2-2.md
+  - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
   - sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md
   - sources/arxiv-2606-03672-foley-omni.md
   - sources/arxiv-2607-13527-vgif-score-video-instruction-eval.md
-  - entities/benchmarks/vgif-score.md
   - sources/arxiv-2607-16107-audio-visual-flamingo.md
-  - entities/models/av-flamingo.md
-  - sweeps/2026-07-20-daily.md
-  - entities/benchmarks/filmbench.md
-  - entities/benchmarks/filmops.md
   - sources/arxiv-2607-24241-filmbench.md
-  - entities/benchmarks/refcaptioner.md
   - sources/arxiv-2607-28509-refcaptioner.md
+  - sources/arxiv-2608-06900-mmag.md
+  - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
+  - sources/video-generation-survey-2026.md
+  - sweeps/2026-07-20-daily.md
 maturity: draft
 created: 2026-06-08
-updated: 2026-07-31
+updated: 2026-08-10
 ---
 
 ## Relations
 
-@sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md @concepts/sync-audio-video-customization.md @concepts/persona-audio-stack.md @concepts/seam-stitching-strategies.md @entities/models/ltx-2.md @entities/models/wan-2-2.md @entities/models/seedance-2.md @entities/benchmarks/vgif-score.md @entities/benchmarks/refcaptioner.md @sources/arxiv-2607-28509-refcaptioner.md
+@sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md @concepts/sync-audio-video-customization.md @concepts/persona-audio-stack.md @concepts/seam-stitching-strategies.md @entities/models/ltx-2.md @entities/models/wan-2-2.md @entities/models/seedance-2.md @entities/benchmarks/vgif-score.md @entities/benchmarks/refcaptioner.md @sources/arxiv-2607-28509-refcaptioner.md @sources/arxiv-2608-06900-mmag.md @entities/benchmarks/mmag.md
 
 ## Raw Concept
 

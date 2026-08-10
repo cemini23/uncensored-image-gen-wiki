@@ -5,27 +5,29 @@ tags: [sfx-generation, foley, text-to-audio, stable-audio, stability-ai, latent-
 keywords: [Stable Audio Open, Stable Audio Open 1.0, Stability AI Community License, 47 seconds, 44.1kHz stereo, latent diffusion, T5 conditioning, 1.21B parameters, CC0 CC-BY CC-Sampling+ training data, 1024 latent tokens, foley, sound effects, ambient, drum beats]
 related:
   - concepts/persona-audio-stack.md
+  - concepts/unified-audio-text-llm-no-text-regression.md
+  - concepts/unified-controllable-video-to-audio.md
+  - entities/benchmarks/mmag.md
+  - entities/models/foley-omni.md
+  - entities/models/foleygenex.md
   - entities/music-models/ace-step.md
   - entities/music-models/musicgen.md
+  - entities/sfx-models/audio-omni.md
   - entities/sfx-models/audioldm.md
   - entities/sfx-models/tango-2.md
-  - entities/sfx-models/audio-omni.md
   - entities/voice-models/bark.md
-  - sources/persona-ops-stack-2026.md
-  - entities/models/foley-omni.md
+  - entities/voice-models/nemotron-audex.md
+  - entities/voice-models/qwen-audio-3-gen.md
   - sources/arxiv-2606-03672-foley-omni.md
   - sources/arxiv-2606-14049-foleygenex-unified-vta.md
-  - concepts/unified-controllable-video-to-audio.md
-  - entities/models/foleygenex.md
-  - concepts/unified-audio-text-llm-no-text-regression.md
   - sources/arxiv-2607-05196-nemotron-audex-unified-audio-intelligence.md
-  - entities/voice-models/nemotron-audex.md
-  - sweeps/2026-07-12-daily.md
-  - entities/voice-models/qwen-audio-3-gen.md
   - sources/arxiv-2607-27011-qwen-audio-3-gen.md
+  - sources/arxiv-2608-06900-mmag.md
+  - sources/persona-ops-stack-2026.md
+  - sweeps/2026-07-12-daily.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-07-31
+updated: 2026-08-10
 ---
 
 ## Relations
@@ -36,7 +38,7 @@ updated: 2026-07-31
 @entities/sfx-models/audioldm.md
 @entities/sfx-models/tango-2.md
 @entities/sfx-models/audio-omni.md @entities/voice-models/bark.md
-@sources/persona-ops-stack-2026.md @entities/voice-models/qwen-audio-3-gen.md @sources/arxiv-2607-27011-qwen-audio-3-gen.md
+@sources/persona-ops-stack-2026.md @entities/voice-models/qwen-audio-3-gen.md @sources/arxiv-2607-27011-qwen-audio-3-gen.md @sources/arxiv-2608-06900-mmag.md @entities/benchmarks/mmag.md
 
 ## Raw Concept
 

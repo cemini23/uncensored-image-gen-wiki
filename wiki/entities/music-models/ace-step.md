@@ -5,17 +5,19 @@ tags: [music-generation, text-to-music, diffusion, ace-step, stepfun, ace-studio
 keywords: [ACE-Step, ACE-Step-v1-3.5B, ACE-Step-1.5, StepFun, ACE Studio, music foundation model, Sana DCAE, deep compression autoencoder, linear transformer, full song generation, Apache 2.0, cross-platform Mac AMD Intel CUDA]
 related:
   - concepts/persona-audio-stack.md
+  - concepts/persona-content-cadence.md
+  - entities/benchmarks/mmag.md
   - entities/music-models/musicgen.md
   - entities/music-models/suno.md
   - entities/music-models/udio.md
   - entities/sfx-models/stable-audio-open.md
-  - concepts/persona-content-cadence.md
-  - sources/persona-ops-stack-2026.md
   - entities/voice-models/qwen-audio-3-gen.md
   - sources/arxiv-2607-27011-qwen-audio-3-gen.md
+  - sources/arxiv-2608-06900-mmag.md
+  - sources/persona-ops-stack-2026.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-07-31
+updated: 2026-08-10
 ---
 
 ## Relations
@@ -25,7 +27,7 @@ updated: 2026-07-31
 @entities/music-models/suno.md @entities/music-models/udio.md
 @entities/sfx-models/stable-audio-open.md
 @concepts/persona-content-cadence.md
-@sources/persona-ops-stack-2026.md @entities/voice-models/qwen-audio-3-gen.md @sources/arxiv-2607-27011-qwen-audio-3-gen.md
+@sources/persona-ops-stack-2026.md @entities/voice-models/qwen-audio-3-gen.md @sources/arxiv-2607-27011-qwen-audio-3-gen.md @sources/arxiv-2608-06900-mmag.md @entities/benchmarks/mmag.md
 
 ## Raw Concept
 

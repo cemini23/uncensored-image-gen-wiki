@@ -1,64 +1,66 @@
 ---
 related:
-  - meta/daily-research-digest-cadence.md
-  - concepts/persona-ops-stack.md
   - concepts/persona-audio-stack.md
+  - concepts/persona-ops-stack.md
+  - entities/custom-nodes/comfyui-mcp.md
   - entities/omnivoice.md
-  - sweeps/_daily-template.md
-  - sweeps/2026-06-01-inbox-triage.md
-  - sweeps/2026-06-01-daily.md
-  - sweeps/2026-06-02-inbox-triage.md
-  - sweeps/2026-06-02-daily.md
+  - meta/daily-research-digest-cadence.md
   - sources/arxiv-2605-29251-provably-secure-agent-guardrail-routed.md
+  - sources/arxiv-2606-09701-advgrpo-red-teaming-routed.md
+  - sources/arxiv-2606-13768-cineorchestra-entity-centric-cinematic-video.md
+  - sources/arxiv-2606-14317-causalmotion-physical-reasoning-video.md
+  - sources/arxiv-2606-15117-eav-dfd-deepfake-detection-routed.md
+  - sources/arxiv-2606-15396-chillguard-chinese-llm-safety.md
+  - sources/arxiv-2606-16449-permavid-disentangled-context-memory.md
+  - sources/arxiv-2606-16533-kairos-native-world-model-stack.md
+  - sources/arxiv-2606-17257-reins-video-safety-representation-steering.md
+  - sources/arxiv-2606-17536-omnidrive-llm-choreographed-driving-world.md
+  - sources/arxiv-2606-17566-aoizora-topology-aware-dit-parallel.md
+  - sources/arxiv-2606-17742-brainworld-fmri-structural-prior.md
+  - sources/arxiv-2606-17999-voidpadding-mdlm-padding.md
+  - sources/arxiv-2606-18249-uniar-shared-context-visual-tokenizer.md
+  - sources/arxiv-2606-18375-paiworld-3d-consistent-world-foundation.md
+  - sources/arxiv-2606-18702-unitemp-bidirectional-video-generation.md
+  - sources/arxiv-2606-19103-productconsistency-product-identity-editing.md
+  - sources/arxiv-2606-19271-turboserve-streaming-video-serving.md
+  - sources/arxiv-2606-20506-freestyle-community-lora-mining.md
+  - sources/arxiv-2606-20971-unity-attention-flow-conditioning.md
+  - sources/arxiv-2606-21710-privacyalign-llm-agents.md
+  - sources/arxiv-2607-28520-cs-rnr-opponent-exploit-routed.md
+  - sources/arxiv-2607-28936-diffattack-fr-evasion.md
+  - sweeps/2026-06-01-daily.md
+  - sweeps/2026-06-01-inbox-triage.md
+  - sweeps/2026-06-02-daily.md
+  - sweeps/2026-06-02-inbox-triage.md
   - sweeps/2026-06-03-daily.md
   - sweeps/2026-06-04-daily.md
   - sweeps/2026-06-04-inbox-triage.md
-  - sweeps/2026-06-05-inbox-triage.md
   - sweeps/2026-06-05-daily.md
+  - sweeps/2026-06-05-inbox-triage.md
   - sweeps/2026-06-06-daily.md
   - sweeps/2026-06-07-daily.md
   - sweeps/2026-06-08-daily.md
-  - sweeps/2026-06-10-daily.md
-  - sources/arxiv-2606-09701-advgrpo-red-teaming-routed.md
   - sweeps/2026-06-09-daily.md
+  - sweeps/2026-06-10-daily.md
   - sweeps/2026-06-11-daily.md
   - sweeps/2026-06-12-daily.md
-  - sweeps/2026-06-15-daily.md
   - sweeps/2026-06-13-daily.md
   - sweeps/2026-06-14-daily.md
+  - sweeps/2026-06-15-daily.md
   - sweeps/2026-06-16-daily.md
   - sweeps/2026-06-17-daily.md
   - sweeps/2026-06-18-daily.md
-  - sources/arxiv-2606-15117-eav-dfd-deepfake-detection-routed.md
-  - sources/arxiv-2606-15396-chillguard-chinese-llm-safety.md
-  - sources/arxiv-2606-14317-causalmotion-physical-reasoning-video.md
-  - sources/arxiv-2606-16449-permavid-disentangled-context-memory.md
-  - sources/arxiv-2606-13768-cineorchestra-entity-centric-cinematic-video.md
-  - sources/arxiv-2606-16533-kairos-native-world-model-stack.md
-  - sources/arxiv-2606-18702-unitemp-bidirectional-video-generation.md
-  - sources/arxiv-2606-19103-productconsistency-product-identity-editing.md
   - sweeps/2026-06-19-daily.md
-  - sources/arxiv-2606-17257-reins-video-safety-representation-steering.md
-  - sources/arxiv-2606-19271-turboserve-streaming-video-serving.md
   - sweeps/2026-06-20-daily.md
-  - sources/arxiv-2606-17536-omnidrive-llm-choreographed-driving-world.md
-  - sources/arxiv-2606-17999-voidpadding-mdlm-padding.md
-  - sources/arxiv-2606-18249-uniar-shared-context-visual-tokenizer.md
   - sweeps/2026-06-21-daily.md
-  - sources/arxiv-2606-18375-paiworld-3d-consistent-world-foundation.md
-  - sources/arxiv-2606-20506-freestyle-community-lora-mining.md
   - sweeps/2026-06-22-daily.md
-  - sources/arxiv-2606-17566-aoizora-topology-aware-dit-parallel.md
-  - sources/arxiv-2606-17742-brainworld-fmri-structural-prior.md
-  - sources/arxiv-2606-20971-unity-attention-flow-conditioning.md
-  - sources/arxiv-2606-21710-privacyalign-llm-agents.md
   - sweeps/2026-06-23-daily.md
   - sweeps/2026-06-24-daily.md
   - sweeps/2026-06-25-daily.md
   - sweeps/2026-06-26-daily.md
   - sweeps/2026-06-27-daily.md
-  - sweeps/2026-06-29-daily.md
   - sweeps/2026-06-28-daily.md
+  - sweeps/2026-06-29-daily.md
   - sweeps/2026-06-30-daily.md
   - sweeps/2026-07-01-daily.md
   - sweeps/2026-07-02-daily.md
@@ -69,24 +71,25 @@ related:
   - sweeps/2026-07-08-daily.md
   - sweeps/2026-07-09-daily.md
   - sweeps/2026-07-10-daily.md
-  - entities/custom-nodes/comfyui-mcp.md
   - sweeps/2026-07-11-daily.md
   - sweeps/2026-07-12-daily.md
   - sweeps/2026-07-13-daily.md
-  - sources/arxiv-2607-28520-cs-rnr-opponent-exploit-routed.md
   - sweeps/2026-08-01-daily.md
-  - sources/arxiv-2607-28936-diffattack-fr-evasion.md
   - sweeps/2026-08-04-daily.md
   - sweeps/2026-08-05-daily.md
   - sweeps/2026-08-06-daily.md
   - sweeps/2026-08-07-daily.md
+  - sweeps/2026-08-08-daily.md
+  - sweeps/2026-08-09-daily.md
+  - sweeps/2026-08-10-daily.md
+  - sweeps/_daily-template.md
 title: Federated daily research digest
 type: concept
 tags: [meta, automation, federation, discovery, k93]
 keywords: [daily-research-digest, exa, inbox, sweep, federated, launchagent, discovery-loop]
 maturity: validated
 created: 2026-06-01
-updated: 2026-08-07
+updated: 2026-08-10
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

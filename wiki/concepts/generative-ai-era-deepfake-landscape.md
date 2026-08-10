@@ -4,31 +4,31 @@ type: concept
 tags: [concept, deepfake, detection, security, persona-ops, diffusion]
 keywords: [deepfake taxonomy, BioDeepAV, OOD detection, POI detection, diffusion fakes, voice clone, portrait animation]
 related:
-  - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
-  - concepts/persona-failure-modes.md
-  - concepts/persona-legal-landscape.md
+  - concepts/likeness-collision-verification.md
   - concepts/persona-audio-stack.md
   - concepts/persona-consistency-methods.md
-  - sources/arxiv-2606-15117-eav-dfd-deepfake-detection-routed.md
+  - concepts/persona-failure-modes.md
+  - concepts/persona-legal-landscape.md
   - entities/lipsync/latentsync.md
   - entities/persona-ops/fish-speech.md
-  - sources/persona-monetization-2026.md
-  - concepts/likeness-collision-verification.md
-  - sweeps/2026-06-30-daily.md
+  - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
+  - sources/arxiv-2606-15117-eav-dfd-deepfake-detection-routed.md
   - sources/arxiv-2607-14753-lalms-spoofing-aware-asv.md
-  - sweeps/2026-07-17-daily.md
   - sources/arxiv-2607-15694-voice-clone-attribution-geometry-floor.md
-  - sweeps/2026-07-20-daily.md
   - sources/arxiv-2608-05507-affectdf-routed.md
+  - sources/arxiv-2608-06732-ps-fnvd-routed.md
+  - sources/persona-monetization-2026.md
+  - sweeps/2026-06-30-daily.md
+  - sweeps/2026-07-17-daily.md
+  - sweeps/2026-07-20-daily.md
 maturity: draft
 created: 2026-06-30
-updated: 2026-08-07
+updated: 2026-08-10
 ---
 
 ## Relations
 
-@sources/arxiv-2411-19537-deepfake-generation-detection-survey.md @concepts/persona-failure-modes.md @concepts/persona-audio-stack.md @sources/arxiv-2608-05507-affectdf-routed.md
-
+@sources/arxiv-2411-19537-deepfake-generation-detection-survey.md @concepts/persona-failure-modes.md @concepts/persona-audio-stack.md @sources/arxiv-2608-05507-affectdf-routed.md @sources/arxiv-2608-06732-ps-fnvd-routed.md
 
 ## Raw Concept
 

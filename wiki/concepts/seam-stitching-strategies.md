@@ -1,45 +1,47 @@
 ---
 related:
-  - sources/video-generation-survey-2026.md
+  - concepts/agentic-video-editing-orchestration.md
+  - concepts/autoregressive-video-foresight-training.md
+  - concepts/bidirectional-autoregressive-video-generation.md
+  - concepts/cascaded-streaming-high-resolution-video.md
+  - concepts/causal-clip-attention-long-video.md
+  - concepts/hierarchical-latent-coarse-to-fine-video.md
+  - concepts/hunyuanvideo-homa-weak-hoi-video.md
+  - concepts/lightweight-video-history-embeddings.md
+  - concepts/long-video-rag-retrieval.md
+  - concepts/multi-shot-audio-video-evaluation.md
+  - concepts/one-step-autoregressive-video-distillation.md
+  - concepts/persona-audio-stack.md
+  - concepts/streaming-force-controlled-video-generation.md
+  - concepts/streaming-video-generation-serving.md
   - concepts/video-identity-inheritance.md
-  - entities/models/wan-2-2.md
+  - entities/models/cogvideox-1-5.md
   - entities/models/hunyuanvideo-1-5.md
   - entities/models/ltx-2.md
+  - entities/models/mirrorworld.md
   - entities/models/mochi-1.md
-  - entities/models/cogvideox-1-5.md
+  - entities/models/unitemp.md
+  - entities/models/wan-2-2.md
   - entities/uis/comfyui.md
-  - concepts/persona-audio-stack.md
-  - concepts/long-video-rag-retrieval.md
+  - sources/arxiv-2506-08797-hunyuanvideo-homa.md
+  - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
   - sources/arxiv-2606-02553-longlive-rag-long-video-generation.md
   - sources/arxiv-2606-03972-aad-1-one-step-ar-video.md
-  - concepts/one-step-autoregressive-video-distillation.md
-  - concepts/autoregressive-video-foresight-training.md
-  - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
-  - concepts/multi-shot-audio-video-evaluation.md
-  - sources/arxiv-2606-09056-millivid-hierarchical-latents.md
-  - concepts/hierarchical-latent-coarse-to-fine-video.md
   - sources/arxiv-2606-07508-streamforce-streaming-force-video.md
-  - concepts/streaming-force-controlled-video-generation.md
-  - concepts/cascaded-streaming-high-resolution-video.md
+  - sources/arxiv-2606-09056-millivid-hierarchical-latents.md
   - sources/arxiv-2606-18702-unitemp-bidirectional-video-generation.md
-  - concepts/bidirectional-autoregressive-video-generation.md
-  - entities/models/unitemp.md
   - sources/arxiv-2606-19271-turboserve-streaming-video-serving.md
-  - concepts/streaming-video-generation-serving.md
-  - concepts/causal-clip-attention-long-video.md
   - sources/arxiv-2606-22370-error-free-long-video-generation.md
-  - concepts/lightweight-video-history-embeddings.md
-  - concepts/agentic-video-editing-orchestration.md
-  - sources/arxiv-2506-08797-hunyuanvideo-homa.md
-  - concepts/hunyuanvideo-homa-weak-hoi-video.md
   - sources/arxiv-2607-27110-freqforcing.md
+  - sources/arxiv-2608-07463-mirrorworld.md
+  - sources/video-generation-survey-2026.md
 title: Seam stitching strategies (extending video clip length)
 type: concept
 tags: [video-workflow, seam-stitching, latent-chaining, overlap-deduplication, gvs, generative-view-stitching, cyclic-loop, lipsync, length-extension]
 keywords: [seam-stitching, latent-chaining, overlap-deduplication, wanv2v-video-stitcher, kishor900, generative-view-stitching, gvs, omni-guidance, cyclic-latent-conditioning, latentsync, musetalk, unisync, trepa]
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-31
+updated: 2026-08-10
 ---
 
 
@@ -52,7 +54,7 @@ updated: 2026-07-31
 
 Page prompted by the May 2026 video survey ingest. Seam stitching is the family of techniques for chaining short video clips into longer outputs while preserving motion continuity, identity, and structural coherence. Critical for any production above the 5-10 second native-context limit of 2026 open-weight video models.
 
-Synthesized from @sources/video-generation-survey-2026.md.
+Synthesized from @sources/video-generation-survey-2026.md. @sources/arxiv-2608-07463-mirrorworld.md @entities/models/mirrorworld.md
 
 ## Narrative
 

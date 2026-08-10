@@ -14,6 +14,7 @@ related:
   - concepts/ditango-parallel-diffusion-attention.md
   - concepts/frozen-dit-video-super-resolution.md
   - concepts/grpo-i2v-post-training.md
+  - concepts/hand-object-interaction-generation.md
   - concepts/hierarchical-latent-coarse-to-fine-video.md
   - concepts/hunyuanvideo-homa-weak-hoi-video.md
   - concepts/implicit-memory-retrieval-video-world-models.md
@@ -31,10 +32,12 @@ related:
   - concepts/multi-shot-audio-video-evaluation.md
   - concepts/multi-view-3d-consistent-world-models.md
   - concepts/multimodal-diffusion-mamba-efficient-t2v.md
+  - concepts/mxfp4-attention-video.md
   - concepts/navicache-navigation-guided-video-caching.md
   - concepts/one-step-autoregressive-video-distillation.md
   - concepts/one-step-video-object-removal.md
   - concepts/panoramic-gaussian-video-world-models.md
+  - concepts/parallel-decoding-distillation.md
   - concepts/persona-audio-stack.md
   - concepts/query-warped-video-motion-control.md
   - concepts/ray-space-positional-encoding-video.md
@@ -55,18 +58,26 @@ related:
   - concepts/video-text-editing-glyph-control.md
   - concepts/video-try-on-anything.md
   - concepts/world-models-video-generation.md
+  - entities/benchmarks/filmbench.md
+  - entities/benchmarks/filmops.md
   - entities/benchmarks/geot2v-bench.md
   - entities/benchmarks/vgif-score.md
   - entities/inference/chitu-diffusion.md
   - entities/lipsync/latentsync.md
   - entities/models/albedoedit.md
   - entities/models/anchoredit.md
+  - entities/models/bwm.md
   - entities/models/car.md
   - entities/models/cogvideox-1-5.md
   - entities/models/d2df.md
   - entities/models/decmem.md
+  - entities/models/echocache.md
+  - entities/models/egogenesis.md
   - entities/models/emosh.md
+  - entities/models/emoworld.md
   - entities/models/filmworld.md
+  - entities/models/freqforcing.md
+  - entities/models/helloworld.md
   - entities/models/homie.md
   - entities/models/hunyuanvideo-1-5.md
   - entities/models/ltx-2.md
@@ -75,7 +86,9 @@ related:
   - entities/models/memento.md
   - entities/models/metaworld.md
   - entities/models/mirage.md
+  - entities/models/mirrorworld.md
   - entities/models/mochi-1.md
+  - entities/models/moroute.md
   - entities/models/moverse.md
   - entities/models/moworld.md
   - entities/models/omnicustom.md
@@ -85,9 +98,13 @@ related:
   - entities/models/sana-video-2.md
   - entities/models/seedance-2.md
   - entities/models/self-gradient-forcing.md
+  - entities/models/spade.md
   - entities/models/steervte.md
+  - entities/models/surg-uniworld.md
   - entities/models/tango-ar-video.md
+  - entities/models/taomate.md
   - entities/models/tinyhistory.md
+  - entities/models/token-radius-attention.md
   - entities/models/turboserve.md
   - entities/models/unitemp.md
   - entities/models/vera-identity-s2v.md
@@ -161,6 +178,25 @@ related:
   - sources/arxiv-2607-20368-self-gradient-forcing.md
   - sources/arxiv-2607-21553-sana-video-2-0.md
   - sources/arxiv-2607-21580-graphvid.md
+  - sources/arxiv-2607-24241-filmbench.md
+  - sources/arxiv-2607-24377-mxattention.md
+  - sources/arxiv-2607-26004-pdd.md
+  - sources/arxiv-2607-27036-video-repr-regularization.md
+  - sources/arxiv-2607-27110-freqforcing.md
+  - sources/arxiv-2607-28243-egogenesis.md
+  - sources/arxiv-2607-28394-hoi-foundation-survey.md
+  - sources/arxiv-2607-28509-refcaptioner.md
+  - sources/arxiv-2607-28760-wait-frequency-aware-flow.md
+  - sources/arxiv-2607-29302-bwm-world-model.md
+  - sources/arxiv-2607-29545-moroute.md
+  - sources/arxiv-2608-02474-echocache.md
+  - sources/arxiv-2608-02504-token-radius-attention.md
+  - sources/arxiv-2608-03335-spade.md
+  - sources/arxiv-2608-05070-helloworld.md
+  - sources/arxiv-2608-06008-adaptive-wam.md
+  - sources/arxiv-2608-06231-emoworld.md
+  - sources/arxiv-2608-06770-surg-uniworld.md
+  - sources/arxiv-2608-07463-mirrorworld.md
   - sources/arxiv-activation-steering-video-gen-2606.04775-2026-06-05.md
   - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
   - sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md
@@ -180,45 +216,13 @@ related:
   - sweeps/2026-07-22-daily.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
-  - sources/arxiv-2607-24377-mxattention.md
-  - concepts/mxfp4-attention-video.md
-  - sources/arxiv-2607-24241-filmbench.md
-  - entities/models/taomate.md
-  - entities/benchmarks/filmbench.md
-  - entities/benchmarks/filmops.md
-  - sources/arxiv-2607-26004-pdd.md
-  - concepts/parallel-decoding-distillation.md
-  - entities/models/freqforcing.md
-  - sources/arxiv-2607-27110-freqforcing.md
-  - entities/models/egogenesis.md
-  - concepts/hand-object-interaction-generation.md
-  - sources/arxiv-2607-27036-video-repr-regularization.md
-  - sources/arxiv-2607-28243-egogenesis.md
-  - sources/arxiv-2607-28394-hoi-foundation-survey.md
-  - sources/arxiv-2607-28509-refcaptioner.md
-  - entities/models/token-radius-attention.md
-  - sources/arxiv-2608-02504-token-radius-attention.md
-  - entities/models/bwm.md
-  - sources/arxiv-2607-29302-bwm-world-model.md
-  - entities/models/moroute.md
-  - sources/arxiv-2607-29545-moroute.md
-  - entities/models/echocache.md
-  - sources/arxiv-2607-28760-wait-frequency-aware-flow.md
-  - sources/arxiv-2608-02474-echocache.md
-  - sources/arxiv-2608-03335-spade.md
-  - entities/models/spade.md
-  - sources/arxiv-2608-05070-helloworld.md
-  - entities/models/helloworld.md
-  - sources/arxiv-2608-06231-emoworld.md
-  - entities/models/emoworld.md
-  - sources/arxiv-2608-06008-adaptive-wam.md
 title: Wan 2.2 (Alibaba)
 type: entity
 tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]
 keywords: [wan2.2, wan-2-2, alibaba, mixture-of-experts, dual-expert, snr-routing, 27b, 14b, 5b, ti2v, apache-2.0, abliterated-text-encoder, mq-lab, blink, theyurilover]
 maturity: draft
 created: 2026-05-07
-updated: 2026-08-07
+updated: 2026-08-10
 ---
 
 
@@ -238,7 +242,7 @@ updated: 2026-08-07
 @concepts/query-warped-video-motion-control.md
 @concepts/mobile-wan-chunkwise-video-distillation.md
 @entities/models/m4v.md @concepts/multimodal-diffusion-mamba-efficient-t2v.md @sources/arxiv-2506-10915-m4v-multimodal-mamba-t2v.md
-@entities/models/videorae.md @entities/benchmarks/vgif-score.md
+@entities/models/videorae.md @entities/benchmarks/vgif-score.md @sources/arxiv-2608-06770-surg-uniworld.md @sources/arxiv-2608-07463-mirrorworld.md @entities/models/surg-uniworld.md @entities/models/mirrorworld.md
 
 ## Raw Concept
 

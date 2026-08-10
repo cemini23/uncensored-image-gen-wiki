@@ -25,15 +25,24 @@ related:
   - concepts/ucm-time-aware-pe-warping-world-models.md
   - concepts/video-generation-physical-executability.md
   - concepts/vlm-guided-physical-video-generation.md
+  - entities/benchmarks/worldexam.md
+  - entities/models/bwm.md
   - entities/models/car.md
   - entities/models/causalmotion.md
   - entities/models/decmem.md
+  - entities/models/egogenesis.md
+  - entities/models/emoworld.md
   - entities/models/filmworld.md
+  - entities/models/freqforcing.md
+  - entities/models/garfield.md
+  - entities/models/helloworld.md
   - entities/models/kairos.md
   - entities/models/ltx-2.md
   - entities/models/memento.md
   - entities/models/metaworld.md
   - entities/models/mirage.md
+  - entities/models/mirrorworld.md
+  - entities/models/moroute.md
   - entities/models/moverse.md
   - entities/models/moworld.md
   - entities/models/permavid.md
@@ -41,8 +50,10 @@ related:
   - entities/models/sana-video-2.md
   - entities/models/sana-wm.md
   - entities/models/self-gradient-forcing.md
+  - entities/models/surg-uniworld.md
   - entities/models/tango-ar-video.md
   - entities/models/wan-2-2.md
+  - entities/models/wonder.md
   - entities/models/worldweaver.md
   - sources/arxiv-2602-22960-ucm-camera-control-memory-world-models.md
   - sources/arxiv-2603-18639-orthophys-physics-video.md
@@ -74,6 +85,22 @@ related:
   - sources/arxiv-2607-20368-self-gradient-forcing.md
   - sources/arxiv-2607-21553-sana-video-2-0.md
   - sources/arxiv-2607-21594-worldweaver.md
+  - sources/arxiv-2607-25984-schroedingers-cat.md
+  - sources/arxiv-2607-26037-wonder.md
+  - sources/arxiv-2607-27036-video-repr-regularization.md
+  - sources/arxiv-2607-28243-egogenesis.md
+  - sources/arxiv-2607-28581-road-3d.md
+  - sources/arxiv-2607-29302-bwm-world-model.md
+  - sources/arxiv-2607-29545-moroute.md
+  - sources/arxiv-2608-02406-kl-entropy-diffusion.md
+  - sources/arxiv-2608-02603-worldexam.md
+  - sources/arxiv-2608-05070-helloworld.md
+  - sources/arxiv-2608-06008-adaptive-wam.md
+  - sources/arxiv-2608-06231-emoworld.md
+  - sources/arxiv-2608-06332-geniworld.md
+  - sources/arxiv-2608-06770-surg-uniworld.md
+  - sources/arxiv-2608-07463-mirrorworld.md
+  - sources/arxiv-2608-07468-simwam-skip.md
   - sources/arxiv-activation-steering-video-gen-2606.04775-2026-06-05.md
   - sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md
   - sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md
@@ -89,31 +116,9 @@ related:
   - sweeps/2026-07-22-daily.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
-  - entities/models/wonder.md
-  - entities/models/garfield.md
-  - sources/arxiv-2607-26037-wonder.md
-  - sources/arxiv-2607-25984-schroedingers-cat.md
-  - entities/models/egogenesis.md
-  - sources/arxiv-2607-28243-egogenesis.md
-  - entities/models/freqforcing.md
-  - sources/arxiv-2607-27036-video-repr-regularization.md
-  - sources/arxiv-2607-28581-road-3d.md
-  - sources/arxiv-2607-29302-bwm-world-model.md
-  - entities/models/bwm.md
-  - sources/arxiv-2607-29545-moroute.md
-  - entities/models/moroute.md
-  - sources/arxiv-2608-02603-worldexam.md
-  - entities/benchmarks/worldexam.md
-  - sources/arxiv-2608-02406-kl-entropy-diffusion.md
-  - sources/arxiv-2608-05070-helloworld.md
-  - entities/models/helloworld.md
-  - sources/arxiv-2608-06231-emoworld.md
-  - entities/models/emoworld.md
-  - sources/arxiv-2608-06332-geniworld.md
-  - sources/arxiv-2608-06008-adaptive-wam.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-07
+updated: 2026-08-10
 ---
 
 ## Relations
@@ -123,7 +128,7 @@ updated: 2026-08-07
 
 
 
-@sources/arxiv-yocausal-world-model-benchmark-2605-30346.md @sources/arxiv-proprio-physics-video-2605-28230.md @sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md @entities/models/wan-2-2.md @sources/arxiv-2605-31336-decmem-world-generation.md @entities/models/decmem.md @entities/models/metaworld.md @concepts/activation-steering-video-generation.md @concepts/multi-agent-cross-view-video-world-models.md @entities/models/prisma-world.md @concepts/latent-spatial-memory-video-world-models.md @entities/models/mirage.md @entities/models/egogenesis.md @sources/arxiv-2607-28243-egogenesis.md @entities/models/freqforcing.md
+@sources/arxiv-yocausal-world-model-benchmark-2605-30346.md @sources/arxiv-proprio-physics-video-2605-28230.md @sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md @entities/models/wan-2-2.md @sources/arxiv-2605-31336-decmem-world-generation.md @entities/models/decmem.md @entities/models/metaworld.md @concepts/activation-steering-video-generation.md @concepts/multi-agent-cross-view-video-world-models.md @entities/models/prisma-world.md @concepts/latent-spatial-memory-video-world-models.md @entities/models/mirage.md @entities/models/egogenesis.md @sources/arxiv-2607-28243-egogenesis.md @entities/models/freqforcing.md @sources/arxiv-2608-06770-surg-uniworld.md @sources/arxiv-2608-07463-mirrorworld.md @entities/models/surg-uniworld.md @entities/models/mirrorworld.md
 
 ## Raw Concept
 

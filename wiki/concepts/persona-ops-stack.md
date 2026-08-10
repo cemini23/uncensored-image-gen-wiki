@@ -1,90 +1,91 @@
 ---
 related:
-  - sources/persona-ops-stack-2026.md
-  - concepts/persona-ops-workflow.md
-  - concepts/synthetic-media-ip-valuation.md
-  - concepts/synthetic-media-web3-monetization.md
-  - sources/persona-monetization-2026.md
-  - concepts/persona-monetization-models.md
-  - concepts/persona-failure-modes.md
-  - concepts/persona-content-cadence.md
-  - concepts/persona-consistency-methods.md
-  - entities/persona-ops/postiz.md
-  - entities/persona-ops/sillytavern.md
-  - entities/persona-ops/fish-speech.md
-  - entities/persona-ops/n8n.md
-  - concepts/persona-legal-landscape.md
-  - concepts/persona-payment-rails.md
-  - entities/personas/aitana-lopez.md
-  - concepts/marketing-your-persona.md
-  - concepts/model-selection-workflow.md
-  - entities/uis/comfyui.md
-  - concepts/persona-audio-stack.md
-  - concepts/david-adoption-brief-routing.md
-  - entities/voice-models/cosyvoice2.md
-  - entities/persona-ops/delive.md
-  - entities/persona-ops/moneyprinter.md
-  - entities/persona-ops/personalive.md
-  - entities/uis/fooocus.md
-  - entities/marketplaces/fanvue.md
-  - concepts/multi-angle-dataset-prep.md
-  - concepts/federated-daily-research-digest.md
-  - concepts/soul-computing-digital-persona.md
-  - sources/arxiv-2606-10413-soul-computing-digital-consciousness.md
-  - concepts/llm-interaction-style-governance.md
-  - sources/arxiv-2606-08172-human-llm-interaction-governance.md
-  - concepts/llm-instruction-hierarchy-training.md
-  - sources/arxiv-2606-10860-gravity-weighted-instruction-hierarchy-dpo.md
-  - sources/arxiv-2606-15396-chillguard-chinese-llm-safety.md
-  - concepts/chinese-llm-safety-guardrails.md
   - "@seo-wiki/concepts/creator-marketing-foundations.md"
   - "@seo-wiki/concepts/synthetic-creator-gtm.md"
-  - sources/arxiv-2606-21710-privacyalign-llm-agents.md
-  - concepts/contextual-privacy-alignment-llm-agents.md
-  - concepts/domain-sensitive-llm-over-alignment.md
-  - sources/arxiv-2606-23375-tf-refusalbench-over-alignment.md
-  - sources/arxiv-2606-22211-open-ai-local-llama-wild.md
-  - sources/arxiv-2505-14215-safety-degradation-ai-agents.md
-  - concepts/retrieval-agent-safety-degradation.md
-  - entities/custom-nodes/comfyui-mcp.md
-  - sweeps/2026-07-11-daily.md
-  - sources/arxiv-2607-05196-nemotron-audex-unified-audio-intelligence.md
-  - concepts/unified-audio-text-llm-no-text-regression.md
-  - entities/voice-models/nemotron-audex.md
-  - sweeps/2026-07-12-daily.md
-  - concepts/pragmatic-open-model-adoption.md
   - concepts/agentic-video-editing-orchestration.md
-  - concepts/low-resource-text-detoxification.md
-  - entities/models/videoagent.md
-  - sources/arxiv-2606-23327-videoagent-all-in-one-framework.md
-  - sources/arxiv-2606-26015-tatoxa-text-detoxification-tatar.md
-  - concepts/sequential-adaptive-personality-steering.md
-  - sources/arxiv-2603-03326-personality-sliders-llm-inference-time.md
-  - entities/custom-nodes/lora-optimizer.md
-  - entities/voice-models/confucius4-tts.md
-  - sources/arxiv-2606-28026-emosh-expressive-motion-shape-disentanglement.md
-  - concepts/motion-shape-disentangled-human-animation.md
-  - entities/models/emosh.md
-  - entities/voice-models/qwen3-tts.md
   - concepts/causal-perturbative-elicitation-llm.md
-  - sources/arxiv-2606-29604-causal-perturbative-elicitation-llm.md
-  - sources/arxiv-2607-08034-plural-value-alignment-dataset.md
-  - sweeps/2026-07-13-daily.md
+  - concepts/chinese-llm-safety-guardrails.md
+  - concepts/contextual-privacy-alignment-llm-agents.md
+  - concepts/david-adoption-brief-routing.md
+  - concepts/domain-sensitive-llm-over-alignment.md
+  - concepts/federated-daily-research-digest.md
+  - concepts/llm-instruction-hierarchy-training.md
+  - concepts/llm-interaction-style-governance.md
   - concepts/lora-weight-fingerprint-moderation.md
+  - concepts/low-resource-text-detoxification.md
+  - concepts/marketing-your-persona.md
+  - concepts/model-selection-workflow.md
+  - concepts/motion-shape-disentangled-human-animation.md
+  - concepts/multi-angle-dataset-prep.md
+  - concepts/persona-audio-stack.md
+  - concepts/persona-consistency-methods.md
+  - concepts/persona-content-cadence.md
+  - concepts/persona-failure-modes.md
+  - concepts/persona-legal-landscape.md
+  - concepts/persona-monetization-models.md
+  - concepts/persona-ops-workflow.md
+  - concepts/persona-payment-rails.md
+  - concepts/pragmatic-open-model-adoption.md
+  - concepts/retrieval-agent-safety-degradation.md
+  - concepts/sequential-adaptive-personality-steering.md
+  - concepts/soul-computing-digital-persona.md
+  - concepts/synthetic-media-ip-valuation.md
+  - concepts/synthetic-media-web3-monetization.md
+  - concepts/unified-audio-text-llm-no-text-regression.md
+  - entities/custom-nodes/comfyui-mcp.md
+  - entities/custom-nodes/lora-optimizer.md
+  - entities/marketplaces/fanvue.md
+  - entities/models/emosh.md
+  - entities/models/emoworld.md
+  - entities/models/videoagent.md
+  - entities/persona-ops/delive.md
+  - entities/persona-ops/empaava.md
+  - entities/persona-ops/fish-speech.md
+  - entities/persona-ops/moneyprinter.md
+  - entities/persona-ops/n8n.md
+  - entities/persona-ops/personalive.md
+  - entities/persona-ops/postiz.md
+  - entities/persona-ops/sillytavern.md
+  - entities/personas/aitana-lopez.md
+  - entities/uis/comfyui.md
+  - entities/uis/fooocus.md
+  - entities/voice-models/confucius4-tts.md
+  - entities/voice-models/cosyvoice2.md
+  - entities/voice-models/nemotron-audex.md
+  - entities/voice-models/qwen3-tts.md
+  - sources/arxiv-2505-14215-safety-degradation-ai-agents.md
+  - sources/arxiv-2603-03326-personality-sliders-llm-inference-time.md
+  - sources/arxiv-2606-08172-human-llm-interaction-governance.md
+  - sources/arxiv-2606-10413-soul-computing-digital-consciousness.md
+  - sources/arxiv-2606-10860-gravity-weighted-instruction-hierarchy-dpo.md
+  - sources/arxiv-2606-15396-chillguard-chinese-llm-safety.md
+  - sources/arxiv-2606-21710-privacyalign-llm-agents.md
+  - sources/arxiv-2606-22211-open-ai-local-llama-wild.md
+  - sources/arxiv-2606-23327-videoagent-all-in-one-framework.md
+  - sources/arxiv-2606-23375-tf-refusalbench-over-alignment.md
+  - sources/arxiv-2606-26015-tatoxa-text-detoxification-tatar.md
+  - sources/arxiv-2606-28026-emosh-expressive-motion-shape-disentanglement.md
+  - sources/arxiv-2606-29604-causal-perturbative-elicitation-llm.md
+  - sources/arxiv-2607-05196-nemotron-audex-unified-audio-intelligence.md
+  - sources/arxiv-2607-08034-plural-value-alignment-dataset.md
   - sources/arxiv-2607-25750-csam-lora-weight-detect.md
   - sources/arxiv-2608-03887-omega-s.md
   - sources/arxiv-2608-04709-empaava.md
-  - entities/persona-ops/empaava.md
   - sources/arxiv-2608-05070-helloworld.md
   - sources/arxiv-2608-06231-emoworld.md
-  - entities/models/emoworld.md
+  - sources/arxiv-2608-06732-ps-fnvd-routed.md
+  - sources/persona-monetization-2026.md
+  - sources/persona-ops-stack-2026.md
+  - sweeps/2026-07-11-daily.md
+  - sweeps/2026-07-12-daily.md
+  - sweeps/2026-07-13-daily.md
 title: "Persona operations stack (architecture overview)"
 type: concept
 tags: [persona-ops, automation, stack-architecture, multi-account, dm-automation, voice-cloning, orchestration, content-pipelines]
 keywords: [persona-ops, scheduling, anti-detect-browsers, residential-proxies, sillytavern, local-llm, voice-cloning, n8n, orchestration, comfyui, fal-ai, replicate, modal, telegram, postiz]
 maturity: draft
 created: 2026-05-07
-updated: 2026-08-07
+updated: 2026-08-10
 ---
 
 ## Relations

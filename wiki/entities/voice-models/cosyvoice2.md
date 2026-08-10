@@ -16,7 +16,9 @@ related:
   - entities/voice-models/dia.md
   - entities/voice-models/elevenlabs.md
   - entities/voice-models/indextts-2.md
+  - entities/voice-models/qwen-audio-3-tts.md
   - entities/voice-models/qwen3-tts.md
+  - entities/voice-models/sembridge.md
   - entities/voice-models/speech-swift.md
   - entities/voice-models/x-translator.md
   - entities/voice-models/xtts-v2.md
@@ -27,17 +29,17 @@ related:
   - sources/arxiv-2607-17900-harness-tts.md
   - sources/arxiv-2607-19859-stellartts.md
   - sources/arxiv-2607-21042-faster-indextts-2.md
+  - sources/arxiv-2607-23027-singlish-tts.md
+  - sources/arxiv-2607-23938-qwen-audio-3-0-tts.md
+  - sources/arxiv-2608-05507-affectdf-routed.md
+  - sources/arxiv-2608-07462-sembridge.md
   - sources/persona-ops-stack-2026.md
   - sweeps/2026-07-13-daily.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
-  - sources/arxiv-2607-23027-singlish-tts.md
-  - entities/voice-models/qwen-audio-3-tts.md
-  - sources/arxiv-2607-23938-qwen-audio-3-0-tts.md
-  - sources/arxiv-2608-05507-affectdf-routed.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-08-07
+updated: 2026-08-10
 ---
 
 ## Relations
@@ -49,7 +51,7 @@ updated: 2026-08-07
 @concepts/model-selection-workflow.md
 @sources/persona-ops-stack-2026.md
 @entities/voice-models/indextts-2.md @entities/voice-models/qwen3-tts.md @entities/voice-models/chatterbox.md
-@entities/voice-models/xtts-v2.md @entities/voice-models/dia.md @entities/voice-models/elevenlabs.md @entities/voice-models/barewave.md
+@entities/voice-models/xtts-v2.md @entities/voice-models/dia.md @entities/voice-models/elevenlabs.md @entities/voice-models/barewave.md @sources/arxiv-2608-07462-sembridge.md @entities/voice-models/sembridge.md
 
 ## Raw Concept
 

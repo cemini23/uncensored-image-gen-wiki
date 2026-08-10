@@ -4,6 +4,7 @@ type: entity
 tags: [persona-ops, voice-cloning, tts, fish-speech, open-source, zero-shot, tts-arena2-leader]
 keywords: [Fish-Speech, Fish-Speech-S2-Pro, zero-shot-voice-cloning, TTS-Arena2, 50-emotion-tags, Qwen3-TTS, F5-TTS, MaskGCT, Coqui-XTTS, ElevenLabs, voice-note, NSFW-banned-elsewhere]
 related:
+  - concepts/face-to-speech-synthesis.md
   - concepts/generative-ai-era-deepfake-landscape.md
   - concepts/mllm-video-translation.md
   - concepts/model-selection-workflow.md
@@ -12,6 +13,7 @@ related:
   - concepts/persona-ops-stack.md
   - concepts/sync-audio-video-customization.md
   - concepts/unified-audio-text-llm-no-text-regression.md
+  - entities/benchmarks/mmag.md
   - entities/benchmarks/rw-voice-eq-bench.md
   - entities/datasets/dialogs-russian-speech.md
   - entities/lipsync/latentsync.md
@@ -34,8 +36,11 @@ related:
   - entities/voice-models/kokoro.md
   - entities/voice-models/maskgct.md
   - entities/voice-models/nemotron-audex.md
+  - entities/voice-models/qwen-audio-3-tts.md
   - entities/voice-models/qwen3-tts.md
+  - entities/voice-models/sembridge.md
   - entities/voice-models/speech-swift.md
+  - entities/voice-models/supertonic-embed.md
   - entities/voice-models/x-translator.md
   - entities/voice-models/xtts-v2.md
   - entities/voice-models/zipl-dialog.md
@@ -51,6 +56,14 @@ related:
   - sources/arxiv-2607-17900-harness-tts.md
   - sources/arxiv-2607-19859-stellartts.md
   - sources/arxiv-2607-21042-faster-indextts-2.md
+  - sources/arxiv-2607-23938-qwen-audio-3-0-tts.md
+  - sources/arxiv-2607-25351-voice-style-inverse-opt.md
+  - sources/arxiv-2607-26742-face-to-speech.md
+  - sources/arxiv-2608-02235-tts-domain-eval.md
+  - sources/arxiv-2608-03011-daien-tts.md
+  - sources/arxiv-2608-03215-grow-tts-rl.md
+  - sources/arxiv-2608-06900-mmag.md
+  - sources/arxiv-2608-07462-sembridge.md
   - sources/persona-ops-stack-2026.md
   - sweeps/2026-07-04-daily.md
   - sweeps/2026-07-09-daily.md
@@ -60,18 +73,9 @@ related:
   - sweeps/2026-07-17-daily.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
-  - entities/voice-models/qwen-audio-3-tts.md
-  - sources/arxiv-2607-23938-qwen-audio-3-0-tts.md
-  - entities/voice-models/supertonic-embed.md
-  - sources/arxiv-2607-25351-voice-style-inverse-opt.md
-  - concepts/face-to-speech-synthesis.md
-  - sources/arxiv-2607-26742-face-to-speech.md
-  - sources/arxiv-2608-02235-tts-domain-eval.md
-  - sources/arxiv-2608-03011-daien-tts.md
-  - sources/arxiv-2608-03215-grow-tts-rl.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-08-05
+updated: 2026-08-10
 ---
 
 ## Relations
@@ -86,7 +90,7 @@ updated: 2026-08-05
 @entities/persona-ops/supertonic.md @entities/persona-ops/voicemode.md
 @entities/omnivoice.md — multilingual zero-shot voice-cloning alternate
 @entities/voicebox.md — local-first multi-engine TTS voice studio alternate
-@entities/persona-ops/delive.md
+@entities/persona-ops/delive.md @sources/arxiv-2608-07462-sembridge.md @entities/voice-models/sembridge.md @entities/benchmarks/mmag.md
 
 ## Raw Concept
 

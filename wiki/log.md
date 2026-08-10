@@ -1,3 +1,37 @@
+## [2026-08-10] ingest | SemBridge/MMAG/MirrorWorld WATCH + PS-FNVD→cybersec (+ NL→LTL route + 4 SKIP)
+
+Full inbox ingest of 10 NEW arXiv PDFs (preingest clean).
+
+### GO / CONDITIONAL / WATCH
+- **NEW** `@sources/arxiv-2608-07462-sembridge.md` + `@entities/voice-models/sembridge.md` — continuous-latent semantic-token TTS; **WATCH** (skeleton GH; LICENSE 404 vs Apache badge)
+- **NEW** `@sources/arxiv-2608-06900-mmag.md` + `@entities/benchmarks/mmag.md` — mixed speech/music/SFX control bench; **WATCH / REFERENCE**
+- **NEW** `@sources/arxiv-2608-07463-mirrorworld.md` + `@entities/models/mirrorworld.md` — mirror reflection video; **WATCH**
+- **NEW** `@sources/arxiv-2608-06770-surg-uniworld.md` + `@entities/models/surg-uniworld.md` — Wan2.2 multimodal control experts; **WATCH pattern** (surgical OOD)
+
+### ROUTEd
+- **NEW** `@sources/arxiv-2608-06732-ps-fnvd-routed.md` → Cybersecurity `briefs/2026-08-10_ps-fnvd-t2v-fake-news-from-image-gen.md` (HunyuanVideo pure-synthesis FNVD)
+- **NEW** `@sources/arxiv-2608-06287-nl-to-ltl-routed.md` → Cybersecurity (primary already present 2026-08-07)
+
+### SKIP peripherals
+- GB/T-Bench · Stoicheia · HEA vacancy · SimWAM (MIT AV planner — OOD)
+
+### Phase-0 / Phase-1
+- SemBridge: WATCH (no runnable code; SPDX gap). MMAG/MirrorWorld/Surg: WATCH (project pages only).
+- PS-FNVD: cybersec REFERENCE; no SPDX; no dataset clone.
+- Image-gen local wire: **none** (federation skip). Entities `wire_status: deferred`.
+
+### Briefs / routing
+- `briefs/2026-08-10_sembridge-mmag-mirrorworld-adoption.md` — local-only
+- Cybersec PS-FNVD brief — not atto/poker/guru/prod
+- NL→LTL cybersec brief already existed (`2026-08-07_k251-nl-ltl-prod.md`); optional prod scp of that awareness brief
+- No atto / poker / guruwatcher / TipDrop
+
+### Local adopt (<500 MB)
+- None (SemBridge empty; PS-FNVD media gated; SimWAM OOD; others no code)
+
+### Archive
+- All 10 PDFs → egress-fi `image-gen/` then clear local inbox.
+
 ## [2026-08-07] ingest | EmoWorld WATCH + AffectDF→cybersec (+ 6 SKIP)
 
 Full inbox ingest of 8 NEW arXiv PDFs (preingest clean).

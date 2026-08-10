@@ -5,6 +5,7 @@ tags: [audio, voice-cloning, tts, lipsync, music-generation, sound-effects, pers
 keywords: [voice cloning, TTS, Fish-Speech, CosyVoice, lipsync, LatentSync, MuseTalk, Wav2Lip, music generation, MusicGen, ACE-Step, Stable Audio, sound effects, AudioLDM, Tango, audio-video integration, FFmpeg, ComfyUI audio nodes]
 related:
   - concepts/david-adoption-brief-routing.md
+  - concepts/face-to-speech-synthesis.md
   - concepts/federated-daily-research-digest.md
   - concepts/generative-ai-era-deepfake-landscape.md
   - concepts/joint-audio-visual-instruction-editing.md
@@ -21,6 +22,7 @@ related:
   - concepts/video-identity-inheritance.md
   - concepts/video-reference-avatar-generation.md
   - concepts/waveform-native-flow-matching-tts.md
+  - entities/benchmarks/mmag.md
   - entities/benchmarks/rw-voice-eq-bench.md
   - entities/datasets/dialogs-russian-speech.md
   - entities/lipsync/latentsync.md
@@ -30,12 +32,14 @@ related:
   - entities/lipsync/wav2lip.md
   - entities/models/av-flamingo.md
   - entities/models/avatar-v.md
+  - entities/models/echocache.md
   - entities/models/foley-omni.md
   - entities/models/foleygenex.md
   - entities/models/hunyuanvideo-1-5.md
   - entities/models/javedit.md
   - entities/models/ltx-2.md
   - entities/models/omnicustom.md
+  - entities/models/taomate.md
   - entities/models/wan-2-2.md
   - entities/music-models/ace-step.md
   - entities/music-models/musicgen.md
@@ -43,6 +47,7 @@ related:
   - entities/music-models/udio.md
   - entities/omnivoice.md
   - entities/persona-ops/delive.md
+  - entities/persona-ops/empaava.md
   - entities/persona-ops/fish-speech.md
   - entities/sfx-models/audio-omni.md
   - entities/sfx-models/audioldm.md
@@ -55,15 +60,21 @@ related:
   - entities/voice-models/chatterbox.md
   - entities/voice-models/confucius4-tts.md
   - entities/voice-models/cosyvoice2.md
+  - entities/voice-models/daien-tts.md
   - entities/voice-models/dia.md
   - entities/voice-models/elevenlabs.md
   - entities/voice-models/f5-tts.md
+  - entities/voice-models/grow-tts.md
   - entities/voice-models/indextts-2.md
   - entities/voice-models/kokoro.md
   - entities/voice-models/maskgct.md
   - entities/voice-models/nemotron-audex.md
+  - entities/voice-models/qwen-audio-3-gen.md
+  - entities/voice-models/qwen-audio-3-tts.md
   - entities/voice-models/qwen3-tts.md
+  - entities/voice-models/sembridge.md
   - entities/voice-models/speech-swift.md
+  - entities/voice-models/supertonic-embed.md
   - entities/voice-models/x-translator.md
   - entities/voice-models/xtts-v2.md
   - entities/voice-models/zipl-dialog.md
@@ -91,6 +102,20 @@ related:
   - sources/arxiv-2607-17900-harness-tts.md
   - sources/arxiv-2607-19859-stellartts.md
   - sources/arxiv-2607-21042-faster-indextts-2.md
+  - sources/arxiv-2607-23027-singlish-tts.md
+  - sources/arxiv-2607-23938-qwen-audio-3-0-tts.md
+  - sources/arxiv-2607-24359-taomate.md
+  - sources/arxiv-2607-25351-voice-style-inverse-opt.md
+  - sources/arxiv-2607-26742-face-to-speech.md
+  - sources/arxiv-2607-27011-qwen-audio-3-gen.md
+  - sources/arxiv-2608-02235-tts-domain-eval.md
+  - sources/arxiv-2608-02474-echocache.md
+  - sources/arxiv-2608-03011-daien-tts.md
+  - sources/arxiv-2608-03215-grow-tts-rl.md
+  - sources/arxiv-2608-04709-empaava.md
+  - sources/arxiv-2608-05507-affectdf-routed.md
+  - sources/arxiv-2608-06900-mmag.md
+  - sources/arxiv-2608-07462-sembridge.md
   - sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md
   - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
   - sources/persona-ops-stack-2026.md
@@ -103,30 +128,9 @@ related:
   - sweeps/2026-07-22-daily.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
-  - entities/voice-models/qwen-audio-3-tts.md
-  - sources/arxiv-2607-23938-qwen-audio-3-0-tts.md
-  - sources/arxiv-2607-23027-singlish-tts.md
-  - entities/models/taomate.md
-  - sources/arxiv-2607-24359-taomate.md
-  - entities/voice-models/supertonic-embed.md
-  - sources/arxiv-2607-25351-voice-style-inverse-opt.md
-  - concepts/face-to-speech-synthesis.md
-  - entities/voice-models/qwen-audio-3-gen.md
-  - sources/arxiv-2607-26742-face-to-speech.md
-  - sources/arxiv-2607-27011-qwen-audio-3-gen.md
-  - sources/arxiv-2608-02235-tts-domain-eval.md
-  - sources/arxiv-2608-02474-echocache.md
-  - entities/models/echocache.md
-  - sources/arxiv-2608-03011-daien-tts.md
-  - entities/voice-models/daien-tts.md
-  - sources/arxiv-2608-03215-grow-tts-rl.md
-  - entities/voice-models/grow-tts.md
-  - sources/arxiv-2608-04709-empaava.md
-  - entities/persona-ops/empaava.md
-  - sources/arxiv-2608-05507-affectdf-routed.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-08-07
+updated: 2026-08-10
 ---
 
 ## Relations
@@ -157,7 +161,7 @@ updated: 2026-08-07
 @entities/persona-ops/delive.md — Apache-2.0 system-audio capture + ASR for TTS-output-to-text audit trail
 @concepts/federated-daily-research-digest.md
 @concepts/sync-audio-video-customization.md @entities/models/omnicustom.md @sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
-@sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md — REFERENCE-ONLY neuromorphic TTS research @concepts/face-to-speech-synthesis.md @entities/voice-models/qwen-audio-3-gen.md @sources/arxiv-2607-26742-face-to-speech.md @sources/arxiv-2607-27011-qwen-audio-3-gen.md
+@sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md — REFERENCE-ONLY neuromorphic TTS research @concepts/face-to-speech-synthesis.md @entities/voice-models/qwen-audio-3-gen.md @sources/arxiv-2607-26742-face-to-speech.md @sources/arxiv-2607-27011-qwen-audio-3-gen.md @sources/arxiv-2608-06900-mmag.md @sources/arxiv-2608-07462-sembridge.md @entities/benchmarks/mmag.md @entities/voice-models/sembridge.md
 
 ## Raw Concept
 

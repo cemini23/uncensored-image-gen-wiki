@@ -1,63 +1,64 @@
 ---
 related:
-  - sources/video-generation-survey-2026.md
-  - entities/models/wan-2-2.md
-  - entities/models/ltx-2.md
-  - entities/training-tools/musubi-tuner.md
-  - concepts/seam-stitching-strategies.md
-  - concepts/video-identity-inheritance.md
-  - concepts/de-censoring-techniques.md
-  - concepts/censorship-tier-taxonomy.md
-  - concepts/model-selection-workflow.md
-  - entities/uis/comfyui.md
-  - entities/models/open-sora.md
-  - concepts/synthetic-media-compute-economics.md
-  - sources/arxiv-2607-04553-lights-camera-carbon-video-energy-scaling.md
-  - concepts/video-generation-energy-scaling-laws.md
-  - concepts/persona-audio-stack.md
-  - entities/lipsync/latentsync.md
-  - concepts/grpo-i2v-post-training.md
-  - sources/arxiv-tagrpo-i2v-grpo-2601-05729.md
-  - sources/arxiv-2605-29509-kgedit-knowledge-graph-video-editing.md
-  - concepts/knowledge-graph-structured-video-control.md
   - concepts/activation-steering-video-generation.md
-  - sources/arxiv-activation-steering-video-gen-2606.04775-2026-06-05.md
-  - sources/arxiv-2606-06060-recache-diffusion-caching.md
   - concepts/budget-aware-diffusion-caching.md
-  - sources/arxiv-2606-04811-dream-exe-robot-executability.md
-  - concepts/video-generation-physical-executability.md
-  - sources/arxiv-2606-17536-omnidrive-llm-choreographed-driving-world.md
-  - concepts/reconstruction-based-t2v-benchmarking.md
-  - entities/benchmarks/geot2v-bench.md
-  - sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md
-  - concepts/lightweight-video-history-embeddings.md
-  - entities/models/tinyhistory.md
-  - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
-  - concepts/navicache-navigation-guided-video-caching.md
-  - sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md
-  - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
-  - concepts/input-stable-sparse-attention-video.md
-  - sources/arxiv-2606-27345-raype-ray-space-positional-encoding-3d-video.md
-  - concepts/ray-space-positional-encoding-video.md
-  - entities/models/hunyuanimage-3-0.md
-  - sources/arxiv-2509-23951-hunyuanimage-3-0-technical-report.md
-  - concepts/ucm-time-aware-pe-warping-world-models.md
-  - sources/arxiv-2506-08797-hunyuanvideo-homa.md
+  - concepts/censorship-tier-taxonomy.md
+  - concepts/de-censoring-techniques.md
+  - concepts/grpo-i2v-post-training.md
   - concepts/hunyuanvideo-homa-weak-hoi-video.md
-  - sweeps/2026-07-11-daily.md
-  - sources/arxiv-2607-24377-mxattention.md
+  - concepts/input-stable-sparse-attention-video.md
+  - concepts/knowledge-graph-structured-video-control.md
+  - concepts/lightweight-video-history-embeddings.md
+  - concepts/model-selection-workflow.md
   - concepts/mxfp4-attention-video.md
+  - concepts/navicache-navigation-guided-video-caching.md
+  - concepts/persona-audio-stack.md
+  - concepts/ray-space-positional-encoding-video.md
+  - concepts/reconstruction-based-t2v-benchmarking.md
+  - concepts/seam-stitching-strategies.md
+  - concepts/synthetic-media-compute-economics.md
+  - concepts/ucm-time-aware-pe-warping-world-models.md
+  - concepts/video-generation-energy-scaling-laws.md
+  - concepts/video-generation-physical-executability.md
+  - concepts/video-identity-inheritance.md
+  - entities/benchmarks/geot2v-bench.md
+  - entities/lipsync/latentsync.md
+  - entities/models/hunyuanimage-3-0.md
+  - entities/models/ltx-2.md
+  - entities/models/open-sora.md
+  - entities/models/spade.md
+  - entities/models/tinyhistory.md
   - entities/models/token-radius-attention.md
+  - entities/models/wan-2-2.md
+  - entities/training-tools/musubi-tuner.md
+  - entities/uis/comfyui.md
+  - sources/arxiv-2506-08797-hunyuanvideo-homa.md
+  - sources/arxiv-2509-23951-hunyuanimage-3-0-technical-report.md
+  - sources/arxiv-2512-23851-tinyhistory-lightweight-video-history.md
+  - sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md
+  - sources/arxiv-2605-29509-kgedit-knowledge-graph-video-editing.md
+  - sources/arxiv-2606-04811-dream-exe-robot-executability.md
+  - sources/arxiv-2606-06060-recache-diffusion-caching.md
+  - sources/arxiv-2606-17536-omnidrive-llm-choreographed-driving-world.md
+  - sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md
+  - sources/arxiv-2606-26795-navicache-test-time-self-calibration-caching.md
+  - sources/arxiv-2606-27345-raype-ray-space-positional-encoding-3d-video.md
+  - sources/arxiv-2607-04553-lights-camera-carbon-video-energy-scaling.md
+  - sources/arxiv-2607-24377-mxattention.md
   - sources/arxiv-2608-02504-token-radius-attention.md
   - sources/arxiv-2608-03335-spade.md
-  - entities/models/spade.md
+  - sources/arxiv-2608-06732-ps-fnvd-routed.md
+  - sources/arxiv-activation-steering-video-gen-2606.04775-2026-06-05.md
+  - sources/arxiv-tagrpo-i2v-grpo-2601-05729.md
+  - sources/video-generation-survey-2026.md
+  - sweeps/2026-07-11-daily.md
 title: HunyuanVideo 1.5 (Tencent)
 type: entity
 tags: [model, video, dit, hunyuanvideo, tencent, eastern-vanguard, completely-uncensored-after-lora]
 keywords: [hunyuanvideo, hunyuan-1-5, tencent, ssta, selective-sliding-tile-attention, 8.3b, 3d-causal-vae, fp8-gemm, step-distilled, nsfwsks, theyurilover, 480p, 720p, 1080p]
 maturity: draft
 created: 2026-05-07
-updated: 2026-08-05
+updated: 2026-08-10
 ---
 
 **HOMA extension (Jul 2026):** Tencent HunyuanVideo-HOMA adds weak human–object interaction on the HunyuanVideo backbone — @sources/arxiv-2506-08797-hunyuanvideo-homa.md @concepts/hunyuanvideo-homa-weak-hoi-video.md. WATCH for open weights.
@@ -71,7 +72,7 @@ updated: 2026-08-05
 @entities/models/open-sora.md
 
 @concepts/persona-audio-stack.md
-@entities/lipsync/latentsync.md
+@entities/lipsync/latentsync.md @sources/arxiv-2608-06732-ps-fnvd-routed.md
 
 ## Raw Concept
 

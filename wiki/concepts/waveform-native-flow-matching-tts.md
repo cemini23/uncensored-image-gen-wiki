@@ -4,19 +4,21 @@ type: concept
 tags: [concept, tts, voice-cloning, flow-matching, waveform-native]
 keywords: [waveform-native TTS, direct text-to-wave, flow matching, no vocoder inference, REPA, VAPA, zero-shot cloning, training-only auxiliary]
 related:
-  - sources/arxiv-2606-09048-barewave-waveform-native-tts.md
-  - entities/voice-models/barewave.md
-  - entities/voice-models/f5-tts.md
-  - entities/voice-models/cosyvoice2.md
   - concepts/persona-audio-stack.md
+  - entities/voice-models/barewave.md
+  - entities/voice-models/cosyvoice2.md
+  - entities/voice-models/f5-tts.md
+  - entities/voice-models/sembridge.md
+  - sources/arxiv-2606-09048-barewave-waveform-native-tts.md
+  - sources/arxiv-2608-07462-sembridge.md
 maturity: draft
 created: 2026-06-11
-updated: 2026-06-11
+updated: 2026-08-10
 ---
 
 ## Relations
 
-@sources/arxiv-2606-09048-barewave-waveform-native-tts.md @entities/voice-models/barewave.md @entities/voice-models/f5-tts.md @concepts/persona-audio-stack.md
+@sources/arxiv-2606-09048-barewave-waveform-native-tts.md @entities/voice-models/barewave.md @entities/voice-models/f5-tts.md @concepts/persona-audio-stack.md @sources/arxiv-2608-07462-sembridge.md @entities/voice-models/sembridge.md
 
 ## Raw Concept
 

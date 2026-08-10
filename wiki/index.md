@@ -278,7 +278,16 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Ultraneuron ultrasound (arXiv:2608.06321)](sources/arxiv-2608-06321-ultraneuron.md) — medical sim SKIP — `paper, medical, peripheral`
 - [GeniWorld robot WM (arXiv:2608.06332)](sources/arxiv-2608-06332-geniworld.md) — robotics interactive WM SKIP — `paper, robotics, peripheral`
 
-
+- [NL→LTL requirements LLM — routed (arXiv:2608.06287)](sources/arxiv-2608-06287-nl-to-ltl-routed.md) — formal methods; ROUTE cybersec — `paper, routed, formal-methods`
+- [GB/T-Bench national-standard review (arXiv:2608.06312)](sources/arxiv-2608-06312-gbt-bench-skip.md) — document-review peripheral SKIP — `paper, llm, peripheral`
+- [PS-FNVD T2V pure-synthesis fake news — routed (arXiv:2608.06732)](sources/arxiv-2608-06732-ps-fnvd-routed.md) — ternary FNVD; ROUTE cybersec — `paper, deepfake, routed`
+- [Surg-UniWorld Wan2.2 control experts (arXiv:2608.06770)](sources/arxiv-2608-06770-surg-uniworld.md) — surgical WM on Wan; WATCH pattern — `paper, video, wan, watch`
+- [MMAG mixed-audio bench (arXiv:2608.06900)](sources/arxiv-2608-06900-mmag.md) — speech+music+SFX control eval; WATCH — `paper, audio, benchmark`
+- [Stoicheia Ancient Greek diffusion (arXiv:2608.07249)](sources/arxiv-2608-07249-stoicheia-skip.md) — philology SKIP — `paper, nlp, peripheral`
+- [HEA vacancy ML surrogate (arXiv:2608.07445)](sources/arxiv-2608-07445-hea-vacancy-skip.md) — materials SKIP — `paper, materials, peripheral`
+- [SemBridge continuous-latent TTS (arXiv:2608.07462)](sources/arxiv-2608-07462-sembridge.md) — semantic-token anchoring; skeleton repo WATCH — `paper, tts, continuous-latent`
+- [MirrorWorld video reflections (arXiv:2608.07463)](sources/arxiv-2608-07463-mirrorworld.md) — mirror inpainting; WATCH — `paper, video, inpainting`
+- [SimWAM driving WAM (arXiv:2608.07468)](sources/arxiv-2608-07468-simwam-skip.md) — autonomous driving SKIP — `paper, robotics, peripheral`
 
 - [Straight-path flow matching IMVC (arXiv:2607.06281)](sources/arxiv-2607-06281-straight-path-flow-matching-imvc.md) — clustering peripheral false positive — `paper, peripheral, clustering`
 - [Flux.2 Klein 9B MatchingPose — Hugging Face model card](sources/hf-flux2-klein-9b-matchingpose.md) — mannequin-to-character FLUX.2 Klein pose-transfer LoRA; Phase-0 GO smoke-test — `model-card, lora, flux2, klein, pose-transfer`
@@ -331,6 +340,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [MoRoute](entities/models/moroute.md) — VLM→DiT multimodal video routing; WATCH — `model, video-generation, multimodal, watch`
 - [EchoCache](entities/models/echocache.md) — A2V energy-guided caching; WATCH — `model, caching, a2v, watch`
 - [EmoWorld](entities/models/emoworld.md) — Wan affective-field emotion steering; WATCH (no code) — `model, video, emotion, watch`
+- [MirrorWorld](entities/models/mirrorworld.md) — reflection-aware video inpainting; WATCH — `model, video, mirror, watch`
+- [Surg-UniWorld](entities/models/surg-uniworld.md) — Wan2.2 multimodal control experts (surgical OOD); WATCH pattern — `model, video, wan, watch`
 - [HelloWorld](entities/models/helloworld.md) — socially interactive video WM characters; WATCH — `model, world-model, interactive, watch`
 - [SPADE / sparseDiTEngine](entities/models/spade.md) — Wan/Hunyuan sparse attn CUDA; CONDITIONAL TipDrop — `model, attention, cuda, conditional`
 - [MultiCompose](entities/models/multicompose.md) — multi-subject attribute binding; WATCH — `model, t2i, personalization, watch`
@@ -458,6 +469,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Qwen-Audio-3.0-Gen-Preview (unified audio DiT)](entities/voice-models/qwen-audio-3-gen.md) — speech+music+SFX hosted preview; SKIP local — `audio-gen, qwen, hosted-preview`
 - [DAIEN-TTS](entities/voice-models/daien-tts.md) — environment-aware F5 extension; WATCH — `voice-cloning, tts, f5-tts, watch`
 - [GROW TTS RL](entities/voice-models/grow-tts.md) — group-relative flow-matching RL; WATCH — `voice-cloning, tts, rl, watch`
+- [SemBridge](entities/voice-models/sembridge.md) — semantic-token anchoring for continuous-latent AR TTS/SVS; WATCH (skeleton) — `voice-cloning, tts, continuous-latent, watch`
 - [Nemotron-Labs-Audex (NVIDIA unified audio-text LLM)](entities/voice-models/nemotron-audex.md) — unified TTS/ASR/TTA/speech-to-speech MoE; Phase-0 REFERENCE (NVIDIA noncommercial license) — `voice-cloning, tts, nvidia, audex, unified-llm, moe`
 - [speech-swift (Soniqo Apple Silicon speech toolkit)](entities/voice-models/speech-swift.md) — MLX/CoreML ASR+TTS; CosyVoice/Qwen3-TTS/Fish S2; Phase-0 WATCH — `voice-cloning, tts, apple-silicon, mlx, apache-2.0`
 - [MoWorld (Moxin Flash World Model)](entities/models/moworld.md) — real-time 50 FPS world model; open weights pending — `world-model, video, flash, moxin`
@@ -671,6 +683,7 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [FilmOps](entities/benchmarks/filmops.md) — Apache cinematography operator suite; code cloned locally — `benchmark, evaluation, apache-2-0`
 - [RefCaptioner / MRVBench](entities/benchmarks/refcaptioner.md) — multi-ref grounded video captions; code cloned ~6 MB — `benchmark, video-captioning, apache-2-0`
 - [WorldExam](entities/benchmarks/worldexam.md) — appearance vs inherent reactivity; WATCH — `benchmark, world-model, watch`
+- [MMAG](entities/benchmarks/mmag.md) — multi-control mixed speech/music/SFX generation bench; WATCH — `benchmark, audio, mixed-audio, watch`
 
 ### Meta (wiki operations)
 
