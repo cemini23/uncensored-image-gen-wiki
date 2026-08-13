@@ -11,6 +11,8 @@ related:
   - entities/voice-models/sembridge.md
   - sources/arxiv-2606-09048-barewave-waveform-native-tts.md
   - sources/arxiv-2608-07462-sembridge.md
+  - entities/voice-models/phoenix-tts.md
+  - sources/arxiv-2608-11737-phoenix-tts.md
 maturity: draft
 created: 2026-06-11
 updated: 2026-08-10

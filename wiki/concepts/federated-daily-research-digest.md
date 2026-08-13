@@ -91,6 +91,9 @@ related:
   - sources/arxiv-2608-11073-irreversibility-skip.md
   - sources/arxiv-2608-11114-torf-forecasting-skip.md
   - sources/arxiv-2608-11201-vidforensics-m1-routed.md
+  - sources/arxiv-2608-12203-geoflow-skip.md
+  - sources/arxiv-2608-12254-globular-cluster-skip.md
+  - sources/arxiv-2608-12275-chang-es-xl-skip.md
   - sweeps/2026-08-13-daily.md
   - sweeps/2026-08-11-daily.md
   - sweeps/2026-08-12-daily.md

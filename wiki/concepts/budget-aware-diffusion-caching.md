@@ -45,6 +45,10 @@ related:
   - entities/models/token-radius-attention.md
   - sources/arxiv-2608-03335-spade.md
   - entities/models/spade.md
+  - entities/models/avatar-forever.md
+  - sources/arxiv-2608-12107-avatar-forever.md
+  - entities/models/xyzflow.md
+  - sources/arxiv-2608-12276-xyzflow.md
 maturity: draft
 created: 2026-06-07
 updated: 2026-08-05

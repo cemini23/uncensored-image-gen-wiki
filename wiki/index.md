@@ -287,6 +287,15 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [TORF mean-preserving forecasting (arXiv:2608.11114)](sources/arxiv-2608-11114-torf-forecasting-skip.md) — probabilistic TS forecasting SKIP — `paper, forecasting, peripheral`
 - [VidForensics-M1 video forensics — routed (arXiv:2608.11201)](sources/arxiv-2608-11201-vidforensics-m1-routed.md) — meta-detection RL + temporal grounding; ROUTE cybersec — `paper, routed, security, deepfake, video-forensics`
 
+- [Phoenix TTS (arXiv:2608.11737)](sources/arxiv-2608-11737-phoenix-tts.md) — flow-matching-driven speech tokenization, zero-shot TTS+VC; WATCH (no code) — `paper, tts, voice, flow-matching`
+- [MiDashengLM-Gen (arXiv:2608.11804)](sources/arxiv-2608-11804-midashenglm-gen.md) — unified audio-scene gen, LLM + AR flow matching; GO code (Apache-2.0) / WATCH stack (11 GB weights) — `paper, audio, tta, unified`
+- [Avatar-Forever (arXiv:2608.12107)](sources/arxiv-2608-12107-avatar-forever.md) — decoupled parallel training for real-time infinite avatars; WATCH (no code) — `paper, avatar, lipsync, video`
+- [GeoFlow driving video (arXiv:2608.12203)](sources/arxiv-2608-12203-geoflow-skip.md) — efficient AV video gen via geometry priors; SKIP — `paper, video, peripheral`
+- [Globular-cluster stellar stream (arXiv:2608.12254)](sources/arxiv-2608-12254-globular-cluster-skip.md) — extragalactic stellar stream; SKIP — `paper, astronomy, peripheral`
+- [CHANG-ES XL NGC 891 (arXiv:2608.12275)](sources/arxiv-2608-12275-chang-es-xl-skip.md) — radio magnetic fields; SKIP — `paper, astrophysics, peripheral`
+- [XYZFlow shortcut flows (arXiv:2608.12276)](sources/arxiv-2608-12276-xyzflow.md) — multidimensional shortcut flows for efficient T2I; WATCH (no SPDX) — `paper, t2i, flow-matching, efficiency`
+- [Agentic I2V adherence (arXiv:2608.12290)](sources/arxiv-2608-12290-agentic-i2v.md) — agentic prompt+param optimization for black-box I2V; WATCH (no code) — `paper, i2v, agentic`
+
 - [NL→LTL requirements LLM — routed (arXiv:2608.06287)](sources/arxiv-2608-06287-nl-to-ltl-routed.md) — formal methods; ROUTE cybersec — `paper, routed, formal-methods`
 - [GB/T-Bench national-standard review (arXiv:2608.06312)](sources/arxiv-2608-06312-gbt-bench-skip.md) — document-review peripheral SKIP — `paper, llm, peripheral`
 - [PS-FNVD T2V pure-synthesis fake news — routed (arXiv:2608.06732)](sources/arxiv-2608-06732-ps-fnvd-routed.md) — ternary FNVD; ROUTE cybersec — `paper, deepfake, routed`
@@ -479,11 +488,15 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [DAIEN-TTS](entities/voice-models/daien-tts.md) — environment-aware F5 extension; WATCH — `voice-cloning, tts, f5-tts, watch`
 - [GROW TTS RL](entities/voice-models/grow-tts.md) — group-relative flow-matching RL; WATCH — `voice-cloning, tts, rl, watch`
 - [SemBridge](entities/voice-models/sembridge.md) — semantic-token anchoring for continuous-latent AR TTS/SVS; WATCH (skeleton) — `voice-cloning, tts, continuous-latent, watch`
+- [Phoenix TTS (Didi flow-matching speech tokenization)](entities/voice-models/phoenix-tts.md) — tokenizer+FM joint training; zero-shot TTS+VC; WATCH (no code) — `voice-cloning, tts, flow-matching, watch`
 - [Nemotron-Labs-Audex (NVIDIA unified audio-text LLM)](entities/voice-models/nemotron-audex.md) — unified TTS/ASR/TTA/speech-to-speech MoE; Phase-0 REFERENCE (NVIDIA noncommercial license) — `voice-cloning, tts, nvidia, audex, unified-llm, moe`
 - [speech-swift (Soniqo Apple Silicon speech toolkit)](entities/voice-models/speech-swift.md) — MLX/CoreML ASR+TTS; CosyVoice/Qwen3-TTS/Fish S2; Phase-0 WATCH — `voice-cloning, tts, apple-silicon, mlx, apache-2.0`
 - [MoWorld (Moxin Flash World Model)](entities/models/moworld.md) — real-time 50 FPS world model; open weights pending — `world-model, video, flash, moxin`
 - [M4V (Meituan Multimodal Mamba T2V)](entities/models/m4v.md) — MM-DiM efficiency fork of PyramidFlow/Wan2.1; Phase-0 WATCH — `model, video, mamba, meituan, efficient-inference`
 - [VideoRAE (VFM representation autoencoder)](entities/models/videorae.md) — frozen VFM → generation latents; WATCH — `model, video, vae, tokenizer`
+- [Avatar-Forever (PolyU + ByteDance real-time infinite avatars)](entities/models/avatar-forever.md) — decoupled parallel training + ForeverCache; WATCH (no code/SPDX) — `model, avatar, lipsync, video, streaming`
+- [XYZFlow (multidimensional shortcut flows for efficient T2I)](entities/models/xyzflow.md) — temporal+spatial scaling; 7.2-8.5× speedups; WATCH (no SPDX) — `model, t2i, flow-matching, efficiency`
+- [Agentic I2V adherence (Google — agentic self-improvement for I2V)](entities/models/agentic-i2v.md) — mLLM prompt opt + Bayesian seed/CFG search; WATCH (no code) — `model, i2v, agentic, prompt-optimization`
 - [ZipL-Dialog (latent flow-matching dialog TTS)](entities/voice-models/zipl-dialog.md) — multi-minute multi-speaker; WATCH — `voice-cloning, tts, dialog`
 - [AutoSIFT (category style-infilling TTS)](entities/voice-models/autosift.md) — ASI style surgery; WATCH — `voice-cloning, tts, style-control`
 - [VGIF-Score / VGIF-Bench](entities/benchmarks/vgif-score.md) — diagnostic video instruction eval; placeholder repo — `benchmark, video-generation, evaluation`
@@ -522,6 +535,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [AudioLDM (CVSSP Surrey — first text-to-audio latent diffusion)](entities/sfx-models/audioldm.md) — ICML 2023 pioneer LDM-for-audio; AudioLDM 2 adds GPT-2 prompt conditioner + AudioMAE for broader cross-modal coverage (speech + SFX + music); 16 kHz output; CC-BY-NC weights likely (research-restricted); the academic precursor to Stable Audio Open / Tango 2 — `sfx-generation, text-to-audio, audioldm, latent-diffusion, cvssp, surrey, icml-2023, non-commercial-weights`
 - [Tango 2 (Declare-Lab — instruction-tuned text-to-audio with DPO)](entities/sfx-models/tango-2.md) — Declare-Lab SUTD FLAN-T5 + LDM with DPO on Audio-Alpaca; best text-prompt alignment of the SFX layer for instruction-style prompts; outperforms AudioLDM on smaller training data; 16 kHz, ~10s clips; CC-BY-NC-SA weights likely (research-restricted) — `sfx-generation, text-to-audio, tango-2, declare-lab, sutd, flan-t5, dpo, instruction-tuned`
 - [Audio-Omni (SIGGRAPH 2026 — unified audio understanding + generation + editing)](entities/sfx-models/audio-omni.md) — research-future unified audio model spanning sound + music + speech across understanding / generation / editing; horizon-tracking entry for if/when training-data + license clarify into a build-track option; not currently usable — `sfx, text-to-audio, audio-omni, unified-audio, siggraph-2026, research-future, sound-music-speech-unified`
+- [MiDashengLM-Gen (Xiaomi unified audio-scene generation)](entities/sfx-models/midashenglm-gen.md) — LLM + AR flow matching over 768-dim latents; GO code (Apache-2.0) / 11 GB weights WATCH — `sfx, text-to-audio, unified, speech, music, watch`
 
 ---
 - [voicebox — Local-First AI Voice Studio](entities/voicebox.md) — MIT local voice studio (MLX, MCP); **Phase-0 GO** — Fish-Speech alternative — `voice-cloning, tts, persona-ops`

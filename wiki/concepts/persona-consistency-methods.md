@@ -119,6 +119,8 @@ related:
   - sources/arxiv-2608-03708-multicompose.md
   - entities/models/multicompose.md
   - sources/arxiv-2608-04820-resem-face.md
+  - entities/models/agentic-i2v.md
+  - sources/arxiv-2608-12290-agentic-i2v.md
 title: Persona consistency methods (umbrella)
 type: concept
 tags: [persona-consistency, methods, taxonomy, identity-injection]

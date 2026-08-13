@@ -15,6 +15,8 @@ related:
   - concepts/persona-ops-stack.md
   - sweeps/2026-07-12-daily.md
   - sources/arxiv-2608-10405-speech-dos-routed.md
+  - entities/sfx-models/midashenglm-gen.md
+  - sources/arxiv-2608-11804-midashenglm-gen.md
 maturity: draft
 created: 2026-07-12
 updated: 2026-07-12

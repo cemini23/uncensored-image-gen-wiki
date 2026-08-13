@@ -1,3 +1,29 @@
+## [2026-08-13] ingest | residual inbox Phoenix TTS · MiDashengLM-Gen · Avatar-Forever · XYZFlow · agentic-I2V + 3 SKIP
+
+Evening residual ingest of the **8 remaining mid-run digest PDFs** (second half of the 2026-08-13 window). preingest clean: 8 NEW / 0 dup. All 8 archived to egress-fi `image-gen/`; inbox empty of this batch.
+
+### WATCH / GO
+- **NEW** `@sources/arxiv-2608-11737-phoenix-tts.md` + **NEW** `@entities/voice-models/phoenix-tts.md` — Didi L-Lab flow-matching-driven speech tokenization (zero-shot TTS + VC, 110K h, WER below ground truth). **WATCH**; no public repo → no SPDX check. Persona-audio content-fidelity angle (vs SemBridge / Fish-Speech / CosyVoice2).
+- **NEW** `@sources/arxiv-2608-11804-midashenglm-gen.md` + **NEW** `@entities/sfx-models/midashenglm-gen.md` — Xiaomi unified audio-scene gen (LLM + per-token conditional flow matching, 768-dim latents). **GO (code)** — `xiaomi-research/midashenglm-gen` Apache-2.0 ✅, 302 KB; **WATCH (stack)** — weights HF ≈ 11 GB → above 500 MB local-adopt threshold. Seed-TTS WER 12.15→2.79%.
+- **NEW** `@sources/arxiv-2608-12107-avatar-forever.md` + **NEW** `@entities/models/avatar-forever.md` — PolyU+ByteDance real-time infinite audio-driven avatars (RRT + ForeverCache, 22B base, 27.2 FPS H100). **WATCH**; code repo `leeruibin/avatarforever` paper-only (no LICENSE). Portable techniques: RRT + chunk-wise feature caching → `@concepts/budget-aware-diffusion-caching.md`.
+- **NEW** `@sources/arxiv-2608-12276-xyzflow.md` + **NEW** `@entities/models/xyzflow.md` — multidimensional shortcut flows (temporal + spatial / Next Shortcut Prediction) for efficient T2I, 7.2–8.5× speedups. **WATCH**; `Sphere-AI-Lab/xyzflow` real code ~34 MB but **no LICENSE → no SPDX** → no GO. Re-check when license lands.
+- **NEW** `@sources/arxiv-2608-12290-agentic-i2v.md` + **NEW** `@entities/models/agentic-i2v.md` — Google "Agentic Self-Improvement" for black-box I2V adherence (mLLM prompt opt + DSG/CMQ evals, Bayesian seed/CFG search). **WATCH**; no code. Reusable QA loop for persona-video I2V adherence.
+
+### SKIP peripherals
+- `arxiv-2608-12203` GeoFlow driving-video (AV peripheral; geometry-aligned priors) · `arxiv-2608-12254` globular-cluster stellar stream (astronomy) · `arxiv-2608-12275` CHANG-ES XL NGC 891 magnetic fields (astrophysics) — all thin SKIP sources, no persona/gen hook.
+
+### Phase-0 / Phase-1
+- `gh` Phase-0 on GitHub URLs: MiDashengLM-Gen Apache-2.0 verified + 11 GB weights measured; XYZFlow no SPDX; Avatar-Forever pre-code. Phoenix + agentic-I2V paper-only (GH search negative).
+- Image-gen local wire: **none** (federation skip). All 5 new entities `wire_status: deferred`.
+- Local adopt: **none** (GO code exists only for MiDashengLM-Gen but unusable without 11 GB weights + GPU). Documented in `briefs/2026-08-13_residual-inbox-phase0.md`.
+
+### Briefs / routing
+- `briefs/2026-08-13_residual-inbox-phase0.md` — local-only Phase-0 record.
+- No cybersec routing (no attack/defense primary this batch). No atto / poker / guruwatcher / cemini-prod SCP. TipDrop/David retired — no mirror.
+
+### Archive
+- All 8 PDFs → egress-fi `image-gen/`, local inbox cleared of this batch. 2026-08-13 digest window fully ingested (16/16).
+
 ## [2026-08-13] ingest | 4 cybersec routes (speech-DoS · NullEdit · SafeCA · VidForensics-M1) + ASR-roundtrip TTS-eval WATCH
 
 Full inbox ingest of 8 NEW arXiv PDFs (preingest clean: 8 NEW / 0 dup). 8 additional PDFs arrived in inbox during the session (tonight's digest) — **left pending** for next ingest, not part of this batch.

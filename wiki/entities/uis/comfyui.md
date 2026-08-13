@@ -101,6 +101,8 @@ related:
   - sources/arxiv-2607-18217-homie-video-personalization.md
   - entities/models/appearance-pointers.md
   - sources/arxiv-2607-19344-appearance-pointers.md
+  - entities/models/xyzflow.md
+  - sources/arxiv-2608-12276-xyzflow.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-07-22

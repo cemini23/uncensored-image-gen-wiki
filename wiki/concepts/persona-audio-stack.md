@@ -131,6 +131,10 @@ related:
   - concepts/asr-roundtrip-tts-eval-limits.md
   - sources/arxiv-2608-10405-speech-dos-routed.md
   - sources/arxiv-2608-10606-asr-roundtrip-tts-eval.md
+  - entities/sfx-models/midashenglm-gen.md
+  - entities/voice-models/phoenix-tts.md
+  - sources/arxiv-2608-11737-phoenix-tts.md
+  - sources/arxiv-2608-11804-midashenglm-gen.md
 maturity: validated
 created: 2026-05-09
 updated: 2026-08-10

@@ -19,6 +19,8 @@ related:
   - sweeps/2026-07-17-daily.md
   - sources/arxiv-2608-03215-grow-tts-rl.md
   - entities/voice-models/grow-tts.md
+  - entities/models/agentic-i2v.md
+  - sources/arxiv-2608-12290-agentic-i2v.md
 maturity: draft
 created: 2026-06-01
 updated: 2026-08-05

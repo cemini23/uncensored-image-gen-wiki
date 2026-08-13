@@ -37,6 +37,8 @@ related:
   - sources/arxiv-2608-02474-echocache.md
   - sources/arxiv-2608-04709-empaava.md
   - entities/persona-ops/empaava.md
+  - entities/models/avatar-forever.md
+  - sources/arxiv-2608-12107-avatar-forever.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-08-06
