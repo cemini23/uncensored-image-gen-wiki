@@ -15,14 +15,14 @@ related:
   - entities/models/wan-2-2.md
   - entities/models/cogvideox-1-5.md
   - sources/video-generation-survey-2026.md
+  - sources/arxiv-2608-10933-safeca-routed.md
 maturity: draft
 created: 2026-06-20
 updated: 2026-06-20
 ---
-
 ## Relations
 
-@sources/arxiv-2606-17257-reins-video-safety-representation-steering.md @concepts/activation-steering-video-generation.md @concepts/cross-model-safety-steering.md @concepts/de-censoring-techniques.md @entities/models/wan-2-2.md
+@sources/arxiv-2606-17257-reins-video-safety-representation-steering.md @concepts/activation-steering-video-generation.md @concepts/cross-model-safety-steering.md @concepts/de-censoring-techniques.md @entities/models/wan-2-2.md @sources/arxiv-2608-10933-safeca-routed.md
 
 ## Raw Concept
 
@@ -47,6 +47,7 @@ Ingest 2026-06-20 from REINS (arXiv:2606.17257) — SPCA-discovered safety direc
 - **LA-LQR** — closed-loop optimal control on activations (@concepts/activation-steering-video-generation.md)
 - **Cross-model** — LLM direction → T2V via benign alignment (@concepts/cross-model-safety-steering.md)
 - **REINS** — native VDM SPCA direction, no weight edits, video-specific eval suite
+- **SafeCA (2026-08-13)** — @sources/arxiv-2608-10933-safeca-routed.md → cybersec. Cross-attention-space T2V jailbreak defense: shows clean vs jailbreak samples are **linearly separable in cross-attention features** with a cumulative separation effect across diffusion steps. Defends via attention-masking + energy normalization + semantic-space adapter + back-propagated token suppression. ~20% jailbreak-SR cut at +0.1 s overhead. Confirms the REINS premise — safety structure lives in the attention/feature space — extended from hidden-state steering to cross-attention localization.
 
 ### Workspace relevance
 

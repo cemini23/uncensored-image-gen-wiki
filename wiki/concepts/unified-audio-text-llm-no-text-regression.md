@@ -14,14 +14,14 @@ related:
   - entities/sfx-models/stable-audio-open.md
   - concepts/persona-ops-stack.md
   - sweeps/2026-07-12-daily.md
+  - sources/arxiv-2608-10405-speech-dos-routed.md
 maturity: draft
 created: 2026-07-12
 updated: 2026-07-12
 ---
-
 ## Relations
 
-@sources/arxiv-2607-05196-nemotron-audex-unified-audio-intelligence.md @entities/voice-models/nemotron-audex.md @concepts/persona-audio-stack.md @entities/persona-ops/fish-speech.md @entities/voice-models/qwen3-tts.md @entities/persona-ops/sillytavern.md @entities/sfx-models/stable-audio-open.md
+@sources/arxiv-2607-05196-nemotron-audex-unified-audio-intelligence.md @entities/voice-models/nemotron-audex.md @concepts/persona-audio-stack.md @entities/persona-ops/fish-speech.md @entities/voice-models/qwen3-tts.md @entities/persona-ops/sillytavern.md @entities/sfx-models/stable-audio-open.md @sources/arxiv-2608-10405-speech-dos-routed.md
 
 ## Raw Concept
 

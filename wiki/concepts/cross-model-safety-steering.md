@@ -23,14 +23,14 @@ related:
   - concepts/multimodal-machine-unlearning.md
   - sources/arxiv-2607-07907-multimodal-unlearning-survey.md
   - sweeps/2026-07-13-daily.md
+  - sources/arxiv-2608-10933-safeca-routed.md
 maturity: draft
 created: 2026-06-06
 updated: 2026-07-02
 ---
-
 ## Relations
 
-@sources/arxiv-2606-05290-cross-model-safety-steering.md @concepts/activation-steering-video-generation.md @concepts/de-censoring-techniques.md @entities/models/wan-2-2.md
+@sources/arxiv-2606-05290-cross-model-safety-steering.md @concepts/activation-steering-video-generation.md @concepts/de-censoring-techniques.md @entities/models/wan-2-2.md @sources/arxiv-2608-10933-safeca-routed.md
 
 ## Raw Concept
 

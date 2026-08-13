@@ -19,6 +19,7 @@ related:
   - concepts/contextual-privacy-alignment-llm-agents.md
   - concepts/domain-sensitive-llm-over-alignment.md
   - concepts/low-resource-text-detoxification.md
+  - sources/arxiv-2608-10933-safeca-routed.md
 title: Pluralistic Safety Alignment
 type: concept
 tags: [concept, safety, alignment, culture, moderation, rlhf]
@@ -27,10 +28,9 @@ maturity: draft
 created: 2026-06-03
 updated: 2026-06-26
 ---
-
 ## Relations
 
-@sources/arxiv-2606-00369-geo-cultural-safety-alignment.md @sources/uncensored-image-generation-survey.md @concepts/prompt-engineering-uncensored.md @concepts/censorship-tier-taxonomy.md
+@sources/arxiv-2606-00369-geo-cultural-safety-alignment.md @sources/uncensored-image-generation-survey.md @concepts/prompt-engineering-uncensored.md @concepts/censorship-tier-taxonomy.md @sources/arxiv-2608-10933-safeca-routed.md
 
 ## Raw Concept
 

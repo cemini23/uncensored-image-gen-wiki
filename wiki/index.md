@@ -278,6 +278,15 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Ultraneuron ultrasound (arXiv:2608.06321)](sources/arxiv-2608-06321-ultraneuron.md) — medical sim SKIP — `paper, medical, peripheral`
 - [GeniWorld robot WM (arXiv:2608.06332)](sources/arxiv-2608-06332-geniworld.md) — robotics interactive WM SKIP — `paper, robotics, peripheral`
 
+- [Never Stop Speaking — E2E speech-LLM DoS — routed (arXiv:2608.10405)](sources/arxiv-2608-10405-speech-dos-routed.md) — perturbation DoS suppressing EOS; ROUTE cybersec — `paper, routed, security, speech, dos`
+- [ASR-roundtrip eval masks CDRD reading errors (arXiv:2608.10606)](sources/arxiv-2608-10606-asr-roundtrip-tts-eval.md) — Chinese news TTS eval false negatives; WATCH — `paper, tts, eval, voice`
+- [NullEdit stealthy image protection — routed (arXiv:2608.10870)](sources/arxiv-2608-10870-nulledit-routed.md) — inference-time VLM-condition redirect; ROUTE cybersec + anti-personalization — `paper, routed, security, image-editing`
+- [SafeCA T2V jailbreak defense — routed (arXiv:2608.10933)](sources/arxiv-2608-10933-safeca-routed.md) — cross-attention localization/regulation; ROUTE cybersec + T2V safety — `paper, routed, security, t2v, jailbreak-defense`
+- [WSV synthetic-video captioning (arXiv:2608.11013)](sources/arxiv-2608-11013-wsv-video-captioning.md) — zero-shot captioning via T2V latents; WATCH — `paper, video, captioning, eval`
+- [Irreversibility in amorphous solids (arXiv:2608.11073)](sources/arxiv-2608-11073-irreversibility-skip.md) — condensed-matter physics SKIP — `paper, physics, peripheral`
+- [TORF mean-preserving forecasting (arXiv:2608.11114)](sources/arxiv-2608-11114-torf-forecasting-skip.md) — probabilistic TS forecasting SKIP — `paper, forecasting, peripheral`
+- [VidForensics-M1 video forensics — routed (arXiv:2608.11201)](sources/arxiv-2608-11201-vidforensics-m1-routed.md) — meta-detection RL + temporal grounding; ROUTE cybersec — `paper, routed, security, deepfake, video-forensics`
+
 - [NL→LTL requirements LLM — routed (arXiv:2608.06287)](sources/arxiv-2608-06287-nl-to-ltl-routed.md) — formal methods; ROUTE cybersec — `paper, routed, formal-methods`
 - [GB/T-Bench national-standard review (arXiv:2608.06312)](sources/arxiv-2608-06312-gbt-bench-skip.md) — document-review peripheral SKIP — `paper, llm, peripheral`
 - [PS-FNVD T2V pure-synthesis fake news — routed (arXiv:2608.06732)](sources/arxiv-2608-06732-ps-fnvd-routed.md) — ternary FNVD; ROUTE cybersec — `paper, deepfake, routed`
@@ -532,6 +541,7 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 
 ## Concepts
 
+- [ASR-roundtrip TTS evaluation limits (CDRD false negatives)](concepts/asr-roundtrip-tts-eval-limits.md) — ASR-roundtrip masks context-dependent reading errors; human-audited span-isolation protocol for persona-TTS QA — `tts, eval, asr-roundtrip, voice, methodology`
 - [Understanding-generation gap](concepts/understanding-generation-gap.md) — unified models verify prompt-image mismatches that they themselves cause when generating; coined in UniReasoner — `llm, diffusion, evaluation, prompt-faithfulness`
 - [Draft-Evaluate-Diffuse pipeline](concepts/draft-evaluate-diffuse-pipeline.md) — UniReasoner's three-stage approach: LLM samples discrete vision tokens, self-critiques, diffusion conditions on (p,d,e) — `llm, diffusion, vision-tokens, self-critique`
 - [LLM as image-generation conditioning (encoder vs reasoner)](concepts/llm-as-image-conditioning.md) — four roles for LMs in T2I: frozen encoder → stronger encoder → front-end rewriter → universal reasoner — `llm, diffusion, conditioning, t2i-architecture`

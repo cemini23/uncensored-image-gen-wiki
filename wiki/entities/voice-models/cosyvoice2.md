@@ -37,11 +37,12 @@ related:
   - sweeps/2026-07-13-daily.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
+  - sources/arxiv-2608-10606-asr-roundtrip-tts-eval.md
+  - concepts/asr-roundtrip-tts-eval-limits.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-08-10
 ---
-
 ## Relations
 
 @concepts/persona-audio-stack.md @sources/arxiv-2608-05507-affectdf-routed.md
@@ -51,7 +52,7 @@ updated: 2026-08-10
 @concepts/model-selection-workflow.md
 @sources/persona-ops-stack-2026.md
 @entities/voice-models/indextts-2.md @entities/voice-models/qwen3-tts.md @entities/voice-models/chatterbox.md
-@entities/voice-models/xtts-v2.md @entities/voice-models/dia.md @entities/voice-models/elevenlabs.md @entities/voice-models/barewave.md @sources/arxiv-2608-07462-sembridge.md @entities/voice-models/sembridge.md
+@entities/voice-models/xtts-v2.md @entities/voice-models/dia.md @entities/voice-models/elevenlabs.md @entities/voice-models/barewave.md @sources/arxiv-2608-07462-sembridge.md @entities/voice-models/sembridge.md @sources/arxiv-2608-10606-asr-roundtrip-tts-eval.md @concepts/asr-roundtrip-tts-eval-limits.md
 
 ## Raw Concept
 

@@ -52,6 +52,7 @@ related:
   - sources/arxiv-tagrpo-i2v-grpo-2601-05729.md
   - sources/video-generation-survey-2026.md
   - sweeps/2026-07-11-daily.md
+  - sources/arxiv-2608-11201-vidforensics-m1-routed.md
 title: HunyuanVideo 1.5 (Tencent)
 type: entity
 tags: [model, video, dit, hunyuanvideo, tencent, eastern-vanguard, completely-uncensored-after-lora]
@@ -60,11 +61,9 @@ maturity: draft
 created: 2026-05-07
 updated: 2026-08-10
 ---
+## Relations
 
 **HOMA extension (Jul 2026):** Tencent HunyuanVideo-HOMA adds weak human–object interaction on the HunyuanVideo backbone — @sources/arxiv-2506-08797-hunyuanvideo-homa.md @concepts/hunyuanvideo-homa-weak-hoi-video.md. WATCH for open weights.
-
-
-## Relations
 
 @sources/video-generation-survey-2026.md @entities/models/wan-2-2.md @entities/models/ltx-2.md @entities/training-tools/musubi-tuner.md @concepts/seam-stitching-strategies.md @concepts/video-identity-inheritance.md @concepts/de-censoring-techniques.md @concepts/censorship-tier-taxonomy.md @entities/models/token-radius-attention.md @sources/arxiv-2608-02504-token-radius-attention.md @sources/arxiv-2608-03335-spade.md @entities/models/spade.md
 @concepts/model-selection-workflow.md
@@ -72,7 +71,7 @@ updated: 2026-08-10
 @entities/models/open-sora.md
 
 @concepts/persona-audio-stack.md
-@entities/lipsync/latentsync.md @sources/arxiv-2608-06732-ps-fnvd-routed.md
+@entities/lipsync/latentsync.md @sources/arxiv-2608-06732-ps-fnvd-routed.md @sources/arxiv-2608-11201-vidforensics-m1-routed.md
 
 ## Raw Concept
 

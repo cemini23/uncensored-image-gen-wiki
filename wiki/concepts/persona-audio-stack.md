@@ -128,11 +128,13 @@ related:
   - sweeps/2026-07-22-daily.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
+  - concepts/asr-roundtrip-tts-eval-limits.md
+  - sources/arxiv-2608-10405-speech-dos-routed.md
+  - sources/arxiv-2608-10606-asr-roundtrip-tts-eval.md
 maturity: validated
 created: 2026-05-09
 updated: 2026-08-10
 ---
-
 ## Relations
 
 @entities/persona-ops/fish-speech.md @sources/arxiv-2608-02235-tts-domain-eval.md @sources/arxiv-2608-02474-echocache.md @entities/models/echocache.md @sources/arxiv-2608-03011-daien-tts.md @entities/voice-models/daien-tts.md @sources/arxiv-2608-03215-grow-tts-rl.md @entities/voice-models/grow-tts.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md @sources/arxiv-2608-05507-affectdf-routed.md
@@ -161,7 +163,7 @@ updated: 2026-08-10
 @entities/persona-ops/delive.md — Apache-2.0 system-audio capture + ASR for TTS-output-to-text audit trail
 @concepts/federated-daily-research-digest.md
 @concepts/sync-audio-video-customization.md @entities/models/omnicustom.md @sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
-@sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md — REFERENCE-ONLY neuromorphic TTS research @concepts/face-to-speech-synthesis.md @entities/voice-models/qwen-audio-3-gen.md @sources/arxiv-2607-26742-face-to-speech.md @sources/arxiv-2607-27011-qwen-audio-3-gen.md @sources/arxiv-2608-06900-mmag.md @sources/arxiv-2608-07462-sembridge.md @entities/benchmarks/mmag.md @entities/voice-models/sembridge.md
+@sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md — REFERENCE-ONLY neuromorphic TTS research @concepts/face-to-speech-synthesis.md @entities/voice-models/qwen-audio-3-gen.md @sources/arxiv-2607-26742-face-to-speech.md @sources/arxiv-2607-27011-qwen-audio-3-gen.md @sources/arxiv-2608-06900-mmag.md @sources/arxiv-2608-07462-sembridge.md @entities/benchmarks/mmag.md @entities/voice-models/sembridge.md @concepts/asr-roundtrip-tts-eval-limits.md @sources/arxiv-2608-10405-speech-dos-routed.md @sources/arxiv-2608-10606-asr-roundtrip-tts-eval.md
 
 ## Raw Concept
 
@@ -466,6 +468,14 @@ n8n workflow:
 | Foley | Stable Audio Open | 8-12 GB |
 
 **Modal 4090 (24 GB) configuration**: Fish-Speech S2 Pro runs comfortably. LatentSync + Stable Audio Open can run sequentially. ACE-Step 1.5 can run concurrently with TTS if VRAM is managed. Total audio stack fits on a single 4090.
+
+#### TTS quality-gate methodology (2026-08-13)
+
+ASR-roundtrip screening is **not** standalone ground truth for reading-risk text: @concepts/asr-roundtrip-tts-eval-limits.md (from @sources/arxiv-2608-10606-asr-roundtrip-tts-eval.md) shows context-dependent reading errors (scores, units, codes, foreign names) get masked because the ASR normalizes fluent-wrong audio back to surface-correct text. Use a human-audited span-isolation protocol for high-risk spans and pick the ASR evaluator deliberately (Qwen3-ASR recovers surface text far more than Paraformer).
+
+#### E2E speech-LLM attack surface (2026-08-13)
+
+@concepts/unified-audio-text-llm-no-text-regression.md-family E2E Audio LLMs (speech-to-speech) are vulnerable to a perturbation-based DoS (@sources/arxiv-2608-10405-speech-dos-routed.md → cybersec): imperceptible voiced-region noise suppresses EOS, prolonging decoding and burning GPU. If a voice-DM / speech-assistant service ever runs an E2E speech LLM, this is an availability risk to monitor.
 
 **Apple Silicon (M3/M4 36+ GB)**: Fish-Speech S2 Pro runs via MPS. LatentSync has CUDA dependencies — cloud burst via RunPod may be needed for lipsync.
 

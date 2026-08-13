@@ -30,14 +30,14 @@ related:
   - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
   - sources/video-generation-survey-2026.md
   - sweeps/2026-07-20-daily.md
+  - sources/arxiv-2608-11013-wsv-video-captioning.md
 maturity: draft
 created: 2026-06-08
 updated: 2026-08-10
 ---
-
 ## Relations
 
-@sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md @concepts/sync-audio-video-customization.md @concepts/persona-audio-stack.md @concepts/seam-stitching-strategies.md @entities/models/ltx-2.md @entities/models/wan-2-2.md @entities/models/seedance-2.md @entities/benchmarks/vgif-score.md @entities/benchmarks/refcaptioner.md @sources/arxiv-2607-28509-refcaptioner.md @sources/arxiv-2608-06900-mmag.md @entities/benchmarks/mmag.md
+@sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md @concepts/sync-audio-video-customization.md @concepts/persona-audio-stack.md @concepts/seam-stitching-strategies.md @entities/models/ltx-2.md @entities/models/wan-2-2.md @entities/models/seedance-2.md @entities/benchmarks/vgif-score.md @entities/benchmarks/refcaptioner.md @sources/arxiv-2607-28509-refcaptioner.md @sources/arxiv-2608-06900-mmag.md @entities/benchmarks/mmag.md @sources/arxiv-2608-11013-wsv-video-captioning.md
 
 ## Raw Concept
 

@@ -116,19 +116,16 @@ related:
   - sweeps/2026-07-22-daily.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
+  - sources/arxiv-2608-11013-wsv-video-captioning.md
 maturity: draft
 created: 2026-05-16
 updated: 2026-08-10
 ---
-
 ## Relations
 
 @sources/sana-wm-minute-scale-world-model.md @entities/models/sana-wm.md @concepts/camera-controlled-video-generation.md @concepts/hybrid-linear-attention.md @sources/video-generation-survey-2026.md @sources/arxiv-2607-27036-video-repr-regularization.md @sources/arxiv-2607-28581-road-3d.md @sources/arxiv-2607-29302-bwm-world-model.md @entities/models/bwm.md @sources/arxiv-2607-29545-moroute.md @entities/models/moroute.md @sources/arxiv-2608-02603-worldexam.md @entities/benchmarks/worldexam.md @sources/arxiv-2608-02406-kl-entropy-diffusion.md @sources/arxiv-2608-05070-helloworld.md @entities/models/helloworld.md @sources/arxiv-2608-06231-emoworld.md @entities/models/emoworld.md @sources/arxiv-2608-06332-geniworld.md @sources/arxiv-2608-06008-adaptive-wam.md
 
-
-
-
-@sources/arxiv-yocausal-world-model-benchmark-2605-30346.md @sources/arxiv-proprio-physics-video-2605-28230.md @sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md @entities/models/wan-2-2.md @sources/arxiv-2605-31336-decmem-world-generation.md @entities/models/decmem.md @entities/models/metaworld.md @concepts/activation-steering-video-generation.md @concepts/multi-agent-cross-view-video-world-models.md @entities/models/prisma-world.md @concepts/latent-spatial-memory-video-world-models.md @entities/models/mirage.md @entities/models/egogenesis.md @sources/arxiv-2607-28243-egogenesis.md @entities/models/freqforcing.md @sources/arxiv-2608-06770-surg-uniworld.md @sources/arxiv-2608-07463-mirrorworld.md @entities/models/surg-uniworld.md @entities/models/mirrorworld.md
+@sources/arxiv-yocausal-world-model-benchmark-2605-30346.md @sources/arxiv-proprio-physics-video-2605-28230.md @sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md @entities/models/wan-2-2.md @sources/arxiv-2605-31336-decmem-world-generation.md @entities/models/decmem.md @entities/models/metaworld.md @concepts/activation-steering-video-generation.md @concepts/multi-agent-cross-view-video-world-models.md @entities/models/prisma-world.md @concepts/latent-spatial-memory-video-world-models.md @entities/models/mirage.md @entities/models/egogenesis.md @sources/arxiv-2607-28243-egogenesis.md @entities/models/freqforcing.md @sources/arxiv-2608-06770-surg-uniworld.md @sources/arxiv-2608-07463-mirrorworld.md @entities/models/surg-uniworld.md @entities/models/mirrorworld.md @sources/arxiv-2608-11013-wsv-video-captioning.md
 
 ## Raw Concept
 

@@ -216,6 +216,7 @@ related:
   - sweeps/2026-07-22-daily.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
+  - sources/arxiv-2608-10933-safeca-routed.md
 title: Wan 2.2 (Alibaba)
 type: entity
 tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]
@@ -224,13 +225,9 @@ maturity: draft
 created: 2026-05-07
 updated: 2026-08-10
 ---
-
-
 ## Relations
 
 @sources/video-generation-survey-2026.md @entities/models/hunyuanvideo-1-5.md @entities/models/ltx-2.md @entities/models/mochi-1.md @entities/models/cogvideox-1-5.md @entities/models/seedance-2.md @entities/training-tools/musubi-tuner.md @entities/training-tools/ai-toolkit.md @concepts/seam-stitching-strategies.md @concepts/video-identity-inheritance.md @concepts/multi-angle-dataset-prep.md @concepts/de-censoring-techniques.md @concepts/censorship-tier-taxonomy.md @concepts/hand-object-interaction-generation.md @sources/arxiv-2607-27036-video-repr-regularization.md @sources/arxiv-2607-28243-egogenesis.md @sources/arxiv-2607-28394-hoi-foundation-survey.md @sources/arxiv-2607-28509-refcaptioner.md @entities/models/token-radius-attention.md @sources/arxiv-2608-02504-token-radius-attention.md @entities/models/bwm.md @sources/arxiv-2607-29302-bwm-world-model.md @entities/models/moroute.md @sources/arxiv-2607-29545-moroute.md @entities/models/echocache.md @sources/arxiv-2607-28760-wait-frequency-aware-flow.md @sources/arxiv-2608-02474-echocache.md @sources/arxiv-2608-03335-spade.md @entities/models/spade.md @sources/arxiv-2608-05070-helloworld.md @entities/models/helloworld.md @sources/arxiv-2608-06231-emoworld.md @entities/models/emoworld.md @sources/arxiv-2608-06008-adaptive-wam.md
-
-
 
 @concepts/model-selection-workflow.md
 @concepts/synthetic-media-compute-economics.md
@@ -242,7 +239,7 @@ updated: 2026-08-10
 @concepts/query-warped-video-motion-control.md
 @concepts/mobile-wan-chunkwise-video-distillation.md
 @entities/models/m4v.md @concepts/multimodal-diffusion-mamba-efficient-t2v.md @sources/arxiv-2506-10915-m4v-multimodal-mamba-t2v.md
-@entities/models/videorae.md @entities/benchmarks/vgif-score.md @sources/arxiv-2608-06770-surg-uniworld.md @sources/arxiv-2608-07463-mirrorworld.md @entities/models/surg-uniworld.md @entities/models/mirrorworld.md
+@entities/models/videorae.md @entities/benchmarks/vgif-score.md @sources/arxiv-2608-06770-surg-uniworld.md @sources/arxiv-2608-07463-mirrorworld.md @entities/models/surg-uniworld.md @entities/models/mirrorworld.md @sources/arxiv-2608-10933-safeca-routed.md
 
 ## Raw Concept
 

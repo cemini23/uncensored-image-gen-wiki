@@ -1,3 +1,33 @@
+## [2026-08-13] ingest | 4 cybersec routes (speech-DoS · NullEdit · SafeCA · VidForensics-M1) + ASR-roundtrip TTS-eval WATCH
+
+Full inbox ingest of 8 NEW arXiv PDFs (preingest clean: 8 NEW / 0 dup). 8 additional PDFs arrived in inbox during the session (tonight's digest) — **left pending** for next ingest, not part of this batch.
+
+### WATCH / REFERENCE
+- **NEW** `@sources/arxiv-2608-10606-asr-roundtrip-tts-eval.md` + **NEW** `@concepts/asr-roundtrip-tts-eval-limits.md` — CDRD masked-false-negative failure mode in ASR-roundtrip TTS eval (MiMo 46/110 masked; CosyVoice 51; Qwen3-ASR recovers 40 vs Paraformer 2) — **WATCH / REFERENCE** for persona-TTS QA
+- **NEW** `@sources/arxiv-2608-11013-wsv-video-captioning.md` — zero-shot video captioning via T2V-synthesized latents — **WATCH** (gen-adjacent synthetic-data technique)
+
+### ROUTEd → Cybersecurity wiki briefs
+- **NEW** `@sources/arxiv-2608-10405-speech-dos-routed.md` → `2026-08-13_speech-e2e-dos-from-image-gen.md` (E2E speech-LLM DoS via EOS-suppressing acoustic perturbations)
+- **NEW** `@sources/arxiv-2608-10870-nulledit-routed.md` → `2026-08-13_nulledit-image-protection-from-image-gen.md` (inference-time stealthy image protection; image-gen anti-personalization touchpoint)
+- **NEW** `@sources/arxiv-2608-10933-safeca-routed.md` → `2026-08-13_safeca-t2v-jailbreak-defense-from-image-gen.md` (cross-attention T2V jailbreak defense; joins @concepts/representation-space-video-safety-steering.md)
+- **NEW** `@sources/arxiv-2608-11201-vidforensics-m1-routed.md` → `2026-08-13_vidforensics-m1-from-image-gen.md` (meta-detection RL + temporal grounding for AI-generated video forensics)
+
+### SKIP peripherals
+- `arxiv-2608-11073` amorphous-solids irreversibility (physics) · `arxiv-2608-11114` TORF probabilistic TS forecasting (osint-wiki routing considered, generic method, no finance steal)
+
+### Phase-0 / Phase-1
+- No GitHub URLs in any PDF → no `gh api` license/SPDX check possible or needed. All WATCH/ROUTE items are code-less (no repos/weights in PDFs).
+- Image-gen local wire: **none** (federation skip). No new entities → no `wire_status` additions.
+- Local adopt: **none** (no GO code, no SPDX). Documented in `briefs/2026-08-13_inbox-no-adopt-phase0.md`.
+
+### Briefs / routing
+- `briefs/2026-08-13_inbox-no-adopt-phase0.md` — local-only Phase-0 record
+- 4 cybersec briefs — not atto/poker/guru/prod (no steal fit this batch). No cemini-prod SCP.
+- TipDrop/David retired — no mirror.
+
+### Archive
+- All 8 PDFs → egress-fi `image-gen/`, local inbox cleared of this batch. 8 new `_(new tonight)_` PDFs remain in `research to be indexed/`.
+
 ## [2026-08-10] ingest | SemBridge/MMAG/MirrorWorld WATCH + PS-FNVD→cybersec (+ NL→LTL route + 4 SKIP)
 
 Full inbox ingest of 10 NEW arXiv PDFs (preingest clean).
