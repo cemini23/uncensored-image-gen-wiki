@@ -21,6 +21,7 @@ related:
   - entities/voice-models/grow-tts.md
   - entities/models/agentic-i2v.md
   - sources/arxiv-2608-12290-agentic-i2v.md
+  - sources/arxiv-2608-13463-mllm-routed-ensembles-routed.md
 maturity: draft
 created: 2026-06-01
 updated: 2026-08-05
@@ -28,7 +29,7 @@ updated: 2026-08-05
 
 ## Relations
 
-@sources/arxiv-tagrpo-i2v-grpo-2601-05729.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @concepts/video-identity-inheritance.md @sources/video-generation-survey-2026.md @sources/arxiv-2608-03215-grow-tts-rl.md @entities/voice-models/grow-tts.md
+@sources/arxiv-tagrpo-i2v-grpo-2601-05729.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @concepts/video-identity-inheritance.md @sources/video-generation-survey-2026.md @sources/arxiv-2608-03215-grow-tts-rl.md @entities/voice-models/grow-tts.md @sources/arxiv-2608-13463-mllm-routed-ensembles-routed.md
 
 ## Raw Concept
 

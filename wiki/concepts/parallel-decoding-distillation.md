@@ -11,9 +11,10 @@ related:
   - entities/models/ltx-2.md
   - entities/models/qwen-image-2512.md
   - sweeps/2026-07-29-daily.md
+  - concepts/hybrid-policy-self-distillation-video.md
 maturity: draft
 created: 2026-07-29
-updated: 2026-07-29
+updated: 2026-08-14
 ---
 
 ## Relations

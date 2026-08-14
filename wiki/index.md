@@ -284,6 +284,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [SafeCA T2V jailbreak defense — routed (arXiv:2608.10933)](sources/arxiv-2608-10933-safeca-routed.md) — cross-attention localization/regulation; ROUTE cybersec + T2V safety — `paper, routed, security, t2v, jailbreak-defense`
 - [WSV synthetic-video captioning (arXiv:2608.11013)](sources/arxiv-2608-11013-wsv-video-captioning.md) — zero-shot captioning via T2V latents; WATCH — `paper, video, captioning, eval`
 - [Irreversibility in amorphous solids (arXiv:2608.11073)](sources/arxiv-2608-11073-irreversibility-skip.md) — condensed-matter physics SKIP — `paper, physics, peripheral`
+- [MLLM-Routed Heterogeneous Ensembles — routed (arXiv:2608.13463)](sources/arxiv-2608-13463-mllm-routed-ensembles-routed.md) — ARMDIL MLLM cross-dataset routing (ResNet/DINO/CLIP); image-gen primary — `paper, routed, image-classification, mllm`
 - [TORF mean-preserving forecasting (arXiv:2608.11114)](sources/arxiv-2608-11114-torf-forecasting-skip.md) — probabilistic TS forecasting SKIP — `paper, forecasting, peripheral`
 - [VidForensics-M1 video forensics — routed (arXiv:2608.11201)](sources/arxiv-2608-11201-vidforensics-m1-routed.md) — meta-detection RL + temporal grounding; ROUTE cybersec — `paper, routed, security, deepfake, video-forensics`
 
@@ -295,6 +296,16 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [CHANG-ES XL NGC 891 (arXiv:2608.12275)](sources/arxiv-2608-12275-chang-es-xl-skip.md) — radio magnetic fields; SKIP — `paper, astrophysics, peripheral`
 - [XYZFlow shortcut flows (arXiv:2608.12276)](sources/arxiv-2608-12276-xyzflow.md) — multidimensional shortcut flows for efficient T2I; WATCH (no SPDX) — `paper, t2i, flow-matching, efficiency`
 - [Agentic I2V adherence (arXiv:2608.12290)](sources/arxiv-2608-12290-agentic-i2v.md) — agentic prompt+param optimization for black-box I2V; WATCH (no code) — `paper, i2v, agentic`
+
+- [FastThaiG2P (arXiv:2608.12814)](sources/arxiv-2608-12814-fastthaig2p.md) — Thai G2P for TTS pipelines; Apache-2.0 13 MB; CONDITIONAL (Thai persona) — `paper, tts, g2p, thai, voice`
+- [VoxAudio vocalized audio (arXiv:2608.12951)](sources/arxiv-2608-12951-voxaudio.md) — speech-in-soundscape T2A via multi-reward AR flow matching; WATCH — `paper, audio, tta, speech, flow-matching`
+- [Behavioral reprogramming — routed (arXiv:2608.13069)](sources/arxiv-2608-13069-behavioral-reprogramming-routed.md) — PEFT/DPO persona bounds; ROUTE cybersec — `paper, routed, security, alignment`
+- [FlowLOB LOB generation — routed (arXiv:2608.13096)](sources/arxiv-2608-13096-flowlob-routed.md) — flow-matching LOB sim, 10-step; ROUTE guruwatcher research-only — `paper, routed, finance, microstructure`
+- [HPSD TI2V self-distillation (arXiv:2608.13205)](sources/arxiv-2608-13205-hpsd.md) — hybrid-policy self-distill; capability internalization; WATCH — `paper, video, ti2v, distillation`
+- [Follow the Norm (arXiv:2608.13250)](sources/arxiv-2608-13250-follow-the-norm-skip.md) — normative datasets + LoRA rationale shift; SKIP — `paper, nlp, alignment, peripheral`
+- [CMD context-matched distillation (arXiv:2608.13391)](sources/arxiv-2608-13391-context-matched-distillation.md) — causal teacher for few-step AR video; NVIDIA; WATCH — `paper, video, distillation, nvidia`
+- [V-RAE video latent spaces (arXiv:2608.13556)](sources/arxiv-2608-13556-v-rae.md) — frozen-VFM video latents + tFVD; WATCH (folded into VideoRAE) — `paper, video, vae, tokenizer`
+- [Ente E2EE photos/locker — routed (operator override)](sources/ente-photos-routed.md) — AGPL-3.0 ~721 MB; ROUTE atto — `routed, atto, e2ee, privacy, vault`
 
 - [NL→LTL requirements LLM — routed (arXiv:2608.06287)](sources/arxiv-2608-06287-nl-to-ltl-routed.md) — formal methods; ROUTE cybersec — `paper, routed, formal-methods`
 - [GB/T-Bench national-standard review (arXiv:2608.06312)](sources/arxiv-2608-06312-gbt-bench-skip.md) — document-review peripheral SKIP — `paper, llm, peripheral`
@@ -489,11 +500,12 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [GROW TTS RL](entities/voice-models/grow-tts.md) — group-relative flow-matching RL; WATCH — `voice-cloning, tts, rl, watch`
 - [SemBridge](entities/voice-models/sembridge.md) — semantic-token anchoring for continuous-latent AR TTS/SVS; WATCH (skeleton) — `voice-cloning, tts, continuous-latent, watch`
 - [Phoenix TTS (Didi flow-matching speech tokenization)](entities/voice-models/phoenix-tts.md) — tokenizer+FM joint training; zero-shot TTS+VC; WATCH (no code) — `voice-cloning, tts, flow-matching, watch`
+- [FastThaiG2P (AWS Thai G2P phonemizer)](entities/voice-models/fastthaig2p.md) — sub-ms IPA/Kokoro phonemization; Apache-2.0 13 MB; CONDITIONAL (Thai persona) — `tts, g2p, thai, voice, apache-2-0`
 - [Nemotron-Labs-Audex (NVIDIA unified audio-text LLM)](entities/voice-models/nemotron-audex.md) — unified TTS/ASR/TTA/speech-to-speech MoE; Phase-0 REFERENCE (NVIDIA noncommercial license) — `voice-cloning, tts, nvidia, audex, unified-llm, moe`
 - [speech-swift (Soniqo Apple Silicon speech toolkit)](entities/voice-models/speech-swift.md) — MLX/CoreML ASR+TTS; CosyVoice/Qwen3-TTS/Fish S2; Phase-0 WATCH — `voice-cloning, tts, apple-silicon, mlx, apache-2.0`
 - [MoWorld (Moxin Flash World Model)](entities/models/moworld.md) — real-time 50 FPS world model; open weights pending — `world-model, video, flash, moxin`
 - [M4V (Meituan Multimodal Mamba T2V)](entities/models/m4v.md) — MM-DiM efficiency fork of PyramidFlow/Wan2.1; Phase-0 WATCH — `model, video, mamba, meituan, efficient-inference`
-- [VideoRAE (VFM representation autoencoder)](entities/models/videorae.md) — frozen VFM → generation latents; WATCH — `model, video, vae, tokenizer`
+- [VideoRAE (VFM representation autoencoder)](entities/models/videorae.md) — frozen VFM → generation latents; V-RAE (2608.13556) follow-up folded in; WATCH — `model, video, vae, tokenizer`
 - [Avatar-Forever (PolyU + ByteDance real-time infinite avatars)](entities/models/avatar-forever.md) — decoupled parallel training + ForeverCache; WATCH (no code/SPDX) — `model, avatar, lipsync, video, streaming`
 - [XYZFlow (multidimensional shortcut flows for efficient T2I)](entities/models/xyzflow.md) — temporal+spatial scaling; 7.2-8.5× speedups; WATCH (no SPDX) — `model, t2i, flow-matching, efficiency`
 - [Agentic I2V adherence (Google — agentic self-improvement for I2V)](entities/models/agentic-i2v.md) — mLLM prompt opt + Bayesian seed/CFG search; WATCH (no code) — `model, i2v, agentic, prompt-optimization`
@@ -536,6 +548,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Tango 2 (Declare-Lab — instruction-tuned text-to-audio with DPO)](entities/sfx-models/tango-2.md) — Declare-Lab SUTD FLAN-T5 + LDM with DPO on Audio-Alpaca; best text-prompt alignment of the SFX layer for instruction-style prompts; outperforms AudioLDM on smaller training data; 16 kHz, ~10s clips; CC-BY-NC-SA weights likely (research-restricted) — `sfx-generation, text-to-audio, tango-2, declare-lab, sutd, flan-t5, dpo, instruction-tuned`
 - [Audio-Omni (SIGGRAPH 2026 — unified audio understanding + generation + editing)](entities/sfx-models/audio-omni.md) — research-future unified audio model spanning sound + music + speech across understanding / generation / editing; horizon-tracking entry for if/when training-data + license clarify into a build-track option; not currently usable — `sfx, text-to-audio, audio-omni, unified-audio, siggraph-2026, research-future, sound-music-speech-unified`
 - [MiDashengLM-Gen (Xiaomi unified audio-scene generation)](entities/sfx-models/midashenglm-gen.md) — LLM + AR flow matching over 768-dim latents; GO code (Apache-2.0) / 11 GB weights WATCH — `sfx, text-to-audio, unified, speech, music, watch`
+- [VoxAudio (speech-in-soundscape vocalized audio)](entities/sfx-models/voxaudio.md) — causal AR flow matching, multi-reward NFT, VoxCorpus/VoxBench; WATCH (no repo) — `sfx, text-to-audio, speech, soundscape, flow-matching, watch`
 
 ---
 - [voicebox — Local-First AI Voice Studio](entities/voicebox.md) — MIT local voice studio (MLX, MCP); **Phase-0 GO** — Fish-Speech alternative — `voice-cloning, tts, persona-ops`
@@ -708,6 +721,10 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [RefCaptioner / MRVBench](entities/benchmarks/refcaptioner.md) — multi-ref grounded video captions; code cloned ~6 MB — `benchmark, video-captioning, apache-2-0`
 - [WorldExam](entities/benchmarks/worldexam.md) — appearance vs inherent reactivity; WATCH — `benchmark, world-model, watch`
 - [MMAG](entities/benchmarks/mmag.md) — multi-control mixed speech/music/SFX generation bench; WATCH — `benchmark, audio, mixed-audio, watch`
+
+- [Hand-object interaction generation](concepts/hand-object-interaction-generation.md) — HOI under foundation models (survey hub) — `hoi, video-generation, survey`
+- [Hybrid-policy self-distillation for TI2V (HPSD)](concepts/hybrid-policy-self-distillation-video.md) — internalize I2V-mode quality into base T2V; off-policy SFT failure — `distillation, ti2v, self-distillation, capability-internalization`
+- [Context-Matched Distillation (CMD)](concepts/context-matched-video-distillation.md) — causal teacher matches student information set; few-step + online control — `distillation, causal, streaming, video-generation, nvidia`
 
 ### Meta (wiki operations)
 

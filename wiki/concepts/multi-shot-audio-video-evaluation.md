@@ -31,9 +31,11 @@ related:
   - sources/video-generation-survey-2026.md
   - sweeps/2026-07-20-daily.md
   - sources/arxiv-2608-11013-wsv-video-captioning.md
+  - entities/sfx-models/voxaudio.md
+  - sources/arxiv-2608-12951-voxaudio.md
 maturity: draft
 created: 2026-06-08
-updated: 2026-08-10
+updated: 2026-08-14
 ---
 ## Relations
 

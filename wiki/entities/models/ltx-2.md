@@ -51,13 +51,14 @@ related:
   - concepts/parallel-decoding-distillation.md
   - entities/models/wonder.md
   - sources/arxiv-2607-29545-moroute.md
+  - sources/arxiv-2608-13556-v-rae.md
 title: LTX-2 (Lightricks)
 type: entity
 tags: [model, video, asymmetric-av, audio-visual, ltx, lightricks, joint-foundation]
 keywords: [ltx-2, ltx-video, lightricks, asymmetric-av, audio-visual, 19b, 14b-visual, 5b-audio, bidirectional-cross-attention, 4k, 50fps, foley, modality-specific-vae, ltx-2-community-license]
 maturity: draft
 created: 2026-05-07
-updated: 2026-08-04
+updated: 2026-08-14
 ---
 
 ## Relations

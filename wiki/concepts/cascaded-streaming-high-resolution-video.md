@@ -20,9 +20,11 @@ related:
   - concepts/streaming-video-generation-serving.md
   - entities/models/turboserve.md
   - concepts/mobile-wan-chunkwise-video-distillation.md
+  - concepts/context-matched-video-distillation.md
+  - sources/arxiv-2608-13391-context-matched-distillation.md
 maturity: draft
 created: 2026-06-11
-updated: 2026-06-20
+updated: 2026-08-14
 ---
 
 ## Relations

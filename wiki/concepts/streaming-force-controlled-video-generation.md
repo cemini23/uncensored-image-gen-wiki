@@ -16,9 +16,11 @@ related:
   - sources/arxiv-2606-09150-ultra-flash-streaming-hr-video.md
   - concepts/cascaded-streaming-high-resolution-video.md
   - sources/arxiv-2607-14076-interactive-world-models-game-engines.md
+  - concepts/context-matched-video-distillation.md
+  - sources/arxiv-2608-13391-context-matched-distillation.md
 maturity: draft
 created: 2026-06-10
-updated: 2026-07-16
+updated: 2026-08-14
 ---
 
 ## Relations

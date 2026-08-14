@@ -74,9 +74,10 @@ related:
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
   - entities/voice-models/phoenix-tts.md
+  - entities/voice-models/fastthaig2p.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-08-10
+updated: 2026-08-14
 ---
 
 ## Relations

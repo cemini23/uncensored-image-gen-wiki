@@ -11,9 +11,13 @@ related:
   - sources/video-generation-survey-2026.md
   - concepts/parallel-decoding-distillation.md
   - sources/arxiv-2607-26004-pdd.md
+  - concepts/context-matched-video-distillation.md
+  - concepts/hybrid-policy-self-distillation-video.md
+  - sources/arxiv-2608-13205-hpsd.md
+  - sources/arxiv-2608-13391-context-matched-distillation.md
 maturity: draft
 created: 2026-06-27
-updated: 2026-07-29
+updated: 2026-08-14
 ---
 
 ## Relations

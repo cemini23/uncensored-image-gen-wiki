@@ -135,9 +135,13 @@ related:
   - entities/voice-models/phoenix-tts.md
   - sources/arxiv-2608-11737-phoenix-tts.md
   - sources/arxiv-2608-11804-midashenglm-gen.md
+  - entities/voice-models/fastthaig2p.md
+  - entities/sfx-models/voxaudio.md
+  - sources/arxiv-2608-12814-fastthaig2p.md
+  - sources/arxiv-2608-12951-voxaudio.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-08-10
+updated: 2026-08-14
 ---
 ## Relations
 

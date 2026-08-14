@@ -5,6 +5,7 @@ tags: [paper, video-generation, vae, tokenizer, foundation-model]
 keywords: [VideoRAE, V-JEPA 2, VideoMAEv2, LTX-VAE, Wan2.1-VAE, representation autoencoder, DiT, autoregressive]
 related:
   - entities/models/videorae.md
+  - sources/arxiv-2608-13556-v-rae.md
   - concepts/vae-latent-space-downstream-diffusion.md
   - entities/models/ltx-2.md
   - entities/models/wan-2-2.md
@@ -13,12 +14,12 @@ related:
 maturity: draft
 read_status: read
 created: 2026-07-16
-updated: 2026-07-16
+updated: 2026-08-14
 ---
 
 ## Relations
 
-@entities/models/videorae.md @concepts/vae-latent-space-downstream-diffusion.md @entities/models/ltx-2.md @entities/models/wan-2-2.md @sources/video-generation-survey-2026.md
+@entities/models/videorae.md @sources/arxiv-2608-13556-v-rae.md @concepts/vae-latent-space-downstream-diffusion.md @entities/models/ltx-2.md @entities/models/wan-2-2.md @sources/video-generation-survey-2026.md
 
 ## Raw Concept
 
@@ -36,7 +37,7 @@ updated: 2026-07-16
 
 Reported [TENTATIVE]: UCF-101 class-to-video gFVD **40 (AR)** / **93 (DiT)**; ~5× faster AE convergence; controlled 2B T2V replacing **LTX-VAE → VideoRAE** → faster + better VBench. Reconstruction vs generation split: VideoMAEv2 better PSNR; V-JEPA 2 better generation.
 
-Reinforces @concepts/vae-latent-space-downstream-diffusion.md — evaluate VAEs on generative metrics, not recon alone.
+Reinforces @concepts/vae-latent-space-downstream-diffusion.md — evaluate VAEs on generative metrics, not recon alone. 2026-08-14: **V-RAE (arXiv:2608.13556)** extends the same thesis (frozen-VFM → latents, tFVD diagnostic, Wan 2.2 VAE comparison) — folded into @entities/models/videorae.md. → @sources/arxiv-2608-13556-v-rae.md
 
 **Phase-0: WATCH** — "model and code will be released"; none public 2026-07-16. No local adopt.
 

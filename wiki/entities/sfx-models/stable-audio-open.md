@@ -27,9 +27,10 @@ related:
   - sweeps/2026-07-12-daily.md
   - entities/sfx-models/midashenglm-gen.md
   - sources/arxiv-2608-11804-midashenglm-gen.md
+  - entities/sfx-models/voxaudio.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-08-10
+updated: 2026-08-14
 ---
 
 ## Relations

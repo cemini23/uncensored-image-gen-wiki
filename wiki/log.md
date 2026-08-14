@@ -1,3 +1,31 @@
+## [2026-08-14] ingest | full inbox FastThaiG2P · VoxAudio · HPSD · CMD · V-RAE (+ Ente → atto, FlowLOB → guruwatcher)
+
+Full ingest of the 2026-08-14 digest window: **8 NEW / 0 dup** (preingest clean). All 8 archived to egress-fi `image-gen/`; inbox empty. Operator override: **Ente → Atto steal of the day** (non-inbox product scan).
+
+### WATCH / CONDITIONAL
+- **NEW** `@sources/arxiv-2608-12814-fastthaig2p.md` + **NEW** `@entities/voice-models/fastthaig2p.md` — AWS Thai G2P for TTS (IPA + Kokoro conventions; 0.15 ms/utt; StyleTTS-2 demo at 0.25 RTF ONNX CPU). **CONDITIONAL** (Thai-persona-gated) — `awslabs/FastThaiG2P` **Apache-2.0** ✅, ~13 MB. No clone per LESSONS.md; install path in adoption brief.
+- **NEW** `@sources/arxiv-2608-12951-voxaudio.md` + **NEW** `@entities/sfx-models/voxaudio.md` — vocalized T2A (intelligible speech in soundscape) via causal AR flow matching + multi-reward NFT; VoxCorpus/VoxBench temporal-grounding eval. **WATCH**; project-page only → no SPDX.
+- **NEW** `@sources/arxiv-2608-13205-hpsd.md` + **NEW** `@concepts/hybrid-policy-self-distillation-video.md` — TI2V self-distillation to internalize I2V-mode quality into base T2V; off-policy SFT failure. **WATCH**; project-page only → no SPDX.
+- **NEW** `@sources/arxiv-2608-13391-context-matched-distillation.md` + **NEW** `@concepts/context-matched-video-distillation.md` — NVIDIA CMD: causal teacher matches student information set for few-step + online-control AR video. **WATCH**; project-page only → no SPDX.
+- **NEW** `@sources/arxiv-2608-13556-v-rae.md` — frozen-VFM video latents + **tFVD** diagnostic; **folded into existing `@entities/models/videorae.md`** (2607.14088 sibling — no duplicate entity). rFVD 2.13 K600 / 6× faster convergence [TENTATIVE]. **WATCH**; project-page only.
+
+### ROUTEd
+- **NEW** `@sources/arxiv-2608-13069-behavioral-reprogramming-routed.md` → Cybersecurity `briefs/2026-08-14_behavioral-reprogramming-from-image-gen.md` (thin; PEFT/DPO persona bounds → local-abliterated-lab context)
+- **NEW** `@sources/arxiv-2608-13096-flowlob-routed.md` → GuruWatcher `briefs/2026-08-14_flowlob-lob-generation-research.md` (**research-only**, 10-step flow-matching LOB sim; no orders, no prod SCP)
+- **NEW** `@sources/ente-photos-routed.md` (operator override, non-inbox) → Atto `briefs/2026-08-14_ente-e2ee-photos-locker-steal.md` (**required**) — E2EE photos/Locker vault for family scans + jure-sanguinis vital records; AGPL-3.0 + ~721 MB → no clone; self-host museum+MinIO pattern; AGPL isolation for productization; no living-person PII in Atto fixtures; contrasts Cloudflare Access redacted share
+
+### SKIP
+- `arxiv-2608-13250` Follow the Norm (normative datasets / rationale logging; isom-ds repo NOASSERTION → no clone)
+
+### Phase-0 / Phase-1
+- `gh` SPDX: FastThaiG2P Apache-2.0 ✅ (13 MB) · Ente AGPL-3.0 (721 MB, no clone) · isom-ds/aies26-ai-norms NOASSERTION. Others project-page only (no repo in PDF).
+- Image-gen local wire: **none** (federation skip). New entities `wire_status: deferred`; Ente `wont_wire`.
+- Local adopt: **none** (FastThaiG2P CONDITIONAL + LESSONS.md no-local-clone; Ente size/AGPL). Documented in `briefs/2026-08-14_inbox-adoption-phase0.md`.
+- Federation stub `sources/arxiv-2608-13463-mllm-routed-ensembles-routed.md` (cybersec digest) — backlinks fixed, committed with this ingest.
+
+### Archive
+- All 8 PDFs → egress-fi `image-gen/`; local inbox empty. 2026-08-14 digest window fully ingested (8/8 + override).
+
 ## [2026-08-13] ingest | residual inbox Phoenix TTS · MiDashengLM-Gen · Avatar-Forever · XYZFlow · agentic-I2V + 3 SKIP
 
 Evening residual ingest of the **8 remaining mid-run digest PDFs** (second half of the 2026-08-13 window). preingest clean: 8 NEW / 0 dup. All 8 archived to egress-fi `image-gen/`; inbox empty of this batch.
@@ -3283,3 +3311,8 @@ Full triage of all 18 briefs in `briefs/` (the gitignored deliverables directory
 - **NEW** `@entities/benchmarks/mentisoculi.md` — benchmark entity (Form Board, Hinge Folding, Paper Fold, Rush Hour, Sliding Puzzle)
 - **Updated** `holistic-visual-tokenizer-umm.md`, `index.md`
 - **PDF** remains in inbox pending `raw-sources/` move — operator-gated per ingest ritual
+
+## [2026-08-14] cross-wiki route | MLLM-Routed Heterogeneous Ensembles (arXiv:2608.13463)
+
+- **NEW** `@sources/arxiv-2608-13463-mllm-routed-ensembles-routed.md` — ARMDIL MLLM-routed cross-dataset classification (ResNet/DINO/CLIP, 38-class unified head). Held as image-gen primary; cyber holds OOD stub (`wont_wire`).
+- **Updated** `index.md`

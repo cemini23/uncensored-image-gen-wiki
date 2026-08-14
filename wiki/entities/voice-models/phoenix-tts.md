@@ -8,9 +8,10 @@ related:
   - concepts/persona-audio-stack.md
   - concepts/waveform-native-flow-matching-tts.md
   - entities/persona-ops/fish-speech.md
+  - entities/sfx-models/voxaudio.md
 maturity: draft
 created: 2026-08-13
-updated: 2026-08-13
+updated: 2026-08-14
 wire_status: deferred
 phase0_verdict: WATCH
 ---
