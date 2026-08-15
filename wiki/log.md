@@ -1,3 +1,25 @@
+## [2026-08-15] ingest | Indic SDD OOD-TTS + AV threat → cybersec (+ 2 SKIP)
+
+Full inbox ingest of 4 NEW arXiv PDFs (preingest clean). Flash route hung; parent takeover from SIP.
+
+### ROUTEd
+- **NEW** `@sources/arxiv-2608-12536-indic-speech-encoders-routed.md` → Cybersecurity `briefs/2026-08-15_indic-sdd-ood-tts-from-image-gen.md` — frozen speech encoders × 22 Indic langs; OOD TTS generalisation (centroid proximity, not natural-speech distance)
+- **NEW** `@sources/arxiv-2608-13450-av-threat-analysis-routed.md` → Cybersecurity `briefs/2026-08-15_av-llm-threat-analysis-from-image-gen.md` — LLM-assisted AV CWE threat analysis
+
+### SKIP peripherals
+- Retinal foundation-model image gen (medical) · Gricean LLM knowledge-boundary retreat (NLP)
+
+### Phase-0 / Phase-1
+- No GitHub URLs in PDFs → no SPDX / no clones.
+- Image-gen local wire: **none**. Local adopt: **none**.
+
+### Briefs / routing
+- Image-gen `briefs/2026-08-15_inbox-no-adopt-phase0.md` (local-only)
+- No atto / poker / guruwatcher / cemini-prod SCP
+
+### Archive
+- All 4 PDFs → egress-fi `image-gen/`.
+
 ## [2026-08-14] ingest | full inbox FastThaiG2P · VoxAudio · HPSD · CMD · V-RAE (+ Ente → atto, FlowLOB → guruwatcher)
 
 Full ingest of the 2026-08-14 digest window: **8 NEW / 0 dup** (preingest clean). All 8 archived to egress-fi `image-gen/`; inbox empty. Operator override: **Ente → Atto steal of the day** (non-inbox product scan).

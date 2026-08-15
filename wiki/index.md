@@ -306,6 +306,10 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [CMD context-matched distillation (arXiv:2608.13391)](sources/arxiv-2608-13391-context-matched-distillation.md) — causal teacher for few-step AR video; NVIDIA; WATCH — `paper, video, distillation, nvidia`
 - [V-RAE video latent spaces (arXiv:2608.13556)](sources/arxiv-2608-13556-v-rae.md) — frozen-VFM video latents + tFVD; WATCH (folded into VideoRAE) — `paper, video, vae, tokenizer`
 - [Ente E2EE photos/locker — routed (operator override)](sources/ente-photos-routed.md) — AGPL-3.0 ~721 MB; ROUTE atto — `routed, atto, e2ee, privacy, vault`
+- [Indic speech encoders / OOD TTS — routed (arXiv:2608.12536)](sources/arxiv-2608-12536-indic-speech-encoders-routed.md) — frozen encoders × Indic langs; ROUTE cybersec SDD — `paper, routed, speech, deepfake`
+- [LLM AV threat analysis — routed (arXiv:2608.13450)](sources/arxiv-2608-13450-av-threat-analysis-routed.md) — attacker-reachable CWE in AVs; ROUTE cybersec — `paper, routed, llm, automotive`
+- [Retinal image gen (arXiv:2608.13455)](sources/arxiv-2608-13455-retinal-image-gen-skip.md) — medical foundation-model latents SKIP — `paper, medical, peripheral`
+- [Gricean retreat LLMs (arXiv:2608.13484)](sources/arxiv-2608-13484-gricean-retreat-skip.md) — knowledge-boundary hallucination SKIP — `paper, nlp, peripheral`
 
 - [NL→LTL requirements LLM — routed (arXiv:2608.06287)](sources/arxiv-2608-06287-nl-to-ltl-routed.md) — formal methods; ROUTE cybersec — `paper, routed, formal-methods`
 - [GB/T-Bench national-standard review (arXiv:2608.06312)](sources/arxiv-2608-06312-gbt-bench-skip.md) — document-review peripheral SKIP — `paper, llm, peripheral`

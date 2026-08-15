@@ -17,20 +17,21 @@ related:
   - sources/arxiv-2607-15694-voice-clone-attribution-geometry-floor.md
   - sources/arxiv-2608-05507-affectdf-routed.md
   - sources/arxiv-2608-06732-ps-fnvd-routed.md
+  - sources/arxiv-2608-10405-speech-dos-routed.md
+  - sources/arxiv-2608-10870-nulledit-routed.md
+  - sources/arxiv-2608-11201-vidforensics-m1-routed.md
+  - sources/arxiv-2608-12536-indic-speech-encoders-routed.md
   - sources/persona-monetization-2026.md
   - sweeps/2026-06-30-daily.md
   - sweeps/2026-07-17-daily.md
   - sweeps/2026-07-20-daily.md
-  - sources/arxiv-2608-10405-speech-dos-routed.md
-  - sources/arxiv-2608-10870-nulledit-routed.md
-  - sources/arxiv-2608-11201-vidforensics-m1-routed.md
 maturity: draft
 created: 2026-06-30
-updated: 2026-08-10
+updated: 2026-08-15
 ---
 ## Relations
 
-@sources/arxiv-2411-19537-deepfake-generation-detection-survey.md @concepts/persona-failure-modes.md @concepts/persona-audio-stack.md @sources/arxiv-2608-05507-affectdf-routed.md @sources/arxiv-2608-06732-ps-fnvd-routed.md @sources/arxiv-2608-10405-speech-dos-routed.md @sources/arxiv-2608-10870-nulledit-routed.md @sources/arxiv-2608-11201-vidforensics-m1-routed.md
+@sources/arxiv-2411-19537-deepfake-generation-detection-survey.md @concepts/persona-failure-modes.md @concepts/persona-audio-stack.md @sources/arxiv-2608-05507-affectdf-routed.md @sources/arxiv-2608-06732-ps-fnvd-routed.md @sources/arxiv-2608-10405-speech-dos-routed.md @sources/arxiv-2608-10870-nulledit-routed.md @sources/arxiv-2608-11201-vidforensics-m1-routed.md @sources/arxiv-2608-12536-indic-speech-encoders-routed.md
 
 ## Raw Concept
 

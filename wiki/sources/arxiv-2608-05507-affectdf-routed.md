@@ -8,17 +8,18 @@ related:
   - concepts/persona-audio-stack.md
   - entities/voice-models/cosyvoice2.md
   - entities/voice-models/f5-tts.md
+  - sources/arxiv-2608-12536-indic-speech-encoders-routed.md
   - sweeps/2026-08-07-daily.md
 maturity: draft
 read_status: read
 created: 2026-08-07
-updated: 2026-08-07
+updated: 2026-08-15
 ---
 
 ## Relations
 
 Primary: cybersecurity wiki brief `briefs/2026-08-07_affectdf-emotional-speech-deepfake-from-image-gen.md`. Dedup stub for image-gen digest.
-@concepts/generative-ai-era-deepfake-landscape.md @concepts/persona-audio-stack.md @sweeps/2026-08-07-daily.md
+@concepts/generative-ai-era-deepfake-landscape.md @concepts/persona-audio-stack.md @sweeps/2026-08-07-daily.md @sources/arxiv-2608-12536-indic-speech-encoders-routed.md
 
 ## Raw Concept
 

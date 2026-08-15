@@ -4,6 +4,7 @@ type: concept
 tags: [audio, voice-cloning, tts, lipsync, music-generation, sound-effects, persona-ops, audio-pipeline]
 keywords: [voice cloning, TTS, Fish-Speech, CosyVoice, lipsync, LatentSync, MuseTalk, Wav2Lip, music generation, MusicGen, ACE-Step, Stable Audio, sound effects, AudioLDM, Tango, audio-video integration, FFmpeg, ComfyUI audio nodes]
 related:
+  - concepts/asr-roundtrip-tts-eval-limits.md
   - concepts/david-adoption-brief-routing.md
   - concepts/face-to-speech-synthesis.md
   - concepts/federated-daily-research-digest.md
@@ -51,8 +52,10 @@ related:
   - entities/persona-ops/fish-speech.md
   - entities/sfx-models/audio-omni.md
   - entities/sfx-models/audioldm.md
+  - entities/sfx-models/midashenglm-gen.md
   - entities/sfx-models/stable-audio-open.md
   - entities/sfx-models/tango-2.md
+  - entities/sfx-models/voxaudio.md
   - entities/uis/comfyui.md
   - entities/voice-models/autosift.md
   - entities/voice-models/barewave.md
@@ -64,11 +67,13 @@ related:
   - entities/voice-models/dia.md
   - entities/voice-models/elevenlabs.md
   - entities/voice-models/f5-tts.md
+  - entities/voice-models/fastthaig2p.md
   - entities/voice-models/grow-tts.md
   - entities/voice-models/indextts-2.md
   - entities/voice-models/kokoro.md
   - entities/voice-models/maskgct.md
   - entities/voice-models/nemotron-audex.md
+  - entities/voice-models/phoenix-tts.md
   - entities/voice-models/qwen-audio-3-gen.md
   - entities/voice-models/qwen-audio-3-tts.md
   - entities/voice-models/qwen3-tts.md
@@ -116,6 +121,13 @@ related:
   - sources/arxiv-2608-05507-affectdf-routed.md
   - sources/arxiv-2608-06900-mmag.md
   - sources/arxiv-2608-07462-sembridge.md
+  - sources/arxiv-2608-10405-speech-dos-routed.md
+  - sources/arxiv-2608-10606-asr-roundtrip-tts-eval.md
+  - sources/arxiv-2608-11737-phoenix-tts.md
+  - sources/arxiv-2608-11804-midashenglm-gen.md
+  - sources/arxiv-2608-12536-indic-speech-encoders-routed.md
+  - sources/arxiv-2608-12814-fastthaig2p.md
+  - sources/arxiv-2608-12951-voxaudio.md
   - sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md
   - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
   - sources/persona-ops-stack-2026.md
@@ -128,20 +140,9 @@ related:
   - sweeps/2026-07-22-daily.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
-  - concepts/asr-roundtrip-tts-eval-limits.md
-  - sources/arxiv-2608-10405-speech-dos-routed.md
-  - sources/arxiv-2608-10606-asr-roundtrip-tts-eval.md
-  - entities/sfx-models/midashenglm-gen.md
-  - entities/voice-models/phoenix-tts.md
-  - sources/arxiv-2608-11737-phoenix-tts.md
-  - sources/arxiv-2608-11804-midashenglm-gen.md
-  - entities/voice-models/fastthaig2p.md
-  - entities/sfx-models/voxaudio.md
-  - sources/arxiv-2608-12814-fastthaig2p.md
-  - sources/arxiv-2608-12951-voxaudio.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-08-14
+updated: 2026-08-15
 ---
 ## Relations
 
@@ -171,7 +172,7 @@ updated: 2026-08-14
 @entities/persona-ops/delive.md — Apache-2.0 system-audio capture + ASR for TTS-output-to-text audit trail
 @concepts/federated-daily-research-digest.md
 @concepts/sync-audio-video-customization.md @entities/models/omnicustom.md @sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
-@sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md — REFERENCE-ONLY neuromorphic TTS research @concepts/face-to-speech-synthesis.md @entities/voice-models/qwen-audio-3-gen.md @sources/arxiv-2607-26742-face-to-speech.md @sources/arxiv-2607-27011-qwen-audio-3-gen.md @sources/arxiv-2608-06900-mmag.md @sources/arxiv-2608-07462-sembridge.md @entities/benchmarks/mmag.md @entities/voice-models/sembridge.md @concepts/asr-roundtrip-tts-eval-limits.md @sources/arxiv-2608-10405-speech-dos-routed.md @sources/arxiv-2608-10606-asr-roundtrip-tts-eval.md
+@sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md — REFERENCE-ONLY neuromorphic TTS research @concepts/face-to-speech-synthesis.md @entities/voice-models/qwen-audio-3-gen.md @sources/arxiv-2607-26742-face-to-speech.md @sources/arxiv-2607-27011-qwen-audio-3-gen.md @sources/arxiv-2608-06900-mmag.md @sources/arxiv-2608-07462-sembridge.md @entities/benchmarks/mmag.md @entities/voice-models/sembridge.md @concepts/asr-roundtrip-tts-eval-limits.md @sources/arxiv-2608-10405-speech-dos-routed.md @sources/arxiv-2608-10606-asr-roundtrip-tts-eval.md @sources/arxiv-2608-12536-indic-speech-encoders-routed.md
 
 ## Raw Concept
 
