@@ -25,8 +25,8 @@ updated: 2026-08-15
 
 ## Narrative
 
-**Phase-0: SKIP (peripheral).** NLP/hallucination: LLMs fail to retreat up a specificity hierarchy when outside knowledge bounds. No persona-gen / T2I / audio hook.
+**Phase-0: SKIP (peripheral).** T-REx probe: when asked about entities outside the knowledge boundary, LLMs fabricate specifics instead of Gricean “retreat” up a specificity hierarchy (trade informativeness for truthfulness). NLP/hallucination — no persona-gen / T2I / audio hook.
 
 ## Snippets
 
-_(none)_
+_(none — NLP SKIP)_

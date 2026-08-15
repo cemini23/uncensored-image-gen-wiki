@@ -15,14 +15,15 @@ related:
   - sources/arxiv-2608-03215-grow-tts-rl.md
   - entities/voice-models/grow-tts.md
   - sources/arxiv-2608-05507-affectdf-routed.md
+  - sources/arxiv-2608-12536-indic-speech-encoders-routed.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-08-07
+updated: 2026-08-15
 ---
 
 ## Relations
 
-@concepts/persona-audio-stack.md @entities/persona-ops/fish-speech.md @sources/persona-ops-stack-2026.md @entities/voice-models/barewave.md @concepts/waveform-native-flow-matching-tts.md @sources/arxiv-2608-03011-daien-tts.md @entities/voice-models/daien-tts.md @sources/arxiv-2608-03215-grow-tts-rl.md @entities/voice-models/grow-tts.md @sources/arxiv-2608-05507-affectdf-routed.md
+@concepts/persona-audio-stack.md @entities/persona-ops/fish-speech.md @sources/persona-ops-stack-2026.md @entities/voice-models/barewave.md @concepts/waveform-native-flow-matching-tts.md @sources/arxiv-2608-03011-daien-tts.md @entities/voice-models/daien-tts.md @sources/arxiv-2608-03215-grow-tts-rl.md @entities/voice-models/grow-tts.md @sources/arxiv-2608-05507-affectdf-routed.md @sources/arxiv-2608-12536-indic-speech-encoders-routed.md
 
 
 ## Raw Concept
@@ -62,6 +63,7 @@ Page prompted by the W4 Tier 2 voice/audio backfill (2026-05-13). Named in @conc
 - **Build-track posture**: if the CC-BY-NC 4.0 weight license is confirmed, F5-TTS is **research-only for monetized persona content** — same blocker as @entities/music-models/musicgen.md. Validate before deploying for revenue-generating voice notes.
 - **TTS-Arena context**: F5-TTS is a common ELO-benchmark reference but doesn't lead TTS-Arena2 (Fish-Speech S2 Pro does)
 - **Why mention it then**: parallel CFM decode is genuinely faster on consumer GPUs than autoregressive alternatives — useful for bulk pre-rendering of audio assets where commercial-use license can be respected (research, prototyping, fully-licensed reference audio)
+- **Indic F5 vs this entity**: Rai et al. (arXiv:2608.12536) use an **Indic-language F5** as an in-pool TTS for SDD training. That is a detector-eval generator, not a reason to adopt SWivid F5-TTS for persona builds (@sources/arxiv-2608-12536-indic-speech-encoders-routed.md).
 
 ## Snippets
 

@@ -259,6 +259,10 @@ ElevenLabs Flash v2.5 has 75-150ms latency and top-tier SFW quality but enforces
 
 [CONFIRMED] Sources: @sources/persona-ops-stack-2026.md §4, bentoml.com article (retrieved 2026-05-09), siliconflow.com article (retrieved 2026-05-09)
 
+#### Detection OOD (defensive awareness, not a build pick)
+
+English ASVspoof-trained SDD can miss **novel TTS** and **non-English** clones. AffectDF is the emotion/prosody axis (@sources/arxiv-2608-05507-affectdf-routed.md). Indic frozen-encoder SDD (arXiv:2608.12536) is the language + OOD-TTS axis: train-pool diversity (proximity to unseen TTS embeddings) predicts OOD recall, not distance from natural speech (@sources/arxiv-2608-12536-indic-speech-encoders-routed.md). Do not treat platform detectors as a legal shield (@concepts/generative-ai-era-deepfake-landscape.md).
+
 ---
 
 ### Layer 2 — Lipsync

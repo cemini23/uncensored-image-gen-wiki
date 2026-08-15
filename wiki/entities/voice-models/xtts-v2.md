@@ -8,10 +8,11 @@ related:
   - entities/persona-ops/fish-speech.md
   - entities/voice-models/cosyvoice2.md
   - entities/voice-models/chatterbox.md
+  - sources/arxiv-2608-12536-indic-speech-encoders-routed.md
   - sources/persona-ops-stack-2026.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-08-15
 ---
 
 ## Relations
@@ -20,6 +21,7 @@ updated: 2026-05-13
 @entities/persona-ops/fish-speech.md
 @entities/voice-models/cosyvoice2.md
 @entities/voice-models/chatterbox.md
+@sources/arxiv-2608-12536-indic-speech-encoders-routed.md
 @sources/persona-ops-stack-2026.md
 
 ## Raw Concept
@@ -73,6 +75,7 @@ Page prompted by the W4 Tier 3 voice/audio backfill (2026-05-13). Named in @conc
 - **Tutorial-archive caveat**: if a 2023-2024 voice-cloning tutorial references XTTS-v2, mentally substitute @entities/voice-models/cosyvoice2.md (Apache 2.0, similar VRAM tier) or @entities/voice-models/chatterbox.md (MIT, similar capability)
 - **6-second reference clip pattern**: XTTS-v2 popularized the very-short-reference cloning UX; Chatterbox / CosyVoice2 / IndexTTS-2 inherited the pattern with permissive licenses
 - **Coqui Studio commercial path is closed** — company dissolved 2024, no licensing route exists
+- **SDD OOD holdout**: IndicSynth held out **xttsv2** as an unseen TTS (with freevc24). Detectors trained only on other Indic TTS families miss XTTS-class clones `[TENTATIVE]` (@sources/arxiv-2608-12536-indic-speech-encoders-routed.md). Still do not use XTTS-v2 on the build track.
 
 ## Snippets
 

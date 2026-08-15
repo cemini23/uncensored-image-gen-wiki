@@ -67,6 +67,12 @@ Survey notes diffusion **prompt deepfakes** (celebrity name in text) are lower f
 
 **Operator implication:** detection research keeps moving to *evidence-grounded* (temporal/geometric) signals rather than label-only classifiers, and protection research moves from training-time to **inference-time** interception of the edit pipeline.
 
+### 2026-08-15 — Indic SDD / OOD TTS (language axis)
+
+**Rai et al.** (@sources/arxiv-2608-12536-indic-speech-encoders-routed.md → cybersec): frozen speech encoders (AST / Vaani / Wav2vec2 / Whisper / BEATs) on 22 Indic languages + a four-TTS OOD holdout (freevc24, XTTS-v2). OOD synthetic recall tracks **proximity to unseen TTS embeddings**, not distance from natural speech; expanding the train pool 1→4 TTS systems lifts recall **7% → 51%** `[TENTATIVE, single source]`. AASIST/RawNet2 on IndicSynth sat near chance (EER >50%) vs sub-1% on ASVspoof 2019.
+
+Sibling to AffectDF’s **emotion** axis (@sources/arxiv-2608-05507-affectdf-routed.md): persona TTS (Fish-Speech / CosyVoice / F5 / XTTS lineage) can sit OOD vs English ASVspoof-trained detectors on **language** as well as prosody. ML detection ≠ legal/payment-rail immunity (same operator implication as BioDeepAV above).
+
 ## Snippets
 
 > "Covering both generation and detection, as well as all deepfake media types."

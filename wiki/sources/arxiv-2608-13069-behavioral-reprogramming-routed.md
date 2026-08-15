@@ -9,12 +9,12 @@ related:
 maturity: draft
 read_status: read
 created: 2026-08-14
-updated: 2026-08-14
+updated: 2026-08-15
 ---
 
 ## Relations
 
-Primary: Cybersecurity wiki brief `briefs/2026-08-14_behavioral-reprogramming-from-image-gen.md` · @cybersecurity-wiki/concepts/local-abliterated-llm-pentest-stack.md (cross-wiki). Dedup stub for image-gen digest.
+Primary: Cybersecurity wiki brief `briefs/2026-08-14_behavioral-reprogramming-from-image-gen.md` · @cybersecurity-wiki/concepts/local-abliterated-llm-pentest-stack.md (cross-wiki). Dedup stub for image-gen digest. Pointer stub on Cybersec: @cybersecurity-wiki/sources/arxiv-2608-13069-ood-behavioral-reprogramming.md (body only — do not YAML-quote `@wiki-alias/` in `related:`).
 @concepts/federated-daily-research-digest.md @sweeps/2026-08-14-daily.md
 
 ## Raw Concept

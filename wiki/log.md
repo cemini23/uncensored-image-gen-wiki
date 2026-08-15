@@ -1,3 +1,7 @@
+## [2026-08-15] fill | routed 12536/13450 narratives + concept bullets
+
+Thickened the 2026-08-15 routed stubs from briefs: Indic SDD centroid/OOD-TTS claims + Autoware negative result (build integration, not prompt design). Added 2026-08-15 language-axis section on `@concepts/generative-ai-era-deepfake-landscape.md` and Layer 1 Detection OOD on `@concepts/persona-audio-stack.md`. F5/XTTS entity backlinks. Removed quoted `@cybersecurity-wiki/` from 13069 YAML `related:` (body pointer only). Cybersec briefs filled (gitignored). No new clones.
+
 ## [2026-08-15] ingest | Indic SDD OOD-TTS + AV threat → cybersec (+ 2 SKIP)
 
 Full inbox ingest of 4 NEW arXiv PDFs (preingest clean). Flash route hung; parent takeover from SIP.

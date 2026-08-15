@@ -25,8 +25,8 @@ updated: 2026-08-15
 
 ## Narrative
 
-**Phase-0: SKIP (peripheral).** Medical foundation-model latent steering for retinal images. Digest false positive for uncensored persona gen.
+**Phase-0: SKIP (peripheral).** Four retinal foundation models in a representation-tokenizer setup; tests whether demographic/clinical variables steer generated fundus images. Medical imaging — digest false positive for uncensored persona gen.
 
 ## Snippets
 
-_(none)_
+_(none — medical SKIP)_
