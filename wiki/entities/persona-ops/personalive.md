@@ -13,7 +13,7 @@ related:
   - entities/persona-ops/empaava.md
 maturity: validated
 created: 2026-05-22
-updated: 2026-08-06
+updated: 2026-08-17
 phase_0_verdict: CONDITIONAL-GO
 phase_0_date: 2026-06-05
 cross-wiki-source: "@osint-wiki/sources/trading-posts-oil-polymarket-html-dex-sniping-2026-05-21.md"
@@ -48,6 +48,8 @@ Phase-0 audit 2026-06-05 on `GVCLab/PersonaLive` ([Source: github.com/GVCLab/Per
 | MPS | CUDA/PyCUDA/TensorRT path; **not Apple-Silicon-first** |
 
 **Verdict: CONDITIONAL-GO** — adopt for **live-stream research track** after local WebUI latency test on operator GPU. Not a Wan-replacement for batch persona clips.
+
+**k230 YOLO-PEFT (WATCH, 2026-08-17):** structure-aware PEFT for detectors (arXiv:2608.07051). Refuse-before-train pattern is interesting for LoRA/Comfy adapter placement; it is **not** a PersonaLive substitute and has no image-gen clone.
 
 ### Persona-ops fit
 

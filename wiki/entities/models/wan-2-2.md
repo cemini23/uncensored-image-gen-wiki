@@ -222,13 +222,17 @@ related:
   - sources/arxiv-2608-13205-hpsd.md
   - sources/arxiv-2608-13391-context-matched-distillation.md
   - sources/arxiv-2608-13556-v-rae.md
+  - concepts/mllm-dit-video-fusion.md
+  - entities/models/forgewm.md
+  - sources/arxiv-2608-14022-forgewm.md
+  - sources/arxiv-2608-14043-mllm-dit-video-fusion.md
 title: Wan 2.2 (Alibaba)
 type: entity
 tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]
 keywords: [wan2.2, wan-2-2, alibaba, mixture-of-experts, dual-expert, snr-routing, 27b, 14b, 5b, ti2v, apache-2.0, abliterated-text-encoder, mq-lab, blink, theyurilover]
 maturity: draft
 created: 2026-05-07
-updated: 2026-08-14
+updated: 2026-08-17
 ---
 ## Relations
 

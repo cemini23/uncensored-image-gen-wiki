@@ -10,9 +10,10 @@ related:
   - entities/adapters/ip-adapter.md
   - entities/adapters/pulid.md
   - entities/adapters/instantid.md
+  - entities/adapters/craft.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-05-06
+updated: 2026-08-17
 ---
 
 ## Relations

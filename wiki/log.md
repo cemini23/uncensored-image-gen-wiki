@@ -1,3 +1,31 @@
+## [2026-08-17] ingest | VoiceChat-TTS · ForgeWM · BiVidGen · CRAFT (+ 2 SKIP, 2 ROUTE)
+
+Full inbox ingest of 8 NEW arXiv PDFs (preingest 8 NEW / 0 LIKELY / 0 DUP). All 8 archived to egress-fi `image-gen/`; inbox empty of this batch.
+
+### WATCH / GO
+- **NEW** `@sources/arxiv-2608-13831-voicechat-tts.md` + **NEW** `@entities/voice-models/voicechat-tts.md` — NVIDIA streamable TTS from LLM token streams; barge-in control tokens; no KV-cache reset. **WATCH**. `NVIDIA-NeMo/Speech` Apache-2.0 but ≈ 518 MB (over clone cap); 11B OpenMDW/research-only weights not fetched. Distinguish modular VoiceChat-TTS vs 11B duplex S2S sibling.
+- **NEW** `@sources/arxiv-2608-14022-forgewm.md` + **NEW** `@entities/models/forgewm.md` — four-stage BidSFT→TF-AR→CD→DMD on Wan2.1-1.3B / Matrix-Game 2; 1/2/4-step students + draft-preserving replay. **WATCH stack / GO code**. `asdfo123/ForgeWM` Apache-2.0 ✅ cloned `.local/adopts/ForgeWM` (182 MB). No HF weights / 89 GB LMDB.
+- **NEW** `@sources/arxiv-2608-14043-mllm-dit-video-fusion.md` + **NEW** `@concepts/mllm-dit-video-fusion.md` — MSR BiVidGen three findings (EMA tokens / causal AR / explicit cond). **WATCH** paper-only. Video analog of llm-as-image-conditioning — not dumped into the T2I page.
+- **NEW** `@sources/arxiv-2608-14403-craft-attention-personalization.md` + **NEW** `@entities/adapters/craft.md` — ReFL LoRA on FLUX.2-klein-9B from 10K ref+masks, no composed targets. **WATCH** HIGH persona. Project page only — no GitHub.
+
+### ROUTEd
+- **NEW** `@sources/arxiv-2608-14016-gameplay-vlm-narration-skip.md` → Game-dev `briefs/2026-08-17_gameplay-vlm-narration-from-image-gen.md` — 3×3 mosaic VLM + duration TTS; linked repo 404
+- **NEW** `@sources/arxiv-2608-14391-ra-bench-crisis-video-routed.md` → Cybersec `briefs/2026-08-17_ra-bench-crisis-video-from-image-gen.md` — 17886 clips / 9 generators / LastMile; no SPDX; 93.8 GB dataset not cloned. Detection OOD bullet on `@concepts/generative-ai-era-deepfake-landscape.md`
+
+### SKIP peripherals
+- Polar-low SAR / CREST (remote-sensing) · math.NA Lagrangian–Eulerian comment
+
+### Phase-0 / Phase-1
+- Image-gen local wire: **none**. New on-domain entities `wire_status: deferred`; routed/SKIP `wont_wire`.
+- Local adopt: **ForgeWM code only**. No NeMo/Speech, no RA-Bench data, no ForgeWM weights.
+
+### Briefs / routing
+- Image-gen `briefs/2026-08-17_inbox-adoption-phase0.md` (local-only)
+- No atto / poker / guruwatcher / cemini-prod SCP. TipDrop/David retired — no mirror.
+
+### Archive
+- All 8 PDFs → egress-fi `image-gen/`; local inbox empty of this batch.
+
 ## [2026-08-15] fill | routed 12536/13450 narratives + concept bullets
 
 Thickened the 2026-08-15 routed stubs from briefs: Indic SDD centroid/OOD-TTS claims + Autoware negative result (build integration, not prompt design). Added 2026-08-15 language-axis section on `@concepts/generative-ai-era-deepfake-landscape.md` and Layer 1 Detection OOD on `@concepts/persona-audio-stack.md`. F5/XTTS entity backlinks. Removed quoted `@cybersecurity-wiki/` from 13069 YAML `related:` (body pointer only). Cybersec briefs filled (gitignored). No new clones.

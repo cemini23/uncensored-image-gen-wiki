@@ -10,9 +10,11 @@ related:
   - entities/models/flux.md
   - concepts/self-evolving-unified-multimodal-training.md
   - sources/arxiv-2606-27376-ask-solve-generate-self-evolving-multimodal.md
+  - concepts/mllm-dit-video-fusion.md
+  - sources/arxiv-2608-14043-mllm-dit-video-fusion.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-07-02
+updated: 2026-08-17
 ---
 
 ## Relations
@@ -26,6 +28,8 @@ updated: 2026-07-02
 ## Raw Concept
 
 Cross-cutting concept: **how language information enters a text-to-image diffusion model**. The 2022–2026 trajectory moves through four roles for the language model — frozen encoder, stronger encoder, front-end rewriter, universal reasoner — each providing more / different information to the generator. UniReasoner (@sources/unireasoner.md) is the canonical articulation of the fourth.
+
+Video analog (do not fold in): @concepts/mllm-dit-video-fusion.md — BiVidGen's three findings on EMA visual tokens / causal AR / explicit token conditioning for T2V DiTs.
 
 ## Narrative
 

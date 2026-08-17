@@ -21,13 +21,14 @@ related:
   - sources/arxiv-2608-10870-nulledit-routed.md
   - sources/arxiv-2608-11201-vidforensics-m1-routed.md
   - sources/arxiv-2608-12536-indic-speech-encoders-routed.md
+  - sources/arxiv-2608-14391-ra-bench-crisis-video-routed.md
   - sources/persona-monetization-2026.md
   - sweeps/2026-06-30-daily.md
   - sweeps/2026-07-17-daily.md
   - sweeps/2026-07-20-daily.md
 maturity: draft
 created: 2026-06-30
-updated: 2026-08-15
+updated: 2026-08-17
 ---
 ## Relations
 
@@ -72,6 +73,10 @@ Survey notes diffusion **prompt deepfakes** (celebrity name in text) are lower f
 **Rai et al.** (@sources/arxiv-2608-12536-indic-speech-encoders-routed.md → cybersec): frozen speech encoders (AST / Vaani / Wav2vec2 / Whisper / BEATs) on 22 Indic languages + a four-TTS OOD holdout (freevc24, XTTS-v2). OOD synthetic recall tracks **proximity to unseen TTS embeddings**, not distance from natural speech; expanding the train pool 1→4 TTS systems lifts recall **7% → 51%** `[TENTATIVE, single source]`. AASIST/RawNet2 on IndicSynth sat near chance (EER >50%) vs sub-1% on ASVspoof 2019.
 
 Sibling to AffectDF’s **emotion** axis (@sources/arxiv-2608-05507-affectdf-routed.md): persona TTS (Fish-Speech / CosyVoice / F5 / XTTS lineage) can sit OOD vs English ASVspoof-trained detectors on **language** as well as prosody. ML detection ≠ legal/payment-rail immunity (same operator implication as BioDeepAV above).
+
+### 2026-08-17 — RA-Bench crisis-video LastMile (Detection OOD)
+
+**Liang et al.** (@sources/arxiv-2608-14391-ra-bench-crisis-video-routed.md → cybersec): 17,886 clips (1,830 real anchors × 10 social-risk categories + 16,056 generated from 4 open + 5 closed generators). Traditional detectors do not transfer; zero-shot MLLMs are prompt/source-unstable; fine-tuned MLLMs show class bias. **LastMile** social-dissemination simulation further weakens detection — generators already beat last-mile detectors on crisis-video dissemination [TENTATIVE, single source]. Detection-eval only; no evasion recipes. Repo has no SPDX; 93.8 GB dataset not cloned.
 
 ## Snippets
 

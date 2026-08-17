@@ -12,9 +12,11 @@ related:
   - sources/video-generation-survey-2026.md
   - sources/arxiv-2606-18375-paiworld-3d-consistent-world-foundation.md
   - concepts/multi-view-3d-consistent-world-models.md
+  - entities/models/forgewm.md
+  - sources/arxiv-2608-14022-forgewm.md
 maturity: draft
 created: 2026-06-19
-updated: 2026-06-22
+updated: 2026-08-17
 phase_0_verdict: GO
 phase_0_date: 2026-06-19
 ---

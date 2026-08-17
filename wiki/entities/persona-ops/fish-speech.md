@@ -41,6 +41,7 @@ related:
   - entities/voice-models/sembridge.md
   - entities/voice-models/speech-swift.md
   - entities/voice-models/supertonic-embed.md
+  - entities/voice-models/voicechat-tts.md
   - entities/voice-models/x-translator.md
   - entities/voice-models/xtts-v2.md
   - entities/voice-models/zipl-dialog.md
@@ -77,7 +78,7 @@ related:
   - entities/voice-models/fastthaig2p.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-08-14
+updated: 2026-08-17
 ---
 
 ## Relations

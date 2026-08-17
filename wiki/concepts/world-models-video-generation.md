@@ -7,6 +7,7 @@ related:
   - concepts/activation-steering-video-generation.md
   - concepts/camera-controlled-video-generation.md
   - concepts/cascaded-streaming-high-resolution-video.md
+  - concepts/context-matched-video-distillation.md
   - concepts/disentangled-context-memory-video-edits.md
   - concepts/hierarchical-latent-coarse-to-fine-video.md
   - concepts/hybrid-linear-attention.md
@@ -33,6 +34,7 @@ related:
   - entities/models/egogenesis.md
   - entities/models/emoworld.md
   - entities/models/filmworld.md
+  - entities/models/forgewm.md
   - entities/models/freqforcing.md
   - entities/models/garfield.md
   - entities/models/helloworld.md
@@ -78,6 +80,7 @@ related:
   - sources/arxiv-2607-14076-interactive-world-models-game-engines.md
   - sources/arxiv-2607-15254-tellme-why-urban-driving-causal.md
   - sources/arxiv-2607-15278-hierarchical-denoising-visual-reasoning.md
+  - sources/arxiv-2608-14022-forgewm.md
   - sources/arxiv-2607-15849-tango-test-time-noise-guided-ar-video.md
   - sources/arxiv-2607-18789-moving-alphabet-t2v-data.md
   - sources/arxiv-2607-18924-phyparam-physical-video.md
@@ -119,7 +122,7 @@ related:
   - sources/arxiv-2608-11013-wsv-video-captioning.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-10
+updated: 2026-08-17
 ---
 ## Relations
 
@@ -173,6 +176,7 @@ To hit those properties at a tractable cost, 2026 world models converge on a rec
 - **MoWorld** (Moxin Technology, Jul 2026) — **Flash World Model** targeting **50 FPS** real-time interaction on **NPU** hardware; weights/code not open at ingest. Efficiency / latency reference — @entities/models/moworld.md
 - **Game-engine lens** (Alaya Lab, arXiv:2607.14076) — taxonomy of interactive world models as action→state→observation loops + Wukong-aligned dataset; REFERENCE map — @sources/arxiv-2607-14076-interactive-world-models-game-engines.md
 - **LingBot-World** and **HY-WorldPlay** — industrial closed-source baselines cited by SANA-WM as the visual-quality reference; both predate SANA-WM's efficiency story.
+- **ForgeWM** (CUHK/Tencent, Aug 2026) — four-stage BidSFT → TF-AR → CD → DMD that turns Wan2.1-1.3B / Matrix-Game 2 into **1/2/4-step** causal action-conditioned students; dual-path 1-step draft + 4-step refine of the saved draft. Apache-2.0 code at `.local/adopts/ForgeWM`; weights/data not cloned. Sibling of CMD + HPSD. → @entities/models/forgewm.md
 
 ### Build-track relevance
 

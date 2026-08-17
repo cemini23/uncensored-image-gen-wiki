@@ -80,6 +80,7 @@ related:
   - entities/voice-models/sembridge.md
   - entities/voice-models/speech-swift.md
   - entities/voice-models/supertonic-embed.md
+  - entities/voice-models/voicechat-tts.md
   - entities/voice-models/x-translator.md
   - entities/voice-models/xtts-v2.md
   - entities/voice-models/zipl-dialog.md
@@ -128,6 +129,7 @@ related:
   - sources/arxiv-2608-12536-indic-speech-encoders-routed.md
   - sources/arxiv-2608-12814-fastthaig2p.md
   - sources/arxiv-2608-12951-voxaudio.md
+  - sources/arxiv-2608-13831-voicechat-tts.md
   - sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md
   - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
   - sources/persona-ops-stack-2026.md
@@ -142,7 +144,7 @@ related:
   - sweeps/2026-07-24-daily.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-08-15
+updated: 2026-08-17
 ---
 ## Relations
 
@@ -252,6 +254,8 @@ Already documented in @entities/persona-ops/fish-speech.md. Key facts as of May 
 | **Fully open source (no license concerns)** | Qwen3-TTS or F5-TTS |
 
 **2026-07-04 update:** Qwen3-TTS is confirmed Apache-2.0 with released 12Hz 0.6B/1.7B Base / CustomVoice / VoiceDesign checkpoints. Use it when license purity, multilingual coverage, or streaming is more important than Fish-Speech's mature persona-ops quality. OpenAudio S1-mini is a Fish Audio 0.5B lightweight side path; do not replace Fish-Speech S2 Pro with it for premium voice notes.
+
+**2026-08-17 — VoiceChat-TTS (WATCH, not a Layer-1 pick):** NVIDIA @entities/voice-models/voicechat-tts.md is a *duplex* streamer — LLM token stream in, barge-in control tokens, silence when the stream is empty, **no KV-cache reset**. That is a different job than Fish-Speech batch DM notes or CosyVoice2 single-response streaming. Blockers: `NVIDIA-NeMo/Speech` ≈ 518 MB (over clone cap) + 11B OpenMDW/research-only weights. Keep Fish-Speech for recorded notes; watch VoiceChat only if a live talk-track lands. Sibling, not replacement, of Nemotron Audex (unified LLM vs modular streaming TTS).
 
 #### Dead end: ElevenLabs
 

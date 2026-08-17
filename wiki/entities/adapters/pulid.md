@@ -14,6 +14,7 @@ related:
   - entities/adapters/infinite-you.md
   - entities/adapters/photomaker-v2.md
   - entities/adapters/characonsist.md
+  - entities/adapters/craft.md
   - entities/adapters/flux-redux.md
   - entities/adapters/flux-kontext.md
   - entities/adapters/flux2-klein-9b-faceswap.md
@@ -35,7 +36,7 @@ related:
   - sources/arxiv-2608-04820-resem-face.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-08-06
+updated: 2026-08-17
 ---
 
 ## Relations

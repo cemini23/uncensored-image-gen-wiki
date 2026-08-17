@@ -18,9 +18,11 @@ related:
   - sweeps/2026-07-13-daily.md
   - entities/models/av-flamingo.md
   - sources/arxiv-2607-16107-audio-visual-flamingo.md
+  - entities/voice-models/voicechat-tts.md
+  - sources/arxiv-2608-13831-voicechat-tts.md
 maturity: draft
 created: 2026-07-12
-updated: 2026-07-20
+updated: 2026-08-17
 ---
 
 ## Relations
@@ -43,6 +45,8 @@ Phase-0 audit 2026-07-12 on `nvidia/Nemotron-Labs-Audex-30B-A3B` + technical rep
 | **vs Fish-Speech** | Audex wins unified agent; Fish wins emotion tags + Apache ecosystem + proven NSFW persona ops |
 
 **Phase-0 verdict: REFERENCE** — study architecture and benchmark against Qwen-Omni; **do not adopt** for monetized persona stack without NVIDIA commercial license.
+
+**2026-08-17 sibling:** @entities/voice-models/voicechat-tts.md is NVIDIA's *modular streaming TTS* (LLM token stream + barge-in, no KV reset). Audex remains the unified LLM; VoiceChat-TTS / the 11B duplex HF sibling is the live-agent slice. Same NVIDIA-license / size blockers — neither is a Fish-Speech replacement.
 
 ### Codec stack
 

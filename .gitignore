@@ -60,3 +60,4 @@ venv/
 /tmp_*.txt
 /tmp_*.md
 *.tmp
+.local/

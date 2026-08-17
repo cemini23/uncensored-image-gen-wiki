@@ -31,6 +31,7 @@ related:
   - concepts/video-try-on-anything.md
   - concepts/visual-to-visual-generation.md
   - entities/adapters/characonsist.md
+  - entities/adapters/craft.md
   - entities/adapters/consistentid.md
   - entities/adapters/flux-kontext.md
   - entities/adapters/flux-redux.md
@@ -117,6 +118,7 @@ related:
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
   - sources/arxiv-2608-03708-multicompose.md
+  - sources/arxiv-2608-14403-craft-attention-personalization.md
   - entities/models/multicompose.md
   - sources/arxiv-2608-04820-resem-face.md
   - entities/models/agentic-i2v.md
@@ -127,7 +129,7 @@ tags: [persona-consistency, methods, taxonomy, identity-injection]
 keywords: [character LoRA, identity adapter, Character DNA, multi-angle dataset, two-pass inpaint, reference plus LoRA stack, face anchor seed]
 maturity: validated
 created: 2026-05-06
-updated: 2026-08-06
+updated: 2026-08-17
 ---
 
 
@@ -233,6 +235,8 @@ The most robust zero-shot method — no upstream training per character — laye
 **The 2026 modal recipe — reference + LoRA stacking**: NSFW-trained character LoRA at 0.85 strength + PuLID/InstantID at 0.45 strength. The LoRA carries explicit anatomy and persona-specific style; the adapter nudges face fidelity without forcing the holistic clothed-reference geometry that breaks NSFW outputs (see Axis 4 failure mode).
 
 **SPaRa–DCAL watch (2026-07-09)**: @concepts/stage-aware-lora-distribution-calibrated-selection.md — stage-dependent LoRA strength (SPaRa, training) plus multi-candidate selection that penalizes identity-only collapse (DCAL, inference). **Adopt DCAL now** as a batch-selection procedure; **watch SPaRa** until trainer plugins land.
+
+**CRAFT watch (2026-08-17)**: @entities/adapters/craft.md — single-step ReFL LoRA on **FLUX.2-klein-9B** that personalizes from **10K reference+mask** pairs and **no composed-target** factory (vs 150K–2M composed pairs). Attention-level "where to look" reward gates a pixel identity reward. Paper-only (no GitHub). XVerseBench SOTA [TENTATIVE]. Not a trainer wire until code lands.
 
 ### Axis 3 — Multi-angle / multi-pose dataset prep
 

@@ -10,9 +10,11 @@ related:
   - entities/models/wan-2-2.md
   - entities/models/hunyuanvideo-1-5.md
   - sweeps/2026-08-14-daily.md
+  - entities/models/forgewm.md
+  - sources/arxiv-2608-14022-forgewm.md
 maturity: draft
 created: 2026-08-14
-updated: 2026-08-14
+updated: 2026-08-17
 ---
 
 ## Relations

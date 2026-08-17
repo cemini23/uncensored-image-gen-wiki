@@ -16,6 +16,7 @@ related:
   - concepts/two-pass-generation-workflow.md
   - concepts/universal-composite-diffusion-conditioning.md
   - entities/adapters/characonsist.md
+  - entities/adapters/craft.md
   - entities/adapters/flux-redux.md
   - entities/adapters/flux2-klein-9b-faceswap.md
   - entities/adapters/instantid.md
@@ -38,11 +39,12 @@ related:
   - sources/arxiv-2607-20247-vera-identity-faithful-s2v.md
   - sources/arxiv-2607-21434-adaptive-identity-anchoring.md
   - sources/synthetic-character-consistency-survey.md
+  - sources/arxiv-2608-14403-craft-attention-personalization.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
 maturity: validated
 created: 2026-05-06
-updated: 2026-07-24
+updated: 2026-08-17
 ---
 
 ## Relations
@@ -136,6 +138,8 @@ The stacking pattern reinforces the **parallel-LoRA-per-base** pattern from @con
 - **One Pony V7 / NoobAI / Lustify LoRA per persona** (for explicit)
 - **One Wan 2.2 video LoRA per persona** (for clips)
 - **One Klein 9B LoRA per persona** (for FLUX.2 face-swap)
+
+**CRAFT (2026-08-17, WATCH):** @entities/adapters/craft.md is a *different* Klein-9B LoRA path — ReFL on 10K ref+masks with no composed-target pairs, teaching attention routing rather than stacking a character LoRA under PuLID. Paper-only; do not replace the 0.85/0.45 production stack until code + a local smoke test exist.
 
 The adapter (PuLID / IP-Adapter / InstantID) is shared across all bases; only the LoRA needs to be base-specific. The persona's *face dataset* is the canonical asset; the LoRAs are cheap, expendable derivatives that re-train when a new base lands or an adapter version updates.
 

@@ -38,11 +38,13 @@ related:
   - sources/arxiv-2607-05711-fourtune-4bit-diffusion-post-training.md
   - sweeps/2026-07-10-daily.md
   - entities/inference/chitu-diffusion.md
+  - entities/adapters/craft.md
+  - sources/arxiv-2608-14403-craft-attention-personalization.md
   - sources/arxiv-2607-15650-ditango-chitudiffusion.md
   - sources/arxiv-2607-19139-dit-template-token-registers.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-07-22
+updated: 2026-08-17
 ---
 
 ## Relations

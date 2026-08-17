@@ -42,6 +42,9 @@ related:
   - sources/arxiv-2608-13069-behavioral-reprogramming-routed.md
   - sources/arxiv-2608-13096-flowlob-routed.md
   - sources/arxiv-2608-13250-follow-the-norm-skip.md
+  - sources/arxiv-2608-14016-gameplay-vlm-narration-skip.md
+  - sources/arxiv-2608-14366-polar-low-sar-skip.md
+  - sources/arxiv-2608-14520-math-na-comment-skip.md
   - sources/ente-photos-routed.md
   - sweeps/2026-06-01-daily.md
   - sweeps/2026-06-01-inbox-triage.md
@@ -102,6 +105,8 @@ related:
   - sweeps/2026-08-13-daily.md
   - sweeps/2026-08-14-daily.md
   - sweeps/2026-08-15-daily.md
+  - sweeps/2026-08-16-daily.md
+  - sweeps/2026-08-17-daily.md
   - sweeps/_daily-template.md
 title: Federated daily research digest
 type: concept
@@ -109,7 +114,7 @@ tags: [meta, automation, federation, discovery, k93]
 keywords: [daily-research-digest, exa, inbox, sweep, federated, launchagent, discovery-loop]
 maturity: validated
 created: 2026-06-01
-updated: 2026-08-15
+updated: 2026-08-17
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

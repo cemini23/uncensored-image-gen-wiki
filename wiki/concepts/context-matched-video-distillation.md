@@ -10,9 +10,12 @@ related:
   - concepts/cascaded-streaming-high-resolution-video.md
   - entities/models/wan-2-2.md
   - sweeps/2026-08-14-daily.md
+  - entities/models/forgewm.md
+  - sources/arxiv-2608-14022-forgewm.md
+  - concepts/world-models-video-generation.md
 maturity: draft
 created: 2026-08-14
-updated: 2026-08-14
+updated: 2026-08-17
 ---
 
 ## Relations
@@ -32,6 +35,8 @@ Concept from 2026-08-14 ingest of arXiv:2608.13391 (NVIDIA + SketchX Surrey). Fi
 - **Initialize the few-step student from the same causal teacher** → one consistent causal formulation across teacher training, student init, and distillation.
 
 **Why it matters for the gen stack:** few-step + controllable + causal = the streaming/camera-control video regime (joins `streaming-force-controlled-video-generation`, `cascaded-streaming-high-resolution-video`). This is an inference-time-latency win without the standard DMD future-leakage artifact. NVIDIA authorship — likely lands in NVIDIA video stacks; watch repo/weights.
+
+**Sibling (2026-08-17):** @entities/models/forgewm.md applies a four-stage causalization + DMD recipe to an *action-conditioned* Wan2.1-1.3B teacher (Minecraft / CrossFPS) and ships 1/2/4-step students plus draft-preserving replay. Same few-step causal problem; different control surface (keyboard/mouse vs CMD's generic online controls).
 
 ## Snippets
 

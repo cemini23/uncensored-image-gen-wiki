@@ -310,6 +310,14 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [LLM AV threat analysis — routed (arXiv:2608.13450)](sources/arxiv-2608-13450-av-threat-analysis-routed.md) — attacker-reachable CWE in AVs; ROUTE cybersec — `paper, routed, llm, automotive`
 - [Retinal image gen (arXiv:2608.13455)](sources/arxiv-2608-13455-retinal-image-gen-skip.md) — medical foundation-model latents SKIP — `paper, medical, peripheral`
 - [Gricean retreat LLMs (arXiv:2608.13484)](sources/arxiv-2608-13484-gricean-retreat-skip.md) — knowledge-boundary hallucination SKIP — `paper, nlp, peripheral`
+- [VoiceChat-TTS (arXiv:2608.13831)](sources/arxiv-2608-13831-voicechat-tts.md) — NVIDIA streamable TTS + barge-in; WATCH (NeMo 518 MB, no clone) — `paper, tts, voice, streaming, nvidia`
+- [Gameplay VLM narration (arXiv:2608.14016)](sources/arxiv-2608-14016-gameplay-vlm-narration-skip.md) — mosaic VLM + duration TTS; SKIP gen / ROUTE game-dev — `paper, skip, routed, gameplay`
+- [ForgeWM (arXiv:2608.14022)](sources/arxiv-2608-14022-forgewm.md) — few-step causal action WM; GO code Apache-2.0 / WATCH stack — `paper, video, world-model, distillation`
+- [BiVidGen MLLM-DiT video (arXiv:2608.14043)](sources/arxiv-2608-14043-mllm-dit-video-fusion.md) — EMA tokens + causal AR + explicit cond; WATCH paper-only — `paper, video, mllm, dit`
+- [Polar-low SAR / CREST (arXiv:2608.14366)](sources/arxiv-2608-14366-polar-low-sar-skip.md) — remote-sensing WSSS; SKIP — `paper, remote-sensing, peripheral`
+- [RA-Bench crisis video (arXiv:2608.14391)](sources/arxiv-2608-14391-ra-bench-crisis-video-routed.md) — 17886 clips / LastMile; ROUTE cybersec — `paper, routed, deepfake, video`
+- [CRAFT attention personalization (arXiv:2608.14403)](sources/arxiv-2608-14403-craft-attention-personalization.md) — ReFL LoRA on Klein 9B, no composed targets; WATCH — `paper, persona, lora, flux`
+- [Math.NA Lagrangian–Eulerian comment (arXiv:2608.14520)](sources/arxiv-2608-14520-math-na-comment-skip.md) — hyperbolic PDE comment; SKIP — `paper, math, peripheral`
 
 - [NL→LTL requirements LLM — routed (arXiv:2608.06287)](sources/arxiv-2608-06287-nl-to-ltl-routed.md) — formal methods; ROUTE cybersec — `paper, routed, formal-methods`
 - [GB/T-Bench national-standard review (arXiv:2608.06312)](sources/arxiv-2608-06312-gbt-bench-skip.md) — document-review peripheral SKIP — `paper, llm, peripheral`
@@ -428,6 +436,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [InfiniteYou](entities/adapters/infinite-you.md) — ByteDance FLUX-native identity adapter, ICCV 2025 Highlight; multi-aspect (cross-pose / cross-age) identity — `adapter, identity-injection, flux, iccv-2025` ⚠ stub
 - [PhotoMaker V2](entities/adapters/photomaker-v2.md) — TencentARC SDXL stacked-ID adapter; aging / styling preservation niche — `adapter, identity-injection, sdxl, tencentarc` ⚠ stub
 - [CharaConsist](entities/adapters/characonsist.md) — Murray-Wang ICCV 2025 training-free character consistency; attention-manipulation at inference, no LoRA / no adapter weights — `adapter, identity-injection, training-free, iccv-2025` ⚠ stub
+- [CRAFT (ReFL LoRA, no composed targets)](entities/adapters/craft.md) — 10K ref+masks on FLUX.2-klein-9B; WATCH (no code) — `adapter, identity-injection, lora, flux, refl, watch`
 - [FLUX.1 Redux](entities/adapters/flux-redux.md) — BFL image-variation / composition adapter; pairs with PuLID II as the dual-node identity-and-composition stack — `adapter, image-variation, flux, black-forest-labs` ⚠ stub
 - [FLUX.1 Kontext](entities/adapters/flux-kontext.md) — BFL prompt-driven image-edit; canonical hair-override pass after PuLID; Character Turnaround Sheet LoRA backbone — `adapter, image-edit, flux, black-forest-labs` ⚠ stub
 - [FLUX.2 Klein 9B face-swap workflow](entities/adapters/flux2-klein-9b-faceswap.md) — multi-pass NSFW pipeline using Klein 9B as post-generation face-swap engine; modal mitigation #3 for NSFW anatomy degradation — `adapter, face-swap, flux2, klein, nsfw-isolation` ⚠ stub
@@ -504,6 +513,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [GROW TTS RL](entities/voice-models/grow-tts.md) — group-relative flow-matching RL; WATCH — `voice-cloning, tts, rl, watch`
 - [SemBridge](entities/voice-models/sembridge.md) — semantic-token anchoring for continuous-latent AR TTS/SVS; WATCH (skeleton) — `voice-cloning, tts, continuous-latent, watch`
 - [Phoenix TTS (Didi flow-matching speech tokenization)](entities/voice-models/phoenix-tts.md) — tokenizer+FM joint training; zero-shot TTS+VC; WATCH (no code) — `voice-cloning, tts, flow-matching, watch`
+- [VoiceChat-TTS (NVIDIA streamable TTS)](entities/voice-models/voicechat-tts.md) — LLM token stream + barge-in, no KV reset; WATCH (518 MB NeMo + OpenMDW 11B) — `voice-cloning, tts, streaming, nvidia, watch`
 - [FastThaiG2P (AWS Thai G2P phonemizer)](entities/voice-models/fastthaig2p.md) — sub-ms IPA/Kokoro phonemization; Apache-2.0 13 MB; CONDITIONAL (Thai persona) — `tts, g2p, thai, voice, apache-2-0`
 - [Nemotron-Labs-Audex (NVIDIA unified audio-text LLM)](entities/voice-models/nemotron-audex.md) — unified TTS/ASR/TTA/speech-to-speech MoE; Phase-0 REFERENCE (NVIDIA noncommercial license) — `voice-cloning, tts, nvidia, audex, unified-llm, moe`
 - [speech-swift (Soniqo Apple Silicon speech toolkit)](entities/voice-models/speech-swift.md) — MLX/CoreML ASR+TTS; CosyVoice/Qwen3-TTS/Fish S2; Phase-0 WATCH — `voice-cloning, tts, apple-silicon, mlx, apache-2.0`
@@ -513,6 +523,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Avatar-Forever (PolyU + ByteDance real-time infinite avatars)](entities/models/avatar-forever.md) — decoupled parallel training + ForeverCache; WATCH (no code/SPDX) — `model, avatar, lipsync, video, streaming`
 - [XYZFlow (multidimensional shortcut flows for efficient T2I)](entities/models/xyzflow.md) — temporal+spatial scaling; 7.2-8.5× speedups; WATCH (no SPDX) — `model, t2i, flow-matching, efficiency`
 - [Agentic I2V adherence (Google — agentic self-improvement for I2V)](entities/models/agentic-i2v.md) — mLLM prompt opt + Bayesian seed/CFG search; WATCH (no code) — `model, i2v, agentic, prompt-optimization`
+- [ForgeWM (few-step causal action-conditioned WM)](entities/models/forgewm.md) — Wan2.1-1.3B / Matrix-Game 2; 1/2/4-step students; Apache-2.0 code cloned — `model, world-model, video, distillation, watch`
 - [ZipL-Dialog (latent flow-matching dialog TTS)](entities/voice-models/zipl-dialog.md) — multi-minute multi-speaker; WATCH — `voice-cloning, tts, dialog`
 - [AutoSIFT (category style-infilling TTS)](entities/voice-models/autosift.md) — ASI style surgery; WATCH — `voice-cloning, tts, style-control`
 - [VGIF-Score / VGIF-Bench](entities/benchmarks/vgif-score.md) — diagnostic video instruction eval; placeholder repo — `benchmark, video-generation, evaluation`
@@ -729,6 +740,7 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Hand-object interaction generation](concepts/hand-object-interaction-generation.md) — HOI under foundation models (survey hub) — `hoi, video-generation, survey`
 - [Hybrid-policy self-distillation for TI2V (HPSD)](concepts/hybrid-policy-self-distillation-video.md) — internalize I2V-mode quality into base T2V; off-policy SFT failure — `distillation, ti2v, self-distillation, capability-internalization`
 - [Context-Matched Distillation (CMD)](concepts/context-matched-video-distillation.md) — causal teacher matches student information set; few-step + online control — `distillation, causal, streaming, video-generation, nvidia`
+- [MLLM–DiT fusion for video (BiVidGen)](concepts/mllm-dit-video-fusion.md) — EMA visual tokens + causal AR + explicit token cond; video analog of LLM-as-image-conditioning — `video-generation, mllm, dit, conditioning`
 
 ### Meta (wiki operations)
 

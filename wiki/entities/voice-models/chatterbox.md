@@ -6,6 +6,7 @@ keywords: [Chatterbox, Resemble AI, MIT license, watermarked TTS, PerTH watermar
 related:
   - concepts/persona-audio-stack.md
   - entities/persona-ops/fish-speech.md
+  - entities/voice-models/voicechat-tts.md
   - entities/voice-models/cosyvoice2.md
   - entities/voice-models/xtts-v2.md
   - entities/voice-models/dia.md
@@ -14,7 +15,7 @@ related:
   - sources/arxiv-2607-23027-singlish-tts.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-07-28
+updated: 2026-08-17
 ---
 
 ## Relations
