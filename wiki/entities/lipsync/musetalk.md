@@ -5,6 +5,7 @@ tags: [lipsync, latent-inpainting, tencent, lyra-lab, tencent-music, real-time, 
 keywords: [MuseTalk, TMElyralab, Tencent Music Entertainment Lyra Lab, Lyra Lab, latent space inpainting, real-time lipsync, 30 FPS, Whisper-tiny, MuseV, virtual human, 256x256 face region, MIT license]
 related:
   - concepts/persona-audio-stack.md
+  - entities/lipsync/anytalk.md
   - entities/lipsync/latentsync.md
   - entities/lipsync/wav2lip.md
   - entities/lipsync/sadtalker.md
@@ -14,9 +15,10 @@ related:
   - concepts/video-identity-inheritance.md
   - sources/persona-ops-stack-2026.md
   - entities/persona-ops/personalive.md
+  - sources/arxiv-2608-16143-anytalk.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-05-13
+updated: 2026-08-18
 ---
 
 ## Relations

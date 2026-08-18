@@ -1,3 +1,26 @@
+## [2026-08-18] ingest | ISL TTS · AnyTalk · SQuad · PersonaShot (+ 2 SKIP, 1 ROUTE SEO, 1 ROUTE game-dev)
+
+Full inbox ingest of 8 NEW arXiv PDFs (preingest 8 NEW / 0 LIKELY / 0 DUP). All 8 archived to egress-fi `image-gen/`; inbox empty of this batch. Lint 0 hard errors.
+
+### WATCH / GO
+- **NEW** `@sources/arxiv-2608-15910-isl-expressive-tts.md` + **NEW** `@concepts/iterative-self-learning-expressive-tts.md` — Edinburgh/KTH Invert-Classify + iterative pseudo-label loop bootstraps explicit prominence/emotion tags. **WATCH** (label/control-surface technique; not a clone-model swap). No GitHub.
+- **NEW** `@sources/arxiv-2608-16143-anytalk.md` + **NEW** `@entities/lipsync/anytalk.md` — KAIST 3D blendshape speech animation via video-diffusion CsF + blendshape uplift; AnyTalkRT 110 FPS distill. **WATCH HIGH** lipsync/persona. Project page only — no GitHub URL. 2D production stays LatentSync.
+- **NEW** `@sources/arxiv-2608-16513-mllm-semantic-correction-t2v.md` + **NEW** `@concepts/mllm-mid-generation-video-correction.md` — training-free Semantic Assessment Supervisor + Semantic Modification Assistant inside the sampler. **WATCH** paper-only. Not dumped into `@concepts/mllm-dit-video-fusion.md` (token-bridge arch).
+- **NEW** `@sources/arxiv-2608-16585-squad-attention-distillation.md` + **NEW** `@entities/models/squad.md` — Qualcomm SQuad distills Wan 2.2 5B softmax to O(n√n) + DMD2 6 NFE; VBench 83.08→83.20, attn latency ~11×. **WATCH HIGH** efficiency. No GitHub (do not hunt Qualcomm internals).
+- **NEW** `@sources/arxiv-2608-16717-personashot.md` + **NEW** `@entities/benchmarks/personashot.md` — SJTU/Tencent person-centric multi-shot bench (~1000 segments, 16 physical/affective/cinematic metrics). **WATCH HIGH** persona-video. Project page only; dataset not downloaded.
+
+### ROUTEd / SKIP
+- **ROUTE SEO** `@sources/arxiv-2608-16284-transanytext-routed.md` → `briefs/2026-08-18_transanytext-from-image-gen.md` — JD.com HTML-patch VLM+inpaint e-commerce text localization (`wont_wire`).
+- **ROUTE game-dev** AnyTalk → `briefs/2026-08-18_anytalk-from-image-gen.md` — 3D character blendshape path (image-gen keeps lipsync entity, `deferred`).
+- **SKIP** `@sources/arxiv-2608-16473-energy-oracle-skip.md` (scientific ML) · `@sources/arxiv-2608-16703-chemotaxis-dead-cores-skip.md` (math.AP).
+
+### Phase-0 / Phase-1
+- Image-gen local wire: **none**. New on-domain entities `wire_status: deferred`; routed/SKIP `wont_wire`.
+- Local clone: **none** — GitHub search negative for AnyTalk / SQuad / PersonaShot / TransAnyText / ISL. No datasets downloaded.
+
+### Archive
+- All 8 PDFs → egress-fi `image-gen/`; local inbox empty of this batch.
+
 ## [2026-08-17] ingest | VoiceChat-TTS · ForgeWM · BiVidGen · CRAFT (+ 2 SKIP, 2 ROUTE)
 
 Full inbox ingest of 8 NEW arXiv PDFs (preingest 8 NEW / 0 LIKELY / 0 DUP). All 8 archived to egress-fi `image-gen/`; inbox empty of this batch.

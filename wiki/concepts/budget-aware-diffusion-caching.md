@@ -8,6 +8,8 @@ related:
   - concepts/dit-template-token-semantic-registers.md
   - concepts/ditango-parallel-diffusion-attention.md
   - concepts/input-stable-sparse-attention-video.md
+  - entities/models/squad.md
+  - sources/arxiv-2608-16585-squad-attention-distillation.md
   - concepts/multimodal-diffusion-mamba-efficient-t2v.md
   - concepts/navicache-navigation-guided-video-caching.md
   - concepts/one-step-autoregressive-video-distillation.md
@@ -51,7 +53,7 @@ related:
   - sources/arxiv-2608-12276-xyzflow.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-08-05
+updated: 2026-08-18
 ---
 
 ## Relations
@@ -70,6 +72,8 @@ Concept from 2026-06-07 ingest — arXiv:2606.06060 ReCache.
 |------|----------|-------|
 | **Mechanism** | Reuse vs forecast activations? | Agnostic — stacks on TaylorSeer, HiCache, FORA, Δ-DiT |
 | **Schedule** | Which k of N steps fully recompute? | **Learned or searched** under fixed budget |
+
+**2026-08-18 — SQuad is the other axis.** Caching *reuses* activations. @entities/models/squad.md *replaces* Wan 2.2 5B softmax with O(n√n) + 6 NFE (paper-only). Complementary, not a cache schedule.
 
 ### ReCache (RL policy)
 

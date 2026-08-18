@@ -123,13 +123,15 @@ related:
   - sources/arxiv-2608-04820-resem-face.md
   - entities/models/agentic-i2v.md
   - sources/arxiv-2608-12290-agentic-i2v.md
+  - entities/benchmarks/personashot.md
+  - sources/arxiv-2608-16717-personashot.md
 title: Persona consistency methods (umbrella)
 type: concept
 tags: [persona-consistency, methods, taxonomy, identity-injection]
 keywords: [character LoRA, identity adapter, Character DNA, multi-angle dataset, two-pass inpaint, reference plus LoRA stack, face anchor seed]
 maturity: validated
 created: 2026-05-06
-updated: 2026-08-17
+updated: 2026-08-18
 ---
 
 
@@ -197,6 +199,8 @@ Persona consistency is not a single problem; it is the intersection of four orth
 | 2. Identity injection | Carry that face into new generations of the same persona | Character LoRA + identity adapter (PuLID/IP-Adapter/InstantID) |
 | 3. Multi-angle / multi-pose | Cover the full pose-and-angle space without re-shooting | Wan 2.2 I2V frame extraction + Mickmumpitz Consistent Character Creator (Qwen-Image-Edit 96-angle) |
 | 4. Cross-base / cross-modal carry | Same persona across SDXL→FLUX→Wan video without drift | Parallel LoRAs per base + I2V conditioning on a polished still |
+
+**2026-08-18 — score the video carry, not just the still.** @entities/benchmarks/personashot.md (~1000 multi-shot segments, 16 physical / affective / cinematic metrics) is the first bench that asks whether the *character's state* survives a cut. VBench-pretty clips still reset pose, jump affect, and break 180-rule. Use it when Axis 4 ships a multi-shot reel.
 
 Each axis is described below with its canonical recipe and known failure modes.
 

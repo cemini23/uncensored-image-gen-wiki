@@ -12,9 +12,11 @@ related:
   - sources/arxiv-2606-27376-ask-solve-generate-self-evolving-multimodal.md
   - concepts/mllm-dit-video-fusion.md
   - sources/arxiv-2608-14043-mllm-dit-video-fusion.md
+  - concepts/mllm-mid-generation-video-correction.md
+  - sources/arxiv-2608-16513-mllm-semantic-correction-t2v.md
 maturity: draft
 created: 2026-05-06
-updated: 2026-08-17
+updated: 2026-08-18
 ---
 
 ## Relations

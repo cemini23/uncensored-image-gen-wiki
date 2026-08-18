@@ -45,6 +45,14 @@ related:
   - sources/arxiv-2608-14016-gameplay-vlm-narration-skip.md
   - sources/arxiv-2608-14366-polar-low-sar-skip.md
   - sources/arxiv-2608-14520-math-na-comment-skip.md
+  - sources/arxiv-2608-15910-isl-expressive-tts.md
+  - sources/arxiv-2608-16143-anytalk.md
+  - sources/arxiv-2608-16284-transanytext-routed.md
+  - sources/arxiv-2608-16473-energy-oracle-skip.md
+  - sources/arxiv-2608-16513-mllm-semantic-correction-t2v.md
+  - sources/arxiv-2608-16585-squad-attention-distillation.md
+  - sources/arxiv-2608-16703-chemotaxis-dead-cores-skip.md
+  - sources/arxiv-2608-16717-personashot.md
   - sources/ente-photos-routed.md
   - sweeps/2026-06-01-daily.md
   - sweeps/2026-06-01-inbox-triage.md
@@ -107,6 +115,7 @@ related:
   - sweeps/2026-08-15-daily.md
   - sweeps/2026-08-16-daily.md
   - sweeps/2026-08-17-daily.md
+  - sweeps/2026-08-18-daily.md
   - sweeps/_daily-template.md
 title: Federated daily research digest
 type: concept
@@ -114,7 +123,7 @@ tags: [meta, automation, federation, discovery, k93]
 keywords: [daily-research-digest, exa, inbox, sweep, federated, launchagent, discovery-loop]
 maturity: validated
 created: 2026-06-01
-updated: 2026-08-17
+updated: 2026-08-18
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

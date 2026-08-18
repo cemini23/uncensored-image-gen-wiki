@@ -5,20 +5,22 @@ tags: [voice-cloning, tts, flow-matching, tokenizer, watch]
 keywords: [Phoenix TTS, Didi, L-Lab, flow-matching, speech-tokenization, zero-shot-TTS, voice-conversion]
 related:
   - sources/arxiv-2608-11737-phoenix-tts.md
+  - concepts/iterative-self-learning-expressive-tts.md
   - concepts/persona-audio-stack.md
   - concepts/waveform-native-flow-matching-tts.md
   - entities/persona-ops/fish-speech.md
   - entities/sfx-models/voxaudio.md
+  - sources/arxiv-2608-15910-isl-expressive-tts.md
 maturity: draft
 created: 2026-08-13
-updated: 2026-08-14
+updated: 2026-08-18
 wire_status: deferred
 phase0_verdict: WATCH
 ---
 
 ## Relations
 
-@sources/arxiv-2608-11737-phoenix-tts.md @concepts/persona-audio-stack.md @concepts/waveform-native-flow-matching-tts.md @entities/persona-ops/fish-speech.md
+@sources/arxiv-2608-11737-phoenix-tts.md @concepts/persona-audio-stack.md @concepts/waveform-native-flow-matching-tts.md @entities/persona-ops/fish-speech.md @concepts/iterative-self-learning-expressive-tts.md @sources/arxiv-2608-15910-isl-expressive-tts.md
 
 ## Raw Concept
 

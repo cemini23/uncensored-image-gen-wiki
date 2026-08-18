@@ -19,6 +19,8 @@ related:
   - concepts/video-try-on-anything.md
   - entities/adapters/flux2-klein-matchingpose.md
   - entities/adapters/pulid.md
+  - entities/benchmarks/personashot.md
+  - entities/lipsync/anytalk.md
   - entities/lipsync/latentsync.md
   - entities/lipsync/liveportrait.md
   - entities/lipsync/musetalk.md
@@ -57,6 +59,8 @@ related:
   - sources/arxiv-2607-20247-vera-identity-faithful-s2v.md
   - sources/arxiv-2607-20368-self-gradient-forcing.md
   - sources/arxiv-2607-21434-adaptive-identity-anchoring.md
+  - sources/arxiv-2608-16143-anytalk.md
+  - sources/arxiv-2608-16717-personashot.md
   - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
   - sources/arxiv-tagrpo-i2v-grpo-2601-05729.md
   - sources/headsup-3d-gaussian-head.md
@@ -74,7 +78,7 @@ tags: [persona-consistency, i2v, identity-inheritance, video-workflow, clip-visi
 keywords: [i2v, image-to-video, identity-inheritance, master-image, clip-vision-encoder, raw-pixel-initialization, pulid-anchor, airt-machine, seedance, kling, wan, hunyuan, persona-consistency]
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-24
+updated: 2026-08-18
 ---
 
 
@@ -85,6 +89,7 @@ updated: 2026-07-24
 @entities/uis/comfyui.md
 
 @concepts/persona-audio-stack.md
+@entities/benchmarks/personashot.md @sources/arxiv-2608-16717-personashot.md @entities/lipsync/anytalk.md
 @entities/lipsync/latentsync.md @entities/lipsync/musetalk.md @entities/lipsync/sadtalker.md @entities/lipsync/liveportrait.md
 @concepts/2026-05-13_gracia-ai-volumetric-video.md — volumetric video, an adjacent generative-media surface
 @concepts/query-warped-video-motion-control.md @entities/adapters/flux2-klein-matchingpose.md
@@ -145,6 +150,7 @@ This bridges the gap between static reference and temporal diffusion — the LLM
 - **Master with PuLID II strength too high (>0.55)** → master locks identity rigidly; I2V refuses meaningful pose change
 - **Master with PuLID II strength too low (<0.35)** → identity drifts across video clip even with CLIP Vision encoder
 - **Wan 2.2 base model on NSFW master** → master frame is preserved but downstream frames artifact (anatomy scrubbed) → use abliterated text encoder + NSFW LoRA stack on Wan, or generate master on FLUX/Qwen and let identity ride through the I2V's CLIP Vision pathway
+- **Pretty single-shot, broken multi-shot** → VBench-class scores can look fine while the character resets after a cut. @entities/benchmarks/personashot.md measures that gap (~1000 segments, 16 physical / affective / cinematic metrics). Score multi-shot persona reels here, not only on appearance.
 
 ### 2026-07-04 pose/motion control additions
 

@@ -13,9 +13,11 @@ related:
   - entities/models/forgewm.md
   - sources/arxiv-2608-14022-forgewm.md
   - concepts/world-models-video-generation.md
+  - entities/models/squad.md
+  - sources/arxiv-2608-16585-squad-attention-distillation.md
 maturity: draft
 created: 2026-08-14
-updated: 2026-08-17
+updated: 2026-08-18
 ---
 
 ## Relations

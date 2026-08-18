@@ -10,16 +10,18 @@ related:
   - entities/models/wan-2-2.md
   - entities/models/hunyuanvideo-1-5.md
   - sweeps/2026-08-05-daily.md
+  - entities/models/squad.md
+  - sources/arxiv-2608-16585-squad-attention-distillation.md
 maturity: draft
 created: 2026-08-05
-updated: 2026-08-05
+updated: 2026-08-18
 wire_status: deferred
 wire_target: tipdrop-workspace-kit/briefs (David CUDA — no Image-gen local wire)
 ---
 
 ## Relations
 
-@sources/arxiv-2608-03335-spade.md @entities/models/token-radius-attention.md @concepts/budget-aware-diffusion-caching.md @entities/models/wan-2-2.md
+@sources/arxiv-2608-03335-spade.md @entities/models/token-radius-attention.md @concepts/budget-aware-diffusion-caching.md @entities/models/wan-2-2.md @entities/models/squad.md @sources/arxiv-2608-16585-squad-attention-distillation.md
 
 ## Raw Concept
 

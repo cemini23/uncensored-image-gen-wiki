@@ -5,6 +5,7 @@ tags: [lipsync, latent-diffusion, bytedance, audio-conditioned, syncnet, stable-
 keywords: [LatentSync, LatentSync-1.6, ByteDance, audio-conditioned latent diffusion, SyncNet supervision, Whisper audio embedding, end-to-end lipsync, 512x512, no intermediate motion representation, ComfyUI-LatentSyncWrapper, arxiv 2412.09262]
 related:
   - concepts/persona-audio-stack.md
+  - entities/lipsync/anytalk.md
   - entities/lipsync/musetalk.md
   - entities/lipsync/wav2lip.md
   - entities/lipsync/sadtalker.md
@@ -39,14 +40,16 @@ related:
   - entities/persona-ops/empaava.md
   - entities/models/avatar-forever.md
   - sources/arxiv-2608-12107-avatar-forever.md
+  - sources/arxiv-2608-16143-anytalk.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-08-06
+updated: 2026-08-18
 ---
 
 ## Relations
 
 @concepts/persona-audio-stack.md @entities/models/echocache.md @sources/arxiv-2608-02474-echocache.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md
+@entities/lipsync/anytalk.md
 @entities/lipsync/musetalk.md
 @entities/lipsync/wav2lip.md
 @entities/lipsync/sadtalker.md

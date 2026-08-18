@@ -9,6 +9,7 @@ related:
   - concepts/face-to-speech-synthesis.md
   - concepts/federated-daily-research-digest.md
   - concepts/generative-ai-era-deepfake-landscape.md
+  - concepts/iterative-self-learning-expressive-tts.md
   - concepts/joint-audio-visual-instruction-editing.md
   - concepts/mllm-video-translation.md
   - concepts/model-selection-workflow.md
@@ -26,6 +27,7 @@ related:
   - entities/benchmarks/mmag.md
   - entities/benchmarks/rw-voice-eq-bench.md
   - entities/datasets/dialogs-russian-speech.md
+  - entities/lipsync/anytalk.md
   - entities/lipsync/latentsync.md
   - entities/lipsync/liveportrait.md
   - entities/lipsync/musetalk.md
@@ -130,6 +132,8 @@ related:
   - sources/arxiv-2608-12814-fastthaig2p.md
   - sources/arxiv-2608-12951-voxaudio.md
   - sources/arxiv-2608-13831-voicechat-tts.md
+  - sources/arxiv-2608-15910-isl-expressive-tts.md
+  - sources/arxiv-2608-16143-anytalk.md
   - sources/arxiv-eventspeech-neuromorphic-tts-2605-26672.md
   - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
   - sources/persona-ops-stack-2026.md
@@ -144,7 +148,7 @@ related:
   - sweeps/2026-07-24-daily.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-08-17
+updated: 2026-08-18
 ---
 ## Relations
 
@@ -257,6 +261,8 @@ Already documented in @entities/persona-ops/fish-speech.md. Key facts as of May 
 
 **2026-08-17 — VoiceChat-TTS (WATCH, not a Layer-1 pick):** NVIDIA @entities/voice-models/voicechat-tts.md is a *duplex* streamer — LLM token stream in, barge-in control tokens, silence when the stream is empty, **no KV-cache reset**. That is a different job than Fish-Speech batch DM notes or CosyVoice2 single-response streaming. Blockers: `NVIDIA-NeMo/Speech` ≈ 518 MB (over clone cap) + 11B OpenMDW/research-only weights. Keep Fish-Speech for recorded notes; watch VoiceChat only if a live talk-track lands. Sibling, not replacement, of Nemotron Audex (unified LLM vs modular streaming TTS).
 
+**2026-08-18 — ISL expressive labels (WATCH, not a Layer-1 pick):** @concepts/iterative-self-learning-expressive-tts.md bootstraps explicit prominence + emotion tags via Invert-Classify + an iterative pseudo-label loop. Fish-Speech already *uses* emotion tags; ISL is how you grow those tags when the labeled seed is tiny. No public code. Do not swap the clone model.
+
 #### Dead end: ElevenLabs
 
 ElevenLabs Flash v2.5 has 75-150ms latency and top-tier SFW quality but enforces NSFW ban at platform level. Operators face account termination, audio classification detection, and legal exposure (Vacker v ElevenLabs). The NSFW market has fully migrated to open-source clones.
@@ -280,6 +286,8 @@ When the persona appears in video (TikTok, Reels, Fanvue), mouth movements must 
 - Open source, local-capable, GPU required
 - Slower than real-time alternatives but quality-first posture
 - [CONFIRMED] Sources: lipsync.com article, Reddit r/StableDiffusion (retrieved 2026-05-09)
+
+**2026-08-18 — AnyTalk (WATCH, 3D-rig path, not Layer-2):** @entities/lipsync/anytalk.md is audio-driven **3D blendshape** animation from a video-diffusion CsF + blendshape uplift. No character animation data. LatentSync / MuseTalk stay the 2D talking-head stack; AnyTalk is the watch if a persona ever needs a real-time mesh (AnyTalkRT 110 FPS reported). Project page only — no GitHub.
 
 #### Speed alternative: MuseTalk (Tencent / Lyra Lab)
 

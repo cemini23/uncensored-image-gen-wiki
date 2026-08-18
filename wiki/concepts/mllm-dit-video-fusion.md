@@ -8,14 +8,17 @@ related:
   - concepts/llm-as-image-conditioning.md
   - entities/models/wan-2-2.md
   - entities/models/hunyuanvideo-1-5.md
+  - concepts/mllm-mid-generation-video-correction.md
+  - sources/arxiv-2608-16513-mllm-semantic-correction-t2v.md
+  - entities/models/agentic-i2v.md
 maturity: draft
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-18
 ---
 
 ## Relations
 
-@sources/arxiv-2608-14043-mllm-dit-video-fusion.md @concepts/llm-as-image-conditioning.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md
+@sources/arxiv-2608-14043-mllm-dit-video-fusion.md @concepts/llm-as-image-conditioning.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @concepts/mllm-mid-generation-video-correction.md @sources/arxiv-2608-16513-mllm-semantic-correction-t2v.md @entities/models/agentic-i2v.md
 
 ## Raw Concept
 
@@ -34,6 +37,8 @@ Image-gen already has a four-role map for how language enters a T2I DiT (frozen 
 **BiVidGen** is the resulting hybrid: MLLM plans tokens, DiT renders. Reported lift vs a fine-tuned DiT baseline on VBench-Long (semantic alignment + temporal coherence) [TENTATIVE, single source, no code].
 
 **Operator takeaway:** if a Wan / Hunyuan hybrid lands that "uses an MLLM," ask which of the three findings it implemented. Frozen-encoder + prompt-rewrite is the weak pattern this paper rejects. Watch for an open implementation before any local wire.
+
+Sibling 2026-08-18: @concepts/mllm-mid-generation-video-correction.md is an *inference-loop* supervisor (preview frames + latent nudge). Do not fold it in here — this page is the token-bridge architecture.
 
 ## Snippets
 

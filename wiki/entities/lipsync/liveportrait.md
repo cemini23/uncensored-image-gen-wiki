@@ -5,6 +5,7 @@ tags: [lipsync, portrait-animation, single-image, liveportrait, kuaishou, kwaivg
 keywords: [LivePortrait, Kuaishou, KwaiVGI, implicit keypoint, stitching, retargeting, portrait animation, single-image, photo-to-video, MIT, ECCV 2024]
 related:
   - concepts/persona-audio-stack.md
+  - entities/lipsync/anytalk.md
   - entities/lipsync/sadtalker.md
   - entities/lipsync/latentsync.md
   - entities/lipsync/musetalk.md
@@ -15,9 +16,10 @@ related:
   - concepts/motion-shape-disentangled-human-animation.md
   - sources/arxiv-2608-04709-empaava.md
   - entities/persona-ops/empaava.md
+  - sources/arxiv-2608-16143-anytalk.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-08-06
+updated: 2026-08-18
 ---
 
 ## Relations

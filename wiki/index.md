@@ -318,6 +318,14 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [RA-Bench crisis video (arXiv:2608.14391)](sources/arxiv-2608-14391-ra-bench-crisis-video-routed.md) — 17886 clips / LastMile; ROUTE cybersec — `paper, routed, deepfake, video`
 - [CRAFT attention personalization (arXiv:2608.14403)](sources/arxiv-2608-14403-craft-attention-personalization.md) — ReFL LoRA on Klein 9B, no composed targets; WATCH — `paper, persona, lora, flux`
 - [Math.NA Lagrangian–Eulerian comment (arXiv:2608.14520)](sources/arxiv-2608-14520-math-na-comment-skip.md) — hyperbolic PDE comment; SKIP — `paper, math, peripheral`
+- [ISL expressive TTS (arXiv:2608.15910)](sources/arxiv-2608-15910-isl-expressive-tts.md) — Invert-Classify + iterative pseudo-labels for prominence/emotion; WATCH — `paper, tts, expressive, semi-supervised`
+- [AnyTalk 3D speech animation (arXiv:2608.16143)](sources/arxiv-2608-16143-anytalk.md) — video-diffusion CsF + blendshape uplift; WATCH HIGH lipsync — `paper, lipsync, 3d, blendshape`
+- [TransAnyText e-commerce image text (arXiv:2608.16284)](sources/arxiv-2608-16284-transanytext-routed.md) — HTML-patch VLM+inpaint; SKIP gen / ROUTE SEO — `paper, skip, routed, e-commerce`
+- [Energy-oracle recovery (arXiv:2608.16473)](sources/arxiv-2608-16473-energy-oracle-skip.md) — neural PDE checkpoint selection; SKIP — `paper, skip, scientific-ml`
+- [MLLM mid-generation T2V correction (arXiv:2608.16513)](sources/arxiv-2608-16513-mllm-semantic-correction-t2v.md) — training-free supervisor + latent intervention; WATCH — `paper, video, mllm, training-free`
+- [SQuad attention distillation (arXiv:2608.16585)](sources/arxiv-2608-16585-squad-attention-distillation.md) — Wan 2.2 5B O(n√n) + 6 NFE; WATCH HIGH efficiency — `paper, video, wan, attention, distillation`
+- [Chemotaxis dead cores (arXiv:2608.16703)](sources/arxiv-2608-16703-chemotaxis-dead-cores-skip.md) — math.AP degenerate diffusion; SKIP — `paper, skip, math`
+- [PersonaShot multi-shot bench (arXiv:2608.16717)](sources/arxiv-2608-16717-personashot.md) — ~1000 segments / 16 metrics; WATCH HIGH persona-video — `paper, benchmark, video, persona`
 
 - [NL→LTL requirements LLM — routed (arXiv:2608.06287)](sources/arxiv-2608-06287-nl-to-ltl-routed.md) — formal methods; ROUTE cybersec — `paper, routed, formal-methods`
 - [GB/T-Bench national-standard review (arXiv:2608.06312)](sources/arxiv-2608-06312-gbt-bench-skip.md) — document-review peripheral SKIP — `paper, llm, peripheral`
@@ -524,9 +532,11 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [XYZFlow (multidimensional shortcut flows for efficient T2I)](entities/models/xyzflow.md) — temporal+spatial scaling; 7.2-8.5× speedups; WATCH (no SPDX) — `model, t2i, flow-matching, efficiency`
 - [Agentic I2V adherence (Google — agentic self-improvement for I2V)](entities/models/agentic-i2v.md) — mLLM prompt opt + Bayesian seed/CFG search; WATCH (no code) — `model, i2v, agentic, prompt-optimization`
 - [ForgeWM (few-step causal action-conditioned WM)](entities/models/forgewm.md) — Wan2.1-1.3B / Matrix-Game 2; 1/2/4-step students; Apache-2.0 code cloned — `model, world-model, video, distillation, watch`
+- [SQuad (Wan 2.2 5B sub-quadratic attention distill)](entities/models/squad.md) — O(n√n) + DMD2; VBench 83.08→83.20; 100→6 NFE; WATCH (no code) — `model, video, wan, attention, distillation, watch`
 - [ZipL-Dialog (latent flow-matching dialog TTS)](entities/voice-models/zipl-dialog.md) — multi-minute multi-speaker; WATCH — `voice-cloning, tts, dialog`
 - [AutoSIFT (category style-infilling TTS)](entities/voice-models/autosift.md) — ASI style surgery; WATCH — `voice-cloning, tts, style-control`
 - [VGIF-Score / VGIF-Bench](entities/benchmarks/vgif-score.md) — diagnostic video instruction eval; placeholder repo — `benchmark, video-generation, evaluation`
+- [PersonaShot (person-centric multi-shot narrative continuity)](entities/benchmarks/personashot.md) — ~1000 segments / 16 physical+affective+cinematic metrics; WATCH — `benchmark, video, persona, multi-shot, watch`
 - [D2DF (one-step video object removal)](entities/models/d2df.md) — CogVideoX-5B-I2V; Apache code clone; weights deferred — `model, video-editing, apache-2-0`
 - [MeanFlowNFT (forward-process RL)](entities/models/meanflownft.md) — MeanFlow NFT RL; Wan branch WIP — `model, meanflow, rl, apache-2-0`
 - [TAMF-VTON (mask-free VTON)](entities/models/tamf-vton.md) — paper-only WATCH — `model, virtual-try-on, watch`
@@ -548,6 +558,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Wav2Lip (Rudrabha — GAN-based sync-accuracy lipsync baseline)](entities/lipsync/wav2lip.md) — 2020 IIIT-H SyncNet-supervised GAN baseline; **research-only weights** on original repo (license blocker for monetized use); 96×96 face region; sync-accuracy + lowest VRAM + widest tutorials — Easy-Wav2Lip / Wav2Lip-HD forks for friendlier setup — `lipsync, gan, wav2lip, syncnet, rudrabha, lipsync-baseline, dubbing, research-restricted`
 - [SadTalker (OpenTalker single-image talking-head with 3DMM)](entities/lipsync/sadtalker.md) — CVPR 2023 single-portrait + audio → talking-head with audio-driven head motion (ExpNet + PoseVAE + 3DMM); no source video needed; the canonical photo-to-talking-video pick when only a still exists — `lipsync, talking-head, single-image-animation, sadtalker, opentalker, 3dmm, expnet, cvpr-2023, photo-to-video`
 - [LivePortrait (Kuaishou KwaiVGI — premium single-image portrait animation)](entities/lipsync/liveportrait.md) — ECCV 2024 implicit-keypoint portrait animation; stitching module + eye/mouth retargeting + cross-identity transfer; MIT (verify) ; 512×512 output; premium-quality sibling to SadTalker for single-image animation when sharper visual fidelity matters — `lipsync, portrait-animation, single-image, liveportrait, kuaishou, kwaivgi, stitching-retargeting, premium-quality, implicit-keypoint`
+- [AnyTalk (KAIST 3D blendshape speech animation)](entities/lipsync/anytalk.md) — video-diffusion CsF + blendshape uplift; no character anim data; AnyTalkRT 110 FPS reported; WATCH (project page only) — `lipsync, 3d, blendshape, video-diffusion, watch`
 
 ### Music models
 
@@ -584,6 +595,8 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 ## Concepts
 
 - [ASR-roundtrip TTS evaluation limits (CDRD false negatives)](concepts/asr-roundtrip-tts-eval-limits.md) — ASR-roundtrip masks context-dependent reading errors; human-audited span-isolation protocol for persona-TTS QA — `tts, eval, asr-roundtrip, voice, methodology`
+- [Iterative Self-Learning for expressive TTS labels](concepts/iterative-self-learning-expressive-tts.md) — Invert-Classify + ISL loop bootstraps prominence/emotion tags; Fish-Speech stays Layer-1 — `tts, expressive, semi-supervised, voice`
+- [MLLM mid-generation semantic correction for T2V](concepts/mllm-mid-generation-video-correction.md) — training-free Supervisor + latent Assistant inside the sampler; not BiVidGen token-bridge — `video, mllm, training-free, inference`
 - [Understanding-generation gap](concepts/understanding-generation-gap.md) — unified models verify prompt-image mismatches that they themselves cause when generating; coined in UniReasoner — `llm, diffusion, evaluation, prompt-faithfulness`
 - [Draft-Evaluate-Diffuse pipeline](concepts/draft-evaluate-diffuse-pipeline.md) — UniReasoner's three-stage approach: LLM samples discrete vision tokens, self-critiques, diffusion conditions on (p,d,e) — `llm, diffusion, vision-tokens, self-critique`
 - [LLM as image-generation conditioning (encoder vs reasoner)](concepts/llm-as-image-conditioning.md) — four roles for LMs in T2I: frozen encoder → stronger encoder → front-end rewriter → universal reasoner — `llm, diffusion, conditioning, t2i-architecture`

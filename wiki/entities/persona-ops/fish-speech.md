@@ -8,6 +8,7 @@ related:
   - concepts/generative-ai-era-deepfake-landscape.md
   - concepts/mllm-video-translation.md
   - concepts/model-selection-workflow.md
+  - concepts/iterative-self-learning-expressive-tts.md
   - concepts/persona-audio-stack.md
   - concepts/persona-monetization-models.md
   - concepts/persona-ops-stack.md
@@ -76,9 +77,10 @@ related:
   - sweeps/2026-07-24-daily.md
   - entities/voice-models/phoenix-tts.md
   - entities/voice-models/fastthaig2p.md
+  - sources/arxiv-2608-15910-isl-expressive-tts.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-08-17
+updated: 2026-08-18
 ---
 
 ## Relations

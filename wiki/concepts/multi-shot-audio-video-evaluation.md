@@ -11,6 +11,7 @@ related:
   - entities/benchmarks/filmbench.md
   - entities/benchmarks/filmops.md
   - entities/benchmarks/mmag.md
+  - entities/benchmarks/personashot.md
   - entities/benchmarks/refcaptioner.md
   - entities/benchmarks/vgif-score.md
   - entities/lipsync/latentsync.md
@@ -33,9 +34,10 @@ related:
   - sources/arxiv-2608-11013-wsv-video-captioning.md
   - entities/sfx-models/voxaudio.md
   - sources/arxiv-2608-12951-voxaudio.md
+  - sources/arxiv-2608-16717-personashot.md
 maturity: draft
 created: 2026-06-08
-updated: 2026-08-14
+updated: 2026-08-18
 ---
 ## Relations
 
