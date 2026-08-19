@@ -9,6 +9,8 @@ related:
   - concepts/mllm-video-translation.md
   - concepts/model-selection-workflow.md
   - concepts/iterative-self-learning-expressive-tts.md
+  - entities/voice-models/fireredtts3.md
+  - sources/arxiv-2608-17492-fireredtts3.md
   - concepts/persona-audio-stack.md
   - concepts/persona-monetization-models.md
   - concepts/persona-ops-stack.md
@@ -85,7 +87,7 @@ updated: 2026-08-18
 
 ## Relations
 
-@sources/persona-ops-stack-2026.md @concepts/persona-ops-stack.md @concepts/persona-monetization-models.md @entities/persona-ops/sillytavern.md @entities/persona-ops/n8n.md @sources/arxiv-2608-02235-tts-domain-eval.md @sources/arxiv-2608-03011-daien-tts.md @sources/arxiv-2608-03215-grow-tts-rl.md
+@sources/persona-ops-stack-2026.md @concepts/persona-ops-stack.md @concepts/persona-monetization-models.md @entities/persona-ops/sillytavern.md @entities/persona-ops/n8n.md @entities/voice-models/fireredtts3.md @sources/arxiv-2608-17492-fireredtts3.md @sources/arxiv-2608-02235-tts-domain-eval.md @sources/arxiv-2608-03011-daien-tts.md @sources/arxiv-2608-03215-grow-tts-rl.md
 @concepts/model-selection-workflow.md @concepts/face-to-speech-synthesis.md @sources/arxiv-2607-26742-face-to-speech.md
 
 @concepts/persona-audio-stack.md

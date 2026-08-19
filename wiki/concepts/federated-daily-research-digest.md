@@ -53,6 +53,14 @@ related:
   - sources/arxiv-2608-16585-squad-attention-distillation.md
   - sources/arxiv-2608-16703-chemotaxis-dead-cores-skip.md
   - sources/arxiv-2608-16717-personashot.md
+  - sources/arxiv-2608-17492-fireredtts3.md
+  - sources/arxiv-2608-17695-magnitude-direction-decoupling.md
+  - sources/arxiv-2608-17707-dynaforcing.md
+  - sources/arxiv-2608-17973-linca.md
+  - sources/arxiv-2608-18040-oys-tuned-sampling.md
+  - sources/arxiv-2608-18063-editbridge.md
+  - sources/arxiv-2608-18076-capability-centric-image-data.md
+  - sources/arxiv-2608-18077-hydra-0-routed.md
   - sources/ente-photos-routed.md
   - sweeps/2026-06-01-daily.md
   - sweeps/2026-06-01-inbox-triage.md
@@ -116,6 +124,7 @@ related:
   - sweeps/2026-08-16-daily.md
   - sweeps/2026-08-17-daily.md
   - sweeps/2026-08-18-daily.md
+  - sweeps/2026-08-19-daily.md
   - sweeps/_daily-template.md
 title: Federated daily research digest
 type: concept
@@ -130,7 +139,7 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 
 ## Relations
 
-@meta/daily-research-digest-cadence.md @concepts/persona-ops-stack.md @concepts/persona-audio-stack.md @entities/omnivoice.md @sweeps/_daily-template.md @sources/arxiv-2607-28936-diffattack-fr-evasion.md @sweeps/2026-08-04-daily.md @sweeps/2026-08-05-daily.md @sweeps/2026-08-06-daily.md @sweeps/2026-08-07-daily.md @sources/arxiv-2608-10405-speech-dos-routed.md @sources/arxiv-2608-10606-asr-roundtrip-tts-eval.md @sources/arxiv-2608-10870-nulledit-routed.md @sources/arxiv-2608-10933-safeca-routed.md @sources/arxiv-2608-11013-wsv-video-captioning.md @sources/arxiv-2608-11073-irreversibility-skip.md @sources/arxiv-2608-11114-torf-forecasting-skip.md @sources/arxiv-2608-11201-vidforensics-m1-routed.md @sweeps/2026-08-13-daily.md @sweeps/2026-08-14-daily.md @sweeps/2026-08-11-daily.md @sweeps/2026-08-12-daily.md @sweeps/2026-08-15-daily.md
+@meta/daily-research-digest-cadence.md @sources/arxiv-2608-17492-fireredtts3.md @sources/arxiv-2608-17695-magnitude-direction-decoupling.md @sources/arxiv-2608-17707-dynaforcing.md @sources/arxiv-2608-17973-linca.md @sources/arxiv-2608-18040-oys-tuned-sampling.md @sources/arxiv-2608-18063-editbridge.md @sources/arxiv-2608-18076-capability-centric-image-data.md @sources/arxiv-2608-18077-hydra-0-routed.md @concepts/persona-ops-stack.md @concepts/persona-audio-stack.md @entities/omnivoice.md @sweeps/_daily-template.md @sources/arxiv-2607-28936-diffattack-fr-evasion.md @sweeps/2026-08-04-daily.md @sweeps/2026-08-05-daily.md @sweeps/2026-08-06-daily.md @sweeps/2026-08-07-daily.md @sources/arxiv-2608-10405-speech-dos-routed.md @sources/arxiv-2608-10606-asr-roundtrip-tts-eval.md @sources/arxiv-2608-10870-nulledit-routed.md @sources/arxiv-2608-10933-safeca-routed.md @sources/arxiv-2608-11013-wsv-video-captioning.md @sources/arxiv-2608-11073-irreversibility-skip.md @sources/arxiv-2608-11114-torf-forecasting-skip.md @sources/arxiv-2608-11201-vidforensics-m1-routed.md @sweeps/2026-08-13-daily.md @sweeps/2026-08-14-daily.md @sweeps/2026-08-11-daily.md @sweeps/2026-08-12-daily.md @sweeps/2026-08-15-daily.md
 
 ## Raw Concept
 

@@ -11,6 +11,8 @@ related:
   - entities/models/wan-2-2.md
   - entities/models/worldweaver.md
   - sources/arxiv-2607-20368-self-gradient-forcing.md
+  - entities/lipsync/dynaforcing.md
+  - sources/arxiv-2608-17707-dynaforcing.md
   - sources/arxiv-2607-21594-worldweaver.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
@@ -21,7 +23,7 @@ updated: 2026-07-24
 
 ## Relations
 
-@sources/arxiv-2607-20368-self-gradient-forcing.md @concepts/autoregressive-video-foresight-training.md @entities/models/wan-2-2.md @entities/models/tango-ar-video.md
+@sources/arxiv-2607-20368-self-gradient-forcing.md @entities/lipsync/dynaforcing.md @sources/arxiv-2608-17707-dynaforcing.md @concepts/autoregressive-video-foresight-training.md @entities/models/wan-2-2.md @entities/models/tango-ar-video.md
 
 ## Raw Concept
 

@@ -6,6 +6,8 @@ keywords: [AnyTalk, AnyTalkRT, CsF, Character-specific Fine-tuning, KAIST, speec
 related:
   - sources/arxiv-2608-16143-anytalk.md
   - entities/lipsync/latentsync.md
+  - entities/lipsync/dynaforcing.md
+  - sources/arxiv-2608-17707-dynaforcing.md
   - entities/lipsync/musetalk.md
   - entities/lipsync/liveportrait.md
   - concepts/persona-audio-stack.md
@@ -20,7 +22,7 @@ phase0_verdict: WATCH
 
 ## Relations
 
-@sources/arxiv-2608-16143-anytalk.md @entities/lipsync/latentsync.md @entities/lipsync/musetalk.md @entities/lipsync/liveportrait.md @concepts/persona-audio-stack.md @concepts/video-identity-inheritance.md @sweeps/2026-08-18-daily.md
+@sources/arxiv-2608-16143-anytalk.md @entities/lipsync/latentsync.md @entities/lipsync/dynaforcing.md @sources/arxiv-2608-17707-dynaforcing.md @entities/lipsync/musetalk.md @entities/lipsync/liveportrait.md @concepts/persona-audio-stack.md @concepts/video-identity-inheritance.md @sweeps/2026-08-18-daily.md
 
 ## Raw Concept
 

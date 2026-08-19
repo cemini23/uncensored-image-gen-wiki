@@ -5,6 +5,8 @@ tags: [voice-cloning, tts, qwen3, alibaba, qwen, multilingual, open-source, east
 keywords: [Qwen3-TTS, Qwen-TTS, Alibaba Qwen, multilingual TTS, Tongyi Qianwen License, qwen3 backbone, persona-ops TTS]
 related:
   - concepts/persona-audio-stack.md
+  - entities/voice-models/fireredtts3.md
+  - sources/arxiv-2608-17492-fireredtts3.md
   - entities/persona-ops/fish-speech.md
   - entities/voice-models/cosyvoice2.md
   - sources/persona-ops-stack-2026.md
@@ -26,7 +28,7 @@ updated: 2026-07-28
 
 ## Relations
 
-@concepts/persona-audio-stack.md
+@concepts/persona-audio-stack.md @entities/voice-models/fireredtts3.md @sources/arxiv-2608-17492-fireredtts3.md
 @entities/persona-ops/fish-speech.md
 @entities/voice-models/cosyvoice2.md
 @sources/persona-ops-stack-2026.md

@@ -7,6 +7,8 @@ related:
   - concepts/persona-ops-stack.md
   - concepts/video-identity-inheritance.md
   - entities/lipsync/musetalk.md
+  - entities/lipsync/dynaforcing.md
+  - sources/arxiv-2608-17707-dynaforcing.md
   - entities/models/openrouter-video.md
   - entities/uis/comfyui.md
   - sources/arxiv-2608-04709-empaava.md
@@ -25,7 +27,7 @@ provenance:
 
 ## Relations
 
-@concepts/persona-ops-stack.md @concepts/video-identity-inheritance.md @entities/lipsync/musetalk.md @entities/models/openrouter-video.md @entities/uis/comfyui.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md
+@concepts/persona-ops-stack.md @concepts/video-identity-inheritance.md @entities/lipsync/musetalk.md @entities/lipsync/dynaforcing.md @sources/arxiv-2608-17707-dynaforcing.md @entities/models/openrouter-video.md @entities/uis/comfyui.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md
 
 ## Raw Concept
 

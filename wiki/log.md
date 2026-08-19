@@ -1,3 +1,26 @@
+## [2026-08-19] ingest | FireRedTTS3 · DynaForcing · LinCa · MDD · OYS · EditBridge (+ Hydra-0 ROUTE)
+
+Full inbox ingest of 8 NEW arXiv PDFs (preingest 8 NEW / 0 LIKELY / 0 DUP). All 8 archived to egress-fi `image-gen/`; inbox empty of this batch. Lint 0 hard errors.
+
+### WATCH / GO
+- **NEW** `@sources/arxiv-2608-17492-fireredtts3.md` + **NEW** `@entities/voice-models/fireredtts3.md` — Xiaohongshu continuous AR TTS + Instruct voice-design/edit. **WATCH / GO code**: `FireRedTeam/FireRedTTS3` Apache-2.0 cloned `.local/adopts/FireRedTTS3` (1.5 MB). HF weights not fetched. README research-only cloning disclaimer. Fish-Speech stays Layer-1.
+- **NEW** `@sources/arxiv-2608-17695-magnitude-direction-decoupling.md` + **NEW** `@concepts/magnitude-direction-decoupling.md` — Huawei FM video: lightweight magnitude + cached direction + CFG reuse. **WATCH** paper-only. Not dumped into SQuad.
+- **NEW** `@sources/arxiv-2608-17707-dynaforcing.md` + **NEW** `@entities/lipsync/dynaforcing.md` — Self-Forcing viseme freeze; 45.2 FPS streaming avatar. **WATCH HIGH**. No GitHub. PersonaLive stays CONDITIONAL-GO production candidate.
+- **NEW** `@sources/arxiv-2608-17973-linca.md` + **NEW** `@entities/models/linca.md` — learnable invertible feature cache; 5–7× claimed. `QHR69/LinCa` README-only, **null SPDX** — not cloned.
+- **NEW** `@sources/arxiv-2608-18040-oys-tuned-sampling.md` + **NEW** `@concepts/tuned-diffusion-sampling-oys.md` — Bayesian timestep BO vs Align Your Steps. **WATCH**.
+- **NEW** `@sources/arxiv-2608-18063-editbridge.md` + **NEW** `@entities/models/editbridge.md` — UHR edit bridge. Project page only.
+- **NEW** `@sources/arxiv-2608-18076-capability-centric-image-data.md` + **NEW** `@concepts/capability-centric-image-data.md` — Alibaba data engines + curriculum. **WATCH** data-ops.
+
+### ROUTEd / SKIP
+- **ROUTE game-dev** `@sources/arxiv-2608-18077-hydra-0-routed.md` → `briefs/2026-08-19_hydra-0-from-image-gen.md` — NVIDIA robot action-flow WM (`wont_wire`).
+
+### Phase-0 / Phase-1
+- Image-gen local wire: **none**. On-domain `wire_status: deferred`; Hydra `wont_wire`.
+- Local clone: FireRedTTS3 code only (1.5 MB). No LinCa. No HF weights.
+
+### Archive
+- All 8 PDFs → egress-fi `image-gen/`; local inbox empty of this batch.
+
 ## [2026-08-18] ingest | ISL TTS · AnyTalk · SQuad · PersonaShot (+ 2 SKIP, 1 ROUTE SEO, 1 ROUTE game-dev)
 
 Full inbox ingest of 8 NEW arXiv PDFs (preingest 8 NEW / 0 LIKELY / 0 DUP). All 8 archived to egress-fi `image-gen/`; inbox empty of this batch. Lint 0 hard errors.

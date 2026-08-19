@@ -65,6 +65,7 @@ Per-item verdicts:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-08-19 | Inbox ingest FireRedTTS3 · DynaForcing · LinCa · MDD · OYS · EditBridge | 8 NEW PDFs; FireRedTTS3 Apache-2.0 code cloned (1.5 MB, no weights); LinCa not cloned (null SPDX); Hydra-0 → game-dev; no Image-gen Phase-1 wire. |
 | 2026-08-17 | Inbox ingest VoiceChat-TTS · ForgeWM · BiVidGen · CRAFT | 8 NEW PDFs; ForgeWM Apache-2.0 code cloned (182 MB); no Image-gen Phase-1 wire; RA-Bench → cybersec, gameplay VLM → game-dev; 2 SKIP. |
 | 2026-08-18 | Inbox ingest ISL TTS · AnyTalk · SQuad · PersonaShot | 8 NEW PDFs; no clone (GH search negative); no Image-gen Phase-1 wire; TransAnyText → SEO, AnyTalk → game-dev briefs; 3 SKIP (sci-ML / math / e-commerce). |
 | 2026-06-01 | K93 federated daily digest installed + OmniVoice reject | `install_federated_daily_digest.sh` for image-gen: Exa/inbox discovery scripts, domain `daily_research_config.yaml`, `wiki/sweeps/`, LaunchAgent @ 08:15. Wiki: `concepts/federated-daily-research-digest.md` + `meta/daily-research-digest-cadence.md`. K93 tool eval **rejected** OmniVoice (commercial license poison) — `entities/omnivoice.md` dead-end; Fish-Speech/Qwen3-TTS remain Layer-1. |

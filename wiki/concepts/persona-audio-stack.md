@@ -10,6 +10,8 @@ related:
   - concepts/federated-daily-research-digest.md
   - concepts/generative-ai-era-deepfake-landscape.md
   - concepts/iterative-self-learning-expressive-tts.md
+  - entities/voice-models/fireredtts3.md
+  - sources/arxiv-2608-17492-fireredtts3.md
   - concepts/joint-audio-visual-instruction-editing.md
   - concepts/mllm-video-translation.md
   - concepts/model-selection-workflow.md
@@ -152,7 +154,7 @@ updated: 2026-08-18
 ---
 ## Relations
 
-@entities/persona-ops/fish-speech.md @sources/arxiv-2608-02235-tts-domain-eval.md @sources/arxiv-2608-02474-echocache.md @entities/models/echocache.md @sources/arxiv-2608-03011-daien-tts.md @entities/voice-models/daien-tts.md @sources/arxiv-2608-03215-grow-tts-rl.md @entities/voice-models/grow-tts.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md @sources/arxiv-2608-05507-affectdf-routed.md
+@entities/persona-ops/fish-speech.md @entities/voice-models/fireredtts3.md @sources/arxiv-2608-17492-fireredtts3.md @sources/arxiv-2608-02235-tts-domain-eval.md @sources/arxiv-2608-02474-echocache.md @entities/models/echocache.md @sources/arxiv-2608-03011-daien-tts.md @entities/voice-models/daien-tts.md @sources/arxiv-2608-03215-grow-tts-rl.md @entities/voice-models/grow-tts.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md @sources/arxiv-2608-05507-affectdf-routed.md
 
 @concepts/persona-ops-stack.md
 @concepts/persona-ops-workflow.md

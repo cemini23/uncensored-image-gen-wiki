@@ -9,6 +9,8 @@ related:
   - entities/models/token-radius-attention.md
   - entities/models/spade.md
   - concepts/budget-aware-diffusion-caching.md
+  - concepts/magnitude-direction-decoupling.md
+  - sources/arxiv-2608-17695-magnitude-direction-decoupling.md
   - concepts/context-matched-video-distillation.md
   - sweeps/2026-08-18-daily.md
 maturity: draft
@@ -20,7 +22,7 @@ phase0_verdict: WATCH
 
 ## Relations
 
-@sources/arxiv-2608-16585-squad-attention-distillation.md @entities/models/wan-2-2.md @entities/models/token-radius-attention.md @entities/models/spade.md @concepts/budget-aware-diffusion-caching.md @concepts/context-matched-video-distillation.md @sweeps/2026-08-18-daily.md
+@sources/arxiv-2608-16585-squad-attention-distillation.md @entities/models/wan-2-2.md @entities/models/token-radius-attention.md @entities/models/spade.md @concepts/budget-aware-diffusion-caching.md @concepts/magnitude-direction-decoupling.md @sources/arxiv-2608-17695-magnitude-direction-decoupling.md @concepts/context-matched-video-distillation.md @sweeps/2026-08-18-daily.md
 
 ## Raw Concept
 

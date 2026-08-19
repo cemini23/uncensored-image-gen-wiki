@@ -326,6 +326,14 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [SQuad attention distillation (arXiv:2608.16585)](sources/arxiv-2608-16585-squad-attention-distillation.md) — Wan 2.2 5B O(n√n) + 6 NFE; WATCH HIGH efficiency — `paper, video, wan, attention, distillation`
 - [Chemotaxis dead cores (arXiv:2608.16703)](sources/arxiv-2608-16703-chemotaxis-dead-cores-skip.md) — math.AP degenerate diffusion; SKIP — `paper, skip, math`
 - [PersonaShot multi-shot bench (arXiv:2608.16717)](sources/arxiv-2608-16717-personashot.md) — ~1000 segments / 16 metrics; WATCH HIGH persona-video — `paper, benchmark, video, persona`
+- [FireRedTTS3 (arXiv:2608.17492)](sources/arxiv-2608-17492-fireredtts3.md) — Xiaohongshu continuous AR TTS + Instruct edit; Apache-2.0 code cloned, weights not fetched — `paper, tts, voice, speech-editing`
+- [MDD magnitude-direction decoupling (arXiv:2608.17695)](sources/arxiv-2608-17695-magnitude-direction-decoupling.md) — FM video: cheap magnitude + cached direction; WATCH — `paper, video, flow-matching, acceleration`
+- [DynaForcing (arXiv:2608.17707)](sources/arxiv-2608-17707-dynaforcing.md) — Self-Forcing viseme freeze fix; 45.2 FPS streaming avatar; WATCH HIGH — `paper, lipsync, avatar, streaming`
+- [LinCa feature cache (arXiv:2608.17973)](sources/arxiv-2608-17973-linca.md) — invertible decompose-predict-reconstruct; GH README-only; WATCH — `paper, caching, flux, qwen-image`
+- [OYS tuned sampling (arXiv:2608.18040)](sources/arxiv-2608-18040-oys-tuned-sampling.md) — Bayesian timestep schedules vs Align Your Steps; WATCH — `paper, sampling, diffusion`
+- [EditBridge UHR editing (arXiv:2608.18063)](sources/arxiv-2608-18063-editbridge.md) — LR-edit→HR diffusion bridge; project page only — `paper, image-editing, qwen`
+- [Capability-centric T2I data (arXiv:2608.18076)](sources/arxiv-2608-18076-capability-centric-image-data.md) — three engines + curriculum; WATCH data-ops — `paper, dataset, curriculum, t2i`
+- [Hydra-0 robot world model (arXiv:2608.18077)](sources/arxiv-2608-18077-hydra-0-routed.md) — action flow as pixel motion; SKIP gen / ROUTE game-dev — `paper, skip, routed, robotics`
 
 - [NL→LTL requirements LLM — routed (arXiv:2608.06287)](sources/arxiv-2608-06287-nl-to-ltl-routed.md) — formal methods; ROUTE cybersec — `paper, routed, formal-methods`
 - [GB/T-Bench national-standard review (arXiv:2608.06312)](sources/arxiv-2608-06312-gbt-bench-skip.md) — document-review peripheral SKIP — `paper, llm, peripheral`
@@ -522,6 +530,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [SemBridge](entities/voice-models/sembridge.md) — semantic-token anchoring for continuous-latent AR TTS/SVS; WATCH (skeleton) — `voice-cloning, tts, continuous-latent, watch`
 - [Phoenix TTS (Didi flow-matching speech tokenization)](entities/voice-models/phoenix-tts.md) — tokenizer+FM joint training; zero-shot TTS+VC; WATCH (no code) — `voice-cloning, tts, flow-matching, watch`
 - [VoiceChat-TTS (NVIDIA streamable TTS)](entities/voice-models/voicechat-tts.md) — LLM token stream + barge-in, no KV reset; WATCH (518 MB NeMo + OpenMDW 11B) — `voice-cloning, tts, streaming, nvidia, watch`
+- [FireRedTTS3 (Xiaohongshu continuous AR + Instruct edit)](entities/voice-models/fireredtts3.md) — 24 langs / 21 ZH dialects; Apache-2.0 code cloned 1.5 MB; research-disclaimer cloning; weights not fetched — `voice-cloning, tts, speech-editing, watch`
 - [FastThaiG2P (AWS Thai G2P phonemizer)](entities/voice-models/fastthaig2p.md) — sub-ms IPA/Kokoro phonemization; Apache-2.0 13 MB; CONDITIONAL (Thai persona) — `tts, g2p, thai, voice, apache-2-0`
 - [Nemotron-Labs-Audex (NVIDIA unified audio-text LLM)](entities/voice-models/nemotron-audex.md) — unified TTS/ASR/TTA/speech-to-speech MoE; Phase-0 REFERENCE (NVIDIA noncommercial license) — `voice-cloning, tts, nvidia, audex, unified-llm, moe`
 - [speech-swift (Soniqo Apple Silicon speech toolkit)](entities/voice-models/speech-swift.md) — MLX/CoreML ASR+TTS; CosyVoice/Qwen3-TTS/Fish S2; Phase-0 WATCH — `voice-cloning, tts, apple-silicon, mlx, apache-2.0`
@@ -533,6 +542,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Agentic I2V adherence (Google — agentic self-improvement for I2V)](entities/models/agentic-i2v.md) — mLLM prompt opt + Bayesian seed/CFG search; WATCH (no code) — `model, i2v, agentic, prompt-optimization`
 - [ForgeWM (few-step causal action-conditioned WM)](entities/models/forgewm.md) — Wan2.1-1.3B / Matrix-Game 2; 1/2/4-step students; Apache-2.0 code cloned — `model, world-model, video, distillation, watch`
 - [SQuad (Wan 2.2 5B sub-quadratic attention distill)](entities/models/squad.md) — O(n√n) + DMD2; VBench 83.08→83.20; 100→6 NFE; WATCH (no code) — `model, video, wan, attention, distillation, watch`
+- [LinCa (learnable decomposed feature caching)](entities/models/linca.md) — invertible cache; 5–7× claimed on FLUX/Qwen-Image/Hunyuan; GH stub no SPDX — `model, caching, diffusion, watch`
+- [EditBridge (UHR diffusion-bridge image editor)](entities/models/editbridge.md) — LR-edit→HR conditioned on original HR; project page only — `model, image-editing, qwen, watch`
 - [ZipL-Dialog (latent flow-matching dialog TTS)](entities/voice-models/zipl-dialog.md) — multi-minute multi-speaker; WATCH — `voice-cloning, tts, dialog`
 - [AutoSIFT (category style-infilling TTS)](entities/voice-models/autosift.md) — ASI style surgery; WATCH — `voice-cloning, tts, style-control`
 - [VGIF-Score / VGIF-Bench](entities/benchmarks/vgif-score.md) — diagnostic video instruction eval; placeholder repo — `benchmark, video-generation, evaluation`
@@ -559,6 +570,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [SadTalker (OpenTalker single-image talking-head with 3DMM)](entities/lipsync/sadtalker.md) — CVPR 2023 single-portrait + audio → talking-head with audio-driven head motion (ExpNet + PoseVAE + 3DMM); no source video needed; the canonical photo-to-talking-video pick when only a still exists — `lipsync, talking-head, single-image-animation, sadtalker, opentalker, 3dmm, expnet, cvpr-2023, photo-to-video`
 - [LivePortrait (Kuaishou KwaiVGI — premium single-image portrait animation)](entities/lipsync/liveportrait.md) — ECCV 2024 implicit-keypoint portrait animation; stitching module + eye/mouth retargeting + cross-identity transfer; MIT (verify) ; 512×512 output; premium-quality sibling to SadTalker for single-image animation when sharper visual fidelity matters — `lipsync, portrait-animation, single-image, liveportrait, kuaishou, kwaivgi, stitching-retargeting, premium-quality, implicit-keypoint`
 - [AnyTalk (KAIST 3D blendshape speech animation)](entities/lipsync/anytalk.md) — video-diffusion CsF + blendshape uplift; no character anim data; AnyTalkRT 110 FPS reported; WATCH (project page only) — `lipsync, 3d, blendshape, video-diffusion, watch`
+- [DynaForcing (streaming avatar Self-Forcing fix)](entities/lipsync/dynaforcing.md) — restores visemes after distillation collapse; 45.2 FPS claimed; WATCH HIGH paper-only — `lipsync, avatar, streaming, self-forcing, watch`
 
 ### Music models
 
@@ -597,6 +609,9 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [ASR-roundtrip TTS evaluation limits (CDRD false negatives)](concepts/asr-roundtrip-tts-eval-limits.md) — ASR-roundtrip masks context-dependent reading errors; human-audited span-isolation protocol for persona-TTS QA — `tts, eval, asr-roundtrip, voice, methodology`
 - [Iterative Self-Learning for expressive TTS labels](concepts/iterative-self-learning-expressive-tts.md) — Invert-Classify + ISL loop bootstraps prominence/emotion tags; Fish-Speech stays Layer-1 — `tts, expressive, semi-supervised, voice`
 - [MLLM mid-generation semantic correction for T2V](concepts/mllm-mid-generation-video-correction.md) — training-free Supervisor + latent Assistant inside the sampler; not BiVidGen token-bridge — `video, mllm, training-free, inference`
+- [Magnitude-Direction Decoupling (FM video)](concepts/magnitude-direction-decoupling.md) — cheap magnitude student + cached direction; not SQuad — `video, flow-matching, caching, acceleration`
+- [Tuned diffusion sampling (OYS)](concepts/tuned-diffusion-sampling-oys.md) — Bayesian-optimize timesteps vs Align Your Steps — `sampling, diffusion, bayesian-optimization`
+- [Capability-centric T2I data design](concepts/capability-centric-image-data.md) — three supervision engines + curriculum; Alibaba paper-only — `dataset, curriculum, t2i`
 - [Understanding-generation gap](concepts/understanding-generation-gap.md) — unified models verify prompt-image mismatches that they themselves cause when generating; coined in UniReasoner — `llm, diffusion, evaluation, prompt-faithfulness`
 - [Draft-Evaluate-Diffuse pipeline](concepts/draft-evaluate-diffuse-pipeline.md) — UniReasoner's three-stage approach: LLM samples discrete vision tokens, self-critiques, diffusion conditions on (p,d,e) — `llm, diffusion, vision-tokens, self-critique`
 - [LLM as image-generation conditioning (encoder vs reasoner)](concepts/llm-as-image-conditioning.md) — four roles for LMs in T2I: frozen encoder → stronger encoder → front-end rewriter → universal reasoner — `llm, diffusion, conditioning, t2i-architecture`

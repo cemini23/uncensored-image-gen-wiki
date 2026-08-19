@@ -6,6 +6,8 @@ keywords: [LatentSync, LatentSync-1.6, ByteDance, audio-conditioned latent diffu
 related:
   - concepts/persona-audio-stack.md
   - entities/lipsync/anytalk.md
+  - entities/lipsync/dynaforcing.md
+  - sources/arxiv-2608-17707-dynaforcing.md
   - entities/lipsync/musetalk.md
   - entities/lipsync/wav2lip.md
   - entities/lipsync/sadtalker.md
@@ -49,7 +51,7 @@ updated: 2026-08-18
 ## Relations
 
 @concepts/persona-audio-stack.md @entities/models/echocache.md @sources/arxiv-2608-02474-echocache.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md
-@entities/lipsync/anytalk.md
+@entities/lipsync/anytalk.md @entities/lipsync/dynaforcing.md @sources/arxiv-2608-17707-dynaforcing.md
 @entities/lipsync/musetalk.md
 @entities/lipsync/wav2lip.md
 @entities/lipsync/sadtalker.md
