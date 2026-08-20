@@ -61,6 +61,18 @@ related:
   - sources/arxiv-2608-18063-editbridge.md
   - sources/arxiv-2608-18076-capability-centric-image-data.md
   - sources/arxiv-2608-18077-hydra-0-routed.md
+  - sources/arxiv-2608-17926-perfact-mri-skip.md
+  - sources/arxiv-2608-18484-sparsepr.md
+  - sources/arxiv-2608-18607-va-judger.md
+  - sources/arxiv-2608-18661-x2streaming-tts.md
+  - sources/arxiv-2608-18689-aslema-nadi-skip.md
+  - sources/arxiv-2608-18710-camworldqa.md
+  - sources/arxiv-2608-18832-efficientsync.md
+  - sources/arxiv-2608-19059-lt-mem-skip.md
+  - sources/arxiv-2608-19116-janus-materials-skip.md
+  - sources/arxiv-2608-19119-mdtim-time-series-skip.md
+  - sources/arxiv-2608-19193-fourier-inverse-source-skip.md
+  - entities/tools/watermarks-remover.md
   - sources/ente-photos-routed.md
   - sweeps/2026-06-01-daily.md
   - sweeps/2026-06-01-inbox-triage.md
@@ -125,6 +137,7 @@ related:
   - sweeps/2026-08-17-daily.md
   - sweeps/2026-08-18-daily.md
   - sweeps/2026-08-19-daily.md
+  - sweeps/2026-08-20-daily.md
   - sweeps/_daily-template.md
 title: Federated daily research digest
 type: concept
@@ -132,7 +145,7 @@ tags: [meta, automation, federation, discovery, k93]
 keywords: [daily-research-digest, exa, inbox, sweep, federated, launchagent, discovery-loop]
 maturity: validated
 created: 2026-06-01
-updated: 2026-08-18
+updated: 2026-08-20
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

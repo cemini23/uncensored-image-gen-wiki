@@ -1,3 +1,30 @@
+## [2026-08-20] ingest | SparsePR · VA-Judger · X2Streaming-TTS · EfficientSync · CamWorldQA (+ 6 SKIP)
+
+Full inbox ingest of 11 arXiv PDFs (8 planned + 3 overnight). All 11 archived to egress-fi `image-gen/`; inbox empty of this batch. Lint 0 hard errors. k242 watermarks-remover closed into a wiki entity (Extract / `wont_wire`; OSINT shelf, not re-cloned).
+
+### WATCH / GO
+- **NEW** `@sources/arxiv-2608-18484-sparsepr.md` + **NEW** `@entities/models/sparsepr.md` — Texas A&M training-free sparse attn (Response-Coupled Partitioning + Probe-Fitted Residual Reconstruction). **WATCH HIGH / GO code**: `PardisTaghavi/SparsePR` Apache-2.0 cloned `.local/adopts/SparsePR` (~7.0 MB). HF weights not fetched. Linux/H100 `deferred`. No Image-gen Phase-1.
+- **NEW** `@sources/arxiv-2608-18607-va-judger.md` + **NEW** `@entities/benchmarks/va-judger.md` — first joint AV reward model; VAPref-10K; LTX-2 RL. **WATCH**. `ShareLab-SII/VA-Judger` **not cloned** (null SPDX / no LICENSE).
+- **NEW** `@sources/arxiv-2608-18661-x2streaming-tts.md` + **NEW** `@entities/voice-models/x2streaming-tts.md` — true token-level causal TTS (commitment + speech-state inheritance). **WATCH**. Cited GitHub **404**. Fish-Speech stays Layer-1.
+- **NEW** `@sources/arxiv-2608-18710-camworldqa.md` + **NEW** `@entities/benchmarks/camworldqa.md` — camera-controlled world video MOS bench (720 clips / 6 trajectories). **WATCH**. Paper-only.
+- **NEW** `@sources/arxiv-2608-18832-efficientsync.md` + **NEW** `@entities/lipsync/efficientsync.md` — deformation reference-texture mixing; 166 FPS. **WATCH HIGH**. Project page only. LatentSync stays batch 2D; PersonaLive stays live-portrait candidate.
+
+### SKIP
+- **SKIP medical** `@sources/arxiv-2608-17926-perfact-mri-skip.md` — 3D brain MRI report facts (`wont_wire`).
+- **SKIP NLP** `@sources/arxiv-2608-18689-aslema-nadi-skip.md` — NADI 2026 Tunisian Derja SLU (`wont_wire`; no sibling ROUTE).
+- **SKIP robotics** `@sources/arxiv-2608-19059-lt-mem-skip.md` — DGIST LT-Mem lifelong scene-understanding Tri-Memory (embodied AI, `wont_wire`).
+- **SKIP sci-ML** `@sources/arxiv-2608-19116-janus-materials-skip.md` — Microsoft/MIT disordered-materials sampler. **Not** Janus-Pro VLM.
+- **SKIP sci-ML** `@sources/arxiv-2608-19119-mdtim-time-series-skip.md` — SNU MDTIM masked-diffusion tabular imputation (`wont_wire`).
+- **SKIP math** `@sources/arxiv-2608-19193-fourier-inverse-source-skip.md` — localized Fourier extension inverse-source reconstruction (`wont_wire`).
+
+### Carry / Phase-0
+- **NEW** `@entities/tools/watermarks-remover.md` — k242 MIT Extract; OSINT `.local/adopts/watermarks-remover` (~1.8 MB). Image-gen `wont_wire`. Awareness only — no C2PA evasion recipes. Not re-cloned here.
+- Image-gen local wire: **none**. On-domain `wire_status: deferred`; SKIP + watermarks `wont_wire`.
+- Local clone: SparsePR code only. No VA-Judger. No HF weights. No watermarks-remover in this repo.
+
+### Archive
+- All 11 PDFs → egress-fi `image-gen/`; local inbox empty of this batch.
+
 ## [2026-08-19] ingest | FireRedTTS3 · DynaForcing · LinCa · MDD · OYS · EditBridge (+ Hydra-0 ROUTE)
 
 Full inbox ingest of 8 NEW arXiv PDFs (preingest 8 NEW / 0 LIKELY / 0 DUP). All 8 archived to egress-fi `image-gen/`; inbox empty of this batch. Lint 0 hard errors.

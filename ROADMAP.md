@@ -65,6 +65,7 @@ Per-item verdicts:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-08-20 | Inbox ingest SparsePR · VA-Judger · X2Streaming-TTS · EfficientSync · CamWorldQA | 11 PDFs (8 planned + 3 overnight); SparsePR Apache-2.0 code cloned (7.0 MB, no weights); VA-Judger not cloned (null SPDX); 6 SKIP (PerFact medical / Aslema NLP / LT-Mem robotics / JANUS materials / MDTIM time-series / Fourier math — JANUS not Janus-Pro); k242 watermarks entity `wont_wire`; no Image-gen Phase-1 wire. |
 | 2026-08-19 | Inbox ingest FireRedTTS3 · DynaForcing · LinCa · MDD · OYS · EditBridge | 8 NEW PDFs; FireRedTTS3 Apache-2.0 code cloned (1.5 MB, no weights); LinCa not cloned (null SPDX); Hydra-0 → game-dev; no Image-gen Phase-1 wire. |
 | 2026-08-17 | Inbox ingest VoiceChat-TTS · ForgeWM · BiVidGen · CRAFT | 8 NEW PDFs; ForgeWM Apache-2.0 code cloned (182 MB); no Image-gen Phase-1 wire; RA-Bench → cybersec, gameplay VLM → game-dev; 2 SKIP. |
 | 2026-08-18 | Inbox ingest ISL TTS · AnyTalk · SQuad · PersonaShot | 8 NEW PDFs; no clone (GH search negative); no Image-gen Phase-1 wire; TransAnyText → SEO, AnyTalk → game-dev briefs; 3 SKIP (sci-ML / math / e-commerce). |

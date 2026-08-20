@@ -8,6 +8,8 @@ related:
   - concepts/dit-template-token-semantic-registers.md
   - concepts/ditango-parallel-diffusion-attention.md
   - concepts/input-stable-sparse-attention-video.md
+  - entities/models/sparsepr.md
+  - sources/arxiv-2608-18484-sparsepr.md
   - entities/models/squad.md
   - sources/arxiv-2608-16585-squad-attention-distillation.md
   - concepts/magnitude-direction-decoupling.md
@@ -59,7 +61,7 @@ related:
   - sources/arxiv-2608-12276-xyzflow.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-08-18
+updated: 2026-08-20
 ---
 
 ## Relations

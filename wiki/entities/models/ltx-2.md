@@ -22,6 +22,8 @@ related:
   - concepts/video-generation-physical-executability.md
   - sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md
   - concepts/multi-shot-audio-video-evaluation.md
+  - entities/benchmarks/va-judger.md
+  - sources/arxiv-2608-18607-va-judger.md
   - entities/models/seedance-2.md
   - concepts/sync-audio-video-customization.md
   - sources/arxiv-2606-08260-tide-unified-video-editing.md
@@ -58,7 +60,7 @@ tags: [model, video, asymmetric-av, audio-visual, ltx, lightricks, joint-foundat
 keywords: [ltx-2, ltx-video, lightricks, asymmetric-av, audio-visual, 19b, 14b-visual, 5b-audio, bidirectional-cross-attention, 4k, 50fps, foley, modality-specific-vae, ltx-2-community-license]
 maturity: draft
 created: 2026-05-07
-updated: 2026-08-14
+updated: 2026-08-20
 ---
 
 ## Relations

@@ -23,9 +23,10 @@ related:
   - concepts/generative-ai-era-deepfake-landscape.md
   - sources/arxiv-2607-15694-voice-clone-attribution-geometry-floor.md
   - sweeps/2026-07-20-daily.md
+  - entities/tools/watermarks-remover.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-07-20
+updated: 2026-08-20
 ---
 
 ## Relations

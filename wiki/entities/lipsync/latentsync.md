@@ -8,6 +8,8 @@ related:
   - entities/lipsync/anytalk.md
   - entities/lipsync/dynaforcing.md
   - sources/arxiv-2608-17707-dynaforcing.md
+  - entities/lipsync/efficientsync.md
+  - sources/arxiv-2608-18832-efficientsync.md
   - entities/lipsync/musetalk.md
   - entities/lipsync/wav2lip.md
   - entities/lipsync/sadtalker.md
@@ -45,7 +47,7 @@ related:
   - sources/arxiv-2608-16143-anytalk.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-08-18
+updated: 2026-08-20
 ---
 
 ## Relations

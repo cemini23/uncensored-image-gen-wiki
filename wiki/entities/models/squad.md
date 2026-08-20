@@ -7,6 +7,8 @@ related:
   - sources/arxiv-2608-16585-squad-attention-distillation.md
   - entities/models/wan-2-2.md
   - entities/models/token-radius-attention.md
+  - entities/models/sparsepr.md
+  - sources/arxiv-2608-18484-sparsepr.md
   - entities/models/spade.md
   - concepts/budget-aware-diffusion-caching.md
   - concepts/magnitude-direction-decoupling.md
@@ -15,7 +17,7 @@ related:
   - sweeps/2026-08-18-daily.md
 maturity: draft
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-20
 wire_status: deferred
 phase0_verdict: WATCH
 ---

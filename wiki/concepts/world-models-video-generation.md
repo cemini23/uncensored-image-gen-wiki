@@ -26,6 +26,7 @@ related:
   - concepts/ucm-time-aware-pe-warping-world-models.md
   - concepts/video-generation-physical-executability.md
   - concepts/vlm-guided-physical-video-generation.md
+  - entities/benchmarks/camworldqa.md
   - entities/benchmarks/worldexam.md
   - entities/models/bwm.md
   - entities/models/car.md
@@ -81,6 +82,7 @@ related:
   - sources/arxiv-2607-15254-tellme-why-urban-driving-causal.md
   - sources/arxiv-2607-15278-hierarchical-denoising-visual-reasoning.md
   - sources/arxiv-2608-14022-forgewm.md
+  - sources/arxiv-2608-18710-camworldqa.md
   - sources/arxiv-2607-15849-tango-test-time-noise-guided-ar-video.md
   - sources/arxiv-2607-18789-moving-alphabet-t2v-data.md
   - sources/arxiv-2607-18924-phyparam-physical-video.md
@@ -122,7 +124,7 @@ related:
   - sources/arxiv-2608-11013-wsv-video-captioning.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-17
+updated: 2026-08-20
 ---
 ## Relations
 

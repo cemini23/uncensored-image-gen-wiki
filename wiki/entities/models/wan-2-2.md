@@ -100,6 +100,7 @@ related:
   - entities/models/seedance-2.md
   - entities/models/self-gradient-forcing.md
   - entities/models/spade.md
+  - entities/models/sparsepr.md
   - entities/models/squad.md
   - entities/models/steervte.md
   - entities/models/surg-uniworld.md
@@ -232,6 +233,7 @@ related:
   - sources/arxiv-2608-16513-mllm-semantic-correction-t2v.md
   - sources/arxiv-2608-16585-squad-attention-distillation.md
   - sources/arxiv-2608-16717-personashot.md
+  - sources/arxiv-2608-18484-sparsepr.md
   - sweeps/2026-08-18-daily.md
 title: Wan 2.2 (Alibaba)
 type: entity
@@ -239,7 +241,7 @@ tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncens
 keywords: [wan2.2, wan-2-2, alibaba, mixture-of-experts, dual-expert, snr-routing, 27b, 14b, 5b, ti2v, apache-2.0, abliterated-text-encoder, mq-lab, blink, theyurilover]
 maturity: draft
 created: 2026-05-07
-updated: 2026-08-18
+updated: 2026-08-20
 ---
 ## Relations
 

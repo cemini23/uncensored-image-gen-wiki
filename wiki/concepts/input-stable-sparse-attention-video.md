@@ -22,9 +22,11 @@ related:
   - entities/inference/chitu-diffusion.md
   - sweeps/2026-07-20-daily.md
   - sources/arxiv-2607-15650-ditango-chitudiffusion.md
+  - entities/models/sparsepr.md
+  - sources/arxiv-2608-18484-sparsepr.md
 maturity: draft
 created: 2026-07-01
-updated: 2026-07-20
+updated: 2026-08-20
 ---
 
 ## Relations

@@ -7,6 +7,8 @@ related:
   - concepts/persona-audio-stack.md
   - entities/voice-models/fireredtts3.md
   - sources/arxiv-2608-17492-fireredtts3.md
+  - entities/voice-models/x2streaming-tts.md
+  - sources/arxiv-2608-18661-x2streaming-tts.md
   - entities/persona-ops/fish-speech.md
   - entities/voice-models/cosyvoice2.md
   - sources/persona-ops-stack-2026.md
@@ -23,7 +25,7 @@ related:
   - sources/arxiv-2607-23938-qwen-audio-3-0-tts.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-07-28
+updated: 2026-08-20
 ---
 
 ## Relations

@@ -334,6 +334,17 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [EditBridge UHR editing (arXiv:2608.18063)](sources/arxiv-2608-18063-editbridge.md) — LR-edit→HR diffusion bridge; project page only — `paper, image-editing, qwen`
 - [Capability-centric T2I data (arXiv:2608.18076)](sources/arxiv-2608-18076-capability-centric-image-data.md) — three engines + curriculum; WATCH data-ops — `paper, dataset, curriculum, t2i`
 - [Hydra-0 robot world model (arXiv:2608.18077)](sources/arxiv-2608-18077-hydra-0-routed.md) — action flow as pixel motion; SKIP gen / ROUTE game-dev — `paper, skip, routed, robotics`
+- [PerFact 3D brain MRI reports (arXiv:2608.17926)](sources/arxiv-2608-17926-perfact-mri-skip.md) — perception-derived fact prompting; SKIP medical — `paper, skip, medical`
+- [SparsePR (arXiv:2608.18484)](sources/arxiv-2608-18484-sparsepr.md) — training-free sparse attn (partition + residual); Apache-2.0 code cloned — `paper, video, sparse-attention, watch`
+- [VA-Judger (arXiv:2608.18607)](sources/arxiv-2608-18607-va-judger.md) — first joint AV reward model; LTX-2 RL; no SPDX clone — `paper, audio-video, reward-model, watch`
+- [X2Streaming-TTS (arXiv:2608.18661)](sources/arxiv-2608-18661-x2streaming-tts.md) — true token-level causal TTS; repo 404 — `paper, tts, streaming, watch`
+- [Aslema NADI 2026 Derja SLU (arXiv:2608.18689)](sources/arxiv-2608-18689-aslema-nadi-skip.md) — Tunisian dialect SLU shared-task; SKIP NLP — `paper, skip, nlp`
+- [CamWorldQA (arXiv:2608.18710)](sources/arxiv-2608-18710-camworldqa.md) — camera-controlled world video MOS bench; WATCH — `paper, benchmark, world-model, camera-control`
+- [EfficientSync (arXiv:2608.18832)](sources/arxiv-2608-18832-efficientsync.md) — deformation reference-texture lipsync; 166 FPS; project page only — `paper, lipsync, real-time, watch`
+- [LT-Mem scene memory (arXiv:2608.19059)](sources/arxiv-2608-19059-lt-mem-skip.md) — volatility-aware Tri-Memory for robot scene understanding; SKIP robotics — `paper, skip, robotics, memory`
+- [JANUS materials sampler (arXiv:2608.19116)](sources/arxiv-2608-19116-janus-materials-skip.md) — disordered-materials neural sampler; SKIP sci-ML; not Janus-Pro — `paper, skip, scientific-ml, materials`
+- [MDTIM time-series imputation (arXiv:2608.19119)](sources/arxiv-2608-19119-mdtim-time-series-skip.md) — masked-diffusion tabular imputation; SKIP sci-ML — `paper, skip, time-series, diffusion`
+- [Localized Fourier inverse source (arXiv:2608.19193)](sources/arxiv-2608-19193-fourier-inverse-source-skip.md) — piecewise-smooth Poisson source reconstruction; SKIP math — `paper, skip, math, inverse-problems`
 
 - [NL→LTL requirements LLM — routed (arXiv:2608.06287)](sources/arxiv-2608-06287-nl-to-ltl-routed.md) — formal methods; ROUTE cybersec — `paper, routed, formal-methods`
 - [GB/T-Bench national-standard review (arXiv:2608.06312)](sources/arxiv-2608-06312-gbt-bench-skip.md) — document-review peripheral SKIP — `paper, llm, peripheral`
@@ -362,6 +373,10 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 ### Inference / serving
 
 - [ChituDiffusion (thu-pacman)](entities/inference/chitu-diffusion.md) — MIT DiT parallel + FlexCache + DiTango; CUDA multi-GPU; CONDITIONAL-GO code — `inference, dit, parallel, mit, flux, wan`
+
+### Tools
+
+- [watermarks-remover (k242 Extract)](entities/tools/watermarks-remover.md) — MIT provenance/metadata hygiene awareness; OSINT shelf only; Image-gen `wont_wire` — `tool, provenance, extract, wont-wire`
 
 ### Models
 
@@ -531,6 +546,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Phoenix TTS (Didi flow-matching speech tokenization)](entities/voice-models/phoenix-tts.md) — tokenizer+FM joint training; zero-shot TTS+VC; WATCH (no code) — `voice-cloning, tts, flow-matching, watch`
 - [VoiceChat-TTS (NVIDIA streamable TTS)](entities/voice-models/voicechat-tts.md) — LLM token stream + barge-in, no KV reset; WATCH (518 MB NeMo + OpenMDW 11B) — `voice-cloning, tts, streaming, nvidia, watch`
 - [FireRedTTS3 (Xiaohongshu continuous AR + Instruct edit)](entities/voice-models/fireredtts3.md) — 24 langs / 21 ZH dialects; Apache-2.0 code cloned 1.5 MB; research-disclaimer cloning; weights not fetched — `voice-cloning, tts, speech-editing, watch`
+- [X2Streaming-TTS (causal token-level streaming)](entities/voice-models/x2streaming-tts.md) — commitment + speech-state inheritance; Qwen3-TTS backbone; repo 404 — `voice-cloning, tts, streaming, watch`
 - [FastThaiG2P (AWS Thai G2P phonemizer)](entities/voice-models/fastthaig2p.md) — sub-ms IPA/Kokoro phonemization; Apache-2.0 13 MB; CONDITIONAL (Thai persona) — `tts, g2p, thai, voice, apache-2-0`
 - [Nemotron-Labs-Audex (NVIDIA unified audio-text LLM)](entities/voice-models/nemotron-audex.md) — unified TTS/ASR/TTA/speech-to-speech MoE; Phase-0 REFERENCE (NVIDIA noncommercial license) — `voice-cloning, tts, nvidia, audex, unified-llm, moe`
 - [speech-swift (Soniqo Apple Silicon speech toolkit)](entities/voice-models/speech-swift.md) — MLX/CoreML ASR+TTS; CosyVoice/Qwen3-TTS/Fish S2; Phase-0 WATCH — `voice-cloning, tts, apple-silicon, mlx, apache-2.0`
@@ -542,6 +558,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Agentic I2V adherence (Google — agentic self-improvement for I2V)](entities/models/agentic-i2v.md) — mLLM prompt opt + Bayesian seed/CFG search; WATCH (no code) — `model, i2v, agentic, prompt-optimization`
 - [ForgeWM (few-step causal action-conditioned WM)](entities/models/forgewm.md) — Wan2.1-1.3B / Matrix-Game 2; 1/2/4-step students; Apache-2.0 code cloned — `model, world-model, video, distillation, watch`
 - [SQuad (Wan 2.2 5B sub-quadratic attention distill)](entities/models/squad.md) — O(n√n) + DMD2; VBench 83.08→83.20; 100→6 NFE; WATCH (no code) — `model, video, wan, attention, distillation, watch`
+- [SparsePR (training-free sparse attention)](entities/models/sparsepr.md) — partition support + residual reconstruct; Apache-2.0 cloned 7.0 MB; H100/Linux deferred — `model, video, sparse-attention, apache-2-0, watch`
 - [LinCa (learnable decomposed feature caching)](entities/models/linca.md) — invertible cache; 5–7× claimed on FLUX/Qwen-Image/Hunyuan; GH stub no SPDX — `model, caching, diffusion, watch`
 - [EditBridge (UHR diffusion-bridge image editor)](entities/models/editbridge.md) — LR-edit→HR conditioned on original HR; project page only — `model, image-editing, qwen, watch`
 - [ZipL-Dialog (latent flow-matching dialog TTS)](entities/voice-models/zipl-dialog.md) — multi-minute multi-speaker; WATCH — `voice-cloning, tts, dialog`
@@ -571,6 +588,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [LivePortrait (Kuaishou KwaiVGI — premium single-image portrait animation)](entities/lipsync/liveportrait.md) — ECCV 2024 implicit-keypoint portrait animation; stitching module + eye/mouth retargeting + cross-identity transfer; MIT (verify) ; 512×512 output; premium-quality sibling to SadTalker for single-image animation when sharper visual fidelity matters — `lipsync, portrait-animation, single-image, liveportrait, kuaishou, kwaivgi, stitching-retargeting, premium-quality, implicit-keypoint`
 - [AnyTalk (KAIST 3D blendshape speech animation)](entities/lipsync/anytalk.md) — video-diffusion CsF + blendshape uplift; no character anim data; AnyTalkRT 110 FPS reported; WATCH (project page only) — `lipsync, 3d, blendshape, video-diffusion, watch`
 - [DynaForcing (streaming avatar Self-Forcing fix)](entities/lipsync/dynaforcing.md) — restores visemes after distillation collapse; 45.2 FPS claimed; WATCH HIGH paper-only — `lipsync, avatar, streaming, self-forcing, watch`
+- [EfficientSync (deformation reference-texture lipsync)](entities/lipsync/efficientsync.md) — Dynamic Texture Mixer; 166 FPS claimed; WATCH HIGH project-page only — `lipsync, real-time, deformation, watch`
 
 ### Music models
 
@@ -764,6 +782,8 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [RefCaptioner / MRVBench](entities/benchmarks/refcaptioner.md) — multi-ref grounded video captions; code cloned ~6 MB — `benchmark, video-captioning, apache-2-0`
 - [WorldExam](entities/benchmarks/worldexam.md) — appearance vs inherent reactivity; WATCH — `benchmark, world-model, watch`
 - [MMAG](entities/benchmarks/mmag.md) — multi-control mixed speech/music/SFX generation bench; WATCH — `benchmark, audio, mixed-audio, watch`
+- [VA-Judger](entities/benchmarks/va-judger.md) — joint AV human-preference RM + VAPref-10K; LTX-2 RL; no SPDX — `benchmark, audio-video, reward-model, watch`
+- [CamWorldQA](entities/benchmarks/camworldqa.md) — camera-controlled world video MOS (720 clips / 6 trajectories); WATCH — `benchmark, world-model, camera-control, watch`
 
 - [Hand-object interaction generation](concepts/hand-object-interaction-generation.md) — HOI under foundation models (survey hub) — `hoi, video-generation, survey`
 - [Hybrid-policy self-distillation for TI2V (HPSD)](concepts/hybrid-policy-self-distillation-video.md) — internalize I2V-mode quality into base T2V; off-policy SFT failure — `distillation, ti2v, self-distillation, capability-internalization`

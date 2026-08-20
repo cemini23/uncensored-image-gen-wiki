@@ -12,6 +12,9 @@ related:
   - concepts/iterative-self-learning-expressive-tts.md
   - entities/voice-models/fireredtts3.md
   - sources/arxiv-2608-17492-fireredtts3.md
+  - sources/arxiv-2608-18607-va-judger.md
+  - sources/arxiv-2608-18661-x2streaming-tts.md
+  - sources/arxiv-2608-18832-efficientsync.md
   - concepts/joint-audio-visual-instruction-editing.md
   - concepts/mllm-video-translation.md
   - concepts/model-selection-workflow.md
@@ -27,9 +30,11 @@ related:
   - concepts/video-reference-avatar-generation.md
   - concepts/waveform-native-flow-matching-tts.md
   - entities/benchmarks/mmag.md
+  - entities/benchmarks/va-judger.md
   - entities/benchmarks/rw-voice-eq-bench.md
   - entities/datasets/dialogs-russian-speech.md
   - entities/lipsync/anytalk.md
+  - entities/lipsync/efficientsync.md
   - entities/lipsync/latentsync.md
   - entities/lipsync/liveportrait.md
   - entities/lipsync/musetalk.md
@@ -85,6 +90,7 @@ related:
   - entities/voice-models/speech-swift.md
   - entities/voice-models/supertonic-embed.md
   - entities/voice-models/voicechat-tts.md
+  - entities/voice-models/x2streaming-tts.md
   - entities/voice-models/x-translator.md
   - entities/voice-models/xtts-v2.md
   - entities/voice-models/zipl-dialog.md
@@ -150,7 +156,7 @@ related:
   - sweeps/2026-07-24-daily.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-08-18
+updated: 2026-08-20
 ---
 ## Relations
 

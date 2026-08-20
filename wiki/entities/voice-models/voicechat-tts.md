@@ -10,9 +10,11 @@ related:
   - entities/persona-ops/fish-speech.md
   - entities/voice-models/chatterbox.md
   - concepts/waveform-native-flow-matching-tts.md
+  - entities/voice-models/x2streaming-tts.md
+  - sources/arxiv-2608-18661-x2streaming-tts.md
 maturity: draft
 created: 2026-08-17
-updated: 2026-08-17
+updated: 2026-08-20
 wire_status: deferred
 phase0_verdict: WATCH
 ---

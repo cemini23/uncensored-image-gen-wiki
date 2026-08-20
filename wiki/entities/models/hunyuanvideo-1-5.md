@@ -27,6 +27,7 @@ related:
   - entities/models/ltx-2.md
   - entities/models/open-sora.md
   - entities/models/spade.md
+  - entities/models/sparsepr.md
   - entities/models/tinyhistory.md
   - entities/models/token-radius-attention.md
   - entities/models/wan-2-2.md
@@ -48,6 +49,7 @@ related:
   - sources/arxiv-2608-02504-token-radius-attention.md
   - sources/arxiv-2608-03335-spade.md
   - sources/arxiv-2608-06732-ps-fnvd-routed.md
+  - sources/arxiv-2608-18484-sparsepr.md
   - sources/arxiv-activation-steering-video-gen-2606.04775-2026-06-05.md
   - sources/arxiv-tagrpo-i2v-grpo-2601-05729.md
   - sources/video-generation-survey-2026.md
@@ -63,7 +65,7 @@ tags: [model, video, dit, hunyuanvideo, tencent, eastern-vanguard, completely-un
 keywords: [hunyuanvideo, hunyuan-1-5, tencent, ssta, selective-sliding-tile-attention, 8.3b, 3d-causal-vae, fp8-gemm, step-distilled, nsfwsks, theyurilover, 480p, 720p, 1080p]
 maturity: draft
 created: 2026-05-07
-updated: 2026-08-17
+updated: 2026-08-20
 ---
 ## Relations
 

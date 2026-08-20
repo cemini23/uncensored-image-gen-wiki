@@ -13,9 +13,11 @@ related:
   - entities/models/spade.md
   - entities/models/squad.md
   - sources/arxiv-2608-16585-squad-attention-distillation.md
+  - entities/models/sparsepr.md
+  - sources/arxiv-2608-18484-sparsepr.md
 maturity: draft
 created: 2026-08-04
-updated: 2026-08-18
+updated: 2026-08-20
 wire_status: deferred
 wire_target: tipdrop-workspace-kit/briefs (David adoption — no Image-gen local wire)
 ---

@@ -14,6 +14,7 @@ related:
   - entities/benchmarks/personashot.md
   - entities/benchmarks/refcaptioner.md
   - entities/benchmarks/vgif-score.md
+  - entities/benchmarks/va-judger.md
   - entities/lipsync/latentsync.md
   - entities/models/av-flamingo.md
   - entities/models/ltx-2.md
@@ -35,9 +36,10 @@ related:
   - entities/sfx-models/voxaudio.md
   - sources/arxiv-2608-12951-voxaudio.md
   - sources/arxiv-2608-16717-personashot.md
+  - sources/arxiv-2608-18607-va-judger.md
 maturity: draft
 created: 2026-06-08
-updated: 2026-08-18
+updated: 2026-08-20
 ---
 ## Relations
 
