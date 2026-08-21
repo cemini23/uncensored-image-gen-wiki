@@ -7,17 +7,20 @@ related:
   - concepts/camera-controlled-video-generation.md
   - concepts/world-models-video-generation.md
   - sources/arxiv-2608-18710-camworldqa.md
+  - entities/benchmarks/vgi-bench.md
+  - sources/arxiv-2608-19583-vgi-bench.md
   - sweeps/2026-08-20-daily.md
+  - sweeps/2026-08-21-daily.md
 maturity: draft
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-08-21
 wire_status: deferred
 phase0_verdict: WATCH
 ---
 
 ## Relations
 
-@sources/arxiv-2608-18710-camworldqa.md @concepts/camera-controlled-video-generation.md @concepts/world-models-video-generation.md @sweeps/2026-08-20-daily.md
+@sources/arxiv-2608-18710-camworldqa.md @concepts/camera-controlled-video-generation.md @concepts/world-models-video-generation.md @entities/benchmarks/vgi-bench.md @sources/arxiv-2608-19583-vgi-bench.md @sweeps/2026-08-20-daily.md @sweeps/2026-08-21-daily.md
 
 ## Raw Concept
 

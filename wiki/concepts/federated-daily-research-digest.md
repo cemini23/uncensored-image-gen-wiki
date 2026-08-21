@@ -64,6 +64,7 @@ related:
   - sources/arxiv-2608-17926-perfact-mri-skip.md
   - sources/arxiv-2608-18484-sparsepr.md
   - sources/arxiv-2608-18607-va-judger.md
+  - sources/arxiv-2608-18628-safety-overrides-vision.md
   - sources/arxiv-2608-18661-x2streaming-tts.md
   - sources/arxiv-2608-18689-aslema-nadi-skip.md
   - sources/arxiv-2608-18710-camworldqa.md
@@ -72,6 +73,14 @@ related:
   - sources/arxiv-2608-19116-janus-materials-skip.md
   - sources/arxiv-2608-19119-mdtim-time-series-skip.md
   - sources/arxiv-2608-19193-fourier-inverse-source-skip.md
+  - sources/arxiv-2608-19556-stream4d.md
+  - sources/arxiv-2608-19583-vgi-bench.md
+  - sources/arxiv-2608-20129-av-orchestration-skip.md
+  - sources/arxiv-2608-20204-contractscrub-skip.md
+  - sources/arxiv-2608-20212-unwarping-lens.md
+  - sources/arxiv-2608-20290-phantom-gains-routed.md
+  - sources/arxiv-2608-20324-hydrodynamic-frames-skip.md
+  - sources/arxiv-2608-20338-conceptguard-skip.md
   - entities/tools/watermarks-remover.md
   - sources/ente-photos-routed.md
   - sweeps/2026-06-01-daily.md
@@ -138,6 +147,7 @@ related:
   - sweeps/2026-08-18-daily.md
   - sweeps/2026-08-19-daily.md
   - sweeps/2026-08-20-daily.md
+  - sweeps/2026-08-21-daily.md
   - sweeps/_daily-template.md
 title: Federated daily research digest
 type: concept
@@ -145,7 +155,7 @@ tags: [meta, automation, federation, discovery, k93]
 keywords: [daily-research-digest, exa, inbox, sweep, federated, launchagent, discovery-loop]
 maturity: validated
 created: 2026-06-01
-updated: 2026-08-20
+updated: 2026-08-21
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

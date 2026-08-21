@@ -30,6 +30,7 @@ related:
   - entities/models/flux-2-klein.md
   - entities/models/homie.md
   - entities/models/hunyuanvideo-1-5.md
+  - entities/models/jfsnet-unwarping-lens.md
   - entities/models/memento.md
   - entities/models/omnicustom.md
   - entities/models/omnitryon.md
@@ -61,6 +62,7 @@ related:
   - sources/arxiv-2607-21434-adaptive-identity-anchoring.md
   - sources/arxiv-2608-16143-anytalk.md
   - sources/arxiv-2608-16717-personashot.md
+  - sources/arxiv-2608-20212-unwarping-lens.md
   - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
   - sources/arxiv-tagrpo-i2v-grpo-2601-05729.md
   - sources/headsup-3d-gaussian-head.md
@@ -78,7 +80,7 @@ tags: [persona-consistency, i2v, identity-inheritance, video-workflow, clip-visi
 keywords: [i2v, image-to-video, identity-inheritance, master-image, clip-vision-encoder, raw-pixel-initialization, pulid-anchor, airt-machine, seedance, kling, wan, hunyuan, persona-consistency]
 maturity: draft
 created: 2026-05-07
-updated: 2026-08-18
+updated: 2026-08-21
 ---
 
 

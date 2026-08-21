@@ -17,13 +17,15 @@ related:
   - concepts/video-text-editing-glyph-control.md
   - sources/arxiv-2606-22370-error-free-long-video-generation.md
   - sources/arxiv-2606-23254-steervte-video-text-editing.md
+  - entities/benchmarks/vgi-bench.md
+  - sources/arxiv-2608-19583-vgi-bench.md
 title: Seedance 2.0 (ByteDance)
 type: entity
 tags: [model, video, av-joint, seedance, bytedance, multi-input-i2v, closed, benchmark-only]
 keywords: [seedance, seedance-2-0, bytedance, pixeldance, multi-input, 9-images, 3-video-clips, 3-audio-tracks, i2v-consistency, multi-subject-interactions, openrouter]
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-24
+updated: 2026-08-21
 ---
 
 ## Relations

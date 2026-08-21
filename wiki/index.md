@@ -345,6 +345,15 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [JANUS materials sampler (arXiv:2608.19116)](sources/arxiv-2608-19116-janus-materials-skip.md) — disordered-materials neural sampler; SKIP sci-ML; not Janus-Pro — `paper, skip, scientific-ml, materials`
 - [MDTIM time-series imputation (arXiv:2608.19119)](sources/arxiv-2608-19119-mdtim-time-series-skip.md) — masked-diffusion tabular imputation; SKIP sci-ML — `paper, skip, time-series, diffusion`
 - [Localized Fourier inverse source (arXiv:2608.19193)](sources/arxiv-2608-19193-fourier-inverse-source-skip.md) — piecewise-smooth Poisson source reconstruction; SKIP math — `paper, skip, math, inverse-problems`
+- [Stream4D (arXiv:2608.19556)](sources/arxiv-2608-19556-stream4d.md) — 4D-consistency reward for streaming AR video; project page only — `paper, video, streaming, watch`
+- [VGI-BENCH (arXiv:2608.19583)](sources/arxiv-2608-19583-vgi-bench.md) — visual intelligence in video generators; Seedance 2.0 51%; not Seldon VGIBench — `paper, benchmark, video, watch`
+- [Safety overrides vision (arXiv:2608.18628)](sources/arxiv-2608-18628-safety-overrides-vision.md) — k244 VLM abstention ≠ non-perception; REFERENCE — `paper, vlm, safety, k244`
+- [AV orchestration CARLA (arXiv:2608.20129)](sources/arxiv-2608-20129-av-orchestration-skip.md) — LLM+PPO+PID driving; SKIP — `paper, skip, driving`
+- [ContractScrub (arXiv:2608.20204)](sources/arxiv-2608-20204-contractscrub-skip.md) — legal contract-review bench; SKIP; CC-BY-NC-SA — `paper, skip, legal`
+- [Unwarping the Lens (arXiv:2608.20212)](sources/arxiv-2608-20212-unwarping-lens.md) — physics-grounded video glasses removal (JFSnet); no public code — `paper, video, glasses-removal, watch`
+- [Phantom Gains (arXiv:2608.20290)](sources/arxiv-2608-20290-phantom-gains-routed.md) — self-improvement audit vs measured null; ROUTE CCC; Apache-2.0 not cloned here — `paper, skip, routed, eval`
+- [Hydrodynamic frames (arXiv:2608.20324)](sources/arxiv-2608-20324-hydrodynamic-frames-skip.md) — relativistic fluid transport; SKIP physics — `paper, skip, physics`
+- [ConceptGuard (arXiv:2608.20338)](sources/arxiv-2608-20338-conceptguard-skip.md) — dual-use LLM unlearning; SKIP — `paper, skip, llm, unlearning`
 
 - [NL→LTL requirements LLM — routed (arXiv:2608.06287)](sources/arxiv-2608-06287-nl-to-ltl-routed.md) — formal methods; ROUTE cybersec — `paper, routed, formal-methods`
 - [GB/T-Bench national-standard review (arXiv:2608.06312)](sources/arxiv-2608-06312-gbt-bench-skip.md) — document-review peripheral SKIP — `paper, llm, peripheral`
@@ -559,6 +568,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [ForgeWM (few-step causal action-conditioned WM)](entities/models/forgewm.md) — Wan2.1-1.3B / Matrix-Game 2; 1/2/4-step students; Apache-2.0 code cloned — `model, world-model, video, distillation, watch`
 - [SQuad (Wan 2.2 5B sub-quadratic attention distill)](entities/models/squad.md) — O(n√n) + DMD2; VBench 83.08→83.20; 100→6 NFE; WATCH (no code) — `model, video, wan, attention, distillation, watch`
 - [SparsePR (training-free sparse attention)](entities/models/sparsepr.md) — partition support + residual reconstruct; Apache-2.0 cloned 7.0 MB; H100/Linux deferred — `model, video, sparse-attention, apache-2-0, watch`
+- [Stream4D (4D-consistency streaming AR video)](entities/models/stream4d.md) — 4D reconstruction reward + motion prior; project page only — `model, video, streaming, watch`
+- [JFSnet / Unwarping the Lens (video glasses removal)](entities/models/jfsnet-unwarping-lens.md) — physics-grounded glasses-off; identity-preserving; no public code — `model, video, glasses-removal, watch`
 - [LinCa (learnable decomposed feature caching)](entities/models/linca.md) — invertible cache; 5–7× claimed on FLUX/Qwen-Image/Hunyuan; GH stub no SPDX — `model, caching, diffusion, watch`
 - [EditBridge (UHR diffusion-bridge image editor)](entities/models/editbridge.md) — LR-edit→HR conditioned on original HR; project page only — `model, image-editing, qwen, watch`
 - [ZipL-Dialog (latent flow-matching dialog TTS)](entities/voice-models/zipl-dialog.md) — multi-minute multi-speaker; WATCH — `voice-cloning, tts, dialog`
@@ -711,6 +722,7 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [FourTune W4A4G4 diffusion LoRA training](concepts/fourtune-w4a4g4-diffusion-lora-training.md) — native 4-bit LoRA post-training watch for FLUX/Qwen persona trains — `lora-training, quantization, flux`
 - [HunyuanVideo-HOMA weak HOI video](concepts/hunyuanvideo-homa-weak-hoi-video.md) — persona prop/merch demo clips via weak object trajectory control — `video-generation, hoi, persona-ops`
 - [Retrieval-agent safety degradation](concepts/retrieval-agent-safety-degradation.md) — RAG/web-search collapse of refusal in DM agents — `persona-ops, llm-safety, retrieval`
+- [Agent safety — abstention is not non-perception](concepts/agent-safety-executable-evaluation.md) — k244 VLM refuse-while-seeing; evaluation hygiene — `vlm, safety, k244`
 - [Unified audio-text LLM without text regression](concepts/unified-audio-text-llm-no-text-regression.md) — Audex vs modular Fish+LatentSync stack positioning — `voice, tts, multimodal-llm, persona-ops`
 - [Video generation energy scaling laws](concepts/video-generation-energy-scaling-laws.md) — T2V/T2VA Wh from resolution, duration, steps; planning reference — `compute-economics, video-generation, sustainability`
 - [MobileWan chunk-wise video distillation](concepts/mobile-wan-chunkwise-video-distillation.md) — Wan2.2 recurrence + head-prune mobile stack; WATCH — `video-generation, wan, distillation, mobile`
@@ -784,6 +796,7 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [MMAG](entities/benchmarks/mmag.md) — multi-control mixed speech/music/SFX generation bench; WATCH — `benchmark, audio, mixed-audio, watch`
 - [VA-Judger](entities/benchmarks/va-judger.md) — joint AV human-preference RM + VAPref-10K; LTX-2 RL; no SPDX — `benchmark, audio-video, reward-model, watch`
 - [CamWorldQA](entities/benchmarks/camworldqa.md) — camera-controlled world video MOS (720 clips / 6 trajectories); WATCH — `benchmark, world-model, camera-control, watch`
+- [VGI-BENCH](entities/benchmarks/vgi-bench.md) — visual intelligence in video generators (27 tasks / 810); Seedance 2.0 51%; not Seldon VGIBench — `benchmark, video, visual-reasoning, watch`
 
 - [Hand-object interaction generation](concepts/hand-object-interaction-generation.md) — HOI under foundation models (survey hub) — `hoi, video-generation, survey`
 - [Hybrid-policy self-distillation for TI2V (HPSD)](concepts/hybrid-policy-self-distillation-video.md) — internalize I2V-mode quality into base T2V; off-policy SFT failure — `distillation, ti2v, self-distillation, capability-internalization`

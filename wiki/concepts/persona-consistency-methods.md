@@ -57,6 +57,7 @@ related:
   - entities/models/homie.md
   - entities/models/hunyuanimage-3-0.md
   - entities/models/illustrious-xl.md
+  - entities/models/jfsnet-unwarping-lens.md
   - entities/models/memento.md
   - entities/models/metaworld.md
   - entities/models/noobai-xl.md
@@ -125,13 +126,14 @@ related:
   - sources/arxiv-2608-12290-agentic-i2v.md
   - entities/benchmarks/personashot.md
   - sources/arxiv-2608-16717-personashot.md
+  - sources/arxiv-2608-20212-unwarping-lens.md
 title: Persona consistency methods (umbrella)
 type: concept
 tags: [persona-consistency, methods, taxonomy, identity-injection]
 keywords: [character LoRA, identity adapter, Character DNA, multi-angle dataset, two-pass inpaint, reference plus LoRA stack, face anchor seed]
 maturity: validated
 created: 2026-05-06
-updated: 2026-08-18
+updated: 2026-08-21
 ---
 
 

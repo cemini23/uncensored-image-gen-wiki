@@ -1,4 +1,31 @@
+## [2026-08-21] ingest | Stream4D · VGI-BENCH · Unwarping Lens (+ k244 fill, 5 SKIP/ROUTE)
+
+Full inbox ingest of 8 NEW arXiv PDFs (preingest 8 NEW / 0 LIKELY / 0 DUP) plus k244 brief fill for arXiv:2608.18628. All 8 inbox PDFs archived to egress-fi `image-gen/`; inbox empty of this batch. Lint 0 hard errors. Image-gen Phase-1 local wire: **none**. Local clone: **none**.
+
+### WATCH
+- **NEW** `@sources/arxiv-2608-19556-stream4d.md` + **NEW** `@entities/models/stream4d.md` — UCLA/Tsinghua 4D reconstruction reward + motion prior for streaming AR video (Wan2.1). **WATCH HIGH**. `banyuanhao/Stream4D` is GitHub Pages only — not cloned.
+- **NEW** `@sources/arxiv-2608-19583-vgi-bench.md` + **NEW** `@entities/benchmarks/vgi-bench.md` — 27 tasks / 810 instances; Seedance 2.0 51.0%. **WATCH**. Do **not** clone `Seldon-Foundation/VGIBench` (name collision: different VLM video-QA bench).
+- **NEW** `@sources/arxiv-2608-20212-unwarping-lens.md` + **NEW** `@entities/models/jfsnet-unwarping-lens.md` — Google/CTU physics-grounded video glasses removal (JFSnet). **WATCH HIGH**. No public GitHub. Cloud teacher (Nano Banana) — not a local adopt.
+
+### k244 fill
+- **NEW** `@sources/arxiv-2608-18628-safety-overrides-vision.md` + **NEW** `@concepts/agent-safety-executable-evaluation.md` — Gupta/Chakraborty; VLMs refuse while still seeing. **REFERENCE / `wont_wire`**. Fills dangling related: on the k244 pointer brief.
+
+### ROUTEd / SKIP
+- **ROUTE CCC** `@sources/arxiv-2608-20290-phantom-gains-routed.md` → `briefs/2026-08-21_phantom-gains-from-image-gen.md` — measured-null self-improve audit; `chengxuphd/phantom-gains` Apache-2.0 **not cloned here**.
+- **SKIP driving** `@sources/arxiv-2608-20129-av-orchestration-skip.md` — CARLA LLM+PPO+PID.
+- **SKIP legal** `@sources/arxiv-2608-20204-contractscrub-skip.md` — Thomson Reuters; CC-BY-NC-SA.
+- **SKIP physics** `@sources/arxiv-2608-20324-hydrodynamic-frames-skip.md` — nucl-th transport coefficients.
+- **SKIP LLM** `@sources/arxiv-2608-20338-conceptguard-skip.md` — dual-use unlearning; not T2I de-censor.
+
+### Phase-0 / Phase-1
+- Image-gen local wire: **none**. On-domain `wire_status: deferred`; SKIP/ROUTE/k244 `wont_wire`.
+- Local clone: **none**. Further implementation: CCC may clone Phantom Gains; Image-gen only if glasses-removal or Stream4D code+SPDX ships.
+
+### Archive
+- All 8 inbox PDFs → egress-fi `image-gen/`; local inbox empty of this batch.
+
 ## [2026-08-20] ingest | SparsePR · VA-Judger · X2Streaming-TTS · EfficientSync · CamWorldQA (+ 6 SKIP)
+
 
 Full inbox ingest of 11 arXiv PDFs (8 planned + 3 overnight). All 11 archived to egress-fi `image-gen/`; inbox empty of this batch. Lint 0 hard errors. k242 watermarks-remover closed into a wiki entity (Extract / `wont_wire`; OSINT shelf, not re-cloned).
 

@@ -9,17 +9,20 @@ related:
   - concepts/persona-consistency-methods.md
   - concepts/multi-shot-audio-video-evaluation.md
   - entities/models/wan-2-2.md
+  - entities/benchmarks/vgi-bench.md
+  - sources/arxiv-2608-19583-vgi-bench.md
   - sweeps/2026-08-18-daily.md
+  - sweeps/2026-08-21-daily.md
 maturity: draft
 created: 2026-08-18
-updated: 2026-08-18
+updated: 2026-08-21
 wire_status: deferred
 phase0_verdict: WATCH
 ---
 
 ## Relations
 
-@sources/arxiv-2608-16717-personashot.md @concepts/video-identity-inheritance.md @concepts/persona-consistency-methods.md @concepts/multi-shot-audio-video-evaluation.md @entities/models/wan-2-2.md @sweeps/2026-08-18-daily.md
+@sources/arxiv-2608-16717-personashot.md @concepts/video-identity-inheritance.md @concepts/persona-consistency-methods.md @concepts/multi-shot-audio-video-evaluation.md @entities/models/wan-2-2.md @entities/benchmarks/vgi-bench.md @sources/arxiv-2608-19583-vgi-bench.md @sweeps/2026-08-18-daily.md @sweeps/2026-08-21-daily.md
 
 ## Raw Concept
 

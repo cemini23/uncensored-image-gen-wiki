@@ -11,17 +11,20 @@ related:
   - sources/arxiv-2608-18832-efficientsync.md
   - entities/lipsync/anytalk.md
   - entities/models/self-gradient-forcing.md
+  - entities/models/stream4d.md
+  - sources/arxiv-2608-19556-stream4d.md
   - sweeps/2026-08-19-daily.md
+  - sweeps/2026-08-21-daily.md
 maturity: draft
 created: 2026-08-19
-updated: 2026-08-20
+updated: 2026-08-21
 wire_status: deferred
 phase0_verdict: WATCH
 ---
 
 ## Relations
 
-@sources/arxiv-2608-17707-dynaforcing.md @entities/persona-ops/personalive.md @entities/lipsync/latentsync.md @entities/lipsync/anytalk.md @entities/models/self-gradient-forcing.md @sweeps/2026-08-19-daily.md
+@sources/arxiv-2608-17707-dynaforcing.md @entities/persona-ops/personalive.md @entities/lipsync/latentsync.md @entities/lipsync/anytalk.md @entities/models/self-gradient-forcing.md @entities/models/stream4d.md @sources/arxiv-2608-19556-stream4d.md @sweeps/2026-08-19-daily.md @sweeps/2026-08-21-daily.md
 
 ## Raw Concept
 
