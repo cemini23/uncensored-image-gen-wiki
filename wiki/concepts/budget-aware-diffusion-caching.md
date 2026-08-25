@@ -15,6 +15,8 @@ related:
   - concepts/magnitude-direction-decoupling.md
   - sources/arxiv-2608-17695-magnitude-direction-decoupling.md
   - entities/models/linca.md
+  - entities/models/chebbooster.md
+  - sources/arxiv-2608-23429-chebbooster.md
   - sources/arxiv-2608-17973-linca.md
   - concepts/tuned-diffusion-sampling-oys.md
   - sources/arxiv-2608-18040-oys-tuned-sampling.md
@@ -61,7 +63,7 @@ related:
   - sources/arxiv-2608-12276-xyzflow.md
 maturity: draft
 created: 2026-06-07
-updated: 2026-08-20
+updated: 2026-08-25
 ---
 
 ## Relations

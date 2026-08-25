@@ -127,7 +127,9 @@ related:
   - entities/benchmarks/personashot.md
   - sources/arxiv-2608-16717-personashot.md
   - entities/models/aesr.md
+  - entities/models/next-scale-face-nvs.md
   - sources/arxiv-2608-20749-aesr.md
+  - sources/arxiv-2608-23410-next-scale-face-nvs.md
   - sources/arxiv-2608-20212-unwarping-lens.md
 title: Persona consistency methods (umbrella)
 type: concept

@@ -1,3 +1,21 @@
+## [2026-08-25] ingest | JoyAI-Echo-1.5 · ChebBooster · face NVS · FixAnything (+ 4 SKIP)
+
+Overnight digest (8 NEW / 3 DUP already ingested as AESR-batch leftovers). All 8 archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Clone: **ChebBooster** MIT. JoyAI-Echo **not** cloned (LTX-2 Community License).
+
+### WATCH
+- **NEW** `@sources/arxiv-2608-23383-joyai-echo-15.md` + **NEW** `@entities/models/joyai-echo.md` — JD long-horizon AV + 6-DoF world variant. **WATCH HIGH**. `jd-opensource/JoyAI-Echo` LTX-2 Community License — not cloned.
+- **NEW** `@sources/arxiv-2608-23410-next-scale-face-nvs.md` + **NEW** `@entities/models/next-scale-face-nvs.md` — Meta/EPFL next-scale AR face NVS. **WATCH**. No code.
+- **NEW** `@sources/arxiv-2608-23429-chebbooster.md` + **NEW** `@entities/models/chebbooster.md` — Chebyshev timestep skip. **WATCH HIGH / GO code**. `Kiramei/ChebBooster` MIT cloned `.local/adopts/ChebBooster`. Complements SparsePR / LinCa.
+- **NEW** `@sources/arxiv-2608-23549-fixanything.md` + **NEW** `@entities/models/fixanything.md` — CMU 3D-consistent render refine via video diffusion. **WATCH**. Project page only.
+
+### SKIP
+- **SKIP robotics** `@sources/arxiv-2608-22800-triplet2track-skip.md`
+- **SKIP NLP** `@sources/arxiv-2608-22872-asr-rag-skip.md`
+- **SKIP medical** `@sources/arxiv-2608-23432-oar-radiotherapy-skip.md`
+- **SKIP driving** `@sources/arxiv-2608-23486-geowam-skip.md`
+
+Cap-skipped (not fetched): AudioNoisePrints 2608.22186; Action-Aligned Retrieval 2608.23503; Safety-Direction Penalty 2608.23497; Arabic NLP 2608.23421.
+
 ## [2026-08-25] ingest | AESR · InfinityEdit (+ 6 SKIP/ROUTE)
 
 Full inbox ingest of 8 NEW arXiv PDFs (preingest 8 NEW / 0 LIKELY / 0 DUP). Sweeps 2026-08-22 and 2026-08-23 were empty-inbox days (dup-skip); 2026-08-24 is this batch. All 8 inbox PDFs archived to egress-fi `image-gen/`; inbox empty of this batch. Lint 0 hard errors. Image-gen Phase-1 local wire: **none**. Local clone: **InfinityEdit** Apache-2.0 code only (no Helios-Distilled weights). AESR not cloned (null SPDX).

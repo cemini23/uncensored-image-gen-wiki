@@ -81,7 +81,10 @@ related:
   - entities/models/helloworld.md
   - entities/models/homie.md
   - entities/models/hunyuanvideo-1-5.md
+  - entities/models/chebbooster.md
+  - entities/models/fixanything.md
   - entities/models/infinityedit.md
+  - entities/models/joyai-echo.md
   - entities/models/ltx-2.md
   - entities/models/m4v.md
   - entities/models/meanflownft.md
@@ -238,6 +241,9 @@ related:
   - sources/arxiv-2608-18484-sparsepr.md
   - sources/arxiv-2608-19556-stream4d.md
   - sources/arxiv-2608-20910-infinityedit.md
+  - sources/arxiv-2608-23383-joyai-echo-15.md
+  - sources/arxiv-2608-23429-chebbooster.md
+  - sources/arxiv-2608-23549-fixanything.md
   - sweeps/2026-08-18-daily.md
 title: Wan 2.2 (Alibaba)
 type: entity

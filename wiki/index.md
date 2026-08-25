@@ -362,6 +362,14 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [InfinityEdit (arXiv:2608.20910)](sources/arxiv-2608-20910-infinityedit.md) — streaming unbounded video-edit adapter; Apache-2.0 code cloned — `paper, video, editing, streaming, watch`
 - [BERTopic topic competition (arXiv:2608.20996)](sources/arxiv-2608-20996-bertopic-topic-competition-skip.md) — Weibo + NetLogo; SKIP social science — `paper, skip, social-science`
 - [LLM psychotherapy moves (arXiv:2608.21325)](sources/arxiv-2608-21325-llm-psychotherapy-skip.md) — Sword Health move ontology; SKIP clinical — `paper, skip, clinical`
+- [Triplet2Track (arXiv:2608.22800)](sources/arxiv-2608-22800-triplet2track-skip.md) — robot manipulation VLA; SKIP robotics — `paper, skip, robotics`
+- [Multi-hop RAG ASR (arXiv:2608.22872)](sources/arxiv-2608-22872-asr-rag-skip.md) — richer RAG amplifies ASR errors; SKIP NLP — `paper, skip, nlp, asr`
+- [JoyAI-Echo-1.5 (arXiv:2608.23383)](sources/arxiv-2608-23383-joyai-echo-15.md) — long-horizon AV + 6-DoF world variant; LTX-2 Community License not cloned — `paper, video, audio-visual, watch`
+- [Next-scale face NVS (arXiv:2608.23410)](sources/arxiv-2608-23410-next-scale-face-nvs.md) — Meta/EPFL multi-view face transformers; no code — `paper, face, novel-view, watch`
+- [ChebBooster (arXiv:2608.23429)](sources/arxiv-2608-23429-chebbooster.md) — training-free Chebyshev DiT skip; MIT cloned — `paper, dit, acceleration, mit, watch`
+- [OAR radiotherapy QA (arXiv:2608.23432)](sources/arxiv-2608-23432-oar-radiotherapy-skip.md) — organ-at-risk segmentation QA; SKIP medical — `paper, skip, medical`
+- [GeoWAM (arXiv:2608.23486)](sources/arxiv-2608-23486-geowam-skip.md) — Uber AV geometry world-action; SKIP driving — `paper, skip, driving`
+- [FixAnything (arXiv:2608.23549)](sources/arxiv-2608-23549-fixanything.md) — 3D-consistent render refine via video priors; project page only — `paper, video, 3dgs, watch`
 
 - [NL→LTL requirements LLM — routed (arXiv:2608.06287)](sources/arxiv-2608-06287-nl-to-ltl-routed.md) — formal methods; ROUTE cybersec — `paper, routed, formal-methods`
 - [GB/T-Bench national-standard review (arXiv:2608.06312)](sources/arxiv-2608-06312-gbt-bench-skip.md) — document-review peripheral SKIP — `paper, llm, peripheral`
@@ -579,6 +587,10 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Stream4D (4D-consistency streaming AR video)](entities/models/stream4d.md) — 4D reconstruction reward + motion prior; project page only — `model, video, streaming, watch`
 - [AESR (agentic enhancement + semantic repair ID T2V)](entities/models/aesr.md) — closed-API playbook loop; no SPDX — `model, video, identity, watch`
 - [InfinityEdit (edit-ignition adapter for unbounded streams)](entities/models/infinityedit.md) — Apache-2.0 cloned; Helios weights not fetched — `model, video, editing, streaming, watch`
+- [JoyAI-Echo-1.5 (long-horizon AV)](entities/models/joyai-echo.md) — cross-shot memory + 6-DoF world; LTX-2 Community License not cloned — `model, video, audio-visual, watch`
+- [ChebBooster (Chebyshev DiT extrapolation)](entities/models/chebbooster.md) — MIT cloned ~5 MB; training-free timestep skip — `model, dit, acceleration, mit, watch`
+- [Next-scale face NVS](entities/models/next-scale-face-nvs.md) — Meta/EPFL multi-view face AR; no code — `model, face, novel-view, watch`
+- [FixAnything (3D render refine via video priors)](entities/models/fixanything.md) — 3DGS/NeRF/mesh cleanup; project page only — `model, video, 3dgs, watch`
 - [JFSnet / Unwarping the Lens (video glasses removal)](entities/models/jfsnet-unwarping-lens.md) — physics-grounded glasses-off; identity-preserving; no public code — `model, video, glasses-removal, watch`
 - [LinCa (learnable decomposed feature caching)](entities/models/linca.md) — invertible cache; 5–7× claimed on FLUX/Qwen-Image/Hunyuan; GH stub no SPDX — `model, caching, diffusion, watch`
 - [EditBridge (UHR diffusion-bridge image editor)](entities/models/editbridge.md) — LR-edit→HR conditioned on original HR; project page only — `model, image-editing, qwen, watch`

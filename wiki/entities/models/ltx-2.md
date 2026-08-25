@@ -25,6 +25,8 @@ related:
   - entities/benchmarks/va-judger.md
   - sources/arxiv-2608-18607-va-judger.md
   - entities/models/seedance-2.md
+  - entities/models/joyai-echo.md
+  - sources/arxiv-2608-23383-joyai-echo-15.md
   - concepts/sync-audio-video-customization.md
   - sources/arxiv-2606-08260-tide-unified-video-editing.md
   - entities/models/tide.md
@@ -60,7 +62,7 @@ tags: [model, video, asymmetric-av, audio-visual, ltx, lightricks, joint-foundat
 keywords: [ltx-2, ltx-video, lightricks, asymmetric-av, audio-visual, 19b, 14b-visual, 5b-audio, bidirectional-cross-attention, 4k, 50fps, foley, modality-specific-vae, ltx-2-community-license]
 maturity: draft
 created: 2026-05-07
-updated: 2026-08-20
+updated: 2026-08-25
 ---
 
 ## Relations

@@ -8,6 +8,8 @@ related:
   - concepts/input-stable-sparse-attention-video.md
   - entities/models/hunyuanvideo-1-5.md
   - entities/models/linca.md
+  - entities/models/chebbooster.md
+  - sources/arxiv-2608-23429-chebbooster.md
   - entities/models/squad.md
   - entities/models/token-radius-attention.md
   - entities/models/wan-2-2.md
@@ -15,7 +17,7 @@ related:
   - sweeps/2026-08-20-daily.md
 maturity: draft
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-08-25
 wire_status: deferred
 phase0_verdict: WATCH
 ---

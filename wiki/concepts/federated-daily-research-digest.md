@@ -89,6 +89,14 @@ related:
   - sources/arxiv-2608-20910-infinityedit.md
   - sources/arxiv-2608-20996-bertopic-topic-competition-skip.md
   - sources/arxiv-2608-21325-llm-psychotherapy-skip.md
+  - sources/arxiv-2608-22800-triplet2track-skip.md
+  - sources/arxiv-2608-22872-asr-rag-skip.md
+  - sources/arxiv-2608-23383-joyai-echo-15.md
+  - sources/arxiv-2608-23410-next-scale-face-nvs.md
+  - sources/arxiv-2608-23429-chebbooster.md
+  - sources/arxiv-2608-23432-oar-radiotherapy-skip.md
+  - sources/arxiv-2608-23486-geowam-skip.md
+  - sources/arxiv-2608-23549-fixanything.md
   - entities/tools/watermarks-remover.md
   - sources/ente-photos-routed.md
   - sweeps/2026-06-01-daily.md
@@ -159,6 +167,7 @@ related:
   - sweeps/2026-08-22-daily.md
   - sweeps/2026-08-23-daily.md
   - sweeps/2026-08-24-daily.md
+  - sweeps/2026-08-25-daily.md
   - sweeps/_daily-template.md
 title: Federated daily research digest
 type: concept

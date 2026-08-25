@@ -8,11 +8,13 @@ related:
   - concepts/budget-aware-diffusion-caching.md
   - entities/models/qwen-image-2512.md
   - entities/models/sparsepr.md
+  - entities/models/chebbooster.md
+  - sources/arxiv-2608-23429-chebbooster.md
   - sources/arxiv-2608-18484-sparsepr.md
   - sweeps/2026-08-19-daily.md
 maturity: draft
 created: 2026-08-19
-updated: 2026-08-20
+updated: 2026-08-25
 wire_status: deferred
 phase0_verdict: WATCH
 ---

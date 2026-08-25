@@ -26,6 +26,8 @@ related:
   - entities/lipsync/musetalk.md
   - entities/lipsync/sadtalker.md
   - entities/models/aesr.md
+  - entities/models/joyai-echo.md
+  - entities/models/next-scale-face-nvs.md
   - entities/models/avatar-v.md
   - entities/models/d2df.md
   - entities/models/flux-2-klein.md
@@ -64,6 +66,8 @@ related:
   - sources/arxiv-2608-16143-anytalk.md
   - sources/arxiv-2608-16717-personashot.md
   - sources/arxiv-2608-20749-aesr.md
+  - sources/arxiv-2608-23383-joyai-echo-15.md
+  - sources/arxiv-2608-23410-next-scale-face-nvs.md
   - sources/arxiv-2608-20212-unwarping-lens.md
   - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
   - sources/arxiv-tagrpo-i2v-grpo-2601-05729.md
