@@ -1,3 +1,26 @@
+## [2026-08-25] ingest | AESR · InfinityEdit (+ 6 SKIP/ROUTE)
+
+Full inbox ingest of 8 NEW arXiv PDFs (preingest 8 NEW / 0 LIKELY / 0 DUP). Sweeps 2026-08-22 and 2026-08-23 were empty-inbox days (dup-skip); 2026-08-24 is this batch. All 8 inbox PDFs archived to egress-fi `image-gen/`; inbox empty of this batch. Lint 0 hard errors. Image-gen Phase-1 local wire: **none**. Local clone: **InfinityEdit** Apache-2.0 code only (no Helios-Distilled weights). AESR not cloned (null SPDX).
+
+### WATCH
+- **NEW** `@sources/arxiv-2608-20749-aesr.md` + **NEW** `@entities/models/aesr.md` — PKU agentic prompt + VLM semantic repair for ID T2V; ACM MM 2026 IPVG Track 1 #1. **WATCH HIGH**. `oceanflowlab/AESR` **no LICENSE** — not cloned. Cloud Seedance2/Ark APIs.
+- **NEW** `@sources/arxiv-2608-20910-infinityedit.md` + **NEW** `@entities/models/infinityedit.md` — ZJU/Alibaba lightweight edit-ignition adapter for *infinite* streaming video editing. **WATCH HIGH / GO code**. `YunzeTong/InfinityEdit` Apache-2.0 cloned `.local/adopts/InfinityEdit`. Helios-Distilled HF **not fetched**. Complements Stream4D (4D *reward* vs this *edit adapter*).
+
+### ROUTEd / SKIP
+- **ROUTE cybersec** `@sources/arxiv-2608-20770-motionphys-routed.md` → `briefs/2026-08-25_motionphys-from-image-gen.md` — optical-flow physics detector; same class as EAV-DFD.
+- **SKIP math** `@sources/arxiv-2608-20795-lotka-volterra-skip.md` — Lotka–Volterra bistable fronts.
+- **SKIP KG** `@sources/arxiv-2608-20804-tkg-spectral-diffusion-skip.md` — FreqDiff TKG extrapolation.
+- **SKIP pedagogy** `@sources/arxiv-2608-20822-tts-dialogue-lessons-skip.md` — TTS classroom dialogue × learner style.
+- **SKIP social science** `@sources/arxiv-2608-20996-bertopic-topic-competition-skip.md` — BERTopic + NetLogo Weibo.
+- **SKIP clinical** `@sources/arxiv-2608-21325-llm-psychotherapy-skip.md` — Sword Health psychotherapy moves.
+
+### Phase-0 / Phase-1
+- Image-gen local wire: **none**. On-domain `wire_status: deferred`; SKIP/ROUTE `wont_wire`.
+- Local clone: InfinityEdit code only. Further implementation: cybersec ingest MotionPhys; operator may eval InfinityEdit on CUDA later without this wiki installing Helios. Re-check AESR if SPDX lands.
+
+### Archive
+- All 8 inbox PDFs → egress-fi `image-gen/`; local inbox empty of this batch.
+
 ## [2026-08-21] ingest | Stream4D · VGI-BENCH · Unwarping Lens (+ k244 fill, 5 SKIP/ROUTE)
 
 Full inbox ingest of 8 NEW arXiv PDFs (preingest 8 NEW / 0 LIKELY / 0 DUP) plus k244 brief fill for arXiv:2608.18628. All 8 inbox PDFs archived to egress-fi `image-gen/`; inbox empty of this batch. Lint 0 hard errors. Image-gen Phase-1 local wire: **none**. Local clone: **none**.

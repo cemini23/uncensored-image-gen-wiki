@@ -354,6 +354,14 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Phantom Gains (arXiv:2608.20290)](sources/arxiv-2608-20290-phantom-gains-routed.md) — self-improvement audit vs measured null; ROUTE CCC; Apache-2.0 not cloned here — `paper, skip, routed, eval`
 - [Hydrodynamic frames (arXiv:2608.20324)](sources/arxiv-2608-20324-hydrodynamic-frames-skip.md) — relativistic fluid transport; SKIP physics — `paper, skip, physics`
 - [ConceptGuard (arXiv:2608.20338)](sources/arxiv-2608-20338-conceptguard-skip.md) — dual-use LLM unlearning; SKIP — `paper, skip, llm, unlearning`
+- [AESR identity-preserving T2V (arXiv:2608.20749)](sources/arxiv-2608-20749-aesr.md) — agentic prompt + VLM semantic repair; Seedance2 APIs; no SPDX — `paper, video, identity, watch`
+- [MotionPhys (arXiv:2608.20770)](sources/arxiv-2608-20770-motionphys-routed.md) — optical-flow physics detector; ROUTE cybersec — `paper, skip, routed, deepfake-detection`
+- [Lotka–Volterra bistable fronts (arXiv:2608.20795)](sources/arxiv-2608-20795-lotka-volterra-skip.md) — PDE wave-speed criterion; SKIP math — `paper, skip, math`
+- [FreqDiff TKG spectral diffusion (arXiv:2608.20804)](sources/arxiv-2608-20804-tkg-spectral-diffusion-skip.md) — temporal KG extrapolation; SKIP — `paper, skip, knowledge-graph`
+- [TTS dialogue lessons (arXiv:2608.20822)](sources/arxiv-2608-20822-tts-dialogue-lessons-skip.md) — learner × TTS format; SKIP pedagogy — `paper, skip, education, tts`
+- [InfinityEdit (arXiv:2608.20910)](sources/arxiv-2608-20910-infinityedit.md) — streaming unbounded video-edit adapter; Apache-2.0 code cloned — `paper, video, editing, streaming, watch`
+- [BERTopic topic competition (arXiv:2608.20996)](sources/arxiv-2608-20996-bertopic-topic-competition-skip.md) — Weibo + NetLogo; SKIP social science — `paper, skip, social-science`
+- [LLM psychotherapy moves (arXiv:2608.21325)](sources/arxiv-2608-21325-llm-psychotherapy-skip.md) — Sword Health move ontology; SKIP clinical — `paper, skip, clinical`
 
 - [NL→LTL requirements LLM — routed (arXiv:2608.06287)](sources/arxiv-2608-06287-nl-to-ltl-routed.md) — formal methods; ROUTE cybersec — `paper, routed, formal-methods`
 - [GB/T-Bench national-standard review (arXiv:2608.06312)](sources/arxiv-2608-06312-gbt-bench-skip.md) — document-review peripheral SKIP — `paper, llm, peripheral`
@@ -569,6 +577,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [SQuad (Wan 2.2 5B sub-quadratic attention distill)](entities/models/squad.md) — O(n√n) + DMD2; VBench 83.08→83.20; 100→6 NFE; WATCH (no code) — `model, video, wan, attention, distillation, watch`
 - [SparsePR (training-free sparse attention)](entities/models/sparsepr.md) — partition support + residual reconstruct; Apache-2.0 cloned 7.0 MB; H100/Linux deferred — `model, video, sparse-attention, apache-2-0, watch`
 - [Stream4D (4D-consistency streaming AR video)](entities/models/stream4d.md) — 4D reconstruction reward + motion prior; project page only — `model, video, streaming, watch`
+- [AESR (agentic enhancement + semantic repair ID T2V)](entities/models/aesr.md) — closed-API playbook loop; no SPDX — `model, video, identity, watch`
+- [InfinityEdit (edit-ignition adapter for unbounded streams)](entities/models/infinityedit.md) — Apache-2.0 cloned; Helios weights not fetched — `model, video, editing, streaming, watch`
 - [JFSnet / Unwarping the Lens (video glasses removal)](entities/models/jfsnet-unwarping-lens.md) — physics-grounded glasses-off; identity-preserving; no public code — `model, video, glasses-removal, watch`
 - [LinCa (learnable decomposed feature caching)](entities/models/linca.md) — invertible cache; 5–7× claimed on FLUX/Qwen-Image/Hunyuan; GH stub no SPDX — `model, caching, diffusion, watch`
 - [EditBridge (UHR diffusion-bridge image editor)](entities/models/editbridge.md) — LR-edit→HR conditioned on original HR; project page only — `model, image-editing, qwen, watch`

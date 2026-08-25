@@ -81,6 +81,7 @@ related:
   - entities/models/helloworld.md
   - entities/models/homie.md
   - entities/models/hunyuanvideo-1-5.md
+  - entities/models/infinityedit.md
   - entities/models/ltx-2.md
   - entities/models/m4v.md
   - entities/models/meanflownft.md
@@ -236,6 +237,7 @@ related:
   - sources/arxiv-2608-16717-personashot.md
   - sources/arxiv-2608-18484-sparsepr.md
   - sources/arxiv-2608-19556-stream4d.md
+  - sources/arxiv-2608-20910-infinityedit.md
   - sweeps/2026-08-18-daily.md
 title: Wan 2.2 (Alibaba)
 type: entity
@@ -243,7 +245,7 @@ tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncens
 keywords: [wan2.2, wan-2-2, alibaba, mixture-of-experts, dual-expert, snr-routing, 27b, 14b, 5b, ti2v, apache-2.0, abliterated-text-encoder, mq-lab, blink, theyurilover]
 maturity: draft
 created: 2026-05-07
-updated: 2026-08-21
+updated: 2026-08-25
 ---
 ## Relations
 

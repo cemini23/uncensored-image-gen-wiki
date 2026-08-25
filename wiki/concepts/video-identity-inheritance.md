@@ -25,6 +25,7 @@ related:
   - entities/lipsync/liveportrait.md
   - entities/lipsync/musetalk.md
   - entities/lipsync/sadtalker.md
+  - entities/models/aesr.md
   - entities/models/avatar-v.md
   - entities/models/d2df.md
   - entities/models/flux-2-klein.md
@@ -62,6 +63,7 @@ related:
   - sources/arxiv-2607-21434-adaptive-identity-anchoring.md
   - sources/arxiv-2608-16143-anytalk.md
   - sources/arxiv-2608-16717-personashot.md
+  - sources/arxiv-2608-20749-aesr.md
   - sources/arxiv-2608-20212-unwarping-lens.md
   - sources/arxiv-omnicustom-sync-audio-video-2602-12304.md
   - sources/arxiv-tagrpo-i2v-grpo-2601-05729.md
@@ -80,7 +82,7 @@ tags: [persona-consistency, i2v, identity-inheritance, video-workflow, clip-visi
 keywords: [i2v, image-to-video, identity-inheritance, master-image, clip-vision-encoder, raw-pixel-initialization, pulid-anchor, airt-machine, seedance, kling, wan, hunyuan, persona-consistency]
 maturity: draft
 created: 2026-05-07
-updated: 2026-08-21
+updated: 2026-08-25
 ---
 
 

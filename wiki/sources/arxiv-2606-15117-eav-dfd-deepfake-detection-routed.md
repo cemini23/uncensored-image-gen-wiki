@@ -10,10 +10,11 @@ related:
   - sweeps/2026-06-16-daily.md
   - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
   - concepts/generative-ai-era-deepfake-landscape.md
+  - sources/arxiv-2608-20770-motionphys-routed.md
 maturity: draft
 read_status: read
 created: 2026-06-16
-updated: 2026-06-30
+updated: 2026-08-25
 ---
 
 ## Relations

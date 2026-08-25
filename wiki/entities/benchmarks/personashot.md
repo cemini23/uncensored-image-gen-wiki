@@ -5,6 +5,8 @@ tags: [benchmark, video, persona, multi-shot, watch]
 keywords: [PersonaShot, physical continuity, affective dynamics, cinematic grammar, 16 metrics, SJTU, Tencent Youtu]
 related:
   - sources/arxiv-2608-16717-personashot.md
+  - entities/models/aesr.md
+  - sources/arxiv-2608-20749-aesr.md
   - concepts/video-identity-inheritance.md
   - concepts/persona-consistency-methods.md
   - concepts/multi-shot-audio-video-evaluation.md
@@ -15,7 +17,7 @@ related:
   - sweeps/2026-08-21-daily.md
 maturity: draft
 created: 2026-08-18
-updated: 2026-08-21
+updated: 2026-08-25
 wire_status: deferred
 phase0_verdict: WATCH
 ---

@@ -13,6 +13,7 @@ related:
   - entities/persona-ops/fish-speech.md
   - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
   - sources/arxiv-2606-15117-eav-dfd-deepfake-detection-routed.md
+  - sources/arxiv-2608-20770-motionphys-routed.md
   - sources/arxiv-2607-14753-lalms-spoofing-aware-asv.md
   - sources/arxiv-2607-15694-voice-clone-attribution-geometry-floor.md
   - sources/arxiv-2608-05507-affectdf-routed.md
@@ -28,7 +29,7 @@ related:
   - sweeps/2026-07-20-daily.md
 maturity: draft
 created: 2026-06-30
-updated: 2026-08-17
+updated: 2026-08-25
 ---
 ## Relations
 

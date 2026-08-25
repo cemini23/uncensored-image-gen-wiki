@@ -81,6 +81,14 @@ related:
   - sources/arxiv-2608-20290-phantom-gains-routed.md
   - sources/arxiv-2608-20324-hydrodynamic-frames-skip.md
   - sources/arxiv-2608-20338-conceptguard-skip.md
+  - sources/arxiv-2608-20749-aesr.md
+  - sources/arxiv-2608-20770-motionphys-routed.md
+  - sources/arxiv-2608-20795-lotka-volterra-skip.md
+  - sources/arxiv-2608-20804-tkg-spectral-diffusion-skip.md
+  - sources/arxiv-2608-20822-tts-dialogue-lessons-skip.md
+  - sources/arxiv-2608-20910-infinityedit.md
+  - sources/arxiv-2608-20996-bertopic-topic-competition-skip.md
+  - sources/arxiv-2608-21325-llm-psychotherapy-skip.md
   - entities/tools/watermarks-remover.md
   - sources/ente-photos-routed.md
   - sweeps/2026-06-01-daily.md
@@ -148,6 +156,9 @@ related:
   - sweeps/2026-08-19-daily.md
   - sweeps/2026-08-20-daily.md
   - sweeps/2026-08-21-daily.md
+  - sweeps/2026-08-22-daily.md
+  - sweeps/2026-08-23-daily.md
+  - sweeps/2026-08-24-daily.md
   - sweeps/_daily-template.md
 title: Federated daily research digest
 type: concept
@@ -155,7 +166,7 @@ tags: [meta, automation, federation, discovery, k93]
 keywords: [daily-research-digest, exa, inbox, sweep, federated, launchagent, discovery-loop]
 maturity: validated
 created: 2026-06-01
-updated: 2026-08-21
+updated: 2026-08-25
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

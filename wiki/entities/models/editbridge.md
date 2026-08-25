@@ -5,11 +5,13 @@ tags: [model, image-editing, diffusion-bridge, qwen, watch]
 keywords: [EditBridge, ultra-high-resolution, information divergence]
 related:
   - sources/arxiv-2608-18063-editbridge.md
+  - entities/models/infinityedit.md
+  - sources/arxiv-2608-20910-infinityedit.md
   - entities/models/qwen-image-2512.md
   - sweeps/2026-08-19-daily.md
 maturity: draft
 created: 2026-08-19
-updated: 2026-08-19
+updated: 2026-08-25
 wire_status: deferred
 phase0_verdict: WATCH
 ---

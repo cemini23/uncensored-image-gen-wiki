@@ -18,6 +18,7 @@ related:
   - concepts/anti-personalization-privacy.md
   - sources/arxiv-privacy-cross-image-anti-personalization-2504-12747.md
   - sources/arxiv-2606-15117-eav-dfd-deepfake-detection-routed.md
+  - sources/arxiv-2608-20770-motionphys-routed.md
   - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
   - concepts/generative-ai-era-deepfake-landscape.md
   - sources/arxiv-2505-14215-safety-degradation-ai-agents.md
@@ -25,7 +26,7 @@ related:
   - sources/arxiv-2505-14215-safety-degradation-ai-agents.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-06-30
+updated: 2026-08-25
 ---
 
 ## Relations

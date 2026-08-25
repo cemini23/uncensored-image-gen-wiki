@@ -8,10 +8,12 @@ related:
   - entities/lipsync/dynaforcing.md
   - entities/models/wan-2-2.md
   - sources/arxiv-2608-19556-stream4d.md
+  - entities/models/infinityedit.md
+  - sources/arxiv-2608-20910-infinityedit.md
   - sweeps/2026-08-21-daily.md
 maturity: draft
 created: 2026-08-21
-updated: 2026-08-21
+updated: 2026-08-25
 wire_status: deferred
 phase0_verdict: WATCH
 ---

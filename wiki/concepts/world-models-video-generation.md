@@ -54,6 +54,7 @@ related:
   - entities/models/sana-wm.md
   - entities/models/self-gradient-forcing.md
   - entities/models/stream4d.md
+  - entities/models/infinityedit.md
   - entities/models/surg-uniworld.md
   - entities/models/tango-ar-video.md
   - entities/models/wan-2-2.md
@@ -85,6 +86,7 @@ related:
   - sources/arxiv-2608-14022-forgewm.md
   - sources/arxiv-2608-18710-camworldqa.md
   - sources/arxiv-2608-19556-stream4d.md
+  - sources/arxiv-2608-20910-infinityedit.md
   - sources/arxiv-2607-15849-tango-test-time-noise-guided-ar-video.md
   - sources/arxiv-2607-18789-moving-alphabet-t2v-data.md
   - sources/arxiv-2607-18924-phyparam-physical-video.md
@@ -126,7 +128,7 @@ related:
   - sources/arxiv-2608-11013-wsv-video-captioning.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-21
+updated: 2026-08-25
 ---
 ## Relations
 
