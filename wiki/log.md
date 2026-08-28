@@ -1,3 +1,22 @@
+## [2026-08-28] ingest | FireRedAudio · Sidecar · 4DStreamCtrl · VGA-BenchV2 · PAWBench (+ 11 SKIP/ROUTE)
+
+Full inbox ingest of **16 NEW** arXiv PDFs (sweeps 26 empty / 27 partial / 28 full batch). All 16 archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Clone: **FireRedAudio** Apache-2.0 (~8.7 MB, no weights).
+
+### WATCH
+- **NEW** `@sources/arxiv-2608-24168-fireredaudio.md` + **NEW** `@entities/voice-models/fireredaudio.md` — unified 9B audio LM; sibling to FireRedTTS3. **WATCH HIGH / GO code**.
+- **NEW** `@sources/arxiv-2608-25452-vga-benchv2.md` + **NEW** `@entities/benchmarks/vga-benchv2.md` — video aesthetics + gen quality bench. **WATCH**.
+- **NEW** `@sources/arxiv-2608-25479-4dstreamctrl.md` + **NEW** `@entities/models/4dstreamctrl.md` — online 4D streaming control (Tencent Hunyuan). **WATCH HIGH**. Pages only.
+- **NEW** `@sources/arxiv-2608-27280-sidecar.md` + **NEW** `@concepts/sidecar-semantic-story-reuse.md` — training-free semantic story reuse. **WATCH HIGH**. No code.
+- **NEW** `@sources/arxiv-2608-27345-pawbench.md` + **NEW** `@entities/benchmarks/pawbench.md` — probabilistic WM eval. **WATCH**.
+- **NEW** `@sources/arxiv-2608-27360-voice-clone-anonymizer.md` — XTTSv2 anonymization paradox. **WATCH** (persona privacy angle).
+
+### ROUTEd / SKIP
+- **ROUTE cybersec** `@sources/arxiv-2608-24707-lost-in-speech-routed.md`, `@sources/arxiv-2608-26971-tempjail-routed.md`
+- **SKIP** Voigt 25578 · precipitation 25858 · fair face 25862 · VBVR-Pro 26105 · phoneme TTS 26697 · SD normativity 26980 · CLAP robotics 27406 · Lotka 27431
+
+### Sweeps
+- Committed `@sweeps/2026-08-26-daily.md` (empty inbox), `@sweeps/2026-08-27-daily.md`, `@sweeps/2026-08-28-daily.md` with YAML frontmatter.
+
 ## [2026-08-25] ingest | JoyAI-Echo-1.5 · ChebBooster · face NVS · FixAnything (+ 4 SKIP)
 
 Overnight digest (8 NEW / 3 DUP already ingested as AESR-batch leftovers). All 8 archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Clone: **ChebBooster** MIT. JoyAI-Echo **not** cloned (LTX-2 Community License).

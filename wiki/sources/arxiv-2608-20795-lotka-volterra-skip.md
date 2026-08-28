@@ -4,6 +4,7 @@ type: source
 tags: [paper, skip, math, pde]
 keywords: [Lotka-Volterra, traveling fronts, bistable, wave speed]
 related:
+  - sources/arxiv-2608-27431-lotka-volterra-skip.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-08-24-daily.md
 maturity: draft
@@ -16,7 +17,7 @@ wire_status: wont_wire
 
 ## Relations
 
-@sweeps/2026-08-24-daily.md @concepts/federated-daily-research-digest.md
+@sources/arxiv-2608-27431-lotka-volterra-skip.md @sweeps/2026-08-24-daily.md @concepts/federated-daily-research-digest.md
 
 ## Raw Concept
 

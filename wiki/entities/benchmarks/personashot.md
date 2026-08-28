@@ -4,6 +4,8 @@ type: entity
 tags: [benchmark, video, persona, multi-shot, watch]
 keywords: [PersonaShot, physical continuity, affective dynamics, cinematic grammar, 16 metrics, SJTU, Tencent Youtu]
 related:
+  - concepts/sidecar-semantic-story-reuse.md
+  - sources/arxiv-2608-27280-sidecar.md
   - sources/arxiv-2608-16717-personashot.md
   - entities/models/aesr.md
   - sources/arxiv-2608-20749-aesr.md

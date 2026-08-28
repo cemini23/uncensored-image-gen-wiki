@@ -4,9 +4,11 @@ type: entity
 tags: [benchmark, video, visual-reasoning, watch]
 keywords: [VGI-BENCH, 27 tasks, 810 instances, Seedance 2.0, name-collision]
 related:
+  - entities/benchmarks/vga-benchv2.md
   - entities/benchmarks/camworldqa.md
   - entities/benchmarks/personashot.md
   - entities/models/seedance-2.md
+  - sources/arxiv-2608-25452-vga-benchv2.md
   - sources/arxiv-2608-19583-vgi-bench.md
   - sweeps/2026-08-21-daily.md
 maturity: draft

@@ -124,7 +124,9 @@ related:
   - sources/arxiv-2608-04820-resem-face.md
   - entities/models/agentic-i2v.md
   - sources/arxiv-2608-12290-agentic-i2v.md
+  - concepts/sidecar-semantic-story-reuse.md
   - entities/benchmarks/personashot.md
+  - sources/arxiv-2608-27280-sidecar.md
   - sources/arxiv-2608-16717-personashot.md
   - entities/models/aesr.md
   - entities/models/next-scale-face-nvs.md

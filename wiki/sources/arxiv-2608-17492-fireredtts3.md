@@ -4,7 +4,9 @@ type: source
 tags: [paper, tts, voice, cloning, speech-editing, xiaohongshu, watch]
 keywords: [FireRedTTS3, FireRedTTS3-Base, FireRedTTS3-Instruct, continuous AR TTS, Audio Encoder teacher, 24 languages, Chinese dialects]
 related:
+  - entities/voice-models/fireredaudio.md
   - entities/voice-models/fireredtts3.md
+  - sources/arxiv-2608-24168-fireredaudio.md
   - concepts/persona-audio-stack.md
   - entities/persona-ops/fish-speech.md
   - entities/voice-models/qwen3-tts.md

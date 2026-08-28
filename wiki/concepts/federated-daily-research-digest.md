@@ -168,6 +168,25 @@ related:
   - sweeps/2026-08-23-daily.md
   - sweeps/2026-08-24-daily.md
   - sweeps/2026-08-25-daily.md
+  - sweeps/2026-08-26-daily.md
+  - sweeps/2026-08-27-daily.md
+  - sweeps/2026-08-28-daily.md
+  - sources/arxiv-2608-24168-fireredaudio.md
+  - sources/arxiv-2608-24707-lost-in-speech-routed.md
+  - sources/arxiv-2608-25452-vga-benchv2.md
+  - sources/arxiv-2608-25479-4dstreamctrl.md
+  - sources/arxiv-2608-25578-voigt-regularization-skip.md
+  - sources/arxiv-2608-25858-precipitation-downscaling-skip.md
+  - sources/arxiv-2608-25862-fair-face-sbp-skip.md
+  - sources/arxiv-2608-26105-vbvr-pro-skip.md
+  - sources/arxiv-2608-26697-phoneme-tts-asr-skip.md
+  - sources/arxiv-2608-26971-tempjail-routed.md
+  - sources/arxiv-2608-26980-sd-normativity-skip.md
+  - sources/arxiv-2608-27280-sidecar.md
+  - sources/arxiv-2608-27345-pawbench.md
+  - sources/arxiv-2608-27360-voice-clone-anonymizer.md
+  - sources/arxiv-2608-27406-clap-robotics-skip.md
+  - sources/arxiv-2608-27431-lotka-volterra-skip.md
   - sweeps/_daily-template.md
 title: Federated daily research digest
 type: concept
@@ -175,7 +194,7 @@ tags: [meta, automation, federation, discovery, k93]
 keywords: [daily-research-digest, exa, inbox, sweep, federated, launchagent, discovery-loop]
 maturity: validated
 created: 2026-06-01
-updated: 2026-08-25
+updated: 2026-08-28
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

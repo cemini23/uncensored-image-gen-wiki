@@ -4,6 +4,7 @@ type: source
 tags: [paper, routed, deepfake-detection, security, video]
 keywords: [MotionPhys, optical-flow, AI-generated video detection, CASIA]
 related:
+  - sources/arxiv-2608-26971-tempjail-routed.md
   - concepts/federated-daily-research-digest.md
   - concepts/generative-ai-era-deepfake-landscape.md
   - concepts/persona-failure-modes.md
@@ -19,7 +20,7 @@ wire_status: wont_wire
 
 ## Relations
 
-@sweeps/2026-08-24-daily.md @concepts/federated-daily-research-digest.md @sources/arxiv-2606-15117-eav-dfd-deepfake-detection-routed.md @concepts/generative-ai-era-deepfake-landscape.md @concepts/persona-failure-modes.md
+@sweeps/2026-08-24-daily.md @sources/arxiv-2608-26971-tempjail-routed.md @concepts/federated-daily-research-digest.md @concepts/generative-ai-era-deepfake-landscape.md @sources/arxiv-2606-15117-eav-dfd-deepfake-detection-routed.md @concepts/persona-failure-modes.md
 
 ## Raw Concept
 

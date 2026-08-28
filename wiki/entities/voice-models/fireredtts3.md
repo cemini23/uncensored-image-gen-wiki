@@ -4,6 +4,8 @@ type: entity
 tags: [voice-cloning, tts, speech-editing, xiaohongshu, apache-2-0, watch]
 keywords: [FireRedTTS3, FireRedTTS3-Base, FireRedTTS3-Instruct, 24 languages, 21 dialects, voice design]
 related:
+  - entities/voice-models/fireredaudio.md
+  - sources/arxiv-2608-24168-fireredaudio.md
   - sources/arxiv-2608-17492-fireredtts3.md
   - concepts/persona-audio-stack.md
   - entities/persona-ops/fish-speech.md
@@ -20,7 +22,7 @@ phase0_verdict: WATCH
 
 ## Relations
 
-@sources/arxiv-2608-17492-fireredtts3.md @concepts/persona-audio-stack.md @entities/persona-ops/fish-speech.md @entities/voice-models/qwen3-tts.md @sweeps/2026-08-19-daily.md
+@sources/arxiv-2608-17492-fireredtts3.md @entities/voice-models/fireredaudio.md @concepts/persona-audio-stack.md @entities/persona-ops/fish-speech.md @entities/voice-models/qwen3-tts.md @sweeps/2026-08-19-daily.md
 
 ## Raw Concept
 

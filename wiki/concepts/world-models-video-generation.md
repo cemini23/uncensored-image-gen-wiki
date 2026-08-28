@@ -35,6 +35,8 @@ related:
   - entities/models/egogenesis.md
   - entities/models/emoworld.md
   - entities/models/filmworld.md
+  - entities/benchmarks/pawbench.md
+  - entities/models/4dstreamctrl.md
   - entities/models/forgewm.md
   - entities/models/freqforcing.md
   - entities/models/garfield.md
@@ -85,6 +87,8 @@ related:
   - sources/arxiv-2607-14076-interactive-world-models-game-engines.md
   - sources/arxiv-2607-15254-tellme-why-urban-driving-causal.md
   - sources/arxiv-2607-15278-hierarchical-denoising-visual-reasoning.md
+  - sources/arxiv-2608-25479-4dstreamctrl.md
+  - sources/arxiv-2608-27345-pawbench.md
   - sources/arxiv-2608-14022-forgewm.md
   - sources/arxiv-2608-18710-camworldqa.md
   - sources/arxiv-2608-19556-stream4d.md

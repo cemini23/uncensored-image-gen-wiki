@@ -65,6 +65,7 @@ Per-item verdicts:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-08-28 | Inbox ingest FireRedAudio · Sidecar · 4DStreamCtrl · VGA-BenchV2 · PAWBench; skip/route rest | 16 NEW PDFs; FireRedAudio Apache-2.0 cloned (~8.7 MB, no weights); TempJail + Lost in Speech → cybersec briefs. Sweeps 26–28 committed. Image-gen Phase-1: none. |
 | 2026-08-25 | Inbox ingest JoyAI-Echo-1.5 · ChebBooster · face NVS · FixAnything; skip rest | Overnight 8 NEW; ChebBooster MIT cloned; Echo LTX-2 community license not cloned. Image-gen Phase-1: none. |
 | 2026-08-25 | Inbox ingest AESR · InfinityEdit; skip/route rest | 8 NEW PDFs; InfinityEdit Apache-2.0 cloned (code only, no Helios weights); AESR not cloned (null SPDX). Image-gen Phase-1: none. MotionPhys → cybersec. Sweeps 22–23 empty-inbox committed. |
 | 2026-08-21 | Inbox ingest Stream4D · VGI-BENCH · Unwarping Lens; skip/route rest; k244 fill | 8 NEW PDFs; no clone (Stream4D Pages-only; Seldon VGIBench is a name collision; Phantom Gains Apache-2.0 routed to CCC). Image-gen Phase-1: none. |

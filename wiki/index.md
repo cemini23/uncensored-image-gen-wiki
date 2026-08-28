@@ -370,6 +370,22 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [OAR radiotherapy QA (arXiv:2608.23432)](sources/arxiv-2608-23432-oar-radiotherapy-skip.md) — organ-at-risk segmentation QA; SKIP medical — `paper, skip, medical`
 - [GeoWAM (arXiv:2608.23486)](sources/arxiv-2608-23486-geowam-skip.md) — Uber AV geometry world-action; SKIP driving — `paper, skip, driving`
 - [FixAnything (arXiv:2608.23549)](sources/arxiv-2608-23549-fixanything.md) — 3D-consistent render refine via video priors; project page only — `paper, video, 3dgs, watch`
+- [FireRedAudio (arXiv:2608.24168)](sources/arxiv-2608-24168-fireredaudio.md) — unified 9B audio LM; Apache-2.0 code cloned — `paper, audio, voice, watch`
+- [Lost in Speech (arXiv:2608.24707)](sources/arxiv-2608-24707-lost-in-speech-routed.md) — spoken hallucination detection; ROUTE cybersec — `paper, skip, routed, safety`
+- [VGA-BenchV2 (arXiv:2608.25452)](sources/arxiv-2608-25452-vga-benchv2.md) — video aesthetics + generation quality; WATCH — `paper, benchmark, video, watch`
+- [4DStreamCtrl (arXiv:2608.25479)](sources/arxiv-2608-25479-4dstreamctrl.md) — online 4D control for streaming video; WATCH HIGH — `paper, video, streaming, watch`
+- [Voigt regularization (arXiv:2608.25578)](sources/arxiv-2608-25578-voigt-regularization-skip.md) — PDE math; SKIP — `paper, skip, math`
+- [Precipitation downscaling (arXiv:2608.25858)](sources/arxiv-2608-25858-precipitation-downscaling-skip.md) — climate diffusion; SKIP — `paper, skip, climate`
+- [Fair face SBP (arXiv:2608.25862)](sources/arxiv-2608-25862-fair-face-sbp-skip.md) — fairness face gen; SKIP — `paper, skip, fairness`
+- [VBVR-Pro (arXiv:2608.26105)](sources/arxiv-2608-26105-vbvr-pro-skip.md) — VLM reasoning suite; SKIP — `paper, skip, vlm-benchmark`
+- [Phoneme TTS ASR aug (arXiv:2608.26697)](sources/arxiv-2608-26697-phoneme-tts-asr-skip.md) — ASR augmentation; SKIP — `paper, skip, asr`
+- [TempJail (arXiv:2608.26971)](sources/arxiv-2608-26971-tempjail-routed.md) — temporal i2v jailbreak; ROUTE cybersec — `paper, skip, routed, safety`
+- [SD normativity XAI (arXiv:2608.26980)](sources/arxiv-2608-26980-sd-normativity-skip.md) — humanities workshop; SKIP — `paper, skip, humanities`
+- [Sidecar (arXiv:2608.27280)](sources/arxiv-2608-27280-sidecar.md) — training-free semantic story reuse; WATCH HIGH — `paper, video, persona, watch`
+- [PAWBench (arXiv:2608.27345)](sources/arxiv-2608-27345-pawbench.md) — probabilistic world-model eval; WATCH — `paper, benchmark, world-model, watch`
+- [Voice clone anonymizer (arXiv:2608.27360)](sources/arxiv-2608-27360-voice-clone-anonymizer.md) — XTTSv2 privacy paradox; WATCH — `paper, voice-cloning, privacy, watch`
+- [CLAP robotics WM (arXiv:2608.27406)](sources/arxiv-2608-27406-clap-robotics-skip.md) — cross-embodiment video WM; SKIP robotics — `paper, skip, robotics`
+- [Lotka–Volterra monotonicity (arXiv:2608.27431)](sources/arxiv-2608-27431-lotka-volterra-skip.md) — math ecology; SKIP — `paper, skip, math`
 
 - [NL→LTL requirements LLM — routed (arXiv:2608.06287)](sources/arxiv-2608-06287-nl-to-ltl-routed.md) — formal methods; ROUTE cybersec — `paper, routed, formal-methods`
 - [GB/T-Bench national-standard review (arXiv:2608.06312)](sources/arxiv-2608-06312-gbt-bench-skip.md) — document-review peripheral SKIP — `paper, llm, peripheral`
@@ -571,6 +587,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Phoenix TTS (Didi flow-matching speech tokenization)](entities/voice-models/phoenix-tts.md) — tokenizer+FM joint training; zero-shot TTS+VC; WATCH (no code) — `voice-cloning, tts, flow-matching, watch`
 - [VoiceChat-TTS (NVIDIA streamable TTS)](entities/voice-models/voicechat-tts.md) — LLM token stream + barge-in, no KV reset; WATCH (518 MB NeMo + OpenMDW 11B) — `voice-cloning, tts, streaming, nvidia, watch`
 - [FireRedTTS3 (Xiaohongshu continuous AR + Instruct edit)](entities/voice-models/fireredtts3.md) — 24 langs / 21 ZH dialects; Apache-2.0 code cloned 1.5 MB; research-disclaimer cloning; weights not fetched — `voice-cloning, tts, speech-editing, watch`
+- [FireRedAudio (unified 9B audio LM)](entities/voice-models/fireredaudio.md) — understand + generate; Apache-2.0 cloned ~8.7 MB; weights not fetched — `voice-cloning, tts, audio-lm, watch`
 - [X2Streaming-TTS (causal token-level streaming)](entities/voice-models/x2streaming-tts.md) — commitment + speech-state inheritance; Qwen3-TTS backbone; repo 404 — `voice-cloning, tts, streaming, watch`
 - [FastThaiG2P (AWS Thai G2P phonemizer)](entities/voice-models/fastthaig2p.md) — sub-ms IPA/Kokoro phonemization; Apache-2.0 13 MB; CONDITIONAL (Thai persona) — `tts, g2p, thai, voice, apache-2-0`
 - [Nemotron-Labs-Audex (NVIDIA unified audio-text LLM)](entities/voice-models/nemotron-audex.md) — unified TTS/ASR/TTA/speech-to-speech MoE; Phase-0 REFERENCE (NVIDIA noncommercial license) — `voice-cloning, tts, nvidia, audex, unified-llm, moe`
@@ -585,6 +602,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [SQuad (Wan 2.2 5B sub-quadratic attention distill)](entities/models/squad.md) — O(n√n) + DMD2; VBench 83.08→83.20; 100→6 NFE; WATCH (no code) — `model, video, wan, attention, distillation, watch`
 - [SparsePR (training-free sparse attention)](entities/models/sparsepr.md) — partition support + residual reconstruct; Apache-2.0 cloned 7.0 MB; H100/Linux deferred — `model, video, sparse-attention, apache-2-0, watch`
 - [Stream4D (4D-consistency streaming AR video)](entities/models/stream4d.md) — 4D reconstruction reward + motion prior; project page only — `model, video, streaming, watch`
+- [4DStreamCtrl (online 4D streaming control)](entities/models/4dstreamctrl.md) — Tencent Hunyuan interactive streaming; project page only — `model, video, streaming, 4d-control, watch`
 - [AESR (agentic enhancement + semantic repair ID T2V)](entities/models/aesr.md) — closed-API playbook loop; no SPDX — `model, video, identity, watch`
 - [InfinityEdit (edit-ignition adapter for unbounded streams)](entities/models/infinityedit.md) — Apache-2.0 cloned; Helios weights not fetched — `model, video, editing, streaming, watch`
 - [JoyAI-Echo-1.5 (long-horizon AV)](entities/models/joyai-echo.md) — cross-shot memory + 6-DoF world; LTX-2 Community License not cloned — `model, video, audio-visual, watch`
@@ -667,6 +685,7 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Draft-Evaluate-Diffuse pipeline](concepts/draft-evaluate-diffuse-pipeline.md) — UniReasoner's three-stage approach: LLM samples discrete vision tokens, self-critiques, diffusion conditions on (p,d,e) — `llm, diffusion, vision-tokens, self-critique`
 - [LLM as image-generation conditioning (encoder vs reasoner)](concepts/llm-as-image-conditioning.md) — four roles for LMs in T2I: frozen encoder → stronger encoder → front-end rewriter → universal reasoner — `llm, diffusion, conditioning, t2i-architecture`
 - [Persona consistency methods (umbrella)](concepts/persona-consistency-methods.md) — four-axis taxonomy (synthesis / identity injection / multi-angle dataset / cross-base & video carry) and the modal 2026 production loop — `persona-consistency, methods, taxonomy, identity-injection`
+- [Sidecar semantic story reuse (training-free consistency)](concepts/sidecar-semantic-story-reuse.md) — inference-time semantic reuse for character-consistent storytelling — `persona-consistency, video, training-free, watch`
 - [LoRA / LyCORIS taxonomy](concepts/lora-taxonomy.md) — LoRA / LoCon / LoHA / LoKr / DoRA variant family; LoKr (factor=4) as 2026 character-isolation default; per-base optimiser recipes — `lora, lycoris, parameter-efficient-finetuning, training`
 - [Character DNA templates (XML-tag prompting)](concepts/character-dna-templates.md) — structured `<character>`/`<scene>` XML-tag schema; Identity Anchor system; per-base captioning conventions for SDXL/Pony/FLUX/NoobAI — `prompting, character-dna, xml-tags, structured-prompt, persona-prompting`
 - [Prompt engineering for uncensored generation](concepts/prompt-engineering-uncensored.md) — model-specific prompt formats (Danbooru tags / dual T5+CLIP / DiT-native), negative strategies, CFG guidance, common failure modes — `prompting, uncensored, sd-xl, flux, z-image, danbooru, t5-encoder`
@@ -819,6 +838,8 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [VA-Judger](entities/benchmarks/va-judger.md) — joint AV human-preference RM + VAPref-10K; LTX-2 RL; no SPDX — `benchmark, audio-video, reward-model, watch`
 - [CamWorldQA](entities/benchmarks/camworldqa.md) — camera-controlled world video MOS (720 clips / 6 trajectories); WATCH — `benchmark, world-model, camera-control, watch`
 - [VGI-BENCH](entities/benchmarks/vgi-bench.md) — visual intelligence in video generators (27 tasks / 810); Seedance 2.0 51%; not Seldon VGIBench — `benchmark, video, visual-reasoning, watch`
+- [VGA-BenchV2 (video aesthetics + generation quality)](entities/benchmarks/vga-benchv2.md) — human-centered aesthetic scoring; paper-only — `benchmark, video, aesthetics, watch`
+- [PAWBench (probabilistic world-model eval)](entities/benchmarks/pawbench.md) — uncertainty-aware WM benchmark; webpage only — `benchmark, world-model, watch`
 
 - [Hand-object interaction generation](concepts/hand-object-interaction-generation.md) — HOI under foundation models (survey hub) — `hoi, video-generation, survey`
 - [Hybrid-policy self-distillation for TI2V (HPSD)](concepts/hybrid-policy-self-distillation-video.md) — internalize I2V-mode quality into base T2V; off-policy SFT failure — `distillation, ti2v, self-distillation, capability-internalization`

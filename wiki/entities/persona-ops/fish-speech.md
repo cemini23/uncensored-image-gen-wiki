@@ -9,8 +9,11 @@ related:
   - concepts/mllm-video-translation.md
   - concepts/model-selection-workflow.md
   - concepts/iterative-self-learning-expressive-tts.md
+  - entities/voice-models/fireredaudio.md
   - entities/voice-models/fireredtts3.md
+  - sources/arxiv-2608-24168-fireredaudio.md
   - sources/arxiv-2608-17492-fireredtts3.md
+  - sources/arxiv-2608-27360-voice-clone-anonymizer.md
   - concepts/persona-audio-stack.md
   - concepts/persona-monetization-models.md
   - concepts/persona-ops-stack.md

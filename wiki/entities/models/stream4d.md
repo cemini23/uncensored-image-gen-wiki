@@ -8,6 +8,8 @@ related:
   - entities/lipsync/dynaforcing.md
   - entities/models/wan-2-2.md
   - sources/arxiv-2608-19556-stream4d.md
+  - entities/models/4dstreamctrl.md
+  - sources/arxiv-2608-25479-4dstreamctrl.md
   - entities/models/infinityedit.md
   - sources/arxiv-2608-20910-infinityedit.md
   - sweeps/2026-08-21-daily.md
@@ -20,7 +22,7 @@ phase0_verdict: WATCH
 
 ## Relations
 
-@sources/arxiv-2608-19556-stream4d.md @entities/models/wan-2-2.md @entities/lipsync/dynaforcing.md @concepts/world-models-video-generation.md @sweeps/2026-08-21-daily.md
+@sources/arxiv-2608-19556-stream4d.md @entities/models/4dstreamctrl.md @entities/models/wan-2-2.md @entities/lipsync/dynaforcing.md @concepts/world-models-video-generation.md @sweeps/2026-08-21-daily.md
 
 ## Raw Concept
 

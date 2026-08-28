@@ -18,6 +18,7 @@ related:
   - concepts/anti-personalization-privacy.md
   - sources/arxiv-privacy-cross-image-anti-personalization-2504-12747.md
   - sources/arxiv-2606-15117-eav-dfd-deepfake-detection-routed.md
+  - sources/arxiv-2608-27360-voice-clone-anonymizer.md
   - sources/arxiv-2608-20770-motionphys-routed.md
   - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
   - concepts/generative-ai-era-deepfake-landscape.md

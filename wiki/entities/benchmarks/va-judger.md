@@ -4,6 +4,8 @@ type: entity
 tags: [benchmark, reward-model, audio-video, rl, ltx, watch]
 keywords: [VA-Judger, VAPref-10K, VA-Judger-Bench, LTX-2 RL, OmniNFT]
 related:
+  - entities/benchmarks/vga-benchv2.md
+  - sources/arxiv-2608-25452-vga-benchv2.md
   - concepts/multi-shot-audio-video-evaluation.md
   - concepts/persona-audio-stack.md
   - entities/models/ltx-2.md

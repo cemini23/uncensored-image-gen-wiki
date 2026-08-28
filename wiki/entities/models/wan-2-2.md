@@ -83,6 +83,7 @@ related:
   - entities/models/hunyuanvideo-1-5.md
   - entities/models/chebbooster.md
   - entities/models/fixanything.md
+  - entities/models/4dstreamctrl.md
   - entities/models/infinityedit.md
   - entities/models/joyai-echo.md
   - entities/models/ltx-2.md
@@ -239,6 +240,7 @@ related:
   - sources/arxiv-2608-16585-squad-attention-distillation.md
   - sources/arxiv-2608-16717-personashot.md
   - sources/arxiv-2608-18484-sparsepr.md
+  - sources/arxiv-2608-25479-4dstreamctrl.md
   - sources/arxiv-2608-19556-stream4d.md
   - sources/arxiv-2608-20910-infinityedit.md
   - sources/arxiv-2608-23383-joyai-echo-15.md
