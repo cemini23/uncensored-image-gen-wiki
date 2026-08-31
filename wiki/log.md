@@ -1,3 +1,17 @@
+## [2026-08-31] ingest | EmoSay · BrailleBench SKIP · INTENT-AS-A-TOOL ROUTE CCC
+
+Cap-skipped trio from Aug 28 digest (3 NEW). All 3 archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. No clone.
+
+### WATCH
+- **NEW** `@sources/arxiv-2608-26566-emosay.md` + **NEW** `@entities/voice-models/emosay.md` — emotional TTS for XR affective communication. **WATCH**. No code.
+
+### ROUTEd / SKIP
+- **ROUTE CCC** `@sources/arxiv-2608-27348-intent-as-a-tool-routed.md` → `briefs/2026-08-31_intent-as-a-tool-from-image-gen.md` — intent tools for agentic misalignment tracking; MIT repo not cloned here (CCC K323 REFERENCE).
+- **SKIP NLP** `@sources/arxiv-2608-27268-braillebench-skip.md` — Braille LLM comprehension bench.
+
+### Sweeps
+- Committed `@sweeps/2026-08-29-daily.md` (3 fetched) + `@sweeps/2026-08-30-daily.md` (dup-skip day) with YAML frontmatter.
+
 ## [2026-08-28] ingest | FireRedAudio · Sidecar · 4DStreamCtrl · VGA-BenchV2 · PAWBench (+ 11 SKIP/ROUTE)
 
 Full inbox ingest of **16 NEW** arXiv PDFs (sweeps 26 empty / 27 partial / 28 full batch). All 16 archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Clone: **FireRedAudio** Apache-2.0 (~8.7 MB, no weights).

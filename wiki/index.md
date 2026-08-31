@@ -370,6 +370,9 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [OAR radiotherapy QA (arXiv:2608.23432)](sources/arxiv-2608-23432-oar-radiotherapy-skip.md) — organ-at-risk segmentation QA; SKIP medical — `paper, skip, medical`
 - [GeoWAM (arXiv:2608.23486)](sources/arxiv-2608-23486-geowam-skip.md) — Uber AV geometry world-action; SKIP driving — `paper, skip, driving`
 - [FixAnything (arXiv:2608.23549)](sources/arxiv-2608-23549-fixanything.md) — 3D-consistent render refine via video priors; project page only — `paper, video, 3dgs, watch`
+- [EmoSay (arXiv:2608.26566)](sources/arxiv-2608-26566-emosay.md) — emotional TTS for XR affective communication; WATCH — `paper, tts, expressive, watch`
+- [BrailleBench (arXiv:2608.27268)](sources/arxiv-2608-27268-braillebench-skip.md) — LLM Braille comprehension bench; SKIP NLP — `paper, skip, nlp, accessibility`
+- [INTENT-AS-A-TOOL (arXiv:2608.27348)](sources/arxiv-2608-27348-intent-as-a-tool-routed.md) — agentic misalignment via intent tools; ROUTE CCC — `paper, skip, routed, harness`
 - [FireRedAudio (arXiv:2608.24168)](sources/arxiv-2608-24168-fireredaudio.md) — unified 9B audio LM; Apache-2.0 code cloned — `paper, audio, voice, watch`
 - [Lost in Speech (arXiv:2608.24707)](sources/arxiv-2608-24707-lost-in-speech-routed.md) — spoken hallucination detection; ROUTE cybersec — `paper, skip, routed, safety`
 - [VGA-BenchV2 (arXiv:2608.25452)](sources/arxiv-2608-25452-vga-benchv2.md) — video aesthetics + generation quality; WATCH — `paper, benchmark, video, watch`
@@ -586,6 +589,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [SemBridge](entities/voice-models/sembridge.md) — semantic-token anchoring for continuous-latent AR TTS/SVS; WATCH (skeleton) — `voice-cloning, tts, continuous-latent, watch`
 - [Phoenix TTS (Didi flow-matching speech tokenization)](entities/voice-models/phoenix-tts.md) — tokenizer+FM joint training; zero-shot TTS+VC; WATCH (no code) — `voice-cloning, tts, flow-matching, watch`
 - [VoiceChat-TTS (NVIDIA streamable TTS)](entities/voice-models/voicechat-tts.md) — LLM token stream + barge-in, no KV reset; WATCH (518 MB NeMo + OpenMDW 11B) — `voice-cloning, tts, streaming, nvidia, watch`
+- [EmoSay (text-to-emotional-speech for XR)](entities/voice-models/emosay.md) — affective TTS for extended reality; WATCH (no code) — `voice-cloning, tts, expressive, watch`
 - [FireRedTTS3 (Xiaohongshu continuous AR + Instruct edit)](entities/voice-models/fireredtts3.md) — 24 langs / 21 ZH dialects; Apache-2.0 code cloned 1.5 MB; research-disclaimer cloning; weights not fetched — `voice-cloning, tts, speech-editing, watch`
 - [FireRedAudio (unified 9B audio LM)](entities/voice-models/fireredaudio.md) — understand + generate; Apache-2.0 cloned ~8.7 MB; weights not fetched — `voice-cloning, tts, audio-lm, watch`
 - [X2Streaming-TTS (causal token-level streaming)](entities/voice-models/x2streaming-tts.md) — commitment + speech-state inheritance; Qwen3-TTS backbone; repo 404 — `voice-cloning, tts, streaming, watch`

@@ -9,6 +9,8 @@ related:
   - concepts/mllm-video-translation.md
   - concepts/model-selection-workflow.md
   - concepts/iterative-self-learning-expressive-tts.md
+  - entities/voice-models/emosay.md
+  - sources/arxiv-2608-26566-emosay.md
   - entities/voice-models/fireredaudio.md
   - entities/voice-models/fireredtts3.md
   - sources/arxiv-2608-24168-fireredaudio.md

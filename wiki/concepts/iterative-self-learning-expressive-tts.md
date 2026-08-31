@@ -4,6 +4,8 @@ type: concept
 tags: [concept, tts, expressive, semi-supervised, voice]
 keywords: [ISL, Invert-Classify, prominence, emotion labels, pseudo-label, Fish-Speech]
 related:
+  - entities/voice-models/emosay.md
+  - sources/arxiv-2608-26566-emosay.md
   - sources/arxiv-2608-15910-isl-expressive-tts.md
   - concepts/persona-audio-stack.md
   - entities/persona-ops/fish-speech.md
@@ -16,7 +18,7 @@ updated: 2026-08-18
 
 ## Relations
 
-@sources/arxiv-2608-15910-isl-expressive-tts.md @concepts/persona-audio-stack.md @entities/persona-ops/fish-speech.md @entities/voice-models/phoenix-tts.md @sweeps/2026-08-18-daily.md
+@sources/arxiv-2608-15910-isl-expressive-tts.md @entities/voice-models/emosay.md @concepts/persona-audio-stack.md @entities/persona-ops/fish-speech.md @entities/voice-models/phoenix-tts.md @sweeps/2026-08-18-daily.md
 
 ## Raw Concept
 

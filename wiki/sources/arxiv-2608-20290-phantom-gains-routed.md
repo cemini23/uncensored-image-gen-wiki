@@ -4,6 +4,7 @@ type: source
 tags: [paper, skip, routed, eval, self-improvement]
 keywords: [Phantom Gains, measured null, LoRA self-training, Qwen3-8B, Apache-2.0]
 related:
+  - sources/arxiv-2608-27348-intent-as-a-tool-routed.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-08-21-daily.md
 maturity: draft
@@ -16,7 +17,7 @@ wire_status: wont_wire
 
 ## Relations
 
-@sweeps/2026-08-21-daily.md @concepts/federated-daily-research-digest.md
+@sweeps/2026-08-21-daily.md @sources/arxiv-2608-27348-intent-as-a-tool-routed.md @concepts/federated-daily-research-digest.md
 
 ## Raw Concept
 

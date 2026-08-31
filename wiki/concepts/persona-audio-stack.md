@@ -10,11 +10,14 @@ related:
   - concepts/federated-daily-research-digest.md
   - concepts/generative-ai-era-deepfake-landscape.md
   - concepts/iterative-self-learning-expressive-tts.md
+  - entities/voice-models/emosay.md
+  - sources/arxiv-2608-26566-emosay.md
   - entities/voice-models/fireredaudio.md
   - entities/voice-models/fireredtts3.md
   - sources/arxiv-2608-24168-fireredaudio.md
   - sources/arxiv-2608-17492-fireredtts3.md
   - sources/arxiv-2608-27360-voice-clone-anonymizer.md
+  - sweeps/2026-08-29-daily.md
   - sources/arxiv-2608-18607-va-judger.md
   - sources/arxiv-2608-18661-x2streaming-tts.md
   - sources/arxiv-2608-18832-efficientsync.md

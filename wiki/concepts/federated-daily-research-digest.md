@@ -171,6 +171,11 @@ related:
   - sweeps/2026-08-26-daily.md
   - sweeps/2026-08-27-daily.md
   - sweeps/2026-08-28-daily.md
+  - sweeps/2026-08-29-daily.md
+  - sweeps/2026-08-30-daily.md
+  - sources/arxiv-2608-26566-emosay.md
+  - sources/arxiv-2608-27268-braillebench-skip.md
+  - sources/arxiv-2608-27348-intent-as-a-tool-routed.md
   - sources/arxiv-2608-24168-fireredaudio.md
   - sources/arxiv-2608-24707-lost-in-speech-routed.md
   - sources/arxiv-2608-25452-vga-benchv2.md
@@ -194,7 +199,7 @@ tags: [meta, automation, federation, discovery, k93]
 keywords: [daily-research-digest, exa, inbox, sweep, federated, launchagent, discovery-loop]
 maturity: validated
 created: 2026-06-01
-updated: 2026-08-28
+updated: 2026-08-31
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

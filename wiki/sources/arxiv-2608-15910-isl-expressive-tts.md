@@ -6,8 +6,10 @@ keywords: [ISL, Invert-Classify, prominence, emotion, pseudo-label, flow matchin
 related:
   - concepts/iterative-self-learning-expressive-tts.md
   - concepts/persona-audio-stack.md
+  - entities/voice-models/emosay.md
   - entities/persona-ops/fish-speech.md
   - entities/voice-models/phoenix-tts.md
+  - sources/arxiv-2608-26566-emosay.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-08-18-daily.md
 maturity: draft
