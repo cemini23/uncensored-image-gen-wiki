@@ -65,6 +65,7 @@ Per-item verdicts:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-09-01 | Inbox ingest RASA · DreamX-Creator · LayerRecall · NoisEasier · CAER; skip/route rest | 16 NEW PDFs; RASA + FaceRec MIT + DreamX stub cloned (no weights). Sweep 09-01 committed. Image-gen Phase-1: none. |
 | 2026-08-31 | Inbox ingest EmoSay; skip BrailleBench; route INTENT-AS-A-TOOL to CCC | 3 cap-skipped PDFs from Aug 28–29 digest; no clone. Sweeps 29–30 committed. Image-gen Phase-1: none. |
 | 2026-08-28 | Inbox ingest FireRedAudio · Sidecar · 4DStreamCtrl · VGA-BenchV2 · PAWBench; skip/route rest | 16 NEW PDFs; FireRedAudio Apache-2.0 cloned (~8.7 MB, no weights); TempJail + Lost in Speech → cybersec briefs. Sweeps 26–28 committed. Image-gen Phase-1: none. |
 | 2026-08-25 | Inbox ingest JoyAI-Echo-1.5 · ChebBooster · face NVS · FixAnything; skip rest | Overnight 8 NEW; ChebBooster MIT cloned; Echo LTX-2 community license not cloned. Image-gen Phase-1: none. |

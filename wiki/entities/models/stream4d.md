@@ -8,6 +8,8 @@ related:
   - entities/lipsync/dynaforcing.md
   - entities/models/wan-2-2.md
   - sources/arxiv-2608-19556-stream4d.md
+  - entities/models/layerrecall.md
+  - sources/arxiv-2608-28460-layerrecall.md
   - entities/models/4dstreamctrl.md
   - sources/arxiv-2608-25479-4dstreamctrl.md
   - entities/models/infinityedit.md

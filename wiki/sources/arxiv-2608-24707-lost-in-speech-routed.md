@@ -5,6 +5,7 @@ tags: [paper, speech, safety, routed-cybersec]
 keywords: [spoken hallucination, detection, ASR, safety]
 related:
   - concepts/federated-daily-research-digest.md
+  - sources/arxiv-2608-30776-lcar-acoustic-reranking.md
   - sweeps/2026-08-28-daily.md
 maturity: draft
 read_status: skimmed

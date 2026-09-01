@@ -1,3 +1,23 @@
+## [2026-09-01] ingest | RASA · DreamX-Creator · LayerRecall · NoisEasier · CAER (+ 11 SKIP/ROUTE)
+
+Full inbox ingest of **16 NEW** arXiv PDFs (sweep 2026-09-01). All 16 archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Clones: **RASA** Apache-2.0 (~191 MB), **FaceRec-IdentityConsistency** MIT (~252 MB), **DreamX-Creator** Apache-2.0 stub (~6.1 MB); no weights fetched.
+
+### WATCH
+- **NEW** `@sources/arxiv-2608-28219-rasa.md` + **NEW** `@entities/models/rasa.md` — cross-identity character animation. **WATCH HIGH / GO code**.
+- **NEW** `@sources/arxiv-2608-28404-vatix.md` + **NEW** `@entities/models/vatix.md` — video diffusion scaling laws. **WATCH**.
+- **NEW** `@sources/arxiv-2608-28460-layerrecall.md` + **NEW** `@entities/models/layerrecall.md` — long-horizon memory router. **WATCH HIGH**.
+- **NEW** `@sources/arxiv-2608-28549-geonext.md` + **NEW** `@entities/models/geonext.md` — video gen as geometry learner. **WATCH**.
+- **NEW** `@sources/arxiv-2608-30194-noiseasier.md` + **NEW** `@entities/models/noiseasier.md` — T2V test-time noise opt. **WATCH HIGH**.
+- **NEW** `@sources/arxiv-2608-30776-lcar-acoustic-reranking.md` — ASR hallucination reranking. **WATCH**.
+- **NEW** `@sources/arxiv-2608-30897-caer.md` + **NEW** `@entities/models/caer.md` — causal world-model reweighting. **WATCH HIGH**.
+- **NEW** `@sources/arxiv-2608-31053-identity-lcd-face.md` + **NEW** `@entities/models/identity-lcd-face.md` — identity LCD face. **WATCH HIGH / GO code**.
+- **NEW** `@sources/arxiv-2608-31106-dreamx-creator.md` + **NEW** `@entities/models/dreamx-creator.md` — native 2K AV. **WATCH HIGH / GO stub**.
+
+### ROUTEd / SKIP
+- **ROUTE cybersec** `@sources/arxiv-2608-28490-llm-agents-security-routed.md`
+- **ROUTE OSINT** `@sources/arxiv-2608-30957-defi-fx-routed.md`
+- **SKIP** transport 28022 · ARC-CT 28455 · xTRUCE 28532 · Navier-Stokes 30715 · codec RL 31035
+
 ## [2026-08-31] ingest | EmoSay · BrailleBench SKIP · INTENT-AS-A-TOOL ROUTE CCC
 
 Cap-skipped trio from Aug 28 digest (3 NEW). All 3 archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. No clone.

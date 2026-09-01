@@ -10,6 +10,7 @@ related:
   - concepts/hybrid-policy-self-distillation-video.md
   - entities/models/wan-2-2.md
   - entities/models/kairos.md
+  - entities/models/caer.md
 maturity: draft
 created: 2026-08-17
 updated: 2026-08-17
@@ -19,7 +20,7 @@ phase0_verdict: WATCH
 
 ## Relations
 
-@sources/arxiv-2608-14022-forgewm.md @concepts/world-models-video-generation.md @concepts/context-matched-video-distillation.md @concepts/hybrid-policy-self-distillation-video.md @entities/models/wan-2-2.md @entities/models/kairos.md
+@sources/arxiv-2608-14022-forgewm.md @concepts/world-models-video-generation.md @concepts/context-matched-video-distillation.md @concepts/hybrid-policy-self-distillation-video.md @entities/models/wan-2-2.md @entities/models/kairos.md @entities/models/caer.md
 
 ## Raw Concept
 

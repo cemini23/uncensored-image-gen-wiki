@@ -8,6 +8,8 @@ related:
   - entities/models/linca.md
   - entities/models/sparsepr.md
   - entities/models/wan-2-2.md
+  - entities/models/noiseasier.md
+  - sources/arxiv-2608-30194-noiseasier.md
   - sources/arxiv-2608-23429-chebbooster.md
   - sweeps/2026-08-25-daily.md
 maturity: draft

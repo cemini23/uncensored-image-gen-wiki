@@ -17,7 +17,11 @@ related:
   - sources/arxiv-2608-24168-fireredaudio.md
   - sources/arxiv-2608-17492-fireredtts3.md
   - sources/arxiv-2608-27360-voice-clone-anonymizer.md
+  - sources/arxiv-2608-30776-lcar-acoustic-reranking.md
+  - sources/arxiv-2608-31106-dreamx-creator.md
+  - entities/models/dreamx-creator.md
   - sweeps/2026-08-29-daily.md
+  - sweeps/2026-09-01-daily.md
   - sources/arxiv-2608-18607-va-judger.md
   - sources/arxiv-2608-18661-x2streaming-tts.md
   - sources/arxiv-2608-18832-efficientsync.md

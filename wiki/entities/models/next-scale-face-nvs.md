@@ -6,6 +6,8 @@ keywords: [next-scale, NVS, Meta, EPFL]
 related:
   - concepts/persona-consistency-methods.md
   - concepts/video-identity-inheritance.md
+  - entities/models/identity-lcd-face.md
+  - sources/arxiv-2608-31053-identity-lcd-face.md
   - sources/arxiv-2608-23410-next-scale-face-nvs.md
   - sweeps/2026-08-25-daily.md
 maturity: draft

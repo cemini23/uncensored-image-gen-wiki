@@ -17,6 +17,8 @@ related:
   - sources/arxiv-2606-08260-tide-unified-video-editing.md
   - concepts/task-isolated-unified-video-editing.md
   - entities/models/tide.md
+  - entities/models/dreamx-creator.md
+  - sources/arxiv-2608-31106-dreamx-creator.md
 maturity: draft
 created: 2026-06-06
 updated: 2026-06-10

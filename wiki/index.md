@@ -371,6 +371,22 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [GeoWAM (arXiv:2608.23486)](sources/arxiv-2608-23486-geowam-skip.md) — Uber AV geometry world-action; SKIP driving — `paper, skip, driving`
 - [FixAnything (arXiv:2608.23549)](sources/arxiv-2608-23549-fixanything.md) — 3D-consistent render refine via video priors; project page only — `paper, video, 3dgs, watch`
 - [EmoSay (arXiv:2608.26566)](sources/arxiv-2608-26566-emosay.md) — emotional TTS for XR affective communication; WATCH — `paper, tts, expressive, watch`
+- [RASA (arXiv:2608.28219)](sources/arxiv-2608-28219-rasa.md) — cross-identity character animation; Apache-2.0 cloned — `paper, video, animation, watch`
+- [VATIX scaling (arXiv:2608.28404)](sources/arxiv-2608-28404-vatix.md) — video diffusion scaling laws; WATCH — `paper, video, scaling-law, watch`
+- [LayerRecall (arXiv:2608.28460)](sources/arxiv-2608-28460-layerrecall.md) — long-horizon video memory router; WATCH HIGH — `paper, video, memory, watch`
+- [GeoNeXt (arXiv:2608.28549)](sources/arxiv-2608-28549-geonext.md) — video gen as geometry learner; WATCH — `paper, video, geometry, watch`
+- [NoisEasier (arXiv:2608.30194)](sources/arxiv-2608-30194-noiseasier.md) — T2V test-time noise optimization; WATCH HIGH — `paper, video, t2v, watch`
+- [LCAR acoustic reranking (arXiv:2608.30776)](sources/arxiv-2608-30776-lcar-acoustic-reranking.md) — ASR hallucination mitigation; WATCH — `paper, asr, watch`
+- [CAER (arXiv:2608.30897)](sources/arxiv-2608-30897-caer.md) — causal world-model reweighting; WATCH HIGH — `paper, world-model, watch`
+- [Identity LCD face (arXiv:2608.31053)](sources/arxiv-2608-31053-identity-lcd-face.md) — identity LCD face synthesis; MIT cloned — `paper, face, identity, watch`
+- [DreamX-Creator (arXiv:2608.31106)](sources/arxiv-2608-31106-dreamx-creator.md) — native 2K audio-video; Apache-2.0 stub cloned — `paper, video, audio, watch`
+- [Transport penalties (arXiv:2608.28022)](sources/arxiv-2608-28022-transport-matched-penalties-skip.md) — SKIP sci-ML — `paper, skip`
+- [ARC-CT (arXiv:2608.28455)](sources/arxiv-2608-28455-arc-ct-skip.md) — SKIP medical — `paper, skip, medical`
+- [LLM agents security (arXiv:2608.28490)](sources/arxiv-2608-28490-llm-agents-security-routed.md) — ROUTE cybersec — `paper, routed`
+- [xTRUCE (arXiv:2608.28532)](sources/arxiv-2608-28532-xtruce-skip.md) — SKIP telecom — `paper, skip`
+- [Navier-Stokes (arXiv:2608.30715)](sources/arxiv-2608-30715-navier-stokes-skip.md) — SKIP physics — `paper, skip`
+- [DeFi FX pools (arXiv:2608.30957)](sources/arxiv-2608-30957-defi-fx-routed.md) — ROUTE OSINT — `paper, routed`
+- [Codec RL (arXiv:2608.31035)](sources/arxiv-2608-31035-codec-rl-skip.md) — SKIP — `paper, skip`
 - [BrailleBench (arXiv:2608.27268)](sources/arxiv-2608-27268-braillebench-skip.md) — LLM Braille comprehension bench; SKIP NLP — `paper, skip, nlp, accessibility`
 - [INTENT-AS-A-TOOL (arXiv:2608.27348)](sources/arxiv-2608-27348-intent-as-a-tool-routed.md) — agentic misalignment via intent tools; ROUTE CCC — `paper, skip, routed, harness`
 - [FireRedAudio (arXiv:2608.24168)](sources/arxiv-2608-24168-fireredaudio.md) — unified 9B audio LM; Apache-2.0 code cloned — `paper, audio, voice, watch`
@@ -609,6 +625,14 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [4DStreamCtrl (online 4D streaming control)](entities/models/4dstreamctrl.md) — Tencent Hunyuan interactive streaming; project page only — `model, video, streaming, 4d-control, watch`
 - [AESR (agentic enhancement + semantic repair ID T2V)](entities/models/aesr.md) — closed-API playbook loop; no SPDX — `model, video, identity, watch`
 - [InfinityEdit (edit-ignition adapter for unbounded streams)](entities/models/infinityedit.md) — Apache-2.0 cloned; Helios weights not fetched — `model, video, editing, streaming, watch`
+- [DreamX-Creator (native 2K audio-video)](entities/models/dreamx-creator.md) — Apache-2.0 stub cloned; weights TBD — `model, video, audio, av, watch`
+- [RASA (cross-identity character animation)](entities/models/rasa.md) — spatial-motional priors; Apache-2.0 cloned ~191 MB — `model, video, animation, watch`
+- [LayerRecall (long-horizon video memory)](entities/models/layerrecall.md) — state-conditioned memory router; paper-only — `model, video, memory, watch`
+- [NoisEasier (T2V noise optimization)](entities/models/noiseasier.md) — test-time initial-noise search; project page — `model, video, t2v, watch`
+- [Identity LCD face synthesis](entities/models/identity-lcd-face.md) — MIT cloned ~252 MB REFERENCE — `model, face, identity, watch`
+- [CAER (world-model reweighting)](entities/models/caer.md) — causal action-effect reweighting; project page — `model, world-model, watch`
+- [GeoNeXt (geometry from video gen)](entities/models/geonext.md) — depth/normal via video gen; project page — `model, video, geometry, watch`
+- [VATIX (video diffusion scaling)](entities/models/vatix.md) — driving scaling laws; null SPDX — `model, video, scaling-law, watch`
 - [JoyAI-Echo-1.5 (long-horizon AV)](entities/models/joyai-echo.md) — cross-shot memory + 6-DoF world; LTX-2 Community License not cloned — `model, video, audio-visual, watch`
 - [ChebBooster (Chebyshev DiT extrapolation)](entities/models/chebbooster.md) — MIT cloned ~5 MB; training-free timestep skip — `model, dit, acceleration, mit, watch`
 - [Next-scale face NVS](entities/models/next-scale-face-nvs.md) — Meta/EPFL multi-view face AR; no code — `model, face, novel-view, watch`

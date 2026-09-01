@@ -35,9 +35,15 @@ related:
   - entities/models/egogenesis.md
   - entities/models/emoworld.md
   - entities/models/filmworld.md
+  - entities/models/forgewm.md
   - entities/benchmarks/pawbench.md
   - entities/models/4dstreamctrl.md
-  - entities/models/forgewm.md
+  - entities/models/caer.md
+  - entities/models/geonext.md
+  - entities/models/vatix.md
+  - sources/arxiv-2608-28404-vatix.md
+  - sources/arxiv-2608-28549-geonext.md
+  - sources/arxiv-2608-30897-caer.md
   - entities/models/freqforcing.md
   - entities/models/garfield.md
   - entities/models/helloworld.md
@@ -133,10 +139,11 @@ related:
   - sweeps/2026-07-22-daily.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
+  - sweeps/2026-09-01-daily.md
   - sources/arxiv-2608-11013-wsv-video-captioning.md
 maturity: draft
 created: 2026-05-16
-updated: 2026-08-25
+updated: 2026-09-01
 ---
 ## Relations
 

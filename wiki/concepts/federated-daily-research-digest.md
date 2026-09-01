@@ -173,6 +173,25 @@ related:
   - sweeps/2026-08-28-daily.md
   - sweeps/2026-08-29-daily.md
   - sweeps/2026-08-30-daily.md
+  - sweeps/2026-08-31-daily.md
+  - sweeps/2026-09-01-daily.md
+  - sweeps/2026-09-01-daily.md
+  - sources/arxiv-2608-28022-transport-matched-penalties-skip.md
+  - sources/arxiv-2608-28219-rasa.md
+  - sources/arxiv-2608-28404-vatix.md
+  - sources/arxiv-2608-28455-arc-ct-skip.md
+  - sources/arxiv-2608-28460-layerrecall.md
+  - sources/arxiv-2608-28490-llm-agents-security-routed.md
+  - sources/arxiv-2608-28532-xtruce-skip.md
+  - sources/arxiv-2608-28549-geonext.md
+  - sources/arxiv-2608-30194-noiseasier.md
+  - sources/arxiv-2608-30715-navier-stokes-skip.md
+  - sources/arxiv-2608-30776-lcar-acoustic-reranking.md
+  - sources/arxiv-2608-30897-caer.md
+  - sources/arxiv-2608-30957-defi-fx-routed.md
+  - sources/arxiv-2608-31035-codec-rl-skip.md
+  - sources/arxiv-2608-31053-identity-lcd-face.md
+  - sources/arxiv-2608-31106-dreamx-creator.md
   - sources/arxiv-2608-26566-emosay.md
   - sources/arxiv-2608-27268-braillebench-skip.md
   - sources/arxiv-2608-27348-intent-as-a-tool-routed.md
@@ -199,7 +218,7 @@ tags: [meta, automation, federation, discovery, k93]
 keywords: [daily-research-digest, exa, inbox, sweep, federated, launchagent, discovery-loop]
 maturity: validated
 created: 2026-06-01
-updated: 2026-08-31
+updated: 2026-09-01
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

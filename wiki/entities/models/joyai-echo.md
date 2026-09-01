@@ -8,6 +8,8 @@ related:
   - concepts/world-models-video-generation.md
   - entities/models/ltx-2.md
   - entities/models/wan-2-2.md
+  - entities/models/dreamx-creator.md
+  - sources/arxiv-2608-31106-dreamx-creator.md
   - sources/arxiv-2608-23383-joyai-echo-15.md
   - sweeps/2026-08-25-daily.md
 maturity: draft

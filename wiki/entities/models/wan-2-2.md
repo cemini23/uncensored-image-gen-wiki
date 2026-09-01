@@ -81,6 +81,9 @@ related:
   - entities/models/helloworld.md
   - entities/models/homie.md
   - entities/models/hunyuanvideo-1-5.md
+  - entities/models/caer.md
+  - entities/models/noiseasier.md
+  - entities/models/rasa.md
   - entities/models/chebbooster.md
   - entities/models/fixanything.md
   - entities/models/4dstreamctrl.md
@@ -244,6 +247,9 @@ related:
   - sources/arxiv-2608-19556-stream4d.md
   - sources/arxiv-2608-20910-infinityedit.md
   - sources/arxiv-2608-23383-joyai-echo-15.md
+  - sources/arxiv-2608-30897-caer.md
+  - sources/arxiv-2608-30194-noiseasier.md
+  - sources/arxiv-2608-28219-rasa.md
   - sources/arxiv-2608-23429-chebbooster.md
   - sources/arxiv-2608-23549-fixanything.md
   - sweeps/2026-08-18-daily.md

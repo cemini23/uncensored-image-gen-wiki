@@ -118,14 +118,21 @@ related:
   - sweeps/2026-07-22-daily.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
+  - sweeps/2026-09-01-daily.md
   - sources/arxiv-2608-03708-multicompose.md
   - sources/arxiv-2608-14403-craft-attention-personalization.md
   - entities/models/multicompose.md
   - sources/arxiv-2608-04820-resem-face.md
   - entities/models/agentic-i2v.md
   - sources/arxiv-2608-12290-agentic-i2v.md
+  - entities/models/identity-lcd-face.md
+  - entities/models/layerrecall.md
+  - entities/models/rasa.md
   - concepts/sidecar-semantic-story-reuse.md
   - entities/benchmarks/personashot.md
+  - sources/arxiv-2608-28219-rasa.md
+  - sources/arxiv-2608-28460-layerrecall.md
+  - sources/arxiv-2608-31053-identity-lcd-face.md
   - sources/arxiv-2608-27280-sidecar.md
   - sources/arxiv-2608-16717-personashot.md
   - entities/models/aesr.md

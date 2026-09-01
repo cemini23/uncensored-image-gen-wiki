@@ -4,6 +4,8 @@ type: concept
 tags: [persona-consistency, video, training-free, watch]
 keywords: [Sidecar, semantic reuse, visual storytelling]
 related:
+  - entities/models/layerrecall.md
+  - sources/arxiv-2608-28460-layerrecall.md
   - concepts/persona-consistency-methods.md
   - entities/benchmarks/personashot.md
   - sources/arxiv-2608-27280-sidecar.md
