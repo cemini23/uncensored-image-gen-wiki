@@ -38,6 +38,11 @@ related:
   - sources/arxiv-2607-25984-schroedingers-cat.md
   - entities/benchmarks/camworldqa.md
   - sources/arxiv-2608-18710-camworldqa.md
+  - entities/models/merope.md
+  - entities/models/cameraeditor.md
+  - sources/arxiv-2609-01252-merope.md
+  - sources/arxiv-2609-01479-cameraeditor.md
+  - sweeps/2026-09-02-daily.md
 title: Camera-Controlled Video Generation
 type: concept
 tags: [concept, video-generation, camera-control, 6-dof, conditioning]

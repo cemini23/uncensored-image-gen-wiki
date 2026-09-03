@@ -140,6 +140,11 @@ related:
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
   - sweeps/2026-09-01-daily.md
+  - sweeps/2026-09-02-daily.md
+  - entities/models/h3-world.md
+  - entities/models/rift.md
+  - sources/arxiv-2609-00742-rift.md
+  - sources/arxiv-2609-01560-h3-world.md
   - sources/arxiv-2608-11013-wsv-video-captioning.md
 maturity: draft
 created: 2026-05-16

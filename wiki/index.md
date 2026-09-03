@@ -380,6 +380,14 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [CAER (arXiv:2608.30897)](sources/arxiv-2608-30897-caer.md) — causal world-model reweighting; WATCH HIGH — `paper, world-model, watch`
 - [Identity LCD face (arXiv:2608.31053)](sources/arxiv-2608-31053-identity-lcd-face.md) — identity LCD face synthesis; MIT cloned — `paper, face, identity, watch`
 - [DreamX-Creator (arXiv:2608.31106)](sources/arxiv-2608-31106-dreamx-creator.md) — native 2K audio-video; Apache-2.0 stub cloned — `paper, video, audio, watch`
+- [RIFT AI video detection (arXiv:2609.00742)](sources/arxiv-2609-00742-rift.md) — cross-scale coupling mismatch; Apache clone — `paper, video, detection, watch`
+- [Ready to Speak (arXiv:2609.01246)](sources/arxiv-2609-01246-ready-to-speak.md) — TTS-friendly LLM alignment — `paper, tts, watch`
+- [MeRoPE (arXiv:2609.01252)](sources/arxiv-2609-01252-merope.md) — metric RoPE camera video — `paper, video, camera, watch`
+- [Gaussian Core LoRA (arXiv:2609.01433)](sources/arxiv-2609-01433-gaussian-core-lora.md) — concept erasure LoRA — `paper, lora, unlearning, watch`
+- [CameraEditor (arXiv:2609.01479)](sources/arxiv-2609-01479-cameraeditor.md) — camera image editing via video prior — `paper, editing, watch`
+- [Offline DDO SKIP (arXiv:2609.01493)](sources/arxiv-2609-01493-offline-ddo-skip.md) — optimization theory — `paper, skip`
+- [SDARE-Bench SKIP (arXiv:2609.01548)](sources/arxiv-2609-01548-sdare-bench-skip.md) — mental-health NLP bench — `paper, skip`
+- [H3-World (arXiv:2609.01560)](sources/arxiv-2609-01560-h3-world.md) — language to world control — `paper, world-model, watch`
 - [Transport penalties (arXiv:2608.28022)](sources/arxiv-2608-28022-transport-matched-penalties-skip.md) — SKIP sci-ML — `paper, skip`
 - [ARC-CT (arXiv:2608.28455)](sources/arxiv-2608-28455-arc-ct-skip.md) — SKIP medical — `paper, skip, medical`
 - [LLM agents security (arXiv:2608.28490)](sources/arxiv-2608-28490-llm-agents-security-routed.md) — ROUTE cybersec — `paper, routed`
@@ -626,6 +634,12 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [AESR (agentic enhancement + semantic repair ID T2V)](entities/models/aesr.md) — closed-API playbook loop; no SPDX — `model, video, identity, watch`
 - [InfinityEdit (edit-ignition adapter for unbounded streams)](entities/models/infinityedit.md) — Apache-2.0 cloned; Helios weights not fetched — `model, video, editing, streaming, watch`
 - [DreamX-Creator (native 2K audio-video)](entities/models/dreamx-creator.md) — Apache-2.0 stub cloned; weights TBD — `model, video, audio, av, watch`
+- [RIFT (AI video detection)](entities/models/rift.md) — Apache-2.0 cloned ~222 MB — `model, detection, video, watch`
+- [Ready to Speak (TTS-friendly LLM)](entities/voice-models/ready-to-speak.md) — pre-TTS alignment — `voice-model, tts, watch`
+- [MeRoPE (camera RoPE video)](entities/models/merope.md) — metric camera embedding — `model, video, camera, watch`
+- [Gaussian Core LoRA (concept erasure)](entities/adapters/gaussian-core-lora.md) — distribution-aware erasure — `adapter, lora, watch`
+- [CameraEditor (camera image edit)](entities/models/cameraeditor.md) — video-prior sequential edit — `model, editing, watch`
+- [H3-World (language world control)](entities/models/h3-world.md) — null SPDX repo; paper-only — `model, world-model, watch`
 - [RASA (cross-identity character animation)](entities/models/rasa.md) — spatial-motional priors; Apache-2.0 cloned ~191 MB — `model, video, animation, watch`
 - [LayerRecall (long-horizon video memory)](entities/models/layerrecall.md) — state-conditioned memory router; paper-only — `model, video, memory, watch`
 - [NoisEasier (T2V noise optimization)](entities/models/noiseasier.md) — test-time initial-noise search; project page — `model, video, t2v, watch`

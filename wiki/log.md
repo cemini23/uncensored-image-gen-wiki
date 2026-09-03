@@ -1,3 +1,18 @@
+## [2026-09-03] ingest | RIFT · MeRoPE · H3-World · CameraEditor · Gaussian Core LoRA (+ 2 SKIP)
+
+Full inbox ingest of **8 NEW** arXiv PDFs (sweep 2026-09-02). All 8 archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Clone: **RIFT** Apache-2.0 (~222 MB).
+
+### WATCH
+- **NEW** `@sources/arxiv-2609-00742-rift.md` + **NEW** `@entities/models/rift.md` — AI video detection. **WATCH / GO code**.
+- **NEW** `@sources/arxiv-2609-01246-ready-to-speak.md` + **NEW** `@entities/voice-models/ready-to-speak.md` — TTS-friendly LLM alignment. **WATCH**.
+- **NEW** `@sources/arxiv-2609-01252-merope.md` + **NEW** `@entities/models/merope.md` — camera RoPE video. **WATCH HIGH**.
+- **NEW** `@sources/arxiv-2609-01433-gaussian-core-lora.md` + **NEW** `@entities/adapters/gaussian-core-lora.md` — concept erasure LoRA. **WATCH**.
+- **NEW** `@sources/arxiv-2609-01479-cameraeditor.md` + **NEW** `@entities/models/cameraeditor.md` — camera image editing. **WATCH**.
+- **NEW** `@sources/arxiv-2609-01560-h3-world.md` + **NEW** `@entities/models/h3-world.md` — language world control. **WATCH HIGH** (null SPDX).
+
+### SKIP
+- **SKIP** offline DDO 01493 · SDARE-Bench 01548
+
 ## [2026-09-01] ingest | RASA · DreamX-Creator · LayerRecall · NoisEasier · CAER (+ 11 SKIP/ROUTE)
 
 Full inbox ingest of **16 NEW** arXiv PDFs (sweep 2026-09-01). All 16 archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Clones: **RASA** Apache-2.0 (~191 MB), **FaceRec-IdentityConsistency** MIT (~252 MB), **DreamX-Creator** Apache-2.0 stub (~6.1 MB); no weights fetched.

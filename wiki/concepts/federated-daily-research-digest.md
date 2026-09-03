@@ -175,7 +175,8 @@ related:
   - sweeps/2026-08-30-daily.md
   - sweeps/2026-08-31-daily.md
   - sweeps/2026-09-01-daily.md
-  - sweeps/2026-09-01-daily.md
+  - sweeps/2026-09-02-daily.md
+  - sweeps/2026-09-03-daily.md
   - sources/arxiv-2608-28022-transport-matched-penalties-skip.md
   - sources/arxiv-2608-28219-rasa.md
   - sources/arxiv-2608-28404-vatix.md
@@ -192,6 +193,14 @@ related:
   - sources/arxiv-2608-31035-codec-rl-skip.md
   - sources/arxiv-2608-31053-identity-lcd-face.md
   - sources/arxiv-2608-31106-dreamx-creator.md
+  - sources/arxiv-2609-00742-rift.md
+  - sources/arxiv-2609-01246-ready-to-speak.md
+  - sources/arxiv-2609-01252-merope.md
+  - sources/arxiv-2609-01433-gaussian-core-lora.md
+  - sources/arxiv-2609-01479-cameraeditor.md
+  - sources/arxiv-2609-01493-offline-ddo-skip.md
+  - sources/arxiv-2609-01548-sdare-bench-skip.md
+  - sources/arxiv-2609-01560-h3-world.md
   - sources/arxiv-2608-26566-emosay.md
   - sources/arxiv-2608-27268-braillebench-skip.md
   - sources/arxiv-2608-27348-intent-as-a-tool-routed.md
@@ -218,7 +227,7 @@ tags: [meta, automation, federation, discovery, k93]
 keywords: [daily-research-digest, exa, inbox, sweep, federated, launchagent, discovery-loop]
 maturity: validated
 created: 2026-06-01
-updated: 2026-09-01
+updated: 2026-09-03
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 ---
 

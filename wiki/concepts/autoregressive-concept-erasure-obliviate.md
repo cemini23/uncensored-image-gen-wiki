@@ -13,6 +13,9 @@ related:
   - sources/arxiv-2606-27376-ask-solve-generate-self-evolving-multimodal.md
   - sweeps/2026-07-02-daily.md
   - concepts/multimodal-machine-unlearning.md
+  - entities/adapters/gaussian-core-lora.md
+  - sources/arxiv-2609-01433-gaussian-core-lora.md
+  - sweeps/2026-09-02-daily.md
   - sources/arxiv-2607-07907-multimodal-unlearning-survey.md
   - sweeps/2026-07-13-daily.md
   - concepts/self-evolving-unified-multimodal-training.md

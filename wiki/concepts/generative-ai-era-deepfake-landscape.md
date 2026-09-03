@@ -25,6 +25,9 @@ related:
   - sources/arxiv-2608-12536-indic-speech-encoders-routed.md
   - sources/arxiv-2608-14391-ra-bench-crisis-video-routed.md
   - sources/persona-monetization-2026.md
+  - entities/models/rift.md
+  - sources/arxiv-2609-00742-rift.md
+  - sweeps/2026-09-02-daily.md
   - sweeps/2026-06-30-daily.md
   - sweeps/2026-07-17-daily.md
   - sweeps/2026-07-20-daily.md

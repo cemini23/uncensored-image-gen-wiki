@@ -15,6 +15,9 @@ related:
   - concepts/product-identity-instruction-editing.md
   - sources/arxiv-2605-15523-self-prompting-scene-text-editing.md
   - concepts/self-prompting-scene-text-editing.md
+  - entities/models/cameraeditor.md
+  - sources/arxiv-2609-01479-cameraeditor.md
+  - sweeps/2026-09-02-daily.md
 maturity: draft
 created: 2026-06-15
 updated: 2026-07-01

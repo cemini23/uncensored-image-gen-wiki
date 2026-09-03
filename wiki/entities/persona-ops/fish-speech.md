@@ -17,6 +17,8 @@ related:
   - sources/arxiv-2608-17492-fireredtts3.md
   - sources/arxiv-2608-27360-voice-clone-anonymizer.md
   - concepts/persona-audio-stack.md
+  - entities/voice-models/ready-to-speak.md
+  - sources/arxiv-2609-01246-ready-to-speak.md
   - concepts/persona-monetization-models.md
   - concepts/persona-ops-stack.md
   - concepts/sync-audio-video-customization.md

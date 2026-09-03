@@ -22,6 +22,9 @@ related:
   - entities/models/dreamx-creator.md
   - sweeps/2026-08-29-daily.md
   - sweeps/2026-09-01-daily.md
+  - sweeps/2026-09-02-daily.md
+  - entities/voice-models/ready-to-speak.md
+  - sources/arxiv-2609-01246-ready-to-speak.md
   - sources/arxiv-2608-18607-va-judger.md
   - sources/arxiv-2608-18661-x2streaming-tts.md
   - sources/arxiv-2608-18832-efficientsync.md
