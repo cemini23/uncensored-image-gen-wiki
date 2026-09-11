@@ -220,7 +220,80 @@ related:
   - sources/arxiv-2608-27360-voice-clone-anonymizer.md
   - sources/arxiv-2608-27406-clap-robotics-skip.md
   - sources/arxiv-2608-27431-lotka-volterra-skip.md
+  - sources/arxiv-2609-02623-direction-following-tts.md
+  - sources/arxiv-2609-03203-voxreason.md
+  - sources/arxiv-2609-03211-perovskite-skip.md
+  - sources/arxiv-2609-03502-thai-tts-synthetic.md
+  - sources/arxiv-2609-03989-electron-spin-skip.md
+  - sources/arxiv-2609-04031-dsaquant.md
+  - sources/arxiv-2609-04120-boom-vvt.md
+  - sources/arxiv-2609-04127-epistemic-warrant-routed.md
+  - sources/arxiv-2609-04151-persistent-identity-preservation.md
+  - sources/arxiv-2609-04183-vlm-dense-captioning-skip.md
+  - sources/arxiv-2609-04200-principia.md
+  - sources/arxiv-2609-04455-brain2speech-skip.md
+  - sources/arxiv-2609-04649-readit-guidance.md
+  - sources/arxiv-2609-04867-prism-bench.md
+  - sources/arxiv-2609-04911-tourphysics.md
+  - sources/arxiv-2609-05021-fisher-information-skip.md
+  - sources/arxiv-2609-05171-weagent-mmgenedit.md
+  - sources/arxiv-2609-05247-bulk-surface-diffusion-skip.md
+  - sources/arxiv-2609-05314-hvac-skip.md
+  - sources/arxiv-2609-05327-quantum-circuits-skip.md
+  - sources/arxiv-2609-05354-porous-media-skip.md
+  - sources/arxiv-2609-05363-distill-globally-routed.md
+  - sources/arxiv-2609-06144-tbdub.md
+  - sources/arxiv-2609-07200-kaburi-tts.md
+  - sources/arxiv-2609-08204-instruction-supervision-routed.md
+  - sources/arxiv-2609-08505-temporal-state-transport.md
+  - sources/arxiv-2609-08755-kairos-video-language-dataset.md
+  - sources/arxiv-2609-09076-actreview-routed.md
+  - sources/arxiv-2609-09081-everything-in-moderation-routed.md
+  - sources/arxiv-2609-09123-mask-forcing.md
+  - sources/arxiv-2609-09895-vidhalloc.md
+  - sources/arxiv-2609-10022-deterministic-prompting-tts.md
+  - sources/arxiv-2609-10051-audio-deepfake-localisation-routed.md
+  - sources/arxiv-2609-10199-seeing-the-voice.md
+  - sources/arxiv-2609-10439-fomul-unlearning-routed.md
+  - sources/arxiv-2609-10456-brain-nanoimaging-skip.md
+  - sources/arxiv-2609-10532-tadpole-galaxies-skip.md
+  - sources/arxiv-2609-11507-subject-aware-attention-video.md
+  - sources/arxiv-2609-11638-vidu-s2.md
+  - sources/arxiv-2609-11639-loadiff-electricity-skip.md
+  - sources/arxiv-2609-11657-levy-sdes-skip.md
+  - sources/arxiv-2609-11724-eloquence-mlc-slm.md
+  - sources/arxiv-2609-11725-ncde-acoustic-tts.md
+  - sources/arxiv-2609-11763-speech-deepfake-attacks-routed.md
+  - sources/arxiv-2609-11900-mindtopo-routed.md
   - sweeps/_daily-template.md
+  - sweeps/2026-09-04-daily.md
+  - sweeps/2026-09-05-daily.md
+  - sweeps/2026-09-06-daily.md
+  - sweeps/2026-09-08-daily.md
+  - sweeps/2026-09-09-daily.md
+  - sweeps/2026-09-10-daily.md
+  - sweeps/2026-09-11-daily.md
+  - entities/benchmarks/kairos-video-language.md
+  - entities/benchmarks/persistent-identity-preservation.md
+  - entities/benchmarks/principia.md
+  - entities/benchmarks/prism-bench.md
+  - entities/benchmarks/vidhalloc.md
+  - entities/benchmarks/voxreason.md
+  - entities/lipsync/tbdub.md
+  - entities/models/boom-vvt.md
+  - entities/models/dsaquant.md
+  - entities/models/hyperframes.md
+  - entities/models/mai-image-2-6.md
+  - entities/models/mask-forcing.md
+  - entities/models/readit-guidance.md
+  - entities/models/subject-aware-attention-video.md
+  - entities/models/temporal-state-transport.md
+  - entities/models/tourphysics.md
+  - entities/models/vidu-s2.md
+  - entities/voice-models/deterministic-prompting-tts.md
+  - entities/voice-models/direction-following-tts.md
+  - entities/voice-models/kaburi-tts.md
+  - entities/voice-models/seeing-the-voice.md
 title: Federated daily research digest
 type: concept
 tags: [meta, automation, federation, discovery, k93]
@@ -234,7 +307,7 @@ cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 
 ## Relations
 
-@meta/daily-research-digest-cadence.md @sources/arxiv-2608-17492-fireredtts3.md @sources/arxiv-2608-17695-magnitude-direction-decoupling.md @sources/arxiv-2608-17707-dynaforcing.md @sources/arxiv-2608-17973-linca.md @sources/arxiv-2608-18040-oys-tuned-sampling.md @sources/arxiv-2608-18063-editbridge.md @sources/arxiv-2608-18076-capability-centric-image-data.md @sources/arxiv-2608-18077-hydra-0-routed.md @concepts/persona-ops-stack.md @concepts/persona-audio-stack.md @entities/omnivoice.md @sweeps/_daily-template.md @sources/arxiv-2607-28936-diffattack-fr-evasion.md @sweeps/2026-08-04-daily.md @sweeps/2026-08-05-daily.md @sweeps/2026-08-06-daily.md @sweeps/2026-08-07-daily.md @sources/arxiv-2608-10405-speech-dos-routed.md @sources/arxiv-2608-10606-asr-roundtrip-tts-eval.md @sources/arxiv-2608-10870-nulledit-routed.md @sources/arxiv-2608-10933-safeca-routed.md @sources/arxiv-2608-11013-wsv-video-captioning.md @sources/arxiv-2608-11073-irreversibility-skip.md @sources/arxiv-2608-11114-torf-forecasting-skip.md @sources/arxiv-2608-11201-vidforensics-m1-routed.md @sweeps/2026-08-13-daily.md @sweeps/2026-08-14-daily.md @sweeps/2026-08-11-daily.md @sweeps/2026-08-12-daily.md @sweeps/2026-08-15-daily.md
+@meta/daily-research-digest-cadence.md @sources/arxiv-2608-17492-fireredtts3.md @sources/arxiv-2608-17695-magnitude-direction-decoupling.md @sources/arxiv-2608-17707-dynaforcing.md @sources/arxiv-2608-17973-linca.md @sources/arxiv-2608-18040-oys-tuned-sampling.md @sources/arxiv-2608-18063-editbridge.md @sources/arxiv-2608-18076-capability-centric-image-data.md @sources/arxiv-2608-18077-hydra-0-routed.md @concepts/persona-ops-stack.md @concepts/persona-audio-stack.md @entities/omnivoice.md @sweeps/_daily-template.md @sources/arxiv-2607-28936-diffattack-fr-evasion.md @sweeps/2026-08-04-daily.md @sweeps/2026-08-05-daily.md @sweeps/2026-08-06-daily.md @sweeps/2026-08-07-daily.md @sources/arxiv-2608-10405-speech-dos-routed.md @sources/arxiv-2608-10606-asr-roundtrip-tts-eval.md @sources/arxiv-2608-10870-nulledit-routed.md @sources/arxiv-2608-10933-safeca-routed.md @sources/arxiv-2608-11013-wsv-video-captioning.md @sources/arxiv-2608-11073-irreversibility-skip.md @sources/arxiv-2608-11114-torf-forecasting-skip.md @sources/arxiv-2608-11201-vidforensics-m1-routed.md @sweeps/2026-08-13-daily.md @sweeps/2026-08-14-daily.md @sweeps/2026-08-11-daily.md @sweeps/2026-08-12-daily.md @sweeps/2026-08-15-daily.md @sweeps/2026-09-04-daily.md @sweeps/2026-09-05-daily.md @sweeps/2026-09-06-daily.md @sweeps/2026-09-08-daily.md @sweeps/2026-09-09-daily.md @sweeps/2026-09-10-daily.md @sweeps/2026-09-11-daily.md @entities/benchmarks/kairos-video-language.md @entities/benchmarks/persistent-identity-preservation.md @entities/benchmarks/principia.md @entities/benchmarks/prism-bench.md @entities/benchmarks/vidhalloc.md @entities/benchmarks/voxreason.md @entities/lipsync/tbdub.md @entities/models/boom-vvt.md @entities/models/dsaquant.md @entities/models/hyperframes.md @entities/models/mai-image-2-6.md @entities/models/mask-forcing.md @entities/models/readit-guidance.md @entities/models/subject-aware-attention-video.md @entities/models/temporal-state-transport.md @entities/models/tourphysics.md @entities/models/vidu-s2.md @entities/voice-models/deterministic-prompting-tts.md @entities/voice-models/direction-following-tts.md @entities/voice-models/kaburi-tts.md @entities/voice-models/seeing-the-voice.md
 
 ## Raw Concept
 

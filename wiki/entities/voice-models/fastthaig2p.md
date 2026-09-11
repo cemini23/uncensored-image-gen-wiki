@@ -9,6 +9,7 @@ related:
   - concepts/persona-audio-stack.md
   - entities/persona-ops/fish-speech.md
   - sweeps/2026-08-14-daily.md
+  - sources/arxiv-2609-03502-thai-tts-synthetic.md
 maturity: draft
 created: 2026-08-14
 updated: 2026-08-14
@@ -18,7 +19,7 @@ phase0_verdict: CONDITIONAL
 
 ## Relations
 
-@sources/arxiv-2608-12814-fastthaig2p.md @entities/voice-models/kokoro.md @concepts/persona-audio-stack.md @entities/persona-ops/fish-speech.md
+@sources/arxiv-2608-12814-fastthaig2p.md @entities/voice-models/kokoro.md @concepts/persona-audio-stack.md @entities/persona-ops/fish-speech.md @sources/arxiv-2609-03502-thai-tts-synthetic.md
 
 ## Raw Concept
 

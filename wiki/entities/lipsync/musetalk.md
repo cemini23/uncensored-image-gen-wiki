@@ -18,6 +18,8 @@ related:
   - sources/arxiv-2608-16143-anytalk.md
   - entities/lipsync/efficientsync.md
   - sources/arxiv-2608-18832-efficientsync.md
+  - entities/lipsync/tbdub.md
+  - sources/arxiv-2609-06144-tbdub.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-08-20
@@ -25,7 +27,7 @@ updated: 2026-08-20
 
 ## Relations
 
-@concepts/persona-audio-stack.md
+@concepts/persona-audio-stack.md @entities/lipsync/tbdub.md @sources/arxiv-2609-06144-tbdub.md
 @entities/lipsync/latentsync.md
 @entities/lipsync/wav2lip.md
 @entities/lipsync/sadtalker.md

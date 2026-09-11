@@ -14,6 +14,9 @@ related:
   - sources/arxiv-2606-19103-productconsistency-product-identity-editing.md
   - concepts/product-identity-instruction-editing.md
   - concepts/generative-ai-era-deepfake-landscape.md
+  - entities/benchmarks/persistent-identity-preservation.md
+  - sources/arxiv-2609-04151-persistent-identity-preservation.md
+  - sweeps/2026-09-11-daily.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-06-30
@@ -21,7 +24,7 @@ updated: 2026-06-30
 
 ## Relations
 
-@sources/synthetic-character-consistency-survey.md
+@sources/synthetic-character-consistency-survey.md @entities/benchmarks/persistent-identity-preservation.md @sources/arxiv-2609-04151-persistent-identity-preservation.md @sweeps/2026-09-11-daily.md
 @concepts/persona-consistency-methods.md
 @concepts/character-dna-templates.md
 @concepts/persona-failure-modes.md

@@ -45,6 +45,8 @@ related:
   - entities/models/avatar-forever.md
   - sources/arxiv-2608-12107-avatar-forever.md
   - sources/arxiv-2608-16143-anytalk.md
+  - entities/lipsync/tbdub.md
+  - sources/arxiv-2609-06144-tbdub.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-08-20
@@ -52,7 +54,7 @@ updated: 2026-08-20
 
 ## Relations
 
-@concepts/persona-audio-stack.md @entities/models/echocache.md @sources/arxiv-2608-02474-echocache.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md
+@concepts/persona-audio-stack.md @entities/models/echocache.md @sources/arxiv-2608-02474-echocache.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md @entities/lipsync/tbdub.md @sources/arxiv-2609-06144-tbdub.md
 @entities/lipsync/anytalk.md @entities/lipsync/dynaforcing.md @sources/arxiv-2608-17707-dynaforcing.md
 @entities/lipsync/musetalk.md
 @entities/lipsync/wav2lip.md

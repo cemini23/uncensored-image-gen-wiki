@@ -13,6 +13,8 @@ related:
   - sources/arxiv-2607-14807-tamf-vton-mask-free-virtual-try-on.md
   - sweeps/2026-07-17-daily.md
   - sources/arxiv-2607-18227-flowmimic-mask-free-editing.md
+  - entities/models/boom-vvt.md
+  - sources/arxiv-2609-04120-boom-vvt.md
 maturity: draft
 created: 2026-06-10
 updated: 2026-07-21
@@ -20,7 +22,7 @@ updated: 2026-07-21
 
 ## Relations
 
-@sources/arxiv-2606-08514-omnitryon-video-try-on.md @concepts/video-try-on-anything.md @concepts/persona-consistency-methods.md
+@sources/arxiv-2606-08514-omnitryon-video-try-on.md @concepts/video-try-on-anything.md @concepts/persona-consistency-methods.md @entities/models/boom-vvt.md @sources/arxiv-2609-04120-boom-vvt.md
 
 ## Raw Concept
 

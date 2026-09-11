@@ -14,6 +14,8 @@ related:
   - concepts/multi-view-3d-consistent-world-models.md
   - entities/models/forgewm.md
   - sources/arxiv-2608-14022-forgewm.md
+  - entities/benchmarks/kairos-video-language.md
+  - sources/arxiv-2609-08755-kairos-video-language-dataset.md
 maturity: draft
 created: 2026-06-19
 updated: 2026-08-17
@@ -23,7 +25,7 @@ phase_0_date: 2026-06-19
 
 ## Relations
 
-@sources/arxiv-2606-16533-kairos-native-world-model-stack.md @concepts/physical-ai-native-world-model-stacks.md @concepts/world-models-video-generation.md
+@sources/arxiv-2606-16533-kairos-native-world-model-stack.md @concepts/physical-ai-native-world-model-stacks.md @concepts/world-models-video-generation.md @entities/benchmarks/kairos-video-language.md @sources/arxiv-2609-08755-kairos-video-language-dataset.md
 
 ## Raw Concept
 

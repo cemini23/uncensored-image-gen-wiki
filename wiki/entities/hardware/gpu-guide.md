@@ -39,6 +39,8 @@ related:
   - concepts/fourtune-w4a4g4-diffusion-lora-training.md
   - concepts/mxfp4-attention-video.md
   - sources/arxiv-2607-24377-mxattention.md
+  - entities/models/dsaquant.md
+  - sources/arxiv-2609-04031-dsaquant.md
 maturity: validated
 created: 2026-05-08
 updated: 2026-07-28
@@ -46,7 +48,7 @@ updated: 2026-07-28
 
 ## Relations
 
-@sources/uncensored-image-generation-survey.md
+@sources/uncensored-image-generation-survey.md @entities/models/dsaquant.md @sources/arxiv-2609-04031-dsaquant.md
 @sources/synthetic-character-consistency-survey.md
 @entities/models/flux-1-dev.md
 @entities/models/flux-2-klein.md

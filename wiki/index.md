@@ -388,6 +388,51 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Offline DDO SKIP (arXiv:2609.01493)](sources/arxiv-2609-01493-offline-ddo-skip.md) — optimization theory — `paper, skip`
 - [SDARE-Bench SKIP (arXiv:2609.01548)](sources/arxiv-2609-01548-sdare-bench-skip.md) — mental-health NLP bench — `paper, skip`
 - [H3-World (arXiv:2609.01560)](sources/arxiv-2609-01560-h3-world.md) — language to world control — `paper, world-model, watch`
+- [Direction-Following TTS (arXiv:2609.02623)](sources/arxiv-2609-02623-direction-following-tts.md) — voice-impression-guided pseudo-triplet TTS; INTERSPEECH 2026 — `paper, tts, voice, watch`
+- [VoxReason (arXiv:2609.03203)](sources/arxiv-2609-03203-voxreason.md) — listener-free evaluation of source-grounded speech reasoning; NOASSERTION no clone — `paper, tts, benchmark, watch`
+- [Perovskite thermal history SKIP (arXiv:2609.03211)](sources/arxiv-2609-03211-perovskite-skip.md) — optoelectronics — `paper, skip, physics`
+- [Thai TTS from synthetic speech (arXiv:2609.03502)](sources/arxiv-2609-03502-thai-tts-synthetic.md) — fixed-voice Thai TTS data recipe — `paper, tts, thai, watch`
+- [Electron spin coherence SKIP (arXiv:2609.03989)](sources/arxiv-2609-03989-electron-spin-skip.md) — condensed-matter physics — `paper, skip, physics`
+- [DSAQuant (arXiv:2609.04031)](sources/arxiv-2609-04031-dsaquant.md) — denoising-stage-aligned QAT; Apache-2.0 code cloned — `paper, quantization, video, watch`
+- [BooM-VVT (arXiv:2609.04120)](sources/arxiv-2609-04120-boom-vvt.md) — mask-free video virtual try-on; ACM MM 2026 — `paper, video, virtual-try-on, watch`
+- [Epistemic warrant (arXiv:2609.04127)](sources/arxiv-2609-04127-epistemic-warrant-routed.md) — ROUTE CCC — `paper, routed`
+- [Persistent identity preservation (arXiv:2609.04151)](sources/arxiv-2609-04151-persistent-identity-preservation.md) — identity-preservation benchmark; WATCH HIGH — `paper, identity, benchmark, watch`
+- [VLM dense captioning SKIP (arXiv:2609.04183)](sources/arxiv-2609-04183-vlm-dense-captioning-skip.md) — understanding, not generation — `paper, skip`
+- [Principia (arXiv:2609.04200)](sources/arxiv-2609-04200-principia.md) — relational physics tests for video models; pages only — `paper, benchmark, world-model, watch`
+- [Brain2Speech-Net SKIP (arXiv:2609.04455)](sources/arxiv-2609-04455-brain2speech-skip.md) — medical BCI speech — `paper, skip, medical`
+- [ReaDiT guidance (arXiv:2609.04649)](sources/arxiv-2609-04649-readit-guidance.md) — guidance control for image and video gen — `paper, guidance, diffusion, watch`
+- [PRISM-Bench (arXiv:2609.04867)](sources/arxiv-2609-04867-prism-bench.md) — audio-centric T2AV diagnostic bench — `paper, benchmark, audio, watch`
+- [TourPhysics (arXiv:2609.04911)](sources/arxiv-2609-04911-tourphysics.md) — physics for world models — `paper, video, world-model, watch`
+- [Fisher information SKIP (arXiv:2609.05021)](sources/arxiv-2609-05021-fisher-information-skip.md) — kinematic framework — `paper, skip`
+- [WeAgent-MMGenEdit (arXiv:2609.05171)](sources/arxiv-2609-05171-weagent-mmgenedit.md) — multimodal harness + WeBench; FILE/WATCH, no clone — `paper, benchmark, editing, watch`
+- [Bulk/surface stopping diffusion SKIP (arXiv:2609.05247)](sources/arxiv-2609-05247-bulk-surface-diffusion-skip.md) — statistical mechanics — `paper, skip, physics`
+- [LLMs for HVAC SKIP (arXiv:2609.05314)](sources/arxiv-2609-05314-hvac-skip.md) — building operations — `paper, skip`
+- [Quantum circuits SKIP (arXiv:2609.05327)](sources/arxiv-2609-05327-quantum-circuits-skip.md) — algorithm design — `paper, skip`
+- [Porous media SKIP (arXiv:2609.05354)](sources/arxiv-2609-05354-porous-media-skip.md) — thermodynamics — `paper, skip, physics`
+- [Distill globally, adapt locally (arXiv:2609.05363)](sources/arxiv-2609-05363-distill-globally-routed.md) — ROUTE CCC — `paper, routed`
+- [TBDub (arXiv:2609.06144)](sources/arxiv-2609-06144-tbdub.md) — production visual dubbing; Apache-2.0 clone DONE — `paper, lipsync, dubbing, watch`
+- [KABURI-TTS (arXiv:2609.07200)](sources/arxiv-2609-07200-kaburi-tts.md) — phoneme-keyed activity-conditioned bilingual TTS; Apache-2.0 clone DONE — `paper, tts, voice, watch`
+- [Instruction supervision (arXiv:2609.08204)](sources/arxiv-2609-08204-instruction-supervision-routed.md) — ROUTE CCC — `paper, routed`
+- [Temporal state transport (arXiv:2609.08505)](sources/arxiv-2609-08505-temporal-state-transport.md) — video diffusion temporal transport — `paper, video, diffusion, watch`
+- [KAIROS video-language dataset (arXiv:2609.08755)](sources/arxiv-2609-08755-kairos-video-language-dataset.md) — fine-grained dataset; name collides with Kairos world model — `paper, dataset, video, watch`
+- [ActReview (arXiv:2609.09076)](sources/arxiv-2609-09076-actreview-routed.md) — ROUTE CCC — `paper, routed`
+- [Everything in moderation (arXiv:2609.09081)](sources/arxiv-2609-09081-everything-in-moderation-routed.md) — ROUTE CCC — `paper, routed`
+- [Mask Forcing (arXiv:2609.09123)](sources/arxiv-2609-09123-mask-forcing.md) — autoregressive video diffusion — `paper, video, diffusion, watch`
+- [VidHalLoc (arXiv:2609.09895)](sources/arxiv-2609-09895-vidhalloc.md) — video hallucination localisation; detector peak 34.63% — `paper, video, benchmark, watch`
+- [Deterministic prompting TTS (arXiv:2609.10022)](sources/arxiv-2609-10022-deterministic-prompting-tts.md) — speaker-stable low-resource Greek TTS — `paper, tts, voice, watch`
+- [Audio deepfake localisation (arXiv:2609.10051)](sources/arxiv-2609-10051-audio-deepfake-localisation-routed.md) — ROUTE cybersec, detection-eval only — `paper, routed, cybersec`
+- [Seeing the Voice (arXiv:2609.10199)](sources/arxiv-2609-10199-seeing-the-voice.md) — Deaf-centric participatory TTS design; ASSETS 2026 — `paper, tts, accessibility, watch`
+- [Layer-selective unlearning (arXiv:2609.10439)](sources/arxiv-2609-10439-fomul-unlearning-routed.md) — ROUTE CCC — `paper, routed`
+- [Brain nanoimaging SKIP (arXiv:2609.10456)](sources/arxiv-2609-10456-brain-nanoimaging-skip.md) — medical imaging — `paper, skip, medical`
+- [Tadpole galaxies SKIP (arXiv:2609.10532)](sources/arxiv-2609-10532-tadpole-galaxies-skip.md) — astrophysics — `paper, skip, physics`
+- [Subject-aware attention video (arXiv:2609.11507)](sources/arxiv-2609-11507-subject-aware-attention-video.md) — multi-subject video; WATCH HIGH — `paper, video, identity, watch`
+- [Vidu S2 (arXiv:2609.11638)](sources/arxiv-2609-11638-vidu-s2.md) — real-time interactive video; closed product — `paper, video, product, watch`
+- [LoaDiff SKIP (arXiv:2609.11639)](sources/arxiv-2609-11639-loadiff-electricity-skip.md) — electricity load generation, not image gen — `paper, skip`
+- [Levy SDEs SKIP (arXiv:2609.11657)](sources/arxiv-2609-11657-levy-sdes-skip.md) — probability asymptotics — `paper, skip, math`
+- [Eloquence MLC-SLM (arXiv:2609.11724)](sources/arxiv-2609-11724-eloquence-mlc-slm.md) — speech MCQA submission — `paper, speech, benchmark, watch`
+- [NCDE acoustic modelling (arXiv:2609.11725)](sources/arxiv-2609-11725-ncde-acoustic-tts.md) — neural controlled differential equations; SLT 2026 — `paper, tts, acoustic, watch`
+- [Speech deepfake attacks (arXiv:2609.11763)](sources/arxiv-2609-11763-speech-deepfake-attacks-routed.md) — ROUTE cybersec, detection-eval only — `paper, routed, cybersec`
+- [MindTopo (arXiv:2609.11900)](sources/arxiv-2609-11900-mindtopo-routed.md) — ROUTE CCC — `paper, routed`
 - [Transport penalties (arXiv:2608.28022)](sources/arxiv-2608-28022-transport-matched-penalties-skip.md) — SKIP sci-ML — `paper, skip`
 - [ARC-CT (arXiv:2608.28455)](sources/arxiv-2608-28455-arc-ct-skip.md) — SKIP medical — `paper, skip, medical`
 - [LLM agents security (arXiv:2608.28490)](sources/arxiv-2608-28490-llm-agents-security-routed.md) — ROUTE cybersec — `paper, routed`
@@ -525,6 +570,17 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Vera (Netflix)](entities/models/vera.md) — layered alpha-compositing video editor; no open weights — `model, video-editing, layered-diffusion, netflix` ⚠ stub
 - [ComfyUI LoRA Optimizer (ethanfel)](entities/custom-nodes/lora-optimizer.md) — multi-LoRA conflict resolution node; Phase-0 CONDITIONAL-GO — `custom-nodes, lora, comfyui, gpl-3-0` ⚠ stub
 - [EMOSH (Tencent/WeChat Vision)](entities/models/emosh.md) — EHM mesh human animation on Wan2.1-I2V; no open weights — `model, human-animation, avatar, tencent` ⚠ stub
+
+- [DSAQuant](entities/models/dsaquant.md) — denoising-stage-aligned QAT for video diffusion; Apache-2.0 code cloned 1 MB, no weights — `model, quantization, video, watch`
+- [BooM-VVT](entities/models/boom-vvt.md) — mask-free video virtual try-on; ACM MM 2026, no repo — `model, video, virtual-try-on, watch`
+- [ReaDiT Guidance](entities/models/readit-guidance.md) — guidance control for image and video generation; not the Obsidian ReadItLater app — `model, guidance, diffusion, watch`
+- [TourPhysics](entities/models/tourphysics.md) — physics grounding for world models — `model, video, world-model, watch`
+- [Temporal State Transport](entities/models/temporal-state-transport.md) — temporal state transport in video diffusion — `model, video, diffusion, watch`
+- [Mask Forcing](entities/models/mask-forcing.md) — mask forcing for autoregressive video diffusion — `model, video, diffusion, watch`
+- [Subject-aware attention video (DIAL)](entities/models/subject-aware-attention-video.md) — intrinsic subject-aware attention for multi-subject video; WATCH HIGH — `model, video, identity, watch`
+- [Vidu S2](entities/models/vidu-s2.md) — real-time interactive and editable video; closed product, no clone — `model, video, product, watch`
+- [HyperFrames (heygen-com/hyperframes)](entities/models/hyperframes.md) — Apache-2.0 CONFIRMED ~47k stars but ~402 MB SIZE-SKIP — `model, hyperframes, size-skip, watch`
+- [MAI-Image-2.6 / GPT Image 2.5](entities/models/mai-image-2-6.md) — RSS-only teaser; 2x faster claim [TENTATIVE]; SIZE-SKIP weights — `model, t2i, closed-cloud, watch`
 
 ### Adapters (identity injection)
 
@@ -672,6 +728,11 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [ElevenLabs (closed SaaS — Flash v2.5 SFW leader, NSFW-banned)](entities/voice-models/elevenlabs.md) — closed SaaS, SFW voice-cloning leader; Flash v2.5 + Multilingual v2 + Turbo tiers; **NSFW banned** + audio-classifier detection + account termination on detection + Vacker v ElevenLabs right-of-publicity precedent — dead-end for NSFW persona-ops, useful only for SFW parallel brands — `tts, voice-cloning, elevenlabs, closed-source, saas, nsfw-banned, vacker-precedent, sfw-leader, right-of-publicity`
 - [BareWave (Tongyi — waveform-native TTS)](entities/voice-models/barewave.md) — Alibaba Tongyi direct text-to-wave flow-matching TTS; zero-shot cloning without vocoder at inference; weights pending release — `voice-cloning, tts, waveform-native, flow-matching, alibaba, tongyi` ⚠ stub
 
+- [Direction-Following TTS](entities/voice-models/direction-following-tts.md) — voice-impression-guided pseudo triplets; paper only — `tts, voice, watch`
+- [KABURI-TTS (llm-jp)](entities/voice-models/kaburi-tts.md) — activity-conditioned Japanese two-party TTS; Apache-2.0 cloned 65 MB — `tts, voice, japanese, watch`
+- [Deterministic Prompting TTS](entities/voice-models/deterministic-prompting-tts.md) — speaker-stable low-resource Greek TTS; paper only — `tts, voice, low-resource, watch`
+- [Seeing the Voice](entities/voice-models/seeing-the-voice.md) — Deaf-centric participatory TTS design; ASSETS 2026 — `tts, voice, accessibility, watch`
+
 ### Lipsync
 
 - [LatentSync (ByteDance audio-conditioned latent diffusion lipsync)](entities/lipsync/latentsync.md) — end-to-end SD-VAE + Whisper + SyncNet supervision; v1.6 at 512×512; quality-first batch-processing pick for hero-shot Reels/Fanvue talking-head — `lipsync, latent-diffusion, bytedance, audio-conditioned, syncnet, eastern-vanguard`
@@ -682,6 +743,8 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [AnyTalk (KAIST 3D blendshape speech animation)](entities/lipsync/anytalk.md) — video-diffusion CsF + blendshape uplift; no character anim data; AnyTalkRT 110 FPS reported; WATCH (project page only) — `lipsync, 3d, blendshape, video-diffusion, watch`
 - [DynaForcing (streaming avatar Self-Forcing fix)](entities/lipsync/dynaforcing.md) — restores visemes after distillation collapse; 45.2 FPS claimed; WATCH HIGH paper-only — `lipsync, avatar, streaming, self-forcing, watch`
 - [EfficientSync (deformation reference-texture lipsync)](entities/lipsync/efficientsync.md) — Dynamic Texture Mixer; 166 FPS claimed; WATCH HIGH project-page only — `lipsync, real-time, deformation, watch`
+
+- [TBDub (TaoLive AIGC production dubbing)](entities/lipsync/tbdub.md) — X-Dub baseline + production post-training + task-aware distillation; Apache-2.0 clone DONE, pointers only in checkpoints/ — `lipsync, dubbing, production, watch`
 
 ### Music models
 
@@ -882,6 +945,12 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [VGI-BENCH](entities/benchmarks/vgi-bench.md) — visual intelligence in video generators (27 tasks / 810); Seedance 2.0 51%; not Seldon VGIBench — `benchmark, video, visual-reasoning, watch`
 - [VGA-BenchV2 (video aesthetics + generation quality)](entities/benchmarks/vga-benchv2.md) — human-centered aesthetic scoring; paper-only — `benchmark, video, aesthetics, watch`
 - [PAWBench (probabilistic world-model eval)](entities/benchmarks/pawbench.md) — uncertainty-aware WM benchmark; webpage only — `benchmark, world-model, watch`
+- [VoxReason](entities/benchmarks/voxreason.md) — listener-free evaluation of source-grounded speech reasoning; NOASSERTION, no clone — `benchmark, tts, evaluation, watch`
+- [Persistent identity preservation](entities/benchmarks/persistent-identity-preservation.md) — identity drift under repeated regeneration; WATCH HIGH — `benchmark, identity, persona, watch`
+- [Principia](entities/benchmarks/principia.md) — relational physics tests for video models; pages-only site — `benchmark, world-model, physics, watch`
+- [PRISM-Bench](entities/benchmarks/prism-bench.md) — audio-centric T2AV diagnostic benchmark — `benchmark, audio, video, watch`
+- [KAIROS video-language dataset](entities/benchmarks/kairos-video-language.md) — fine-grained video-language dataset; NOT the Kairos world model — `benchmark, dataset, video, watch`
+- [VidHalLoc](entities/benchmarks/vidhalloc.md) — video hallucination detectors peak at 34.63%; never trust one detector — `benchmark, video, hallucination, watch`
 
 - [Hand-object interaction generation](concepts/hand-object-interaction-generation.md) — HOI under foundation models (survey hub) — `hoi, video-generation, survey`
 - [Hybrid-policy self-distillation for TI2V (HPSD)](concepts/hybrid-policy-self-distillation-video.md) — internalize I2V-mode quality into base T2V; off-policy SFT failure — `distillation, ti2v, self-distillation, capability-internalization`

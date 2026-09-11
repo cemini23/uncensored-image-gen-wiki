@@ -167,13 +167,30 @@ related:
   - sweeps/2026-07-22-daily.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
+  - entities/benchmarks/prism-bench.md
+  - entities/benchmarks/voxreason.md
+  - entities/lipsync/tbdub.md
+  - entities/voice-models/deterministic-prompting-tts.md
+  - entities/voice-models/direction-following-tts.md
+  - entities/voice-models/kaburi-tts.md
+  - entities/voice-models/seeing-the-voice.md
+  - sources/arxiv-2609-02623-direction-following-tts.md
+  - sources/arxiv-2609-03203-voxreason.md
+  - sources/arxiv-2609-03502-thai-tts-synthetic.md
+  - sources/arxiv-2609-04867-prism-bench.md
+  - sources/arxiv-2609-06144-tbdub.md
+  - sources/arxiv-2609-10022-deterministic-prompting-tts.md
+  - sources/arxiv-2609-10199-seeing-the-voice.md
+  - sources/arxiv-2609-11724-eloquence-mlc-slm.md
+  - sources/arxiv-2609-11725-ncde-acoustic-tts.md
+  - sweeps/2026-09-11-daily.md
 maturity: validated
 created: 2026-05-09
 updated: 2026-08-20
 ---
 ## Relations
 
-@entities/persona-ops/fish-speech.md @entities/voice-models/fireredtts3.md @sources/arxiv-2608-17492-fireredtts3.md @sources/arxiv-2608-02235-tts-domain-eval.md @sources/arxiv-2608-02474-echocache.md @entities/models/echocache.md @sources/arxiv-2608-03011-daien-tts.md @entities/voice-models/daien-tts.md @sources/arxiv-2608-03215-grow-tts-rl.md @entities/voice-models/grow-tts.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md @sources/arxiv-2608-05507-affectdf-routed.md
+@entities/persona-ops/fish-speech.md @entities/voice-models/fireredtts3.md @sources/arxiv-2608-17492-fireredtts3.md @sources/arxiv-2608-02235-tts-domain-eval.md @sources/arxiv-2608-02474-echocache.md @entities/models/echocache.md @sources/arxiv-2608-03011-daien-tts.md @entities/voice-models/daien-tts.md @sources/arxiv-2608-03215-grow-tts-rl.md @entities/voice-models/grow-tts.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md @sources/arxiv-2608-05507-affectdf-routed.md @entities/benchmarks/prism-bench.md @entities/benchmarks/voxreason.md @entities/lipsync/tbdub.md @entities/voice-models/deterministic-prompting-tts.md @entities/voice-models/direction-following-tts.md @entities/voice-models/kaburi-tts.md @entities/voice-models/seeing-the-voice.md @sources/arxiv-2609-02623-direction-following-tts.md @sources/arxiv-2609-03203-voxreason.md @sources/arxiv-2609-03502-thai-tts-synthetic.md @sources/arxiv-2609-04867-prism-bench.md @sources/arxiv-2609-06144-tbdub.md @sources/arxiv-2609-10022-deterministic-prompting-tts.md @sources/arxiv-2609-10199-seeing-the-voice.md @sources/arxiv-2609-11724-eloquence-mlc-slm.md @sources/arxiv-2609-11725-ncde-acoustic-tts.md @sweeps/2026-09-11-daily.md
 
 @concepts/persona-ops-stack.md
 @concepts/persona-ops-workflow.md

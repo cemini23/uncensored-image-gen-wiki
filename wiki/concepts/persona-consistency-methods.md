@@ -140,6 +140,9 @@ related:
   - sources/arxiv-2608-20749-aesr.md
   - sources/arxiv-2608-23410-next-scale-face-nvs.md
   - sources/arxiv-2608-20212-unwarping-lens.md
+  - entities/benchmarks/persistent-identity-preservation.md
+  - sources/arxiv-2609-04151-persistent-identity-preservation.md
+  - sweeps/2026-09-11-daily.md
 title: Persona consistency methods (umbrella)
 type: concept
 tags: [persona-consistency, methods, taxonomy, identity-injection]
@@ -152,7 +155,7 @@ updated: 2026-08-25
 
 ## Relations
 
-@sources/synthetic-character-consistency-survey.md @sources/arxiv-2608-03708-multicompose.md @entities/models/multicompose.md @sources/arxiv-2608-04820-resem-face.md
+@sources/synthetic-character-consistency-survey.md @sources/arxiv-2608-03708-multicompose.md @entities/models/multicompose.md @sources/arxiv-2608-04820-resem-face.md @entities/benchmarks/persistent-identity-preservation.md @sources/arxiv-2609-04151-persistent-identity-preservation.md @sweeps/2026-09-11-daily.md
 @entities/adapters/flux2-klein-matchingpose.md
 @concepts/stage-aware-lora-distribution-calibrated-selection.md
 @sources/video-generation-survey-2026.md

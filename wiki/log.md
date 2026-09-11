@@ -1,3 +1,45 @@
+## [2026-09-11] ingest | DSAQuant · TBDub · identity bench · Vidu S2 · KABURI-TTS (+ 38 WATCH/ROUTE/SKIP)
+
+Full inbox ingest of **43 NEW** arXiv PDFs (preingest: 43 NEW / 0 duplicate). All 43 archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Clones (code only, no weights): **DSAQuant** Apache-2.0, **KABURI-TTS** Apache-2.0, **TBDub** Apache-2.0. **VoxReason** not cloned (NOASSERTION).
+
+### WATCH-full (source + entity)
+- **NEW** `@sources/arxiv-2609-02623-direction-following-tts.md` + **NEW** `@entities/voice-models/direction-following-tts.md` — direction-following TTS. **WATCH**.
+- **NEW** `@sources/arxiv-2609-03203-voxreason.md` + **NEW** `@entities/benchmarks/voxreason.md` — listener-free speech-reasoning eval. **WATCH, no clone**.
+- **NEW** `@sources/arxiv-2609-04031-dsaquant.md` + **NEW** `@entities/models/dsaquant.md` — video-diffusion QAT. **WATCH / GO clone**.
+- **NEW** `@sources/arxiv-2609-04120-boom-vvt.md` + **NEW** `@entities/models/boom-vvt.md` — mask-free video try-on. **WATCH**.
+- **NEW** `@sources/arxiv-2609-04151-persistent-identity-preservation.md` + **NEW** `@entities/benchmarks/persistent-identity-preservation.md` — identity preservation bench. **WATCH HIGH**.
+- **NEW** `@sources/arxiv-2609-04200-principia.md` + **NEW** `@entities/benchmarks/principia.md` — relational physics tests. **WATCH**.
+- **NEW** `@sources/arxiv-2609-04649-readit-guidance.md` + **NEW** `@entities/models/readit-guidance.md` — ReaDiT guidance. **WATCH**.
+- **NEW** `@sources/arxiv-2609-04867-prism-bench.md` + **NEW** `@entities/benchmarks/prism-bench.md` — audio-centric T2AV bench. **WATCH**.
+- **NEW** `@sources/arxiv-2609-04911-tourphysics.md` + **NEW** `@entities/models/tourphysics.md` — physics world models. **WATCH**.
+- **NEW** `@sources/arxiv-2609-06144-tbdub.md` + **NEW** `@entities/lipsync/tbdub.md` — production visual dubbing. **WATCH HIGH / GO clone**.
+- **NEW** `@sources/arxiv-2609-07200-kaburi-tts.md` + **NEW** `@entities/voice-models/kaburi-tts.md` — activity-conditioned JP TTS. **WATCH / GO clone**.
+- **NEW** `@sources/arxiv-2609-08505-temporal-state-transport.md` + **NEW** `@entities/models/temporal-state-transport.md` — temporal state transport. **WATCH**.
+- **NEW** `@sources/arxiv-2609-08755-kairos-video-language-dataset.md` + **NEW** `@entities/benchmarks/kairos-video-language.md` — KAIROS dataset. **WATCH** (name collides with `@entities/models/kairos.md`).
+- **NEW** `@sources/arxiv-2609-09123-mask-forcing.md` + **NEW** `@entities/models/mask-forcing.md` — mask forcing. **WATCH**.
+- **NEW** `@sources/arxiv-2609-10022-deterministic-prompting-tts.md` + **NEW** `@entities/voice-models/deterministic-prompting-tts.md` — speaker-stable TTS. **WATCH**.
+- **NEW** `@sources/arxiv-2609-10199-seeing-the-voice.md` + **NEW** `@entities/voice-models/seeing-the-voice.md` — Deaf-centric TTS design. **WATCH**.
+- **NEW** `@sources/arxiv-2609-11507-subject-aware-attention-video.md` + **NEW** `@entities/models/subject-aware-attention-video.md` — multi-subject video. **WATCH HIGH**.
+- **NEW** `@sources/arxiv-2609-11638-vidu-s2.md` + **NEW** `@entities/models/vidu-s2.md` — Vidu S2. **WATCH HIGH**, closed product.
+
+### WATCH-thin (source only)
+- **NEW** `@sources/arxiv-2609-03502-thai-tts-synthetic.md` · `@sources/arxiv-2609-11724-eloquence-mlc-slm.md` · `@sources/arxiv-2609-11725-ncde-acoustic-tts.md`
+
+### k256–k259 filed from existing briefs
+- **NEW** `@sources/arxiv-2609-05171-weagent-mmgenedit.md` (k256), `@entities/models/hyperframes.md` (k257, SIZE-SKIP ~402 MB), `@entities/models/mai-image-2-6.md` (k258, RSS only), `@entities/benchmarks/vidhalloc.md` + `@sources/arxiv-2609-09895-vidhalloc.md` (k259, detector peak 34.63%).
+
+### ROUTE
+- **ROUTE CCC** epistemic warrant 04127 · distill globally 05363 · instruction supervision 08204 · ActReview 09076 · everything in moderation 09081 · FOMUL unlearning 10439 · MindTopo 11900
+- **ROUTE cybersec** audio-deepfake localisation 10051 · speech-deepfake attacks 11763 (detection-eval notes only)
+
+### SKIP
+- 03211 perovskite · 03989 electron spin · 04183 VLM dense captioning · 04455 Brain2Speech · 05021 Fisher information · 05247 bulk/surface diffusion · 05314 HVAC · 05327 quantum circuits · 05354 porous media · 10456 brain nanoimaging · 10532 tadpole galaxies · 11639 LoaDiff · 11657 Lévy SDEs
+
+### Sweeps + meta
+- Sweeps `2026-09-04` → `2026-09-11` (09-07 absent) now carry YAML frontmatter with `ingested: 2026-09-11` and `inbox_cleared: true`.
+- Briefs (gitignored): `briefs/2026-09-11_inbox-adoption-phase0.md` + 9 ROUTE briefs.
+- `@concepts/federated-daily-research-digest.md` related list extended with the new source paths.
+
 ## [2026-09-03] ingest | RIFT · MeRoPE · H3-World · CameraEditor · Gaussian Core LoRA (+ 2 SKIP)
 
 Full inbox ingest of **8 NEW** arXiv PDFs (sweep 2026-09-02). All 8 archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Clone: **RIFT** Apache-2.0 (~222 MB).

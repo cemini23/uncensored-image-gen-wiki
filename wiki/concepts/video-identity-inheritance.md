@@ -80,6 +80,9 @@ related:
   - sweeps/2026-07-21-daily.md
   - sweeps/2026-07-23-daily.md
   - sweeps/2026-07-24-daily.md
+  - entities/models/subject-aware-attention-video.md
+  - sources/arxiv-2609-11507-subject-aware-attention-video.md
+  - sweeps/2026-09-11-daily.md
 title: Video identity inheritance (I2V from static master)
 type: concept
 tags: [persona-consistency, i2v, identity-inheritance, video-workflow, clip-vision-encoder, master-image]
@@ -92,7 +95,7 @@ updated: 2026-08-25
 
 ## Relations
 
-@sources/ai-creator-operations-blueprint.md @sources/ai-persona-launch-strategy-analysis.md @sources/video-generation-survey-2026.md @sources/synthetic-character-consistency-survey.md @concepts/persona-consistency-methods.md @concepts/multi-angle-dataset-prep.md @concepts/seam-stitching-strategies.md @entities/adapters/pulid.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @entities/models/seedance-2.md @entities/models/qwen-image-2512.md @entities/models/z-image-turbo.md @entities/models/flux-2-klein.md @sources/headsup-3d-gaussian-head.md
+@sources/ai-creator-operations-blueprint.md @sources/ai-persona-launch-strategy-analysis.md @sources/video-generation-survey-2026.md @sources/synthetic-character-consistency-survey.md @concepts/persona-consistency-methods.md @concepts/multi-angle-dataset-prep.md @concepts/seam-stitching-strategies.md @entities/adapters/pulid.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @entities/models/seedance-2.md @entities/models/qwen-image-2512.md @entities/models/z-image-turbo.md @entities/models/flux-2-klein.md @sources/headsup-3d-gaussian-head.md @entities/models/subject-aware-attention-video.md @sources/arxiv-2609-11507-subject-aware-attention-video.md @sweeps/2026-09-11-daily.md
 @entities/models/openrouter-video.md
 @entities/uis/comfyui.md
 
