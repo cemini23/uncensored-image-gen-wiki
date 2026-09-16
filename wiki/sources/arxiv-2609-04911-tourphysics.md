@@ -3,22 +3,26 @@ title: "TourPhysics physics for world models (arXiv:2609.04911)"
 type: source
 tags: [paper, video, world-model, physics, watch]
 keywords: [world model, physical simulation, camera control, video generation]
+maturity: draft
+read_status: read
+created: 2026-09-11
+updated: 2026-09-16
+phase0_verdict: WATCH
+wire_status: deferred
 related:
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-09-11-daily.md
   - concepts/world-models-video-generation.md
   - entities/models/tourphysics.md
-maturity: draft
-read_status: read
-created: 2026-09-11
-updated: 2026-09-11
-phase0_verdict: WATCH
-wire_status: deferred
+  - entities/models/physstream.md
+  - sources/arxiv-2609-17521-physstream.md
+  - sweeps/2026-09-16-daily.md
 ---
+
 
 ## Relations
 
-@concepts/federated-daily-research-digest.md @sweeps/2026-09-11-daily.md @concepts/world-models-video-generation.md @entities/models/tourphysics.md
+@concepts/federated-daily-research-digest.md @sweeps/2026-09-11-daily.md @concepts/world-models-video-generation.md @entities/models/tourphysics.md @entities/models/physstream.md @sources/arxiv-2609-17521-physstream.md @sweeps/2026-09-16-daily.md
 
 ## Raw Concept
 

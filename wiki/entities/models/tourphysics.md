@@ -3,21 +3,25 @@ title: TourPhysics
 type: entity
 tags: [video, world-model, physics, watch]
 keywords: [TourPhysics, world model, physics simulation, single-image]
+maturity: draft
+created: 2026-09-11
+updated: 2026-09-16
+phase0_verdict: WATCH
+wire_status: deferred
 related:
   - sources/arxiv-2609-04911-tourphysics.md
   - concepts/world-models-video-generation.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-09-11-daily.md
-maturity: draft
-created: 2026-09-11
-updated: 2026-09-11
-phase0_verdict: WATCH
-wire_status: deferred
+  - entities/models/physstream.md
+  - sources/arxiv-2609-17521-physstream.md
+  - sweeps/2026-09-16-daily.md
 ---
+
 
 ## Relations
 
-@sources/arxiv-2609-04911-tourphysics.md @concepts/world-models-video-generation.md @concepts/federated-daily-research-digest.md @sweeps/2026-09-11-daily.md
+@sources/arxiv-2609-04911-tourphysics.md @concepts/world-models-video-generation.md @concepts/federated-daily-research-digest.md @sweeps/2026-09-11-daily.md @entities/models/physstream.md @sources/arxiv-2609-17521-physstream.md @sweeps/2026-09-16-daily.md
 
 ## Raw Concept
 

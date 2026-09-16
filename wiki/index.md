@@ -433,6 +433,15 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [NCDE acoustic modelling (arXiv:2609.11725)](sources/arxiv-2609-11725-ncde-acoustic-tts.md) — neural controlled differential equations; SLT 2026 — `paper, tts, acoustic, watch`
 - [Speech deepfake attacks (arXiv:2609.11763)](sources/arxiv-2609-11763-speech-deepfake-attacks-routed.md) — ROUTE cybersec, detection-eval only — `paper, routed, cybersec`
 - [MindTopo (arXiv:2609.11900)](sources/arxiv-2609-11900-mindtopo-routed.md) — ROUTE CCC — `paper, routed`
+- [Physical parameters SKIP (arXiv:2609.16579)](sources/arxiv-2609-16579-physical-parameters-skip.md) — sci-ML spline merging — `paper, skip, physics`
+- [ToMAS ToM benchmark (arXiv:2609.16986)](sources/arxiv-2609-16986-tomas-routed.md) — ROUTE CCC — `paper, routed`
+- [GeoLAM (arXiv:2609.17099)](sources/arxiv-2609-17099-geolam.md) — geometry-grounded latent actions — `paper, video, world-model, watch`
+- [MyoFlow SKIP (arXiv:2609.17194)](sources/arxiv-2609-17194-myoflow-skip.md) — HD-sEMG prosthetics — `paper, skip, medical`
+- [Self-distilled pronunciation TTS (arXiv:2609.17234)](sources/arxiv-2609-17234-self-distilled-pronunciation-tts.md) — accent/pronunciation control — `paper, tts, watch`
+- [SlotDiT (arXiv:2609.17414)](sources/arxiv-2609-17414-slotdit.md) — object-centric DiT video; BMVC 2026 — `paper, video, dit, watch`
+- [LACE codec (arXiv:2609.17509)](sources/arxiv-2609-17509-lace-codec.md) — dynamic frame-rate speech codec — `paper, audio, codec, watch`
+- [PhysStream (arXiv:2609.17521)](sources/arxiv-2609-17521-physstream.md) — streaming physics-grounded video; WATCH HIGH — `paper, video, world-model, watch`
+
 - [Transport penalties (arXiv:2608.28022)](sources/arxiv-2608-28022-transport-matched-penalties-skip.md) — SKIP sci-ML — `paper, skip`
 - [ARC-CT (arXiv:2608.28455)](sources/arxiv-2608-28455-arc-ct-skip.md) — SKIP medical — `paper, skip, medical`
 - [LLM agents security (arXiv:2608.28490)](sources/arxiv-2608-28490-llm-agents-security-routed.md) — ROUTE cybersec — `paper, routed`
@@ -575,6 +584,11 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [BooM-VVT](entities/models/boom-vvt.md) — mask-free video virtual try-on; ACM MM 2026, no repo — `model, video, virtual-try-on, watch`
 - [ReaDiT Guidance](entities/models/readit-guidance.md) — guidance control for image and video generation; not the Obsidian ReadItLater app — `model, guidance, diffusion, watch`
 - [TourPhysics](entities/models/tourphysics.md) — physics grounding for world models — `model, video, world-model, watch`
+- [GeoLAM](entities/models/geolam.md) — geometry-grounded latent actions from human video — `model, world-model, latent-action, watch`
+- [SlotDiT](entities/models/slotdit.md) — object-centric slot latents for DiT video — `model, video, dit, watch`
+- [PhysStream](entities/models/physstream.md) — streaming physics-grounded video with scene memory — `model, video, world-model, watch`
+- [Self-Distilled Pronunciation TTS](entities/voice-models/self-distilled-pronunciation-tts.md) — lexicon-free pronunciation/accent control — `tts, voice, watch`
+
 - [Temporal State Transport](entities/models/temporal-state-transport.md) — temporal state transport in video diffusion — `model, video, diffusion, watch`
 - [Mask Forcing](entities/models/mask-forcing.md) — mask forcing for autoregressive video diffusion — `model, video, diffusion, watch`
 - [Subject-aware attention video (DIAL)](entities/models/subject-aware-attention-video.md) — intrinsic subject-aware attention for multi-subject video; WATCH HIGH — `model, video, identity, watch`

@@ -1,3 +1,26 @@
+## [2026-09-16] ingest | GeoLAM · SlotDiT · PhysStream · pronunciation TTS (+ 2 SKIP / 1 ROUTE)
+
+Full inbox ingest of **8 NEW** arXiv PDFs (preingest: 8 NEW / 0 duplicate). All 8 archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Phase-0: **no clones** (no public GitHub repos found).
+
+### WATCH-full (source + entity) — 4
+- **NEW** `@sources/arxiv-2609-17099-geolam.md` + **NEW** `@entities/models/geolam.md` — geometry-grounded latent actions. **WATCH**.
+- **NEW** `@sources/arxiv-2609-17234-self-distilled-pronunciation-tts.md` + **NEW** `@entities/voice-models/self-distilled-pronunciation-tts.md` — pronunciation/accent control. **WATCH**.
+- **NEW** `@sources/arxiv-2609-17414-slotdit.md` + **NEW** `@entities/models/slotdit.md` — object-centric DiT video. **WATCH HIGH**.
+- **NEW** `@sources/arxiv-2609-17521-physstream.md` + **NEW** `@entities/models/physstream.md` — streaming physics-grounded video. **WATCH HIGH**.
+
+### WATCH-thin (source only) — 1
+- **NEW** `@sources/arxiv-2609-17509-lace-codec.md` — LACE dynamic frame-rate speech codec. **WATCH**.
+
+### ROUTE
+- **ROUTE CCC** ToMAS theory-of-mind benchmark 16986 (Zenodo data; brief `briefs/2026-09-16_tomas-from-image-gen.md`)
+
+### SKIP
+- 16579 physical parameters (sci-ML) · 17194 MyoFlow (biomedical sEMG)
+
+### Sweeps + meta
+- Sweeps `2026-09-12` → `2026-09-16` now carry YAML frontmatter with `ingested: 2026-09-16` and `inbox_cleared: true`.
+- Briefs (gitignored): `briefs/2026-09-16_inbox-adoption-phase0.md` + ToMAS CCC brief.
+
 ## [2026-09-11] ingest | DSAQuant · TBDub · identity bench · Vidu S2 · KABURI-TTS (+ 38 WATCH/ROUTE/SKIP)
 
 Full inbox ingest of **43 NEW** arXiv PDFs (preingest: 43 NEW / 0 duplicate). All 43 archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Clones (code only, no weights): **DSAQuant** Apache-2.0, **KABURI-TTS** Apache-2.0, **TBDub** Apache-2.0. **VoxReason** not cloned (NOASSERTION).
