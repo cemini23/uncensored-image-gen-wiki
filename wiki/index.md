@@ -608,6 +608,11 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [PhysStream](entities/models/physstream.md) — streaming physics-grounded video with scene memory — `model, video, world-model, watch`
 - [Self-Distilled Pronunciation TTS](entities/voice-models/self-distilled-pronunciation-tts.md)
 - [LACI Long-Form TTS](entities/voice-models/laci-long-form-tts.md) — long-form TTS instability detection/repair — `tts, voice, watch`
+- [Live-ProsodyJudge](entities/voice-models/live-prosody-judge.md) — live streaming TTS prosody judge — `tts, voice, watch`
+- [MTVA-Bench](entities/benchmarks/mtva-bench.md) — cascaded voice-agent LLM benchmark — `benchmark, voice, watch`
+- [Generative Refinement Network](entities/models/generative-refinement-network.md) — training-free prompt-to-prompt editing — `model, editing, watch`
+- [MoWAM](entities/models/mowam.md) — efficient world action model — `model, world-model, watch`
+- [Video DeltaNet](entities/models/video-deltanet.md) — hybrid attention for livestream video — `model, video, watch`
 - [MiniMax-H3 Reason Benchmark](entities/benchmarks/minimax-h3-reason.md) — omni-modal physical reasoning eval — `benchmark, watch`
 - [MSR Video](entities/models/msr-video.md) — multi-subject reference for LTX video — `video, identity, watch`
 - [Sound of Contact](entities/models/sound-of-contact.md) — force-aware video+audio manipulation — `video, audio, watch`
