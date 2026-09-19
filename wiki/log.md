@@ -1,3 +1,29 @@
+## [2026-09-19] ingest | LACI TTS · MSR video · Sound of Contact · SANI (+ 2 ROUTE / 1 SKIP)
+
+Full inbox ingest of **9 NEW** arXiv PDFs (preingest: 9 NEW / 0 duplicate). All 9 archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Phase-0: **no clones** (`MiniMax-H3-Reason` repo has null SPDX).
+
+### WATCH-full (source + entity) — 4
+- **NEW** `@sources/arxiv-2609-16989-taming-long-form-tts.md` + **NEW** `@entities/voice-models/laci-long-form-tts.md` — LACI long-form TTS. **WATCH**.
+- **NEW** `@sources/arxiv-2609-18323-minimax-h3-reason.md` + **NEW** `@entities/benchmarks/minimax-h3-reason.md` — MiniMax-H3 physical reasoning eval. **WATCH, no clone**.
+- **NEW** `@sources/arxiv-2609-18393-msr-video.md` + **NEW** `@entities/models/msr-video.md` — MSR multi-subject LTX video. **WATCH HIGH**.
+- **NEW** `@sources/arxiv-2609-19137-sound-of-contact.md` + **NEW** `@entities/models/sound-of-contact.md` — force-aware A/V manipulation. **WATCH**.
+
+### WATCH source + concept — 1
+- **NEW** `@sources/arxiv-2609-18466-spatially-adaptive-noise-injection.md` + **NEW** `@concepts/spatially-adaptive-noise-injection.md` — spatially adaptive diffusion noise. **WATCH**.
+
+### WATCH-thin — 1
+- **NEW** `@sources/arxiv-2609-18007-gender-stereotyping-t2i.md` — gender bias across SD generations. **WATCH**.
+
+### ROUTE
+- **ROUTE CCC** zeroth-order preference alignment 19144 · SAFARI automotive HARA 20584
+
+### SKIP
+- 18000 galaxy/nebular astrophysics
+
+### Sweeps + meta
+- Sweeps `2026-09-17` → `2026-09-18` frontmatter + ingested.
+- Briefs (gitignored): `briefs/2026-09-19_inbox-adoption-phase0.md` + 2 ROUTE briefs.
+
 ## [2026-09-16] ingest | GeoLAM · SlotDiT · PhysStream · pronunciation TTS (+ 2 SKIP / 1 ROUTE)
 
 Full inbox ingest of **8 NEW** arXiv PDFs (preingest: 8 NEW / 0 duplicate). All 8 archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Phase-0: **no clones** (no public GitHub repos found).

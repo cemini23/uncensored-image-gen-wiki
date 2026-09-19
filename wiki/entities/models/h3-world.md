@@ -3,20 +3,24 @@ title: H3-World — language understanding to world control
 type: entity
 tags: [model, world-model, video, watch]
 keywords: [H3-World, language-conditioned world control]
+maturity: draft
+created: 2026-09-03
+updated: 2026-09-19
+wire_status: deferred
+phase0_verdict: WATCH
 related:
   - concepts/world-models-video-generation.md
   - sources/arxiv-2609-01560-h3-world.md
   - sweeps/2026-09-02-daily.md
-maturity: draft
-created: 2026-09-03
-updated: 2026-09-03
-wire_status: deferred
-phase0_verdict: WATCH
+  - entities/benchmarks/minimax-h3-reason.md
+  - sources/arxiv-2609-18323-minimax-h3-reason.md
+  - sweeps/2026-09-18-daily.md
 ---
+
 
 ## Relations
 
-@sources/arxiv-2609-01560-h3-world.md @concepts/world-models-video-generation.md @sweeps/2026-09-02-daily.md
+@concepts/world-models-video-generation.md @sources/arxiv-2609-01560-h3-world.md @sweeps/2026-09-02-daily.md @entities/benchmarks/minimax-h3-reason.md @sources/arxiv-2609-18323-minimax-h3-reason.md @sweeps/2026-09-18-daily.md
 
 ## Raw Concept
 

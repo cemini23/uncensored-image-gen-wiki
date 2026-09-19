@@ -440,7 +440,17 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Self-distilled pronunciation TTS (arXiv:2609.17234)](sources/arxiv-2609-17234-self-distilled-pronunciation-tts.md) — accent/pronunciation control — `paper, tts, watch`
 - [SlotDiT (arXiv:2609.17414)](sources/arxiv-2609-17414-slotdit.md) — object-centric DiT video; BMVC 2026 — `paper, video, dit, watch`
 - [LACE codec (arXiv:2609.17509)](sources/arxiv-2609-17509-lace-codec.md) — dynamic frame-rate speech codec — `paper, audio, codec, watch`
-- [PhysStream (arXiv:2609.17521)](sources/arxiv-2609-17521-physstream.md) — streaming physics-grounded video; WATCH HIGH — `paper, video, world-model, watch`
+- [PhysStream (arXiv:2609.17521)](sources/arxiv-2609-17521-physstream.md)
+- [Taming long-form TTS / LACI (arXiv:2609.16989)](sources/arxiv-2609-16989-taming-long-form-tts.md) — LACI instability repair for multi-minute TTS — `paper, tts, watch`
+- [Galaxy nebular density SKIP (arXiv:2609.18000)](sources/arxiv-2609-18000-galaxy-nebular-skip.md) — astrophysics — `paper, skip`
+- [Gender stereotyping T2I (arXiv:2609.18007)](sources/arxiv-2609-18007-gender-stereotyping-t2i.md) — SD 1.5–SD3 fairness eval — `paper, fairness, watch`
+- [MiniMax-H3 Reason eval (arXiv:2609.18323)](sources/arxiv-2609-18323-minimax-h3-reason.md) — omni-modal physical reasoning bench — `paper, benchmark, watch`
+- [MSR multi-subject video (arXiv:2609.18393)](sources/arxiv-2609-18393-msr-video.md) — slot-aware LTX conditioning; WATCH HIGH — `paper, video, identity, watch`
+- [Spatially adaptive noise injection (arXiv:2609.18466)](sources/arxiv-2609-18466-spatially-adaptive-noise-injection.md) — diffusion sampling technique — `paper, diffusion, watch`
+- [Sound of Contact (arXiv:2609.19137)](sources/arxiv-2609-19137-sound-of-contact.md) — force-aware A/V manipulation — `paper, video, audio, watch`
+- [Zeroth-order preference alignment (arXiv:2609.19144)](sources/arxiv-2609-19144-zeroth-order-preference-routed.md) — ROUTE CCC — `paper, routed`
+- [SAFARI automotive HARA (arXiv:2609.20584)](sources/arxiv-2609-20584-safari-routed.md) — ROUTE CCC — `paper, routed`
+ — streaming physics-grounded video; WATCH HIGH — `paper, video, world-model, watch`
 
 - [Transport penalties (arXiv:2608.28022)](sources/arxiv-2608-28022-transport-matched-penalties-skip.md) — SKIP sci-ML — `paper, skip`
 - [ARC-CT (arXiv:2608.28455)](sources/arxiv-2608-28455-arc-ct-skip.md) — SKIP medical — `paper, skip, medical`
@@ -587,7 +597,12 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [GeoLAM](entities/models/geolam.md) — geometry-grounded latent actions from human video — `model, world-model, latent-action, watch`
 - [SlotDiT](entities/models/slotdit.md) — object-centric slot latents for DiT video — `model, video, dit, watch`
 - [PhysStream](entities/models/physstream.md) — streaming physics-grounded video with scene memory — `model, video, world-model, watch`
-- [Self-Distilled Pronunciation TTS](entities/voice-models/self-distilled-pronunciation-tts.md) — lexicon-free pronunciation/accent control — `tts, voice, watch`
+- [Self-Distilled Pronunciation TTS](entities/voice-models/self-distilled-pronunciation-tts.md)
+- [LACI Long-Form TTS](entities/voice-models/laci-long-form-tts.md) — long-form TTS instability detection/repair — `tts, voice, watch`
+- [MiniMax-H3 Reason Benchmark](entities/benchmarks/minimax-h3-reason.md) — omni-modal physical reasoning eval — `benchmark, watch`
+- [MSR Video](entities/models/msr-video.md) — multi-subject reference for LTX video — `video, identity, watch`
+- [Sound of Contact](entities/models/sound-of-contact.md) — force-aware video+audio manipulation — `video, audio, watch`
+ — lexicon-free pronunciation/accent control — `tts, voice, watch`
 
 - [Temporal State Transport](entities/models/temporal-state-transport.md) — temporal state transport in video diffusion — `model, video, diffusion, watch`
 - [Mask Forcing](entities/models/mask-forcing.md) — mask forcing for autoregressive video diffusion — `model, video, diffusion, watch`

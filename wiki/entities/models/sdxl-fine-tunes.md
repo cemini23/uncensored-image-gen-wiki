@@ -3,6 +3,9 @@ title: SDXL fine-tunes (Lustify, Juggernaut, Cyberrealistic, Epicrealism, BigAsp
 type: entity
 tags: [model, sdxl, sdxl-fine-tune, umbrella, lustify, juggernaut, cyberrealistic, epicrealism, bigasp, completely-uncensored, 8gb-vram, photorealism, 2-6b]
 keywords: [SDXL fine-tune, Lustify, Juggernaut XL, Cyberrealistic, Epicrealism, BigAsp-v2.5, flow-matching SDXL, photorealism, NSFW SDXL, 8GB VRAM, 2.6B parameters, hardware economics]
+maturity: draft
+created: 2026-05-06
+updated: 2026-05-06
 related:
   - sources/uncensored-image-generation-survey.md
   - concepts/prompt-engineering-uncensored.md
@@ -18,14 +21,12 @@ related:
   - concepts/model-selection-workflow.md
   - entities/marketplaces/civitai.md
   - entities/uis/automatic1111.md
-maturity: draft
-created: 2026-05-06
-updated: 2026-05-06
+  - sources/arxiv-2609-18007-gender-stereotyping-t2i.md
 ---
 
 ## Relations
 
-@sources/uncensored-image-generation-survey.md
+@sources/uncensored-image-generation-survey.md @concepts/prompt-engineering-uncensored.md @concepts/two-pass-generation-workflow.md @concepts/censorship-tier-taxonomy.md @concepts/de-censoring-techniques.md @concepts/lora-taxonomy.md @concepts/reference-plus-lora-stacking.md @entities/models/pony-v6.md @entities/models/illustrious-xl.md @entities/models/noobai-xl.md @entities/training-tools/kohya-sd-scripts.md @concepts/model-selection-workflow.md @entities/marketplaces/civitai.md @entities/uis/automatic1111.md @sources/arxiv-2609-18007-gender-stereotyping-t2i.md
 @concepts/censorship-tier-taxonomy.md
 @concepts/de-censoring-techniques.md
 @concepts/lora-taxonomy.md

@@ -3,6 +3,9 @@ title: "Persona legal landscape (2257, age verification, OSA, EU AI Act)"
 type: concept
 tags: [legal, compliance, persona-monetization, 2257, age-verification, deepfake-law, ai-regulation, defamation, right-of-publicity]
 keywords: [18-USC-2257, DEFIANCE-Act, Take-It-Down-Act, Florida-HB3, Utah-AI-law, NY-SAFE-for-Kids, UK-Online-Safety-Act, OSA-Section-138, Yoti, Ofcom, EU-AI-Act-Article-50, AI-Act-August-2026, Getty-v-Stability, NYT-v-OpenAI, Vacker-v-ElevenLabs, Lehrman-v-LOVO, Grok-mass-tort, model-release, NCII]
+maturity: draft
+created: 2026-05-07
+updated: 2026-08-20
 related:
   - sources/persona-monetization-2026.md
   - concepts/persona-ops-workflow.md
@@ -24,14 +27,12 @@ related:
   - sources/arxiv-2607-15694-voice-clone-attribution-geometry-floor.md
   - sweeps/2026-07-20-daily.md
   - entities/tools/watermarks-remover.md
-maturity: draft
-created: 2026-05-07
-updated: 2026-08-20
+  - sources/arxiv-2609-18007-gender-stereotyping-t2i.md
 ---
 
 ## Relations
 
-@sources/persona-monetization-2026.md @concepts/persona-failure-modes.md @concepts/persona-monetization-models.md @concepts/persona-payment-rails.md @concepts/persona-ops-stack.md @concepts/likeness-collision-verification.md
+@sources/persona-monetization-2026.md @concepts/persona-ops-workflow.md @concepts/synthetic-media-corporate-structure.md @concepts/synthetic-media-web3-monetization.md @entities/marketplaces/fanvue.md @runbooks/day-1-checklist-for-friend.md @runbooks/zimage-setup-runbook.md @concepts/persona-failure-modes.md @concepts/persona-monetization-models.md @concepts/persona-payment-rails.md @concepts/persona-ops-stack.md @concepts/likeness-collision-verification.md @entities/voice-models/elevenlabs.md @entities/music-models/suno.md @entities/music-models/udio.md @sources/arxiv-2411-19537-deepfake-generation-detection-survey.md @concepts/generative-ai-era-deepfake-landscape.md @sources/arxiv-2607-15694-voice-clone-attribution-geometry-floor.md @sweeps/2026-07-20-daily.md @entities/tools/watermarks-remover.md @sources/arxiv-2609-18007-gender-stereotyping-t2i.md
 @concepts/synthetic-media-corporate-structure.md
 @concepts/synthetic-media-web3-monetization.md
 @entities/persona-ops/fish-speech.md

@@ -3,21 +3,25 @@ title: Subject-Aware Attention Video (DIAL)
 type: entity
 tags: [video, identity, multi-subject, watch]
 keywords: [subject-to-video, identity consistency, ISGM, DIAL]
+maturity: draft
+created: 2026-09-11
+updated: 2026-09-19
+phase0_verdict: WATCH HIGH
+wire_status: deferred
 related:
   - sources/arxiv-2609-11507-subject-aware-attention-video.md
   - concepts/video-identity-inheritance.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-09-11-daily.md
-maturity: draft
-created: 2026-09-11
-updated: 2026-09-11
-phase0_verdict: WATCH HIGH
-wire_status: deferred
+  - entities/models/msr-video.md
+  - sources/arxiv-2609-18393-msr-video.md
+  - sweeps/2026-09-18-daily.md
 ---
+
 
 ## Relations
 
-@sources/arxiv-2609-11507-subject-aware-attention-video.md @concepts/video-identity-inheritance.md @concepts/federated-daily-research-digest.md @sweeps/2026-09-11-daily.md
+@sources/arxiv-2609-11507-subject-aware-attention-video.md @concepts/video-identity-inheritance.md @concepts/federated-daily-research-digest.md @sweeps/2026-09-11-daily.md @entities/models/msr-video.md @sources/arxiv-2609-18393-msr-video.md @sweeps/2026-09-18-daily.md
 
 ## Raw Concept
 

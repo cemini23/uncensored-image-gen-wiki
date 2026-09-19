@@ -3,22 +3,25 @@ title: "H3-World language-to-world control (arXiv:2609.01560)"
 type: source
 tags: [paper, world-model, video, watch]
 keywords: [H3-World, language understanding, world control]
+maturity: draft
+read_status: read
+created: 2026-09-03
+updated: 2026-09-19
+phase0_verdict: WATCH
+wire_status: deferred
 related:
   - concepts/federated-daily-research-digest.md
   - concepts/world-models-video-generation.md
   - entities/models/h3-world.md
   - sweeps/2026-09-02-daily.md
-maturity: draft
-read_status: read
-created: 2026-09-03
-updated: 2026-09-03
-phase0_verdict: WATCH
-wire_status: deferred
+  - entities/benchmarks/minimax-h3-reason.md
+  - sources/arxiv-2609-18323-minimax-h3-reason.md
 ---
+
 
 ## Relations
 
-@entities/models/h3-world.md @concepts/world-models-video-generation.md @concepts/federated-daily-research-digest.md @sweeps/2026-09-02-daily.md
+@concepts/federated-daily-research-digest.md @concepts/world-models-video-generation.md @entities/models/h3-world.md @sweeps/2026-09-02-daily.md @entities/benchmarks/minimax-h3-reason.md @sources/arxiv-2609-18323-minimax-h3-reason.md
 
 ## Raw Concept
 

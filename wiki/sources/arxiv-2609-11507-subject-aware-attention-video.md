@@ -3,22 +3,25 @@ title: "Subject-aware attention for multi-subject video (arXiv:2609.11507)"
 type: source
 tags: [paper, video, identity, multi-subject, watch]
 keywords: [subject-to-video, identity consistency, ISGM, preference RL]
+maturity: draft
+read_status: read
+created: 2026-09-11
+updated: 2026-09-19
+phase0_verdict: WATCH HIGH
+wire_status: deferred
 related:
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-09-11-daily.md
   - concepts/video-identity-inheritance.md
   - entities/models/subject-aware-attention-video.md
-maturity: draft
-read_status: read
-created: 2026-09-11
-updated: 2026-09-11
-phase0_verdict: WATCH HIGH
-wire_status: deferred
+  - entities/models/msr-video.md
+  - sources/arxiv-2609-18393-msr-video.md
 ---
+
 
 ## Relations
 
-@concepts/federated-daily-research-digest.md @sweeps/2026-09-11-daily.md @concepts/video-identity-inheritance.md @entities/models/subject-aware-attention-video.md
+@concepts/federated-daily-research-digest.md @sweeps/2026-09-11-daily.md @concepts/video-identity-inheritance.md @entities/models/subject-aware-attention-video.md @entities/models/msr-video.md @sources/arxiv-2609-18393-msr-video.md
 
 ## Raw Concept
 

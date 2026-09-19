@@ -65,6 +65,7 @@ Per-item verdicts:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-09-19 | Full inbox ingest — 9 NEW arXiv PDFs (4 WATCH-full, 1 WATCH+concept, 1 WATCH-thin, 2 ROUTE, 1 SKIP); inbox cleared | No clones (MiniMax-H3-Reason null SPDX). Sweeps 09-17→09-18 ingested. Image-gen Phase-1: none. |
 | 2026-09-16 | Full inbox ingest — 8 NEW arXiv PDFs (4 WATCH-full, 1 WATCH-thin, 1 ROUTE, 2 SKIP); inbox cleared | No clones (no public repos). Sweeps 09-12 → 09-16 frontmatter + ingested. Image-gen Phase-1: none. |
 | 2026-09-11 | Full inbox ingest — 43 NEW arXiv PDFs (18 WATCH-full, 3 WATCH-thin, 9 ROUTE, 13 SKIP); k256–k259 filed; inbox cleared | Clones DONE: DSAQuant + KABURI-TTS + TBDub (all Apache-2.0, du -sm < 500, no weight download). VoxReason NOT cloned (NOASSERTION). Sweeps 09-04 → 09-11 given frontmatter and marked ingested. Image-gen Phase-1: none. |
 | 2026-09-03 | Inbox ingest RIFT · MeRoPE · H3-World · CameraEditor; skip DDO/SDARE | 8 NEW PDFs; RIFT Apache clone (~222 MB). Sweep 09-02 committed. Image-gen Phase-1: none. |
