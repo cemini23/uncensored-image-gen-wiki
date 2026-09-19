@@ -65,6 +65,7 @@ Per-item verdicts:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-09-19 | Inbox batch 2 — 8 NEW (5 WATCH-full, 1 ROUTE game-dev, 2 SKIP); Video DeltaNet Apache clone (~274 MB) | Livestream video + GRN editing + voice-agent evals filed. Image-gen Phase-1: none. |
 | 2026-09-19 | Full inbox ingest — 9 NEW arXiv PDFs (4 WATCH-full, 1 WATCH+concept, 1 WATCH-thin, 2 ROUTE, 1 SKIP); inbox cleared | No clones (MiniMax-H3-Reason null SPDX). Sweeps 09-17→09-18 ingested. Image-gen Phase-1: none. |
 | 2026-09-16 | Full inbox ingest — 8 NEW arXiv PDFs (4 WATCH-full, 1 WATCH-thin, 1 ROUTE, 2 SKIP); inbox cleared | No clones (no public repos). Sweeps 09-12 → 09-16 frontmatter + ingested. Image-gen Phase-1: none. |
 | 2026-09-11 | Full inbox ingest — 43 NEW arXiv PDFs (18 WATCH-full, 3 WATCH-thin, 9 ROUTE, 13 SKIP); k256–k259 filed; inbox cleared | Clones DONE: DSAQuant + KABURI-TTS + TBDub (all Apache-2.0, du -sm < 500, no weight download). VoxReason NOT cloned (NOASSERTION). Sweeps 09-04 → 09-11 given frontmatter and marked ingested. Image-gen Phase-1: none. |

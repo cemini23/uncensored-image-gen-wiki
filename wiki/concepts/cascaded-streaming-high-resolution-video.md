@@ -3,6 +3,9 @@ title: Cascaded streaming high-resolution video generation (Ultra Flash)
 type: concept
 tags: [concept, video-generation, streaming, super-resolution, autoregressive, high-resolution]
 keywords: [Ultra Flash, cascaded SR, latent upsampler, T2V-to-TV2V, self-forcing DPO, AIGC degradation, real-time 1K 2K, causal sparse attention]
+maturity: draft
+created: 2026-06-11
+updated: 2026-09-19
 related:
   - sources/arxiv-2606-09150-ultra-flash-streaming-hr-video.md
   - concepts/one-step-autoregressive-video-distillation.md
@@ -22,14 +25,15 @@ related:
   - concepts/mobile-wan-chunkwise-video-distillation.md
   - concepts/context-matched-video-distillation.md
   - sources/arxiv-2608-13391-context-matched-distillation.md
-maturity: draft
-created: 2026-06-11
-updated: 2026-08-14
+  - entities/models/video-deltanet.md
+  - sources/arxiv-2609-20744-video-deltanet.md
+  - sweeps/2026-09-19-daily.md
 ---
+
 
 ## Relations
 
-@sources/arxiv-2606-09150-ultra-flash-streaming-hr-video.md @concepts/one-step-autoregressive-video-distillation.md @entities/models/wan-2-2.md @concepts/frozen-dit-video-super-resolution.md
+@sources/arxiv-2606-09150-ultra-flash-streaming-hr-video.md @concepts/one-step-autoregressive-video-distillation.md @concepts/streaming-force-controlled-video-generation.md @concepts/frozen-dit-video-super-resolution.md @concepts/world-models-video-generation.md @concepts/seam-stitching-strategies.md @entities/models/wan-2-2.md @sources/arxiv-2606-09250-litevsr-frozen-dit-vsr.md @sources/video-generation-survey-2026.md @sources/arxiv-2606-13376-moverse-panoramic-gaussian-world.md @concepts/panoramic-gaussian-video-world-models.md @entities/models/moverse.md @sources/arxiv-2606-19271-turboserve-streaming-video-serving.md @concepts/streaming-video-generation-serving.md @entities/models/turboserve.md @concepts/mobile-wan-chunkwise-video-distillation.md @concepts/context-matched-video-distillation.md @sources/arxiv-2608-13391-context-matched-distillation.md @entities/models/video-deltanet.md @sources/arxiv-2609-20744-video-deltanet.md @sweeps/2026-09-19-daily.md
 
 ## Raw Concept
 

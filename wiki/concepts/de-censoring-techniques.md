@@ -1,4 +1,11 @@
 ---
+title: De-censoring techniques (abliteration, LoRA injection, weight merging, prompt bypasses)
+type: concept
+tags: [de-censoring, alignment-removal, abliteration, lora-injection, weight-merging, ties-merging, dare, slerp, prompt-engineering]
+keywords: [abliteration, refusal vector, LoRA injection, FLUX-UNCENSORED-Merged, Chroma1-HD, SNOFS, SLERP, TIES-Merging, DARE, Drop And Rescale, weight merging, prompt engineering bypass, architectural censorship hard wall]
+maturity: validated
+created: 2026-05-06
+updated: 2026-09-19
 related:
   - sources/uncensored-image-generation-survey.md
   - concepts/censorship-tier-taxonomy.md
@@ -46,22 +53,18 @@ related:
   - entities/models/hunyuanimage-3-0.md
   - entities/training-tools/heretic.md
   - sweeps/2026-07-10-daily.md
-  - concepts/multimodal-machine-unlearning.md
   - sources/arxiv-2607-07907-multimodal-unlearning-survey.md
   - sweeps/2026-07-13-daily.md
-title: De-censoring techniques (abliteration, LoRA injection, weight merging, prompt bypasses)
-type: concept
-tags: [de-censoring, alignment-removal, abliteration, lora-injection, weight-merging, ties-merging, dare, slerp, prompt-engineering]
-keywords: [abliteration, refusal vector, LoRA injection, FLUX-UNCENSORED-Merged, Chroma1-HD, SNOFS, SLERP, TIES-Merging, DARE, Drop And Rescale, weight merging, prompt engineering bypass, architectural censorship hard wall]
-maturity: validated
-created: 2026-05-06
-updated: 2026-07-13
+  - entities/models/generative-refinement-network.md
+  - sources/arxiv-2609-20633-generative-refinement-network.md
+  - sweeps/2026-09-19-daily.md
 ---
+
 
 
 ## Relations
 
-@sources/uncensored-image-generation-survey.md
+@sources/uncensored-image-generation-survey.md @concepts/censorship-tier-taxonomy.md @concepts/lora-taxonomy.md @concepts/reference-plus-lora-stacking.md @concepts/prompt-engineering-uncensored.md @concepts/two-pass-generation-workflow.md @entities/models/flux.md @entities/models/flux-1-dev.md @entities/models/flux-2-klein.md @entities/models/pony-v6.md @entities/models/pony-v7.md @entities/models/illustrious-xl.md @entities/models/noobai-xl.md @entities/models/anima.md @entities/models/z-image-turbo.md @entities/models/qwen-image-2512.md @entities/models/ernie-image.md @entities/models/playground-v3.md @concepts/preference-delta-lora-aggregation.md @sources/arxiv-weak-signals-preference-distillation-2606.00357-2026-06-05.md @entities/models/kwai-kolors.md @entities/models/pixart-sigma.md @entities/models/sdxl-fine-tunes.md @entities/models/sd3-deprecated.md @sources/video-generation-survey-2026.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @entities/models/mochi-1.md @entities/models/cogvideox-1-5.md @entities/hardware/gpu-guide.md @entities/marketplaces/civitai.md @entities/uis/comfyui.md @concepts/cross-model-safety-steering.md @sources/arxiv-2606-05290-cross-model-safety-steering.md @sources/arxiv-2606-17257-reins-video-safety-representation-steering.md @concepts/representation-space-video-safety-steering.md @sources/arxiv-2606-23375-tf-refusalbench-over-alignment.md @concepts/domain-sensitive-llm-over-alignment.md @concepts/pragmatic-open-model-adoption.md @sources/arxiv-2606-22211-open-ai-local-llama-wild.md @sources/arxiv-2606-28643-obliviate-autoregressive-concept-erasure.md @concepts/autoregressive-concept-erasure-obliviate.md @concepts/multimodal-machine-unlearning.md @entities/models/hunyuanimage-3-0.md @entities/training-tools/heretic.md @sweeps/2026-07-10-daily.md @sources/arxiv-2607-07907-multimodal-unlearning-survey.md @sweeps/2026-07-13-daily.md @entities/models/generative-refinement-network.md @sources/arxiv-2609-20633-generative-refinement-network.md @sweeps/2026-09-19-daily.md
 @concepts/censorship-tier-taxonomy.md
 @concepts/lora-taxonomy.md
 @concepts/preference-delta-lora-aggregation.md

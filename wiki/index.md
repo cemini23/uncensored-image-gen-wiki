@@ -449,7 +449,16 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Spatially adaptive noise injection (arXiv:2609.18466)](sources/arxiv-2609-18466-spatially-adaptive-noise-injection.md) — diffusion sampling technique — `paper, diffusion, watch`
 - [Sound of Contact (arXiv:2609.19137)](sources/arxiv-2609-19137-sound-of-contact.md) — force-aware A/V manipulation — `paper, video, audio, watch`
 - [Zeroth-order preference alignment (arXiv:2609.19144)](sources/arxiv-2609-19144-zeroth-order-preference-routed.md) — ROUTE CCC — `paper, routed`
-- [SAFARI automotive HARA (arXiv:2609.20584)](sources/arxiv-2609-20584-safari-routed.md) — ROUTE CCC — `paper, routed`
+- [SAFARI automotive HARA (arXiv:2609.20584)](sources/arxiv-2609-20584-safari-routed.md)
+- [Live-ProsodyJudge (arXiv:2609.20124)](sources/arxiv-2609-20124-live-prosody-judge.md) — live streaming TTS prosody eval — `paper, tts, watch`
+- [MTVA-Bench (arXiv:2609.20152)](sources/arxiv-2609-20152-mtva-bench.md) — cascaded voice-agent LLM eval — `paper, benchmark, watch`
+- [V2-STRep (arXiv:2609.20582)](sources/arxiv-2609-20582-v2-strep-routed.md) — ROUTE game-dev — `paper, routed`
+- [SmellDiffusion SKIP (arXiv:2609.20624)](sources/arxiv-2609-20624-smelldiffusion-skip.md) — robotics olfactory — `paper, skip`
+- [Generative Refinement Network (arXiv:2609.20633)](sources/arxiv-2609-20633-generative-refinement-network.md) — training-free prompt-to-prompt editing; WATCH HIGH — `paper, editing, watch`
+- [Martingale heat SKIP (arXiv:2609.20681)](sources/arxiv-2609-20681-martingale-heat-skip.md) — statistical physics — `paper, skip`
+- [MoWAM (arXiv:2609.20709)](sources/arxiv-2609-20709-mowam.md) — efficient world action models; WATCH HIGH — `paper, world-model, watch`
+- [Video DeltaNet (arXiv:2609.20744)](sources/arxiv-2609-20744-video-deltanet.md) — livestream hybrid attention; Apache clone — `paper, video, watch`
+ — ROUTE CCC — `paper, routed`
  — streaming physics-grounded video; WATCH HIGH — `paper, video, world-model, watch`
 
 - [Transport penalties (arXiv:2608.28022)](sources/arxiv-2608-28022-transport-matched-penalties-skip.md) — SKIP sci-ML — `paper, skip`
