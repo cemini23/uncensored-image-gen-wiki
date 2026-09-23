@@ -3,24 +3,28 @@ title: "TBDub production-oriented visual dubbing (arXiv:2609.06144)"
 type: source
 tags: [paper, lipsync, dubbing, video, watch]
 keywords: [visual dubbing, lipsync, distillation, video DiT]
+maturity: draft
+read_status: read
+created: 2026-09-11
+updated: 2026-09-23
+phase0_verdict: WATCH HIGH
+wire_status: deferred
 related:
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-09-11-daily.md
+  - sweeps/2026-09-23-daily.md
   - entities/lipsync/tbdub.md
   - entities/lipsync/latentsync.md
   - entities/lipsync/musetalk.md
   - concepts/persona-audio-stack.md
-maturity: draft
-read_status: read
-created: 2026-09-11
-updated: 2026-09-11
-phase0_verdict: WATCH HIGH
-wire_status: deferred
+  - entities/lipsync/not-quite-my-tempo.md
+  - sources/arxiv-2609-26486-not-quite-my-tempo.md
 ---
+
 
 ## Relations
 
-@concepts/federated-daily-research-digest.md @sweeps/2026-09-11-daily.md @entities/lipsync/tbdub.md @entities/lipsync/latentsync.md @entities/lipsync/musetalk.md @concepts/persona-audio-stack.md
+@concepts/federated-daily-research-digest.md @sweeps/2026-09-11-daily.md @sweeps/2026-09-23-daily.md @entities/lipsync/tbdub.md @entities/lipsync/latentsync.md @entities/lipsync/musetalk.md @concepts/persona-audio-stack.md @entities/lipsync/not-quite-my-tempo.md @sources/arxiv-2609-26486-not-quite-my-tempo.md
 
 ## Raw Concept
 

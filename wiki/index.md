@@ -457,7 +457,32 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Generative Refinement Network (arXiv:2609.20633)](sources/arxiv-2609-20633-generative-refinement-network.md) — training-free prompt-to-prompt editing; WATCH HIGH — `paper, editing, watch`
 - [Martingale heat SKIP (arXiv:2609.20681)](sources/arxiv-2609-20681-martingale-heat-skip.md) — statistical physics — `paper, skip`
 - [MoWAM (arXiv:2609.20709)](sources/arxiv-2609-20709-mowam.md) — efficient world action models; WATCH HIGH — `paper, world-model, watch`
-- [Video DeltaNet (arXiv:2609.20744)](sources/arxiv-2609-20744-video-deltanet.md) — livestream hybrid attention; Apache clone — `paper, video, watch`
+- [Video DeltaNet (arXiv:2609.20744)](sources/arxiv-2609-20744-video-deltanet.md)
+- [Dictionary G2P (arXiv:2609.19805)](sources/arxiv-2609-19805-dictionary-g2p-tts.md) — unsegmented-language G2P — `paper, tts, watch`
+- [HerHealthEval SKIP (arXiv:2609.20684)](sources/arxiv-2609-20684-herhealtheval-skip.md) — medical NLP — `paper, skip`
+- [Listen Before You Speak (arXiv:2609.21683)](sources/arxiv-2609-21683-listen-before-you-speak.md) — conversational TTS — `paper, voice, watch`
+- [GenTraceBench (arXiv:2609.21738)](sources/arxiv-2609-21738-gentracebench-routed.md) — ROUTE cybersec — `paper, routed`
+- [ExpBoN (arXiv:2609.21899)](sources/arxiv-2609-21899-expbon-routed.md) — ROUTE CCC — `paper, routed`
+- [Nemotron VoiceChat (arXiv:2609.21967)](sources/arxiv-2609-21967-nemotron-voicechat.md) — full-duplex S2S; WATCH HIGH — `paper, voice, watch`
+- [Available Guardrails (arXiv:2609.22048)](sources/arxiv-2609-22048-available-guardrails-routed.md) — ROUTE CCC — `paper, routed`
+- [NGC 55 stream SKIP (arXiv:2609.22071)](sources/arxiv-2609-22071-ngc55-stream-skip.md) — astrophysics — `paper, skip`
+- [Structure Before Sampling TTS (arXiv:2609.24275)](sources/arxiv-2609-24275-structure-before-sampling-tts.md) — data-efficient TTS — `paper, tts, watch`
+- [Morpho-VITS (arXiv:2609.24310)](sources/arxiv-2609-24310-morpho-vits.md) — tonal Bantu TTS — `paper, tts, watch`
+- [Planar diffusion SKIP (arXiv:2609.24427)](sources/arxiv-2609-24427-planar-diffusion-skip.md) — math — `paper, skip`
+- [Corrective Forcing (arXiv:2609.24651)](sources/arxiv-2609-24651-corrective-forcing.md) — speech enhancement diffusion — `paper, voice, watch`
+- [GraphSVR SKIP (arXiv:2609.24732)](sources/arxiv-2609-24732-graphsvr-skip.md) — medical MRI — `paper, skip`
+- [Generative Tutorial (arXiv:2609.24955)](sources/arxiv-2609-24955-generative-tutorial.md) — contextualized visual instructions — `paper, video, watch`
+- [WorldCrafter (arXiv:2609.24984)](sources/arxiv-2609-24984-worldcrafter.md) — video world model; WATCH HIGH — `paper, video, watch`
+- [VideoGen-Agent (arXiv:2609.24997)](sources/arxiv-2609-24997-videogen-agent.md) — video gen agents; WATCH HIGH — `paper, video, watch`
+- [Trust-aware TTS (arXiv:2609.25951)](sources/arxiv-2609-25951-trust-aware-tts.md) — low-resource TTS — `paper, tts, watch`
+- [VideoX-Qwen (arXiv:2609.26015)](sources/arxiv-2609-26015-videox-qwen.md) — instruction video editing; WATCH HIGH — `paper, video, watch`
+- [QuantWM (arXiv:2609.26425)](sources/arxiv-2609-26425-quantwm.md) — 2-bit KV cache for video/world models — `paper, quantization, watch`
+- [Code Plans Diffusion Renders (arXiv:2609.26458)](sources/arxiv-2609-26458-code-plans-diffusion-renders.md) — open-ended world modeling; WATCH HIGH — `paper, world-model, watch`
+- [Not Quite My Tempo (arXiv:2609.26486)](sources/arxiv-2609-26486-not-quite-my-tempo.md) — lip-sync dubbing TTS; WATCH HIGH — `paper, lipsync, watch`
+- [Crystal structure SKIP (arXiv:2609.26502)](sources/arxiv-2609-26502-crystal-structure-skip.md) — materials — `paper, skip`
+- [Battery charging SKIP (arXiv:2609.26524)](sources/arxiv-2609-26524-battery-charging-skip.md) — chemistry — `paper, skip`
+- [Medical privacy audit (arXiv:2609.26623)](sources/arxiv-2609-26623-medical-privacy-audit-routed.md) — ROUTE cybersec — `paper, routed`
+ — livestream hybrid attention; Apache clone — `paper, video, watch`
  — ROUTE CCC — `paper, routed`
  — streaming physics-grounded video; WATCH HIGH — `paper, video, world-model, watch`
 
@@ -612,7 +637,19 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [MTVA-Bench](entities/benchmarks/mtva-bench.md) — cascaded voice-agent LLM benchmark — `benchmark, voice, watch`
 - [Generative Refinement Network](entities/models/generative-refinement-network.md) — training-free prompt-to-prompt editing — `model, editing, watch`
 - [MoWAM](entities/models/mowam.md) — efficient world action model — `model, world-model, watch`
-- [Video DeltaNet](entities/models/video-deltanet.md) — hybrid attention for livestream video — `model, video, watch`
+- [Video DeltaNet](entities/models/video-deltanet.md)
+- [Listen Before You Speak](entities/voice-models/listen-before-you-speak.md) — listener-aware conversational TTS — `voice, watch`
+- [Nemotron VoiceChat](entities/voice-models/nemotron-voicechat.md) — full-duplex S2S with tools — `voice, watch`
+- [Structure Before Sampling TTS](entities/voice-models/structure-before-sampling-tts.md) — core-set data-efficient TTS — `tts, watch`
+- [Morpho-VITS](entities/voice-models/morpho-vits.md) — morphology-aware VITS — `tts, watch`
+- [Corrective Forcing](entities/voice-models/corrective-forcing.md) — generative speech enhancement — `voice, watch`
+- [WorldCrafter](entities/models/worldcrafter.md) — 3D-aware video world model — `video, world-model, watch`
+- [VideoGen-Agent](entities/models/videogen-agent.md) — reinforced video generation agents — `video, watch`
+- [VideoX-Qwen](entities/models/videox-qwen.md) — instruction video editing — `video, editing, watch`
+- [QuantWM](entities/models/quantwm.md) — 2-bit KV cache quantization — `quantization, video, watch`
+- [Code Plans Diffusion Renders](entities/models/code-plans-diffusion-renders.md) — open-ended world modeling — `world-model, watch`
+- [Not Quite My Tempo](entities/lipsync/not-quite-my-tempo.md) — VA-aware lip-sync dubbing — `lipsync, watch`
+ — hybrid attention for livestream video — `model, video, watch`
 - [MiniMax-H3 Reason Benchmark](entities/benchmarks/minimax-h3-reason.md) — omni-modal physical reasoning eval — `benchmark, watch`
 - [MSR Video](entities/models/msr-video.md) — multi-subject reference for LTX video — `video, identity, watch`
 - [Sound of Contact](entities/models/sound-of-contact.md) — force-aware video+audio manipulation — `video, audio, watch`

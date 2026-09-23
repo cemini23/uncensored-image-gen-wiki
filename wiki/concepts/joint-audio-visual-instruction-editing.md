@@ -3,6 +3,9 @@ title: Joint audio-visual instruction editing (JAVEdit)
 type: concept
 tags: [concept, video-editing, audio-visual, instruction, persona-ops]
 keywords: [JAVEdit, joint AV editing, instruction editing, speech editing, background editing, agent curation]
+maturity: draft
+created: 2026-06-06
+updated: 2026-09-23
 related:
   - sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md
   - entities/models/javedit.md
@@ -19,14 +22,15 @@ related:
   - entities/models/tide.md
   - entities/models/dreamx-creator.md
   - sources/arxiv-2608-31106-dreamx-creator.md
-maturity: draft
-created: 2026-06-06
-updated: 2026-06-10
+  - entities/models/videox-qwen.md
+  - sources/arxiv-2609-26015-videox-qwen.md
+  - sweeps/2026-09-23-daily.md
 ---
+
 
 ## Relations
 
-@sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md @concepts/sync-audio-video-customization.md @concepts/persona-audio-stack.md @entities/models/ltx-2.md
+@sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md @entities/models/javedit.md @concepts/sync-audio-video-customization.md @concepts/persona-audio-stack.md @concepts/mllm-video-translation.md @entities/models/ltx-2.md @entities/lipsync/latentsync.md @sources/arxiv-2606-03672-foley-omni.md @concepts/multi-shot-audio-video-evaluation.md @sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md @sources/arxiv-2606-08260-tide-unified-video-editing.md @concepts/task-isolated-unified-video-editing.md @entities/models/tide.md @entities/models/dreamx-creator.md @sources/arxiv-2608-31106-dreamx-creator.md @entities/models/videox-qwen.md @sources/arxiv-2609-26015-videox-qwen.md @sweeps/2026-09-23-daily.md
 
 ## Raw Concept
 

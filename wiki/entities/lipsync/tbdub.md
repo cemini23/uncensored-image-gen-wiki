@@ -3,6 +3,11 @@ title: TBDub
 type: entity
 tags: [lipsync, dubbing, video, watch]
 keywords: [visual dubbing, lipsync, distillation, X-Dub]
+maturity: draft
+created: 2026-09-11
+updated: 2026-09-23
+phase0_verdict: WATCH HIGH / GO clone
+wire_status: deferred
 related:
   - sources/arxiv-2609-06144-tbdub.md
   - entities/lipsync/latentsync.md
@@ -10,16 +15,15 @@ related:
   - concepts/persona-audio-stack.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-09-11-daily.md
-maturity: draft
-created: 2026-09-11
-updated: 2026-09-11
-phase0_verdict: WATCH HIGH / GO clone
-wire_status: deferred
+  - entities/lipsync/not-quite-my-tempo.md
+  - sources/arxiv-2609-26486-not-quite-my-tempo.md
+  - sweeps/2026-09-23-daily.md
 ---
+
 
 ## Relations
 
-@sources/arxiv-2609-06144-tbdub.md @entities/lipsync/latentsync.md @entities/lipsync/musetalk.md @concepts/persona-audio-stack.md @concepts/federated-daily-research-digest.md @sweeps/2026-09-11-daily.md
+@sources/arxiv-2609-06144-tbdub.md @entities/lipsync/latentsync.md @entities/lipsync/musetalk.md @concepts/persona-audio-stack.md @concepts/federated-daily-research-digest.md @sweeps/2026-09-11-daily.md @entities/lipsync/not-quite-my-tempo.md @sources/arxiv-2609-26486-not-quite-my-tempo.md @sweeps/2026-09-23-daily.md
 
 ## Raw Concept
 

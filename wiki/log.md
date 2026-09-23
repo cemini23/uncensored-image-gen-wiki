@@ -1,3 +1,22 @@
+## [2026-09-23] ingest | WorldCrafter · VideoX-Qwen · Nemotron VoiceChat (+ 11 WATCH / 4 ROUTE / 6 SKIP)
+
+Full inbox ingest of **24 NEW** arXiv PDFs. All archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Phase-0: **no clones** (WorldCrafter NOASSERTION; Nemotron no canonical SPDX repo).
+
+### WATCH-full — 11
+Listen Before You Speak · Nemotron VoiceChat · Structure Before Sampling · Morpho-VITS · Corrective Forcing · WorldCrafter · VideoGen-Agent · VideoX-Qwen · QuantWM · Code Plans Diffusion Renders · Not Quite My Tempo
+
+### WATCH-thin — 3
+Dictionary G2P · Generative Tutorial · Trust-aware TTS
+
+### ROUTE
+CCC: ExpBoN · Available Guardrails | Cybersec: GenTraceBench · Medical privacy audit
+
+### SKIP — 6
+HerHealthEval · NGC55 stream · planar diffusion · GraphSVR · crystal · battery
+
+### Sweeps
+2026-09-20 → 2026-09-23 frontmatter + ingested.
+
 ## [2026-09-19] ingest | LACI TTS · MSR video · Sound of Contact · SANI (+ 2 ROUTE / 1 SKIP)
 
 Full inbox ingest of **9 NEW** arXiv PDFs (preingest: 9 NEW / 0 duplicate). All 9 archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Phase-0: **no clones** (`MiniMax-H3-Reason` repo has null SPDX).

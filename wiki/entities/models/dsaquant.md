@@ -3,21 +3,25 @@ title: DSAQuant
 type: entity
 tags: [quantization, video, diffusion, watch]
 keywords: [QAT, video diffusion, low-bit, Wan]
+maturity: draft
+created: 2026-09-11
+updated: 2026-09-23
+phase0_verdict: WATCH / GO clone
+wire_status: deferred
 related:
   - sources/arxiv-2609-04031-dsaquant.md
   - entities/hardware/gpu-guide.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-09-11-daily.md
-maturity: draft
-created: 2026-09-11
-updated: 2026-09-11
-phase0_verdict: WATCH / GO clone
-wire_status: deferred
+  - entities/models/quantwm.md
+  - sources/arxiv-2609-26425-quantwm.md
+  - sweeps/2026-09-23-daily.md
 ---
+
 
 ## Relations
 
-@sources/arxiv-2609-04031-dsaquant.md @entities/hardware/gpu-guide.md @concepts/federated-daily-research-digest.md @sweeps/2026-09-11-daily.md
+@sources/arxiv-2609-04031-dsaquant.md @entities/hardware/gpu-guide.md @concepts/federated-daily-research-digest.md @sweeps/2026-09-11-daily.md @entities/models/quantwm.md @sources/arxiv-2609-26425-quantwm.md @sweeps/2026-09-23-daily.md
 
 ## Raw Concept
 

@@ -4,8 +4,11 @@ type: source
 tags: [paper, quantization, video, diffusion, watch]
 keywords: [QAT, video diffusion, W4A4, denoising stages]
 related:
+  - sources/arxiv-2609-26425-quantwm.md
+  - entities/models/quantwm.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-09-11-daily.md
+  - sweeps/2026-09-23-daily.md
   - entities/models/dsaquant.md
   - entities/hardware/gpu-guide.md
 maturity: draft
@@ -18,7 +21,7 @@ wire_status: deferred
 
 ## Relations
 
-@concepts/federated-daily-research-digest.md @sweeps/2026-09-11-daily.md @entities/models/dsaquant.md @entities/hardware/gpu-guide.md
+@concepts/federated-daily-research-digest.md @sweeps/2026-09-11-daily.md @sweeps/2026-09-23-daily.md @entities/models/dsaquant.md @entities/hardware/gpu-guide.md @sources/arxiv-2609-26425-quantwm.md @entities/models/quantwm.md
 
 ## Raw Concept
 
