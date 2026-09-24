@@ -87,6 +87,7 @@ related:
   - entities/voice-models/phoenix-tts.md
   - entities/voice-models/fastthaig2p.md
   - sources/arxiv-2608-15910-isl-expressive-tts.md
+  - runbooks/runpod-unified-gen-stack.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-08-18

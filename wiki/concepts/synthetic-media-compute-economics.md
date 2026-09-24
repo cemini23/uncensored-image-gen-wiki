@@ -22,6 +22,7 @@ related:
   - concepts/multimodal-diffusion-mamba-efficient-t2v.md
   - entities/models/m4v.md
   - sources/arxiv-2506-10915-m4v-multimodal-mamba-t2v.md
+  - runbooks/runpod-unified-gen-stack.md
 maturity: draft
 created: 2026-05-08
 updated: 2026-07-14

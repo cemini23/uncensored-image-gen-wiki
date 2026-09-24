@@ -41,12 +41,6 @@ mkdir -p /workspace/outputs
 mkdir -p /workspace/bin
 mkdir -p /workspace/hf-cache
 
-# ComfyUI root. Healthcheck is written against this path on first run.
-COMFYUI_ROOT="${COMFYUI_ROOT:-/workspace/ComfyUI}"
-
-# Export note: operator should set HF_HOME=/workspace/hf-cache
-# export HF_HOME=/workspace/hf-cache
-
 # Clone missing custom nodes (skip if dir exists)
 NODES=(
     "https://github.com/ltdrdata/ComfyUI-Manager.git"

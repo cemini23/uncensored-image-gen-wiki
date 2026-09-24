@@ -58,6 +58,7 @@ related:
   - entities/models/generative-refinement-network.md
   - sources/arxiv-2609-20633-generative-refinement-network.md
   - sweeps/2026-09-19-daily.md
+  - runbooks/runpod-unified-gen-stack.md
 ---
 
 

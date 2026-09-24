@@ -255,6 +255,7 @@ related:
   - sources/arxiv-2608-23429-chebbooster.md
   - sources/arxiv-2608-23549-fixanything.md
   - sweeps/2026-08-18-daily.md
+  - runbooks/runpod-unified-gen-stack.md
 title: Wan 2.2 (Alibaba)
 type: entity
 tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]

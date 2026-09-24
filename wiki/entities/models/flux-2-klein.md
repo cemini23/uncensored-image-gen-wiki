@@ -42,6 +42,7 @@ related:
   - sources/arxiv-2608-14403-craft-attention-personalization.md
   - sources/arxiv-2607-15650-ditango-chitudiffusion.md
   - sources/arxiv-2607-19139-dit-template-token-registers.md
+  - runbooks/runpod-unified-gen-stack.md
 maturity: draft
 created: 2026-05-06
 updated: 2026-08-17

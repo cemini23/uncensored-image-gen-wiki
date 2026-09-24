@@ -93,6 +93,7 @@ related:
   - entities/models/msr-video.md
   - sources/arxiv-2609-18393-msr-video.md
   - sweeps/2026-09-18-daily.md
+  - runbooks/runpod-unified-gen-stack.md
 ---
 
 

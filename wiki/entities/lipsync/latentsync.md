@@ -47,6 +47,7 @@ related:
   - sources/arxiv-2608-16143-anytalk.md
   - entities/lipsync/tbdub.md
   - sources/arxiv-2609-06144-tbdub.md
+  - runbooks/runpod-unified-gen-stack.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-08-20

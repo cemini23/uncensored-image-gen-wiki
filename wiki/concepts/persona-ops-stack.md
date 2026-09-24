@@ -79,6 +79,7 @@ related:
   - sweeps/2026-07-11-daily.md
   - sweeps/2026-07-12-daily.md
   - sweeps/2026-07-13-daily.md
+  - runbooks/runpod-unified-gen-stack.md
 title: "Persona operations stack (architecture overview)"
 type: concept
 tags: [persona-ops, automation, stack-architecture, multi-account, dm-automation, voice-cloning, orchestration, content-pipelines]
