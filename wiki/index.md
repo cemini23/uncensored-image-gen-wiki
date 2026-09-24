@@ -868,7 +868,7 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Day 1 Checklist — Friend's Start Pack](runbooks/day-1-checklist-for-friend.md) — morning image gen → afternoon OpenRouter video → evening marketing via SEO:GEO wiki cross-links — `day-1, checklist, friend, openrouter, video, marketing`
 - [Z-Image Turbo GGUF — End-to-End Persona Operation Runbook](runbooks/zimage-setup-runbook.md) — local image gen, compliance (KYC/2257/LLC), platform matrix, 4-phase launch, GEO, OpenRouter chat automation, monetization — `z-image, gguf, comfyui, macos, setup-runbook, compliance, persona-ops, geo, openrouter`
 - [RunPod ComfyUI Setup — Custom Nodes + Models Quickstart](runbooks/runpod-comfyui-setup.md) — RunPod-specific ComfyUI custom node install checklist, model download, restart gotchas, and verification — `runpod, comfyui, setup, custom-nodes, 4090, cloud-gpu, quickstart`
-- [RunPod unified gen stack — deploy anytime](runbooks/runpod-unified-gen-stack.md) — Network volume layout, GPU tiers, NSFW / general / edit profiles, ComfyUI + audio sidecars, bootstrap vs bring-up — `runpod, deployment, persona, video, audio`
+- [RunPod unified gen stack — deploy anytime](runbooks/runpod-unified-gen-stack.md) — Quick start checklist, volume layout, GPU tiers, profiles A/B/C, ComfyUI + audio sidecars — `runpod, deployment, persona, video, audio, quickstart`
 
 ---
 

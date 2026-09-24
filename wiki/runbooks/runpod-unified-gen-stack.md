@@ -40,6 +40,42 @@ This runbook is the **architecture + bring-up contract**. Node install details s
 
 ## Narrative
 
+### Quick start
+
+Tracked copy of the deploy checklist. `briefs/` stays local and is not in git.
+
+**Before the first pod**
+
+- RunPod account and a spend alert.
+- Network volume **500 GB–1 TB** in a datacenter that has a **4090**. Secure Cloud 4090 was **$0.74/hr** with **LOW** stock in `EU-CZ-1`, `EU-RO-1`, `EUR-IS-1`, `EUR-IS-2`, `EUR-NO-1`, and `US-IL-1` on 2026-09-24. Re-read stock before you create. Community 4090 was **NONE** that same read.
+- Put `HF_TOKEN` and `CIVITAI_API_TOKEN` in RunPod secrets. Do not put them in git or chat.
+
+**One-time bootstrap**
+
+1. ComfyUI template pod with the volume mounted at `/workspace`.
+2. Copy `scripts/runpod/bringup.sh` to the pod and run it. It creates the folder tree, clones the core custom nodes, and writes `healthcheck.sh`.
+3. Reboot. In ComfyUI Manager, install missing custom nodes.
+4. Download the shared base: FLUX.2 Klein, Wan 2.2 **5B** (not native 14B 720p), Fish-Speech, LatentSync, plus a small prompt model (SmolLM2-1.7B or Qwen ~4B GGUF). Unload that prompt model before the sampler.
+5. Save graphs under `/workspace/workflows/{nsfw,general,edit,video}/`.
+6. Run `bash /workspace/bin/healthcheck.sh`.
+
+**Each session**
+
+1. Start the pod on the **same** volume and datacenter.
+2. Confirm ComfyUI listens on `0.0.0.0:8188`. Prefer an SSH or Tailscale tunnel. The public proxy URL changes every start and has no login.
+3. Smoke test: one 512² still and one short Wan 5B clip.
+4. Call ComfyUI `POST /free` before Fish-Speech or LatentSync.
+
+**Pick a profile** (same volume)
+
+| Say | Script | Workflow folder |
+|-----|--------|-----------------|
+| Profile A | `scripts/runpod/switch_profile.sh A` | `workflows/nsfw/` |
+| Profile B | `scripts/runpod/switch_profile.sh B` | `workflows/general/` |
+| Profile C | `scripts/runpod/switch_profile.sh C` | `workflows/edit/` and `workflows/video/` |
+
+Profile B must not load `models/loras/nsfw/`. Profile A needs your character LoRA and a reference voice you own. Stop the pod when idle. The volume keeps billing until you delete it.
+
 ### Design principles
 
 1. **One persistent network volume** holds models, LoRAs, workflows, and sidecar venvs. The pod is disposable; the volume is the product.
@@ -125,6 +161,21 @@ Mount the volume at **`/workspace`** (RunPod default for ComfyUI templates). Use
 | Multi-GPU Wan (ChituDiffusion / SVOO) | 2×80 GB | No | Future factory path; 4090 has no NVLink |
 
 **Fallback ladder when 4090 is unavailable:** RTX 5090 32 GB → L40S/A6000 48 GB — relax quantization rows accordingly.
+
+### Prompt director (socials 2026-09-24)
+
+Do **not** put a 27B 8-bit chat model on the 4090 next to Wan or FLUX. Community pattern: a **small** local LLM inside ComfyUI expands a short brief, then **unloads** before the sampler.
+
+| Slot | Default |
+|------|---------|
+| Text brief → prompt | SmolLM2-1.7B or Qwen ~4B GGUF (Comfy node or llama.cpp) |
+| Image → prompt (Profile C) | Qwen3-VL ~8B, then unload |
+| Diffusion text encoder | Separate from the director. Optional abliterated Qwen3-4B / Qwen3-VL-8B on Z-Image or Qwen-Image only |
+| Persona chat | SillyTavern + ~13B Q4 on the laptop. Not required to run a profile |
+
+### Operator contract (after the volume exists)
+
+You name **A**, **B**, or **C**. The agent runs `scripts/runpod/switch_profile.sh` on the pod, restarts ComfyUI, and queues that profile’s workflow. That command does not download weights and does not create the volume.
 
 ### Three deployment profiles (same infra, different bundles)
 
