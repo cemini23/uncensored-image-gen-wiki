@@ -33,9 +33,12 @@ related:
   - entities/models/tinyhistory.md
   - sources/arxiv-2607-15849-tango-test-time-noise-guided-ar-video.md
   - entities/models/tango-ar-video.md
+  - entities/models/ar-video-memory.md
+  - sources/arxiv-2609-28466-past-frames-ar-video-memory.md
+  - sweeps/2026-09-24-daily.md
 maturity: draft
 created: 2026-06-04
-updated: 2026-07-20
+updated: 2026-09-24
 ---
 
 ## Relations

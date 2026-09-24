@@ -9,6 +9,8 @@ related:
   - concepts/persona-consistency-methods.md
   - concepts/persona-failure-modes.md
   - concepts/persona-legal-landscape.md
+  - sources/arxiv-2609-27399-forget-who-you-forgot-speaker-unlearning.md
+  - entities/voice-models/speaker-unlearning-zs-tts.md
   - entities/lipsync/latentsync.md
   - entities/persona-ops/fish-speech.md
   - sources/arxiv-2411-19537-deepfake-generation-detection-survey.md
@@ -33,7 +35,7 @@ related:
   - sweeps/2026-07-20-daily.md
 maturity: draft
 created: 2026-06-30
-updated: 2026-08-25
+updated: 2026-09-24
 ---
 ## Relations
 

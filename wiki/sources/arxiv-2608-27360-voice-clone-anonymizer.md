@@ -10,17 +10,19 @@ related:
   - concepts/persona-failure-modes.md
   - entities/persona-ops/fish-speech.md
   - sweeps/2026-08-28-daily.md
+  - sources/arxiv-2609-27399-forget-who-you-forgot-speaker-unlearning.md
+  - entities/voice-models/speaker-unlearning-zs-tts.md
 maturity: draft
 read_status: read
 created: 2026-08-28
-updated: 2026-08-28
+updated: 2026-09-24
 phase0_verdict: WATCH
 wire_status: deferred
 ---
 
 ## Relations
 
-@concepts/persona-audio-stack.md @concepts/persona-failure-modes.md @concepts/generative-ai-era-deepfake-landscape.md @entities/persona-ops/fish-speech.md @concepts/federated-daily-research-digest.md @sweeps/2026-08-28-daily.md
+@concepts/persona-audio-stack.md @concepts/persona-failure-modes.md @concepts/generative-ai-era-deepfake-landscape.md @entities/persona-ops/fish-speech.md @concepts/federated-daily-research-digest.md @sweeps/2026-08-28-daily.md @sources/arxiv-2609-27399-forget-who-you-forgot-speaker-unlearning.md @entities/voice-models/speaker-unlearning-zs-tts.md
 
 ## Raw Concept
 

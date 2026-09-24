@@ -482,6 +482,14 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Crystal structure SKIP (arXiv:2609.26502)](sources/arxiv-2609-26502-crystal-structure-skip.md) — materials — `paper, skip`
 - [Battery charging SKIP (arXiv:2609.26524)](sources/arxiv-2609-26524-battery-charging-skip.md) — chemistry — `paper, skip`
 - [Medical privacy audit (arXiv:2609.26623)](sources/arxiv-2609-26623-medical-privacy-audit-routed.md) — ROUTE cybersec — `paper, routed`
+- [Speaker unlearning ZS-TTS (arXiv:2609.27399)](sources/arxiv-2609-27399-forget-who-you-forgot-speaker-unlearning.md) — opt-out unlearning — `paper, voice, watch`
+- [EmphTTS (arXiv:2609.27599)](sources/arxiv-2609-27599-emphtts.md) — emphasis-control RL TTS — `paper, tts, watch`
+- [Neuromodulation SKIP (arXiv:2609.27729)](sources/arxiv-2609-27729-neuromodulation-skip.md) — medical fMRI — `paper, skip`
+- [Whisper encoder prune (arXiv:2609.27980)](sources/arxiv-2609-27980-whisper-encoder-prune.md) — ASR speed; WATCH-thin — `paper, asr, watch`
+- [MotionSpec (arXiv:2609.28095)](sources/arxiv-2609-28095-motionspec.md) — motion-consistent T2V — `paper, video, watch`
+- [Robot denoising SKIP (arXiv:2609.28339)](sources/arxiv-2609-28339-robot-denoising-skip.md) — robotics DiT — `paper, skip`
+- [PointCast (arXiv:2609.28393)](sources/arxiv-2609-28393-pointcast.md) — manipulation world model; WATCH-thin — `paper, world-model, watch`
+- [AR video memory (arXiv:2609.28466)](sources/arxiv-2609-28466-past-frames-ar-video-memory.md) — AR memory; WATCH HIGH — `paper, video, watch`
  — livestream hybrid attention; Apache clone — `paper, video, watch`
  — ROUTE CCC — `paper, routed`
  — streaming physics-grounded video; WATCH HIGH — `paper, video, world-model, watch`
@@ -647,6 +655,11 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [VideoGen-Agent](entities/models/videogen-agent.md) — reinforced video generation agents — `video, watch`
 - [VideoX-Qwen](entities/models/videox-qwen.md) — instruction video editing — `video, editing, watch`
 - [QuantWM](entities/models/quantwm.md) — 2-bit KV cache quantization — `quantization, video, watch`
+- [Speaker unlearning (ZS-TTS)](entities/voice-models/speaker-unlearning-zs-tts.md) — opt-out voice suppression — `voice, privacy, watch`
+- [EmphTTS](entities/voice-models/emphtts.md) — emphasis RL TTS — `voice, tts, watch`
+- [MotionSpec](entities/models/motionspec.md) — spectral motion supervision — `video, watch`
+- [AR video memory](entities/models/ar-video-memory.md) — bounded-context AR memory — `video, world-model, watch`
+- [PointCast](entities/models/pointcast.md) — point-set manipulation WM — `world-model, watch`
 - [Code Plans Diffusion Renders](entities/models/code-plans-diffusion-renders.md) — open-ended world modeling — `world-model, watch`
 - [Not Quite My Tempo](entities/lipsync/not-quite-my-tempo.md) — VA-aware lip-sync dubbing — `lipsync, watch`
  — hybrid attention for livestream video — `model, video, watch`

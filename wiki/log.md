@@ -1,3 +1,19 @@
+## [2026-09-24] ingest | EmphTTS · MotionSpec · AR video memory (+ 4 WATCH / 2 SKIP)
+
+Full inbox ingest of **8 NEW** arXiv PDFs. Archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Phase-0: **no clones** (Whisper prune repo null SPDX; Awesome-AR-Video-Memory is list-only MIT).
+
+### WATCH-full — 4
+Speaker unlearning ZS-TTS · EmphTTS · MotionSpec · AR video memory
+
+### WATCH-thin — 2
+Whisper encoder prune · PointCast
+
+### SKIP — 2
+Neuromodulation fMRI · Robot denoising control
+
+### Sweep
+`2026-09-24-daily.md` ingested + inbox cleared.
+
 ## [2026-09-23] ingest | WorldCrafter · VideoX-Qwen · Nemotron VoiceChat (+ 11 WATCH / 4 ROUTE / 6 SKIP)
 
 Full inbox ingest of **24 NEW** arXiv PDFs. All archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Phase-0: **no clones** (WorldCrafter NOASSERTION; Nemotron no canonical SPDX repo).

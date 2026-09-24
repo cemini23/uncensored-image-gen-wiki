@@ -388,6 +388,15 @@ related:
   - sources/arxiv-2609-26502-crystal-structure-skip.md
   - sources/arxiv-2609-26524-battery-charging-skip.md
   - sources/arxiv-2609-26623-medical-privacy-audit-routed.md
+  - sources/arxiv-2609-27399-forget-who-you-forgot-speaker-unlearning.md
+  - sources/arxiv-2609-27599-emphtts.md
+  - sources/arxiv-2609-27729-neuromodulation-skip.md
+  - sources/arxiv-2609-27980-whisper-encoder-prune.md
+  - sources/arxiv-2609-28095-motionspec.md
+  - sources/arxiv-2609-28339-robot-denoising-skip.md
+  - sources/arxiv-2609-28393-pointcast.md
+  - sources/arxiv-2609-28466-past-frames-ar-video-memory.md
+  - sweeps/2026-09-24-daily.md
 ---
 
 
