@@ -8,9 +8,11 @@ related:
   - concepts/model-selection-workflow.md
   - entities/hardware/gpu-guide.md
   - entities/custom-nodes/impact-pack.md
+  - runbooks/runpod-unified-gen-stack.md
+  - concepts/persona-audio-stack.md
 maturity: validated
 created: 2026-05-09
-updated: 2026-05-11
+updated: 2026-09-24
 ---
 
 ## Relations
@@ -19,10 +21,12 @@ updated: 2026-05-11
 @concepts/model-selection-workflow.md
 @entities/hardware/gpu-guide.md
 @entities/custom-nodes/impact-pack.md
+@runbooks/runpod-unified-gen-stack.md
+@concepts/persona-audio-stack.md
 
 ## Raw Concept
 
-Solves the recurring "I installed a ComfyUI custom node on RunPod but can't find it / it doesn't show up" problem. RunPod's ComfyUI template comes pre-installed but custom nodes, model downloads, and restarts work differently than a local install.
+Solves the recurring "I installed a ComfyUI custom node on RunPod but can't find it / it doesn't show up" problem. For full stack architecture (volume layout, NSFW vs general vs edit profiles, audio sidecars), see @runbooks/runpod-unified-gen-stack.md. RunPod's ComfyUI template comes pre-installed but custom nodes, model downloads, and restarts work differently than a local install.
 
 ## Narrative
 

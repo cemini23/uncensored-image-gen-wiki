@@ -43,6 +43,7 @@ related:
   - runbooks/beginner-guide-to-persona.md
   - runbooks/day-1-checklist-for-friend.md
   - runbooks/runpod-comfyui-setup.md
+  - runbooks/runpod-unified-gen-stack.md
   - concepts/persona-audio-stack.md
   - entities/voice-models/cosyvoice2.md
   - entities/voice-models/kokoro.md

@@ -28,6 +28,7 @@ related:
   - sweeps/2026-07-20-daily.md
   - entities/tools/watermarks-remover.md
   - sources/arxiv-2609-18007-gender-stereotyping-t2i.md
+  - runbooks/runpod-unified-gen-stack.md
 ---
 
 ## Relations

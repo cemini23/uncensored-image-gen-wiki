@@ -29,6 +29,7 @@ related:
   - concepts/synthetic-media-compute-economics.md
   - sources/synthetic-media-ip-financial-roadmap.md
   - runbooks/runpod-comfyui-setup.md
+  - runbooks/runpod-unified-gen-stack.md
   - entities/custom-nodes/impact-pack.md
   - entities/custom-nodes/bmab.md
   - sources/arxiv-2606-06060-recache-diffusion-caching.md
@@ -43,7 +44,7 @@ related:
   - sources/arxiv-2609-04031-dsaquant.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-07-28
+updated: 2026-09-24
 ---
 
 ## Relations

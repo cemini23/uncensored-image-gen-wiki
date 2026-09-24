@@ -16,6 +16,7 @@ related:
   - entities/marketplaces/civitai.md
   - entities/uis/comfyui.md
   - entities/adapters/flux2-klein-matchingpose.md
+  - runbooks/runpod-unified-gen-stack.md
 maturity: draft
 created: 2026-05-06
 updated: 2026-07-04

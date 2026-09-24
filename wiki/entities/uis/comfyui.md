@@ -59,6 +59,7 @@ related:
   - entities/open-generative-ai.md
   - runbooks/zimage-setup-runbook.md
   - runbooks/runpod-comfyui-setup.md
+  - runbooks/runpod-unified-gen-stack.md
   - concepts/persona-audio-stack.md
   - entities/custom-nodes/impact-pack.md
   - entities/custom-nodes/bmab.md

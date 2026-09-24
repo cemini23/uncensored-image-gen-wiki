@@ -222,6 +222,8 @@ related:
   - sources/arxiv-2609-27599-emphtts.md
   - sources/arxiv-2609-27980-whisper-encoder-prune.md
   - sweeps/2026-09-24-daily.md
+  - runbooks/runpod-unified-gen-stack.md
+  - runbooks/runpod-comfyui-setup.md
 ---
 
 
