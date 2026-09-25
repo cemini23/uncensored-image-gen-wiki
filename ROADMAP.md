@@ -65,6 +65,7 @@ Per-item verdicts:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-09-25 | ccc-wiki alias + Grok defer gate (no RunPod/ViRDM clone this session) | Lint 0 hard; RunPod deploy waits operator OK ~$0.74/hr 4090. |
 | 2026-09-25 | Full inbox ingest — 8 NEW (5 WATCH-full, 1 ROUTE CCC, 2 SKIP); inbox cleared | WanPE + EditVoice + joint AV RL filed; runbook prompt-director cross-link. No clones. Sweep 09-25 ingested. Index orphan lines fixed. Image-gen Phase-1: none. |
 | 2026-09-24 | Full inbox ingest — 8 NEW (4 WATCH-full, 2 WATCH-thin, 2 SKIP); inbox cleared | Voice unlearning + EmphTTS + MotionSpec + AR memory filed. No clones. Sweep 09-24 ingested. Image-gen Phase-1: none. |
 | 2026-09-23 | Full inbox ingest — 24 NEW (11 WATCH-full, 3 WATCH-thin, 4 ROUTE, 6 SKIP); inbox cleared | No clones. Sweeps 09-20→09-23 ingested. Image-gen Phase-1: none. |

@@ -1,3 +1,7 @@
+## [2026-09-25] schema | ccc-wiki alias + Grok-gated follow-ups
+
+Added `ccc-wiki` to `CLAUDE.md` Related Wikis; `@ccc-wiki/...` cross-link on LLM graders ROUTE source. Grok CLI: **NOW** alias only; **DEFER** ViRDM clone, RunPod paid bootstrap, Type-D batch, handoff template; **SKIP** EditVoice demo listen. RunPod `bringup.sh` not executed (no operator spend OK).
+
 ## [2026-09-25] deep-read | WanPE · EditVoice · AV-GRPO · ViRDM · Looped TTS (+ CCC cross-route)
 
 Deep-read on five WATCH sources (arXiv HTML). ViRDM Phase-0 **GO** for `neu-vi/ViRDM` (Apache-2.0, code-only). CCC stub written locally (OpenRouter route-task could not fetch arXiv).

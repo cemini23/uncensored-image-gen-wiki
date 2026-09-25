@@ -162,6 +162,7 @@ Paths below are relative to this CLAUDE.md file's directory. Resolve `../` again
 | `seo-wiki` | `../SEO:GEO B&M Business/wiki/` | Local SEO, GBP optimization, GEO/AEO, web design, social media, creator marketing |
 | `3d-printing-wiki` | `../3d printing/wiki/` | FDM/FFF printing, Bambu, materials, slicers, print farms, store ops |
 | `cybersecurity-wiki` | `../Cybersecurity wiki/wiki/` | Cybersecurity research — offensive security, defensive operations, certifications, threat actors. Shared territory: deepfakes + adversarial-image attacks when those surfaces appear in pentest scope |
+| `ccc-wiki` | `../Cemini claude code CCC/wiki/` | Cursor + Claude Code meta-wiki — harness, federation skills, agent eval routes from domain ingests |
 
 ### Cross-wiki link syntax
 
@@ -325,3 +326,18 @@ Keep each check under 60 seconds.
 - **Brave Search API** / **Exa API**: optional (the MCPs work better with their own keys; alternatively, claude.ai's web tools are a fallback). Same `.env` pattern.
 
 If you fork/clone this workspace to another machine: copy `.env.example` to `.env` and fill in your own keys. Never reuse anyone else's keys.
+
+## Writing style (ASD-STE100)
+
+Write chat replies, explanations, summaries, commit messages, and PR descriptions in **ASD-STE100 Simplified Technical English** (adapted — not certified STE):
+
+- Use short, direct sentences (~20 words for instructions, ~25 for descriptions).
+- Use one plain word per concept; do not use synonyms or jargon.
+- Use one instruction per sentence; use imperative mood for steps.
+- Use active voice and simple tenses (present, past, future).
+- Keep articles (the, a, an). Do not drop words to save space.
+- Use one term for one thing every time.
+
+**Do not rewrite:** source code, identifiers, file paths, CLI output, direct quotes, or literal error messages.
+
+Cross-wiki canon: `@osint-wiki/concepts/asd-ste100-writing-style.md`. Optional global copy: `~/.claude/CLAUDE.md`.
