@@ -7,7 +7,7 @@ related:
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-09-25-daily.md
 maturity: draft
-read_status: skimmed
+read_status: deep-read
 created: 2026-09-25
 updated: 2026-09-25
 phase0_verdict: ROUTE
@@ -28,7 +28,7 @@ wire_status: routed
 
 ## Narrative
 
-**ROUTE CCC.** Empirical study of LLM exam grading (CV practical exam, 171 model configs). Off build-track for uncensored local gen media. Phase-0: cited GitHub org repo **404** at ingest — no clone. Brief: `briefs/2026-09-25_llm-graders-from-image-gen.md`. Image-gen Phase-1: **none**.
+**ROUTE CCC.** Empirical study of LLM exam grading (CV practical exam, 171 model configs). Off build-track for uncensored local gen media. Phase-0: cited GitHub org repo **404** at ingest — no clone. Brief: `briefs/2026-09-25_llm-graders-from-image-gen.md`. CCC cross-route: sibling repo `Cemini claude code CCC` → `wiki/sources/arxiv-2609-29333-llm-graders-cs-exams-routed.md` (no `@ccc-wiki` alias in this schema). Image-gen Phase-1: **none**.
 
 ## Snippets
 

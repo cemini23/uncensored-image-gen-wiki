@@ -24,7 +24,8 @@ Entity from 2026-09-25 ingest (arXiv:2609.29768).
 
 ## Narrative
 
-Architecture study for **depth via recurrence** in flow-matching TTS — weight reuse layouts under fixed block-call budget.
+Recurrent depth recipe for flow-matching TTS; Middle/Prefix layouts win at low step counts.
+
 
 ## Snippets
 

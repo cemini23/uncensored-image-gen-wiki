@@ -24,7 +24,8 @@ Entity from 2026-09-25 ingest (arXiv:2609.29889).
 
 ## Narrative
 
-Variable-length **NAR** zero-shot TTS and speech editing via Edit Flows — no fixed duration token budget up front.
+Edit-Flow NAR ZS-TTS + infilling edits; CPS; demo page live. Competes on Seed-TTS / LibriSpeech-PC / RealEdit.
+
 
 ## Snippets
 

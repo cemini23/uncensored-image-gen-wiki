@@ -25,7 +25,8 @@ Entity from 2026-09-25 ingest (arXiv:2609.28923).
 
 ## Narrative
 
-Few-step **causal / streaming** video generation via representation distribution matching (lighter than classic DMD teacher+critic setup). Paper-only at ingest.
+Few-step causal video via RDM; Apache-2.0 code at neu-vi/ViRDM (Phase-0 GO, no weights).
+
 
 ## Snippets
 

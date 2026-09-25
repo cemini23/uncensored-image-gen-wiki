@@ -26,7 +26,8 @@ Entity from 2026-09-25 ingest (arXiv:2609.29816).
 
 ## Narrative
 
-Modality-anchored decoupling + GRPO-style RL for **joint audio-video** diffusion — targets sync and per-modality quality. Paper-only at ingest.
+Modality-anchored Flow-GRPO RL on LongCat-Video stack; trained with 5DAV decoupled dataset.
+
 
 ## Snippets
 

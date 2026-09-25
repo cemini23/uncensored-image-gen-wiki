@@ -26,7 +26,8 @@ Entity from 2026-09-25 ingest (arXiv:2609.30221).
 
 ## Narrative
 
-Cinematic **prompt enhancement** model aligned with modern long-form T2V (multi-shot screenplay-style text). Candidate upstream of Wan 2.x in ComfyUI when code/weights ship. [TENTATIVE] until release.
+Cinematic prompt expander (4B–397B family). **397B is cloud-scale**; local RunPod should not assume it. Watch smaller checkpoints + WanPEval metrics when released.
+
 
 ## Snippets
 

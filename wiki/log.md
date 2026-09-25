@@ -1,3 +1,7 @@
+## [2026-09-25] deep-read | WanPE · EditVoice · AV-GRPO · ViRDM · Looped TTS (+ CCC cross-route)
+
+Deep-read on five WATCH sources (arXiv HTML). ViRDM Phase-0 **GO** for `neu-vi/ViRDM` (Apache-2.0, code-only). CCC stub written locally (OpenRouter route-task could not fetch arXiv).
+
 ## [2026-09-25] ingest | WanPE · EditVoice · AV-GRPO · ViRDM (+ 1 TTS / 1 ROUTE / 2 SKIP)
 
 Full inbox ingest of **8 NEW** arXiv PDFs. Archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Phase-0: **no clones** (LLM graders GitHub 404; no SPDX repos on WATCH set).
