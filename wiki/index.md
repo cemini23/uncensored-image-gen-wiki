@@ -490,9 +490,14 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Robot denoising SKIP (arXiv:2609.28339)](sources/arxiv-2609-28339-robot-denoising-skip.md) — robotics DiT — `paper, skip`
 - [PointCast (arXiv:2609.28393)](sources/arxiv-2609-28393-pointcast.md) — manipulation world model; WATCH-thin — `paper, world-model, watch`
 - [AR video memory (arXiv:2609.28466)](sources/arxiv-2609-28466-past-frames-ar-video-memory.md) — AR memory; WATCH HIGH — `paper, video, watch`
- — livestream hybrid attention; Apache clone — `paper, video, watch`
- — ROUTE CCC — `paper, routed`
- — streaming physics-grounded video; WATCH HIGH — `paper, video, world-model, watch`
+- [ViRDM (arXiv:2609.28923)](sources/arxiv-2609-28923-virdm.md) — few-step causal video — `paper, video, watch`
+- [LLM graders (arXiv:2609.29333)](sources/arxiv-2609-29333-llm-graders-routed.md) — ROUTE CCC — `paper, routed`
+- [Polymer BSW SKIP (arXiv:2609.29720)](sources/arxiv-2609-29720-polymer-bsw-skip.md) — materials — `paper, skip`
+- [Looped flow-matching TTS (arXiv:2609.29768)](sources/arxiv-2609-29768-looped-flow-matching-tts.md) — recurrence in TTS — `paper, tts, watch`
+- [AV-GRPO (arXiv:2609.29816)](sources/arxiv-2609-29816-av-grpo.md) — joint AV RL — `paper, audio, video, watch`
+- [EditVoice (arXiv:2609.29889)](sources/arxiv-2609-29889-editvoice.md) — variable-length NAR ZS-TTS — `paper, voice, watch`
+- [Augur SKIP (arXiv:2609.29952)](sources/arxiv-2609-29952-augur-skip.md) — product sim — `paper, skip`
+- [WanPE (arXiv:2609.30221)](sources/arxiv-2609-30221-wanpe.md) — cinematic prompt enhancement — `paper, video, watch`
 
 - [Transport penalties (arXiv:2608.28022)](sources/arxiv-2608-28022-transport-matched-penalties-skip.md) — SKIP sci-ML — `paper, skip`
 - [ARC-CT (arXiv:2608.28455)](sources/arxiv-2608-28455-arc-ct-skip.md) — SKIP medical — `paper, skip, medical`
@@ -662,11 +667,14 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [PointCast](entities/models/pointcast.md) — point-set manipulation WM — `world-model, watch`
 - [Code Plans Diffusion Renders](entities/models/code-plans-diffusion-renders.md) — open-ended world modeling — `world-model, watch`
 - [Not Quite My Tempo](entities/lipsync/not-quite-my-tempo.md) — VA-aware lip-sync dubbing — `lipsync, watch`
- — hybrid attention for livestream video — `model, video, watch`
+- [ViRDM](entities/models/virdm.md) — few-step causal video — `video, watch`
+- [Looped flow-matching TTS](entities/voice-models/looped-flow-matching-tts.md) — recurrent flow TTS — `tts, watch`
+- [AV-GRPO](entities/models/av-grpo.md) — joint AV diffusion RL — `video, audio, watch`
+- [EditVoice](entities/voice-models/editvoice.md) — NAR ZS-TTS + editing — `voice, watch`
+- [WanPE](entities/models/wanpe.md) — cinematic T2V prompt enhancement — `video, wan, watch`
 - [MiniMax-H3 Reason Benchmark](entities/benchmarks/minimax-h3-reason.md) — omni-modal physical reasoning eval — `benchmark, watch`
 - [MSR Video](entities/models/msr-video.md) — multi-subject reference for LTX video — `video, identity, watch`
 - [Sound of Contact](entities/models/sound-of-contact.md) — force-aware video+audio manipulation — `video, audio, watch`
- — lexicon-free pronunciation/accent control — `tts, voice, watch`
 
 - [Temporal State Transport](entities/models/temporal-state-transport.md) — temporal state transport in video diffusion — `model, video, diffusion, watch`
 - [Mask Forcing](entities/models/mask-forcing.md) — mask forcing for autoregressive video diffusion — `model, video, diffusion, watch`

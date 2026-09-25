@@ -5,7 +5,7 @@ tags: [concept, world-model, video-generation, interactive, action-controllable,
 keywords: [world model, world simulator, interactive video generation, action-controllable, camera-controllable, minute-scale, autoregressive rollout, explorable environment, LingBot-World, HY-WorldPlay, scene identity preservation, dual-branch camera control, hybrid linear attention]
 maturity: draft
 created: 2026-05-16
-updated: 2026-09-24
+updated: 2026-09-25
 related:
   - concepts/activation-steering-video-generation.md
   - concepts/camera-controlled-video-generation.md
@@ -197,6 +197,8 @@ related:
   - sources/arxiv-2609-28393-pointcast.md
   - sources/arxiv-2609-28466-past-frames-ar-video-memory.md
   - sweeps/2026-09-24-daily.md
+  - sources/arxiv-2609-28923-virdm.md
+  - entities/models/virdm.md
 ---
 
 

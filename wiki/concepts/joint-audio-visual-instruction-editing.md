@@ -5,7 +5,7 @@ tags: [concept, video-editing, audio-visual, instruction, persona-ops]
 keywords: [JAVEdit, joint AV editing, instruction editing, speech editing, background editing, agent curation]
 maturity: draft
 created: 2026-06-06
-updated: 2026-09-23
+updated: 2026-09-25
 related:
   - sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md
   - entities/models/javedit.md
@@ -23,6 +23,8 @@ related:
   - entities/models/dreamx-creator.md
   - sources/arxiv-2608-31106-dreamx-creator.md
   - entities/models/videox-qwen.md
+  - entities/models/av-grpo.md
+  - sources/arxiv-2609-29816-av-grpo.md
   - sources/arxiv-2609-26015-videox-qwen.md
   - sweeps/2026-09-23-daily.md
 ---

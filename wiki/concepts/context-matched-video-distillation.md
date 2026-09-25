@@ -15,9 +15,11 @@ related:
   - concepts/world-models-video-generation.md
   - entities/models/squad.md
   - sources/arxiv-2608-16585-squad-attention-distillation.md
+  - sources/arxiv-2609-28923-virdm.md
+  - entities/models/virdm.md
 maturity: draft
 created: 2026-08-14
-updated: 2026-08-18
+updated: 2026-09-25
 ---
 
 ## Relations

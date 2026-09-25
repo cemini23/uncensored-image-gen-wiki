@@ -224,6 +224,13 @@ related:
   - sweeps/2026-09-24-daily.md
   - runbooks/runpod-unified-gen-stack.md
   - runbooks/runpod-comfyui-setup.md
+  - entities/voice-models/editvoice.md
+  - entities/voice-models/looped-flow-matching-tts.md
+  - entities/models/av-grpo.md
+  - sources/arxiv-2609-29889-editvoice.md
+  - sources/arxiv-2609-29768-looped-flow-matching-tts.md
+  - sources/arxiv-2609-29816-av-grpo.md
+  - sweeps/2026-09-25-daily.md
 ---
 
 

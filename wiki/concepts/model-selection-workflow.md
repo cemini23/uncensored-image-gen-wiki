@@ -54,9 +54,11 @@ related:
   - sources/arxiv-2509-23951-hunyuanimage-3-0-technical-report.md
   - sources/hf-flux2-klein-9b-matchingpose.md
   - entities/adapters/flux2-klein-matchingpose.md
+  - entities/models/wanpe.md
+  - sources/arxiv-2609-30221-wanpe.md
 maturity: validated
 created: 2026-05-08
-updated: 2026-07-04
+updated: 2026-09-25
 ---
 
 ## Relations

@@ -11,9 +11,11 @@ related:
   - entities/models/ltx-2.md
   - sources/arxiv-2608-18607-va-judger.md
   - sweeps/2026-08-20-daily.md
+  - entities/models/av-grpo.md
+  - sources/arxiv-2609-29816-av-grpo.md
 maturity: draft
 created: 2026-08-20
-updated: 2026-08-20
+updated: 2026-09-25
 wire_status: deferred
 phase0_verdict: WATCH
 ---

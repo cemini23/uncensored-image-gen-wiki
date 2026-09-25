@@ -15,6 +15,8 @@ related:
   - entities/hardware/gpu-guide.md
   - entities/uis/comfyui.md
   - entities/models/wan-2-2.md
+  - entities/models/wanpe.md
+  - sources/arxiv-2609-30221-wanpe.md
   - entities/models/flux-2-klein.md
   - entities/models/pony-v6.md
   - entities/adapters/flux2-klein-9b-faceswap.md
@@ -23,7 +25,7 @@ related:
   - concepts/persona-legal-landscape.md
 maturity: validated
 created: 2026-09-24
-updated: 2026-09-24
+updated: 2026-09-25
 reviewed: 2026-09-24
 review_sources: grok-cli, deepseek-flash-dsh, openrouter-tencent-hy3, opencode-nemotron-3-ultra-free
 ---
@@ -168,7 +170,7 @@ Do **not** put a 27B 8-bit chat model on the 4090 next to Wan or FLUX. Community
 
 | Slot | Default |
 |------|---------|
-| Text brief → prompt | SmolLM2-1.7B or Qwen ~4B GGUF (Comfy node or llama.cpp) |
+| Text brief → prompt | SmolLM2-1.7B or Qwen ~4B GGUF (Comfy node or llama.cpp). **Watch** @entities/models/wanpe.md for Wan-specific cinematic expander when weights ship |
 | Image → prompt (Profile C) | Qwen3-VL ~8B, then unload |
 | Diffusion text encoder | Separate from the director. Optional abliterated Qwen3-4B / Qwen3-VL-8B on Z-Image or Qwen-Image only |
 | Persona chat | SillyTavern + ~13B Q4 on the laptop. Not required to run a profile |

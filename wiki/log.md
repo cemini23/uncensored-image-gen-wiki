@@ -1,3 +1,19 @@
+## [2026-09-25] ingest | WanPE · EditVoice · AV-GRPO · ViRDM (+ 1 TTS / 1 ROUTE / 2 SKIP)
+
+Full inbox ingest of **8 NEW** arXiv PDFs. Archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Phase-0: **no clones** (LLM graders GitHub 404; no SPDX repos on WATCH set).
+
+### WATCH-full — 5
+ViRDM · Looped flow-matching TTS · AV-GRPO · EditVoice · WanPE
+
+### ROUTE — 1
+CCC: LLM graders CS exams
+
+### SKIP — 2
+Polymer BSW · Augur synthetic decision lab
+
+### Sweep + index
+`2026-09-25-daily.md` ingested + inbox cleared. Fixed broken `wiki/index.md` stub lines (duplicate orphans).
+
 ## [2026-09-24] ingest | EmphTTS · MotionSpec · AR video memory (+ 4 WATCH / 2 SKIP)
 
 Full inbox ingest of **8 NEW** arXiv PDFs. Archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Phase-0: **no clones** (Whisper prune repo null SPDX; Awesome-AR-Video-Memory is list-only MIT).

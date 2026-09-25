@@ -5,7 +5,7 @@ tags: [meta, automation, federation, discovery, k93]
 keywords: [daily-research-digest, exa, inbox, sweep, federated, launchagent, discovery-loop]
 maturity: validated
 created: 2026-06-01
-updated: 2026-09-23
+updated: 2026-09-25
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 related:
   - concepts/persona-audio-stack.md
@@ -397,6 +397,15 @@ related:
   - sources/arxiv-2609-28393-pointcast.md
   - sources/arxiv-2609-28466-past-frames-ar-video-memory.md
   - sweeps/2026-09-24-daily.md
+  - sources/arxiv-2609-28923-virdm.md
+  - sources/arxiv-2609-29333-llm-graders-routed.md
+  - sources/arxiv-2609-29720-polymer-bsw-skip.md
+  - sources/arxiv-2609-29768-looped-flow-matching-tts.md
+  - sources/arxiv-2609-29816-av-grpo.md
+  - sources/arxiv-2609-29889-editvoice.md
+  - sources/arxiv-2609-29952-augur-skip.md
+  - sources/arxiv-2609-30221-wanpe.md
+  - sweeps/2026-09-25-daily.md
 ---
 
 
