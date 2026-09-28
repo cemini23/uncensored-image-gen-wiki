@@ -61,6 +61,7 @@ related:
   - sources/arxiv-2608-12107-avatar-forever.md
   - entities/models/xyzflow.md
   - sources/arxiv-2608-12276-xyzflow.md
+  - sources/arxiv-2609-30884-cachereforge.md
 maturity: draft
 created: 2026-06-07
 updated: 2026-08-25

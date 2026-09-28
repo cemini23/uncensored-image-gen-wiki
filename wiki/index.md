@@ -498,6 +498,16 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [EditVoice (arXiv:2609.29889)](sources/arxiv-2609-29889-editvoice.md) — variable-length NAR ZS-TTS — `paper, voice, watch`
 - [Augur SKIP (arXiv:2609.29952)](sources/arxiv-2609-29952-augur-skip.md) — product sim — `paper, skip`
 - [WanPE (arXiv:2609.30221)](sources/arxiv-2609-30221-wanpe.md) — cinematic prompt enhancement — `paper, video, watch`
+- [ComplexSync (arXiv:2609.29225)](sources/arxiv-2609-29225-complexsync.md) — real-time diffusion lipsync — `paper, lipsync, watch`
+- [CacheReforge (arXiv:2609.30884)](sources/arxiv-2609-30884-cachereforge.md) — KV stale-cache recovery — `paper, watch`
+- [DyMD (arXiv:2609.31349)](sources/arxiv-2609-31349-dymd.md) — interaction-preserving video WM distill — `paper, watch`
+- [TemplateCraft (arXiv:2609.31451)](sources/arxiv-2609-31451-templatecraft.md) — agentic visual templates — `paper, watch`
+- [Heterogeneous attention video (arXiv:2609.31050)](sources/arxiv-2609-31050-heterogeneous-attention-video.md) — efficient video diffusion — `paper, watch`
+- [TTS detection evidence ROUTE (arXiv:2609.30983)](sources/arxiv-2609-30983-tts-detection-evidence-routed.md) — `paper, routed`
+- [Image origin limits ROUTE (arXiv:2609.30997)](sources/arxiv-2609-30997-minimax-image-origin-routed.md) — `paper, routed`
+- [EHR IR benchmark SKIP (arXiv:2609.30205)](sources/arxiv-2609-30205-ehr-ir-benchmark-skip.md) — medical — `paper, skip`
+- [Instrumental monitor evasion (arXiv:2609.30217)](sources/arxiv-2609-30217-instrumental-monitor-evasion-routed.md) — ROUTE cybersec — `paper, routed`
+- [SemMSA SKIP (arXiv:2609.30238)](sources/arxiv-2609-30238-semmsa-skip.md) — sentiment MSA — `paper, skip`
 
 - [Transport penalties (arXiv:2608.28022)](sources/arxiv-2608-28022-transport-matched-penalties-skip.md) — SKIP sci-ML — `paper, skip`
 - [ARC-CT (arXiv:2608.28455)](sources/arxiv-2608-28455-arc-ct-skip.md) — SKIP medical — `paper, skip, medical`
@@ -666,6 +676,11 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [AR video memory](entities/models/ar-video-memory.md) — bounded-context AR memory — `video, world-model, watch`
 - [PointCast](entities/models/pointcast.md) — point-set manipulation WM — `world-model, watch`
 - [Code Plans Diffusion Renders](entities/models/code-plans-diffusion-renders.md) — open-ended world modeling — `world-model, watch`
+- [ComplexSync](entities/lipsync/complexsync.md)
+- [DyMD](entities/models/dymd.md) — video WM distillation — `video, watch`
+- [TemplateCraft](entities/persona-ops/templatecraft.md) — agentic templates — `persona-ops, watch`
+- [Heterogeneous attention video](entities/models/heterogeneous-attention-video.md) — efficient video — `video, watch`
+ — complex-scenario lip sync — `lipsync, watch`
 - [Not Quite My Tempo](entities/lipsync/not-quite-my-tempo.md) — VA-aware lip-sync dubbing — `lipsync, watch`
 - [ViRDM](entities/models/virdm.md) — few-step causal video — `video, watch`
 - [Looped flow-matching TTS](entities/voice-models/looped-flow-matching-tts.md) — recurrent flow TTS — `tts, watch`

@@ -5,7 +5,7 @@ tags: [audio, voice-cloning, tts, lipsync, music-generation, sound-effects, pers
 keywords: [voice cloning, TTS, Fish-Speech, CosyVoice, lipsync, LatentSync, MuseTalk, Wav2Lip, music generation, MusicGen, ACE-Step, Stable Audio, sound effects, AudioLDM, Tango, audio-video integration, FFmpeg, ComfyUI audio nodes]
 maturity: validated
 created: 2026-05-09
-updated: 2026-09-24
+updated: 2026-09-28
 related:
   - concepts/asr-roundtrip-tts-eval-limits.md
   - concepts/david-adoption-brief-routing.md
@@ -231,6 +231,10 @@ related:
   - sources/arxiv-2609-29768-looped-flow-matching-tts.md
   - sources/arxiv-2609-29816-av-grpo.md
   - sweeps/2026-09-25-daily.md
+  - entities/lipsync/complexsync.md
+  - sources/arxiv-2609-29225-complexsync.md
+  - sweeps/2026-09-27-daily.md
+
 ---
 
 

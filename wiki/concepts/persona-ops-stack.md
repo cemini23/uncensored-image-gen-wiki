@@ -80,13 +80,16 @@ related:
   - sweeps/2026-07-12-daily.md
   - sweeps/2026-07-13-daily.md
   - runbooks/runpod-unified-gen-stack.md
+  - sources/arxiv-2609-31451-templatecraft.md
+  - entities/persona-ops/templatecraft.md
 title: "Persona operations stack (architecture overview)"
 type: concept
 tags: [persona-ops, automation, stack-architecture, multi-account, dm-automation, voice-cloning, orchestration, content-pipelines]
 keywords: [persona-ops, scheduling, anti-detect-browsers, residential-proxies, sillytavern, local-llm, voice-cloning, n8n, orchestration, comfyui, fal-ai, replicate, modal, telegram, postiz]
 maturity: draft
 created: 2026-05-07
-updated: 2026-08-10
+updated: 2026-09-28
+
 ---
 
 ## Relations

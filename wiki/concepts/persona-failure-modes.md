@@ -25,9 +25,13 @@ related:
   - sources/arxiv-2505-14215-safety-degradation-ai-agents.md
   - concepts/retrieval-agent-safety-degradation.md
   - sources/arxiv-2505-14215-safety-degradation-ai-agents.md
+  - sources/arxiv-2609-30217-instrumental-monitor-evasion-routed.md
 maturity: draft
 created: 2026-05-07
-updated: 2026-08-25
+updated: 2026-09-28
+  - sources/arxiv-2609-30217-instrumental-monitor-evasion-routed.md
+  - sweeps/2026-09-27-daily.md
+
 ---
 
 ## Relations

@@ -5,9 +5,10 @@ tags: [meta, automation, federation, discovery, k93]
 keywords: [daily-research-digest, exa, inbox, sweep, federated, launchagent, discovery-loop]
 maturity: validated
 created: 2026-06-01
-updated: 2026-09-25
+updated: 2026-09-28
 cross-wiki-source: "@osint-wiki/concepts/federated-daily-research-digest.md"
 related:
+  - sweeps/2026-09-28-daily.md
   - concepts/persona-audio-stack.md
   - concepts/persona-ops-stack.md
   - entities/custom-nodes/comfyui-mcp.md
@@ -406,6 +407,26 @@ related:
   - sources/arxiv-2609-29952-augur-skip.md
   - sources/arxiv-2609-30221-wanpe.md
   - sweeps/2026-09-25-daily.md
+  - sources/arxiv-2609-29225-complexsync.md
+  - sources/arxiv-2609-30205-ehr-ir-benchmark-skip.md
+  - sources/arxiv-2609-30217-instrumental-monitor-evasion-routed.md
+  - sources/arxiv-2609-30238-semmsa-skip.md
+  - entities/lipsync/complexsync.md
+  - sweeps/2026-09-26-daily.md
+  - sweeps/2026-09-27-daily.md
+  - sources/arxiv-2609-30884-cachereforge.md
+  - sources/arxiv-2609-30983-tts-detection-evidence-routed.md
+  - sources/arxiv-2609-30984-khmer-tn-skip.md
+  - sources/arxiv-2609-30997-minimax-image-origin-routed.md
+  - sources/arxiv-2609-31050-heterogeneous-attention-video.md
+  - sources/arxiv-2609-31153-mckean-skip.md
+  - sources/arxiv-2609-31349-dymd.md
+  - sources/arxiv-2609-31451-templatecraft.md
+  - entities/models/dymd.md
+  - entities/models/heterogeneous-attention-video.md
+  - entities/persona-ops/templatecraft.md
+  - sweeps/2026-09-28-daily.md
+
 ---
 
 

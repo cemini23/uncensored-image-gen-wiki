@@ -48,9 +48,14 @@ related:
   - entities/lipsync/tbdub.md
   - sources/arxiv-2609-06144-tbdub.md
   - runbooks/runpod-unified-gen-stack.md
+  - entities/lipsync/complexsync.md
+  - sources/arxiv-2609-29225-complexsync.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-08-20
+updated: 2026-09-28
+  - entities/lipsync/complexsync.md
+  - sources/arxiv-2609-29225-complexsync.md
+
 ---
 
 ## Relations

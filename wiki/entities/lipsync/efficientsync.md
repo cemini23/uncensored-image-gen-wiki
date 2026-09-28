@@ -11,6 +11,7 @@ related:
   - entities/persona-ops/personalive.md
   - sources/arxiv-2608-18832-efficientsync.md
   - sweeps/2026-08-20-daily.md
+  - entities/lipsync/complexsync.md
 maturity: draft
 created: 2026-08-20
 updated: 2026-08-20
