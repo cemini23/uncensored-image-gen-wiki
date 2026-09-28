@@ -22,7 +22,7 @@ wire_status: routed
 
 - **Title**: Tracing and Relearning Detection Evidence in Text-to-Speech Systems — routed cybersec
 - **Type**: arXiv:2609.30983
-- **Location**: `research to be indexed/` (archive pending — egress SSH timeout 2026-09-28)
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.30983-tracing-and-relearning-detection-evidence-in-tex.pdf (archived 2026-09-28)
 - **URL**: https://arxiv.org/abs/2609.30983
 - **Retrieved**: 2026-09-28
 

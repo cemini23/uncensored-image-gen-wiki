@@ -27,7 +27,7 @@ wire_status: deferred
 
 - **Title**: ComplexSync: High-Fidelity and Real-Time Lip Sync in Complex Scenarios
 - **Type**: arXiv:2609.29225
-- **Location**: `research to be indexed/` (pending egress archive)
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.29225-complexsync-high-fidelity-and-real-time-lip-sync.pdf (archived 2026-09-28)
 - **URL**: https://arxiv.org/abs/2609.29225
 - **Retrieved**: 2026-09-28
 

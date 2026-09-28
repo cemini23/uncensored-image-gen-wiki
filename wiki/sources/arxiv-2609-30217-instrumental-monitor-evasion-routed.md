@@ -25,7 +25,7 @@ wire_status: routed
 
 - **Title**: Instrumental Monitor Evasion Emerges Under Ordinary Task Pressure
 - **Type**: arXiv:2609.30217
-- **Location**: `research to be indexed/` (pending egress archive)
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.30217-instrumental-monitor-evasion-emerges-under-ordin.pdf (archived 2026-09-28)
 - **URL**: https://arxiv.org/abs/2609.30217
 - **Retrieved**: 2026-09-28
 

@@ -24,7 +24,7 @@ wire_status: none
 
 - **Title**: A Living Benchmark for Information Retrieval from Electronic Health Records
 - **Type**: arXiv:2609.30205
-- **Location**: `research to be indexed/` (pending egress archive)
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.30205-a-living-benchmark-for-information-retrieval-fro.pdf (archived 2026-09-28)
 - **URL**: https://arxiv.org/abs/2609.30205
 - **Retrieved**: 2026-09-28
 

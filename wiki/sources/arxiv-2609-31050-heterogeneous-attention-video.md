@@ -23,7 +23,7 @@ wire_status: deferred
 
 - **Title**: Heterogeneous attention efficient video diffusion
 - **Type**: arXiv:2609.31050
-- **Location**: `research to be indexed/` (archive pending — egress SSH timeout 2026-09-28)
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.31050-where-compute-matters-heterogeneous-attention-fo.pdf (archived 2026-09-28)
 - **URL**: https://arxiv.org/abs/2609.31050
 - **Retrieved**: 2026-09-28
 

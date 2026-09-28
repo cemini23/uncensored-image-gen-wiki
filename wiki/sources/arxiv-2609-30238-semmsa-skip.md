@@ -24,7 +24,7 @@ wire_status: none
 
 - **Title**: SemMSA: Latent Semantic-Aided Robust Multimodal Sentiment Analysis with Incomplete Data
 - **Type**: arXiv:2609.30238
-- **Location**: `research to be indexed/` (pending egress archive)
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.30238-semmsa-latent-semantic-aided-robust-multimodal-s.pdf (archived 2026-09-28)
 - **URL**: https://arxiv.org/abs/2609.30238
 - **Retrieved**: 2026-09-28
 

@@ -22,7 +22,7 @@ wire_status: routed
 
 - **Title**: Minimax limits passive image origin
 - **Type**: arXiv:2609.30997
-- **Location**: `research to be indexed/` (archive pending — egress SSH timeout 2026-09-28)
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.30997-can-pixels-alone-reveal-image-origin-minimax-lim.pdf (archived 2026-09-28)
 - **URL**: https://arxiv.org/abs/2609.30997
 - **Retrieved**: 2026-09-28
 

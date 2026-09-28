@@ -23,7 +23,7 @@ wire_status: deferred
 
 - **Title**: CacheReforge: Bounded Recovery for Stale KV Caches under Evolving Adapters
 - **Type**: arXiv:2609.30884
-- **Location**: `research to be indexed/` (archive pending — egress SSH timeout 2026-09-28)
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.30884-cachereforge-bounded-recovery-for-stale-kv-cache.pdf (archived 2026-09-28)
 - **URL**: https://arxiv.org/abs/2609.30884
 - **Retrieved**: 2026-09-28
 

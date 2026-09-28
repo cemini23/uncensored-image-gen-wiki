@@ -22,7 +22,7 @@ wire_status: none
 
 - **Title**: THA Khmer text normalization SKIP
 - **Type**: arXiv:2609.30984
-- **Location**: `research to be indexed/` (archive pending — egress SSH timeout 2026-09-28)
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.30984-tha-weighted-finite-state-text-normalization-and.pdf (archived 2026-09-28)
 - **URL**: https://arxiv.org/abs/2609.30984
 - **Retrieved**: 2026-09-28
 

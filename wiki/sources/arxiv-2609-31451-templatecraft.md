@@ -24,7 +24,7 @@ wire_status: deferred
 
 - **Title**: TemplateCraft
 - **Type**: arXiv:2609.31451
-- **Location**: `research to be indexed/` (archive pending — egress SSH timeout 2026-09-28)
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.31451-templatecraft-agentic-visual-template-generation.pdf (archived 2026-09-28)
 - **URL**: https://arxiv.org/abs/2609.31451
 - **Retrieved**: 2026-09-28
 

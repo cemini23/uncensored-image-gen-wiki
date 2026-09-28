@@ -22,7 +22,7 @@ wire_status: none
 
 - **Title**: McKean slow-fast dynamics SKIP
 - **Type**: arXiv:2609.31153
-- **Location**: `research to be indexed/` (archive pending — egress SSH timeout 2026-09-28)
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.31153-slow-fast-dynamics-of-the-mckean-model-with-stoc.pdf (archived 2026-09-28)
 - **URL**: https://arxiv.org/abs/2609.31153
 - **Retrieved**: 2026-09-28
 
