@@ -11,22 +11,6 @@ Cybersec: EvasionBench · TTS detection evidence · passive image-origin limits
 ### SKIP — 4
 EHR IR · SemMSA · Khmer TN · McKean dynamics
 
-## [2026-09-28] ingest | ComplexSync (+ 1 WATCH / 1 ROUTE / 2 SKIP)
-
-Full inbox ingest of **4 NEW** arXiv PDFs. Archived to egress-fi. Lint 0 hard. Image-gen Phase-1: **none**. Phase-0: **no clones** (ComplexSync GitHub null SPDX stub).
-
-### WATCH-full — 1
-ComplexSync (real-time diffusion lipsync)
-
-### ROUTE — 1
-Cybersec: Instrumental monitor evasion / EvasionBench
-
-### SKIP — 2
-EHR IR living benchmark · SemMSA sentiment
-
-### Sweeps
-`2026-09-26-daily.md` + `2026-09-27-daily.md` ingested + inbox cleared.
-
 ## [2026-09-25] schema | ccc-wiki alias + Grok-gated follow-ups
 
 Added `ccc-wiki` to `CLAUDE.md` Related Wikis; `@ccc-wiki/...` cross-link on LLM graders ROUTE source. Grok CLI: **NOW** alias only; **DEFER** ViRDM clone, RunPod paid bootstrap, Type-D batch, handoff template; **SKIP** EditVoice demo listen. RunPod `bringup.sh` not executed (no operator spend OK).
