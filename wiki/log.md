@@ -1,3 +1,11 @@
+## [2026-09-29] ingest | FlowAct-R2 · RefGAP · DynaTokens · GeoVerse (+ 4 TTS / 1 ROUTE CCC)
+
+Full inbox ingest of **8 NEW** arXiv PDFs from 2026-09-29 sweep. **7 WATCH**, **1 ROUTE** (PRM → CCC stub). Archived to egress-fi. Phase-0: SEmoEdit MIT stub — **defer clone**. Image-gen Phase-1: **none**. Cybersec **09-28 trio** briefs routed to cybersec-wiki.
+
+## [2026-09-29] cross-wiki | OOD RISE T2I red-team (from Cybersec)
+
+- **OOD route** — arXiv 2609.34920 RISE iterative strategy evolution for modern T2I. Image-gen primary. Cybersec OOD `@cybersecurity-wiki/sources/arxiv-2609-34920-rise-t2i-redteam-ood.md`.
+
 ## [2026-09-28] ingest | ComplexSync · DyMD · TemplateCraft (+ 4 WATCH / 3 ROUTE / 5 SKIP)
 
 Full inbox ingest of **12 NEW** arXiv PDFs (4 from 09-26/27 sweep + 8 from 09-28 sweep). **Archive: FAILED** (egress-fi SSH timeout) — PDFs remain in `research to be indexed/`; retry when tunnel up. Lint 0 hard. Phase-1: **none**.
