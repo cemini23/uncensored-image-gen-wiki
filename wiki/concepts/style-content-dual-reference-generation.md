@@ -16,6 +16,7 @@ related:
   - entities/marketplaces/civitai.md
   - entities/uis/comfyui.md
   - sources/video-generation-survey-2026.md
+  - sources/arxiv-2609-38136-clear-style-transfer.md
 maturity: draft
 created: 2026-06-22
 updated: 2026-06-22
@@ -23,7 +24,7 @@ updated: 2026-06-22
 
 ## Relations
 
-@sources/arxiv-2606-20506-freestyle-community-lora-mining.md @entities/models/freestyle.md @concepts/reference-plus-lora-stacking.md @concepts/lora-taxonomy.md @entities/marketplaces/civitai.md
+@sources/arxiv-2606-20506-freestyle-community-lora-mining.md @entities/models/freestyle.md @concepts/reference-plus-lora-stacking.md @concepts/lora-taxonomy.md @entities/marketplaces/civitai.md @sources/arxiv-2609-38136-clear-style-transfer.md
 
 ## Raw Concept
 

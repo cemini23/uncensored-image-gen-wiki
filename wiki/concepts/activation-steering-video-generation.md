@@ -20,6 +20,7 @@ related:
   - sources/arxiv-2607-18924-phyparam-physical-video.md
   - sources/arxiv-2608-06231-emoworld.md
   - entities/models/emoworld.md
+  - concepts/emotional-activation-steering-tts.md
 maturity: draft
 created: 2026-06-05
 updated: 2026-08-07
@@ -27,7 +28,7 @@ updated: 2026-08-07
 
 ## Relations
 
-@sources/arxiv-activation-steering-video-gen-2606.04775-2026-06-05.md @sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md @concepts/censorship-tier-taxonomy.md @sources/video-generation-survey-2026.md @entities/models/wan-2-2.md @sources/arxiv-2608-06231-emoworld.md @entities/models/emoworld.md
+@sources/arxiv-activation-steering-video-gen-2606.04775-2026-06-05.md @sources/arxiv-optiworld-optimal-control-video-world-2606-00499.md @concepts/censorship-tier-taxonomy.md @sources/video-generation-survey-2026.md @entities/models/wan-2-2.md @sources/arxiv-2608-06231-emoworld.md @entities/models/emoworld.md @concepts/emotional-activation-steering-tts.md
 
 
 

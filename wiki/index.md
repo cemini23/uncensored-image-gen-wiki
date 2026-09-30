@@ -508,6 +508,14 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [EHR IR benchmark SKIP (arXiv:2609.30205)](sources/arxiv-2609-30205-ehr-ir-benchmark-skip.md) — medical — `paper, skip`
 - [Instrumental monitor evasion (arXiv:2609.30217)](sources/arxiv-2609-30217-instrumental-monitor-evasion-routed.md) — ROUTE cybersec — `paper, routed`
 - [SemMSA SKIP (arXiv:2609.30238)](sources/arxiv-2609-30238-semmsa-skip.md) — sentiment MSA — `paper, skip`
+- [Activation steering TTS rate (arXiv:2609.33810)](sources/arxiv-2609-33810-activation-steering-tts-rate.md) — speaking-rate control — `paper, tts, watch`
+- [Harmonizing spectral flow TTS (arXiv:2609.34431)](sources/arxiv-2609-34431-harmonizing-spectral-flow-tts.md) — flow-matching TTS — `paper, tts, watch`
+- [SEmoEdit (arXiv:2609.34648)](sources/arxiv-2609-34648-semoedit.md) — speech flow editability — `paper, voice, watch`
+- [PRM discrete diffusion ROUTE (arXiv:2609.35472)](sources/arxiv-2609-35472-prm-discrete-diffusion-routed.md) — CCC harness — `paper, routed`
+- [DynaTokens (arXiv:2609.35704)](sources/arxiv-2609-35704-dynatokens.md) — camera video test-time — `paper, video, watch`
+- [RefGAP visual editing (arXiv:2609.35708)](sources/arxiv-2609-35708-refgap-visual-editing.md) — reference attention — `paper, watch`
+- [FlowAct-R2 (arXiv:2609.35728)](sources/arxiv-2609-35728-flowact-r2.md) — streaming talking avatar — `paper, lipsync, watch`
+- [GeoVerse (arXiv:2609.35734)](sources/arxiv-2609-35734-geoverse.md) — geometric latent NVS — `paper, video, watch`
 
 - [Transport penalties (arXiv:2608.28022)](sources/arxiv-2608-28022-transport-matched-penalties-skip.md) — SKIP sci-ML — `paper, skip`
 - [ARC-CT (arXiv:2608.28455)](sources/arxiv-2608-28455-arc-ct-skip.md) — SKIP medical — `paper, skip, medical`
@@ -554,6 +562,11 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [MentisOculi — limits of visual mental imagery (arXiv:2602.02465)](sources/arxiv-2602-02465-mentisoculi-visual-reasoning-limits-2026-06-13.md) — procedural 5-task benchmark; UMM visual CoT fails vs text-only MLLMs — `paper, visual-reasoning, benchmark, umm, k114`
 - [MetaWorld — multi-agent video world model (arXiv:2606.02753)](sources/arxiv-metaworld-video-world-model-2606.02753-2026-06-05.md) — monocular training → multi-egocentric world model via MWSU + World-State Alignment — `paper, world-model, multi-agent, consistency`
 - [PDA / GAM — preference delta LoRA aggregation (arXiv:2606.00357)](sources/arxiv-weak-signals-preference-distillation-2606.00357-2026-06-05.md) — **rerouted** LLM weak-signal LoRA merge (not video) — `paper, lora, merging, preference-learning, rerouted`
+- [LongLive-Plug — once-for-all distillation LoRAs for video (arXiv:2609.38154)](sources/arxiv-2609-38154-longlive-plug.md) — NVIDIA; three decoupled functional LoRAs (CFG / few-step / long-context) trained once and merged into 54 downstream video models; 20–50 steps → 4 — `paper, video-generation, distillation, wan, watch`
+- [EmoRES-TTS — residual-enhanced vector steering for emotional TTS (arXiv:2609.38157)](sources/arxiv-2609-38157-emores-tts.md) — Meta FAIR; training-free shared/residual emotion steering on IndexTTS-2 + CosyVoice2; CC BY-NC repo → technique WATCH, adoption NO-GO — `paper, tts, emotion, activation-steering, watch`
+- [RGOR — reference-grounded oral refinement for portrait animation (arXiv:2609.38019)](sources/arxiv-2609-38019-rgor-beyond-lip-sync.md) — lipsync on LatentSync-1.6 with reference mouth patches; **exposes target-frame leakage in released Wav2Lip/LatentSync/MuseTalk eval code**; no code — `paper, lipsync, evaluation, watch`
+- [CLeaR — leakage-resistant style transfer (arXiv:2609.38136)](sources/arxiv-2609-38136-clear-style-transfer.md) — NeurIPS 2026; training-free 3-stage content-leakage suppression; repo has **no licence** → adoption NO-GO — `paper, style-transfer, image-generation, watch`
+- [FracGen — physics-informed stretch-and-tear video (arXiv:2609.38152)](sources/arxiv-2609-38152-fracgen.md) — JHU; Wan 2.1-1.3B LoRA with height-concatenated physics-map latents; no code or weights — `paper, video-generation, physics, wan, watch`
 
 ---
 
@@ -677,6 +690,11 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [PointCast](entities/models/pointcast.md) — point-set manipulation WM — `world-model, watch`
 - [Code Plans Diffusion Renders](entities/models/code-plans-diffusion-renders.md) — open-ended world modeling — `world-model, watch`
 - [ComplexSync](entities/lipsync/complexsync.md)
+- [FlowAct-R2](entities/lipsync/flowact-r2.md) — streaming talking avatar + agent planning — `lipsync, persona, watch`
+- [SEmoEdit](entities/voice-models/semoedit.md) — speech flow editability — `voice, tts, watch`
+- [DynaTokens](entities/models/dynatokens.md) — test-time camera video dynamics — `video, watch`
+- [GeoVerse](entities/models/geoverse.md) — geometric latent NVS — `video, nvs, watch`
+- [RefGAP reference attention editing](concepts/refgap-reference-attention-editing.md) — diffusion visual editing — `editing, concept`
 - [DyMD](entities/models/dymd.md) — video WM distillation — `video, watch`
 - [TemplateCraft](entities/persona-ops/templatecraft.md) — agentic templates — `persona-ops, watch`
 - [Heterogeneous attention video](entities/models/heterogeneous-attention-video.md) — efficient video — `video, watch`
@@ -697,6 +715,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [Vidu S2](entities/models/vidu-s2.md) — real-time interactive and editable video; closed product, no clone — `model, video, product, watch`
 - [HyperFrames (heygen-com/hyperframes)](entities/models/hyperframes.md) — Apache-2.0 CONFIRMED ~47k stars but ~402 MB SIZE-SKIP — `model, hyperframes, size-skip, watch`
 - [MAI-Image-2.6 / GPT Image 2.5](entities/models/mai-image-2-6.md) — RSS-only teaser; 2x faster claim [TENTATIVE]; SIZE-SKIP weights — `model, t2i, closed-cloud, watch`
+- [LongLive-Plug (NVIDIA once-for-all distillation LoRAs)](entities/models/longlive-plug.md) — Apache-2.0, ~2.7k stars; CFG + few-step + long-context LoRAs for Wan2.1-14B / Wan2.2-TI2V-5B / MiniMax-H3; weights in HF `Efficient-Large-Model/longlive-plug`; strongest 2026-09-30 adoption candidate — `video-generation, distillation, lora, wan, nvidia, apache-2-0, acceleration`
 
 ### Adapters (identity injection)
 
@@ -848,6 +867,7 @@ Sources are ingested research material (PDFs, docx, GitHub READMEs, model cards,
 - [KABURI-TTS (llm-jp)](entities/voice-models/kaburi-tts.md) — activity-conditioned Japanese two-party TTS; Apache-2.0 cloned 65 MB — `tts, voice, japanese, watch`
 - [Deterministic Prompting TTS](entities/voice-models/deterministic-prompting-tts.md) — speaker-stable low-resource Greek TTS; paper only — `tts, voice, low-resource, watch`
 - [Seeing the Voice](entities/voice-models/seeing-the-voice.md) — Deaf-centric participatory TTS design; ASSETS 2026 — `tts, voice, accessibility, watch`
+- [EmoRES-TTS (Meta FAIR training-free emotion steering)](entities/voice-models/emores-tts.md) — shared/residual steering-vector decomposition; lambda_r=3 / alpha=5; IEMOCAP rank corr 22.00→48.13 (IndexTTS-2) and 39.13→52.10 (CosyVoice2) — but **CC BY-NC 4.0** → `wont_wire` for commercial persona work — `voice-cloning, tts, emotion, activation-steering, cc-by-nc, reference-only`
 
 ### Lipsync
 
@@ -1047,6 +1067,8 @@ Practical, printable guides for getting started — tracked in git (unlike `brie
 - [Face-to-Speech synthesis](concepts/face-to-speech-synthesis.md) — image→voice without audio refs; research WATCH — `tts, face-to-speech, persona-ops`
 - [Video representation regularization](concepts/video-representation-regularization.md) — erank vs AR compounding error — `video-generation, autoregressive, regularization`
 - [Hand-object interaction generation](concepts/hand-object-interaction-generation.md) — HOI under foundation models (survey hub) — `hoi, video-generation, survey`
+- [Plug-and-play distillation LoRAs (once-for-all video acceleration)](concepts/plug-and-play-distillation-lora.md) — decouple CFG / few-step / long-context into separate LoRAs trained once and merged at deploy; beats coupled CausVid/Self-Forcing adapters — `video-generation, distillation, lora, acceleration, technique`
+- [Emotional activation steering for TTS](concepts/emotional-activation-steering-tts.md) — mean-difference steering vectors split into shared + residual components, weighted independently; mixed emotion via proportion vector; layer indices are backbone-specific — `tts, voice-cloning, emotion, activation-steering, technique`
 
 ### Benchmarks
 

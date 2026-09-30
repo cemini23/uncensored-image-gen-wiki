@@ -8,6 +8,8 @@ related:
   - concepts/persona-audio-stack.md
   - sweeps/2026-09-25-daily.md
   - entities/voice-models/looped-flow-matching-tts.md
+  - sources/arxiv-2609-33810-activation-steering-tts-rate.md
+  - sources/arxiv-2609-34431-harmonizing-spectral-flow-tts.md
 maturity: draft
 read_status: deep-read
 created: 2026-09-25

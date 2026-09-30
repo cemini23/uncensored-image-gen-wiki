@@ -39,13 +39,16 @@ related:
   - sweeps/2026-07-24-daily.md
   - sources/arxiv-2608-10606-asr-roundtrip-tts-eval.md
   - concepts/asr-roundtrip-tts-eval-limits.md
+  - sources/arxiv-2609-38157-emores-tts.md
+  - entities/voice-models/emores-tts.md
+  - concepts/emotional-activation-steering-tts.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-08-10
 ---
 ## Relations
 
-@concepts/persona-audio-stack.md @sources/arxiv-2608-05507-affectdf-routed.md
+@concepts/persona-audio-stack.md @sources/arxiv-2608-05507-affectdf-routed.md @sources/arxiv-2609-38157-emores-tts.md @entities/voice-models/emores-tts.md @concepts/emotional-activation-steering-tts.md
 
 @entities/persona-ops/fish-speech.md
 @concepts/persona-ops-stack.md

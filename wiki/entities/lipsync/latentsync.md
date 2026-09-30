@@ -50,17 +50,18 @@ related:
   - runbooks/runpod-unified-gen-stack.md
   - entities/lipsync/complexsync.md
   - sources/arxiv-2609-29225-complexsync.md
+  - entities/lipsync/flowact-r2.md
+  - sources/arxiv-2609-35728-flowact-r2.md
+  - sources/arxiv-2609-38019-rgor-beyond-lip-sync.md
 maturity: draft
 created: 2026-05-13
-updated: 2026-09-28
-  - entities/lipsync/complexsync.md
-  - sources/arxiv-2609-29225-complexsync.md
+updated: 2026-09-29
 
 ---
 
 ## Relations
 
-@concepts/persona-audio-stack.md @entities/models/echocache.md @sources/arxiv-2608-02474-echocache.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md @entities/lipsync/tbdub.md @sources/arxiv-2609-06144-tbdub.md
+@concepts/persona-audio-stack.md @entities/models/echocache.md @sources/arxiv-2608-02474-echocache.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md @entities/lipsync/tbdub.md @sources/arxiv-2609-06144-tbdub.md @sources/arxiv-2609-38019-rgor-beyond-lip-sync.md
 @entities/lipsync/anytalk.md @entities/lipsync/dynaforcing.md @sources/arxiv-2608-17707-dynaforcing.md
 @entities/lipsync/musetalk.md
 @entities/lipsync/wav2lip.md
@@ -124,6 +125,7 @@ See @concepts/persona-audio-stack.md for the full audio pipeline diagram.
 - **MPS / Apple Silicon viability**: not officially supported [NEEDS VERIFICATION 2026-05-13]; cloud burst (RunPod 4090) is the standard pattern
 - **Frame jitter** that plagued pre-diffusion lipsync is reported solved
 - **Photorealistic portrait images** in the LatentSync paper are from licensed models — the technique itself is identity-agnostic
+- **Benchmark leakage warning** ([Source: @sources/arxiv-2609-38019-rgor-beyond-lip-sync.md, 2026-09-30]): the **released** LatentSync inference code references the frame being edited, which inflates its paired metrics. Corrected numbers are LPIPS 0.334 → 0.262 and DISTS 0.234 → 0.189. Do not compare local lipsync models on published paired scores alone.
 
 ## Snippets
 

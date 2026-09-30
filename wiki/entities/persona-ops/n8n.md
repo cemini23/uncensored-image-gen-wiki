@@ -11,6 +11,8 @@ related:
   - entities/persona-ops/postiz.md
   - entities/persona-ops/sillytavern.md
   - entities/persona-ops/fish-speech.md
+  - entities/lipsync/flowact-r2.md
+  - sources/arxiv-2609-35728-flowact-r2.md
   - concepts/model-selection-workflow.md
   - entities/uis/comfyui.md
   - entities/persona-ops/delive.md

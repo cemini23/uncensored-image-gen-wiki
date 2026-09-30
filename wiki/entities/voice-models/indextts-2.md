@@ -12,6 +12,9 @@ related:
   - sources/arxiv-2607-17544-x-translator-s2st.md
   - sources/arxiv-2607-21042-faster-indextts-2.md
   - sweeps/2026-07-24-daily.md
+  - sources/arxiv-2609-38157-emores-tts.md
+  - entities/voice-models/emores-tts.md
+  - concepts/emotional-activation-steering-tts.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-07-24
@@ -19,7 +22,7 @@ updated: 2026-07-24
 
 ## Relations
 
-@concepts/persona-audio-stack.md
+@concepts/persona-audio-stack.md @sources/arxiv-2609-38157-emores-tts.md @entities/voice-models/emores-tts.md @concepts/emotional-activation-steering-tts.md
 @entities/persona-ops/fish-speech.md
 @entities/voice-models/cosyvoice2.md
 @concepts/model-selection-workflow.md

@@ -23,6 +23,8 @@ related:
   - sources/arxiv-2606-20971-unity-attention-flow-conditioning.md
   - concepts/universal-composite-diffusion-conditioning.md
   - entities/models/unity.md
+  - concepts/refgap-reference-attention-editing.md
+  - sources/arxiv-2609-35708-refgap-visual-editing.md
 maturity: draft
 created: 2026-05-06
 updated: 2026-06-23

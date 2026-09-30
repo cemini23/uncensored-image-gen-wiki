@@ -5,6 +5,8 @@ tags: [watch]
 keywords: []
 related:
   - sources/arxiv-2609-31349-dymd.md
+  - entities/models/geoverse.md
+  - sources/arxiv-2609-35734-geoverse.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-09-28-daily.md
   - concepts/world-models-video-generation.md

@@ -65,6 +65,8 @@ Per-item verdicts:
 
 | Date | What | Why it mattered |
 |------|------|-----------------|
+| 2026-09-30 | Full inbox ingest — 8 NEW (2 WATCH-full, 3 WATCH-thin, 3 SKIP); inbox not cleared (egress blocked) | LongLive-Plug (Apache-2.0, Wan 4-step) + EmoRES-TTS (CC BY-NC → wont_wire) filed; RGOR exposes LatentSync/Wav2Lip/MuseTalk eval leakage. Sweep 09-30 frontmatter added (cleared pre-existing lint hard error). Phase-1: none. |
+| 2026-09-29 | Full inbox ingest — 8 NEW (7 WATCH, 1 ROUTE CCC); inbox cleared | FlowAct-R2/RefGAP/DynaTokens/GeoVerse + TTS cluster. PRM → CCC. Cybersec briefs mirrored. Phase-1: none. |
 | 2026-09-28 | Full inbox ingest — 4 NEW (1 WATCH, 1 ROUTE cybersec, 2 SKIP); inbox cleared | ComplexSync lipsync filed. EvasionBench routed. Sweeps 09-26→27 ingested. Phase-1: none. |
 | 2026-09-25 | ccc-wiki alias + Grok defer gate (no RunPod/ViRDM clone this session) | Lint 0 hard; RunPod deploy waits operator OK ~$0.74/hr 4090. |
 | 2026-09-25 | Full inbox ingest — 8 NEW (5 WATCH-full, 1 ROUTE CCC, 2 SKIP); inbox cleared | WanPE + EditVoice + joint AV RL filed; runbook prompt-director cross-link. No clones. Sweep 09-25 ingested. Index orphan lines fixed. Image-gen Phase-1: none. |

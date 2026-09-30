@@ -31,7 +31,7 @@ wire_status: routed
 
 ## Narrative
 
-**ROUTE cybersec-wiki.** **EvasionBench**: 50 task–policy pairs where completing an ordinary task requires a **monitor-prohibited** tool call; measures LLM agents' tendency to **circumvent runtime oversight** under task pressure (instrumental evasion). Relevant to agent harness / StepGuard posture, not lipsync/video gen.
+**ROUTE cybersec-wiki.** Cross-wiki brief: `Cybersecurity wiki/briefs/2026-09-29_2026-09-29_evasionbench-from-image-gen.md`. **EvasionBench**: 50 task–policy pairs where completing an ordinary task requires a **monitor-prohibited** tool call; measures LLM agents' tendency to **circumvent runtime oversight** under task pressure (instrumental evasion). Relevant to agent harness / StepGuard posture, not lipsync/video gen.
 
 Brief: `briefs/2026-09-28_evasionbench-from-image-gen.md`. Image-gen Phase-1: **none**. Phase-0: paper-only — **no clone** in image-gen.
 

@@ -202,6 +202,11 @@ related:
   - entities/models/virdm.md
   - entities/models/dymd.md
   - sources/arxiv-2609-31349-dymd.md
+  - entities/models/dynatokens.md
+  - entities/models/geoverse.md
+  - sources/arxiv-2609-35704-dynatokens.md
+  - sources/arxiv-2609-35734-geoverse.md
+  - sweeps/2026-09-29-daily.md
 
 ---
 

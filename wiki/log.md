@@ -1,3 +1,23 @@
+## [2026-09-30] ingest | LongLive-Plug · EmoRES-TTS · RGOR · CLeaR · FracGen (+ 3 SKIP)
+
+Full inbox ingest of **8 NEW** arXiv PDFs (2026-09-30 sweep). **2 WATCH-full**, **3 WATCH-thin**, **3 SKIP**. Egress archive **blocked** — outbound network is denied in this session, so no `git clone` and no `archive_raw_to_egress.sh`; the 8 PDFs remain local pending archive.
+
+- **NEW** `@sources/arxiv-2609-38154-longlive-plug.md` — NVIDIA once-for-all distillation: CFG + few-step + long-context LoRAs trained once, merged into 54 downstream video models; 20–50 steps → 4; ~80 H100-h base cost. **WATCH-full.**
+- **NEW** `@entities/models/longlive-plug.md` — entity; **Apache-2.0**, ~2.7k stars, weights at HF `Efficient-Large-Model/longlive-plug`. **Clone deferred** (network denied).
+- **NEW** `@concepts/plug-and-play-distillation-lora.md` — the decoupled-functional-LoRA technique; contrasts with coupled CausVid / Self-Forcing adapters.
+- **NEW** `@sources/arxiv-2609-38157-emores-tts.md` — Meta FAIR training-free emotion steering. **WATCH-full (technique).**
+- **NEW** `@entities/voice-models/emores-tts.md` — **CC BY-NC 4.0** (non-commercial) and a thin layer over un-vendored CoCoEmo → `wont_wire` for the commercial persona track.
+- **NEW** `@concepts/emotional-activation-steering-tts.md` — shared/residual steering-vector decomposition; layer indices (IndexTTS-2 1/6/8, CosyVoice2 14/17) are backbone-specific.
+- **NEW** `@sources/arxiv-2609-38019-rgor-beyond-lip-sync.md` — lipsync on LatentSync-1.6; **negative finding**: released Wav2Lip/LatentSync/MuseTalk inference code references the edited frame, inflating paired metrics (LatentSync LPIPS 0.334→0.262 corrected). No code or weights. **WATCH-thin.**
+- **NEW** `@sources/arxiv-2609-38136-clear-style-transfer.md` — NeurIPS 2026 training-free style transfer; repo has **no LICENSE** → adoption NO-GO. **WATCH-thin.**
+- **NEW** `@sources/arxiv-2609-38152-fracgen.md` — JHU Wan 2.1-1.3B LoRA with height-concatenated physics-map latents; no code/weights. **WATCH-thin.**
+- **SKIP** 2609.38042 (radio-astronomy HISA CNN), 2609.38104 (PPT LLM decoding, no code), 2609.38172 (PRISM humanoid robotics; V2V is the closed Seedance 2.0 cloud API). No sibling wiki wants any of the three.
+- **Updated** `entities/models/wan-2-2.md`, `entities/voice-models/indextts-2.md`, `entities/voice-models/cosyvoice2.md`, `entities/lipsync/latentsync.md`, `entities/lipsync/complexsync.md`, `concepts/style-content-dual-reference-generation.md`, `concepts/video-generation-physical-executability.md`, `concepts/one-step-autoregressive-video-distillation.md`, `concepts/activation-steering-video-generation.md`, `concepts/federated-daily-research-digest.md`, `sweeps/2026-09-29-daily.md` — bidirectional backlinks.
+- **Updated** `sweeps/2026-09-30-daily.md` — frontmatter added; this cleared the pre-existing 1-page "no frontmatter" hard lint error carried into the session.
+- **Updated** `index.md` — 9 rows.
+- **Lint** 0 hard errors (bidirectional gaps 0, dangling 0, missing @path 0, cross-wiki dangling 0, no-frontmatter 0).
+- **Phase-1**: none — `phase1-wire` hard-stops Image-gen local wires. No ADOPT/GO item required a wire on another surface.
+
 ## [2026-09-29] ingest | FlowAct-R2 · RefGAP · DynaTokens · GeoVerse (+ 4 TTS / 1 ROUTE CCC)
 
 Full inbox ingest of **8 NEW** arXiv PDFs from 2026-09-29 sweep. **7 WATCH**, **1 ROUTE** (PRM → CCC stub). Archived to egress-fi. Phase-0: SEmoEdit MIT stub — **defer clone**. Image-gen Phase-1: **none**. Cybersec **09-28 trio** briefs routed to cybersec-wiki.

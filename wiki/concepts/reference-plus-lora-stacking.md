@@ -21,6 +21,8 @@ related:
   - entities/adapters/flux2-klein-9b-faceswap.md
   - entities/adapters/instantid.md
   - entities/adapters/ip-adapter.md
+  - concepts/refgap-reference-attention-editing.md
+  - sources/arxiv-2609-35708-refgap-visual-editing.md
   - entities/adapters/pulid.md
   - entities/hardware/gpu-guide.md
   - entities/models/flux-1-dev.md
