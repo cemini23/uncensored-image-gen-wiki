@@ -26,7 +26,7 @@ wire_status: deferred
 
 - **Title**: LongLive-Plug: Once-for-All Distillation for Video Generation
 - **Type**: arXiv:2609.38154 (NVIDIA; Shuai Yang, Luozhou Wang et al.)
-- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.38154-longlive-plug-once-for-all-distillation-for-vide.pdf (pending egress archive — SSH denied in session)
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.38154-longlive-plug-once-for-all-distillation-for-vide.pdf (archived 2026-09-30)
 - **URL**: https://arxiv.org/abs/2609.38154
 - **Retrieved**: 2026-09-30
 

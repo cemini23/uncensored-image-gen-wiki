@@ -24,7 +24,7 @@ wire_status: deferred
 
 - **Title**: FracGen: Learning How Objects Stretch and Tear with Physics-Informed Video Generation
 - **Type**: arXiv:2609.38152 (Johns Hopkins University; Trong-Tung Nguyen et al.)
-- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.38152-fracgen-learning-how-objects-stretch-and-tear-wi.pdf (pending egress archive — SSH denied in session)
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.38152-fracgen-learning-how-objects-stretch-and-tear-wi.pdf (archived 2026-09-30)
 - **URL**: https://arxiv.org/abs/2609.38152
 - **Retrieved**: 2026-09-30
 

@@ -23,7 +23,7 @@ wire_status: deferred
 
 - **Title**: CLeaR: A Unified Framework for Resolving the Leakage-Degradation Dilemma in Style Transfer
 - **Type**: arXiv:2609.38136 (Zhejiang University / Fudan University; Teng Zhou et al.) — NeurIPS 2026
-- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.38136-clear-a-unified-framework-for-resolving-the-leak.pdf (pending egress archive — SSH denied in session)
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.38136-clear-a-unified-framework-for-resolving-the-leak.pdf (archived 2026-09-30)
 - **URL**: https://arxiv.org/abs/2609.38136
 - **Retrieved**: 2026-09-30
 

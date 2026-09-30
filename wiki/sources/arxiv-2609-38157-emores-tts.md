@@ -26,7 +26,7 @@ wire_status: deferred
 
 - **Title**: EmoRES-TTS: Residual-Enhanced Vector Steering for Emotional Speech Generation
 - **Type**: arXiv:2609.38157 (Meta — Reality Labs / FAIR; Kuan-Po Huang et al., with NTU)
-- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.38157-emores-tts-residual-enhanced-vector-steering-for.pdf (pending egress archive — SSH denied in session)
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.38157-emores-tts-residual-enhanced-vector-steering-for.pdf (archived 2026-09-30)
 - **URL**: https://arxiv.org/abs/2609.38157
 - **Retrieved**: 2026-09-30
 

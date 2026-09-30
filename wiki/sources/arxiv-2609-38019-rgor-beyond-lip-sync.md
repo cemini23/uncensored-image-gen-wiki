@@ -24,7 +24,7 @@ wire_status: deferred
 
 - **Title**: Beyond Lip Sync: Reference-Grounded Oral Refinement for Audio-Driven Portrait Animation
 - **Type**: arXiv:2609.38019 (UC Irvine; Bangxun Tang, single author)
-- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.38019-beyond-lip-sync-reference-grounded-oral-refineme.pdf (pending egress archive — SSH denied in session)
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2609.38019-beyond-lip-sync-reference-grounded-oral-refineme.pdf (archived 2026-09-30)
 - **URL**: https://arxiv.org/abs/2609.38019
 - **Retrieved**: 2026-09-30
 

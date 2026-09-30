@@ -1,6 +1,6 @@
 ## [2026-09-30] ingest | LongLive-Plug · EmoRES-TTS · RGOR · CLeaR · FracGen (+ 3 SKIP)
 
-Full inbox ingest of **8 NEW** arXiv PDFs (2026-09-30 sweep). **2 WATCH-full**, **3 WATCH-thin**, **3 SKIP**. Egress archive **blocked** — outbound network is denied in this session, so no `git clone` and no `archive_raw_to_egress.sh`; the 8 PDFs remain local pending archive.
+Full inbox ingest of **8 NEW** arXiv PDFs (2026-09-30 sweep). **2 WATCH-full**, **3 WATCH-thin**, **3 SKIP**. All 8 PDFs **archived to egress-fi** (`cemini-egress-fi:/opt/cemini-bulk/research/image-gen/`, verified by size, local copies removed). Run via the Terminal panel because the Bash sandbox blocks outbound network.
 
 - **NEW** `@sources/arxiv-2609-38154-longlive-plug.md` — NVIDIA once-for-all distillation: CFG + few-step + long-context LoRAs trained once, merged into 54 downstream video models; 20–50 steps → 4; ~80 H100-h base cost. **WATCH-full.**
 - **NEW** `@entities/models/longlive-plug.md` — entity; **Apache-2.0**, ~2.7k stars, weights at HF `Efficient-Large-Model/longlive-plug`. **Clone deferred** (network denied).
