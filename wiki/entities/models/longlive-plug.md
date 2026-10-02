@@ -9,6 +9,8 @@ related:
   - sources/arxiv-2609-38154-longlive-plug.md
   - entities/models/wan-2-2.md
   - concepts/one-step-autoregressive-video-distillation.md
+  - sources/arxiv-2610-02188-dmad.md
+  - concepts/adversarial-distribution-matching-distillation.md
 maturity: draft
 created: 2026-09-30
 updated: 2026-09-30
@@ -18,7 +20,7 @@ wire_status: deferred
 
 ## Relations
 
-@sweeps/2026-09-30-daily.md @concepts/plug-and-play-distillation-lora.md @sources/arxiv-2609-38154-longlive-plug.md @entities/models/wan-2-2.md @concepts/one-step-autoregressive-video-distillation.md
+@sweeps/2026-09-30-daily.md @concepts/plug-and-play-distillation-lora.md @sources/arxiv-2609-38154-longlive-plug.md @entities/models/wan-2-2.md @concepts/one-step-autoregressive-video-distillation.md @sources/arxiv-2610-02188-dmad.md @concepts/adversarial-distribution-matching-distillation.md
 
 ## Raw Concept
 

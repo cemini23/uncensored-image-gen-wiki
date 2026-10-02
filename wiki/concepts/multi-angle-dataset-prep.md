@@ -21,6 +21,8 @@ related:
   - concepts/video-identity-inheritance.md
   - sources/arxiv-visual-to-visual-generation-2605-12271.md
   - concepts/visual-to-visual-generation.md
+  - sources/arxiv-2607-19315-erank-image-richness.md
+  - sources/arxiv-2607-21582-instruction-factor-bias.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-06-01
@@ -28,7 +30,7 @@ updated: 2026-06-01
 
 ## Relations
 
-@sources/video-generation-survey-2026.md @sources/synthetic-character-consistency-survey.md @concepts/persona-consistency-methods.md @concepts/character-dna-templates.md @concepts/video-identity-inheritance.md @entities/adapters/flux-kontext.md @entities/adapters/flux-redux.md @entities/models/wan-2-2.md @entities/models/flux-2-klein.md @entities/models/qwen-image-2512.md @sources/headsup-3d-gaussian-head.md
+@sources/video-generation-survey-2026.md @sources/synthetic-character-consistency-survey.md @concepts/persona-consistency-methods.md @concepts/character-dna-templates.md @concepts/video-identity-inheritance.md @entities/adapters/flux-kontext.md @entities/adapters/flux-redux.md @entities/models/wan-2-2.md @entities/models/flux-2-klein.md @entities/models/qwen-image-2512.md @sources/headsup-3d-gaussian-head.md @sources/arxiv-2607-19315-erank-image-richness.md @sources/arxiv-2607-21582-instruction-factor-bias.md
 @concepts/persona-content-cadence.md
 @entities/training-tools/czkawka.md — Rust perceptual-hash dedup tool for the dataset-hygiene step
 @concepts/persona-ops-stack.md

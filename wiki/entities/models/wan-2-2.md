@@ -264,6 +264,9 @@ related:
   - entities/models/longlive-plug.md
   - concepts/plug-and-play-distillation-lora.md
   - sources/arxiv-2609-38152-fracgen.md
+  - sources/arxiv-2610-02188-dmad.md
+  - concepts/adversarial-distribution-matching-distillation.md
+  - sources/arxiv-2610-02180-generative-cinematographer.md
 title: Wan 2.2 (Alibaba)
 type: entity
 tags: [model, video, dit, moe, wan, alibaba, eastern-vanguard, completely-uncensored-after-lora]
@@ -274,7 +277,7 @@ updated: 2026-09-25
 ---
 ## Relations
 
-@sources/video-generation-survey-2026.md @entities/models/hunyuanvideo-1-5.md @entities/models/ltx-2.md @entities/models/mochi-1.md @entities/models/cogvideox-1-5.md @entities/models/seedance-2.md @entities/training-tools/musubi-tuner.md @entities/training-tools/ai-toolkit.md @concepts/seam-stitching-strategies.md @concepts/video-identity-inheritance.md @concepts/multi-angle-dataset-prep.md @concepts/de-censoring-techniques.md @concepts/censorship-tier-taxonomy.md @concepts/hand-object-interaction-generation.md @sources/arxiv-2607-27036-video-repr-regularization.md @sources/arxiv-2607-28243-egogenesis.md @sources/arxiv-2607-28394-hoi-foundation-survey.md @sources/arxiv-2607-28509-refcaptioner.md @entities/models/token-radius-attention.md @sources/arxiv-2608-02504-token-radius-attention.md @entities/models/bwm.md @sources/arxiv-2607-29302-bwm-world-model.md @entities/models/moroute.md @sources/arxiv-2607-29545-moroute.md @entities/models/echocache.md @sources/arxiv-2607-28760-wait-frequency-aware-flow.md @sources/arxiv-2608-02474-echocache.md @sources/arxiv-2608-03335-spade.md @entities/models/spade.md @sources/arxiv-2608-05070-helloworld.md @entities/models/helloworld.md @sources/arxiv-2608-06231-emoworld.md @entities/models/emoworld.md @sources/arxiv-2608-06008-adaptive-wam.md @sources/arxiv-2609-38154-longlive-plug.md @entities/models/longlive-plug.md @concepts/plug-and-play-distillation-lora.md @sources/arxiv-2609-38152-fracgen.md
+@sources/video-generation-survey-2026.md @entities/models/hunyuanvideo-1-5.md @entities/models/ltx-2.md @entities/models/mochi-1.md @entities/models/cogvideox-1-5.md @entities/models/seedance-2.md @entities/training-tools/musubi-tuner.md @entities/training-tools/ai-toolkit.md @concepts/seam-stitching-strategies.md @concepts/video-identity-inheritance.md @concepts/multi-angle-dataset-prep.md @concepts/de-censoring-techniques.md @concepts/censorship-tier-taxonomy.md @concepts/hand-object-interaction-generation.md @sources/arxiv-2607-27036-video-repr-regularization.md @sources/arxiv-2607-28243-egogenesis.md @sources/arxiv-2607-28394-hoi-foundation-survey.md @sources/arxiv-2607-28509-refcaptioner.md @entities/models/token-radius-attention.md @sources/arxiv-2608-02504-token-radius-attention.md @entities/models/bwm.md @sources/arxiv-2607-29302-bwm-world-model.md @entities/models/moroute.md @sources/arxiv-2607-29545-moroute.md @entities/models/echocache.md @sources/arxiv-2607-28760-wait-frequency-aware-flow.md @sources/arxiv-2608-02474-echocache.md @sources/arxiv-2608-03335-spade.md @entities/models/spade.md @sources/arxiv-2608-05070-helloworld.md @entities/models/helloworld.md @sources/arxiv-2608-06231-emoworld.md @entities/models/emoworld.md @sources/arxiv-2608-06008-adaptive-wam.md @sources/arxiv-2609-38154-longlive-plug.md @entities/models/longlive-plug.md @concepts/plug-and-play-distillation-lora.md @sources/arxiv-2609-38152-fracgen.md @sources/arxiv-2610-02188-dmad.md @concepts/adversarial-distribution-matching-distillation.md @sources/arxiv-2610-02180-generative-cinematographer.md
 
 @concepts/model-selection-workflow.md
 @concepts/synthetic-media-compute-economics.md

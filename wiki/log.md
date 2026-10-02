@@ -1,3 +1,33 @@
+## [2026-10-02] ingest | DMAD · HiPhy · GenCine · Moore/Escher · ATR · Articulatory TTS (+ 2 SKIP) + 3 incoming briefs
+
+Full inbox ingest of **8 NEW** arXiv PDFs (2026-10-02 sweep). **1 WATCH-full**, **6 WATCH**, **2 SKIP**. Also folded **3 unprocessed cross-wiki incoming briefs** into wiki pages.
+
+### Inbox (2610.* batch)
+
+- **NEW** `@sources/arxiv-2610-02188-dmad.md` + `@concepts/adversarial-distribution-matching-distillation.md` — DMAD recasts DMD as classification; two discriminator heads replace the score critic and online teacher; Proposition 1 proves the logit gradient equals DMD's. **Wan2.1 4-step VBench 84.70 (1.3B) / 85.15 (14B)** beat DMD2, rCM and the 50-step teacher; ~4.2x cheaper per generator update. No code/weights yet, no licence. **WATCH-full.**
+- **NEW** `@sources/arxiv-2610-02197-hiphy.md` — first **multi-principle** physical RL for T2V; per-principle temporally-ordered sub-stage reward streams + GRPO on a frozen backbone; VideoPhy2 PC 88.6 vs Wan2.1 49.1; H200-scale training, not released. **WATCH-thin.**
+- **NEW** `@sources/arxiv-2610-02180-generative-cinematographer.md` — lifts one image to a 3D point cloud, authors camera path + 3D motion handles; Wan2.1-Fun-14B + VACE-style side branch; gains over Wan-Move marginal, no release. **WATCH-thin.**
+- **NEW** `@sources/arxiv-2610-02210-moore-escher-penrose.md` + `@concepts/constrained-braided-diffusion-sampling.md` — **corrected classification**: the title reads as maths art but this is a generative-model paper. Conformal map + Penrose-consistent generalized inverse (T·T†·T = T, idempotent projection) + braided source/transformed denoising on a frozen T2I (FLUX). Qualitative only, no code, no licence. **WATCH.**
+- **NEW** `@sources/arxiv-2610-00825-align-then-reason.md` — reference-free lip-sync **judge** scoring candidate text against silent video (content + timing); mean AUC 0.920 vs 0.610; frontier models fail temporal axes. Netflix-proprietary data, no code/weights. Complements, does not replace, SyncNet LSE-C/D. **WATCH-thin.**
+- **NEW** `@sources/arxiv-2610-00735-articulatory-source-filter-tts.md` — vocal-tract kinematics (EMA) as filter control; ties XTTS on WER at 33M params but loses spectral fidelity to StyleTTS2/HierSpeech++; demo page only. **WATCH-thin.**
+- **SKIP** `@sources/arxiv-2610-01378-speech-provenance-skip.md` — provenance schema + audit of a private care-handoff TTS corpus. Not detection, not watermarking, no tool, no code, no licence.
+- **SKIP** `@sources/arxiv-2610-02136-mirto-skip.md` — clinical brain-MRI UAD evaluation protocol; diffusion appears only as detector under test. No sibling wiki covers clinical neuroimaging.
+
+### Incoming briefs folded (3)
+
+- **NEW** `@sources/arxiv-2607-19315-erank-image-richness.md` ← `briefs/2026-07-22_k144-erank-image-richness-from-seo.md` — ERank effective-rank richness for dataset selection; `wont_wire` (no public code; prune direction is task-dependent).
+- **NEW** `@sources/arxiv-2607-21582-instruction-factor-bias.md` ← `briefs/2026-07-26_k146-instruction-factor-bias-from-seo.md` — Factor Dominance Rate diagnostic; `wont_wire` (robotics policy result; transfer is analogical).
+- **NEW** `@sources/arxiv-2608-13513-tabsom-tabular-to-image.md` ← `briefs/2026-08-14_k158-tabsom-tabular-to-image-from-seo.md` — **SKIP**: tabular-to-image encoding for CNN classification, no generative-media application. Page kept as routing record.
+- **Already processed** — `briefs/2026-08-13_k157-agentic-i2v-self-improvement-from-seo.md` and `briefs/2026-08-13_from-cyber-ood-i2v-agentic-optimization.md` both converge on arXiv:2608.12290, already covered by `@sources/arxiv-2608-12290-agentic-i2v.md` + `@entities/models/agentic-i2v.md`. Marked processed.
+
+### Housekeeping
+
+- **Updated** `sweeps/2026-10-01-daily.md` + `sweeps/2026-10-02-daily.md` — frontmatter added (both were missing it; the 10-01 sweep had an empty inbox). Sweep chain 09-30 → 10-01 → 10-02 backlinked.
+- **Updated** `entities/models/wan-2-2.md`, `concepts/one-step-autoregressive-video-distillation.md`, `entities/models/longlive-plug.md`, `concepts/plug-and-play-distillation-lora.md`, `concepts/grpo-i2v-post-training.md`, `concepts/video-generation-physical-executability.md`, `concepts/camera-controlled-video-generation.md`, `concepts/multi-shot-audio-video-evaluation.md`, `concepts/persona-audio-stack.md`, `concepts/multi-angle-dataset-prep.md`, `concepts/federated-daily-research-digest.md` — bidirectional backlinks.
+- **Updated** `index.md` — 13 rows.
+- **Lint** 0 hard errors.
+- **Phase-1**: none — `phase1-wire` hard-stops Image-gen local wires; no item required a wire on another surface.
+
 ## [2026-09-30] ingest | LongLive-Plug · EmoRES-TTS · RGOR · CLeaR · FracGen (+ 3 SKIP)
 
 Full inbox ingest of **8 NEW** arXiv PDFs (2026-09-30 sweep). **2 WATCH-full**, **3 WATCH-thin**, **3 SKIP**. All 8 PDFs **archived to egress-fi** (`cemini-egress-fi:/opt/cemini-bulk/research/image-gen/`, verified by size, local copies removed). Run via the Terminal panel because the Bash sandbox blocks outbound network.

@@ -37,13 +37,14 @@ related:
   - sources/arxiv-2608-12951-voxaudio.md
   - sources/arxiv-2608-16717-personashot.md
   - sources/arxiv-2608-18607-va-judger.md
+  - sources/arxiv-2610-00825-align-then-reason.md
 maturity: draft
 created: 2026-06-08
 updated: 2026-08-20
 ---
 ## Relations
 
-@sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md @concepts/sync-audio-video-customization.md @concepts/persona-audio-stack.md @concepts/seam-stitching-strategies.md @entities/models/ltx-2.md @entities/models/wan-2-2.md @entities/models/seedance-2.md @entities/benchmarks/vgif-score.md @entities/benchmarks/refcaptioner.md @sources/arxiv-2607-28509-refcaptioner.md @sources/arxiv-2608-06900-mmag.md @entities/benchmarks/mmag.md @sources/arxiv-2608-11013-wsv-video-captioning.md
+@sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md @concepts/sync-audio-video-customization.md @concepts/persona-audio-stack.md @concepts/seam-stitching-strategies.md @entities/models/ltx-2.md @entities/models/wan-2-2.md @entities/models/seedance-2.md @entities/benchmarks/vgif-score.md @entities/benchmarks/refcaptioner.md @sources/arxiv-2607-28509-refcaptioner.md @sources/arxiv-2608-06900-mmag.md @entities/benchmarks/mmag.md @sources/arxiv-2608-11013-wsv-video-captioning.md @sources/arxiv-2610-00825-align-then-reason.md
 
 ## Raw Concept
 

@@ -21,6 +21,7 @@ related:
   - sources/arxiv-2606-18375-paiworld-3d-consistent-world-foundation.md
   - concepts/multi-view-3d-consistent-world-models.md
   - sources/arxiv-2609-38152-fracgen.md
+  - sources/arxiv-2610-02197-hiphy.md
 maturity: draft
 created: 2026-06-07
 updated: 2026-06-22
@@ -28,7 +29,7 @@ updated: 2026-06-22
 
 ## Relations
 
-@sources/arxiv-2606-04811-dream-exe-robot-executability.md @concepts/world-models-video-generation.md @sources/arxiv-yocausal-world-model-benchmark-2605-30346.md @entities/models/wan-2-2.md @sources/arxiv-2609-38152-fracgen.md
+@sources/arxiv-2606-04811-dream-exe-robot-executability.md @concepts/world-models-video-generation.md @sources/arxiv-yocausal-world-model-benchmark-2605-30346.md @entities/models/wan-2-2.md @sources/arxiv-2609-38152-fracgen.md @sources/arxiv-2610-02197-hiphy.md
 
 ## Raw Concept
 

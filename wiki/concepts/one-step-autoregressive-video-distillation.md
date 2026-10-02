@@ -29,6 +29,8 @@ related:
   - entities/models/longlive-plug.md
   - sources/arxiv-2609-38154-longlive-plug.md
   - concepts/plug-and-play-distillation-lora.md
+  - sources/arxiv-2610-02188-dmad.md
+  - concepts/adversarial-distribution-matching-distillation.md
 maturity: draft
 created: 2026-06-06
 updated: 2026-07-29
@@ -36,7 +38,7 @@ updated: 2026-07-29
 
 ## Relations
 
-@sources/arxiv-2606-03972-aad-1-one-step-ar-video.md @concepts/autoregressive-video-foresight-training.md @concepts/seam-stitching-strategies.md @entities/models/wan-2-2.md @concepts/cascaded-streaming-high-resolution-video.md @entities/models/longlive-plug.md @sources/arxiv-2609-38154-longlive-plug.md @concepts/plug-and-play-distillation-lora.md
+@sources/arxiv-2606-03972-aad-1-one-step-ar-video.md @concepts/autoregressive-video-foresight-training.md @concepts/seam-stitching-strategies.md @entities/models/wan-2-2.md @concepts/cascaded-streaming-high-resolution-video.md @entities/models/longlive-plug.md @sources/arxiv-2609-38154-longlive-plug.md @concepts/plug-and-play-distillation-lora.md @sources/arxiv-2610-02188-dmad.md @concepts/adversarial-distribution-matching-distillation.md
 
 ## Raw Concept
 
