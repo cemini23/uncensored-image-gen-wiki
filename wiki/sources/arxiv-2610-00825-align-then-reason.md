@@ -23,7 +23,7 @@ wire_status: deferred
 
 - **Title**: Align Then Reason: A Multimodal Lip-Sync Judge for Dubbing
 - **Type**: arXiv:2610.00825 (University of Maryland + Netflix; Rui Liu et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.00825-align-then-reason-a-multimodal-lip-sync-judge-fo.pdf (archived 2026-10-02)
 - **URL**: https://arxiv.org/abs/2610.00825
 - **Retrieved**: 2026-10-02
 

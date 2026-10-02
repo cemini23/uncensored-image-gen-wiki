@@ -22,7 +22,7 @@ wire_status: wont_wire
 
 - **Title**: MIRTO: a registration-gated, multiverse-tested evaluation protocol for unsupervised anomaly segmentation in brain MRI
 - **Type**: arXiv:2610.02136 (University of Milan / Politecnico di Milano + Human Technopole; Negin Kafee Hernashki, Soumick Chatterjee)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.02136-mirto-a-registration-gated-multiverse-tested-eva.pdf (archived 2026-10-02)
 - **URL**: https://arxiv.org/abs/2610.02136
 - **Retrieved**: 2026-10-02
 

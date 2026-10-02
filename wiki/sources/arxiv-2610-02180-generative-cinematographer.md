@@ -24,7 +24,7 @@ wire_status: deferred
 
 - **Title**: Generative Cinematographer: Composing Camera and Object Motion in 3D
 - **Type**: arXiv:2610.02180 (Johns Hopkins University; Jiahan Zhang et al., with Alan Yuille, Anand Bhattad)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.02180-generative-cinematographer-composing-camera-and.pdf (archived 2026-10-02)
 - **URL**: https://arxiv.org/abs/2610.02180
 - **Retrieved**: 2026-10-02
 

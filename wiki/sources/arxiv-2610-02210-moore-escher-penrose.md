@@ -24,7 +24,7 @@ wire_status: deferred
 
 - **Title**: Moore, Escher, Penrose: A Conformal Golden Braid
 - **Type**: arXiv:2610.02210 (Technion — Israel Institute of Technology; Sophia Feldman, Assaf Shocher)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.02210-moore-escher-penrose-a-conformal-golden-braid.pdf (archived 2026-10-02)
 - **URL**: https://arxiv.org/abs/2610.02210
 - **Retrieved**: 2026-10-02
 

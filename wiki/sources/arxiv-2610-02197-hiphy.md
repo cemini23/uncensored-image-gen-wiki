@@ -24,7 +24,7 @@ wire_status: deferred
 
 - **Title**: HiPhy: Hierarchical Alignment for Physically-Plausible Multi-Principle Video Generation
 - **Type**: arXiv:2610.02197 (Virginia Tech + Qualcomm AI Research; Tahira Kazimi et al.) — NeurIPS 2026
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.02197-hiphy-hierarchical-alignment-for-physically-plau.pdf (archived 2026-10-02)
 - **URL**: https://arxiv.org/abs/2610.02197
 - **Retrieved**: 2026-10-02
 

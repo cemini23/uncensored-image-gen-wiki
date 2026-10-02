@@ -22,7 +22,7 @@ wire_status: wont_wire
 
 - **Title**: Generation Provenance Before Behavior Attribution: Auditing Synthetic Speech Research Objects
 - **Type**: arXiv:2610.01378 (Blossom AI / Blossom AI Labs; Sidi Chang, Peiying Zhu)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.01378-generation-provenance-before-behavior-attributio.pdf (archived 2026-10-02)
 - **URL**: https://arxiv.org/abs/2610.01378
 - **Retrieved**: 2026-10-02
 

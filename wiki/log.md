@@ -25,6 +25,7 @@ Full inbox ingest of **8 NEW** arXiv PDFs (2026-10-02 sweep). **1 WATCH-full**, 
 - **Updated** `sweeps/2026-10-01-daily.md` + `sweeps/2026-10-02-daily.md` — frontmatter added (both were missing it; the 10-01 sweep had an empty inbox). Sweep chain 09-30 → 10-01 → 10-02 backlinked.
 - **Updated** `entities/models/wan-2-2.md`, `concepts/one-step-autoregressive-video-distillation.md`, `entities/models/longlive-plug.md`, `concepts/plug-and-play-distillation-lora.md`, `concepts/grpo-i2v-post-training.md`, `concepts/video-generation-physical-executability.md`, `concepts/camera-controlled-video-generation.md`, `concepts/multi-shot-audio-video-evaluation.md`, `concepts/persona-audio-stack.md`, `concepts/multi-angle-dataset-prep.md`, `concepts/federated-daily-research-digest.md` — bidirectional backlinks.
 - **Updated** `index.md` — 13 rows.
+- **Archived** all 8 PDFs to `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/` (verified by exact size, local copies removed); inbox empty.
 - **Lint** 0 hard errors.
 - **Phase-1**: none — `phase1-wire` hard-stops Image-gen local wires; no item required a wire on another surface.
 

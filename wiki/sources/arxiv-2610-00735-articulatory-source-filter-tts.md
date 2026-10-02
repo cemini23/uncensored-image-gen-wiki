@@ -23,7 +23,7 @@ wire_status: deferred
 
 - **Title**: Articulatory Source-Filter TTS: Physically Grounded Control through Vocal Tract Kinematics
 - **Type**: arXiv:2610.00735 (SPIRE Lab, Indian Institute of Science + CMU; Jesuraj Bandekar, Shinji Watanabe, Prasanta Kumar Ghosh)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.00735-articulatory-source-filter-tts-physically-ground.pdf (archived 2026-10-02)
 - **URL**: https://arxiv.org/abs/2610.00735
 - **Retrieved**: 2026-10-02
 
