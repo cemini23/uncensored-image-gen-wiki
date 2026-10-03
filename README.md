@@ -206,7 +206,7 @@ Thank you for visiting — and thank you for any support you send our way. Tips 
 - Newsletter: [Outlier Weekly](https://outlierweekly.substack.com) on Substack
 - Atto: [youratto.com](https://youratto.com)
 - GuruWatcher: [guruwatcher.com](https://guruwatcher.com)
-- YouTube: [@Cemini23](https://www.youtube.com/@Cemini23)
+- X: [@Cemini23](https://x.com/Cemini23)
 
 Voluntary tips fund open research and tooling. **Donation-only addresses** — not trading or production wallets.
 
