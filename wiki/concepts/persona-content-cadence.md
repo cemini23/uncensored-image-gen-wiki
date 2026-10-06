@@ -24,6 +24,7 @@ related:
   - "@seo-wiki/concepts/creator-marketing-foundations.md"
   - concepts/hunyuanvideo-homa-weak-hoi-video.md
   - sources/arxiv-2608-02293-creator-traffic-allocation.md
+  - entities/persona-ops/moneyprinterturbo.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-08-04
@@ -31,7 +32,7 @@ updated: 2026-08-04
 
 ## Relations
 
-@sources/persona-monetization-2026.md @sources/persona-ops-stack-2026.md @concepts/persona-monetization-models.md @concepts/persona-ops-stack.md @concepts/persona-ops-workflow.md @concepts/persona-failure-modes.md @concepts/persona-consistency-methods.md @entities/persona-ops/postiz.md @entities/persona-ops/n8n.md @entities/personas/aitana-lopez.md @sources/arxiv-2608-02293-creator-traffic-allocation.md
+@sources/persona-monetization-2026.md @sources/persona-ops-stack-2026.md @concepts/persona-monetization-models.md @concepts/persona-ops-stack.md @concepts/persona-ops-workflow.md @concepts/persona-failure-modes.md @concepts/persona-consistency-methods.md @entities/persona-ops/postiz.md @entities/persona-ops/n8n.md @entities/personas/aitana-lopez.md @sources/arxiv-2608-02293-creator-traffic-allocation.md @entities/persona-ops/moneyprinterturbo.md
 @concepts/marketing-your-persona.md
 @sources/virtual-persona-narrative-development-strategy.md
 @entities/music-models/ace-step.md

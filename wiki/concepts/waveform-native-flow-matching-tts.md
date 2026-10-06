@@ -15,6 +15,7 @@ related:
   - sources/arxiv-2608-11737-phoenix-tts.md
   - entities/voice-models/voicechat-tts.md
   - sources/arxiv-2608-13831-voicechat-tts.md
+  - sources/arxiv-2610-03390-drifttts.md
 maturity: draft
 created: 2026-06-11
 updated: 2026-08-17
@@ -22,7 +23,7 @@ updated: 2026-08-17
 
 ## Relations
 
-@sources/arxiv-2606-09048-barewave-waveform-native-tts.md @entities/voice-models/barewave.md @entities/voice-models/f5-tts.md @concepts/persona-audio-stack.md @sources/arxiv-2608-07462-sembridge.md @entities/voice-models/sembridge.md
+@sources/arxiv-2606-09048-barewave-waveform-native-tts.md @entities/voice-models/barewave.md @entities/voice-models/f5-tts.md @concepts/persona-audio-stack.md @sources/arxiv-2608-07462-sembridge.md @entities/voice-models/sembridge.md @sources/arxiv-2610-03390-drifttts.md
 
 ## Raw Concept
 

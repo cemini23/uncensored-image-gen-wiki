@@ -10,6 +10,7 @@ related:
   - entities/voice-models/indextts-2.md
   - entities/voice-models/cosyvoice2.md
   - concepts/activation-steering-video-generation.md
+  - concepts/best-of-k-speaker-verified-tts.md
 maturity: draft
 created: 2026-09-30
 updated: 2026-09-30
@@ -17,7 +18,7 @@ updated: 2026-09-30
 
 ## Relations
 
-@sweeps/2026-09-30-daily.md @entities/voice-models/emores-tts.md @sources/arxiv-2609-38157-emores-tts.md @entities/voice-models/indextts-2.md @entities/voice-models/cosyvoice2.md @concepts/activation-steering-video-generation.md
+@sweeps/2026-09-30-daily.md @entities/voice-models/emores-tts.md @sources/arxiv-2609-38157-emores-tts.md @entities/voice-models/indextts-2.md @entities/voice-models/cosyvoice2.md @concepts/activation-steering-video-generation.md @concepts/best-of-k-speaker-verified-tts.md
 
 ## Raw Concept
 

@@ -7,6 +7,7 @@ related:
   - concepts/persona-ops-stack.md
   - concepts/persona-content-cadence.md
   - entities/persona-ops/n8n.md
+  - entities/persona-ops/moneyprinterturbo.md
 maturity: validated
 created: 2026-05-21
 updated: 2026-06-05
@@ -21,7 +22,7 @@ provenance:
 
 ## Relations
 
-@concepts/persona-ops-stack.md @concepts/persona-content-cadence.md @entities/persona-ops/n8n.md
+@concepts/persona-ops-stack.md @concepts/persona-content-cadence.md @entities/persona-ops/n8n.md @entities/persona-ops/moneyprinterturbo.md
 
 ## Raw Concept
 

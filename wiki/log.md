@@ -1,3 +1,38 @@
+## [2026-10-06] ingest | DriftTTS · masked-diffusion TTS scaling · LoGo · ProAR · World Embedding Benchmark (+ 4 SKIP / 1 ROUTE) + 5 incoming briefs
+
+Full inbox ingest of **10 NEW** arXiv PDFs (2026-10-02 → 10-05 sweeps). **0 WATCH-full**, **6 WATCH-thin**, **3 SKIP**, **1 ROUTE-game-dev**. Also closed **5 unprocessed cross-wiki incoming briefs** and opened the first **Basgiath (Minecraft)** brief.
+
+### Inbox (2610.* batch)
+
+- **NEW** `@sources/arxiv-2610-03390-drifttts.md` — DriftTTS, the first "drifting" (distribution-matching) TTS: no pretrained teacher, no distillation, no adversarial discriminator. Blind MOS 4.18 vs Matcha-TTS 3.96 at 4 NFE; 1.58x decoder speedup. **But LJSpeech single-speaker only — no zero-shot cloning**, so it cannot replace Fish-Speech / CosyVoice2 / IndexTTS-2. No licence stated. **WATCH-thin.**
+- **NEW** `@sources/arxiv-2610-03320-masked-diffusion-tts-test-time-compute.md` + `@concepts/best-of-k-speaker-verified-tts.md` — zero-shot TTS **scaling study** (not a SOTA model). Core finding: refinement steps close 86.2% of the reachable intelligibility range but only 46.4% of the identity range (1.86x asymmetry); best-of-8 **speaker-verified search** beats 16-step refinement on identity (+0.0365 SIM). Two operator constraints: **62% of the residual identity gap is the codec**, and the **optimal prompt length is 3 s** (longer hurts). The reranking heuristic is the usable output. **WATCH-thin.**
+- **NEW** `@sources/arxiv-2610-03636-logo-video-consistency.md` — LoGo adds **voxelized local-global credit assignment** to a 3D-consistency reward, so failures are localized instead of collapsed to one scalar; beats its own global-only ablation and VideoGPA/World-R1. Bases (Lingbot2 / Lyra2 / UniWorld 14B) are **outside the Wan lineage**; 64xH100; release claimed but no repo URL printed. **WATCH-thin.** Portable asset = the voxel consistency *metric*.
+- **NEW** `@sources/arxiv-2610-03664-proar.md` — ProAR makes AR video goal-directed via a **goal-frame Outcome** anchor plus a **Transition** alignment (same forward pass, unlike Video-Mirai). Built on **Wan2.2-TI2V-5B** (already in this wiki's lineage); VBVR mean 0.663 to 0.801; trains ~4x faster. No weights released; B200-scale training. **WATCH-thin.**
+- **NEW** `@sources/arxiv-2610-03632-world-embedding-benchmark.md` — physical information in **video embeddings**; alignment-vs-recoverability trade-off (physics adaptation lifts cross-family to 98.2% but degrades regression). **Correction recorded: no Minecraft, no Habitat** — the sims are OpenFOAM / FEniCSx / Chrono / Meep. **WATCH-thin.**
+- **SKIP** `@sources/arxiv-2610-03326-traj-mc-skip.md`, `@sources/arxiv-2610-03665-pivot-sd-skip.md` — both are masked-diffusion **language** models. The word "diffusion" is the trap; a visual DiT has no token-masking trajectory, so neither transfers. Pivot-SD is token-weighted SFT, **not** score distillation.
+- **SKIP** `@sources/arxiv-2610-03622-cornav-skip.md` — construction-site robot navigation; no generative model at any layer.
+- **SKIP** `@sources/arxiv-2610-02092-tess-meta-network-skip.md` — meta-network data selection for **LLMs** (Alpaca/Dolly, Llama-3-8B, Qwen2.5-7B). No image or video modality, so it does not touch this wiki's image/video dataset-curation track.
+- **ROUTE** `@sources/arxiv-2610-02023-sphere-routed.md` — SPHERE (VR indoor scene generation, Unity + Objaverse). LLM spatial-preference learning + human-in-the-loop RL; not a diffusion model and not runnable on media hardware. Routed to **game-dev** (`briefs/2026-10-06_sphere-vr-scene-routing.md` on that wiki). Image-gen Phase-1: none.
+
+### Basgiath (Minecraft) hook — first one opened
+
+LoGo's voxel-space 3D-consistency **metric** is a real fit for Basgiath's stated need for an unattended world-gen test bench: per-voxel reprojection error localizes terrain holes and popping, where a global scalar cannot. Wrote `../dragon-rider-map/briefs/2026-10-06_logo-voxel-consistency-metric.md`. **Caveat recorded in the brief:** the metric, not the implementation, transfers; LoGo trains on 64 H100s against unreleased 14B backbones. ProAR has a speculative conceptual hook only (recorded, not actionable).
+
+### Incoming briefs closed (5)
+
+- **NEW page** `@entities/persona-ops/moneyprinterturbo.md` ← `2026-08-20_moneyprinterturbo-video-gen-size-skip.md`. Distinct from the existing `@entities/persona-ops/moneyprinter.md` (different repo, same theme). MIT, **SIZE-SKIP ~536 MB** → `wont_wire`.
+- **Marked processed, page already existed** — `2026-08-19_k242-watermarks-remover` (→ `entities/tools/watermarks-remover.md`), `2026-09-09_k258-ls-image-notes` (→ `entities/models/mai-image-2-6.md`), `2026-09-11_k259-vidhalloc` (→ `sources/arxiv-2609-09895-vidhalloc.md` + `entities/benchmarks/vidhalloc.md`).
+- **Marked processed, no page** — `2026-08-11_k231-infographic-svg` (antvis/Infographic SVG streaming). Reference-only: an SVG data-viz library is not generative media, and the SVG lineage belongs to Atto. Matches the 2026-05-21 precedent for dead-end/reference-only briefs.
+
+### Housekeeping
+
+- **Updated** `sweeps/2026-10-03/04/05-daily.md` — frontmatter added (all three were missing it; this cleared 3 hard lint errors carried into the session). Chain 10-02 → 10-03 → 10-04 → 10-05 backlinked.
+- **Bug caught during lint** — the DriftTTS source file is `arxiv-2610-03390-drift**tt**s.md` (drift + TTS). Three pages initially referenced `...-driftts.md`, producing 3 dangling links and 1 missing @path. Fixed by aligning the references to the real filename.
+- **Updated** — bidirectional backlinks across `concepts/persona-audio-stack.md`, `concepts/waveform-native-flow-matching-tts.md`, `concepts/emotional-activation-steering-tts.md`, `concepts/world-models-video-generation.md`, `concepts/camera-controlled-video-generation.md`, `concepts/autoregressive-video-foresight-training.md`, `entities/models/wan-2-2.md`, `concepts/federated-daily-research-digest.md`, `entities/persona-ops/*`.
+- **Updated** `index.md` — 12 rows.
+- **Lint** 0 hard errors.
+- **Phase-1** — none. `phase1-wire` hard-stops Image-gen local wires; no ADOPT/GO item needed a wire on CCC, OSINT, TipDrop, Atto, GuruWatcher, Basgiath, poker, Cybersec, Game-dev, Gambling, SEO or CemiSuite.
+
 ## [2026-10-02] ingest | DMAD · HiPhy · GenCine · Moore/Escher · ATR · Articulatory TTS (+ 2 SKIP) + 3 incoming briefs
 
 Full inbox ingest of **8 NEW** arXiv PDFs (2026-10-02 sweep). **1 WATCH-full**, **6 WATCH**, **2 SKIP**. Also folded **3 unprocessed cross-wiki incoming briefs** into wiki pages.

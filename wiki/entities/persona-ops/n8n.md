@@ -23,6 +23,7 @@ related:
   - entities/models/videoagent.md
   - sources/arxiv-2606-23327-videoagent-all-in-one-framework.md
   - entities/voice-models/confucius4-tts.md
+  - entities/persona-ops/moneyprinterturbo.md
 maturity: draft
 created: 2026-05-07
 updated: 2026-06-27
@@ -30,7 +31,7 @@ updated: 2026-06-27
 
 ## Relations
 
-@sources/persona-ops-stack-2026.md @concepts/persona-ops-stack.md @concepts/persona-content-cadence.md @entities/persona-ops/postiz.md @entities/persona-ops/sillytavern.md @entities/persona-ops/fish-speech.md
+@sources/persona-ops-stack-2026.md @concepts/persona-ops-stack.md @concepts/persona-content-cadence.md @entities/persona-ops/postiz.md @entities/persona-ops/sillytavern.md @entities/persona-ops/fish-speech.md @entities/persona-ops/moneyprinterturbo.md
 @concepts/model-selection-workflow.md
 @entities/uis/comfyui.md
 @entities/persona-ops/delive.md @entities/persona-ops/moneyprinter.md

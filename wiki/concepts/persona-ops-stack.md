@@ -82,6 +82,7 @@ related:
   - runbooks/runpod-unified-gen-stack.md
   - sources/arxiv-2609-31451-templatecraft.md
   - entities/persona-ops/templatecraft.md
+  - entities/persona-ops/moneyprinterturbo.md
 title: "Persona operations stack (architecture overview)"
 type: concept
 tags: [persona-ops, automation, stack-architecture, multi-account, dm-automation, voice-cloning, orchestration, content-pipelines]
@@ -94,7 +95,7 @@ updated: 2026-09-28
 
 ## Relations
 
-@sources/persona-ops-stack-2026.md @sources/persona-monetization-2026.md @concepts/persona-monetization-models.md @concepts/persona-failure-modes.md @concepts/persona-content-cadence.md @concepts/persona-consistency-methods.md @entities/persona-ops/postiz.md @entities/persona-ops/sillytavern.md @entities/persona-ops/fish-speech.md @entities/persona-ops/n8n.md @concepts/persona-legal-landscape.md @concepts/persona-payment-rails.md @entities/personas/aitana-lopez.md @sources/arxiv-2608-03887-omega-s.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md @sources/arxiv-2608-05070-helloworld.md @sources/arxiv-2608-06231-emoworld.md @entities/models/emoworld.md
+@sources/persona-ops-stack-2026.md @sources/persona-monetization-2026.md @concepts/persona-monetization-models.md @concepts/persona-failure-modes.md @concepts/persona-content-cadence.md @concepts/persona-consistency-methods.md @entities/persona-ops/postiz.md @entities/persona-ops/sillytavern.md @entities/persona-ops/fish-speech.md @entities/persona-ops/n8n.md @concepts/persona-legal-landscape.md @concepts/persona-payment-rails.md @entities/personas/aitana-lopez.md @sources/arxiv-2608-03887-omega-s.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md @sources/arxiv-2608-05070-helloworld.md @sources/arxiv-2608-06231-emoworld.md @entities/models/emoworld.md @entities/persona-ops/moneyprinterturbo.md
 
 
 @concepts/marketing-your-persona.md
