@@ -22,7 +22,7 @@ wire_status: wont_wire
 
 - **Title**: Conditional Rank Allocation for Taxonomy-Aware Medical Language Model Adaptation
 - **Type**: arXiv:2610.06765 (National University of Singapore; Guangyuan Dong et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.06765-conditional-rank-allocation-for-taxonomy-aware-m.pdf (archived 2026-10-07)
 - **URL**: https://arxiv.org/abs/2610.06765
 - **Retrieved**: 2026-10-07
 

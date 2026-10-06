@@ -23,7 +23,7 @@ route_target: "@cybersecurity-wiki"
 
 - **Title**: BabelFake: A Multilingual Audio-Visual DeepFake Benchmark
 - **Type**: arXiv:2610.06339 (TU Darmstadt + Hessian.AI; Carlotta Segna et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.06339-babelfake-a-multilingual-audio-visual-deepfake-b.pdf (archived 2026-10-07)
 - **URL**: https://arxiv.org/abs/2610.06339
 - **Retrieved**: 2026-10-07
 

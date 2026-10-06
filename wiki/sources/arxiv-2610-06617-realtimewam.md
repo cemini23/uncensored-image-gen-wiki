@@ -24,7 +24,7 @@ wire_status: deferred
 
 - **Title**: RealtimeWAM: One-Step Asynchronous World Action Models
 - **Type**: arXiv:2610.06617 (NTU + Beihang + SenseTime + Continental Automotive Singapore; Chengtao Lv et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.06617-realtimewam-one-step-asynchronous-world-action-m.pdf (archived 2026-10-07)
 - **URL**: https://arxiv.org/abs/2610.06617
 - **Retrieved**: 2026-10-07
 

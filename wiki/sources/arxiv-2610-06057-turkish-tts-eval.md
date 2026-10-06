@@ -25,7 +25,7 @@ wire_status: deferred
 
 - **Title**: A Comprehensive Objective Evaluation of Modern Text-to-Speech for Turkish Using Speech Quality Assessment Models
 - **Type**: arXiv:2610.06057 (Sestek, Ankara; Yunus Emre Ozkose et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.06057-a-comprehensive-objective-evaluation-of-modern-t.pdf (archived 2026-10-07)
 - **URL**: https://arxiv.org/abs/2610.06057
 - **Retrieved**: 2026-10-07
 

@@ -23,7 +23,7 @@ wire_status: deferred
 
 - **Title**: UniSlider: Perceptually Uniform Sliders for Continuous Image Editing
 - **Type**: arXiv:2610.06831 (Computer Vision Center / UAB, work done at Adobe Research; David Serrano-Lozano et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.06831-unislider-perceptually-uniform-sliders-for-conti.pdf (archived 2026-10-07)
 - **URL**: https://arxiv.org/abs/2610.06831
 - **Retrieved**: 2026-10-07
 

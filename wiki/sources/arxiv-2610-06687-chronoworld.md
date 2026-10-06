@@ -25,7 +25,7 @@ wire_status: deferred
 
 - **Title**: ChronoWorld: Camera-Controlled Consistent 4D World Generation via Spatiotemporal Cues and Geometric Reflections
 - **Type**: arXiv:2610.06687 (Peking University, Wangxuan Institute + UC Merced; Xiaoyu Zhou et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.06687-chronoworld-camera-controlled-consistent-4d-worl.pdf (archived 2026-10-07)
 - **URL**: https://arxiv.org/abs/2610.06687
 - **Retrieved**: 2026-10-07
 

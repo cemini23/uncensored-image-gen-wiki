@@ -23,7 +23,7 @@ wire_status: deferred
 
 - **Title**: AuraSE: Low-Hallucination Generative Speech Enhancement via Multimodal Flow Matching and Inference Policy Optimization
 - **Type**: arXiv:2610.06632 (CUHK-Shenzhen + Microsoft Research; Yingda Shen et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.06632-aurase-low-hallucination-generative-speech-enhan.pdf (archived 2026-10-07)
 - **URL**: https://arxiv.org/abs/2610.06632
 - **Retrieved**: 2026-10-07
 
