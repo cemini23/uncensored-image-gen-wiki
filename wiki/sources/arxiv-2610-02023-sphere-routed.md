@@ -25,7 +25,7 @@ route_target: "@game-dev-wiki"
 
 - **Title**: SPHERE: Adaptive VR Indoor Scene Generation via LLM-Enhanced Spatial Preference Learning and Human-in-the-Loop RL
 - **Type**: arXiv:2610.02023 (Sungkyunkwan University + HKUST; Hyeonmin Lee et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.02023-sphere-adaptive-vr-indoor-scene-generation-via-l.pdf (archived 2026-10-06)
 - **URL**: https://arxiv.org/abs/2610.02023
 - **Retrieved**: 2026-10-06
 

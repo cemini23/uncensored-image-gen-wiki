@@ -22,7 +22,7 @@ wire_status: wont_wire
 
 - **Title**: Preserving Mathematical Reasoning in Compressed Diffusion Language Models via Trajectory-Aware Low-Rank Approximation
 - **Type**: arXiv:2610.03326 (Duke University; Tian Liang et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.03326-preserving-mathematical-reasoning-in-compressed.pdf (archived 2026-10-06)
 - **URL**: https://arxiv.org/abs/2610.03326
 - **Retrieved**: 2026-10-06
 

@@ -24,7 +24,7 @@ wire_status: deferred
 
 - **Title**: ProAR: Learning Prospective Reasoning with Autoregressive Video Models
 - **Type**: arXiv:2610.03664 (HK PolyU + UC Davis + Microsoft; Linghui Shen et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.03664-proar-learning-prospective-reasoning-with-autore.pdf (archived 2026-10-06)
 - **URL**: https://arxiv.org/abs/2610.03664
 - **Retrieved**: 2026-10-06
 

@@ -30,6 +30,7 @@ LoGo's voxel-space 3D-consistency **metric** is a real fit for Basgiath's stated
 - **Bug caught during lint** — the DriftTTS source file is `arxiv-2610-03390-drift**tt**s.md` (drift + TTS). Three pages initially referenced `...-driftts.md`, producing 3 dangling links and 1 missing @path. Fixed by aligning the references to the real filename.
 - **Updated** — bidirectional backlinks across `concepts/persona-audio-stack.md`, `concepts/waveform-native-flow-matching-tts.md`, `concepts/emotional-activation-steering-tts.md`, `concepts/world-models-video-generation.md`, `concepts/camera-controlled-video-generation.md`, `concepts/autoregressive-video-foresight-training.md`, `entities/models/wan-2-2.md`, `concepts/federated-daily-research-digest.md`, `entities/persona-ops/*`.
 - **Updated** `index.md` — 12 rows.
+- **Archived** all 10 PDFs to `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/` (verified by exact size, local copies removed); inbox empty.
 - **Lint** 0 hard errors.
 - **Phase-1** — none. `phase1-wire` hard-stops Image-gen local wires; no ADOPT/GO item needed a wire on CCC, OSINT, TipDrop, Atto, GuruWatcher, Basgiath, poker, Cybersec, Game-dev, Gambling, SEO or CemiSuite.
 

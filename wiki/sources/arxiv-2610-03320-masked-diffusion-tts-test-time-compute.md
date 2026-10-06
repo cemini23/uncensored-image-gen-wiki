@@ -24,7 +24,7 @@ wire_status: deferred
 
 - **Title**: Refinement Buys Intelligibility, Search Buys Identity: What Test-Time Compute Buys in Masked-Diffusion TTS
 - **Type**: arXiv:2610.03320 (tensorViz; Nityanand Mathur et al.) — NeurIPS 2026 workshop (Diffusion Language Models)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.03320-refinement-buys-intelligibility-search-buys-iden.pdf (archived 2026-10-06)
 - **URL**: https://arxiv.org/abs/2610.03320
 - **Retrieved**: 2026-10-06
 

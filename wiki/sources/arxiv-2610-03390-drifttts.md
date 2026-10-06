@@ -24,7 +24,7 @@ wire_status: deferred
 
 - **Title**: DriftTTS: Few-Step Text-to-Speech Without Distillation via Distribution-Matching Drift
 - **Type**: arXiv:2610.03390 (UMass Amherst + WPI; Mohammad Nur Hossain Khan et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.03390-drifttts-few-step-text-to-speech-without-distill.pdf (archived 2026-10-06)
 - **URL**: https://arxiv.org/abs/2610.03390
 - **Retrieved**: 2026-10-06
 

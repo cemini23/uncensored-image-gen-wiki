@@ -24,7 +24,7 @@ wire_status: wont_wire
 
 - **Title**: Scalable, Transferable Meta-Network for Data Selection Requires a Different Loss (and Why the Obvious Choice Is Problematic)
 - **Type**: arXiv:2610.02092 (Nanyang Technological University; Zilin Du et al. — ICLR 2027)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.02092-scalable-transferable-meta-network-for-data-sele.pdf (archived 2026-10-06)
 - **URL**: https://arxiv.org/abs/2610.02092
 - **Retrieved**: 2026-10-06
 

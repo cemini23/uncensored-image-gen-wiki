@@ -22,7 +22,7 @@ wire_status: wont_wire
 
 - **Title**: CORNAV: Construction-Aware Reasoning for Robot Navigation on Active Worksites
 - **Type**: arXiv:2610.03622 (University of California, Irvine; Parastoo Ali Pour et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.03622-cornav-construction-aware-reasoning-for-robot-na.pdf (archived 2026-10-06)
 - **URL**: https://arxiv.org/abs/2610.03622
 - **Retrieved**: 2026-10-06
 

@@ -23,7 +23,7 @@ wire_status: deferred
 
 - **Title**: World Embedding Benchmark
 - **Type**: arXiv:2610.03632 (University of Manchester + HK PolyU + SUFE; Yiqi Liu et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.03632-world-embedding-benchmark.pdf (archived 2026-10-06)
 - **URL**: https://arxiv.org/abs/2610.03632
 - **Retrieved**: 2026-10-06
 

@@ -24,7 +24,7 @@ wire_status: deferred
 
 - **Title**: LoGo: Local-Global Rewards for Consistent Long-Horizon Video Generation
 - **Type**: arXiv:2610.03636 (Caltech + World Labs; Ziqi Ma et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.03636-logo-local-global-rewards-for-consistent-long-ho.pdf (archived 2026-10-06)
 - **URL**: https://arxiv.org/abs/2610.03636
 - **Retrieved**: 2026-10-06
 

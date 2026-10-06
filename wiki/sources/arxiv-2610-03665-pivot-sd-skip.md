@@ -22,7 +22,7 @@ wire_status: wont_wire
 
 - **Title**: Pivot-SD: Efficient Self-Distillation for Masked Diffusion Language Models
 - **Type**: arXiv:2610.03665 (KAIST AI + University of Toronto / Vector Institute; Seo Hyun Kim et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.03665-pivot-sd-efficient-self-distillation-for-masked.pdf (archived 2026-10-06)
 - **URL**: https://arxiv.org/abs/2610.03665
 - **Retrieved**: 2026-10-06
 
