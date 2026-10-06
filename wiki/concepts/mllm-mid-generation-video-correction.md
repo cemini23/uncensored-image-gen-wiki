@@ -10,6 +10,8 @@ related:
   - entities/models/agentic-i2v.md
   - entities/models/wan-2-2.md
   - sweeps/2026-08-18-daily.md
+  - concepts/staged-composition-agent.md
+  - sources/arxiv-2610-02045-form-and-void-agent.md
 maturity: draft
 created: 2026-08-18
 updated: 2026-08-18
@@ -17,7 +19,7 @@ updated: 2026-08-18
 
 ## Relations
 
-@sources/arxiv-2608-16513-mllm-semantic-correction-t2v.md @concepts/mllm-dit-video-fusion.md @concepts/llm-as-image-conditioning.md @entities/models/agentic-i2v.md @entities/models/wan-2-2.md @sweeps/2026-08-18-daily.md
+@sources/arxiv-2608-16513-mllm-semantic-correction-t2v.md @concepts/mllm-dit-video-fusion.md @concepts/llm-as-image-conditioning.md @entities/models/agentic-i2v.md @entities/models/wan-2-2.md @sweeps/2026-08-18-daily.md @concepts/staged-composition-agent.md @sources/arxiv-2610-02045-form-and-void-agent.md
 
 ## Raw Concept
 

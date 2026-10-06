@@ -17,6 +17,7 @@ related:
   - sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md
   - concepts/reconstruction-based-t2v-benchmarking.md
   - entities/benchmarks/geot2v-bench.md
+  - sources/arxiv-2610-06687-chronoworld.md
 maturity: draft
 created: 2026-06-22
 updated: 2026-06-24
@@ -24,7 +25,7 @@ updated: 2026-06-24
 
 ## Relations
 
-@sources/arxiv-2606-18375-paiworld-3d-consistent-world-foundation.md @concepts/world-models-video-generation.md @concepts/multi-agent-cross-view-video-world-models.md @concepts/physical-ai-native-world-model-stacks.md
+@sources/arxiv-2606-18375-paiworld-3d-consistent-world-foundation.md @concepts/world-models-video-generation.md @concepts/multi-agent-cross-view-video-world-models.md @concepts/physical-ai-native-world-model-stacks.md @sources/arxiv-2610-06687-chronoworld.md
 
 ## Raw Concept
 

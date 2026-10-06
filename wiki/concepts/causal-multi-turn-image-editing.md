@@ -18,6 +18,7 @@ related:
   - entities/models/cameraeditor.md
   - sources/arxiv-2609-01479-cameraeditor.md
   - sweeps/2026-09-02-daily.md
+  - sources/arxiv-2610-06831-unislider.md
 maturity: draft
 created: 2026-06-15
 updated: 2026-07-01
@@ -25,7 +26,7 @@ updated: 2026-07-01
 
 ## Relations
 
-@sources/arxiv-2606-11751-anchoredit-multi-turn-editing.md @entities/models/anchoredit.md @entities/adapters/flux-kontext.md @entities/models/wan-2-2.md
+@sources/arxiv-2606-11751-anchoredit-multi-turn-editing.md @entities/models/anchoredit.md @entities/adapters/flux-kontext.md @entities/models/wan-2-2.md @sources/arxiv-2610-06831-unislider.md
 
 ## Raw Concept
 

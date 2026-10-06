@@ -8,6 +8,7 @@ related:
   - sources/arxiv-2610-03320-masked-diffusion-tts-test-time-compute.md
   - concepts/persona-audio-stack.md
   - concepts/emotional-activation-steering-tts.md
+  - concepts/tts-objective-eval-metric-panel.md
 maturity: draft
 created: 2026-10-06
 updated: 2026-10-06
@@ -15,7 +16,7 @@ updated: 2026-10-06
 
 ## Relations
 
-@sweeps/2026-10-05-daily.md @sources/arxiv-2610-03320-masked-diffusion-tts-test-time-compute.md @concepts/persona-audio-stack.md @concepts/emotional-activation-steering-tts.md
+@sweeps/2026-10-05-daily.md @sources/arxiv-2610-03320-masked-diffusion-tts-test-time-compute.md @concepts/persona-audio-stack.md @concepts/emotional-activation-steering-tts.md @concepts/tts-objective-eval-metric-panel.md
 
 ## Raw Concept
 

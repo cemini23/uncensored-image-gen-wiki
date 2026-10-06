@@ -47,6 +47,7 @@ related:
   - concepts/constrained-braided-diffusion-sampling.md
   - sources/arxiv-2610-02210-moore-escher-penrose.md
   - sources/arxiv-2610-03636-logo-video-consistency.md
+  - sources/arxiv-2610-06687-chronoworld.md
 title: Camera-Controlled Video Generation
 type: concept
 tags: [concept, video-generation, camera-control, 6-dof, conditioning]
@@ -58,7 +59,7 @@ updated: 2026-08-20
 
 ## Relations
 
-@sources/sana-wm-minute-scale-world-model.md @entities/models/sana-wm.md @concepts/world-models-video-generation.md @entities/models/prisma-world.md @concepts/multi-agent-cross-view-video-world-models.md @concepts/query-warped-video-motion-control.md @sources/arxiv-2610-02180-generative-cinematographer.md @concepts/constrained-braided-diffusion-sampling.md @sources/arxiv-2610-02210-moore-escher-penrose.md @sources/arxiv-2610-03636-logo-video-consistency.md
+@sources/sana-wm-minute-scale-world-model.md @entities/models/sana-wm.md @concepts/world-models-video-generation.md @entities/models/prisma-world.md @concepts/multi-agent-cross-view-video-world-models.md @concepts/query-warped-video-motion-control.md @sources/arxiv-2610-02180-generative-cinematographer.md @concepts/constrained-braided-diffusion-sampling.md @sources/arxiv-2610-02210-moore-escher-penrose.md @sources/arxiv-2610-03636-logo-video-consistency.md @sources/arxiv-2610-06687-chronoworld.md
 
 ## Raw Concept
 

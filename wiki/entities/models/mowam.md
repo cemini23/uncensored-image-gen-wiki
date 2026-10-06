@@ -8,6 +8,7 @@ related:
   - concepts/world-models-video-generation.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-09-19-daily.md
+  - sources/arxiv-2610-06617-realtimewam.md
 maturity: draft
 created: 2026-09-19
 updated: 2026-09-19
@@ -17,7 +18,7 @@ wire_status: deferred
 
 ## Relations
 
-@sources/arxiv-2609-20709-mowam.md @concepts/world-models-video-generation.md @concepts/federated-daily-research-digest.md @sweeps/2026-09-19-daily.md
+@sources/arxiv-2609-20709-mowam.md @concepts/world-models-video-generation.md @concepts/federated-daily-research-digest.md @sweeps/2026-09-19-daily.md @sources/arxiv-2610-06617-realtimewam.md
 
 ## Raw Concept
 

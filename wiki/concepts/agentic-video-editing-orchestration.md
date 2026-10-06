@@ -11,6 +11,7 @@ related:
   - concepts/seam-stitching-strategies.md
   - sources/video-generation-survey-2026.md
   - concepts/confidence-aware-tool-orchestration.md
+  - concepts/staged-composition-agent.md
 maturity: draft
 created: 2026-06-26
 updated: 2026-06-29
@@ -18,7 +19,7 @@ updated: 2026-06-29
 
 ## Relations
 
-@sources/arxiv-2606-23327-videoagent-all-in-one-framework.md @entities/models/videoagent.md @entities/persona-ops/n8n.md
+@sources/arxiv-2606-23327-videoagent-all-in-one-framework.md @entities/models/videoagent.md @entities/persona-ops/n8n.md @concepts/staged-composition-agent.md
 
 ## Raw Concept
 

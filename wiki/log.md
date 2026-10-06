@@ -1,3 +1,39 @@
+## [2026-10-07] ingest | S2PD · TTS metric panel · ChronoWorld · RealtimeWAM · UniSlider · AuraSE (+ 1 SKIP / 1 ROUTE) + 2 incoming briefs
+
+Full inbox ingest of **8 NEW** arXiv PDFs (2026-10-06 sweep). **2 WATCH-full**, **4 WATCH-thin**, **1 SKIP**, **1 ROUTE-cybersec**. Also closed **2 incoming cross-wiki briefs** from cybersec and opened a second **Basgiath (Minecraft)** brief.
+
+### Inbox (2610.* batch)
+
+- **NEW** `@sources/arxiv-2610-06847-s2pd.md` + `@concepts/serial-to-parallel-diffusion-schedule.md` — S2PD denoises **serially at high noise, then in parallel at low noise**, so causal structure is decided where causality matters. Conway invalid transitions per rollout **9.4 to 0.0**; chess 51.0 to 12.3; ~**2x faster** than the causal baselines it beats. **Code, datasets and weights released** — the only such release in this batch, and the reason it is WATCH-full. Schedule change, not a model change, so it is distinct from the wiki's DMD/DMAD distillation entries. **Basgiath hook: yes** (see below).
+- **NEW** `@sources/arxiv-2610-06057-turkish-tts-eval.md` + `@concepts/tts-objective-eval-metric-panel.md` — an 18-metric panel over four zero-shot TTS systems against the same speaker's gold recordings. The decisive finding: **several systems score higher than the real recording** on signal-cleanliness metrics (DNSMOS-Pro 4.225 vs gold 3.601), so those metrics are floors, not rankings. **Speaker similarity is the only dimension where gold was reliably highest** — the one trustworthy rank. Also: one system won zero metrics in aggregate yet collapsed specifically on short input, so length must be stratified. **WATCH-full** for the methodology.
+- **NEW** `@sources/arxiv-2610-06687-chronoworld.md` — 4D world generation on **Wan2.1 I2V** adding **Spatiotemporal Epipolar Causal Attention** (epipolar + causal masks as attention bias) and a 4D-Gaussian consistency graph with prune/retrieve. Beats MotionCtrl/CameraCtrl/GEN3C/DeepVerse/Neoverse; FVD-4D 177.41 vs 216.67. **No weights**; 8x A100. **WATCH-thin.**
+- **NEW** `@sources/arxiv-2610-06617-realtimewam.md` — robotic world-action model; teacher-anchored consistency distillation plus cross-expert wavefront pipelining. **12.2 ms on H100, 27.2 ms on RTX 4090D**, ~25x. Code + checkpoints released via ModelTC/LightX2V. Not a video generator (it outputs arm actions), so tracked for the acceleration pattern only. **WATCH-thin.**
+- **NEW** `@sources/arxiv-2610-06831-unislider.md` — rank-32 LoRA on **Flux.2-Klein-4B** that makes perceptual distance linear in slider value; monotonicity 5x better than the next best; wins 82% of 2AFC. Backbone-specific, 2 h train per backbone, **no code released**. **WATCH-thin.**
+- **NEW** `@sources/arxiv-2610-06632-aurase-speech-enhancement.md` — names four speech-hallucination modes (word changes, phonetic insertion, weak-speech dropping, speaker drift) and attacks them with a transcript-anchored MMDiT plus inference policy optimization. **No code, no weights.** Trained on noisy-real, so clean synthetic TTS input is out of distribution — hallucination risk rises rather than falls. **WATCH-thin.**
+- **ROUTE** `@sources/arxiv-2610-06339-babelfake-routed.md` — BabelFake, 399k clips / 1,323 h / 5 languages, consent-sourced audio-visual **detection** benchmark. Best detector AUC 79.79; **detectors degrade sharply when visual fakes keep authentic audio**. Not a generation resource and every manipulation method it uses is already catalogued here, so it routes to cybersec (`briefs/2026-10-07_babelfake-from-image-gen.md`). Image-gen Phase-1: none.
+- **SKIP** `@sources/arxiv-2610-06765-arbor-medical-lora-skip.md` — ARBOR routes LoRA rank-one atoms by **clinical specialty/operation tags**. The routing criterion is text-token taxonomy with no vision-DiT analogue; diffusion LoRA already has AdaLoRA for module-level rank allocation. LLM-only.
+
+### Incoming briefs closed (2)
+
+Both were **out-of-domain routes from cybersec**, arriving in *that* wiki's inbox and correctly pushed here. Neither paper was in this wiki, and neither PDF reached this inbox — the pages are written from the routing briefs, which is stated on each page.
+
+- **NEW** `@sources/arxiv-2610-02045-form-and-void-agent.md` + `@concepts/staged-composition-agent.md` ← `k394-ood-routing-image-gen`. FaV-A generates entangled positive/negative-space artwork with a three-stage mask-free pipeline. **The transferable pattern: each stage consumes the previous stage's *artifact*, not a restatement of it** — that is what holds a boundary one prompt cannot. Closed-API Gemini, no automatic metric, so it is a technique to reimplement rather than a tool.
+- **NEW** `@sources/arxiv-2610-06844-contextual-reader-dit.md` + `@concepts/contextual-token-interpretability.md` ← `k401-ood-routing-image-gen`. MM-DiT contextual tokens encode the emerging scene, stay readable **even with an empty prompt**, and their readability correlates with human preference; Contextual Alignment improves output. Note this paper was **cap-skipped by the 10-06 sweep** (8-file limit) — the brief is why it is now covered at all.
+
+### Basgiath (Minecraft) — second brief, and this one is checkable
+
+S2PD's **invalid-transitions-per-rollout** metric — parse output into symbolic states, define permitted transitions, count violations — is a direct fit for the unattended world-gen test bench. Bedrock terrain is already symbolic, so it is easier here than in the video case. Wrote `../dragon-rider-map/briefs/2026-10-07_s2pd-transition-validity-bench.md`. Unlike the 10-06 LoGo hook, **S2PD ships code and weights**, so it is testable today. The brief recommends writing the permitted-transition rule list first, since that list is the actual definition of a valid world.
+
+### Housekeeping
+
+- **Updated** `sweeps/2026-10-06-daily.md` — frontmatter added (it was missing; this cleared a hard lint error carried into the session). Chain 10-05 to 10-06 backlinked.
+- **Bug caught during lint** — cross-wiki refs were written as `@cybersecurity-wiki/wiki/sources/...`; the alias already resolves to `.../wiki/`, so the extra segment produced 4 dangling cross-wiki links. Fixed to `@cybersecurity-wiki/sources/...`.
+- **Updated** — bidirectional backlinks across `concepts/federated-daily-research-digest.md`, `entities/models/wan-2-2.md`, `concepts/video-generation-physical-executability.md`, `concepts/camera-controlled-video-generation.md`, `concepts/multi-view-3d-consistent-world-models.md`, `concepts/world-models-video-generation.md`, `entities/models/mowam.md`, `concepts/asr-roundtrip-tts-eval-limits.md`, `concepts/persona-audio-stack.md`, `concepts/best-of-k-speaker-verified-tts.md`, `concepts/causal-multi-turn-image-editing.md`, `concepts/mllm-mid-generation-video-correction.md`, `concepts/agentic-video-editing-orchestration.md`, `concepts/mllm-dit-video-fusion.md`, `concepts/one-step-autoregressive-video-distillation.md`.
+- **Updated** `index.md` — 14 rows.
+- **Archived** all 8 PDFs to `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/` (verified by exact size, local copies removed); inbox empty.
+- **Lint** 0 hard errors.
+- **Phase-1** — none. `phase1-wire` hard-stops Image-gen local wires; no ADOPT/GO item needed a wire on CCC, OSINT, TipDrop, Atto, GuruWatcher, Basgiath, poker, Cybersec, Game-dev, Gambling, SEO or CemiSuite. The BabelFake route to cybersec is a reference route, not a runtime wire.
+
 ## [2026-10-06] ingest | DriftTTS · masked-diffusion TTS scaling · LoGo · ProAR · World Embedding Benchmark (+ 4 SKIP / 1 ROUTE) + 5 incoming briefs
 
 Full inbox ingest of **10 NEW** arXiv PDFs (2026-10-02 → 10-05 sweeps). **0 WATCH-full**, **6 WATCH-thin**, **3 SKIP**, **1 ROUTE-game-dev**. Also closed **5 unprocessed cross-wiki incoming briefs** and opened the first **Basgiath (Minecraft)** brief.
