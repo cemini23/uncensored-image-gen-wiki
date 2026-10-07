@@ -24,6 +24,8 @@ related:
   - sources/arxiv-2607-15650-ditango-chitudiffusion.md
   - entities/models/sparsepr.md
   - sources/arxiv-2608-18484-sparsepr.md
+  - sources/arxiv-2610-08772-basa-sparse-attention.md
+  - concepts/sparse-attention-without-custom-kernels.md
 maturity: draft
 created: 2026-07-01
 updated: 2026-08-20
@@ -31,7 +33,7 @@ updated: 2026-08-20
 
 ## Relations
 
-@sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md @concepts/budget-aware-diffusion-caching.md @entities/models/wan-2-2.md
+@sources/arxiv-2603-18636-svoo-input-stable-sparse-attention-video.md @concepts/budget-aware-diffusion-caching.md @entities/models/wan-2-2.md @sources/arxiv-2610-08772-basa-sparse-attention.md @concepts/sparse-attention-without-custom-kernels.md
 
 ## Raw Concept
 

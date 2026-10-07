@@ -62,6 +62,7 @@ related:
   - entities/models/xyzflow.md
   - sources/arxiv-2608-12276-xyzflow.md
   - sources/arxiv-2609-30884-cachereforge.md
+  - concepts/sparse-attention-without-custom-kernels.md
 maturity: draft
 created: 2026-06-07
 updated: 2026-08-25
@@ -69,7 +70,7 @@ updated: 2026-08-25
 
 ## Relations
 
-@sources/arxiv-2606-06060-recache-diffusion-caching.md @concepts/magnitude-direction-decoupling.md @sources/arxiv-2608-17695-magnitude-direction-decoupling.md @entities/models/linca.md @sources/arxiv-2608-17973-linca.md @concepts/tuned-diffusion-sampling-oys.md @sources/arxiv-2608-18040-oys-tuned-sampling.md @entities/hardware/gpu-guide.md @entities/models/flux-1-dev.md @entities/models/wan-2-2.md @concepts/multimodal-diffusion-mamba-efficient-t2v.md @sources/arxiv-2608-02474-echocache.md @entities/models/echocache.md @sources/arxiv-2608-02504-token-radius-attention.md @entities/models/token-radius-attention.md @sources/arxiv-2608-03335-spade.md @entities/models/spade.md
+@sources/arxiv-2606-06060-recache-diffusion-caching.md @concepts/magnitude-direction-decoupling.md @sources/arxiv-2608-17695-magnitude-direction-decoupling.md @entities/models/linca.md @sources/arxiv-2608-17973-linca.md @concepts/tuned-diffusion-sampling-oys.md @sources/arxiv-2608-18040-oys-tuned-sampling.md @entities/hardware/gpu-guide.md @entities/models/flux-1-dev.md @entities/models/wan-2-2.md @concepts/multimodal-diffusion-mamba-efficient-t2v.md @sources/arxiv-2608-02474-echocache.md @entities/models/echocache.md @sources/arxiv-2608-02504-token-radius-attention.md @entities/models/token-radius-attention.md @sources/arxiv-2608-03335-spade.md @entities/models/spade.md @concepts/sparse-attention-without-custom-kernels.md
 
 ## Raw Concept
 

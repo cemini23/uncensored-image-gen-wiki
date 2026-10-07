@@ -23,6 +23,8 @@ related:
   - sweeps/2026-07-13-daily.md
   - entities/voice-models/qwen-audio-3-tts.md
   - sources/arxiv-2607-23938-qwen-audio-3-0-tts.md
+  - sources/arxiv-2610-07647-loud-and-clear-intelligibility-steering.md
+  - concepts/prompt-relative-activation-steering.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-08-20
@@ -30,7 +32,7 @@ updated: 2026-08-20
 
 ## Relations
 
-@concepts/persona-audio-stack.md @entities/voice-models/fireredtts3.md @sources/arxiv-2608-17492-fireredtts3.md
+@concepts/persona-audio-stack.md @entities/voice-models/fireredtts3.md @sources/arxiv-2608-17492-fireredtts3.md @sources/arxiv-2610-07647-loud-and-clear-intelligibility-steering.md @concepts/prompt-relative-activation-steering.md
 @entities/persona-ops/fish-speech.md
 @entities/voice-models/cosyvoice2.md
 @sources/persona-ops-stack-2026.md

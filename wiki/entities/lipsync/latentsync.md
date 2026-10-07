@@ -53,6 +53,7 @@ related:
   - entities/lipsync/flowact-r2.md
   - sources/arxiv-2609-35728-flowact-r2.md
   - sources/arxiv-2609-38019-rgor-beyond-lip-sync.md
+  - sources/arxiv-2610-08417-lipda-lipsync-forensics-routed.md
 maturity: draft
 created: 2026-05-13
 updated: 2026-09-29
@@ -61,7 +62,7 @@ updated: 2026-09-29
 
 ## Relations
 
-@concepts/persona-audio-stack.md @entities/models/echocache.md @sources/arxiv-2608-02474-echocache.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md @entities/lipsync/tbdub.md @sources/arxiv-2609-06144-tbdub.md @sources/arxiv-2609-38019-rgor-beyond-lip-sync.md
+@concepts/persona-audio-stack.md @entities/models/echocache.md @sources/arxiv-2608-02474-echocache.md @sources/arxiv-2608-04709-empaava.md @entities/persona-ops/empaava.md @entities/lipsync/tbdub.md @sources/arxiv-2609-06144-tbdub.md @sources/arxiv-2609-38019-rgor-beyond-lip-sync.md @sources/arxiv-2610-08417-lipda-lipsync-forensics-routed.md
 @entities/lipsync/anytalk.md @entities/lipsync/dynaforcing.md @sources/arxiv-2608-17707-dynaforcing.md
 @entities/lipsync/musetalk.md
 @entities/lipsync/wav2lip.md
