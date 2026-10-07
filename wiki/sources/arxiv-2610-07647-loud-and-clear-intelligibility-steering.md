@@ -27,7 +27,7 @@ wire_status: deferred
 
 - **Title**: Loud and Clear: Dynamic Activation Steering for Improving Speech Intelligibility in Noisy Environments
 - **Type**: arXiv:2610.07647 (KIT / KIT Campus Transfer + CMU; Seymanur Akti, Alexander Waibel)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.07647-loud-and-clear-dynamic-activation-steering-for-i.pdf (archived 2026-10-08)
 - **URL**: https://arxiv.org/abs/2610.07647
 - **Retrieved**: 2026-10-08
 

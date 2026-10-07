@@ -23,7 +23,7 @@ wire_status: deferred
 
 - **Title**: Local Content-Style Control for Diffusion-based Image Stylization
 - **Type**: arXiv:2610.08704 (Digital Masterpieces GmbH; Amir Semmo) — SIGGRAPH Asia 2026 Technical Communications, DOI 10.1145/3829339.3847814
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.08704-local-content-style-control-for-diffusion-based.pdf (archived 2026-10-08)
 - **URL**: https://arxiv.org/abs/2610.08704
 - **Retrieved**: 2026-10-08
 

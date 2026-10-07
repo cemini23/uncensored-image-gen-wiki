@@ -23,7 +23,7 @@ wire_status: deferred
 
 - **Title**: DepthWorld: 3D World Model for Robot Manipulation
 - **Type**: arXiv:2610.08780 (Czech Technical University in Prague; Jai Bardhan, Josef Sivic, Vladimir Petrik)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.08780-depthworld-3d-world-model-for-robot-manipulation.pdf (archived 2026-10-08)
 - **URL**: https://arxiv.org/abs/2610.08780
 - **Retrieved**: 2026-10-08
 

@@ -24,7 +24,7 @@ route_target: "@cybersecurity-wiki"
 
 - **Title**: Ariadne's Thread of LipSync: Unraveling Forgeries via Inconsistency between Lip Motions and Head Poses
 - **Type**: arXiv:2610.08417 (USTC + SJTU + PKU + NTU; Tianyi She et al.) — ICML 2026
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.08417-ariadne-s-thread-of-lipsync-unraveling-forgeries.pdf (archived 2026-10-08)
 - **URL**: https://arxiv.org/abs/2610.08417
 - **Retrieved**: 2026-10-08
 

@@ -24,7 +24,7 @@ wire_status: deferred
 
 - **Title**: Pronunciation-Oriented Reinforcement Learning for Japanese Text-to-Speech with Kana-Domain ASR Rewards
 - **Type**: arXiv:2610.07575 (SB Intuitions Corp., Tokyo; Shiao Zhu, Lianbo Liu et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.07575-pronunciation-oriented-reinforcement-learning-fo.pdf (archived 2026-10-08)
 - **URL**: https://arxiv.org/abs/2610.07575
 - **Retrieved**: 2026-10-08
 

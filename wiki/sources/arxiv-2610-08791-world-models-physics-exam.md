@@ -25,7 +25,7 @@ wire_status: deferred
 
 - **Title**: World Models' Last Exam in Physics
 - **Type**: arXiv:2610.08791 (Navers Lab / Einsia.AI + Peking University + Tsinghua; Mingju Gao et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.08791-world-models-last-exam-in-physics.pdf (archived 2026-10-08)
 - **URL**: https://arxiv.org/abs/2610.08791
 - **Retrieved**: 2026-10-08
 

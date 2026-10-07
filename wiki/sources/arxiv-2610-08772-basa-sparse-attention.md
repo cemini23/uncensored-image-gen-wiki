@@ -25,7 +25,7 @@ wire_status: deferred
 
 - **Title**: Backend-Agnostic Sparse Attention for Fast High-Resolution Visual Generation
 - **Type**: arXiv:2610.08772 (SJTU + Fudan + HKU; Liao Ma et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.08772-backend-agnostic-sparse-attention-for-fast-high.pdf (archived 2026-10-08)
 - **URL**: https://arxiv.org/abs/2610.08772
 - **Retrieved**: 2026-10-08
 
