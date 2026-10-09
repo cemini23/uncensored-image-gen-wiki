@@ -25,7 +25,7 @@ wire_status: deferred
 
 - **Title**: WorldCast: Distributed Multiplayer World Models
 - **Type**: arXiv:2610.12412 (CUHK-Shenzhen + SLAI + Tsinghua SIGS + Voyager Research (Didi) + USTC; Ziyang Ye et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.12412-worldcast-distributed-multiplayer-world-models.pdf (archived 2026-10-09)
 - **URL**: https://arxiv.org/abs/2610.12412
 - **Retrieved**: 2026-10-09
 

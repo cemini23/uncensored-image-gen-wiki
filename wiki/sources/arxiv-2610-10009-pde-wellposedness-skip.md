@@ -22,7 +22,7 @@ wire_status: wont_wire
 
 - **Title**: Well-posedness of Strong Solutions for a Thermodynamically Consistent Diffuse-Interface Model for Incompressible Two-Phase Flows with a Soluble Surfactant
 - **Type**: arXiv:2610.10009 (Politecnico di Milano + Fudan University; Maurizio Grasselli, Bohan Ouyang, Hao Wu) — 63 pages, math.AP
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.10009-well-posedness-of-strong-solutions-for-a-thermod.pdf (archived 2026-10-09)
 - **URL**: https://arxiv.org/abs/2610.10009
 - **Retrieved**: 2026-10-09
 

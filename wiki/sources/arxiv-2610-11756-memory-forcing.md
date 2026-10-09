@@ -26,7 +26,7 @@ wire_status: deferred
 
 - **Title**: Memory Forcing: Attendable Mid-Horizon History for Streaming Video Generation
 - **Type**: arXiv:2610.11756 (Nanjing University + Tsinghua + Kling Team, Kuaishou + Shanghai AI Lab; Jiaming Zhang, Xinyu Wang et al.) — ICLR 2027 submission
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.11756-memory-forcing-attendable-mid-horizon-history-fo.pdf (archived 2026-10-09)
 - **URL**: https://arxiv.org/abs/2610.11756
 - **Retrieved**: 2026-10-09
 

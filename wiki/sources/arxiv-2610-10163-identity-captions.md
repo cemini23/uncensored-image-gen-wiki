@@ -24,7 +24,7 @@ wire_status: deferred
 
 - **Title**: Beyond Anonymous Captions: Grounding Character Identity in Video Captioning and Question Answering
 - **Type**: arXiv:2610.10163 (Télécom SudParis / Institut Polytechnique de Paris + Moments Lab Research; Anas Filali Razzouki et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.10163-beyond-anonymous-captions-grounding-character-id.pdf (archived 2026-10-09)
 - **URL**: https://arxiv.org/abs/2610.10163
 - **Retrieved**: 2026-10-09
 

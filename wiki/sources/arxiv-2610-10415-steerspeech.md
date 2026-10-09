@@ -25,7 +25,7 @@ wire_status: deferred
 
 - **Title**: SteerSpeech: Activation Steering for Emotion Control in Generated Speech
 - **Type**: arXiv:2610.10415 (University of Virginia + Netflix; Afsara Benazir et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.10415-steerspeech-activation-steering-for-emotion-cont.pdf (archived 2026-10-09)
 - **URL**: https://arxiv.org/abs/2610.10415
 - **Retrieved**: 2026-10-09
 

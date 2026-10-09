@@ -26,7 +26,7 @@ wire_status: deferred
 
 - **Title**: SGF+: Decoupling Gradient Flows for Autoregressive Video Generation
 - **Type**: arXiv:2610.10429 (Tsinghua University + Joy Future Academy, JD + CUHK; Zihan Su, Junhao Zhuang et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.10429-sgf-decoupling-gradient-flows-for-autoregressive.pdf (archived 2026-10-09)
 - **URL**: https://arxiv.org/abs/2610.10429
 - **Retrieved**: 2026-10-09
 

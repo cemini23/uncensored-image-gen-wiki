@@ -23,7 +23,7 @@ wire_status: deferred
 
 - **Title**: CrossEdit: Cross-Modal Training Enables Rich Audio-Visual Editing
 - **Type**: arXiv:2610.10264 (Adobe Research + CMU; William Chen, Prem Seetharaman, Ke Chen, Oriol Nieto et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.10264-crossedit-cross-modal-training-enables-rich-audi.pdf (archived 2026-10-09)
 - **URL**: https://arxiv.org/abs/2610.10264
 - **Retrieved**: 2026-10-09
 

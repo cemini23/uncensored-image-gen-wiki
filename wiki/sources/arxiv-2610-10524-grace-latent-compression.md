@@ -24,7 +24,7 @@ wire_status: deferred
 
 - **Title**: GRACE: Generation-Aware Latent Compression for Efficient Video Generation
 - **Type**: arXiv:2610.10524 (KAIST AI + Kakao Corp; Jiyoung Kim et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.10524-grace-generation-aware-latent-compression-for-ef.pdf (archived 2026-10-09)
 - **URL**: https://arxiv.org/abs/2610.10524
 - **Retrieved**: 2026-10-09
 

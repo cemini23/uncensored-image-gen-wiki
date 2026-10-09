@@ -24,7 +24,7 @@ route_target: "@cybersecurity-wiki"
 
 - **Title**: How Private is Private? A Comparative Study for Face De-Identification
 - **Type**: arXiv:2610.10334 (ELLIS Institute Finland + University of Oulu; Hui Wei, Guoying Zhao) — NeurIPS 2026 Datasets & Evaluations
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.10334-how-private-is-private-a-comparative-study-for-f.pdf (archived 2026-10-09)
 - **URL**: https://arxiv.org/abs/2610.10334
 - **Retrieved**: 2026-10-09
 

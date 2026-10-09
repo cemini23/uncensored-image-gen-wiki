@@ -22,7 +22,7 @@ wire_status: wont_wire
 
 - **Title**: Reliability-Aware Future Conditioning for Temporally Robust Robot Manipulation
 - **Type**: arXiv:2610.11956 (University of Bremen + University of North Texas + Toyota Motor North America; Mohammad Khoshnazar et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.11956-reliability-aware-future-conditioning-for-tempor.pdf (archived 2026-10-09)
 - **URL**: https://arxiv.org/abs/2610.11956
 - **Retrieved**: 2026-10-09
 

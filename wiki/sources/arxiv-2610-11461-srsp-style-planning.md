@@ -24,7 +24,7 @@ wire_status: deferred
 
 - **Title**: Beyond Speech Captions: Speech-Rewarded Style Planning for Conversational Text-to-Speech
 - **Type**: arXiv:2610.11461 (Institute of Science Tokyo + others; Shiao Zhu et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.11461-beyond-speech-captions-speech-rewarded-style-pla.pdf (archived 2026-10-09)
 - **URL**: https://arxiv.org/abs/2610.11461
 - **Retrieved**: 2026-10-09
 

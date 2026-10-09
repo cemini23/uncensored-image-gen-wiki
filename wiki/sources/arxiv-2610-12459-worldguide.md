@@ -24,7 +24,7 @@ wire_status: deferred
 
 - **Title**: WorldGuide: Goal-Directed Video World Model for Procedural Task Execution
 - **Type**: arXiv:2610.12459 (MBZUAI; Ankan Deria, Komal Kumar, Hisham Cholakkal, Fahad Shahbaz Khan, Salman Khan)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.12459-worldguide-goal-directed-video-world-model-for-p.pdf (archived 2026-10-09)
 - **URL**: https://arxiv.org/abs/2610.12459
 - **Retrieved**: 2026-10-09
 

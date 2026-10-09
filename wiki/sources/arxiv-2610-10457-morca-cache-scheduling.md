@@ -24,7 +24,7 @@ wire_status: deferred
 
 - **Title**: MORCA: Offline-to-Online Reinforcement Learning for Adaptive Cache Reuse in Video Diffusion Acceleration
 - **Type**: arXiv:2610.10457 (Shanghai Jiao Tong University + Alibaba Cloud; Yuxiang Xiong, Ruiyan Wang, Wenqiang Wang et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.10457-morca-offline-to-online-reinforcement-learning-f.pdf (archived 2026-10-09)
 - **URL**: https://arxiv.org/abs/2610.10457
 - **Retrieved**: 2026-10-09
 

@@ -25,7 +25,7 @@ wire_status: deferred
 
 - **Title**: Edit Who Speaks, Control How They Speak: Global Timbre Editing and Local Instruction Control for TTS
 - **Type**: arXiv:2610.11437 (National University of Singapore + LIGHTSPEED + NTU; Junchuan Zhao et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.11437-edit-who-speaks-control-how-they-speak-global-ti.pdf (archived 2026-10-09)
 - **URL**: https://arxiv.org/abs/2610.11437
 - **Retrieved**: 2026-10-09
 

@@ -25,7 +25,7 @@ wire_status: deferred
 
 - **Title**: LEGO: A Lifting-Free Approach for Exocentric-to-Egocentric Video Generation
 - **Type**: arXiv:2610.12442 (GenGenAI; Suhwan Cho, Yonwoo Choi, Soongjin Kim et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.12442-lego-a-lifting-free-approach-for-exocentric-to-e.pdf (archived 2026-10-09)
 - **URL**: https://arxiv.org/abs/2610.12442
 - **Retrieved**: 2026-10-09
 

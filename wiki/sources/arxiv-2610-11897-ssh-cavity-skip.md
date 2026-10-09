@@ -22,7 +22,7 @@ wire_status: wont_wire
 
 - **Title**: Emergent SSH physics and localization in a cavity-atom system beyond the rotating-wave approximation
 - **Type**: arXiv:2610.11897 (Tianjin Normal University; H. Shen, J. Cao, R. Wang, X. Z. Zhang) — quant-ph
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.11897-emergent-ssh-physics-and-localization-in-a-cavit.pdf (archived 2026-10-09)
 - **URL**: https://arxiv.org/abs/2610.11897
 - **Retrieved**: 2026-10-09
 
