@@ -13,6 +13,7 @@ related:
   - sources/arxiv-2607-14088-videorae-vfm-representation-autoencoder.md
   - sources/arxiv-2608-13556-v-rae.md
   - sweeps/2026-07-16-daily.md
+  - sources/arxiv-2610-10524-grace-latent-compression.md
 maturity: draft
 created: 2026-06-24
 updated: 2026-08-14
@@ -20,7 +21,7 @@ updated: 2026-08-14
 
 ## Relations
 
-@sources/arxiv-2606-22959-vae-latent-sign-pose-diffusion.md @entities/models/ltx-2.md @entities/models/wan-2-2.md @entities/models/videorae.md @sources/arxiv-2607-14088-videorae-vfm-representation-autoencoder.md @sources/arxiv-2608-13556-v-rae.md
+@sources/arxiv-2606-22959-vae-latent-sign-pose-diffusion.md @entities/models/ltx-2.md @entities/models/wan-2-2.md @entities/models/videorae.md @sources/arxiv-2607-14088-videorae-vfm-representation-autoencoder.md @sources/arxiv-2608-13556-v-rae.md @sources/arxiv-2610-10524-grace-latent-compression.md
 
 ## Raw Concept
 

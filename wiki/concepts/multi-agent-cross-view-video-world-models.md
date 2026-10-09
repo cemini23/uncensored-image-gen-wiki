@@ -15,6 +15,7 @@ related:
   - concepts/llm-choreographed-multi-view-world-models.md
   - sources/arxiv-2606-18375-paiworld-3d-consistent-world-foundation.md
   - concepts/multi-view-3d-consistent-world-models.md
+  - sources/arxiv-2610-12412-worldcast.md
 maturity: draft
 created: 2026-06-11
 updated: 2026-06-22
@@ -22,7 +23,7 @@ updated: 2026-06-22
 
 ## Relations
 
-@sources/arxiv-2606-09507-prisma-world-multi-agent-video.md @entities/models/prisma-world.md @entities/models/metaworld.md @concepts/world-models-video-generation.md @concepts/camera-controlled-video-generation.md
+@sources/arxiv-2606-09507-prisma-world-multi-agent-video.md @entities/models/prisma-world.md @entities/models/metaworld.md @concepts/world-models-video-generation.md @concepts/camera-controlled-video-generation.md @sources/arxiv-2610-12412-worldcast.md
 
 ## Raw Concept
 

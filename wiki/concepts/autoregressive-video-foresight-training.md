@@ -29,6 +29,10 @@ related:
   - sweeps/2026-07-20-daily.md
   - sweeps/2026-07-23-daily.md
   - sources/arxiv-2610-03664-proar.md
+  - sources/arxiv-2610-10429-sgf-plus.md
+  - concepts/decoupled-gradient-flows-autoregressive-video.md
+  - sources/arxiv-2610-11756-memory-forcing.md
+  - concepts/mid-horizon-kv-memory-video.md
 maturity: draft
 created: 2026-06-04
 updated: 2026-07-23
@@ -36,7 +40,7 @@ updated: 2026-07-23
 
 ## Relations
 
-@sources/arxiv-2606-03971-video-mirai-autoregressive-foresight.md @concepts/grpo-i2v-post-training.md @concepts/persona-consistency-methods.md @concepts/video-identity-inheritance.md @sources/arxiv-2610-03664-proar.md
+@sources/arxiv-2606-03971-video-mirai-autoregressive-foresight.md @concepts/grpo-i2v-post-training.md @concepts/persona-consistency-methods.md @concepts/video-identity-inheritance.md @sources/arxiv-2610-03664-proar.md @sources/arxiv-2610-10429-sgf-plus.md @concepts/decoupled-gradient-flows-autoregressive-video.md @sources/arxiv-2610-11756-memory-forcing.md @concepts/mid-horizon-kv-memory-video.md
 
 ## Raw Concept
 

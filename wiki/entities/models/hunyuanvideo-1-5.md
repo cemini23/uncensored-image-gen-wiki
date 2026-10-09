@@ -59,6 +59,7 @@ related:
   - sources/arxiv-2608-13205-hpsd.md
   - concepts/mllm-dit-video-fusion.md
   - sources/arxiv-2608-14043-mllm-dit-video-fusion.md
+  - sources/arxiv-2610-12459-worldguide.md
 title: HunyuanVideo 1.5 (Tencent)
 type: entity
 tags: [model, video, dit, hunyuanvideo, tencent, eastern-vanguard, completely-uncensored-after-lora]

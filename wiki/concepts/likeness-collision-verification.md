@@ -17,6 +17,8 @@ related:
   - entities/benchmarks/persistent-identity-preservation.md
   - sources/arxiv-2609-04151-persistent-identity-preservation.md
   - sweeps/2026-09-11-daily.md
+  - sources/arxiv-2610-10163-identity-captions.md
+  - sources/arxiv-2610-10334-face-deid-routed.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-06-30
@@ -24,7 +26,7 @@ updated: 2026-06-30
 
 ## Relations
 
-@sources/synthetic-character-consistency-survey.md @entities/benchmarks/persistent-identity-preservation.md @sources/arxiv-2609-04151-persistent-identity-preservation.md @sweeps/2026-09-11-daily.md
+@sources/synthetic-character-consistency-survey.md @entities/benchmarks/persistent-identity-preservation.md @sources/arxiv-2609-04151-persistent-identity-preservation.md @sweeps/2026-09-11-daily.md @sources/arxiv-2610-10163-identity-captions.md @sources/arxiv-2610-10334-face-deid-routed.md
 @concepts/persona-consistency-methods.md
 @concepts/character-dna-templates.md
 @concepts/persona-failure-modes.md

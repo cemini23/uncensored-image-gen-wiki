@@ -10,6 +10,7 @@ related:
   - entities/models/wan-2-2.md
   - entities/models/cogvideox-1-5.md
   - sweeps/2026-07-04-daily.md
+  - sources/arxiv-2610-12442-lego-exo-to-ego.md
 maturity: draft
 created: 2026-07-04
 updated: 2026-07-04
@@ -17,7 +18,7 @@ updated: 2026-07-04
 
 ## Relations
 
-@sources/arxiv-2607-01869-qwerty-query-warped-video-motion-control.md @concepts/camera-controlled-video-generation.md @concepts/video-identity-inheritance.md @entities/models/wan-2-2.md @entities/models/cogvideox-1-5.md
+@sources/arxiv-2607-01869-qwerty-query-warped-video-motion-control.md @concepts/camera-controlled-video-generation.md @concepts/video-identity-inheritance.md @entities/models/wan-2-2.md @entities/models/cogvideox-1-5.md @sources/arxiv-2610-12442-lego-exo-to-ego.md
 
 ## Raw Concept
 

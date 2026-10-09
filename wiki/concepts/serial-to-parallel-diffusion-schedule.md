@@ -10,6 +10,8 @@ related:
   - concepts/one-step-autoregressive-video-distillation.md
   - sweeps/2026-10-06-daily.md
   - concepts/federated-daily-research-digest.md
+  - concepts/decoupled-gradient-flows-autoregressive-video.md
+  - sources/arxiv-2610-10429-sgf-plus.md
 maturity: draft
 created: 2026-10-07
 updated: 2026-10-07
@@ -17,7 +19,7 @@ updated: 2026-10-07
 
 ## Relations
 
-@sources/arxiv-2610-06847-s2pd.md @concepts/video-generation-physical-executability.md @entities/models/wan-2-2.md @concepts/one-step-autoregressive-video-distillation.md @sweeps/2026-10-06-daily.md @concepts/federated-daily-research-digest.md
+@sources/arxiv-2610-06847-s2pd.md @concepts/video-generation-physical-executability.md @entities/models/wan-2-2.md @concepts/one-step-autoregressive-video-distillation.md @sweeps/2026-10-06-daily.md @concepts/federated-daily-research-digest.md @concepts/decoupled-gradient-flows-autoregressive-video.md @sources/arxiv-2610-10429-sgf-plus.md
 
 ## Raw Concept
 

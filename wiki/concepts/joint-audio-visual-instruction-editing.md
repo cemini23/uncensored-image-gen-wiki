@@ -27,12 +27,13 @@ related:
   - sources/arxiv-2609-29816-av-grpo.md
   - sources/arxiv-2609-26015-videox-qwen.md
   - sweeps/2026-09-23-daily.md
+  - sources/arxiv-2610-10264-crossedit.md
 ---
 
 
 ## Relations
 
-@sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md @entities/models/javedit.md @concepts/sync-audio-video-customization.md @concepts/persona-audio-stack.md @concepts/mllm-video-translation.md @entities/models/ltx-2.md @entities/lipsync/latentsync.md @sources/arxiv-2606-03672-foley-omni.md @concepts/multi-shot-audio-video-evaluation.md @sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md @sources/arxiv-2606-08260-tide-unified-video-editing.md @concepts/task-isolated-unified-video-editing.md @entities/models/tide.md @entities/models/dreamx-creator.md @sources/arxiv-2608-31106-dreamx-creator.md @entities/models/videox-qwen.md @sources/arxiv-2609-26015-videox-qwen.md @sweeps/2026-09-23-daily.md
+@sources/arxiv-2606-03168-javedit-joint-audio-visual-editing.md @entities/models/javedit.md @concepts/sync-audio-video-customization.md @concepts/persona-audio-stack.md @concepts/mllm-video-translation.md @entities/models/ltx-2.md @entities/lipsync/latentsync.md @sources/arxiv-2606-03672-foley-omni.md @concepts/multi-shot-audio-video-evaluation.md @sources/arxiv-2605-20183-msavbench-multi-shot-audio-video.md @sources/arxiv-2606-08260-tide-unified-video-editing.md @concepts/task-isolated-unified-video-editing.md @entities/models/tide.md @entities/models/dreamx-creator.md @sources/arxiv-2608-31106-dreamx-creator.md @entities/models/videox-qwen.md @sources/arxiv-2609-26015-videox-qwen.md @sweeps/2026-09-23-daily.md @sources/arxiv-2610-10264-crossedit.md
 
 ## Raw Concept
 

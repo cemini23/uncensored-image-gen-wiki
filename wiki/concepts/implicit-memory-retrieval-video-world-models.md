@@ -10,6 +10,7 @@ related:
   - entities/models/mirage.md
   - entities/models/wan-2-2.md
   - concepts/lightweight-video-history-embeddings.md
+  - concepts/mid-horizon-kv-memory-video.md
 title: Implicit memory retrieval for video world models
 type: concept
 tags: [concept, world-model, video-generation, memory, camera-control]
@@ -22,7 +23,7 @@ updated: 2026-06-25
 
 ## Relations
 
-@sources/arxiv-2606-23105-car-implicit-memory-video-world.md @entities/models/car.md @concepts/world-models-video-generation.md @concepts/latent-spatial-memory-video-world-models.md
+@sources/arxiv-2606-23105-car-implicit-memory-video-world.md @entities/models/car.md @concepts/world-models-video-generation.md @concepts/latent-spatial-memory-video-world-models.md @concepts/mid-horizon-kv-memory-video.md
 
 ## Raw Concept
 

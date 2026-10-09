@@ -10,6 +10,7 @@ related:
   - concepts/persona-audio-stack.md
   - sweeps/2026-10-07-daily.md
   - concepts/federated-daily-research-digest.md
+  - sources/arxiv-2610-10415-steerspeech.md
 maturity: draft
 created: 2026-10-08
 updated: 2026-10-08
@@ -17,7 +18,7 @@ updated: 2026-10-08
 
 ## Relations
 
-@sources/arxiv-2610-07647-loud-and-clear-intelligibility-steering.md @concepts/emotional-activation-steering-tts.md @entities/voice-models/qwen3-tts.md @concepts/persona-audio-stack.md @sweeps/2026-10-07-daily.md @concepts/federated-daily-research-digest.md
+@sources/arxiv-2610-07647-loud-and-clear-intelligibility-steering.md @concepts/emotional-activation-steering-tts.md @entities/voice-models/qwen3-tts.md @concepts/persona-audio-stack.md @sweeps/2026-10-07-daily.md @concepts/federated-daily-research-digest.md @sources/arxiv-2610-10415-steerspeech.md
 
 ## Raw Concept
 

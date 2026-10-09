@@ -19,6 +19,8 @@ related:
   - sources/arxiv-2606-23105-car-implicit-memory-video-world.md
   - concepts/ucm-time-aware-pe-warping-world-models.md
   - sources/arxiv-2602-22960-ucm-camera-control-memory-world-models.md
+  - concepts/mid-horizon-kv-memory-video.md
+  - sources/arxiv-2610-11756-memory-forcing.md
 title: Latent spatial memory for video world models
 type: concept
 tags: [concept, world-model, video-generation, spatial-memory, 3d-consistency]
@@ -30,7 +32,7 @@ updated: 2026-07-02
 
 ## Relations
 
-@sources/arxiv-2606-09828-mirage-latent-spatial-memory.md @entities/models/mirage.md @concepts/world-models-video-generation.md @entities/models/decmem.md @entities/models/sana-wm.md
+@sources/arxiv-2606-09828-mirage-latent-spatial-memory.md @entities/models/mirage.md @concepts/world-models-video-generation.md @entities/models/decmem.md @entities/models/sana-wm.md @concepts/mid-horizon-kv-memory-video.md @sources/arxiv-2610-11756-memory-forcing.md
 
 ## Raw Concept
 
