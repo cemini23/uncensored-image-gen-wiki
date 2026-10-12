@@ -24,7 +24,7 @@ wire_status: deferred
 
 - **Title**: E3-System: Expressive EmoData, Explicitly Controllable, Easy-to-Use TTS
 - **Type**: arXiv:2610.12993 (Harvard University + Baidu + CUHK-Shenzhen; Yiqiao Huang, Xiaolong Lin et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.12993-e3-system-expressive-emodata-explicitly-controll.pdf (archived 2026-10-12)
 - **URL**: https://arxiv.org/abs/2610.12993
 - **Retrieved**: 2026-10-12
 

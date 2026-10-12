@@ -26,7 +26,7 @@ wire_status: deferred
 
 - **Title**: Images Talk Back: Guiding MMDiTs by Suppressing Image-to-Text Feedback
 - **Type**: arXiv:2610.13941 (Stanford University + Tsinghua University; Yucheng Yang, Serena Yeung-Levy)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.13941-images-talk-back-guiding-mmdits-by-suppressing-i.pdf (archived 2026-10-12)
 - **URL**: https://arxiv.org/abs/2610.13941
 - **Retrieved**: 2026-10-12
 

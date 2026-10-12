@@ -22,7 +22,7 @@ wire_status: wont_wire
 
 - **Title**: Control-Ready Uncertainty for Trajectory Diffusion
 - **Type**: arXiv:2610.12431 (National University of Singapore + LAAS-CNRS; Zhiwei Xue et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.12431-control-ready-uncertainty-for-trajectory-diffusi.pdf (archived 2026-10-12)
 - **URL**: https://arxiv.org/abs/2610.12431
 - **Retrieved**: 2026-10-12
 

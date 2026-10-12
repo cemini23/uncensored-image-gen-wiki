@@ -25,7 +25,7 @@ wire_status: deferred
 
 - **Title**: Emo-BPO: Emotion Bidirectional Preference Optimization for Diffusion-based Emotional TTS
 - **Type**: arXiv:2610.12958 (College of William & Mary + Emory + George Mason; Jiacheng Shi et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.12958-emo-bpo-emotion-bidirectional-preference-optimiz.pdf (archived 2026-10-12)
 - **URL**: https://arxiv.org/abs/2610.12958
 - **Retrieved**: 2026-10-12
 

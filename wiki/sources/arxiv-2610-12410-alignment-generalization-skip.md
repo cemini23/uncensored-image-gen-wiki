@@ -22,7 +22,7 @@ wire_status: wont_wire
 
 - **Title**: Predicting Alignment Generalization with Value Representations
 - **Type**: arXiv:2610.12410 (Carnegie Mellon University + Mila/McGill + ETH Zurich + UBC + Vector Institute; Andy Liu et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.12410-predicting-alignment-generalization-with-value-r.pdf (archived 2026-10-12)
 - **URL**: https://arxiv.org/abs/2610.12410
 - **Retrieved**: 2026-10-12
 

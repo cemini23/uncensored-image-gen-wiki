@@ -22,7 +22,7 @@ wire_status: wont_wire
 
 - **Title**: Statistical inference for rough Burgers-type stochastic partial differential equations
 - **Type**: arXiv:2610.13673 (Universidade Estadual de Campinas + Universite de Lille; Simon Chony Acosta, Christian Olivera, Ciprian Tudor)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.13673-statistical-inference-for-rough-burgers-type-sto.pdf (archived 2026-10-12)
 - **URL**: https://arxiv.org/abs/2610.13673
 - **Retrieved**: 2026-10-12
 

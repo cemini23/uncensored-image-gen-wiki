@@ -23,7 +23,7 @@ wire_status: wont_wire
 
 - **Title**: Enhancing Speech Recognition through Text-to-Speech and Voice Conversion Augmentation
 - **Type**: arXiv:2610.13662 (Sestek, Istanbul; Yunus Emre Ozkose, Ali Haznedaroglu)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.13662-enhancing-speech-recognition-through-text-to-spe.pdf (archived 2026-10-12)
 - **URL**: https://arxiv.org/abs/2610.13662
 - **Retrieved**: 2026-10-12
 

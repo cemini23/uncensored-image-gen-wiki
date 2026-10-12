@@ -25,7 +25,7 @@ wire_status: deferred
 
 - **Title**: KVeil: First-Place Solution to ECCV 2026 LifeGenIP Challenge on Unlearnable Videos
 - **Type**: arXiv:2610.13733 (Nanyang Technological University; Boheng Li, Yiming Li)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.13733-kveil-first-place-solution-to-eccv-2026-lifegeni.pdf (archived 2026-10-12)
 - **URL**: https://arxiv.org/abs/2610.13733
 - **Retrieved**: 2026-10-12
 

@@ -22,7 +22,7 @@ wire_status: wont_wire
 
 - **Title**: Beyond Successful Robot Demonstrations: Learning from Human Interactions and Modeling Failure Dynamics
 - **Type**: arXiv:2610.13522 (Zhejiang University + USTC + IA-CAS; Peiyan Tu et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.13522-beyond-successful-robot-demonstrations-learning.pdf (archived 2026-10-12)
 - **URL**: https://arxiv.org/abs/2610.13522
 - **Retrieved**: 2026-10-12
 

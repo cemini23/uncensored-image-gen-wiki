@@ -22,7 +22,7 @@ wire_status: wont_wire
 
 - **Title**: Predicting Nanofabrication Variance: A Conditional Diffusion Model
 - **Type**: arXiv:2610.13420 (University of Southampton; Wenhan Zhang et al.)
-- **Location**: `research to be indexed/` — pending egress archive
+- **Location**: cemini-egress-fi:/opt/cemini-bulk/research/image-gen/arxiv-2610.13420-predicting-nanofabrication-variance-a-conditiona.pdf (archived 2026-10-12)
 - **URL**: https://arxiv.org/abs/2610.13420
 - **Retrieved**: 2026-10-12
 
