@@ -1,3 +1,37 @@
+## [2026-10-12] ingest | SFG · KVeil · Emo-BPO · E3-System (+ 6 SKIP) + incoming K288 gesture brief
+
+Full inbox ingest of **10 NEW** arXiv PDFs (2026-10-10 → 10-12 sweeps). **1 WATCH-full**, **3 WATCH-thin**, **6 SKIP**. Also closed **one incoming cross-wiki brief** from OSINT (K288, co-speech gesture benchmark) and consolidated a recurring theme into a new concept page.
+
+### Inbox (2610.* batch)
+
+- **NEW** `@sources/arxiv-2610-13941-sfg-semantic-feedback-guidance.md` + `@concepts/image-to-text-feedback-guidance.md` — in an MMDiT the image stream writes back into the text stream, and that **image-to-text feedback preserves what is already in the image, including its errors**. Suppressing it (Semantic Feedback Guidance) raises FLUX GenEval 0.6661 to **0.7479**, and the **iSFG variant costs zero extra NFE** at ~3% wall-time — an unusually cheap inference-time intervention. Transfers to HunyuanVideo T2V and I2V. **Code ships but there is no LICENSE file and no ComfyUI node.** Grounds two MMDiT-internals pages the wiki already keeps. **WATCH-full.**
+- **NEW** `@sources/arxiv-2610-13733-kveil-unlearnable-videos.md` — **defensive**: imperceptible perturbations stop reference-based I2V and video-LoRA from reproducing an identity; WAN2.2 face score 16.79 to **82.66**. First place in both phases of the ECCV 2026 LifeGenIP challenge. **Apache-2.0 code.** It is the **video analogue of the tracked CAP anti-personalization entry** (`@sources/arxiv-privacy-cross-image-anti-personalization-2504-12747.md`). **Routing note: it stays in image-gen, not cybersec** — the perturbation targets the *generator*, not a classifier, so it is not detection-evasion. **WATCH-thin.**
+- **NEW** `@sources/arxiv-2610-12958-emo-bpo.md` — a name that overpromises: "preference optimization" but **not RL** and not DPO. Two contrastive score branches in a **Grad-TTS diffusion** model, combined as guidance. Genuinely new as a mechanism — it shapes the denoising score field rather than an activation vector, and models the emotion-*contrastive* direction the three tracked steering entries only approximate. Nothing released. **WATCH-thin.**
+- **NEW** `@sources/arxiv-2610-12993-e3-system.md` — **the skeptical finding is the headline**: EmoData (1,012 hours, six languages, 5,681 speakers) is **described at length but not released**, with no URL, no licence and no stated terms. A genuinely open thousand-hour emotion dataset would be a real asset; this paper does not demonstrate one. **Do not create a dataset page from it.** The Style-RAG and timbre/style-disentanglement ideas are worth keeping. **WATCH-thin.**
+- **SKIP** `@sources/arxiv-2610-12410-alignment-generalization-skip.md` — "alignment" is **LLM behavioural alignment**; zero vision content.
+- **SKIP** `@sources/arxiv-2610-13673-rough-burgers-skip.md` — pure SPDE/probability theory; no data, code or ML.
+- **SKIP** `@sources/arxiv-2610-12431-trajectory-diffusion-skip.md` — robotics; the diffusion model is not the contribution.
+- **SKIP** `@sources/arxiv-2610-13420-nanofab-variance-skip.md` — a real conditional DDPM, but domain-locked to semiconductor process variability.
+- **SKIP** `@sources/arxiv-2610-13662-asr-tts-augmentation-skip.md` — **"uses TTS" is not "is about TTS"**; the deliverable is an ASR WER delta.
+- **SKIP** `@sources/arxiv-2610-13522-robot-failure-dynamics-skip.md` — Cosmos 3 world model, but robotics end to end with gated weights.
+
+### Incoming brief closed (1)
+
+- **NEW** `@sources/arxiv-2610-11669-gesture-benchmark.md` + `@concepts/metric-validity-vs-human-judgement.md` ← `briefs/2026-10-10_k288-gesture-eval.md` (OSINT K288). A co-speech gesture benchmark whose central finding is that **a standard metric (SC) correlates with nothing humans notice** across 101 participants, while semantic scoring and composite predictors do work. Landed in the OSINT inbox and routed here as the video/avatar lane; the PDF did not reach this inbox, so the page is written from the brief.
+
+**Why that brief produced a concept page rather than just a source page.** This is now the **third** independent instance of the same finding in this wiki — after the TTS signal-cleanliness metrics that ranked synthetic audio *above* the real gold recording (`@concepts/tts-objective-eval-metric-panel.md`) and ASR-roundtrip screening masking reading errors (`@concepts/asr-roundtrip-tts-eval-limits.md`). Three subfields, one pattern, discovered independently. `@concepts/metric-validity-vs-human-judgement.md` consolidates them with the practical test: **build a known-best control before trusting any metric**, and prefer the metric that survives it.
+
+### Housekeeping
+
+- **Updated** `sweeps/2026-10-10-daily.md`, `2026-10-11-daily.md` and `2026-10-12-daily.md` — frontmatter added to all three (they were missing it; cleared 3 hard lint errors carried into the session). Chain 10-09 → 10-10 → 10-11 → 10-12 backlinked. The 10-10 and 10-11 sweeps fetched no papers of their own.
+- **Naming collision recorded** — **SFG (Semantic Feedback Guidance)** is *not* **SGF+ (Self Gradient Forcing Plus, arXiv:2610.10429)**, already in the wiki. Reversed letters, different papers, different modalities. Both pages now carry the warning.
+- **Updated** — bidirectional backlinks across `concepts/federated-daily-research-digest.md`, `concepts/contextual-token-interpretability.md`, `concepts/mllm-dit-video-fusion.md`, `entities/models/flux-1-dev.md`, `sources/arxiv-privacy-cross-image-anti-personalization-2504-12747.md`, `entities/models/wan-2-2.md`, `concepts/likeness-collision-verification.md`, `concepts/emotional-activation-steering-tts.md`, `concepts/prompt-relative-activation-steering.md`, `concepts/persona-audio-stack.md`, `entities/voice-models/cosyvoice2.md`, `concepts/tts-objective-eval-metric-panel.md`, `concepts/asr-roundtrip-tts-eval-limits.md`, `concepts/reconstruction-based-t2v-benchmarking.md`, `sources/arxiv-2610-10415-steerspeech.md`.
+- **Updated** `index.md` — 13 rows.
+- **Archived** all 10 PDFs to `cemini-egress-fi:/opt/cemini-bulk/research/image-gen/` (verified by exact size, local copies removed); inbox empty.
+- **Lint** 0 hard errors.
+- **Phase-1** — none. `phase1-wire` hard-stops Image-gen local wires; no ADOPT/GO item needed a wire on CCC, OSINT, TipDrop, Atto, GuruWatcher, Basgiath, poker, Cybersec, Game-dev, Gambling, SEO or CemiSuite.
+- **Task routing** — external executors remain sandbox-blocked (grok cannot write its hooks registry), so the digest work ran on in-process subagents. Same limitation as every session since 2026-09-30.
+
 ## [2026-10-09] ingest | SGF+ · Memory Forcing · MORCA · GRACE (+ 8 WATCH-thin / 1 ROUTE / 3 SKIP)
 
 Full inbox ingest of **16 NEW** arXiv PDFs — a double batch spanning the 2026-10-08 and 2026-10-09 sweeps (the 10-09 sweep re-listed the 10-08 files still pending). **4 WATCH-full**, **8 WATCH-thin**, **1 ROUTE-cybersec**, **3 SKIP**. Routed one paper to cybersec and recorded a fourth Basgiath metric hook. **No incoming briefs pending** — the cross-wiki backlog was checked and is clear.

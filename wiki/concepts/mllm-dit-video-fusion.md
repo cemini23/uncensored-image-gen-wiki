@@ -13,6 +13,8 @@ related:
   - entities/models/agentic-i2v.md
   - concepts/contextual-token-interpretability.md
   - sources/arxiv-2610-06844-contextual-reader-dit.md
+  - concepts/image-to-text-feedback-guidance.md
+  - sources/arxiv-2610-13941-sfg-semantic-feedback-guidance.md
 maturity: draft
 created: 2026-08-17
 updated: 2026-08-18
@@ -20,7 +22,7 @@ updated: 2026-08-18
 
 ## Relations
 
-@sources/arxiv-2608-14043-mllm-dit-video-fusion.md @concepts/llm-as-image-conditioning.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @concepts/mllm-mid-generation-video-correction.md @sources/arxiv-2608-16513-mllm-semantic-correction-t2v.md @entities/models/agentic-i2v.md @concepts/contextual-token-interpretability.md @sources/arxiv-2610-06844-contextual-reader-dit.md
+@sources/arxiv-2608-14043-mllm-dit-video-fusion.md @concepts/llm-as-image-conditioning.md @entities/models/wan-2-2.md @entities/models/hunyuanvideo-1-5.md @concepts/mllm-mid-generation-video-correction.md @sources/arxiv-2608-16513-mllm-semantic-correction-t2v.md @entities/models/agentic-i2v.md @concepts/contextual-token-interpretability.md @sources/arxiv-2610-06844-contextual-reader-dit.md @concepts/image-to-text-feedback-guidance.md @sources/arxiv-2610-13941-sfg-semantic-feedback-guidance.md
 
 ## Raw Concept
 

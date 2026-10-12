@@ -13,6 +13,7 @@ related:
   - entities/models/wan-2-2.md
   - entities/models/hunyuanvideo-1-5.md
   - entities/models/ltx-2.md
+  - concepts/metric-validity-vs-human-judgement.md
 maturity: draft
 created: 2026-06-24
 updated: 2026-06-24
@@ -20,7 +21,7 @@ updated: 2026-06-24
 
 ## Relations
 
-@sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md @entities/benchmarks/geot2v-bench.md @concepts/multi-view-3d-consistent-world-models.md
+@sources/arxiv-2606-24829-geot2v-bench-3d-consistency.md @entities/benchmarks/geot2v-bench.md @concepts/multi-view-3d-consistent-world-models.md @concepts/metric-validity-vs-human-judgement.md
 
 ## Raw Concept
 

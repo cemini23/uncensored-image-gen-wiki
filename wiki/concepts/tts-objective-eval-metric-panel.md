@@ -10,6 +10,8 @@ related:
   - concepts/persona-audio-stack.md
   - concepts/federated-daily-research-digest.md
   - sweeps/2026-10-06-daily.md
+  - concepts/metric-validity-vs-human-judgement.md
+  - sources/arxiv-2610-11669-gesture-benchmark.md
 maturity: draft
 created: 2026-10-07
 updated: 2026-10-07
@@ -17,7 +19,7 @@ updated: 2026-10-07
 
 ## Relations
 
-@sources/arxiv-2610-06057-turkish-tts-eval.md @concepts/asr-roundtrip-tts-eval-limits.md @concepts/best-of-k-speaker-verified-tts.md @concepts/persona-audio-stack.md @concepts/federated-daily-research-digest.md @sweeps/2026-10-06-daily.md
+@sources/arxiv-2610-06057-turkish-tts-eval.md @concepts/asr-roundtrip-tts-eval-limits.md @concepts/best-of-k-speaker-verified-tts.md @concepts/persona-audio-stack.md @concepts/federated-daily-research-digest.md @sweeps/2026-10-06-daily.md @concepts/metric-validity-vs-human-judgement.md @sources/arxiv-2610-11669-gesture-benchmark.md
 
 ## Raw Concept
 

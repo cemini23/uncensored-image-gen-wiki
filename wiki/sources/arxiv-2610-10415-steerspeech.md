@@ -9,6 +9,7 @@ related:
   - concepts/emotional-activation-steering-tts.md
   - concepts/prompt-relative-activation-steering.md
   - entities/voice-models/qwen3-tts.md
+  - sources/arxiv-2610-12958-emo-bpo.md
 maturity: draft
 read_status: skimmed
 created: 2026-10-09
@@ -19,7 +20,7 @@ wire_status: deferred
 
 ## Relations
 
-@concepts/federated-daily-research-digest.md @sweeps/2026-10-08-daily.md @concepts/emotional-activation-steering-tts.md @concepts/prompt-relative-activation-steering.md @entities/voice-models/qwen3-tts.md
+@concepts/federated-daily-research-digest.md @sweeps/2026-10-08-daily.md @concepts/emotional-activation-steering-tts.md @concepts/prompt-relative-activation-steering.md @entities/voice-models/qwen3-tts.md @sources/arxiv-2610-12958-emo-bpo.md
 
 ## Raw Concept
 

@@ -60,6 +60,7 @@ related:
   - sources/arxiv-2607-19344-appearance-pointers.md
   - entities/models/appearance-pointers.md
   - concepts/dit-template-token-semantic-registers.md
+  - sources/arxiv-2610-13941-sfg-semantic-feedback-guidance.md
 maturity: validated
 created: 2026-05-06
 updated: 2026-07-22
@@ -67,7 +68,7 @@ updated: 2026-07-22
 
 ## Relations
 
-@sources/uncensored-image-generation-survey.md
+@sources/uncensored-image-generation-survey.md @sources/arxiv-2610-13941-sfg-semantic-feedback-guidance.md
 @sources/synthetic-character-consistency-survey.md
 @concepts/censorship-tier-taxonomy.md
 @concepts/lora-taxonomy.md

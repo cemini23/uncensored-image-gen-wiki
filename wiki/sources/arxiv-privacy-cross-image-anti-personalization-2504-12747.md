@@ -9,6 +9,7 @@ related:
   - concepts/persona-consistency-methods.md
   - concepts/persona-failure-modes.md
   - sources/arxiv-2608-10870-nulledit-routed.md
+  - sources/arxiv-2610-13733-kveil-unlearnable-videos.md
 maturity: draft
 read_status: read
 created: 2026-06-01
@@ -16,7 +17,7 @@ updated: 2026-06-01
 ---
 ## Relations
 
-@concepts/anti-personalization-privacy.md @concepts/likeness-collision-verification.md @concepts/persona-consistency-methods.md @concepts/persona-failure-modes.md @sources/arxiv-2608-10870-nulledit-routed.md
+@concepts/anti-personalization-privacy.md @concepts/likeness-collision-verification.md @concepts/persona-consistency-methods.md @concepts/persona-failure-modes.md @sources/arxiv-2608-10870-nulledit-routed.md @sources/arxiv-2610-13733-kveil-unlearnable-videos.md
 
 ## Raw Concept
 

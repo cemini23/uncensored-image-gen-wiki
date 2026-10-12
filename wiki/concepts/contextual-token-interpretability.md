@@ -8,6 +8,8 @@ related:
   - concepts/mllm-dit-video-fusion.md
   - sweeps/2026-10-06-daily.md
   - concepts/federated-daily-research-digest.md
+  - concepts/image-to-text-feedback-guidance.md
+  - sources/arxiv-2610-13941-sfg-semantic-feedback-guidance.md
 maturity: draft
 created: 2026-10-07
 updated: 2026-10-07
@@ -15,7 +17,7 @@ updated: 2026-10-07
 
 ## Relations
 
-@sources/arxiv-2610-06844-contextual-reader-dit.md @concepts/mllm-dit-video-fusion.md @sweeps/2026-10-06-daily.md @concepts/federated-daily-research-digest.md
+@sources/arxiv-2610-06844-contextual-reader-dit.md @concepts/mllm-dit-video-fusion.md @sweeps/2026-10-06-daily.md @concepts/federated-daily-research-digest.md @concepts/image-to-text-feedback-guidance.md @sources/arxiv-2610-13941-sfg-semantic-feedback-guidance.md
 
 ## Raw Concept
 

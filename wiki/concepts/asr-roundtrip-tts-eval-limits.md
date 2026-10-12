@@ -11,6 +11,9 @@ related:
   - sources/arxiv-2610-06057-turkish-tts-eval.md
   - concepts/tts-objective-eval-metric-panel.md
   - sources/arxiv-2610-07575-pronunciation-rl-japanese-tts.md
+  - concepts/metric-validity-vs-human-judgement.md
+  - sources/arxiv-2610-13662-asr-tts-augmentation-skip.md
+  - sources/arxiv-2610-11669-gesture-benchmark.md
 maturity: draft
 created: 2026-08-13
 updated: 2026-08-13
@@ -18,7 +21,7 @@ updated: 2026-08-13
 
 ## Relations
 
-@sources/arxiv-2608-10606-asr-roundtrip-tts-eval.md @concepts/persona-audio-stack.md @entities/voice-models/cosyvoice2.md @sweeps/2026-08-13-daily.md @sources/arxiv-2610-06057-turkish-tts-eval.md @concepts/tts-objective-eval-metric-panel.md @sources/arxiv-2610-07575-pronunciation-rl-japanese-tts.md
+@sources/arxiv-2608-10606-asr-roundtrip-tts-eval.md @concepts/persona-audio-stack.md @entities/voice-models/cosyvoice2.md @sweeps/2026-08-13-daily.md @sources/arxiv-2610-06057-turkish-tts-eval.md @concepts/tts-objective-eval-metric-panel.md @sources/arxiv-2610-07575-pronunciation-rl-japanese-tts.md @concepts/metric-validity-vs-human-judgement.md @sources/arxiv-2610-13662-asr-tts-augmentation-skip.md @sources/arxiv-2610-11669-gesture-benchmark.md
 
 ## Raw Concept
 
